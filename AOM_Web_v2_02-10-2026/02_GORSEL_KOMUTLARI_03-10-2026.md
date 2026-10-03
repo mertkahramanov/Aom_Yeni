@@ -1,6 +1,6 @@
 # AOM Web Sitesi v2 – Slider görsel üretim komutları (03-10-2026)
 
-Ana sayfa slider'ı için 8 görsel. Komutlar İngilizce, çünkü görsel araçları İngilizce komutla daha tutarlı sonuç veriyor. Her komutun başına **ortak stil bloğunu** ekleyin; görseller böylece aynı ışık, renk ve kamera dilinde çıkar.
+Ana sayfa slider'ı için 12 görsel. Komutlar İngilizce, çünkü görsel araçları İngilizce komutla daha tutarlı sonuç veriyor. Her komutun başına **ortak stil bloğunu** ekleyin; görseller böylece aynı ışık, renk ve kamera dilinde çıkar.
 
 ## Nasıl kullanılır
 
@@ -98,6 +98,36 @@ Photorealistic industrial product photograph in the same clean, modern machine-b
 
 ```
 Photorealistic industrial product photograph of a production control room attached to the same clean, modern machine-building workshop: a large glass wall overlooks the workshop floor, where machines with off-white bodies and deep red (#8E1B20) guards are softly blurred. Soft daylight plus neutral LED lighting, light grey walls, anthracite (#1E1F22) desk. Full-frame camera, 35 mm lens, three-quarter view, slightly above eye level. Subject: a large wall-mounted display shows an abstract plant overview, a clean process flow diagram with simple machine icons, connecting lines, red and green status blocks and trend charts, with absolutely no readable text. In front, an operator desk with three monitors showing abstract red and grey dashboards and a small keyboard. One operator seen from behind in a dark work jacket. Calm, organised, professional, high-end catalogue look, 16:9 landscape. Avoid: text, letters, numbers, logos, brand names, watermarks, captions, grey bar at the bottom, borders, readable text on screens, cartoon or CGI plastic look, neon, hologram, oversaturated colours, warped geometry, sci-fi.
+```
+
+---
+
+## Medikal cihazlar slaytı kutuları (küçük görseller)
+
+Otomasyon kutularıyla aynı ölçü: **16:9 yatay** üretin (ör. 1920×1080), ana konuyu ortada tutun. Ortam atölye değil, temiz laboratuvar; renk dili ve kamera ana slaytlarla aynı. Stil ve yasaklar her komutun içinde; Gemini'ye tek parça yapıştırılabilir (03-10-2026).
+
+### 9. Laboratuvar Cihazları
+
+```
+Photorealistic product photograph in a clean, modern laboratory: soft, even daylight from large windows plus neutral white LED panel lighting, no harsh shadows. Light grey seamless epoxy floor, white and light grey walls, white laboratory benches with grey worktops, background softly out of focus. Full-frame camera, 35 mm lens, three-quarter view, slightly above eye level, sharp focus on the device. Colour palette: device bodies in off-white RAL 9016, accents and trims in deep industrial red (#8E1B20), bases and frames in dark anthracite (#1E1F22), brushed stainless steel and clear glass details. Calm, hygienic, professional, high-end catalogue look, 16:9 landscape. Subject: a row of laboratory equipment on a white lab bench: a benchtop laboratory incubator and a drying oven with off-white bodies, stainless steel interior visible through a glass inner door, slim red trim on the door frames, and small text-free digital control panels; beside them a compact centrifuge with a closed lid and a magnetic stirrer with a glass beaker of clear liquid. Everything neatly aligned, tidy power cables. Focus on the incubator in the centre. Avoid: text, letters, numbers, logos, brand names, watermarks, captions, labels, grey bar at the bottom, borders, readable text on screens, people's faces, cartoon or CGI plastic look, oversaturated colours, neon, hologram, warped geometry, floating parts, messy cables, dirty or cluttered lab, hospital patients, blood, sci-fi.
+```
+
+### 10. Gaz Jeneratörleri (oksijen ve azot)
+
+```
+Photorealistic product photograph in a clean, modern laboratory: soft, even daylight from large windows plus neutral white LED panel lighting, no harsh shadows. Light grey seamless epoxy floor, white and light grey walls, white laboratory benches with grey worktops, background softly out of focus. Full-frame camera, 35 mm lens, three-quarter view, slightly above eye level, sharp focus on the device. Colour palette: device bodies in off-white RAL 9016, accents and trims in deep industrial red (#8E1B20), bases and frames in dark anthracite (#1E1F22), brushed stainless steel and clear glass details. Calm, hygienic, professional, high-end catalogue look, 16:9 landscape. Subject: an industrial PSA oxygen and nitrogen generator system in a clean technical room next to a laboratory: an off-white cabinet-type generator with red accent panels and an anthracite base, with two tall brushed-stainless adsorption columns beside it, a vertical stainless steel buffer tank, neat stainless and copper gas piping with pressure gauges whose dials have no readable numbers, ball valves, and a text-free touchscreen on the generator cabinet showing simple abstract red and grey bars. A green status light glows on the cabinet. Tidy pipe routing, clean floor. Avoid: text, letters, numbers, logos, brand names, watermarks, captions, labels, grey bar at the bottom, borders, readable text on screens, people's faces, cartoon or CGI plastic look, oversaturated colours, neon, hologram, warped geometry, floating parts, messy cables, dirty or cluttered lab, hospital patients, blood, sci-fi.
+```
+
+### 11. Sterilizasyon Kabinleri
+
+```
+Photorealistic product photograph in a clean, modern laboratory: soft, even daylight from large windows plus neutral white LED panel lighting, no harsh shadows. Light grey seamless epoxy floor, white and light grey walls, white laboratory benches with grey worktops, background softly out of focus. Full-frame camera, 35 mm lens, three-quarter view, slightly above eye level, sharp focus on the device. Colour palette: device bodies in off-white RAL 9016, accents and trims in deep industrial red (#8E1B20), bases and frames in dark anthracite (#1E1F22), brushed stainless steel and clear glass details. Calm, hygienic, professional, high-end catalogue look, 16:9 landscape. Subject: a large front-loading laboratory and medical steam sterilizer (autoclave) built into a clean white wall: brushed stainless steel square chamber door slightly open showing an empty stainless chamber with a loading rack and wire baskets of wrapped instrument trays on a stainless loading trolley in front, the surrounding cabinet in off-white with a deep red (#8E1B20) trim line, an anthracite plinth, and a text-free touchscreen control panel beside the door showing an abstract red cycle progress ring. A soft hint of steam near the chamber opening. Clean, hygienic sterile-processing room. Avoid: text, letters, numbers, logos, brand names, watermarks, captions, labels, grey bar at the bottom, borders, readable text on screens, people's faces, cartoon or CGI plastic look, oversaturated colours, neon, hologram, warped geometry, floating parts, messy cables, dirty or cluttered lab, hospital patients, blood, sci-fi.
+```
+
+### 12. Biyogüvenlik Kabinleri (çeker ocak ve biyogüvenlik)
+
+```
+Photorealistic product photograph in a clean, modern laboratory: soft, even daylight from large windows plus neutral white LED panel lighting, no harsh shadows. Light grey seamless epoxy floor, white and light grey walls, white laboratory benches with grey worktops, background softly out of focus. Full-frame camera, 35 mm lens, three-quarter view, slightly above eye level, sharp focus on the device. Colour palette: device bodies in off-white RAL 9016, accents and trims in deep industrial red (#8E1B20), bases and frames in dark anthracite (#1E1F22), brushed stainless steel and clear glass details. Calm, hygienic, professional, high-end catalogue look, 16:9 landscape. Subject: a Class II microbiological safety cabinet (biosafety cabinet) in a clean laboratory: off-white steel body, a deep red (#8E1B20) trim strip along the top filter housing, anthracite stand on levelling feet, a sloped clear glass front sash raised to working height, a brushed stainless steel work surface inside with a few sterile sample tubes in a rack, soft white interior light, and a small text-free control panel above the sash. To its right, partially in frame and slightly out of focus, a chemical fume hood with an off-white body, vertical glass sash and an exhaust duct going up into the ceiling. No people. Avoid: text, letters, numbers, logos, brand names, watermarks, captions, labels, grey bar at the bottom, borders, readable text on screens, people's faces, cartoon or CGI plastic look, oversaturated colours, neon, hologram, warped geometry, floating parts, messy cables, dirty or cluttered lab, hospital patients, blood, sci-fi.
 ```
 
 ---

@@ -1,0 +1,9154 @@
+{
+"SR1-1450R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1475R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1440R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1425R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1430R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1415R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1420R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1410R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4450": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4475": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4430": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4440": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4425": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4415": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1475": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4410": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1450": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1430": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1440": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1425": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1415": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1410": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4275": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4240": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4250": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4225": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4210": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-4215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1275": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1240": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1250": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1225": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SR1-1210": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 80 g (≈ 120 g)"
+]
+]
+},
+"SRC1-1420R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-4420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-1420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-4230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-4220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-1230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-4215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-1220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRC1-1215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 70 g (≈ 130 g)"
+]
+]
+},
+"SRH1-A430": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş akımı",
+"4–20 mA DC"
+],
+[
+"Anma yük gerilimi",
+"200–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-A460": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş akımı",
+"4–20 mA DC"
+],
+[
+"Anma yük gerilimi",
+"200–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-A420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş akımı",
+"4–20 mA DC"
+],
+[
+"Anma yük gerilimi",
+"200–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-A230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş akımı",
+"4–20 mA DC"
+],
+[
+"Anma yük gerilimi",
+"100–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-A260": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş akımı",
+"4–20 mA DC"
+],
+[
+"Anma yük gerilimi",
+"100–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-A220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş akımı",
+"4–20 mA DC"
+],
+[
+"Anma yük gerilimi",
+"100–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-1460R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-1430R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-1440R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-1415R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1420R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1410R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-2440": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-2460": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-2430": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-2415": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-2420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-2410": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1440": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-1460": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-1430": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-1415": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1410": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-4240": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-4260": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-4220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-4230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-4215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-2260": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-4210": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-2240": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-2220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-2230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-2210": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-2215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1260": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"60 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 660 g (≈ 810 g)"
+]
+]
+},
+"SRH1-1230": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-1240": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 390 g (≈ 480 g)"
+]
+]
+},
+"SRH1-1220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1210": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRH1-1215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 200 g (≈ 260 g)"
+]
+]
+},
+"SRHL1-1215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1210": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1225": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1240": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 400 g (≈ 480 g)"
+]
+]
+},
+"SRHL1-1410": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1415": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1410R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1415R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1425": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1440": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 400 g (≈ 480 g)"
+]
+]
+},
+"SRHL1-1425R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-1440R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 400 g (≈ 480 g)"
+]
+]
+},
+"SRHL1-1420R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4210": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4215": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4220": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4225": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4240": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 400 g (≈ 480 g)"
+]
+]
+},
+"SRHL1-4410": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"10 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4415": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4420": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"20 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4425": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"25 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 210 g (≈ 290 g)"
+]
+]
+},
+"SRHL1-4440": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 400 g (≈ 480 g)"
+]
+]
+},
+"SR3-4475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4275": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-2430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4250": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-2415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-2450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-2440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4230": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-2475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-4215": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1475R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1450R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1250": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1440R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1275": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1415R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1430R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1230": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SR3-1215": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 280 g (≈ 360 g)"
+]
+]
+},
+"SRH3-2415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1230": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1250": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.520 g (≈ 1.730 g)"
+]
+]
+},
+"SRH3-1275": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.320 g (≈ 2.580 g)"
+]
+]
+},
+"SRH3-1415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1415R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1430R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1440R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.520 g (≈ 1.730 g)"
+]
+]
+},
+"SRH3-1450R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.520 g (≈ 1.730 g)"
+]
+]
+},
+"SRH3-1475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.320 g (≈ 2.580 g)"
+]
+]
+},
+"SRH3-1475R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.320 g (≈ 2.580 g)"
+]
+]
+},
+"SRH3-2430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-1215": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-2440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-2450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.520 g (≈ 1.730 g)"
+]
+]
+},
+"SRH3-2475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.320 g (≈ 2.580 g)"
+]
+]
+},
+"SRH3-4215": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-4230": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-4250": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.520 g (≈ 1.730 g)"
+]
+]
+},
+"SRH3-4275": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.320 g (≈ 2.580 g)"
+]
+]
+},
+"SRH3-4415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-4430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-4440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 930 g (≈ 1.180 g)"
+]
+]
+},
+"SRH3-4450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.520 g (≈ 1.730 g)"
+]
+]
+},
+"SRH3-4475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.320 g (≈ 2.580 g)"
+]
+]
+},
+"SRHL3-1215": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1230": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1250": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.530 g (≈ 1.740 g)"
+]
+]
+},
+"SRHL3-1275": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.340 g (≈ 2.590 g)"
+]
+]
+},
+"SRHL3-4215": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-4230": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-4250": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.530 g (≈ 1.740 g)"
+]
+]
+},
+"SRHL3-4275": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.340 g (≈ 2.590 g)"
+]
+]
+},
+"SRHL3-1415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.530 g (≈ 1.740 g)"
+]
+]
+},
+"SRHL3-1475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.340 g (≈ 2.590 g)"
+]
+]
+},
+"SRHL3-2415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-2430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-2440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-2450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.530 g (≈ 1.740 g)"
+]
+]
+},
+"SRHL3-2475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"24 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.340 g (≈ 2.590 g)"
+]
+]
+},
+"SRHL3-4415": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-4430": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-4440": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-4450": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.530 g (≈ 1.740 g)"
+]
+]
+},
+"SRHL3-4475": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"90–240 VAC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.340 g (≈ 2.590 g)"
+]
+]
+},
+"SRHL3-1415R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"15 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1430R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"30 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1440R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"40 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 940 g (≈ 1.190 g)"
+]
+]
+},
+"SRHL3-1450R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"50 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 1.530 g (≈ 1.740 g)"
+]
+]
+},
+"SRHL3-1475R": {
+"rows": [
+[
+"Kontrol fazı",
+"Trifaze"
+],
+[
+"Anma giriş gerilimi",
+"10–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"48–480 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"75 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC 50/60 Hz, 1 dakika (canlı kısım ile kasa arası)"
+],
+[
+"Ortam sıcaklığı",
+"−30…80 °C (giriş 90–240 VAC modellerde −20…70 °C); depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ünite ağırlığı (paket ağırlığı)",
+"≈ 2.340 g (≈ 2.590 g)"
+]
+]
+},
+"SRS1-A1202": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-A1202R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-A1203": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"3 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-A1203R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"3 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-A1205": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"5 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 380 g (yaklaşık 28 g)"
+]
+]
+},
+"SRS1-A1205R": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"24–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"5 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 380 g (yaklaşık 28 g)"
+]
+]
+},
+"SRS1-B1203-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal LY2 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"3 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-A1D101": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"5–100 VDC"
+],
+[
+"Anma yük akımı",
+"1 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-B1202R-2": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal LY2 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"2"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-A1D102": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"5–100 VDC"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-B1202-2": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal LY2 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"2"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-A1D201": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"5–200 VDC"
+],
+[
+"Anma yük akımı",
+"1 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-A1X201": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Autonics SK-G05 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"5–240 VAC / 5–200 VDC"
+],
+[
+"Anma yük akımı",
+"1 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…70 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 270 g (yaklaşık 17 g)"
+]
+]
+},
+"SRS1-B1205-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal LY2 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"5 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-B1205R-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal LY2 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"5 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1202-2": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"2"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1202R-2": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"2"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1203-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"3 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1203R-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"3 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-B1203R-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal LY2 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"3 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1205-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"5 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1205R-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–30 VDC"
+],
+[
+"Anma yük gerilimi",
+"90–240 VAC (50/60 Hz)"
+],
+[
+"Anma yük akımı",
+"5 A"
+],
+[
+"İşlev",
+"Rastgele geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1D102-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"5–100 VDC"
+],
+[
+"Anma yük akımı",
+"2 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+},
+"SRS1-C1X201-1": {
+"rows": [
+[
+"Kontrol fazı",
+"Monofaze"
+],
+[
+"Soket",
+"Üniversal MY4 soket"
+],
+[
+"Anma giriş gerilimi",
+"4–24 VDC"
+],
+[
+"Anma yük gerilimi",
+"5–240 VAC / 5–200 VDC"
+],
+[
+"Anma yük akımı",
+"1 A"
+],
+[
+"İşlev",
+"Sıfır geçişli"
+],
+[
+"Çıkış devresi sayısı",
+"1"
+],
+[
+"Dielektrik dayanımı",
+"2.500 VAC"
+],
+[
+"Ortam sıcaklığı",
+"−20…80 °C; depolama −30…100 °C. Yük akımı kapasitesi ortam sıcaklığına göre değişir (üretici derating eğrisi)."
+],
+[
+"Ortam nemi",
+"%45–85 RH; depolama %45–85 RH"
+],
+[
+"Ağırlık",
+"yaklaşık 400 g (yaklaşık 30 g)"
+]
+]
+}
+}

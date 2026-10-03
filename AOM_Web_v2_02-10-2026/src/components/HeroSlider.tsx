@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 type Slide = {
-  key: "otomasyon" | "kaynak" | "pres" | "cnc" | "tristor";
+  key: "otomasyon" | "kaynak" | "pres" | "cnc" | "tristor" | "medikal";
   short: string;
   eyebrow: string;
   title: string;
@@ -18,7 +18,7 @@ type Slide = {
   areas?: { icon: AreaIcon; title: string; text: string; image?: { src: string; alt: string; position?: string } }[];
 };
 
-type AreaIcon = "fabrika" | "kod" | "disli" | "ekran";
+type AreaIcon = "fabrika" | "kod" | "disli" | "ekran" | "deney" | "gaz" | "steril" | "kabin";
 
 // Rakamlar: AOM_Web_Sitesi_Icerik_Ozeti_02-10-2026.md
 const slides: Slide[] = [
@@ -143,6 +143,24 @@ const slides: Slide[] = [
       position: "45% 50%",
     },
   },
+  {
+    // Mert, 03-10-2026. Kapsam metni [TEYİT]: AOM'un bu cihazlardaki rolü (üretim / otomasyon / tedarik) netleşecek.
+    key: "medikal",
+    short: "Medikal cihazlar",
+    eyebrow: "Medikal ve laboratuvar cihazları",
+    title: "Laboratuvar ve medikal cihazlarda güvenilir çözüm.",
+    lead: "Başlıca laboratuvar cihazları, oksijen ve azot jeneratörleri, sterilizasyon kabinleri, çeker ocaklar ve biyogüvenlik kabinleri.",
+    spec: "Laboratuvar · Gaz · Sterilizasyon · Biyogüvenlik",
+    cta: "Medikal cihazları inceleyin",
+    href: "#cozumler",
+    visual: "",
+    areas: [
+      { icon: "deney", title: "Laboratuvar Cihazları", text: "Başlıca laboratuvar cihazları", image: { src: "/aom-medikal-laboratuvar-cihazlari_03-10-2026.jpg", alt: "Laboratuvar tezgâhında inkübatör ve etüv, santrifüj ve manyetik karıştırıcı", position: "48% 55%" } },
+      { icon: "gaz", title: "Gaz Jeneratörleri", text: "Oksijen ve azot jeneratörleri", image: { src: "/aom-medikal-gaz-jeneratoru_03-10-2026.jpg", alt: "PSA oksijen ve azot jeneratörü: dokunmatik ekranlı kabin, paslanmaz adsorpsiyon kolonları, tampon tankı ve basınç göstergeli boru hattı", position: "55% 55%" } },
+      { icon: "steril", title: "Sterilizasyon Kabinleri", text: "Medikal ve laboratuvar sterilizasyonu", image: { src: "/aom-medikal-sterilizasyon-kabini_03-10-2026.jpg", alt: "Duvara gömme buharlı sterilizatör (otoklav): açık paslanmaz kapak, yükleme rafı ve sepetli yükleme arabası", position: "45% 50%" } },
+      { icon: "kabin", title: "Biyogüvenlik Kabinleri", text: "Çeker ocaklar ve biyogüvenlik kabinleri", image: { src: "/aom-medikal-biyoguvenlik-kabini_03-10-2026.jpg", alt: "Sınıf II biyogüvenlik kabini, arkada egzoz kanallı çeker ocak", position: "58% 50%" } },
+    ],
+  },
 ];
 
 const INTERVAL_MS = 6000;
@@ -176,6 +194,38 @@ function AreaIconSvg({ name }: { name: AreaIcon }) {
         <svg {...p}>
           <rect x="2" y="4" width="20" height="13" rx="1" />
           <path d="M8 21h8M12 17v4M6 13l3-3 3 2 5-5" />
+        </svg>
+      );
+    case "deney":
+      return (
+        <svg {...p}>
+          <path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3" />
+          <path d="M7 15h10" />
+        </svg>
+      );
+    case "gaz":
+      return (
+        <svg {...p}>
+          <rect x="7" y="6" width="10" height="16" rx="3" />
+          <path d="M10 6V3h4v3M10 2h4" />
+          <path d="M10 13h4M12 11v4" />
+        </svg>
+      );
+    case "steril":
+      return (
+        <svg {...p}>
+          <rect x="3" y="3" width="18" height="18" rx="1" />
+          <path d="M3 8h18" />
+          <path d="M8 12c1 1 1 2 0 3s-1 2 0 3M12 12c1 1 1 2 0 3s-1 2 0 3M16 12c1 1 1 2 0 3s-1 2 0 3" />
+        </svg>
+      );
+    case "kabin":
+      return (
+        <svg {...p}>
+          <path d="M3 21V3h18v18" />
+          <path d="M3 13h18M7 13v-3M17 13v-3" />
+          <path d="M6 6h12M8 8.5h8" />
+          <path d="M2 21h20" />
         </svg>
       );
   }

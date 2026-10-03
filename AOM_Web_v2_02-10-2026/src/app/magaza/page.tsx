@@ -1,58 +1,115 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
-import { priceInfo, products } from "@/data/magaza";
+import StoreCard from "@/components/StoreCard";
+import { CATEGORY_INFO, products, seriesSlug, storeCategories } from "@/data/magaza";
+import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Mağaza",
-  description: "AOM mağazası: endüstriyel otomasyon ürünleri ve güç kontrol üniteleri.",
+  title: "Mağaza: Autonics SSR ve Tristörlü Güç Kontrol | Ankara",
+  description:
+    "Autonics solid state röle (SSR), DPU ve SPR tristörlü güç kontrol üniteleri. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+  keywords: ["Autonics bayi Ankara", "solid state röle", "SSR", "katı hal rölesi", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "otomasyon malzemeleri Ankara", "Autonics fiyat listesi"],
+  alternates: { canonical: "/magaza" },
+  openGraph: {
+    type: "website",
+    locale: "tr_TR",
+    url: "/magaza",
+    siteName: "AOM",
+    title: "AOM Mağaza: Autonics SSR ve Tristörlü Güç Kontrol",
+    description: "Ankara merkezli AOM'dan Türkiye geneline Autonics SSR ve tristörlü güç kontrol üniteleri.",
+  },
 };
 
-function Price({ p }: { p: (typeof products)[number] }) {
-  const pr = priceInfo(p);
-  if (!pr) return <span className="store-price">Teklif isteyin</span>;
-  return (
-    <span className="store-price-wrap">
-      {pr.discount && <s className="store-price-list">{pr.list}</s>}
-      <span className="store-price">{pr.net}</span>
-      {pr.discount && <span className="store-discount">{pr.discount}</span>}
-    </span>
-  );
-}
-
 export default function MagazaPage() {
+  const cats = storeCategories();
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "AOM Mağaza",
+      url: `${SITE}/magaza`,
+      inLanguage: "tr-TR",
+      about: cats.map((c) => c.title),
+      isPartOf: { "@id": `${SITE}/#org` },
+      numberOfItems: products.length,
+    },
+    breadcrumbJsonLd([
+      { name: "Ana sayfa", path: "/" },
+      { name: "Mağaza", path: "/magaza" },
+    ]),
+  ];
   return (
     <section className="container section" style={{ display: "flex", flexDirection: "column", gap: 32 }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 760 }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 820 }}>
         <div className="rule" />
         <div className="eyebrow">Mağaza</div>
         <h1 style={{ fontWeight: 800, fontSize: 44, lineHeight: 1.05 }}>AOM Mağaza</h1>
-        <p className="lead">Otomasyon ürünleri ve güç kontrol üniteleri. Fiyat ve teslim süresi için teklif isteyin.</p>
+        <p className="lead">
+          Autonics solid state röleler (SSR) ve tristörlü güç kontrol üniteleri. Fiyatlar KDV hariçtir. {REGION_LINE}
+        </p>
       </div>
-      <ul className="store-grid">
-        {products.map((p) => (
-          <li key={p.slug}>
-            <Link href={`/magaza/${p.slug}`} className="store-card">
-              <div className="store-visual">
-                {p.image ? (
-                  <Image src={p.image.src} alt={p.image.alt} fill sizes="360px" style={{ objectFit: "contain" }} />
+      {cats.length > 0 && (
+        <nav aria-label="Ürün grupları" className="store-nav-wrap">
+          {cats.map((c) => (
+            <div key={c.id} className="store-nav">
+              <Link href={`/magaza/kategori/${c.id}`} className="store-nav-cat">
+                {c.title}
+              </Link>
+              {c.groups.map((g) => (
+                <a key={g.id} href={`#${g.id}`} className="store-chip">
+                  {g.title.replace(/^Autonics /, "")} <span>{g.items.length}</span>
+                </a>
+              ))}
+            </div>
+          ))}
+        </nav>
+      )}
+      {cats.map((c) => (
+        <section key={c.id} id={c.id} className="store-cat-section" aria-labelledby={`${c.id}-baslik`}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            <h2 id={`${c.id}-baslik`} className="h2" style={{ fontSize: 30 }}>
+              <Link href={`/magaza/kategori/${c.id}`} className="store-cat-link">
+                {c.title}
+              </Link>{" "}
+              <span className="store-count">{c.groups.reduce((n, g) => n + g.items.length, 0)} ürün</span>
+            </h2>
+            {CATEGORY_INFO[c.id] && <p style={{ margin: 0, color: "var(--ink-muted)", maxWidth: 860 }}>{CATEGORY_INFO[c.id].intro[0]}</p>}
+            {c.id === "tristorlu-guc-kontrol" && (
+              <p style={{ margin: 0 }}>
+                Autonics DPU serisinin 840 sipariş kodu: <Link href="/magaza/dpu-kodlari">DPU model kodları</Link>
+              </p>
+            )}
+          </div>
+          {c.groups.map((g) => (
+            <div key={g.id} id={g.id} className="store-group">
+              <h3 className="store-group-title">
+                {g.items[0].series ? (
+                  <Link href={`/magaza/seri/${seriesSlug(g.items[0].series)}`} className="store-cat-link">
+                    {g.title}
+                  </Link>
                 ) : (
-                  <div className="store-visual-empty">
-                    <Image src={p.brandLogo.src} alt={p.brand} width={p.brandLogo.w} height={p.brandLogo.h} style={{ width: 120, height: "auto" }} />
-                    <span>{p.model}</span>
-                  </div>
-                )}
-              </div>
-              <div className="store-body">
-                <span className="store-cat">{p.category}</span>
-                <strong className="store-model">{p.brand} {p.model}</strong>
-                <span className="store-name">{p.name}</span>
-                <Price p={p} />
-              </div>
-            </Link>
-          </li>
-        ))}
-      </ul>
+                  g.title
+                )}{" "}
+                <span className="store-count">{g.items.length} model</span>
+              </h3>
+              <ul className="store-grid">
+                {g.items.slice(0, 6).map((p) => (
+                  <li key={p.slug}>
+                    <StoreCard p={p} />
+                  </li>
+
+                  ))}
+              </ul>
+              {g.items.length > 6 && g.items[0].series && (
+                <Link href={`/magaza/seri/${seriesSlug(g.items[0].series)}`} className="btn btn-outline" style={{ alignSelf: "flex-start" }}>
+                  {g.title.replace(/^Autonics /, "").split(" · ")[0]}: {g.items.length} modelin tamamını gör
+                </Link>
+              )}
+            </div>
+          ))}
+        </section>
+      ))}
     </section>
   );
 }
