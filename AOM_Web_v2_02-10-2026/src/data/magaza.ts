@@ -30,10 +30,13 @@ export type Product = {
   groupOrder?: number; // mağaza listesinde grup sırası
   metaDescription?: string; // arama sonucu açıklaması
   seriesIntro?: string; // seri sayfasındaki tanıtım metni
+  repTable?: { model: string; rows: { label: string; value: string }[] }; // seri ürünlerinde örnek modelin tam teknik tablosu
+  codePage?: { href: string; count: number; discontinued: number }; // seri ürünlerinde sipariş kodu sayfası
 };
 
 import { ssrProducts } from "./ssr";
 import { sprProducts } from "./spr";
+import { encProducts } from "./enkoder";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -140,6 +143,7 @@ export const products: Product[] = [
   ...sprProducts,
   // Autonics solid state röleler (SSR), 8 seri: src/data/ssr.ts
   ...ssrProducts,
+  ...encProducts,
 ];
 
 // Üretici sayfasındaki teknik tablo ile doğrulanan modeller.
@@ -182,7 +186,7 @@ export const seriesOf = (p: Product) =>
 
 
 // Mağaza listesi: kategori → grup (seri + gövde) → ürün. Yeni kategori veya seri eklendiğinde otomatik ayrılır.
-const slugify = (t: string) =>
+export const slugify = (t: string) =>
   t.toLocaleLowerCase("tr-TR").replace(/ç/g, "c").replace(/ğ/g, "g").replace(/ı/g, "i").replace(/ö/g, "o").replace(/ş/g, "s").replace(/ü/g, "u").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const groupLabel = (p: Product) => {
   if (p.groupTitle) return p.groupTitle;
@@ -254,6 +258,16 @@ export const CATEGORY_INFO: Record<string, { seoTitle: string; description: stri
       "Seriler: sökülebilir soğutuculu SR1 ve SR3, ince tip SRC1, entegre soğutuculu SRH1 ve SRH3, aşırı ısınma önlemeli SRHL1 ve SRHL3, soketli SRS1. Ankara merkezli AOM, SSR seçimi, soğutucu ve pano uygulaması konusunda destek verir; Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
     ],
     keywords: ["solid state röle", "SSR", "katı hal rölesi", "SSR röle fiyatları", "Autonics SSR", "üç fazlı SSR", "SSR Ankara"],
+  },
+  enkoderler: {
+    seoTitle: "Enkoder (Encoder) – Autonics Artımlı ve Mutlak Enkoder | Ankara",
+    description:
+      "Autonics enkoderler: artımlı (inkremental) ve mutlak enkoderler, milli ve oyuk milli, Ø18–Ø100 mm; tekerlekli ve el çarkı enkoderler, enkoder kaplinleri. 34 seri, 8.644 sipariş kodu. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: [
+      "Enkoderler (encoder) mil dönüşünü elektrik sinyaline çevirerek açı, konum, devir ve hız ölçer. Artımlı (inkremental) enkoderler devir başına belirli sayıda pals üretir (A, B, Z fazları); mutlak enkoderler her mil konumu için ayrı bir kod (BCD, Binary, Gray veya SSI) verir ve enerji kesilip geldiğinde konumu kaybetmez. Mağazada Autonics'in Ø18 mm'den Ø100 mm'ye kadar milli, oyuk milli ve delik milli artımlı enkoderleri, optik ve manyetik mutlak enkoderleri, tekerlekli ve el çarkı enkoderleri ile enkoder kaplinleri seri olarak listelenir.",
+      "Her serinin tüm sipariş kodları (8.644 kod) çözünürlük, çıkış fazı, kontrol çıkışı (totem pole, NPN açık kolektör, gerilim çıkışı, line driver), besleme ve bağlantı bilgileriyle enkoder model kodları sayfalarında listelenir. Ankara merkezli AOM, enkoder seçimi, kaplin ve montaj ile PLC / sayıcı bağlantısı konusunda destek verir; Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
+    ],
+    keywords: ["enkoder", "encoder", "artımlı enkoder", "inkremental enkoder", "mutlak enkoder", "absolute encoder", "Autonics enkoder", "Autonics E40S", "Autonics E50S", "enkoder fiyat", "enkoder Ankara", "rotary encoder"],
   },
 };
 

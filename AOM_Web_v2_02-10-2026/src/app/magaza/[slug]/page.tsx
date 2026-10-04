@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug } from "@/data/magaza";
+import { getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
 import { eligibleRegion, REGION_LINE, sellerRef, SITE } from "@/lib/seo";
 
-const catSlug = (c: string) => (c.startsWith("Solid") ? "solid-state-roleler-ssr" : "tristorlu-guc-kontrol");
+const catSlug = (c: string) => slugify(c);
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -148,6 +148,11 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
           <p className="caption" style={{ margin: 0 }}>{REGION_LINE}</p>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
             <a href={mail} className="btn btn-primary">{pr ? "Sipariş / teklif isteyin" : "Teklif isteyin"}</a>
+            {p.codePage && (
+              <Link href={p.codePage.href} className="btn btn-outline">
+                {p.codePage.count} sipariş kodunu gör
+              </Link>
+            )}
             <a href={p.source.url} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
               {p.source.label}
             </a>
@@ -177,9 +182,39 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
           </tbody>
         </table>
         <p className="caption">
-          Teknik veriler Autonics ürün sayfasından alınmıştır.{p.specs.some((s) => s.label.endsWith("*")) ? " * işaretli değerler üretici kataloğundandır." : ""}{p.image && !p.image.src.includes(p.slug) ? " Fotoğraf aynı gövdeli modele aittir." : ""} Güncel değerler için üretici sayfasına bakınız.
+          Teknik veriler Autonics ürün sayfasından alınmıştır.{p.specs.some((s) => s.label.endsWith("*")) ? " * işaretli değerler üretici kataloğundandır." : ""}{p.image && !p.codePage && !p.image.src.includes(p.slug) ? " Fotoğraf aynı gövdeli modele aittir." : ""} Güncel değerler için üretici sayfasına bakınız.
         </p>
       </div>
+
+      {p.repTable && (
+        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+          <h2 className="h2" style={{ fontSize: 26 }}>Örnek model: {p.repTable.model}</h2>
+          <table className="spec-table">
+            <tbody>
+              {p.repTable.rows.map((s, i) => (
+                <tr key={`${s.label}-${i}`}>
+                  <th scope="row">{s.label}</th>
+                  <td>{s.value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <p className="caption">Serideki bir modelin üretici teknik tablosu. Diğer kodların değerleri çözünürlük, çıkış ve bağlantı seçeneğine göre değişir.</p>
+        </div>
+      )}
+
+      {p.codePage && (
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
+          <h2 className="h2" style={{ fontSize: 26 }}>{p.model} sipariş kodları</h2>
+          <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+            {p.brand} {p.model} serisinin {p.codePage.count} sipariş kodunun tamamı çözünürlük, çıkış, besleme ve bağlantı bilgileriyle kod sayfasında listelenir
+            {p.codePage.discontinued ? `; ${p.codePage.discontinued} kod üretimden kalkmış olarak işaretlidir` : ""}. Listedeki her kod için teklif isteyebilirsiniz.
+          </p>
+          <Link href={p.codePage.href} className="btn btn-outline" style={{ alignSelf: "flex-start" }}>
+            {p.model}: {p.codePage.count} sipariş kodu
+          </Link>
+        </div>
+      )}
 
       {siblings.length > 1 && (
         <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>

@@ -278,3 +278,12 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .dpu-group:hover { border-color: var(--aom-red); }
 .dpu-code-sample { font-family: var(--font-display), monospace; font-size: 22px; font-weight: 700; color: var(--aom-red); letter-spacing: 1px; }
 .dpu-table td.dpu-actions { white-space: nowrap; }
+/* Enkoder kod sayfaları (03-10-2026) */
+.code-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.code-filter label { font-weight: 700; }
+.code-filter input { flex: 1 1 260px; max-width: 420px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font: inherit; background: var(--surface-raised); color: var(--ink); }
+.code-filter input:focus { outline: 2px solid var(--aom-red); outline-offset: 1px; }
+.enc-table th[scope="row"] { white-space: nowrap; font-family: var(--font-display), monospace; }
+.enc-table td { font-size: 14px; }
+.enc-status-off { color: var(--ink-muted); font-style: italic; }
+.enc-series-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 12px; }

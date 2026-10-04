@@ -2,21 +2,22 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import StoreCard from "@/components/StoreCard";
 import { CATEGORY_INFO, products, seriesSlug, storeCategories } from "@/data/magaza";
+import { ENC_TOTAL } from "@/data/enkoder";
 import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Mağaza: Autonics SSR ve Tristörlü Güç Kontrol | Ankara",
+  title: "Mağaza: Autonics Enkoder, SSR ve Tristörlü Güç Kontrol | Ankara",
   description:
-    "Autonics solid state röle (SSR), DPU ve SPR tristörlü güç kontrol üniteleri. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
-  keywords: ["Autonics bayi Ankara", "solid state röle", "SSR", "katı hal rölesi", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "otomasyon malzemeleri Ankara", "Autonics fiyat listesi"],
+    "Autonics enkoderler (artımlı ve mutlak), solid state röle (SSR), DPU ve SPR tristörlü güç kontrol üniteleri. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+  keywords: ["Autonics bayi Ankara", "enkoder", "encoder", "artımlı enkoder", "mutlak enkoder", "solid state röle", "SSR", "katı hal rölesi", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "otomasyon malzemeleri Ankara", "Autonics fiyat listesi"],
   alternates: { canonical: "/magaza" },
   openGraph: {
     type: "website",
     locale: "tr_TR",
     url: "/magaza",
     siteName: "AOM",
-    title: "AOM Mağaza: Autonics SSR ve Tristörlü Güç Kontrol",
-    description: "Ankara merkezli AOM'dan Türkiye geneline Autonics SSR ve tristörlü güç kontrol üniteleri.",
+    title: "AOM Mağaza: Autonics Enkoder, SSR ve Tristörlü Güç Kontrol",
+    description: "Ankara merkezli AOM'dan Türkiye geneline Autonics enkoderler, SSR ve tristörlü güç kontrol üniteleri.",
   },
 };
 
@@ -46,7 +47,7 @@ export default function MagazaPage() {
         <div className="eyebrow">Mağaza</div>
         <h1 style={{ fontWeight: 800, fontSize: 44, lineHeight: 1.05 }}>AOM Mağaza</h1>
         <p className="lead">
-          Autonics solid state röleler (SSR) ve tristörlü güç kontrol üniteleri. Fiyatlar KDV hariçtir. {REGION_LINE}
+          Autonics tristörlü güç kontrol üniteleri, solid state röleler (SSR) ve enkoderler. Fiyatlar KDV hariçtir. {REGION_LINE}
         </p>
       </div>
       {cats.length > 0 && (
@@ -80,6 +81,11 @@ export default function MagazaPage() {
                 Autonics DPU serisinin 840 sipariş kodu: <Link href="/magaza/dpu-kodlari">DPU model kodları</Link>
               </p>
             )}
+            {c.id === "enkoderler" && (
+              <p style={{ margin: 0 }}>
+                34 enkoder serisinin {ENC_TOTAL.toLocaleString("tr-TR")} sipariş kodu: <Link href="/magaza/enkoder-kodlari">Enkoder model kodları</Link>
+              </p>
+            )}
           </div>
           {c.groups.map((g) => (
             <div key={g.id} id={g.id} className="store-group">
@@ -91,7 +97,7 @@ export default function MagazaPage() {
                 ) : (
                   g.title
                 )}{" "}
-                <span className="store-count">{g.items.length} model</span>
+                <span className="store-count">{g.items.length} {g.items[0].codePage ? "seri" : "model"}</span>
               </h3>
               <ul className="store-grid">
                 {g.items.slice(0, 6).map((p) => (
@@ -104,6 +110,11 @@ export default function MagazaPage() {
               {g.items.length > 6 && g.items[0].series && (
                 <Link href={`/magaza/seri/${seriesSlug(g.items[0].series)}`} className="btn btn-outline" style={{ alignSelf: "flex-start" }}>
                   {g.title.replace(/^Autonics /, "").split(" · ")[0]}: {g.items.length} modelin tamamını gör
+                </Link>
+              )}
+              {g.items.length > 6 && !g.items[0].series && (
+                <Link href={`/magaza/kategori/${c.id}#${g.id}`} className="btn btn-outline" style={{ alignSelf: "flex-start" }}>
+                  {g.title}: {g.items.length} serinin tamamını gör
                 </Link>
               )}
             </div>

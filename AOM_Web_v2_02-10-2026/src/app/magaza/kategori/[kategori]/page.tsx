@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import StoreCard from "@/components/StoreCard";
 import { CATEGORY_INFO, categoryBySlug, seriesSlug, storeCategories } from "@/data/magaza";
+import { ENC_TOTAL } from "@/data/enkoder";
 import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -73,6 +74,12 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
             <Link href="/magaza/dpu-kodlari">DPU model kodları</Link>
           </p>
         )}
+        {c.id === "enkoderler" && (
+          <p style={{ margin: 0 }}>
+            34 serinin {ENC_TOTAL.toLocaleString("tr-TR")} sipariş kodunun tamamı (çözünürlük, çıkış, besleme ve bağlantıya göre):{" "}
+            <Link href="/magaza/enkoder-kodlari">Enkoder model kodları</Link>
+          </p>
+        )}
         <p className="caption" style={{ margin: 0 }}>
           Fiyatlar KDV hariçtir; %20 KDV eklenir. Fiyatı gösterilmeyen ürünler için teklif isteyin.
         </p>
@@ -94,10 +101,10 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
             ) : (
               g.title
             )}{" "}
-            <span className="store-count">{g.items.length} model</span>
+            <span className="store-count">{g.items.length} {g.items[0].codePage ? "seri" : "model"}</span>
           </h2>
           <ul className="store-grid">
-            {g.items.slice(0, 9).map((p) => (
+            {(g.items[0].series ? g.items.slice(0, 9) : g.items).map((p) => (
               <li key={p.slug}>
                 <StoreCard p={p} />
               </li>
