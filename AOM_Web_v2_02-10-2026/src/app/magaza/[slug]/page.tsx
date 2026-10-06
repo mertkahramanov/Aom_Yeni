@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
+import { fullName, getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
 import { eligibleRegion, REGION_LINE, sellerRef, SITE } from "@/lib/seo";
 
 const catSlug = (c: string) => slugify(c);
@@ -15,9 +15,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const p = getProduct((await params).slug);
   if (!p) return {};
   const pr = priceInfo(p);
-  const title = p.seoTitle ?? `${p.brand} ${p.model}`;
+  const title = p.seoTitle ?? fullName(p);
   const comm = p.specs.find((s) => s.label.startsWith("Haberleşme"))?.value;
-  const description = `${p.metaDescription ?? `${p.brand} ${p.model}: ${p.name}. Faz, çevrim ve ON/OFF kontrol${comm && comm !== "Yok" ? ", RS485 Modbus RTU" : ""}.`}${
+  const description = `${p.metaDescription ?? `${fullName(p)}: ${p.name}. Faz, çevrim ve ON/OFF kontrol${comm && comm !== "Yok" ? ", RS485 Modbus RTU" : ""}.`}${
     pr ? ` ${pr.net} + KDV.` : " Fiyat için teklif isteyin."
   } ${REGION_LINE}`;
   const url = `/magaza/${p.slug}`;
@@ -46,11 +46,11 @@ function jsonLd(p: NonNullable<ReturnType<typeof getProduct>>) {
   const product: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: `${p.brand} ${p.model}`,
+    name: fullName(p),
     description: p.summary,
     sku: p.model,
-    mpn: p.model,
-    brand: { "@type": "Brand", name: p.brand },
+    mpn: p.specs.find((s) => s.label === "Orijinal kod")?.value ?? (p.brandLogo?.src.includes("autonics") ? p.model : undefined),
+    brand: p.brand ? { "@type": "Brand", name: p.brand } : undefined,
     category: p.category,
     url,
     image: p.image ? `${SITE}${p.image.src}` : undefined,
@@ -86,7 +86,7 @@ function jsonLd(p: NonNullable<ReturnType<typeof getProduct>>) {
       { "@type": "ListItem", position: 2, name: "Mağaza", item: `${SITE}/magaza` },
       { "@type": "ListItem", position: 3, name: p.category, item: `${SITE}/magaza/kategori/${catSlug(p.category)}` },
       ...(p.series ? [{ "@type": "ListItem", position: 4, name: p.series, item: `${SITE}/magaza/seri/${seriesSlug(p.series)}` }] : []),
-      { "@type": "ListItem", position: p.series ? 5 : 4, name: `${p.brand} ${p.model}`, item: url },
+      { "@type": "ListItem", position: p.series ? 5 : 4, name: fullName(p), item: url },
     ],
   };
   return [product, breadcrumb];
@@ -96,8 +96,12 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
   const p = getProduct((await params).slug);
   if (!p) notFound();
   const pr = priceInfo(p);
-  const siblings = seriesOf(p);
-  const mail = `mailto:info@aomtechnology.tr?subject=${encodeURIComponent(`Teklif talebi: ${p.brand} ${p.model}`)}`;
+  const allSiblings = seriesOf(p);
+  // Büyük serilerde (ör. TK 509 model) ürün sayfasında yalnız yakın modeller gösterilir; tamamı seri sayfasında
+  const idx = allSiblings.findIndex((x) => x.slug === p.slug);
+  const siblings = allSiblings.length > 40 ? allSiblings.slice(Math.max(0, idx - 12), Math.max(0, idx - 12) + 25) : allSiblings;
+  const sibAmp = siblings.some((x) => x.current !== undefined);
+  const mail = `mailto:info@aomtechnology.tr?subject=${encodeURIComponent(`Teklif talebi: ${fullName(p)}`)}`;
   return (
     <section className="container section" style={{ display: "flex", flexDirection: "column", gap: 24 }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(p)) }} />
@@ -117,16 +121,18 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
             <Image src={p.image.src} alt={p.image.alt} fill sizes="560px" style={{ objectFit: "contain" }} priority />
           ) : (
             <div className="store-visual-empty">
-              <Image src={p.brandLogo.src} alt={p.brand} width={p.brandLogo.w} height={p.brandLogo.h} style={{ width: 160, height: "auto" }} />
+              {p.brandLogo ? (
+                <Image src={p.brandLogo.src} alt={p.brand} width={p.brandLogo.w} height={p.brandLogo.h} style={{ width: 160, height: "auto" }} />
+              ) : (
+                p.brand && <strong className="store-visual-brand">{p.brand}</strong>
+              )}
               <span>{p.model}</span>
             </div>
           )}
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
           <span className="eyebrow">{p.category}</span>
-          <h1 style={{ fontWeight: 800, fontSize: 40, lineHeight: 1.05 }}>
-            {p.brand} {p.model}
-          </h1>
+          <h1 style={{ fontWeight: 800, fontSize: 40, lineHeight: 1.05 }}>{fullName(p)}</h1>
           <p className="lead" style={{ fontSize: 17 }}>{p.name}</p>
           <p style={{ margin: 0, color: "var(--ink-muted)" }}>{p.summary}</p>
           {pr ? (
@@ -153,9 +159,11 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
                 {p.codePage.count} sipariş kodunu gör
               </Link>
             )}
-            <a href={p.source.url} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
-              {p.source.label}
-            </a>
+            {p.source && (
+              <a href={p.source.url} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                {p.source.label}
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -182,7 +190,7 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
           </tbody>
         </table>
         <p className="caption">
-          Teknik veriler Autonics ürün sayfasından alınmıştır.{p.specs.some((s) => s.label.endsWith("*")) ? " * işaretli değerler üretici kataloğundandır." : ""}{p.image && !p.codePage && !p.image.src.includes(p.slug) ? " Fotoğraf aynı gövdeli modele aittir." : ""} Güncel değerler için üretici sayfasına bakınız.
+          {p.specNote ?? "Teknik veriler Autonics ürün sayfasından alınmıştır."}{p.imageNote ? ` ${p.imageNote}` : ""}{p.specs.some((s) => s.label.endsWith("*")) ? " * işaretli değerler üretici kataloğundandır." : ""}{p.image && !p.codePage && !p.imageNote && !p.specNote && !p.image.src.includes(p.slug) ? " Fotoğraf aynı gövdeli modele aittir." : ""}{p.specNote ? "" : " Güncel değerler için üretici sayfasına bakınız."}
         </p>
       </div>
 
@@ -207,7 +215,7 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
         <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
           <h2 className="h2" style={{ fontSize: 26 }}>{p.model} sipariş kodları</h2>
           <p style={{ margin: 0, color: "var(--ink-muted)" }}>
-            {p.brand} {p.model} serisinin {p.codePage.count} sipariş kodunun tamamı çözünürlük, çıkış, besleme ve bağlantı bilgileriyle kod sayfasında listelenir
+            {fullName(p)} serisinin {p.codePage.count} sipariş kodunun tamamı çözünürlük, çıkış, besleme ve bağlantı bilgileriyle kod sayfasında listelenir
             {p.codePage.discontinued ? `; ${p.codePage.discontinued} kod üretimden kalkmış olarak işaretlidir` : ""}. Listedeki her kod için teklif isteyebilirsiniz.
           </p>
           <Link href={p.codePage.href} className="btn btn-outline" style={{ alignSelf: "flex-start" }}>
@@ -219,13 +227,13 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
       {siblings.length > 1 && (
         <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
           <h2 className="h2" style={{ fontSize: 26 }}>
-            <Link href={`/magaza/seri/${seriesSlug(p.series!)}`} className="store-cat-link">{p.series} serisi</Link>: diğer modeller
+            <Link href={`/magaza/seri/${seriesSlug(p.series!)}`} className="store-cat-link">{p.series} serisi</Link>: {allSiblings.length > siblings.length ? `yakın modeller (${allSiblings.length} modelin tamamı seri sayfasında)` : "diğer modeller"}
           </h2>
           <table className="spec-table series-table">
             <thead>
               <tr>
                 <th scope="col">Model</th>
-                <th scope="col">Akım</th>
+                {sibAmp && <th scope="col">Akım</th>}
                 <th scope="col">{p.bodyLabel ?? "Gövde"}</th>
                 <th scope="col">{p.optionLabel ?? "Seçenek"}</th>
                 <th scope="col">Fiyat</th>
@@ -238,7 +246,7 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
                 return (
                   <tr key={s.slug} aria-current={current ? "page" : undefined} className={current ? "is-current" : undefined}>
                     <th scope="row">{current ? s.model : <Link href={`/magaza/${s.slug}`}>{s.model}</Link>}</th>
-                    <td>{s.current} A</td>
+                    {sibAmp && <td>{s.current} A</td>}
                     <td>{s.bodySize}</td>
                     <td>{s.option}</td>
                     <td>{sp ? `${sp.net} + KDV` : "Teklif isteyin"}</td>

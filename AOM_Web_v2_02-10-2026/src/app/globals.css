@@ -227,7 +227,8 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .store-card:hover { border-color: var(--aom-red); color: var(--ink); }
 .store-visual { position: relative; height: 220px; background: #fff; border-bottom: 1px solid var(--line); }
 .store-visual-empty { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
-.store-visual-empty span { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 20px; color: var(--ink-muted); letter-spacing: 1px; }
+.store-visual-empty span { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 20px; color: var(--ink-muted); letter-spacing: 1px; text-align: center; padding: 0 16px; overflow-wrap: anywhere; }
+.store-visual-brand { font-family: var(--font-display), sans-serif; font-weight: 800; font-size: 26px; color: var(--ink); letter-spacing: 0.5px; }
 .store-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 6px; }
 .store-cat { font-family: var(--font-display), sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--aom-red); }
 .store-model { font-family: var(--font-display), sans-serif; font-size: 20px; }
@@ -287,3 +288,27 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .enc-table td { font-size: 14px; }
 .enc-status-off { color: var(--ink-muted); font-style: italic; }
 .enc-series-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 12px; }
+/* Slider: geçişte boyut sabit (04-10-2026). Metinler üst üste, görsel alanı tüm slaytlarda aynı yükseklikte */
+.slider-text-stack { display: grid; align-items: start; align-content: center; }
+.slider-text-stack > .slider-text { grid-area: 1 / 1; }
+.slider-text-ghost { visibility: hidden; pointer-events: none; animation: none !important; }
+.slider-h1-ghost { font-family: var(--font-display), sans-serif; font-weight: 800; font-size: 56px; line-height: 1.02; letter-spacing: -1px; }
+.slider-figure .slider-visual, .slider-figure .slider-visual-photo, .slider-figure .slider-areas { height: 480px; min-height: 0; }
+@media (max-width: 640px) {
+  .slider-h1-ghost { font-size: 36px; }
+  .slider-figure .slider-visual, .slider-figure .slider-visual-photo, .slider-figure .slider-areas { height: 380px; }
+  .slider-areas li { min-height: 0; }
+}
+.slider-figcaption { min-height: 18px; line-height: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Mağaza ilk sayfası: kare kategori kutuları (06-10-2026) */
+.cat-tiles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+.cat-tile { display: flex; flex-direction: column; aspect-ratio: 1 / 1; background: var(--surface-raised); border: 1px solid var(--line); border-top: 3px solid var(--aom-red); text-decoration: none; color: var(--ink); transition: box-shadow .15s, transform .15s; }
+.cat-tile:hover, .cat-tile:focus-visible { box-shadow: 0 8px 24px rgba(0,0,0,.10); transform: translateY(-2px); }
+.cat-tile-visual { position: relative; flex: 1; margin: 16px 16px 0; display: flex; align-items: center; justify-content: center; }
+.cat-tile-count { font-family: var(--font-display), sans-serif; font-weight: 800; font-size: 56px; color: var(--ink-muted); }
+.cat-tile-body { display: flex; flex-direction: column; gap: 4px; padding: 12px 16px 16px; }
+.cat-tile-body strong { font-family: var(--font-display), sans-serif; font-size: 18px; line-height: 1.2; }
+.cat-tile-body span { font-size: 14px; color: var(--ink-muted); }
+.cat-code-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 24px; }
+@media (max-width: 640px) { .cat-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } .cat-tile-body strong { font-size: 15px; } .cat-tile-body { padding: 8px 10px 10px; } .cat-tile-visual { margin: 10px 10px 0; } .cat-tile-count { font-size: 40px; } }

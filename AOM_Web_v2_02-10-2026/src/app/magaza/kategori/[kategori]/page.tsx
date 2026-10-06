@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import StoreCard from "@/components/StoreCard";
-import { CATEGORY_INFO, categoryBySlug, seriesSlug, storeCategories } from "@/data/magaza";
+import { CATEGORY_INFO, categoryBySlug, fullName, seriesSlug, storeCategories } from "@/data/magaza";
 import { ENC_TOTAL } from "@/data/enkoder";
+import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
 import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -44,7 +45,7 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
       mainEntity: {
         "@type": "ItemList",
         numberOfItems: items.length,
-        itemListElement: items.slice(0, 100).map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/magaza/${p.slug}`, name: `${p.brand} ${p.model}` })),
+        itemListElement: items.slice(0, 100).map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/magaza/${p.slug}`, name: fullName(p) })),
       },
     },
     breadcrumbJsonLd([
@@ -72,6 +73,12 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
           <p style={{ margin: 0 }}>
             Autonics DPU serisinin 840 sipariş kodunun tamamı (monofaze ve trifaze, 110–480 V):{" "}
             <Link href="/magaza/dpu-kodlari">DPU model kodları</Link>
+          </p>
+        )}
+        {(c.id === "sicaklik-kontrol-cihazlari" || c.id === "dijital-panel-metreler") && (
+          <p style={{ margin: 0 }}>
+            Ürün olarak eklenmeyen sıcaklık kontrol ve panel metre serilerinin {KONTROL_KOD_TOTAL.toLocaleString("tr-TR")} sipariş kodu:{" "}
+            <Link href="/magaza/kontrol-kodlari">Kontrol cihazı model kodları</Link>
           </p>
         )}
         {c.id === "enkoderler" && (

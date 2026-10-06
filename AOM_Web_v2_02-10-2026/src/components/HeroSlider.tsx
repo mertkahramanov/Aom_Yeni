@@ -342,7 +342,21 @@ export default function HeroSlider() {
     >
       <div className="container slider-inner">
         <div className="slider-stage">
-          <div className="slider-text" aria-live="polite" key={cur.key}>
+          {/* Tüm slaytların metni aynı hücrede üst üste durur; yükseklik en uzun metne göre sabitlenir, geçişte boyut değişmez */}
+          <div className="slider-text-stack">
+            {slides.map((sl) =>
+              (
+                <div key={`ghost-${sl.key}`} className="slider-text slider-text-ghost" aria-hidden="true">
+                  <div className="slider-counter"><div className="rule" /><span>{counter}</span></div>
+                  <div className="eyebrow">{sl.eyebrow}</div>
+                  <div className="slider-h1-ghost">{sl.title}</div>
+                  <p className="slider-lead">{sl.lead}</p>
+                  <div className="slider-spec">{sl.spec}</div>
+                  <div className="slider-ctas"><span className="btn btn-primary">{sl.cta}</span><span className="btn btn-outline-light">Proje başlatın</span></div>
+                </div>
+              ),
+            )}
+            <div className="slider-text" aria-live="polite" key={cur.key}>
             <div className="slider-counter">
               <div className="rule" />
               <span>{counter}</span>
@@ -359,6 +373,7 @@ export default function HeroSlider() {
                 Proje başlatın
               </Link>
             </div>
+          </div>
           </div>
           <figure className="slider-figure" key={`${cur.key}-fig`}>
             {cur.areas ? (
@@ -384,7 +399,7 @@ export default function HeroSlider() {
                 <div className="slider-visual slider-visual-photo">
                   <Image src={cur.image.src} alt={cur.image.alt} fill sizes="(max-width: 760px) 100vw, 600px" style={{ objectFit: "cover", objectPosition: cur.image.position ?? "50% 55%" }} />
                 </div>
-                {cur.image.caption && <figcaption className="caption">{cur.image.caption}</figcaption>}
+
               </>
             ) : (
               <>
@@ -394,6 +409,8 @@ export default function HeroSlider() {
                 </div>
               </>
             )}
+            {/* Açıklama satırı her slaytta aynı yer kaplar (boşsa da) */}
+            <figcaption className="caption slider-figcaption">{!cur.areas && cur.image?.caption ? cur.image.caption : "\u00a0"}</figcaption>
           </figure>
         </div>
         <div className="slider-controls">

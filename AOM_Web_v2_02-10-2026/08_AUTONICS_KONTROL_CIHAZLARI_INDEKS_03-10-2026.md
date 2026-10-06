@@ -1,6 +1,6 @@
 # Autonics Kontrol Cihazları: İndeks ve Analiz (03-10-2026)
 
-Kaynak: Autonics Türkiye kategori, seri ve model listeleri; Mert'in Chrome tarayıcısıyla okundu (03-10-2026). **10 kategori, 69 seri, 2.289 model kodu** (18 kodu Autonics listesinde "Discontinued"). Bu belge yalnız indekstir; sitede henüz hiçbir kontrol cihazı yok.
+Kaynak: Autonics Türkiye kategori, seri ve model listeleri; Mert'in Chrome tarayıcısıyla okundu (03-10-2026). **10 kategori, 69 seri, 2.289 model kodu** (18 kodu Autonics listesinde "Discontinued"). **Sitede (04-10-2026, Mert kararı):** 981 model ürün olarak (TK, TM, TMH, TCN4S-24R, MX4W ve sayıcı, zamanlayıcı, kayıt cihazı, gösterge, ekran birimi, sensör kontrol, HMI, endüstriyel PC serilerinin tamamı); diğer sıcaklık kontrol ve panel metre serilerinin 1.309 kodu `/magaza/kontrol-kodlari` altında 26 kod sayfasında. CSV'deki "Sitede" sütunu her modelin sitedeki yerini gösterir.
 
 ## Kategori özeti
 

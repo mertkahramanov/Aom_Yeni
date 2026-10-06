@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import StoreCard from "@/components/StoreCard";
-import { priceInfo, storeSeries } from "@/data/magaza";
+import { fullName, priceInfo, storeSeries } from "@/data/magaza";
 import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
 
 const find = (slug: string) => storeSeries().find((s) => s.slug === slug);
-const kind = (cat: string) => (cat.startsWith("Solid") ? "Solid State Röle (SSR)" : "Tristörlü Güç Kontrol Ünitesi");
+const kind = (cat: string, k?: string) => k ?? (cat.startsWith("Solid") ? "Solid State Röle (SSR)" : "Tristörlü Güç Kontrol Ünitesi");
 
 export function generateStaticParams() {
   return storeSeries().map((s) => ({ seri: s.slug }));
@@ -18,12 +18,15 @@ export async function generateMetadata({ params }: { params: Promise<{ seri: str
   if (!s) return {};
   const url = `/magaza/seri/${s.slug}`;
   const amps = s.items.map((p) => p.current ?? 0);
-  const title = `${s.title} ${kind(s.category)} Modelleri | Ankara`;
-  const description = `${s.title} serisi ${s.category.startsWith("Solid") ? "solid state röle (SSR)" : "tristörlü güç kontrol ünitesi"}: ${s.items.length} model, ${Math.min(...amps)}–${Math.max(...amps)} A. Teknik özellikler ve fiyatlar (KDV hariç). ${REGION_LINE}`;
+  const k = kind(s.category, s.items[0].kindLabel);
+  const title = `${s.title} ${k} Modelleri | Ankara`;
+  const description = s.items[0].kindLabel
+    ? `${s.title} serisi ${k.toLocaleLowerCase("tr-TR")}: ${s.items.length} model. Teknik özellikler ve teklif. ${REGION_LINE}`
+    : `${s.title} serisi ${s.category.startsWith("Solid") ? "solid state röle (SSR)" : "tristörlü güç kontrol ünitesi"}: ${s.items.length} model, ${Math.min(...amps)}–${Math.max(...amps)} A. Teknik özellikler ve fiyatlar (KDV hariç). ${REGION_LINE}`;
   return {
     title,
     description,
-    keywords: [s.title, `${s.title} fiyat`, kind(s.category), `${kind(s.category)} Ankara`, ...s.items.slice(0, 10).map((p) => p.model)],
+    keywords: [s.title, `${s.title} fiyat`, k, `${k} Ankara`, ...s.items.slice(0, 10).map((p) => p.model)],
     alternates: { canonical: url },
     openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description },
   };
@@ -33,19 +36,20 @@ export default async function SeriPage({ params }: { params: Promise<{ seri: str
   const s = find((await params).seri);
   if (!s) notFound();
   const first = s.items[0];
+  const hasAmp = s.items.some((p) => p.current !== undefined);
   const url = `${SITE}/magaza/seri/${s.slug}`;
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      name: `${s.title} ${kind(s.category)}`,
+      name: `${s.title} ${kind(s.category, first.kindLabel)}`,
       url,
       inLanguage: "tr-TR",
       isPartOf: { "@id": `${SITE}/#org` },
       mainEntity: {
         "@type": "ItemList",
         numberOfItems: s.items.length,
-        itemListElement: s.items.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/magaza/${p.slug}`, name: `${p.brand} ${p.model}` })),
+        itemListElement: s.items.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/magaza/${p.slug}`, name: fullName(p) })),
       },
     },
     breadcrumbJsonLd([
@@ -65,7 +69,7 @@ export default async function SeriPage({ params }: { params: Promise<{ seri: str
       <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 860 }}>
         <div className="eyebrow">{s.category}</div>
         <h1 style={{ fontWeight: 800, fontSize: 40, lineHeight: 1.08 }}>
-          {s.title} {kind(s.category)}
+          {s.title} {kind(s.category, first.kindLabel)}
         </h1>
         {first.seriesIntro && <p style={{ margin: 0, color: "var(--ink-muted)" }}>{first.seriesIntro}</p>}
         <p style={{ margin: 0, color: "var(--ink-muted)" }}>{REGION_LINE} Fiyatlar KDV hariçtir; %20 KDV eklenir.</p>
@@ -85,7 +89,7 @@ export default async function SeriPage({ params }: { params: Promise<{ seri: str
           <thead>
             <tr>
               <th scope="col">Model</th>
-              <th scope="col">Akım</th>
+              {hasAmp && <th scope="col">Akım</th>}
               <th scope="col">{first.bodyLabel ?? "Gövde"}</th>
               <th scope="col">{first.optionLabel ?? "Seçenek"}</th>
               <th scope="col">Fiyat</th>
@@ -99,7 +103,7 @@ export default async function SeriPage({ params }: { params: Promise<{ seri: str
                   <th scope="row">
                     <Link href={`/magaza/${p.slug}`}>{p.model}</Link>
                   </th>
-                  <td>{p.current} A</td>
+                  {hasAmp && <td>{p.current} A</td>}
                   <td>{p.bodySize}</td>
                   <td>{p.option}</td>
                   <td>{pr ? `${pr.net} + KDV` : "Teklif isteyin"}</td>

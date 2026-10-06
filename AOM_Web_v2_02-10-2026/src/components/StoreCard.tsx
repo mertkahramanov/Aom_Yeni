@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { priceInfo, type Product } from "@/data/magaza";
+import { fullName, priceInfo, type Product } from "@/data/magaza";
 
 export function Price({ p }: { p: Product }) {
   const pr = priceInfo(p);
@@ -23,16 +23,18 @@ export default function StoreCard({ p }: { p: Product }) {
           <Image src={p.image.src} alt={p.image.alt} fill sizes="360px" style={{ objectFit: "contain" }} />
         ) : (
           <div className="store-visual-empty">
-            <Image src={p.brandLogo.src} alt={p.brand} width={p.brandLogo.w} height={p.brandLogo.h} style={{ width: 120, height: "auto" }} />
+            {p.brandLogo ? (
+              <Image src={p.brandLogo.src} alt={p.brand} width={p.brandLogo.w} height={p.brandLogo.h} style={{ width: 120, height: "auto" }} />
+            ) : (
+              p.brand && <strong className="store-visual-brand">{p.brand}</strong>
+            )}
             <span>{p.model}</span>
           </div>
         )}
       </div>
       <div className="store-body">
         <span className="store-cat">{p.category}</span>
-        <strong className="store-model">
-          {p.brand} {p.model}
-        </strong>
+        <strong className="store-model">{fullName(p)}</strong>
         <span className="store-name">{p.name}</span>
         {p.option && <span className="store-opt">{p.optionLabel ? p.option : `Seçenek ${p.option}`}</span>}
         <Price p={p} />

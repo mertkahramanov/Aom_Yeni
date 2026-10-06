@@ -8,14 +8,16 @@
 export type Product = {
   slug: string;
   brand: string;
-  brandLogo: { src: string; w: number; h: number };
+  brandLogo?: { src: string; w: number; h: number }; // yoksa marka adı yazıyla gösterilir
   model: string;
   name: string;
   category: string;
   summary: string;
   image?: { src: string; alt: string };
   specs: { label: string; value: string }[];
-  source: { label: string; url: string };
+  source?: { label: string; url: string };
+  specNote?: string; // teknik tablo altındaki kaynak notu (yoksa Autonics notu)
+  imageNote?: string; // görsel notu (ör. seri görseli)
   price?: { list: number; currency: "USD" | "EUR" | "TRY"; discountPct?: number };
   series?: string; // aynı serideki modelleri birbirine bağlar
   current?: number; // A, seri tablosunda sıralama için
@@ -30,6 +32,7 @@ export type Product = {
   groupOrder?: number; // mağaza listesinde grup sırası
   metaDescription?: string; // arama sonucu açıklaması
   seriesIntro?: string; // seri sayfasındaki tanıtım metni
+  kindLabel?: string; // seri sayfası başlığındaki ürün türü (ör. "Sıcaklık Kontrol Cihazı")
   repTable?: { model: string; rows: { label: string; value: string }[] }; // seri ürünlerinde örnek modelin tam teknik tablosu
   codePage?: { href: string; count: number; discontinued: number }; // seri ürünlerinde sipariş kodu sayfası
 };
@@ -37,6 +40,8 @@ export type Product = {
 import { ssrProducts } from "./ssr";
 import { sprProducts } from "./spr";
 import { encProducts } from "./enkoder";
+import { kontrolProducts } from "./kontrol";
+import { YEDEK_CAT_TEXT, yedekParcaProducts } from "./yedek-parca";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -144,6 +149,8 @@ export const products: Product[] = [
   // Autonics solid state röleler (SSR), 8 seri: src/data/ssr.ts
   ...ssrProducts,
   ...encProducts,
+  ...kontrolProducts,
+  ...yedekParcaProducts,
 ];
 
 // Üretici sayfasındaki teknik tablo ile doğrulanan modeller.
@@ -196,6 +203,19 @@ const groupLabel = (p: Product) => {
   }
   return p.series ?? "Diğer";
 };
+// Görseli olmayan ürünler (06-10-2026, Mert kararı): kendi kategorilerinden ayrılıp "Diğer ürünler" kategorisinde,
+// eski kategori adıyla gruplanarak listelenir. Görsel eklendiğinde ürün otomatik olarak kendi kategorisine döner.
+export const OTHER_CATEGORY = "Diğer ürünler";
+const catOrder = new Map<string, number>();
+for (const p of products) if (!catOrder.has(p.category)) catOrder.set(p.category, catOrder.size);
+for (const p of products) {
+  if (p.image) continue;
+  const from = p.category;
+  p.groupTitle = from;
+  p.groupOrder = catOrder.get(from) ?? 99;
+  p.category = OTHER_CATEGORY;
+}
+
 export function storeCategories() {
   const cats: { id: string; title: string; groups: { id: string; title: string; items: Product[] }[] }[] = [];
   for (const p of products) {
@@ -210,8 +230,11 @@ export function storeCategories() {
     c.groups.sort((a, b) => (a.items[0].groupOrder ?? 0) - (b.items[0].groupOrder ?? 0) || (a.items[0].current ?? 0) - (b.items[0].current ?? 0));
     for (const g of c.groups) g.items.sort((a, b) => (a.current ?? 0) - (b.current ?? 0) || a.model.localeCompare(b.model));
   }
-  return cats;
+  // "Diğer ürünler" her zaman en sonda
+  return cats.sort((a, b) => Number(a.title === OTHER_CATEGORY) - Number(b.title === OTHER_CATEGORY));
 }
+
+export const fullName = (p: Product) => (p.brand ? `${p.brand} ${p.model}` : p.model);
 
 export const getProduct = (slug: string) => products.find((p) => p.slug === slug);
 
@@ -250,12 +273,12 @@ export const CATEGORY_INFO: Record<string, { seoTitle: string; description: stri
     keywords: ["tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "tristör sürücü", "thyristor power controller", "Autonics DPU", "Autonics SPR1", "Autonics SPR3", "Autonics SPRM", "Autonics SPRS", "güç kontrol ünitesi Ankara", "tristör fiyat"],
   },
   "solid-state-roleler-ssr": {
-    seoTitle: "Solid State Röle (SSR) – Autonics Katı Hal Rölesi | Ankara",
+    seoTitle: "Solid State Röle (SSR) – Autonics, NCR Katı Hal Rölesi | Ankara",
     description:
-      "Autonics solid state röleler (SSR, katı hal rölesi): tek ve üç fazlı, 1–75 A, sıfır geçişli ve rastgele açma. 8 seri, 224 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+      "Autonics ve NCR solid state röleler (SSR, katı hal rölesi): tek ve üç fazlı, 1–120 A; Autonics 8 seri 224 model, NCR HHG1, HHG1D, HHG1-3, HHG2 ve potansiyometreyle sürülen HHT1. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
     intro: [
       "Solid state röleler (SSR, katı hal rölesi) yükü mekanik kontak olmadan yarı iletkenle anahtarlar; sessiz, hızlı ve uzun ömürlüdür. Isıtıcı kontrolü, fırınlar, ambalaj ve plastik makineleri gibi sık anahtarlama gereken uygulamalarda kullanılır. Autonics SSR ailesi tek fazlı ve üç fazlı, 1 A'den 75 A'e kadar, sıfır geçişli ve rastgele açma modellerinden oluşur.",
-      "Seriler: sökülebilir soğutuculu SR1 ve SR3, ince tip SRC1, entegre soğutuculu SRH1 ve SRH3, aşırı ısınma önlemeli SRHL1 ve SRHL3, soketli SRS1. Ankara merkezli AOM, SSR seçimi, soğutucu ve pano uygulaması konusunda destek verir; Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
+      "Mağazada ayrıca NCR (Nicerelay) HHG1 masa tipi, HHG1D tarak tipi, HHG1-3 üç fazlı, HHG2 tek fazlı ve potansiyometreyle sürülen HHT1 SSR'ler yer alır. Autonics serileri: sökülebilir soğutuculu SR1 ve SR3, ince tip SRC1, entegre soğutuculu SRH1 ve SRH3, aşırı ısınma önlemeli SRHL1 ve SRHL3, soketli SRS1. Ankara merkezli AOM, SSR seçimi, soğutucu ve pano uygulaması konusunda destek verir; Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
     ],
     keywords: ["solid state röle", "SSR", "katı hal rölesi", "SSR röle fiyatları", "Autonics SSR", "üç fazlı SSR", "SSR Ankara"],
   },
@@ -268,6 +291,66 @@ export const CATEGORY_INFO: Record<string, { seoTitle: string; description: stri
       "Her serinin tüm sipariş kodları (8.644 kod) çözünürlük, çıkış fazı, kontrol çıkışı (totem pole, NPN açık kolektör, gerilim çıkışı, line driver), besleme ve bağlantı bilgileriyle enkoder model kodları sayfalarında listelenir. Ankara merkezli AOM, enkoder seçimi, kaplin ve montaj ile PLC / sayıcı bağlantısı konusunda destek verir; Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
     ],
     keywords: ["enkoder", "encoder", "artımlı enkoder", "inkremental enkoder", "mutlak enkoder", "absolute encoder", "Autonics enkoder", "Autonics E40S", "Autonics E50S", "enkoder fiyat", "enkoder Ankara", "rotary encoder"],
+  },
+  "sicaklik-kontrol-cihazlari": {
+    seoTitle: "Sıcaklık Kontrol Cihazı – Autonics TK, TM, TMH, TCN | Ankara",
+    description: "Autonics PID sıcaklık kontrol cihazları: TK serisi (509 model), TM ve TMH modüler çok kanallı, TCN4S-24R. SSR, akım ve röle çıkışlı. Diğer serilerin kodları kod sayfalarında. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Sıcaklık kontrol cihazları (termostat, PID kontrolör) termokupl veya RTD girişinden ölçtüğü sıcaklığı ayar değerine göre röle, SSR sürücü veya 4–20 mA çıkışla kontrol eder. Mağazada Autonics TK serisi yüksek performanslı PID kontrol cihazları (48×24 mm'den 96×96 mm'ye 7 gövde), TM ve TMH modüler çok kanallı kontrol cihazları ve TCN4S-24R çift ekranlı ekonomik model ürün olarak yer alır.", "TN, TX, TC, TCN, TA, TR1D, TH4M, T3/T4, TC3YF, TF3 ve KPN serilerinin tüm sipariş kodları kontrol cihazı kod sayfalarında listelenir. AOM, sıcaklık kontrol cihazını mağazadaki SSR ve tristörlü güç kontrol üniteleriyle birlikte ısıtma panosunda uygular; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz."],
+    keywords: ["sıcaklık kontrol cihazı", "PID kontrol cihazı", "termostat", "Autonics TK", "TK4S", "TK4M", "Autonics TM", "Autonics TMH", "TCN4S-24R", "sıcaklık kontrol cihazı Ankara"],
+  },
+  "dijital-panel-metreler": {
+    seoTitle: "Dijital Panel Metre – Autonics MX4W ve Tüm Kodlar | Ankara",
+    description: "Autonics dijital panel metreler: MX4W LCD panel metre ürün olarak; MT4Y/MT4W, MT4N, M4 voltmetre, ampermetre, wattmetre, takometre ve pals metre kodları kod sayfalarında. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Dijital panel metreler gerilim, akım, güç, devir veya proses sinyalini (4–20 mA, 0–10 V) panoda sayısal olarak gösterir; alarm, karşılaştırma ve aktarım çıkışlı modelleri vardır. Mağazada Autonics MX4W LCD ekranlı panel metreler ürün olarak yer alır.", "MT4Y/MT4W, MT4N, M4N, M4NN, M4V, M4Y/M5W/M4W/M4M (voltmetre, ampermetre, wattmetre, takometre, ölçekli), M4NS/M4YS, LR5N-B, MP5S/MP5Y/MP5W ve MP5M serilerinin tüm sipariş kodları kod sayfalarında listelenir."],
+    keywords: ["dijital panel metre", "panel metre", "voltmetre", "ampermetre", "Autonics MX4W", "Autonics MT4W", "pals metre", "takometre"],
+  },
+  "sayicilar": {
+    seoTitle: "Sayıcı (Sayaç) – Autonics CT, CX, FX, LA8N | Ankara",
+    description: "Autonics dijital sayıcılar ve sayıcı/zamanlayıcılar: CT, CX, LA8N, FXY, FXS, FXM/FXH, FS, FM ve CM6M serileri, 93 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Sayıcılar sensör, enkoder veya kontaktan gelen palsleri sayar, ayar değerine ulaşınca çıkış verir. Mağazada Autonics programlanabilir sayıcı/zamanlayıcılar (CT, CX), LCD sayıcılar (LA8N), standart ve küçük dijital sayıcılar (FX serisi, FS), ölçüm sayıcıları (FM) ve 30 kanallı CM6M yer alır.", "AOM, sayıcı seçimi, sensör / enkoder bağlantısı ve pano uygulaması konusunda destek verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz."],
+    keywords: ["sayıcı", "dijital sayıcı", "sayaç", "Autonics CT", "Autonics CX", "Autonics FX", "LA8N", "sayıcı zamanlayıcı"],
+  },
+  "zamanlayicilar": {
+    seoTitle: "Zamanlayıcı (Timer) – Autonics ATM, ATS, ATN, LE | Ankara",
+    description: "Autonics analog ve dijital zamanlayıcılar: ATM, ATS, ATN, ATE8, yıldız-üçgen, güç kesilme gecikmeli, LE serisi dijital ve haftalık zamanlayıcılar, 112 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Zamanlayıcılar (zaman rölesi) ayarlanan süreye göre çıkış kontağını açar veya kapar. Mağazada Autonics minyatür ve çok işlevli analog zamanlayıcılar (ATM, ATS, ATN, ATE8), yıldız-üçgen (ATS8SD-4, AT8SDN), güç kesilme gecikmeli (ATS8P, AT8PSN/AT8PMN), ikiz zamanlayıcılar ve LE serisi dijital / haftalık zamanlayıcılar yer alır.", "AOM, zamanlayıcı seçimi, soket ve pano uygulaması konusunda destek verir."],
+    keywords: ["zamanlayıcı", "zaman rölesi", "timer", "yıldız üçgen zaman rölesi", "Autonics ATS", "Autonics ATN", "Autonics ATM", "LE4S"],
+  },
+  "kayit-cihazlari": {
+    seoTitle: "Kayıt Cihazı (Recorder) – Autonics KRN | Ankara",
+    description: "Autonics kağıtlı ve kağıtsız kayıt cihazları: KRN50, KRN100, KRN1000 serileri, 78 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Kayıt cihazları sıcaklık, basınç, seviye gibi proses değerlerini zaman içinde kaydeder ve alarm çıkışı verir. Mağazada Autonics KRN50 küçük hibrit, KRN100 kağıtlı / kağıtsız ve KRN1000 dokunmatik ekranlı kağıtsız kayıt cihazları yer alır.", "AOM, kayıt cihazı seçimi, giriş kanalları ve haberleşme bağlantısı konusunda destek verir."],
+    keywords: ["kayıt cihazı", "recorder", "kağıtsız kayıt cihazı", "Autonics KRN100", "Autonics KRN1000", "KRN50"],
+  },
+  "gostergeler": {
+    seoTitle: "Proses Göstergesi – Autonics KN-1000B, KN-2000W | Ankara",
+    description: "Autonics çubuk grafik ve tek kanallı proses göstergeleri: KN-1000B ve KN-2000W serileri, 36 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Proses göstergeleri termokupl, RTD ve analog girişlerden gelen değeri gösterir; alarm ve aktarım çıkışlı modelleri vardır. Mağazada Autonics KN-1000B çubuk grafik ve KN-2000W tek kanallı göstergeler yer alır.", "AOM, gösterge seçimi ve pano uygulaması konusunda destek verir."],
+    keywords: ["proses göstergesi", "dijital gösterge", "Autonics KN-1000B", "Autonics KN-2000W"],
+  },
+  "dijital-ekran-birimleri": {
+    seoTitle: "Dijital Ekran Birimi – Autonics D1, D5, DS/DA | Ankara",
+    description: "Autonics 7 ve 16 bölmeli dijital ekran birimleri ve akıllı gösterge birimleri: D1AA, D1SA, D1SC-N, D5Y/D5W, DS/DA, 68 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Dijital ekran birimleri PLC veya kontrol cihazından gelen veriyi panoda rakam ve karakter olarak gösterir. Mağazada Autonics D1 serisi 7 / 16 bölmeli birimler, pano montajlı D5Y/D5W ve seri, paralel veya RS485 girişli DS/DA akıllı gösterge birimleri yer alır.", "AOM, ekran birimi seçimi ve PLC bağlantısı konusunda destek verir."],
+    keywords: ["dijital ekran birimi", "7 segment gösterge", "Autonics DS", "Autonics DA", "D1SA"],
+  },
+  "sensor-kontrol-cihazlari": {
+    seoTitle: "Sensör Kontrol Cihazı – Autonics PA10, PA-12 | Ankara",
+    description: "Autonics sensör kontrol cihazları: PA10 ve PA-12 serileri, 8 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Sensör kontrol cihazları sensörlere besleme verir, sensör sinyalini işleyip röle veya transistör çıkışına çevirir. Mağazada Autonics PA10 yüksek performanslı ve PA-12 8 pinli sensör kontrol cihazları yer alır.", "AOM, sensör kontrol cihazı seçimi ve sensör bağlantısı konusunda destek verir."],
+    keywords: ["sensör kontrol cihazı", "Autonics PA10", "Autonics PA-12"],
+  },
+  "grafik-paneller-hmi": {
+    seoTitle: "Grafik Panel (HMI) – Autonics TP, iTP, GP-A, LP-A | Ankara",
+    description: "Autonics dokunmatik grafik paneller (HMI) ve logic paneller: TP, iTP, GP-A, LP-A serileri, 29 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Grafik paneller (HMI) makine ve proses kontrolünde operatör arayüzüdür; PLC ile haberleşerek ekranda izleme ve kumanda sağlar. Mağazada Autonics TP ve GP-A standart, iTP gelişmiş grafik paneller ile dahili G/Ç'li LP-A logic paneller yer alır.", "AOM, HMI seçimi, ekran tasarımı ve PLC haberleşmesi konusunda destek verir."],
+    keywords: ["HMI", "operatör paneli", "dokunmatik panel", "Autonics HMI", "Autonics iTP", "Autonics GP-A", "logic panel"],
+  },
+  "endustriyel-bilgisayarlar": {
+    seoTitle: "Endüstriyel Panel PC – Autonics APC | Ankara",
+    description: "Autonics APC serisi 10,1 inç endüstriyel panel bilgisayar. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+    intro: ["Endüstriyel panel bilgisayarlar saha ortamında ekran, işlem ve haberleşmeyi tek gövdede sunar. Mağazada Autonics APC serisi 10,1 inç panel bilgisayarlar yer alır.", "AOM, panel bilgisayar seçimi ve saha uygulaması konusunda destek verir."],
+    keywords: ["panel PC", "endüstriyel bilgisayar", "Autonics APC"],
   },
 };
 
@@ -286,3 +369,32 @@ export function storeSeries() {
   for (const s of map.values()) s.items.sort((a, b) => (a.current ?? 0) - (b.current ?? 0) || a.model.localeCompare(b.model));
   return [...map.values()];
 }
+
+// Yedek parça ve elektronik / mekanik ürün kategorileri (06-10-2026): açıklamalar src/data/yedek-parca.ts
+for (const [cat, text] of Object.entries(YEDEK_CAT_TEXT)) {
+  const id = slugify(cat);
+  if (CATEGORY_INFO[id]) continue;
+  const items = yedekParcaProducts.filter((p) => p.category === cat);
+  const cnt = new Map<string, number>();
+  for (const p of items) if (p.brand) cnt.set(p.brand, (cnt.get(p.brand) ?? 0) + 1);
+  const brands = [...cnt.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([b]) => b);
+  CATEGORY_INFO[id] = {
+    seoTitle: `${cat}${brands.length ? ` – ${brands.join(", ")}` : ""} | Ankara`,
+    description: `${cat}: ${items.length} ürün${brands.length ? ` (${brands.join(", ")} ve diğerleri)` : ""}. ${text.split(". ")[0].replace(/\.$/, "")}. Ankara merkezli AOM'dan Türkiye geneline teklif ve tedarik.`,
+    intro: [
+      text,
+      "Ürünler orijinal üretici parça numarasıyla listelenir. Ankara merkezli AOM, parça numarasına göre tedarik ve muadil araştırmasında destek verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+    ],
+    keywords: [cat.toLocaleLowerCase("tr-TR"), `${cat.toLocaleLowerCase("tr-TR")} fiyat`, ...brands, `${cat.toLocaleLowerCase("tr-TR")} Ankara`],
+  };
+}
+
+CATEGORY_INFO[slugify(OTHER_CATEGORY)] = {
+  seoTitle: "Diğer Ürünler – CNC Yedek Parça, Fan, Sigorta, Potansiyometre | Ankara",
+  description: "Henüz fotoğrafı eklenmemiş ürünler: Fanuc ve Mitsubishi CNC yedek parçaları, fanlar, sigortalar, potansiyometreler, diyotlar, mekanik parçalar ve daha fazlası. Orijinal parça numarasıyla teklif ve tedarik; Ankara merkezli AOM'dan Türkiye geneline.",
+  intro: [
+    "Bu bölümde fotoğrafı henüz eklenmemiş ürünler, ait oldukları kategori adıyla gruplanarak listelenir: CNC yedek parçaları, fanlar, sigortalar ve termostatlar, potansiyometreler, diyotlar, sviç ve sensörler, el çarkları, takım bağlama ve ATC parçaları, rulman ve kilit somunları, ölçme ve kalibrasyon ürünleri.",
+    "Ürünler orijinal üretici parça numarasıyla listelenir. Aradığınız parça için kod veya ürün etiketi bilgisiyle teklif isteyebilirsiniz; Türkiye'nin her şehrinden taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["CNC yedek parça", "Fanuc yedek parça", "Mitsubishi yedek parça", "fan", "termik sigorta", "potansiyometre", "köprü diyot", "pull stud collet", "rulman kilit somunu"],
+};

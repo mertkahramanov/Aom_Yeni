@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { products, storeCategories, storeSeries } from "@/data/magaza";
 import { DPU_GROUPS } from "@/data/dpuCodes";
 import { ENC_SERIES } from "@/data/enkoder";
+import { KONTROL_KOD_SERIES } from "@/data/kontrol";
 
 const SITE = "https://aomtechnology.tr";
 
@@ -16,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...DPU_GROUPS.map((g) => ({ url: `${SITE}/magaza/dpu-kodlari/${g.id}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 })),
     { url: `${SITE}/magaza/enkoder-kodlari`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     ...ENC_SERIES.map((s) => ({ url: `${SITE}/magaza/enkoder-kodlari/${s.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 })),
+    { url: `${SITE}/magaza/kontrol-kodlari`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+    ...KONTROL_KOD_SERIES.map((s) => ({ url: `${SITE}/magaza/kontrol-kodlari/${s.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 })),
     ...products.map((p) => ({
       url: `${SITE}/magaza/${p.slug}`,
       lastModified: now,
