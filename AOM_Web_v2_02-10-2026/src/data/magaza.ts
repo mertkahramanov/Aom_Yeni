@@ -35,6 +35,7 @@ export type Product = {
   kindLabel?: string; // seri sayfası başlığındaki ürün türü (ör. "Sıcaklık Kontrol Cihazı")
   repTable?: { model: string; rows: { label: string; value: string }[] }; // seri ürünlerinde örnek modelin tam teknik tablosu
   codePage?: { href: string; count: number; discontinued: number }; // seri ürünlerinde sipariş kodu sayfası
+  used?: import("./ikinci-el").UsedInfo; // 2. el ürünlerde durum bilgisi
 };
 
 import { ssrProducts } from "./ssr";
@@ -42,6 +43,7 @@ import { sprProducts } from "./spr";
 import { encProducts } from "./enkoder";
 import { kontrolProducts } from "./kontrol";
 import { YEDEK_CAT_TEXT, yedekParcaProducts } from "./yedek-parca";
+import { IKINCI_EL_PREFIX, ikinciElProducts } from "./ikinci-el";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -151,6 +153,7 @@ export const products: Product[] = [
   ...encProducts,
   ...kontrolProducts,
   ...yedekParcaProducts,
+  ...ikinciElProducts,
 ];
 
 // Üretici sayfasındaki teknik tablo ile doğrulanan modeller.
@@ -209,7 +212,7 @@ export const OTHER_CATEGORY = "Diğer ürünler";
 const catOrder = new Map<string, number>();
 for (const p of products) if (!catOrder.has(p.category)) catOrder.set(p.category, catOrder.size);
 for (const p of products) {
-  if (p.image) continue;
+  if (p.image || p.used) continue; // 2. el ürünler kendi bölümünde kalır
   const from = p.category;
   p.groupTitle = from;
   p.groupOrder = catOrder.get(from) ?? 99;
@@ -230,9 +233,13 @@ export function storeCategories() {
     c.groups.sort((a, b) => (a.items[0].groupOrder ?? 0) - (b.items[0].groupOrder ?? 0) || (a.items[0].current ?? 0) - (b.items[0].current ?? 0));
     for (const g of c.groups) g.items.sort((a, b) => (a.current ?? 0) - (b.current ?? 0) || a.model.localeCompare(b.model));
   }
-  // "Diğer ürünler" her zaman en sonda
-  return cats.sort((a, b) => Number(a.title === OTHER_CATEGORY) - Number(b.title === OTHER_CATEGORY));
+  // "Diğer ürünler" her zaman en sonda, 2. el kategorileri ondan önce
+  const rank = (t: string) => (t === OTHER_CATEGORY ? 2 : t.startsWith(IKINCI_EL_PREFIX) ? 1 : 0);
+  return cats.sort((a, b) => rank(a.title) - rank(b.title));
 }
+
+export const isUsedCategory = (title: string) => title.startsWith(IKINCI_EL_PREFIX);
+export { IKINCI_EL_PREFIX };
 
 export const fullName = (p: Product) => (p.brand ? `${p.brand} ${p.model}` : p.model);
 
@@ -386,6 +393,22 @@ for (const [cat, text] of Object.entries(YEDEK_CAT_TEXT)) {
       "Ürünler orijinal üretici parça numarasıyla listelenir. Ankara merkezli AOM, parça numarasına göre tedarik ve muadil araştırmasında destek verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
     ],
     keywords: [cat.toLocaleLowerCase("tr-TR"), `${cat.toLocaleLowerCase("tr-TR")} fiyat`, ...brands, `${cat.toLocaleLowerCase("tr-TR")} Ankara`],
+  };
+}
+
+// 2. el kategorileri (06-10-2026): ürün geldikçe otomatik açıklama
+for (const cat of new Set(ikinciElProducts.map((p) => p.category))) {
+  const id = slugify(cat);
+  const name = cat.slice(IKINCI_EL_PREFIX.length);
+  const n = ikinciElProducts.filter((p) => p.category === cat).length;
+  CATEGORY_INFO[id] = {
+    seoTitle: `2. El ${name} | Ankara`,
+    description: `2. el ${name.toLocaleLowerCase("tr-TR")}: ${n} ürün. Her ürünün durum, test ve garanti bilgisi ürün sayfasında yazılıdır. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.`,
+    intro: [
+      `2. el ${name.toLocaleLowerCase("tr-TR")}. Her ürünün durumu, test bilgisi ve garanti koşulu ürün sayfasında belirtilir; fotoğraflar satıştaki ürüne aittir.`,
+      "Stok adedi sınırlıdır. Ürünü ayırtmak veya ayrıntılı bilgi almak için teklif isteyin.",
+    ],
+    keywords: [`2. el ${name.toLocaleLowerCase("tr-TR")}`, `ikinci el ${name.toLocaleLowerCase("tr-TR")}`, "2. el otomasyon malzemesi"],
   };
 }
 

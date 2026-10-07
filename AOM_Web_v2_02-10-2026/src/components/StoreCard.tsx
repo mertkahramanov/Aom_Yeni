@@ -19,6 +19,7 @@ export default function StoreCard({ p }: { p: Product }) {
   return (
     <Link href={`/magaza/${p.slug}`} className="store-card">
       <div className="store-visual">
+        {p.used && <span className="used-badge used-badge-card">2. el</span>}
         {p.image ? (
           <Image src={p.image.src} alt={p.image.alt} fill sizes="360px" style={{ objectFit: "contain" }} />
         ) : (

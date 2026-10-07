@@ -189,8 +189,8 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .service-list span { font-size: 14px; color: var(--ink-muted); }
 
 /* Logo ızgarası */
-.logo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; list-style: none; margin: 0; padding: 0; }
-.logo-grid li { border: 1px solid var(--line); height: 72px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display), sans-serif; font-weight: 700; color: var(--ink-muted); background: var(--surface-raised); text-align: center; padding: 0 8px; }
+.logo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 16px; list-style: none; margin: 0; padding: 0; max-width: 820px; }
+.logo-grid li { border: 1px solid var(--line); height: 190px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display), sans-serif; font-weight: 700; color: var(--ink-muted); background: var(--surface-raised); text-align: center; padding: 16px 12px; border-radius: 8px; }
 
 /* İletişim */
 .contact { background: var(--aom-red-tint); }
@@ -310,5 +310,19 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .cat-tile-body { display: flex; flex-direction: column; gap: 4px; padding: 12px 16px 16px; }
 .cat-tile-body strong { font-family: var(--font-display), sans-serif; font-size: 18px; line-height: 1.2; }
 .cat-tile-body span { font-size: 14px; color: var(--ink-muted); }
+.cat-tile-codes { border-top-color: var(--ink); }
+.cat-codes-box { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 16px 20px; background: var(--surface-raised); border: 1px solid var(--line); border-left: 3px solid var(--aom-red); }
+.cat-codes-box p { margin: 0; }
+.cat-tile-codes-label { display: flex; flex-direction: column; align-items: center; gap: 2px; font-size: 14px; color: var(--ink-muted); }
 .cat-code-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 24px; }
 @media (max-width: 640px) { .cat-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } .cat-tile-body strong { font-size: 15px; } .cat-tile-body { padding: 8px 10px 10px; } .cat-tile-visual { margin: 10px 10px 0; } .cat-tile-count { font-size: 40px; } }
+.cat-main { display: flex; flex-direction: column; gap: 16px; }
+
+/* 2. el ürünler (06-10-2026) */
+.used-badge { display: inline-block; align-self: flex-start; background: var(--ink); color: #fff; font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 3px 8px; border-radius: 4px; }
+.used-badge-card { position: absolute; top: 8px; left: 8px; z-index: 1; }
+.used-box { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0; padding: 12px 14px; background: var(--surface-raised); border: 1px solid var(--line); border-left: 3px solid var(--ink); font-size: 14px; }
+.used-box .used-badge { grid-column: 1 / -1; justify-self: start; }
+.used-box dt { font-weight: 600; color: var(--ink); }
+.used-box dd { margin: 0; color: var(--ink-muted); }
+.cat-tile-used { border-top-color: var(--ink); }

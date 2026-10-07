@@ -1,5 +1,7 @@
 // CNC yedek parçaları ve elektronik / mekanik ürünler (06-10-2026).
-// Liste ankaracncmarket.com.tr ürün yelpazesinden çıkarıldı; o sitenin kodları, metinleri ve fotoğrafları KULLANILMADI.
+// Liste ankaracncmarket.com.tr ve cncdunyasi.com ürün yelpazesinden çıkarıldı; bu sitelerin kodları, metinleri ve fotoğrafları KULLANILMADI.
+// Teknik tablo DPU / Autonics şablonu gibi kategoriye göre sabit satırlıdır (marka, orijinal kod, seri, ürün tipi, kategori satırları,
+// ölçüler, ağırlık); bilinmeyen değerler boş bırakılır (Mert, 06-10-2026). Kaynak listeler: 10_ ve 11_ dosyaları.
 // Her ürünün orijinal üreticisi ve parça numarası üretici siteleri, katalogları ve veri sayfalarıyla araştırıldı
 // (ayrıntı ve doğrulama durumu: 10_ANKARACNCMARKET_DUZELTILMIS_KODLAR_06-10-2026.md / .csv).
 // Doğrulanamayan kodlar sitede gösterilmez; ürün tanımıyla listelenir. Görseller yalnız üreticinin kendi sitesinden.
@@ -18,6 +20,9 @@ type Raw = {
   specs: [string, string][];
   source: string;
   img: { file: string; scope: "model" | "seri" } | null;
+  series: string;
+  opt: [string, string] | null;
+  body: [string, string] | null;
 };
 
 const LOGOS: Record<string, { src: string; w: number; h: number }> = {
@@ -53,7 +58,39 @@ const CAT_TEXT: Record<string, string> = {
   "Veri aktarımı": "Kart okuyucular, CF / SD kartlar ve veri aktarım cihazları CNC tezgâhına program yüklemek ve yedek almak için kullanılır.",
   "Makine lambaları": "Makine aydınlatma lambaları ve üç katlı tepe lambaları tezgâh içini aydınlatır ve çalışma durumunu gösterir.",
   "Sarf malzemeleri": "Bakım ve onarımda kullanılan yapıştırıcı, gres, temizleme aparatı ve benzeri sarf malzemeleri.",
-  "Güç kaynakları": "Anahtarlamalı güç kaynakları pano içindeki 24 V DC kumanda, sensör ve kontrol devrelerini besler.",
+  "Güç kaynakları ve trafolar": "Anahtarlamalı DC güç kaynakları pano içindeki kumanda, sensör ve kontrol devrelerini; AC trafolar step motor sürücüleri ve kumanda devrelerini besler. Seçimde giriş / çıkış gerilimi, çıkış akımı ve güç birlikte değerlendirilmelidir.",
+  "Hız kontrol cihazları (AC sürücüler)": "Hız kontrol cihazları (AC motor sürücü, inverter) asenkron motorun hızını frekansı değiştirerek ayarlar. Seçimde motor gücü, besleme gerilimi ve faz sayısı, nominal çıkış akımı ve kontrol yöntemi birlikte değerlendirilmelidir.",
+  "Spindle motorlar": "Spindle (iş mili) motorları CNC router ve işleme makinelerinde kesici takımı döndürür. Seçimde güç, maksimum devir, takım bağlama (ER pens, ISO / HSK konik), soğutma tipi ve takım değiştirme ihtiyacı birlikte değerlendirilmelidir.",
+  "Step ve servo motorlar, sürücüler": "Step motorlar ve sürücüleri CNC eksenlerinde konumlamayı açık veya kapalı çevrimle (enkoderli) sağlar. Seçimde flanş ölçüsü (NEMA), tutma torku, faz akımı ve sürücünün gerilim / akım aralığı birlikte değerlendirilmelidir.",
+  "Şalt ürünleri": "Kontaktörler, motor koruma şalterleri, termik röleler, otomatik sigortalar ve pako şalterler motor ve kumanda devrelerini anahtarlar ve korur. Seçimde anma akımı, motor gücü, bobin gerilimi ve ayar aralığı birlikte değerlendirilmelidir.",
+  Enkoderler: "Enkoderler mil dönüşünü elektrik sinyaline çevirerek açı, konum ve hız ölçer; çözünürlük, çıkış fazı, kontrol çıkışı ve besleme gerilimine göre seçilir.",
+  "CNC kontrol kartları ve panelleri": "CNC kontrol kartları ve panelleri step / servo sürücülere pals ve yön sinyali üreterek eksenleri yönetir. Seçimde eksen sayısı, arayüz (USB, Ethernet, bağımsız), giriş / çıkış sayısı ve desteklenen yazılım birlikte değerlendirilmelidir.",
+  "Vakum ve toz emme": "Vakum pompaları ve toz emme hortumları CNC router tablalarında parça tutma ve talaş / toz emişi için kullanılır; güç, debi, vakum değeri ve hortum çapına göre seçilir.",
+  "Lineer hareket sistemleri": "Lineer raylar ve arabalar, vidalı miller ve somunlar, uç yatakları, kaplinler, kremayer ve pinyon dişliler CNC eksenlerinde doğrusal hareketi taşır ve iletir. Seçimde boyut, mil çapı, hatve, modül ve hassasiyet birlikte değerlendirilmelidir.",
+  "Güç aktarma: kasnak, dişli ve redüktör": "Triger dişli kasnaklar ve planet redüktörler motor gücünü eksenlere ve mile iletir; profil, diş sayısı, kayış genişliği, delik çapı ve çevrim oranına göre seçilir.",
+  "Torna aynaları, pens ve takım tutucular": "Torna aynaları iş parçasını, ER pensler ve takım tutucular kesici takımı bağlar. Seçimde ayna çapı ve ayak sayısı, pens standardı ve bağlama aralığı birlikte değerlendirilmelidir.",
+  "Yağlama sistemleri": "Merkezi yağlama pompaları kızak, vidalı mil ve rulmanları düzenli yağlayarak ömürlerini uzatır; tank hacmi, besleme gerilimi ve çalışma tipine göre seçilir.",
+  "Sigma profiller": "Alüminyum sigma profiller makine gövdesi, koruma kabini ve fikstür yapımında kullanılır; kanal ölçüsü, kesit ve seriye göre seçilir.",
+};
+
+// Seri sayfası başlığındaki ürün türü
+const KIND: Record<string, string> = {
+  "Hız kontrol cihazları (AC sürücüler)": "Hız Kontrol Cihazı",
+  "Spindle motorlar": "Spindle Motor",
+  "Step ve servo motorlar, sürücüler": "Step Motor ve Sürücü",
+  "Şalt ürünleri": "Şalt Ürünü",
+  "Güç kaynakları ve trafolar": "Güç Kaynağı",
+  Enkoderler: "Enkoder",
+  "CNC kontrol kartları ve panelleri": "CNC Kontrol Ünitesi",
+  "Lineer hareket sistemleri": "Lineer Hareket Elemanı",
+  "Güç aktarma: kasnak, dişli ve redüktör": "Güç Aktarma Elemanı",
+  "Torna aynaları, pens ve takım tutucular": "Torna Aynası / Pens",
+  "Röleler ve röle soketleri": "Röle",
+  "Solid state röleler (SSR)": "Solid State Röle (SSR)",
+  Fanlar: "Fan",
+  "Rulmanlar, kilit somunları ve yaylar": "Rulman",
+  "Vakum ve toz emme": "Vakum / Toz Emme Ürünü",
+  "Sigma profiller": "Sigma Profil",
 };
 
 const SUPPORT =
@@ -64,9 +101,9 @@ const lc = (t: string) => (/^[A-ZÇĞİÖŞÜ][a-zçğıöşü]/.test(t) ? t[0].
 function build(r: Raw): Product {
   const code = r.specs.find(([l]) => l === "Orijinal kod")?.[1];
   const full = r.brand ? `${r.brand} ${r.model}` : r.model;
-  const facts = r.specs.filter(([l]) => !["Marka", "Orijinal kod", "Kod", "Diğer geçerli kodlar"].includes(l)).slice(0, 3);
+  const facts = r.specs.filter(([l, v]) => v && !["Marka", "Orijinal kod", "Kod", "Diğer geçerli kodlar", "Seri", "Ürün tipi"].includes(l)).slice(0, 3);
   const factLine = facts.map(([l, v]) => `${l.toLocaleLowerCase("tr-TR")}: ${v}`).join("; ");
-  const alts = r.specs.find(([l]) => l === "Diğer geçerli kodlar")?.[1];
+  const alts = r.specs.find(([l]) => l === "Diğer geçerli kodlar")?.[1] || undefined;
   const logo = LOGOS[r.brand];
   // Ürün sayfasında başlığın (marka + kod) altındaki satır: ad başlığı tekrar ediyorsa yalnız tanım kısmı
   let lead = r.name;
@@ -87,6 +124,12 @@ function build(r: Raw): Product {
     source: r.source ? { label: "Üretici sayfası", url: r.source } : undefined,
     specNote: "Teknik bilgiler üretici katalog ve veri sayfalarından ve ürün kodundan derlenmiştir; sipariş öncesi kodu ürün etiketiyle birlikte teyit ederiz.",
     groupTitle: r.group,
+    series: r.series || undefined,
+    kindLabel: KIND[r.category] ?? "Ürün",
+    option: r.opt?.[1],
+    optionLabel: r.opt?.[0],
+    bodySize: r.body?.[1],
+    bodyLabel: r.body?.[0],
     groupOrder: 1000 + r.gorder,
     seoTitle: full.length > 52 ? full.slice(0, 52).replace(/[ ,;(]+[^ ,;(]*$/, "") : full,
     metaDescription: `${r.name}.${factLine ? " " + factLine + "." : ""}`.slice(0, 260),

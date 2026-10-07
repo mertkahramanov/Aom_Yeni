@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import OemMarquee from "@/components/OemMarquee";
@@ -42,9 +43,31 @@ const services = [
   { title: "Mekanik dönüşümler", text: "Örn. kamalı preste pnömatik kavrama-fren" },
 ];
 
-// Logo kullanım izinleri teyit edilene kadar adlar metin olarak gösteriliyor.
-const oem = ["Yaskawa", "Fanuc", "ABB", "Siemens", "Mitsubishi Electric", "Omron", "Pilz", "Leuze"];
-const references = ["Aselsan", "Roketsan", "TUSAŞ", "Baykar", "Havelsan", "TEI", "FNSS", "ASFAT"];
+// OEM partnerliği logoları: hepsi sözleşmeli partner, kullanım onaylı.
+// Dosyalar /public/oem/ altında (OemMarquee ile aynı kaynak).
+const oem = [
+  { name: "Yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
+  { name: "Fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160 },
+  { name: "ABB", src: "/oem/abb_03-10-2026.png", w: 319, h: 129 },
+  { name: "Siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60 },
+  { name: "Mitsubishi Electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160 },
+  { name: "Omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99 },
+  { name: "Pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149 },
+  { name: "Leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115 },
+];
+
+// Referans/müşteri logoları: AOM Media / Referanslarımız klasöründeki resmi
+// logolardan alınmıştır, kullanım onaylı. Dosyalar /public/referanslar/ altında.
+const references = [
+  { name: "Aselsan", src: "/referanslar/aselsan_06-10-2026.png", w: 400, h: 171 },
+  { name: "Roketsan", src: "/referanslar/roketsan_06-10-2026.png", w: 800, h: 182 },
+  { name: "TUSAŞ", src: "/referanslar/tusas_06-10-2026.png", w: 2748, h: 1426 },
+  { name: "Baykar", src: "/referanslar/baykar_06-10-2026.jpg", w: 739, h: 415 },
+  { name: "Havelsan", src: "/referanslar/havelsan_06-10-2026.png", w: 2362, h: 778 },
+  { name: "TEI", src: "/referanslar/tei_06-10-2026.png", w: 800, h: 343 },
+  { name: "FNSS", src: "/referanslar/fnss_06-10-2026.png", w: 738, h: 195 },
+  { name: "ASFAT", src: "/referanslar/asfat_06-10-2026.png", w: 300, h: 126 },
+];
 
 const projectInputs = [
   "3B model veya teknik resim",
@@ -126,11 +149,18 @@ export default function HomePage() {
         <div className="container" style={{ paddingTop: 64, paddingBottom: 64, display: "flex", flexDirection: "column", gap: 24 }}>
           <div className="eyebrow">OEM partnerlikleri</div>
           <ul className="logo-grid">
-            {oem.map((n) => (
-              <li key={n}>{n}</li>
+            {oem.map((b) => (
+              <li key={b.name}>
+                <Image
+                  src={b.src}
+                  alt={b.name}
+                  width={b.w}
+                  height={b.h}
+                  style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
+                />
+              </li>
             ))}
           </ul>
-          <div className="caption">[LOGO KULLANIM İZİNLERİ TEYİT EDİLECEK]</div>
         </div>
       </section>
 
@@ -142,11 +172,18 @@ export default function HomePage() {
           anlaşmaları kapsamındadır.
         </p>
         <ul className="logo-grid">
-          {references.map((n) => (
-            <li key={n}>{n}</li>
+          {references.map((r) => (
+            <li key={r.name}>
+              <Image
+                src={r.src}
+                alt={r.name}
+                width={r.w}
+                height={r.h}
+                style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
+              />
+            </li>
           ))}
         </ul>
-        <div className="caption">[LOGO KULLANIM İZİNLERİ TEYİT EDİLECEK]</div>
       </section>
 
       {/* İletişim */}

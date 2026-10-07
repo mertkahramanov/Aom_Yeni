@@ -54,7 +54,7 @@ function jsonLd(p: NonNullable<ReturnType<typeof getProduct>>) {
     category: p.category,
     url,
     image: p.image ? `${SITE}${p.image.src}` : undefined,
-    additionalProperty: p.specs.map((s) => ({
+    additionalProperty: p.specs.filter((s) => s.value).map((s) => ({
       "@type": "PropertyValue",
       name: s.label.replace(/\*$/, ""),
       value: s.value,
@@ -132,6 +132,16 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
           <span className="eyebrow">{p.category}</span>
+          {p.used && (
+            <dl className="used-box">
+              <span className="used-badge">2. el ürün</span>
+              {p.used.condition && (<><dt>Durum</dt><dd>{p.used.condition}</dd></>)}
+              {p.used.tested && (<><dt>Test</dt><dd>{p.used.tested}</dd></>)}
+              {p.used.warranty && (<><dt>Garanti</dt><dd>{p.used.warranty}</dd></>)}
+              {p.used.qty !== undefined && (<><dt>Stok</dt><dd>{p.used.qty} adet</dd></>)}
+              {p.used.note && (<><dt>Not</dt><dd>{p.used.note}</dd></>)}
+            </dl>
+          )}
           <h1 style={{ fontWeight: 800, fontSize: 40, lineHeight: 1.05 }}>{fullName(p)}</h1>
           <p className="lead" style={{ fontSize: 17 }}>{p.name}</p>
           <p style={{ margin: 0, color: "var(--ink-muted)" }}>{p.summary}</p>

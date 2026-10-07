@@ -7,6 +7,16 @@ import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
 import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
 
+// Kategoriye ait sipariş kodu listeleri (mağaza ilk sayfasından buraya taşındı, 06-10-2026).
+const DPU_LIST = { href: "/magaza/dpu-kodlari", label: "DPU model kodları", total: 840, text: "Autonics DPU serisinin tüm sipariş kodları: monofaze ve trifaze, 110–480 V." };
+const KONTROL_LIST = { href: "/magaza/kontrol-kodlari", label: "Kontrol cihazı model kodları", total: KONTROL_KOD_TOTAL, text: "Ürün olarak eklenmeyen sıcaklık kontrol ve panel metre serilerinin sipariş kodları." };
+const CODE_LISTS: Record<string, { href: string; label: string; total: number; text: string }> = {
+  "tristorlu-guc-kontrol": DPU_LIST,
+  "sicaklik-kontrol-cihazlari": KONTROL_LIST,
+  "dijital-panel-metreler": KONTROL_LIST,
+  enkoderler: { href: "/magaza/enkoder-kodlari", label: "Enkoder model kodları", total: ENC_TOTAL, text: "34 serinin tüm sipariş kodları: çözünürlük, çıkış, besleme ve bağlantıya göre." },
+};
+
 export function generateStaticParams() {
   return storeCategories().map((c) => ({ kategori: c.id }));
 }
@@ -31,6 +41,7 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
   const c = categoryBySlug((await params).kategori);
   if (!c) notFound();
   const info = CATEGORY_INFO[c.id];
+  const codeList = CODE_LISTS[c.id];
   const items = c.groups.flatMap((g) => g.items);
   const url = `${SITE}/magaza/kategori/${c.id}`;
   const jsonLd = [
@@ -69,28 +80,23 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
             {t}
           </p>
         ))}
-        {c.id === "tristorlu-guc-kontrol" && (
-          <p style={{ margin: 0 }}>
-            Autonics DPU serisinin 840 sipariş kodunun tamamı (monofaze ve trifaze, 110–480 V):{" "}
-            <Link href="/magaza/dpu-kodlari">DPU model kodları</Link>
-          </p>
-        )}
-        {(c.id === "sicaklik-kontrol-cihazlari" || c.id === "dijital-panel-metreler") && (
-          <p style={{ margin: 0 }}>
-            Ürün olarak eklenmeyen sıcaklık kontrol ve panel metre serilerinin {KONTROL_KOD_TOTAL.toLocaleString("tr-TR")} sipariş kodu:{" "}
-            <Link href="/magaza/kontrol-kodlari">Kontrol cihazı model kodları</Link>
-          </p>
-        )}
-        {c.id === "enkoderler" && (
-          <p style={{ margin: 0 }}>
-            34 serinin {ENC_TOTAL.toLocaleString("tr-TR")} sipariş kodunun tamamı (çözünürlük, çıkış, besleme ve bağlantıya göre):{" "}
-            <Link href="/magaza/enkoder-kodlari">Enkoder model kodları</Link>
-          </p>
-        )}
         <p className="caption" style={{ margin: 0 }}>
           Fiyatlar KDV hariçtir; %20 KDV eklenir. Fiyatı gösterilmeyen ürünler için teklif isteyin.
         </p>
       </div>
+      {codeList && (
+        <div className="cat-codes-box">
+          <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+            <strong style={{ fontFamily: "var(--font-display), sans-serif", fontSize: 20 }}>
+              Sipariş kodu listesi <span className="store-count">{codeList.total.toLocaleString("tr-TR")} kod</span>
+            </strong>
+            <p style={{ color: "var(--ink-muted)" }}>{codeList.text}</p>
+          </div>
+          <Link href={codeList.href} className="btn btn-outline">
+            {codeList.label}
+          </Link>
+        </div>
+      )}
       <nav aria-label="Seriler" className="store-nav">
         {c.groups.map((g) => (
           <a key={g.id} href={`#${g.id}`} className="store-chip">
