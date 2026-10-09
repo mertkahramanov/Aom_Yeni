@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { fullName, getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
+import { BRANDS } from "@/data/markalar";
 import { eligibleRegion, REGION_LINE, sellerRef, SITE } from "@/lib/seo";
 
 const catSlug = (c: string) => slugify(c);
@@ -173,6 +174,11 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
               <a href={p.source.url} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
                 {p.source.label}
               </a>
+            )}
+            {!p.used && p.brand && BRANDS[slugify(p.brand)] && (
+              <Link href={`/magaza/marka/${slugify(p.brand)}`} className="btn btn-outline">
+                Tüm {p.brand} ürünleri
+              </Link>
             )}
           </div>
         </div>

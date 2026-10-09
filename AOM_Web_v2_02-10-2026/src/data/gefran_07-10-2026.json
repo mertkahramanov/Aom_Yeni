@@ -1,0 +1,1148 @@
+{
+ "generated": "07-10-2026",
+ "source": "https://www.gefran.com/products/power-control/",
+ "brand": {
+  "slug": "gefran",
+  "name": "Gefran",
+  "country": "İtalya",
+  "manufacturer_url": "https://www.gefran.com",
+  "authorized": true,
+  "brand_page_intro": "AOM, Gefran güç kontrol üniteleri, solid state röleler ve motor yol vericilerinin yetkili satış noktasıdır. Ürün seçimi, pano entegrasyonu ve devreye alma desteği verir."
+ },
+ "categories": [
+  {
+   "slug": "tristorlu-guc-kontrol",
+   "name": "Tristörlü güç kontrol",
+   "exists": true,
+   "gefran_count": 10
+  },
+  {
+   "slug": "solid-state-roleler-ssr",
+   "name": "Solid state röleler (SSR)",
+   "exists": true,
+   "gefran_count": 7
+  },
+  {
+   "slug": "motor-starter",
+   "name": "Motor yol vericiler (motor starter)",
+   "exists": false,
+   "gefran_count": 1,
+   "seo_title": "Motor Yol Verici (Motor Starter) | Ankara | AOM",
+   "intro": "Küçük ve orta güçlü motorlar için doğrudan yol verme, yön değiştirme ve koruma fonksiyonlu kompakt motor starter modülleri."
+  }
+ ],
+ "products": [
+  {
+   "index_code": "GEF-PC-01",
+   "slug": "gefran-grc",
+   "url_path": "/magaza/gefran-grc",
+   "brand": "Gefran",
+   "series": "GRC",
+   "name": "Gefran GRC",
+   "subtitle": "Kompakt tristörlü güç kontrol ünitesi, 1/2/3 faz, 25–150 A",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Endüstriyel elektrikli ısıtma için 1, 2 veya 3 fazlı, 25–150 A kompakt SCR güç kontrol ünitesi. Sıfır geçiş ve faz açısı ateşleme, akım sınırlama ve Modbus, EtherCAT, ProfiNET gibi fieldbus seçenekleri.",
+   "about": "Gefran GRC, rezistif ısıtıcılardan MoSi2, SiC, grafit ve SWIR yüklerine ve trafo primerlerine kadar farklı yük tiplerini kontrol eden kompakt tristörlü güç kontrol ünitesidir. LCD ekran ve ön panel tuşlarıyla yapılandırılır; V, V², I, I² ve P geri beslemesiyle prosesi kararlı tutar. Entegre diyagnostik fonksiyonları olası arızaları önceden haber verir.",
+   "applications": [
+    "Endüstriyel elektrikli ısıtma prosesleri",
+    "Lineer rezistanslar",
+    "MoSi2, SiC, grafit ısıtıcılar",
+    "SWIR lambalar",
+    "Trafo primeri"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz, 2 faz, 3 faz"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "25–150 A"
+    },
+    {
+     "name": "Gerilim",
+     "value": "480 Vac, 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Yapılandırılabilir analog giriş/çıkış (mA, V), dijital giriş/çıkış"
+    },
+    {
+     "name": "Ateşleme modu",
+     "value": "Sıfır geçiş (sabit çevrim, burst firing, yarım tek çevrim), faz açısı; akım sınırlama"
+    },
+    {
+     "name": "Geri besleme",
+     "value": "V, V², I, I², P"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "Modbus RTU/TCP, EtherNet/IP, EtherCAT, PROFINET"
+    },
+    {
+     "name": "Arayüz",
+     "value": "LCD ekran, ön panel yapılandırma tuşları"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/grc-compact-single-two-three-phase-power-controller-up-to-150a/",
+   "image": "/magaza/gefran-grc_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRC Kompakt tristörlü güç kontrol ünitesi | Ankara | AOM",
+   "seo_description": "Endüstriyel elektrikli ısıtma için 1, 2 veya 3 fazlı, 25–150 A kompakt SCR güç kontrol ünitesi. Sıfır geçiş ve faz açısı ateşleme, akım sınırlama ve Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-02",
+   "slug": "gefran-gpc",
+   "url_path": "/magaza/gefran-gpc",
+   "brand": "Gefran",
+   "series": "GPC",
+   "name": "Gefran GPC",
+   "subtitle": "Gelişmiş tristörlü güç kontrol ünitesi, 1/2/3 faz, 40–600 A",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "1, 2 veya 3 fazlı, 40–600 A, 690 Vac'a kadar gelişmiş SCR güç kontrol ünitesi. Tüm yük tipleriyle uyumlu; PROFINET, Profibus DP, EtherCAT, CANopen dahil geniş fieldbus desteği.",
+   "about": "Gefran GPC, endüstriyel elektrikli ısıtma proseslerinin hassas kontrolü için tasarlanmış sağlam ve kompakt bir tristörlü güç kontrol ünitesidir. Harici CT girişi, akım sınırlama, yapılandırılabilir analog çıkışlar ve gelişmiş diyagnostik sunar. Cam otoklavları, metal fırınları, alüminyum ekstrüzyon kalıp ön ısıtma ve döküm tutma fırınlarında kullanılır. GF_eXpress yazılımıyla yapılandırılır.",
+   "applications": [
+    "Cam otoklavları",
+    "Metal ısıl işlem fırınları",
+    "Alüminyum ekstrüzyon kalıp ön ısıtma",
+    "Float cam",
+    "Döküm tutma fırınları"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz, 2 faz, 3 faz"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "40–600 A"
+    },
+    {
+     "name": "Gerilim",
+     "value": "480 Vac, 600 Vac, 690 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Analog (mA, V), potansiyometre, dijital (PWM)"
+    },
+    {
+     "name": "Ateşleme modu",
+     "value": "Sıfır geçiş (sabit çevrim, burst firing, yarım tek çevrim), faz açısı; akım sınırlama"
+    },
+    {
+     "name": "Geri besleme",
+     "value": "V, V², I, I², P"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "PROFINET, Profibus DP, Modbus RTU/TCP, EtherNet/IP, EtherCAT, CANopen"
+    },
+    {
+     "name": "Diğer",
+     "value": "Harici CT girişi, yapılandırılabilir analog çıkış (mA, V)"
+    },
+    {
+     "name": "Kısa devre dayanımı",
+     "value": "SCCR UL 508 100 kA"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/gpc-single-two-three-phase-advanced-power-controller-up-to-600a/",
+   "image": "/magaza/gefran-gpc_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GPC Gelişmiş tristörlü güç kontrol ünitesi | Ankara | AOM",
+   "seo_description": "1, 2 veya 3 fazlı, 40–600 A, 690 Vac'a kadar gelişmiş SCR güç kontrol ünitesi. Tüm yük tipleriyle uyumlu; PROFINET, Profibus DP, EtherCAT, CANopen Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-03",
+   "slug": "gefran-grm",
+   "url_path": "/magaza/gefran-grm",
+   "brand": "Gefran",
+   "series": "GRM",
+   "name": "Gefran GRM",
+   "subtitle": "Kompakt tek fazlı güç kontrol ünitesi, 10–120 A, IO-Link",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Isıl işlem tesisleri için 1 fazlı, 10–120 A kompakt güç kontrol ünitesi. ZC, BF, HSC ve faz açısı ateşleme; IO-Link ve Modbus RTU; NFC ile akıllı telefondan yapılandırma.",
+   "about": "Gefran GRM, hassas proses kontrolü ve enerji optimizasyonu gereken ısıl işlem tesisleri için geliştirilmiş kompakt tek fazlı güç kontrol ünitesidir. 1/8 hassasiyetle kısmi yük kopma diyagnostiği yapar; kızılötesi lambalar ve silisyum karbür ısıtıcılar gibi karmaşık yükleri sürer.",
+   "applications": [
+    "Isıl işlem tesisleri",
+    "Kızılötesi lambalar",
+    "Silisyum karbür ısıtıcılar"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "10–120 A"
+    },
+    {
+     "name": "Gerilim",
+     "value": "480 V, 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Lojik komut (Vdc), analog, PWM, IO-Link"
+    },
+    {
+     "name": "Ateşleme modu",
+     "value": "Sıfır geçiş (ZC), burst firing (BF), yarım tek çevrim (HSC), faz açısı (PA)"
+    },
+    {
+     "name": "Geri besleme",
+     "value": "V, I, V², I², P, Z"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "IO-Link, Modbus RTU"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Kısmi yük kopma alarmı (1/8)"
+    },
+    {
+     "name": "Yapılandırma",
+     "value": "NFC ile akıllı telefon uygulaması"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Yeni",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/grm-compact-single-phase-power-controller-up-to-120a/",
+   "image": "/magaza/gefran-grm_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRM Kompakt tek fazlı güç kontrol ünitesi | Ankara | AOM",
+   "seo_description": "Isıl işlem tesisleri için 1 fazlı, 10–120 A kompakt güç kontrol ünitesi. ZC, BF, HSC ve faz açısı ateşleme; IO-Link ve Modbus RTU; NFC ile akıllı Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-04",
+   "slug": "gefran-grm-h",
+   "url_path": "/magaza/gefran-grm-h",
+   "brand": "Gefran",
+   "series": "GRM-H",
+   "name": "Gefran GRM-H",
+   "subtitle": "Kompakt tek fazlı güç kontrol ünitesi, 10–120 A, IO-Link",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "1 fazlı, 10–120 A kompakt güç kontrol ünitesi; soft start, akım sınırlama, şebeke dalgalanma kompanzasyonu ve 2/3 faz için slave kontrol çıkışı.",
+   "about": "Gefran GRM-H, ısıl işlem uygulamalarında hassas ısıtma kontrolü ve enerji optimizasyonu sağlayan tek fazlı güç kontrol ünitesidir. Soft start, akım limitleri ve şebeke gerilimi dalgalanma kompanzasyonu sunar; slave kontrol çıkışıyla iki veya üç fazlı sistemlerde kullanılabilir. NFC ile akıllı telefondan yapılandırılır.",
+   "applications": [
+    "Isıl işlem tesisleri",
+    "Kızılötesi lambalar",
+    "Silisyum karbür ısıtıcılar"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz (slave çıkışıyla 2/3 faz kullanım)"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "10–120 A"
+    },
+    {
+     "name": "Gerilim",
+     "value": "480 V, 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Lojik komut (Vdc), analog, PWM, IO-Link"
+    },
+    {
+     "name": "Ateşleme modu",
+     "value": "Sıfır geçiş, burst firing, yarım tek çevrim, faz açısı"
+    },
+    {
+     "name": "Geri besleme",
+     "value": "V, I, V², I², P, Z"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "IO-Link, Modbus RTU"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Kısmi yük kopma alarmı (1/8)"
+    },
+    {
+     "name": "Diğer",
+     "value": "Soft start, akım sınırlama, şebeke dalgalanma kompanzasyonu"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/grm-h-compact-single-phase-power-controller-up-to-120a/",
+   "image": "/magaza/gefran-grm-h_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRM-H Kompakt tek fazlı güç kontrol ünitesi | Ankara | AOM",
+   "seo_description": "1 fazlı, 10–120 A kompakt güç kontrol ünitesi; soft start, akım sınırlama, şebeke dalgalanma kompanzasyonu ve 2/3 faz için slave kontrol çıkışı. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-05",
+   "slug": "gefran-gfx4",
+   "url_path": "/magaza/gefran-gfx4",
+   "brand": "Gefran",
+   "series": "GFX4",
+   "name": "Gefran GFX4",
+   "subtitle": "4 PID çevrimli güç kontrol ünitesi, 30/60/80 kW",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Kontrol cihazı, solid state röle ve akım trafolarını tek gövdede birleştiren 4 bölgeli (4 PID) güç kontrol ünitesi; 30, 60 ve 80 kW seçenekleri.",
+   "about": "Gefran GFX4 (Geflex), dört bağımsız ısıtma/soğutma PID çevrimini, solid state röleyi ve akım trafolarını tek kompakt gövdede birleştirir; pano alanından ve kablolamadan tasarruf sağlar. Yük akımı, bölge kontrolü ve alarm durumlarıyla tam diyagnostik verir. Plastik enjeksiyon ve çok bölgeli ısıtma uygulamalarına uygundur.",
+   "applications": [
+    "Rezistif yük kontrolü",
+    "Plastik enjeksiyon",
+    "Çok bölgeli ısıtma"
+   ],
+   "specs": [
+    {
+     "name": "Güç seçenekleri",
+     "value": "30 kW, 60 kW, 80 kW"
+    },
+    {
+     "name": "Yük",
+     "value": "1, 2 ve 3 fazlı yükler"
+    },
+    {
+     "name": "Kontrol",
+     "value": "4 bağımsız ısıtma/soğutma PID çevrimi"
+    },
+    {
+     "name": "Girişler",
+     "value": "4 universal ana giriş, 4 yardımcı analog giriş (opsiyon), 2 dijital giriş"
+    },
+    {
+     "name": "Çıkışlar",
+     "value": "4 yapılandırılabilir çıkış (röle/lojik/triyak/sürekli), 2 röle alarm çıkışı"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "Standart Modbus RTU; opsiyon Profibus DP, CANopen, DeviceNet, Modbus TCP"
+    },
+    {
+     "name": "Montaj",
+     "value": "DIN ray veya panel"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/gfx4-power-controller-4-pid-loops-up-to-80kw/",
+   "image": "/magaza/gefran-gfx4_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GFX4 4 PID çevrimli güç kontrol ünitesi | Ankara | AOM",
+   "seo_description": "Kontrol cihazı, solid state röle ve akım trafolarını tek gövdede birleştiren 4 bölgeli (4 PID) güç kontrol ünitesi; 30, 60 ve 80 kW seçenekleri. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-06",
+   "slug": "gefran-gfx4-ir",
+   "url_path": "/magaza/gefran-gfx4-ir",
+   "brand": "Gefran",
+   "series": "GFX4-IR",
+   "name": "Gefran GFX4-IR",
+   "subtitle": "SWIR lambalar için 4 PID çevrimli güç kontrol, 30/60/80 kW",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Kısa dalga kızılötesi (SWIR) lambalar için 4 bölgeli güç kontrol ünitesi; tek çevrim ve akım sınırlamalı faz açısı kontrolü, gelişmiş yük diyagnostiği.",
+   "about": "Gefran GFX4-IR, kısa dalga kızılötesi lambaların ve trafo primer devrelerinin kontrolü için GFX4 platformunun özel versiyonudur. Kendi kendine öğrenen yük kopma tespiti, SCR kısa devre, aşırı akım, dengesiz 3 faz yük, faz kaybı/sırası ve aşırı sıcaklık alarmları sunar.",
+   "applications": [
+    "SWIR kızılötesi lambalar",
+    "Trafo primer devreleri",
+    "Plastik enjeksiyon"
+   ],
+   "specs": [
+    {
+     "name": "Güç seçenekleri",
+     "value": "30 kW, 60 kW, 80 kW"
+    },
+    {
+     "name": "Yük",
+     "value": "1 ve 3 fazlı yükler"
+    },
+    {
+     "name": "Kontrol",
+     "value": "4 PID çevrimi"
+    },
+    {
+     "name": "Girişler",
+     "value": "4 universal ana giriş, 4 yardımcı analog giriş (opsiyon)"
+    },
+    {
+     "name": "Ateşleme modu",
+     "value": "Sabit çevrimli sıfır geçiş, değişken çevrimli burst firing, tek çevrim (SWIR), akım sınırlamalı faz açısı"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "Standart Modbus RTU; opsiyon Profibus DP, CANopen, Euromap 66, DeviceNet, Modbus TCP, EtherNet/IP"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Yük kopma (self-learning), SCR kısa devre, aşırı akım, dengesiz 3 faz yük, faz kaybı/sırası, aşırı sıcaklık"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/gfx4-ir-power-controller-4-pid-loops-for-swir-lamps-up-to-80kw/",
+   "image": "/magaza/gefran-gfx4-ir_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GFX4-IR SWIR lambalar için 4 PID çevrimli güç kontrol | Ankara | AOM",
+   "seo_description": "Kısa dalga kızılötesi (SWIR) lambalar için 4 bölgeli güç kontrol ünitesi; tek çevrim ve akım sınırlamalı faz açısı kontrolü, gelişmiş yük diyagnostiği. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-07",
+   "slug": "gefran-ir-12-ir-24",
+   "url_path": "/magaza/gefran-ir-12-ir-24",
+   "brand": "Gefran",
+   "series": "IR-12/IR-24",
+   "name": "Gefran IR-12/IR-24",
+   "subtitle": "SWIR lambalar için çok kanallı güç kontrol, 12/24 kanal, 60 kW",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Kızılötesi lamba ısıtma sistemleri için duvar tipi, hepsi bir arada çok kanallı güç kontrol ünitesi: 12 veya 24 bağımsız çıkış, kanal başına 9 A, toplam 60 kW.",
+   "about": "Gefran IR-12 ve IR-24, tüm kontrol elemanlarını tek gövdede toplayan, duvara monte çok kanallı güç kontrol üniteleridir. Dahili ultra hızlı sigortalar, zaman paylaşımlı akım dengeleme ve gerilim dalgalanma kompanzasyonu sunar; yük kopma, şebeke gerilimi, SCR sıcaklığı, SCR kısa devre ve sigorta atması diyagnostiği yapar.",
+   "applications": [
+    "SWIR kızılötesi lamba ısıtma sistemleri"
+   ],
+   "specs": [
+    {
+     "name": "Kanal sayısı",
+     "value": "IR-12: 12, IR-24: 24 bağımsız çıkış"
+    },
+    {
+     "name": "Akım",
+     "value": "Kanal başına 9 A"
+    },
+    {
+     "name": "Toplam güç",
+     "value": "60 kW'a kadar"
+    },
+    {
+     "name": "Ateşleme modu",
+     "value": "Hızlı sıfır geçiş, yarım tek çevrim, faz açısı"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "Modbus RTU veya PROFINET"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Yük kopma, şebeke gerilimi, SCR sıcaklığı, SCR kısa devre, sigorta atması"
+    },
+    {
+     "name": "Diğer",
+     "value": "Dahili ultra hızlı sigortalar, akım dengeleme, gerilim kompanzasyonu"
+    },
+    {
+     "name": "Montaj",
+     "value": "Duvar tipi"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/ir-12-ir-24-multichannel-power-controllers-for-swir-lamps-up-to-60kw/",
+   "image": "/magaza/gefran-ir-12-ir-24_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran IR-12/IR-24 SWIR lambalar için çok kanallı güç kontrol | Ankara | AOM",
+   "seo_description": "Kızılötesi lamba ısıtma sistemleri için duvar tipi, hepsi bir arada çok kanallı güç kontrol ünitesi: 12 veya 24 bağımsız çıkış, kanal başına 9 A, Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-08",
+   "slug": "gefran-gfx",
+   "url_path": "/magaza/gefran-gfx",
+   "brand": "Gefran",
+   "series": "GFX",
+   "name": "Gefran GFX",
+   "subtitle": "Tek çevrim PID güç kontrol ünitesi, 25–120 A, master/slave",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Güç ve sıcaklık kontrolünü tek cihazda birleştiren, 25–120 A (AC1), 480 Vac tek çevrim PID güç kontrol ünitesi; master, slave ve expansion versiyonları.",
+   "about": "Gefran GFX (Geflex), çok bölgeli tesislerde sıcaklık kontrolü için optimize edilmiş, entegre CT'li güç ve sıcaklık kontrol sistemidir. Universal sıcaklık girişi, ısıtma/soğutma PID, self-tuning, auto-tuning ve soft start sunar. MASTER (bağımsız kontrol + haberleşme), SLAVE ve üç fazlı yükler için EXPANSION versiyonları vardır.",
+   "applications": [
+    "Endüstriyel elektrikli ısıtma prosesleri",
+    "Çok bölgeli sıcaklık kontrolü",
+    "Rezistif yükler"
+   ],
+   "specs": [
+    {
+     "name": "Akım seçenekleri",
+     "value": "25, 40, 60, 90, 120 A (AC1)"
+    },
+    {
+     "name": "Gerilim",
+     "value": "480 Vac rms, 50–60 Hz"
+    },
+    {
+     "name": "Giriş",
+     "value": "Universal sıcaklık girişi (%0,2 doğruluk), yapılandırılabilir dijital giriş"
+    },
+    {
+     "name": "Kontrol",
+     "value": "Isıtma/soğutma PID, self-tuning, auto-tuning, soft start; sıfır geçiş SSR çıkışı"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "RS485 (optik izoleli) Modbus RTU, PROFIBUS DP, CANopen"
+    },
+    {
+     "name": "Alarmlar",
+     "value": "4 genel alarm, LBA ve HB alarmları; entegre CT ile yük akımı ölçümü"
+    },
+    {
+     "name": "Versiyonlar",
+     "value": "MASTER, SLAVE, EXPANSION"
+    },
+    {
+     "name": "Koruma / montaj",
+     "value": "IP20; DIN ray ve panel"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/gfx-power-controller-single-loop-pid-up-to-120a-master-slave/",
+   "image": "/magaza/gefran-gfx_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GFX Tek çevrim PID güç kontrol ünitesi | Ankara | AOM",
+   "seo_description": "Güç ve sıcaklık kontrolünü tek cihazda birleştiren, 25–120 A (AC1), 480 Vac tek çevrim PID güç kontrol ünitesi; master, slave ve expansion versiyonları. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-09",
+   "slug": "gefran-gfx-multifunzione",
+   "url_path": "/magaza/gefran-gfx-multifunzione",
+   "brand": "Gefran",
+   "series": "GFX Multifunzione",
+   "name": "Gefran GFX Multifunzione",
+   "subtitle": "Tek çevrim PID güç kontrol ünitesi, 5/10/15 A, master/slave",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Değiştirilebilir fonksiyon modüllü (5/10/15 A SSR, çift çıkış, röle) kompakt PID güç kontrol ünitesi; sıcak yolluk, enjeksiyon ve çok bölgeli uygulamalar için.",
+   "about": "Gefran GFX Multifunzione, rezistif yük kontrolü için arka panel montajlı, PID mikroişlemcili kompakt bir cihazdır. Değiştirilebilir modülleriyle 5, 10 veya 15 A SSR, çift çıkış ya da röle konfigürasyonu alır. Özellikle sıcak yolluk, enjeksiyon ve çok bölgeli sistemlerde kullanılır.",
+   "applications": [
+    "Sıcak yolluk (hot runner) ısıtma",
+    "Plastik enjeksiyon",
+    "Çok bölgeli sistemler"
+   ],
+   "specs": [
+    {
+     "name": "Akım seçenekleri",
+     "value": "5 A, 10 A, 15 A (SSR modülü)"
+    },
+    {
+     "name": "Giriş",
+     "value": "Universal sıcaklık girişi (%0,2 doğruluk), yapılandırılabilir dijital giriş"
+    },
+    {
+     "name": "Kontrol",
+     "value": "Isıtma/soğutma PID, self-tuning, one-shot auto-tuning, soft start"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "RS485 (optik izoleli) Modbus RTU; opsiyon PROFIBUS DP, CANopen"
+    },
+    {
+     "name": "Alarmlar / çıkışlar",
+     "value": "4 genel alarm, LBA ve HB; 2 yapılandırılabilir röle çıkışı; lojik / soğutma röle çıkışı"
+    },
+    {
+     "name": "Versiyonlar",
+     "value": "MASTER, SLAVE, EXPANSION"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/gfx-multifunzione-power-controller-single-loop-pid-up-to-15a-master-slave/",
+   "image": "/magaza/gefran-gfx-multifunzione_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GFX Multifunzione Tek çevrim PID güç kontrol ünitesi | Ankara | AOM",
+   "seo_description": "Değiştirilebilir fonksiyon modüllü (5/10/15 A SSR, çift çıkış, röle) kompakt PID güç kontrol ünitesi; sıcak yolluk, enjeksiyon ve çok bölgeli Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-PC-10",
+   "slug": "gefran-gslm",
+   "url_path": "/magaza/gefran-gslm",
+   "brand": "Gefran",
+   "series": "GSLM",
+   "name": "Gefran GSLM",
+   "subtitle": "Akıllı elektrik yükü yöneticisi, 64 üniteye kadar",
+   "category_slug": "tristorlu-guc-kontrol",
+   "short_description": "Çok bölgeli ısıtma sistemlerinde GPC ve GFW güç kontrol ünitelerinin güç dağılımını yöneterek tepe tüketimi sınırlayan akıllı yük yöneticisi; 64 üniteye kadar.",
+   "about": "Gefran GSLM, çok bölgeli ısıtma sistemlerinde yük paylaşımı/yük atma ve öngörülü talep dağıtımı algoritmalarıyla toplam güç tepesini sınırlar; enerji maliyetini düşürür ve şalter açmalarını önler. Grafik trend, veri kaydı ve CSV dışa aktarma sunar; Ethernet veya analog bağlantıyla kontrol sistemine, VNC ile uzaktan erişime açılır.",
+   "applications": [
+    "Isıl işlem fırınları",
+    "Float cam tesisleri",
+    "Kimyasal sertleştirme",
+    "Cam bükme fırınları"
+   ],
+   "specs": [
+    {
+     "name": "Uyumluluk",
+     "value": "64 üniteye kadar Gefran GPC ve GFW güç kontrol ünitesi"
+    },
+    {
+     "name": "Fonksiyonlar",
+     "value": "Yük paylaşımı/yük atma, öngörülü talep dağıtımı, toplam güç tepe sınırlama"
+    },
+    {
+     "name": "İzleme",
+     "value": "Grafik trend, veri kaydı, CSV dışa aktarma"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "Ethernet / analog bağlantı, VNC uzaktan erişim"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/power-controllers/gslm-smart-electrical-loads-manager/",
+   "image": "/magaza/gefran-gslm_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GSLM Akıllı elektrik yükü yöneticisi | Ankara | AOM",
+   "seo_description": "Çok bölgeli ısıtma sistemlerinde GPC ve GFW güç kontrol ünitelerinin güç dağılımını yöneterek tepe tüketimi sınırlayan akıllı yük yöneticisi; 64 Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-SSR-01",
+   "slug": "gefran-grs",
+   "url_path": "/magaza/gefran-grs",
+   "brand": "Gefran",
+   "series": "GRS",
+   "name": "Gefran GRS",
+   "subtitle": "Tek fazlı solid state röle, 15–120 A",
+   "category_slug": "solid-state-roleler-ssr",
+   "short_description": "Endüstriyel ısıtma için 1 fazlı, 15–120 A, sıfır geçişli ultra ince solid state röle; termal ve yük kopma alarmı opsiyonları, SCCR 100 kA.",
+   "about": "Gefran GRS, elektrikli rezistansların sürekli ve hassas kontrolü için tasarlanmış ultra ince bir solid state röledir. Komut tarafında push-in, güç tarafında kutu klemens bulunur; aşırı gerilim koruması ve LED + dijital çıkışlı termal / yük kopma alarmı opsiyonları sunar. Soğutucu ayrı aksesuar olarak seçilir; entegre soğutuculu versiyonu GRS-H'dir.",
+   "applications": [
+    "Endüstriyel ısıtma",
+    "Rezistans kontrolü"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "15–120 A"
+    },
+    {
+     "name": "Yük gerilimi",
+     "value": "480 Vac, 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Vdc / Vac komut"
+    },
+    {
+     "name": "Anahtarlama",
+     "value": "Sıfır geçiş (ZC)"
+    },
+    {
+     "name": "Soğutucu",
+     "value": "Yok (aksesuar olarak)"
+    },
+    {
+     "name": "Montaj",
+     "value": "DIN ray ve panel"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Termal alarm ve yük kopma alarmı opsiyonu (LED + dijital çıkış)"
+    },
+    {
+     "name": "Koruma",
+     "value": "Aşırı gerilim koruması, SCCR 100 kA"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Yeni",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/solid-state-relays-with-without-heatsink/grs-single-phase-solid-state-relay-up-to-120a/",
+   "image": "/magaza/gefran-grs_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRS Tek fazlı solid state röle | Ankara | AOM",
+   "seo_description": "Endüstriyel ısıtma için 1 fazlı, 15–120 A, sıfır geçişli ultra ince solid state röle; termal ve yük kopma alarmı opsiyonları, SCCR 100 kA. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-SSR-02",
+   "slug": "gefran-grs-h",
+   "url_path": "/magaza/gefran-grs-h",
+   "brand": "Gefran",
+   "series": "GRS-H",
+   "name": "Gefran GRS-H",
+   "subtitle": "Entegre soğutuculu tek fazlı solid state röle, 15–120 A",
+   "category_slug": "solid-state-roleler-ssr",
+   "short_description": "1 fazlı, 15–120 A, entegre soğutuculu sıfır geçişli solid state röle; 90 ve 120 A modellerde fan desteği, SCCR 100 kA.",
+   "about": "Gefran GRS-H, GRS'nin entegre soğutuculu versiyonudur; ayrıca soğutucu seçimi gerektirmeden panoya monte edilir. 90 A ve 120 A modellerde fan desteklenir. Termal ve yük kopma alarmı opsiyonları ile aşırı gerilim koruması sunar.",
+   "applications": [
+    "Endüstriyel ısıtma",
+    "Rezistans kontrolü"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "15–120 A"
+    },
+    {
+     "name": "Yük gerilimi",
+     "value": "480 Vac, 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Vdc / Vac komut"
+    },
+    {
+     "name": "Anahtarlama",
+     "value": "Sıfır geçiş (ZC)"
+    },
+    {
+     "name": "Soğutucu",
+     "value": "Entegre; 90 A ve 120 A modellerde fan"
+    },
+    {
+     "name": "Montaj",
+     "value": "DIN ray ve panel"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Termal alarm ve yük kopma alarmı opsiyonu (LED + dijital çıkış)"
+    },
+    {
+     "name": "Koruma",
+     "value": "Aşırı gerilim koruması, SCCR 100 kA"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/solid-state-relays-with-without-heatsink/grs-h-single-phase-solid-state-relay-up-to-120a-integrated-heatsink/",
+   "image": "/magaza/gefran-grs-h_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRS-H Entegre soğutuculu tek fazlı solid state röle | Ankara | AOM",
+   "seo_description": "1 fazlı, 15–120 A, entegre soğutuculu sıfır geçişli solid state röle; 90 ve 120 A modellerde fan desteği, SCCR 100 kA. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-SSR-03",
+   "slug": "gefran-grp",
+   "url_path": "/magaza/gefran-grp",
+   "brand": "Gefran",
+   "series": "GRP",
+   "name": "Gefran GRP",
+   "subtitle": "Gelişmiş diyagnostikli tek fazlı solid state röle, 15–120 A, IO-Link",
+   "category_slug": "solid-state-roleler-ssr",
+   "short_description": "1 fazlı, 15–120 A, ZC/BF/HSC/PA modlu, IO-Link haberleşmeli gelişmiş diyagnostikli solid state röle; NFC ile yapılandırma.",
+   "about": "Gefran GRP, lineer rezistanslar ve LWIR/MWIR kızılötesi lambaların kontrolü için geliştirilmiş, dijital ve oransal (V/mA) komut alabilen ultra ince bir solid state röledir. Kısmi ısıtıcı kopma (1/8), SCR kısa devre, aşırı sıcaklık ve enerji kesintisi diyagnostiği yapar; IO-Link ile PLC'ye bağlanır, NFC uygulamasıyla yapılandırılır.",
+   "applications": [
+    "Lineer rezistanslar",
+    "LWIR/MWIR kızılötesi lambalar"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "15–120 A"
+    },
+    {
+     "name": "Yük gerilimi",
+     "value": "480 Vac, 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Dijital ve oransal (V/mA)"
+    },
+    {
+     "name": "Anahtarlama",
+     "value": "Sıfır geçiş (ZC), burst firing (BF), yarım tek çevrim (HSC), faz açısı (PA)"
+    },
+    {
+     "name": "Soğutucu",
+     "value": "Yok (GRP-H: entegre)"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Kısmi ısıtıcı kopma (1/8), SCR kısa devre, aşırı sıcaklık, enerji kesintisi"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "IO-Link; NFC yapılandırma"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Yeni",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/solid-state-relays-with-without-heatsink/grp-single-phase-solid-state-relay-with-advanced-diagnostic-up-to-120a/",
+   "image": "/magaza/gefran-grp_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRP Gelişmiş diyagnostikli tek fazlı solid state röle | Ankara | AOM",
+   "seo_description": "1 fazlı, 15–120 A, ZC/BF/HSC/PA modlu, IO-Link haberleşmeli gelişmiş diyagnostikli solid state röle; NFC ile yapılandırma. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-SSR-04",
+   "slug": "gefran-grp-h",
+   "url_path": "/magaza/gefran-grp-h",
+   "brand": "Gefran",
+   "series": "GRP-H",
+   "name": "Gefran GRP-H",
+   "subtitle": "Gelişmiş diyagnostikli tek fazlı solid state röle, 15–120 A, IO-Link",
+   "category_slug": "solid-state-roleler-ssr",
+   "short_description": "1 fazlı, 15–120 A, ZC/BF/HSC/PA modlu, IO-Link ve NFC'li gelişmiş diyagnostikli solid state röle; DIN ray montaj.",
+   "about": "Gefran GRP-H, GRP platformunun DIN ray montajlı versiyonudur. Dijital ve oransal komutla sürülür; kısmi ısıtıcı kopma (1/8), SCR kısa devre, aşırı sıcaklık ve enerji kesintisi diyagnostiği yapar, IO-Link üzerinden PLC'ye veri verir.",
+   "applications": [
+    "Lineer rezistanslar",
+    "LWIR/MWIR kızılötesi lambalar"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "15–120 A"
+    },
+    {
+     "name": "Yük gerilimi",
+     "value": "480 Vac, 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "Dijital ve oransal (V/mA)"
+    },
+    {
+     "name": "Anahtarlama",
+     "value": "ZC, BF, HSC, PA"
+    },
+    {
+     "name": "Montaj",
+     "value": "DIN ray"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "Kısmi ısıtıcı kopma (1/8), SCR kısa devre, aşırı sıcaklık, enerji kesintisi"
+    },
+    {
+     "name": "Haberleşme",
+     "value": "IO-Link; NFC yapılandırma"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/solid-state-relays-with-without-heatsink/grp-h-single-phase-solid-state-relay-with-advanced-diagnostic-up-to-120a/",
+   "image": "/magaza/gefran-grp-h_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRP-H Gelişmiş diyagnostikli tek fazlı solid state röle | Ankara | AOM",
+   "seo_description": "1 fazlı, 15–120 A, ZC/BF/HSC/PA modlu, IO-Link ve NFC'li gelişmiş diyagnostikli solid state röle; DIN ray montaj. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-SSR-05",
+   "slug": "gefran-grz",
+   "url_path": "/magaza/gefran-grz",
+   "brand": "Gefran",
+   "series": "GRZ",
+   "name": "Gefran GRZ",
+   "subtitle": "Üç fazlı solid state röle, 10–75 A",
+   "category_slug": "solid-state-roleler-ssr",
+   "short_description": "Elektrikli ısıtıcılar için 3 fazlı, 10–75 A, sıfır geçişli solid state röle; 2 veya 3 faz kontrol, beş diyagnostik LED.",
+   "about": "Gefran GRZ, endüstriyel ısıtma proseslerinde iki veya üç bacaklı yük kontrolü yapan kompakt bir üç fazlı solid state röledir. SCR aşırı sıcaklık alarmı, şebeke gerilimi, sigorta atması ve yük kopma izlemesi yapar; komut tarafında push-in, güç tarafında kafes klemens bulunur.",
+   "applications": [
+    "Elektrikli ısıtma kontrolü"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "3 faz (2 veya 3 bacak kontrol)"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "10–75 A"
+    },
+    {
+     "name": "Yük gerilimi",
+     "value": "480 Vac veya 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "DC / AC"
+    },
+    {
+     "name": "Anahtarlama",
+     "value": "Sıfır geçiş (ZC)"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "SCR aşırı sıcaklık, şebeke gerilimi, sigorta atması, yük kopma; 5 diyagnostik LED"
+    },
+    {
+     "name": "Bağlantı",
+     "value": "Push-in komut klemensi, kafes klemens güç bağlantısı"
+    },
+    {
+     "name": "Çalışma sıcaklığı",
+     "value": "0–70 °C (derating eğrileriyle)"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/solid-state-relays-with-without-heatsink/grz-three-phase-solid-state-relays-10-a-to-75a/",
+   "image": "/magaza/gefran-grz_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRZ Üç fazlı solid state röle | Ankara | AOM",
+   "seo_description": "Elektrikli ısıtıcılar için 3 fazlı, 10–75 A, sıfır geçişli solid state röle; 2 veya 3 faz kontrol, beş diyagnostik LED. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-SSR-06",
+   "slug": "gefran-grz-h",
+   "url_path": "/magaza/gefran-grz-h",
+   "brand": "Gefran",
+   "series": "GRZ-H",
+   "name": "Gefran GRZ-H",
+   "subtitle": "Üç fazlı solid state röle, 10–75 A, akıllı fan seçenekli",
+   "category_slug": "solid-state-roleler-ssr",
+   "short_description": "3 fazlı, 10–75 A, sıfır geçişli solid state röle; DIN ray ve panel montaj, akıllı fan seçenekleri, beş diyagnostik LED.",
+   "about": "Gefran GRZ-H, dar pano alanları için kompakt yapıda üç fazlı solid state röledir. SCR aşırı sıcaklık, şebeke gerilimi, sigorta atması ve yük kopma izlemesi yapar; Vdc/Vac akıllı fan seçenekleri sunar.",
+   "applications": [
+    "Elektrikli ısıtma kontrolü"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "3 faz (2 veya 3 bacak kontrol)"
+    },
+    {
+     "name": "Akım aralığı",
+     "value": "10–75 A"
+    },
+    {
+     "name": "Yük gerilimi",
+     "value": "480 Vac veya 600 Vac"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "DC / AC"
+    },
+    {
+     "name": "Anahtarlama",
+     "value": "Sıfır geçiş (ZC)"
+    },
+    {
+     "name": "Diyagnostik",
+     "value": "SCR aşırı sıcaklık, şebeke gerilimi, sigorta atması, yük kopma; 5 diyagnostik LED"
+    },
+    {
+     "name": "Montaj",
+     "value": "DIN ray ve panel"
+    },
+    {
+     "name": "Soğutma",
+     "value": "Akıllı fan seçenekleri (Vdc/Vac)"
+    },
+    {
+     "name": "Çalışma sıcaklığı",
+     "value": "0–70 °C"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/solid-state-relays-with-without-heatsink/grz-h-three-phase-solid-state-relays-10-a-to-75a/",
+   "image": "/magaza/gefran-grz-h_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GRZ-H Üç fazlı solid state röle | Ankara | AOM",
+   "seo_description": "3 fazlı, 10–75 A, sıfır geçişli solid state röle; DIN ray ve panel montaj, akıllı fan seçenekleri, beş diyagnostik LED. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-SSR-07",
+   "slug": "gefran-gq",
+   "url_path": "/magaza/gefran-gq",
+   "brand": "Gefran",
+   "series": "GQ",
+   "name": "Gefran GQ",
+   "subtitle": "Tek fazlı solid state röle, 10/25/50/90 A",
+   "category_slug": "solid-state-roleler-ssr",
+   "short_description": "Antiparalel çift SCR çıkışlı, sıfır geçişli 1 fazlı solid state röle; 10, 25, 50 ve 90 A, 600 VAC'a kadar; rezistif, endüktif ve kapasitif yükler.",
+   "about": "Gefran GQ, bakır/yarı iletken kuplaj teknolojisiyle yüksek geçici akımlara dayanıklı, sıfır geçişli bir solid state röledir. Gerilim sıfırında iletime girer, akım sıfırında kesime gider; 4000 Vrms giriş-çıkış izolasyonu ve opsiyonel dahili MOV sunar. Soğutucu, sigorta, varistör, termostat ve fan gibi aksesuarlarla tamamlanır.",
+   "applications": [
+    "Endüstriyel güç kontrolü",
+    "Rezistif, endüktif ve kapasitif yükler"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz"
+    },
+    {
+     "name": "Akım seçenekleri",
+     "value": "10, 25, 50, 90 Arms"
+    },
+    {
+     "name": "Yük gerilimi",
+     "value": "600 VAC'a kadar; tekrarsız 1600 Vp"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "3–32 VDC; 20–260 VAC/VDC (konnektörlü)"
+    },
+    {
+     "name": "Anahtarlama",
+     "value": "Sıfır geçiş"
+    },
+    {
+     "name": "Yük",
+     "value": "Rezistif, endüktif, kapasitif"
+    },
+    {
+     "name": "İzolasyon",
+     "value": "4000 Vrms giriş-çıkış"
+    },
+    {
+     "name": "Gösterge",
+     "value": "Kırmızı LED (sürüş sinyali)"
+    },
+    {
+     "name": "Opsiyon",
+     "value": "Dahili MOV"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/solid-state-relays-with-without-heatsink/gq-single-phase-solid-state-relay-up-to-90a/",
+   "image": "/magaza/gefran-gq_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran GQ Tek fazlı solid state röle | Ankara | AOM",
+   "seo_description": "Antiparalel çift SCR çıkışlı, sıfır geçişli 1 fazlı solid state röle; 10, 25, 50 ve 90 A, 600 VAC'a kadar; rezistif, endüktif ve kapasitif yükler. Ankara AOM'dan teklif."
+  },
+  {
+   "index_code": "GEF-MS-01",
+   "slug": "gefran-g-start",
+   "url_path": "/magaza/gefran-g-start",
+   "brand": "Gefran",
+   "series": "G-Start",
+   "name": "Gefran G-Start",
+   "subtitle": "1/3 fazlı motor yol verici, 3 kW, PL e / SIL 3 acil stop",
+   "category_slug": "motor-starter",
+   "short_description": "Üç fazlı motorlar için doğrudan yol verme ve opsiyonel ters dönüş fonksiyonlu, 3 kW / 7 A (500 Vac) kompakt motor starter; PL e / SIL 3 acil stop.",
+   "about": "Gefran G-Start, konveyör, pompa, fan, helezon ve hazne motorları gibi küçük motorların doğrudan yol verme ve uzaktan yön değiştirme kontrolü için tasarlanmış DIN ray modülüdür. Motor aşırı yük, faz yokluğu ve faz dengesizliği koruması; otomatik/manuel alarm reset, alarm rölesi ve çalışma sinyali çıkışları sunar.",
+   "applications": [
+    "Konveyör bantlar",
+    "Pompalar",
+    "Küçük fanlar",
+    "Helezon ve hazne motorları",
+    "Uzaktan yön değiştirme"
+   ],
+   "specs": [
+    {
+     "name": "Faz sayısı",
+     "value": "1 faz ve 3 faz motorlar"
+    },
+    {
+     "name": "Güç",
+     "value": "3 kW'a kadar"
+    },
+    {
+     "name": "Akım",
+     "value": "7 A (500 Vac)"
+    },
+    {
+     "name": "Gerilim",
+     "value": "500 Vac'a kadar"
+    },
+    {
+     "name": "Kontrol girişi",
+     "value": "4 dijital komut, 24 Vdc"
+    },
+    {
+     "name": "Yol verme",
+     "value": "Doğrudan; ters dönüş (opsiyon)"
+    },
+    {
+     "name": "Korumalar",
+     "value": "Motor aşırı yük, faz yokluğu, faz dengesizliği; otomatik/manuel alarm reset"
+    },
+    {
+     "name": "Çıkışlar",
+     "value": "Alarm rölesi, 2 dijital çalışma sinyali çıkışı"
+    },
+    {
+     "name": "Güvenlik",
+     "value": "Acil stop PL e / SIL 3"
+    },
+    {
+     "name": "Montaj",
+     "value": "DIN ray modül kuplajı"
+    }
+   ],
+   "price": null,
+   "price_display": "Fiyat için teklif isteyin",
+   "cta": "Sipariş / teklif isteyin",
+   "status": "Aktif",
+   "manufacturer_url": "https://www.gefran.com/products/power-control/motor-starter/g-start-single-three-phase-motor-starter/",
+   "image": "/magaza/gefran-g-start_07-10-2026.jpg",
+   "image_note": "Gefran ürün sayfasındaki resmi görsel kullanılacak (yetkili bayi).",
+   "source_note": "Teknik veriler Gefran ürün sayfasından alınmıştır. Güncel değerler ve sipariş kodları için üretici datasheet'ine bakınız.",
+   "seo_title": "Gefran G-Start 1/3 fazlı motor yol verici | Ankara | AOM",
+   "seo_description": "Üç fazlı motorlar için doğrudan yol verme ve opsiyonel ters dönüş fonksiyonlu, 3 kW / 7 A (500 Vac) kompakt motor starter; PL e / SIL 3 acil stop. Ankara AOM'dan teklif."
+  }
+ ],
+ "excluded": [
+  {
+   "series": "GTF",
+   "reason": "Üretimden kalkıyor (phase out)"
+  },
+  {
+   "series": "GTF-Xtra",
+   "reason": "Üretimden kalkıyor (phase out)"
+  },
+  {
+   "series": "GFX OP, GFX4-SSR, GEFLEX aksesuarları, güç kontrol aksesuarları, SSR aksesuarları, GF_eXpress",
+   "reason": "Aksesuar/yazılım; ilgili ürün sayfalarında 'Aksesuarlar' olarak anılabilir"
+  }
+ ]
+}

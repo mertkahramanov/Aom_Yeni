@@ -7,10 +7,10 @@ import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
 import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Mağaza: Autonics Sıcaklık Kontrol, Enkoder, SSR, Tristör | Ankara",
+  title: "Mağaza: Autonics, Gefran – Kontrol, Enkoder, SSR, Tristör | Ankara",
   description:
-    "Autonics sıcaklık kontrol cihazları, sayıcı, zamanlayıcı, panel metre, HMI, enkoderler, solid state röle (SSR), DPU ve SPR tristörlü güç kontrol üniteleri. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
-  keywords: ["Autonics bayi Ankara", "sıcaklık kontrol cihazı", "zamanlayıcı", "sayıcı", "HMI", "enkoder", "encoder", "artımlı enkoder", "mutlak enkoder", "solid state röle", "SSR", "katı hal rölesi", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "otomasyon malzemeleri Ankara", "Autonics fiyat listesi"],
+    "Autonics sıcaklık kontrol cihazları, sayıcı, zamanlayıcı, panel metre, HMI, enkoderler, solid state röle (SSR), DPU ve SPR tristörlü güç kontrol üniteleri; Gefran güç kontrol, SSR ve motor yol vericiler. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+  keywords: ["Autonics bayi Ankara", "sıcaklık kontrol cihazı", "zamanlayıcı", "sayıcı", "HMI", "enkoder", "encoder", "artımlı enkoder", "mutlak enkoder", "solid state röle", "SSR", "katı hal rölesi", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "otomasyon malzemeleri Ankara", "Autonics fiyat listesi", "Gefran yetkili satıcı", "Gefran güç kontrol"],
   alternates: { canonical: "/magaza" },
   openGraph: {
     type: "website",
@@ -30,7 +30,7 @@ const MAIN_GROUPS: { id: string; title: string; ids: string[] | null; codes?: Co
   {
     id: "guc-kontrol",
     title: "Güç kontrol",
-    ids: ["tristorlu-guc-kontrol", "solid-state-roleler-ssr"],
+    ids: ["tristorlu-guc-kontrol", "solid-state-roleler-ssr", "motor-starter"],
     codes: [{ href: "/magaza/dpu-kodlari", title: "Autonics DPU sipariş kodları", total: 840 }],
   },
   {
@@ -79,7 +79,7 @@ export default function MagazaPage() {
         <div className="eyebrow">Mağaza</div>
         <h1 style={{ fontWeight: 800, fontSize: 44, lineHeight: 1.05 }}>AOM Mağaza</h1>
         <p className="lead">
-          Autonics tristörlü güç kontrol üniteleri, solid state röleler (SSR), enkoderler ve kontrol cihazları; NCR röleler ve röle soketleri, CNC yedek parçaları ve endüstriyel elektronik ürünler. Kategoriyi seçerek ürünlere ulaşın. Fiyatlar KDV hariçtir. {REGION_LINE}
+          Gefran (yetkili satış noktası) ve Autonics tristörlü güç kontrol üniteleri, solid state röleler (SSR), Gefran motor yol vericiler, Autonics enkoderler ve kontrol cihazları; NCR röleler ve röle soketleri, CNC yedek parçaları ve endüstriyel elektronik ürünler. Kategoriyi seçerek ürünlere ulaşın. Fiyatlar KDV hariçtir. {REGION_LINE}
         </p>
       </div>
       {MAIN_GROUPS.map((m) => {

@@ -1,0 +1,810 @@
+﻿Liste satır no;Kategori;Marka;Orijinal kod (sitede);Listede yazan kod / özellik;Ürün adı;Stok adedi;Kod güveni;Görsel;Site adresi
+1;Rulmanlar ve lineer hareket;KBS;LM40UU;;KBS LM40UU lineer rulman, Ø40 mm mil;112;Orta;Yok;/magaza/2el-kbs-lm40uu
+2;Rulmanlar ve lineer hareket;KBL;LM30UU;;KBL LM30UU lineer rulman, Ø30 mm mil;4;Orta;Yok;/magaza/2el-kbl-lm30uu
+231;Rulmanlar ve lineer hareket;;HG20;;HG20 lineer kızak arabası, 20 boyut;30;Düşük;Yok;/magaza/2el-hg20
+232,414;Rulmanlar ve lineer hareket;;HG25;;HG25 lineer kızak arabası, 25 boyut;37;Düşük;Yok;/magaza/2el-hg25
+233;Rulmanlar ve lineer hareket;;EG25;;EG25 lineer kızak arabası, 25 boyut;1;Düşük;Yok;/magaza/2el-eg25
+234;Rulmanlar ve lineer hareket;;EG15;;EG15 lineer kızak arabası, 15 boyut;7;Düşük;Yok;/magaza/2el-eg15
+322;Rulmanlar ve lineer hareket;RSB;6205-2Z V3;;RSB 6205-2Z V3 sabit bilyalı rulman, 25×52×15 mm, iki tarafı metal kapaklı;460;Orta;Yok;/magaza/2el-rsb-6205-2z-v3
+323;Rulmanlar ve lineer hareket;S&F;6205Z;;S&F 6205Z sabit bilyalı rulman, 25×52×15 mm, tek tarafı metal kapaklı;63;Orta;Yok;/magaza/2el-s-f-6205z
+324;Rulmanlar ve lineer hareket;RSB;6204-2Z V2;;RSB 6204-2Z V2 sabit bilyalı rulman, 20×47×14 mm, iki tarafı metal kapaklı;316;Orta;Yok;/magaza/2el-rsb-6204-2z-v2
+325;Rulmanlar ve lineer hareket;RSB;6003-2Z V2;;RSB 6003-2Z V2 sabit bilyalı rulman, 17×35×10 mm, iki tarafı metal kapaklı;312;Orta;Yok;/magaza/2el-rsb-6003-2z-v2
+326;Rulmanlar ve lineer hareket;RSB;6004-2Z V2;;RSB 6004-2Z V2 sabit bilyalı rulman, 20×42×12 mm, iki tarafı metal kapaklı;3;Orta;Yok;/magaza/2el-rsb-6004-2z-v2
+327;Rulmanlar ve lineer hareket;RSB;6002-2Z V2;;RSB 6002-2Z V2 sabit bilyalı rulman, 15×32×9 mm, iki tarafı metal kapaklı;5;Orta;Yok;/magaza/2el-rsb-6002-2z-v2
+328;Rulmanlar ve lineer hareket;SKF;61805-2Z/C3 117P;;SKF 61805-2Z/C3 117P sabit bilyalı rulman, 25×37×7 mm, iki tarafı metal kapaklı;2;Orta;Yok;/magaza/2el-skf-61805-2z-c3-117p
+329;Rulmanlar ve lineer hareket;RSB;6001-2Z Z2;;RSB 6001-2Z Z2 sabit bilyalı rulman, 12×28×8 mm, iki tarafı metal kapaklı;4;Orta;Yok;/magaza/2el-rsb-6001-2z-z2
+330;Rulmanlar ve lineer hareket;C&U;61804Z;;C&U 61804Z sabit bilyalı rulman, 20×32×7 mm, tek tarafı metal kapaklı;8;Orta;Yok;/magaza/2el-c-u-61804z
+331;Rulmanlar ve lineer hareket;C&U;6901Z;;C&U 6901Z sabit bilyalı rulman, 12×24×6 mm, tek tarafı metal kapaklı;5;Orta;Yok;/magaza/2el-c-u-6901z
+332;Rulmanlar ve lineer hareket;GOOT;608Z;;GOOT 608Z sabit bilyalı rulman, 8×22×7 mm, tek tarafı metal kapaklı;5;Orta;Yok;/magaza/2el-goot-608z
+333;Rulmanlar ve lineer hareket;NSK;63001-2RS1;;NSK 63001-2RS1 sabit bilyalı rulman, 12×28×12 mm, iki tarafı kauçuk keçeli;2;Orta;Yok;/magaza/2el-nsk-63001-2rs1
+334;Rulmanlar ve lineer hareket;SKF;6001-2RSH;;SKF 6001-2RSH sabit bilyalı rulman, 12×28×8 mm, iki tarafı kauçuk keçeli;1;Orta;Yok;/magaza/2el-skf-6001-2rsh
+335;Rulmanlar ve lineer hareket;SKF;6301-2RSH;;SKF 6301-2RSH sabit bilyalı rulman, 12×37×12 mm, iki tarafı kauçuk keçeli;1;Orta;Yok;/magaza/2el-skf-6301-2rsh
+336;Rulmanlar ve lineer hareket;HRB;6003 RZ;;HRB 6003 RZ sabit bilyalı rulman, 17×35×10 mm, tek tarafı kauçuk keçeli;12;Orta;Yok;/magaza/2el-hrb-6003-rz
+337;Rulmanlar ve lineer hareket;RSB;6201-2Z V2;;RSB 6201-2Z V2 sabit bilyalı rulman, 12×32×10 mm, iki tarafı metal kapaklı;1;Orta;Yok;/magaza/2el-rsb-6201-2z-v2
+338;Rulmanlar ve lineer hareket;KWC;AH701 6801 ZZ;;KWC AH701 6801 ZZ sabit bilyalı rulman, 12×21×5 mm, iki tarafı metal kapaklı;1;Orta;Yok;/magaza/2el-kwc-ah701-6801-zz
+339;Rulmanlar ve lineer hareket;SKF;61902-2Z;;SKF 61902-2Z sabit bilyalı rulman, 15×28×7 mm, iki tarafı metal kapaklı;1;Orta;Yok;/magaza/2el-skf-61902-2z
+340;Rulmanlar ve lineer hareket;SKF;6002-2Z/C3;;SKF 6002-2Z/C3 sabit bilyalı rulman, 15×32×9 mm, iki tarafı metal kapaklı;1;Orta;Yok;/magaza/2el-skf-6002-2z-c3
+341;Rulmanlar ve lineer hareket;HRB;6205 2RZ;;HRB 6205 2RZ sabit bilyalı rulman, 25×52×15 mm, iki tarafı kauçuk keçeli;37;Orta;Yok;/magaza/2el-hrb-6205-2rz
+342;Rulmanlar ve lineer hareket;RSB;6205-2ZV2;;RSB 6205-2ZV2 sabit bilyalı rulman, 25×52×15 mm, iki tarafı metal kapaklı;81;Orta;Yok;/magaza/2el-rsb-6205-2zv2
+343;Rulmanlar ve lineer hareket;HRB;6207 2RZ;;HRB 6207 2RZ sabit bilyalı rulman, 35×72×17 mm, iki tarafı kauçuk keçeli;5;Orta;Yok;/magaza/2el-hrb-6207-2rz
+344;Rulmanlar ve lineer hareket;C&U;6208RZ;;C&U 6208RZ sabit bilyalı rulman, 40×80×18 mm, tek tarafı kauçuk keçeli;1;Orta;Yok;/magaza/2el-c-u-6208rz
+345;Rulmanlar ve lineer hareket;RSB;UC208Z1;;RSB UC208Z1 Y-yatak rulmanı, Ø40 mm mil;11;Orta;Yok;/magaza/2el-rsb-uc208z1
+346;Rulmanlar ve lineer hareket;;K004;;K004 rulman;108;Düşük;Yok;/magaza/2el-k004
+347;Rulmanlar ve lineer hareket;BMD;K004/P5;;BMD K004/P5 rulman;7;Düşük;Yok;/magaza/2el-bmd-k004-p5
+348;Rulmanlar ve lineer hareket;RSB;SB205;;RSB SB205 Y-yatak rulmanı, Ø25 mm mil;289;Orta;Yok;/magaza/2el-rsb-sb205
+349;Rulmanlar ve lineer hareket;RSB;SB203;;RSB SB203 Y-yatak rulmanı, Ø17 mm mil;1;Orta;Yok;/magaza/2el-rsb-sb203
+350;Rulmanlar ve lineer hareket;SKF;6202-2RSH;;SKF 6202-2RSH sabit bilyalı rulman, 15×35×11 mm, iki tarafı kauçuk keçeli;1;Orta;Yok;/magaza/2el-skf-6202-2rsh
+351;Rulmanlar ve lineer hareket;HYC;SB205;;HYC SB205 Y-yatak rulmanı, Ø25 mm mil;12;Orta;Yok;/magaza/2el-hyc-sb205
+352;Rulmanlar ve lineer hareket;;UC205;;UC205 Y-yatak rulmanı, Ø25 mm mil;20;Orta;Yok;/magaza/2el-uc205
+353;Rulmanlar ve lineer hareket;Airtac;LSH30F1N2X1100S30AN-M6;;Airtac LSH30F1N2X1100S30AN-M6 lineer kızak (ray + blok), 1100 mm;16;Düşük;Var (seri);/magaza/2el-airtac-lsh30f1n2x1100s30an-m6
+354;Rulmanlar ve lineer hareket;Airtac;LSH30F1N2X770S25AN-M6;;Airtac LSH30F1N2X770S25AN-M6 lineer kızak (ray + blok), 770 mm;6;Düşük;Var (seri);/magaza/2el-airtac-lsh30f1n2x770s25an-m6
+355;Rulmanlar ve lineer hareket;Airtac;LSH30HN1X620S30AN-M6;;Airtac LSH30HN1X620S30AN-M6 lineer kızak (ray + blok), 620 mm;4;Düşük;Var (seri);/magaza/2el-airtac-lsh30hn1x620s30an-m6
+356;Rulmanlar ve lineer hareket;Airtac;LSH30HN2X860S30AN-M6;;Airtac LSH30HN2X860S30AN-M6 lineer kızak (ray + blok), 860 mm;8;Düşük;Var (seri);/magaza/2el-airtac-lsh30hn2x860s30an-m6
+357;Rulmanlar ve lineer hareket;Airtac;LSH30BK-HN-N-E-M6;;Airtac LSH30BK-HN-N-E-M6 lineer kızak arabası;8;Düşük;Var (seri);/magaza/2el-airtac-lsh30bk-hn-n-e-m6
+358;Rulmanlar ve lineer hareket;Airtac;LSH20HN3X2462S31AN-M6;;Airtac LSH20HN3X2462S31AN-M6 lineer kızak (ray + blok), 2462 mm;6;Düşük;Var (seri);/magaza/2el-airtac-lsh20hn3x2462s31an-m6
+359;Rulmanlar ve lineer hareket;Airtac;LSH20HN1X528S24AN-M6;;Airtac LSH20HN1X528S24AN-M6 lineer kızak (ray + blok), 528 mm;4;Düşük;Var (seri);/magaza/2el-airtac-lsh20hn1x528s24an-m6
+360;Rulmanlar ve lineer hareket;Airtac;LSH30HL1X360S20AN-M6;;Airtac LSH30HL1X360S20AN-M6 lineer kızak (ray + blok), 360 mm;8;Düşük;Var (seri);/magaza/2el-airtac-lsh30hl1x360s20an-m6
+361,362,363,369;Rulmanlar ve lineer hareket;HIWIN;HGH35HA;;HIWIN HGH35HA lineer kızak arabası, 35 boyut, kare blok;16;Orta;Var (seri);/magaza/2el-hiwin-hgh35ha
+364,372,373,374;Rulmanlar ve lineer hareket;HIWIN;HGH35;;HIWIN HGH35 lineer kızak arabası, 35 boyut, kare blok;7;Orta;Var (seri);/magaza/2el-hiwin-hgh35
+365,368,370,371;Rulmanlar ve lineer hareket;HIWIN;HGH35C;;HIWIN HGH35C lineer kızak arabası, 35 boyut, kare blok;8;Orta;Var (seri);/magaza/2el-hiwin-hgh35c
+366;Rulmanlar ve lineer hareket;HIWIN;HGL35C;;HIWIN HGL35C lineer kızak arabası, 35 boyut, alçak kare blok;1;Orta;Var (seri);/magaza/2el-hiwin-hgl35c
+367;Rulmanlar ve lineer hareket;HIWIN;HGL35;;HIWIN HGL35 lineer kızak arabası, 35 boyut, alçak kare blok;4;Orta;Var (seri);/magaza/2el-hiwin-hgl35
+375;Rulmanlar ve lineer hareket;HIWIN;HGW30C;;HIWIN HGW30C lineer kızak arabası, 30 boyut, flanşlı blok;2;Orta;Var (seri);/magaza/2el-hiwin-hgw30c
+376,380,381;Rulmanlar ve lineer hareket;HIWIN;EGW25;;HIWIN EGW25 lineer kızak arabası, 25 boyut, flanşlı blok;6;Orta;Var (seri);/magaza/2el-hiwin-egw25
+377,378,379;Rulmanlar ve lineer hareket;HIWIN;HGW15CC;;HIWIN HGW15CC lineer kızak arabası, 15 boyut, flanşlı blok;4;Orta;Var (seri);/magaza/2el-hiwin-hgw15cc
+382;Rulmanlar ve lineer hareket;HIWIN;HGW20CCH;;HIWIN HGW20CCH lineer kızak arabası, 20 boyut, flanşlı blok;1;Orta;Var (seri);/magaza/2el-hiwin-hgw20cch
+383;Rulmanlar ve lineer hareket;HIWIN;EGH25;;HIWIN EGH25 lineer kızak arabası, 25 boyut, kare blok;7;Orta;Var (seri);/magaza/2el-hiwin-egh25
+384;Rulmanlar ve lineer hareket;HIWIN;HGH20;;HIWIN HGH20 lineer kızak arabası, 20 boyut, kare blok;2;Orta;Var (seri);/magaza/2el-hiwin-hgh20
+385;Rulmanlar ve lineer hareket;HIWIN;EGH20CA;;HIWIN EGH20CA lineer kızak arabası, 20 boyut, kare blok;8;Orta;Var (seri);/magaza/2el-hiwin-egh20ca
+386,387,388,389;Rulmanlar ve lineer hareket;HIWIN;EGH20;;HIWIN EGH20 lineer kızak arabası, 20 boyut, kare blok;8;Orta;Var (seri);/magaza/2el-hiwin-egh20
+390;Rulmanlar ve lineer hareket;HIWIN;HGH15C;;HIWIN HGH15C lineer kızak arabası, 15 boyut, kare blok;1;Orta;Var (seri);/magaza/2el-hiwin-hgh15c
+391,392;Rulmanlar ve lineer hareket;HIWIN;HGH15;;HIWIN HGH15 lineer kızak arabası, 15 boyut, kare blok;4;Orta;Var (seri);/magaza/2el-hiwin-hgh15
+393,394,397,408;Rulmanlar ve lineer hareket;;HGW20CC;;HIWIN HGW20CC lineer kızak arabası, 20 boyut, flanşlı blok;6;Orta;Yok;/magaza/2el-hgw20cc
+395,396;Rulmanlar ve lineer hareket;SHAC;GHW20CC-P;;SHAC GHW20CC-P lineer kızak arabası, 20 boyut, flanşlı blok;2;Düşük;Yok;/magaza/2el-shac-ghw20cc-p
+398,399,406;Rulmanlar ve lineer hareket;;HGH25CA;;HIWIN HGH25CA lineer kızak arabası, 25 boyut, kare blok;8;Orta;Yok;/magaza/2el-hgh25ca
+400,401;Rulmanlar ve lineer hareket;CHNDS;HGH15CA;;CHNDS HGH15CA lineer kızak arabası, 15 boyut, kare blok;3;Düşük;Yok;/magaza/2el-chnds-hgh15ca
+402,403;Rulmanlar ve lineer hareket;CHNDS;HGH20CA;;CHNDS HGH20CA lineer kızak arabası, 20 boyut, kare blok;2;Düşük;Yok;/magaza/2el-chnds-hgh20ca
+404,405;Rulmanlar ve lineer hareket;;HGH20CA;;HIWIN HGH20CA lineer kızak arabası, 20 boyut, kare blok;7;Orta;Yok;/magaza/2el-hgh20ca
+407;Rulmanlar ve lineer hareket;SHAC;GHW20CC-P-200924;;SHAC GHW20CC-P-200924 lineer kızak arabası, 20 boyut, flanşlı blok;20;Düşük;Yok;/magaza/2el-shac-ghw20cc-p-200924
+409;Rulmanlar ve lineer hareket;SHAC;GHH35CA-P-200814;;SHAC GHH35CA-P-200814 lineer kızak arabası, 35 boyut, kare blok;5;Düşük;Yok;/magaza/2el-shac-ghh35ca-p-200814
+410;Rulmanlar ve lineer hareket;Airtac;LSH15HN1X700S20AN-M4;;Airtac LSH15HN1X700S20AN-M4 lineer kızak (ray + blok), 700 mm;2;Düşük;Var (seri);/magaza/2el-airtac-lsh15hn1x700s20an-m4
+411;Rulmanlar ve lineer hareket;Airtac;LSH30HN2X1820S30AN-M6;;Airtac LSH30HN2X1820S30AN-M6 lineer kızak (ray + blok), 1820 mm;3;Düşük;Var (seri);/magaza/2el-airtac-lsh30hn2x1820s30an-m6
+412;Rulmanlar ve lineer hareket;Airtac;LSH30HN2X2920S20AN-M6;;Airtac LSH30HN2X2920S20AN-M6 lineer kızak (ray + blok), 2920 mm;3;Düşük;Var (seri);/magaza/2el-airtac-lsh30hn2x2920s20an-m6
+413;Rulmanlar ve lineer hareket;Airtac;LSH30HN2X660S10AN-M6;;Airtac LSH30HN2X660S10AN-M6 lineer kızak (ray + blok), 660 mm;8;Düşük;Var (seri);/magaza/2el-airtac-lsh30hn2x660s10an-m6
+415;Rulmanlar ve lineer hareket;;HG30;;HG30 lineer kızak arabası, 30 boyut;7;Düşük;Yok;/magaza/2el-hg30
+416;Rulmanlar ve lineer hareket;;HG15;;HG15 lineer kızak arabası, 15 boyut;12;Düşük;Yok;/magaza/2el-hg15
+417;Rulmanlar ve lineer hareket;;LM16UU-0P;;LM16UU lineer rulman, Ø16 mm mil;17;Orta;Yok;/magaza/2el-lm16uu-0p
+475;Rulmanlar ve lineer hareket;C&U;6005Z;;C&U 6005Z sabit bilyalı rulman, 25×47×12 mm, tek tarafı metal kapaklı;2;Orta;Yok;/magaza/2el-c-u-6005z
+476;Rulmanlar ve lineer hareket;;6901RS;;6901RS sabit bilyalı rulman, 12×24×6 mm, tek tarafı kauçuk keçeli;1;Orta;Yok;/magaza/2el-6901rs
+477;Rulmanlar ve lineer hareket;;6202RS;;6202RS sabit bilyalı rulman, 15×35×11 mm, iki tarafı kauçuk keçeli;1;Orta;Yok;/magaza/2el-6202rs
+478;Rulmanlar ve lineer hareket;HIWIN;EGH15;;HIWIN EGH15 lineer kızak arabası, 15 boyut, kare blok;1;Orta;Var (seri);/magaza/2el-hiwin-egh15
+503;Rulmanlar ve lineer hareket;HIWIN;HCW20CCH;;HIWIN HCW20CCH lineer kızak arabası, 20 boyut, flanşlı blok;2;Orta;Yok;/magaza/2el-hiwin-hcw20cch
+507;Rulmanlar ve lineer hareket;RSB;6005-2Z V2;;RSB 6005-2Z V2 sabit bilyalı rulman, 25×47×12 mm, iki tarafı metal kapaklı;2;Orta;Yok;/magaza/2el-rsb-6005-2z-v2
+508;Rulmanlar ve lineer hareket;JESA;7208 ATN DF;;JESA 7208 ATN DF eğik bilyalı rulman, 40×80×18 mm;1;Orta;Yok;/magaza/2el-jesa-7208-atn-df
+524,525;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 3920 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 3920 mm;6;Orta;Var (seri);/magaza/2el-hiwin-hgr35c
+526;Rulmanlar ve lineer hareket;SHAC;GH35-P-21114-258;EN 35MM BOY 30MM UZUNLUK 3190 MM 8MM VİDA ÇAPI;SHAC GH35-P-21114-258 rulman yataği;6;Düşük;Yok;/magaza/2el-shac-gh35-p-21114-258
+527;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 3460 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 3460 mm;2;Orta;Var (seri);/magaza/2el-hiwin-hgr35c-3460-mm
+528;Rulmanlar ve lineer hareket;Airtac;H-D LSH30 8-D-W;EN 30MM BOY 25MM UZUNLUK 2920 MM 8MM VİDA ÇAPI;Airtac H-D LSH30 8-D-W lineer kızak rayı, 2920 mm;2;Düşük;Var (seri);/magaza/2el-airtac-h-d-lsh30-8-d-w
+529;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 1920 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 1920 mm;4;Orta;Var (seri);/magaza/2el-hiwin-hgr35c-1920-mm
+530;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 1360 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 1360 mm;4;Orta;Var (seri);/magaza/2el-hiwin-hgr35c-1360-mm
+531;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 2000 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 2000 mm;2;Orta;Var (seri);/magaza/2el-hiwin-hgr35c-2000-mm
+532;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 1400 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 1400 mm;4;Orta;Var (seri);/magaza/2el-hiwin-hgr35c-1400-mm
+533,534;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 1160 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 1160 mm;2;Orta;Var (seri);/magaza/2el-hiwin-hgr35c-1160-mm
+535;Rulmanlar ve lineer hareket;HIWIN;HGR35C;EN 35MM BOY 30MM UZUNLUK 1060 MM 8MM VİDA ÇAPI;HIWIN HGR35 lineer kızak rayı, 1060 mm;2;Orta;Var (seri);/magaza/2el-hiwin-hgr35c-1060-mm
+536;Rulmanlar ve lineer hareket;Airtac;HF;EN 30MM BOY 25MM UZUNLUK 770 MM 8MM VİDA ÇAPI;Airtac HF lineer kızak rayı, 770 mm;3;Düşük;Var (seri);/magaza/2el-airtac-hf
+537;Rulmanlar ve lineer hareket;Airtac;HD;EN 30MM BOY 25MM UZUNLUK 1820 MM 8MM VİDA ÇAPI;Airtac HD lineer kızak rayı, 1820 mm;2;Düşük;Var (seri);/magaza/2el-airtac-hd
+538;Rulmanlar ve lineer hareket;Airtac;H-E;EN 30MM BOY 25MM UZUNLUK 930 MM 8MM VİDA ÇAPI;Airtac H-E lineer kızak rayı, 930 mm;4;Düşük;Var (seri);/magaza/2el-airtac-h-e
+539;Rulmanlar ve lineer hareket;Airtac;N-D;EN 30MM BOY 25MM UZUNLUK 660 MM 8MM VİDA ÇAPI;Airtac N-D lineer kızak rayı, 660 mm;4;Düşük;Var (seri);/magaza/2el-airtac-n-d
+540;Rulmanlar ve lineer hareket;HIWIN;EGR25C;EN 25MM BOY 18MM UZUNLUK 160 MM 7 MM VİDA ÇAPI;HIWIN EGR25 lineer kızak rayı, 160 mm;7;Orta;Var (seri);/magaza/2el-hiwin-egr25c
+541;Rulmanlar ve lineer hareket;HIWIN;HGR20C;EN 20MM BOY 17MM UZUNLUK 360 MM 6MM VİDA ÇAPI;HIWIN HGR20 lineer kızak rayı, 360 mm;2;Orta;Var (seri);/magaza/2el-hiwin-hgr20c
+542;Rulmanlar ve lineer hareket;Airtac;N-E;EN 20MM BOY 17MM UZUNLUK 530 MM 6 MM VİDA ÇAPI;Airtac N-E lineer kızak rayı, 530 mm;4;Düşük;Var (seri);/magaza/2el-airtac-n-e
+543;Rulmanlar ve lineer hareket;HIWIN;EGR25H;EN 25MM BOY 18MM UZUNLUK 500 MM 7MM VİDA ÇAPI;HIWIN EGR25 lineer kızak rayı, 500 mm;2;Orta;Var (seri);/magaza/2el-hiwin-egr25h
+544,545;Rulmanlar ve lineer hareket;HIWIN;EGR25C;EN 25MM BOY 18MM UZUNLUK 500 MM 7MM VİDA ÇAPI;HIWIN EGR25 lineer kızak rayı, 500 mm;8;Orta;Var (seri);/magaza/2el-hiwin-egr25c-500-mm
+546;Rulmanlar ve lineer hareket;HIWIN;EGR20C;EN 20MM BOY 18MM UZUNLUK 890 MM 6 MM VİDA ÇAPI;HIWIN EGR20 lineer kızak rayı, 890 mm;2;Orta;Var (seri);/magaza/2el-hiwin-egr20c
+547;Rulmanlar ve lineer hareket;HIWIN;EGR20C;EN 20MM BOY 18MM UZUNLUK 1200 MM 6 MM VİDA ÇAPI;HIWIN EGR20 lineer kızak rayı, 1200 mm;2;Orta;Var (seri);/magaza/2el-hiwin-egr20c-1200-mm
+548;Rulmanlar ve lineer hareket;Airtac;H-D;EN 20MM BOY 18MM UZUNLUK 2463MM 6MM VİDA ÇAPI;Airtac H-D lineer kızak rayı, 2463 mm;2;Düşük;Var (seri);/magaza/2el-airtac-h-d
+549;Rulmanlar ve lineer hareket;HIWIN;HGR15C;EN 15MM BOY 15MM UZUNLUK 180MM 5MM VİDA ÇAPI;HIWIN HGR15 lineer kızak rayı, 180 mm;4;Orta;Var (seri);/magaza/2el-hiwin-hgr15c
+10;Pnömatik ve vakum;Guidesun;SWH-G02-C4-20;;Guidesun SWH-G02-C4-20 hidrolik solenoid valf;3;Düşük;Yok;/magaza/2el-guidesun-swh-g02-c4-20
+24;Pnömatik ve vakum;Bianfu;BFW57L-150-1500;;Bianfu BFW57L-150-1500 lineer aktüatör;3;Düşük;Yok;/magaza/2el-bianfu-bfw57l-150-1500
+54;Pnömatik ve vakum;Airtac;ACQ32X10SB;;Airtac ACQ32X10SB kompakt pnömatik silindir, Ø32×10 mm;20;Orta;Var (seri);/magaza/2el-airtac-acq32x10sb
+55;Pnömatik ve vakum;Airbest;SF75;;Airbest SF75 vakum vantuzu;26;Düşük;Yok;/magaza/2el-airbest-sf75
+56;Pnömatik ve vakum;Airbest;SF110;;Airbest SF110 vakum vantuzu;8;Düşük;Yok;/magaza/2el-airbest-sf110
+57;Pnömatik ve vakum;Dolair;VCS-120-1-1/4;;Dolair VCS-120-1-1/4 vakum vantuzu;13;Düşük;Yok;/magaza/2el-dolair-vcs-120-1-1-4
+58;Pnömatik ve vakum;Schmalz;SUF100;;Schmalz SUF100 vakum vantuzu;1;Düşük;Yok;/magaza/2el-schmalz-suf100
+59;Pnömatik ve vakum;;H80;;H80 vakum vantuzu;8;Düşük;Yok;/magaza/2el-h80
+71;Pnömatik ve vakum;SMC;IRV10-C08;;SMC IRV10-C08 vakum regülatörü;1;Orta;Var (seri);/magaza/2el-smc-irv10-c08
+72;Pnömatik ve vakum;Airtac;AR2000;;Airtac AR2000 basınç regülatörü;18;Orta;Var (seri);/magaza/2el-airtac-ar2000
+73;Pnömatik ve vakum;SMC;AW40-F04B-W;;SMC AW40-F04B-W filtre-regülatör;1;Orta;Var (seri);/magaza/2el-smc-aw40-f04b-w
+74;Pnömatik ve vakum;SMC;AW40-04BC-X465A;;SMC AW40-04BC-X465A filtre-regülatör;2;Orta;Var (seri);/magaza/2el-smc-aw40-04bc-x465a
+75;Pnömatik ve vakum;Airtac;GAFR30008S;;Airtac GAFR30008S filtre-regülatör;2;Orta;Var (seri);/magaza/2el-airtac-gafr30008s
+76;Pnömatik ve vakum;SMC;AW40-04C-B-X465A;;SMC AW40-04C-B-X465A filtre-regülatör;1;Orta;Var (seri);/magaza/2el-smc-aw40-04c-b-x465a
+77;Pnömatik ve vakum;SMC;IR2010-02G-A;;SMC IR2010-02G-A hassas basınç regülatörü;1;Orta;Var (seri);/magaza/2el-smc-ir2010-02g-a
+78;Pnömatik ve vakum;SMC;AR20K-02BE-B;;SMC AR20K-02BE-B basınç regülatörü;7;Orta;Var (seri);/magaza/2el-smc-ar20k-02be-b
+79;Pnömatik ve vakum;CKD;R1000-8G-W;;CKD R1000-8G-W basınç regülatörü;1;Orta;Yok;/magaza/2el-ckd-r1000-8g-w
+80;Pnömatik ve vakum;Airtac;GAR20008S;;Airtac GAR20008S basınç regülatörü;9;Orta;Var (seri);/magaza/2el-airtac-gar20008s
+81;Pnömatik ve vakum;Airtac;GFR300-08;;Airtac GFR300-08 filtre-regülatör;2;Orta;Yok;/magaza/2el-airtac-gfr300-08
+82;Pnömatik ve vakum;Airtac;BFR2000;;Airtac BFR2000 filtre-regülatör;2;Orta;Var (seri);/magaza/2el-airtac-bfr2000
+83;Pnömatik ve vakum;Airtac;BL2000;;Airtac BL2000 yağlayıcı;2;Orta;Var (seri);/magaza/2el-airtac-bl2000
+84;Pnömatik ve vakum;Airtac;BFR-3000;;Airtac BFR-3000 filtre-regülatör;1;Orta;Var (seri);/magaza/2el-airtac-bfr-3000
+94;Pnömatik ve vakum;Airtac;4V210-06;;Airtac 4V210-06 solenoid valf, 5/2 tek bobinli, G1/8;29;Orta;Var (seri);/magaza/2el-airtac-4v210-06
+95;Pnömatik ve vakum;Airtac;4V210-08;;Airtac 4V210-08 solenoid valf, 5/2 tek bobinli, G1/4;34;Orta;Var (seri);/magaza/2el-airtac-4v210-08
+96;Pnömatik ve vakum;Airtac;4L210-08;;Airtac 4L210-08 solenoid valf, 5/2 tek bobinli, G1/4;5;Orta;Yok;/magaza/2el-airtac-4l210-08
+97;Pnömatik ve vakum;Airtac;4V220-06;;Airtac 4V220-06 solenoid valf, 5/2 çift bobinli, G1/8;1;Orta;Var (seri);/magaza/2el-airtac-4v220-06
+98;Pnömatik ve vakum;Airtac;4V310-10;;Airtac 4V310-10 solenoid valf, 5/2 tek bobinli, G3/8;1;Orta;Var (seri);/magaza/2el-airtac-4v310-10
+99;Pnömatik ve vakum;Airtac;4V120-06;;Airtac 4V120-06 solenoid valf, 5/2 çift bobinli, G1/8;10;Orta;Var (seri);/magaza/2el-airtac-4v120-06
+100;Pnömatik ve vakum;Airtac;4V110-06;;Airtac 4V110-06 solenoid valf, 5/2 tek bobinli, G1/8;25;Orta;Var (seri);/magaza/2el-airtac-4v110-06
+101;Pnömatik ve vakum;Airtac;7V110-06;;Airtac 7V110-06 solenoid valf, 5/2 tek bobinli, G1/8;23;Orta;Yok;/magaza/2el-airtac-7v110-06
+102;Pnömatik ve vakum;Airtac;4V110-M5;;Airtac 4V110-M5 solenoid valf, 5/2 tek bobinli, M5;6;Orta;Var (seri);/magaza/2el-airtac-4v110-m5
+103;Pnömatik ve vakum;Airbest;AZK-S-N;;Airbest AZK-S-N vakum jeneratörü;8;Düşük;Yok;/magaza/2el-airbest-azk-s-n
+104;Pnömatik ve vakum;Airbest;AZK-X-N;;Airbest AZK-X-N vakum jeneratörü;3;Düşük;Yok;/magaza/2el-airbest-azk-x-n
+105;Pnömatik ve vakum;SMC;SY5120-5LZD-C6;;SMC SY5120-5LZD-C6 solenoid valf, 5/2 tek bobinli;15;Orta;Var (seri);/magaza/2el-smc-sy5120-5lzd-c6
+106;Pnömatik ve vakum;SMC;SY5120-5GD-C8;;SMC SY5120-5GD-C8 solenoid valf, 5/2 tek bobinli;12;Orta;Var (seri);/magaza/2el-smc-sy5120-5gd-c8
+107;Pnömatik ve vakum;SMC;SY7120-5LZD-C10;;SMC SY7120-5LZD-C10 solenoid valf, 5/2 tek bobinli;3;Orta;Var (seri);/magaza/2el-smc-sy7120-5lzd-c10
+108;Pnömatik ve vakum;CKD;4JA219;;CKD 4JA219 solenoid valf;10;Orta;Yok;/magaza/2el-ckd-4ja219
+109;Pnömatik ve vakum;CKD;4JA229;;CKD 4JA229 solenoid valf;3;Orta;Yok;/magaza/2el-ckd-4ja229
+110;Pnömatik ve vakum;SMC;SY5120-5Y0-01F;;SMC SY5120-5Y0-01F solenoid valf, 5/2 tek bobinli;10;Orta;Var (seri);/magaza/2el-smc-sy5120-5y0-01f
+111;Pnömatik ve vakum;Airtac;7V120-J08;;Airtac 7V120-J08 solenoid valf, 5/2 çift bobinli, G1/4;4;Orta;Yok;/magaza/2el-airtac-7v120-j08
+112;Pnömatik ve vakum;Airtac;7V110-J08;;Airtac 7V110-J08 solenoid valf, 5/2 tek bobinli, G1/4;6;Orta;Yok;/magaza/2el-airtac-7v110-j08
+113;Pnömatik ve vakum;Airtac;7V120-06;;Airtac 7V120-06 solenoid valf, 5/2 çift bobinli, G1/8;30;Orta;Yok;/magaza/2el-airtac-7v120-06
+114;Pnömatik ve vakum;Expflex;CV-15-RH;;Expflex CV-15-RH solenoid valf;3;Düşük;Yok;/magaza/2el-expflex-cv-15-rh
+115;Pnömatik ve vakum;SMC;ZH13B;;SMC ZH13B vakum ejektörü;13;Orta;Yok;/magaza/2el-smc-zh13b
+116;Pnömatik ve vakum;SMC;ZFB3;;SMC ZFB3 vakum hattı filtresi;12;Orta;Var (seri);/magaza/2el-smc-zfb3
+230;Pnömatik ve vakum;SMC;SY3130-5UF1-C6;;SMC SY3130-5UF1-C6 solenoid valf, 5/2 tek bobinli;4;Orta;Var (seri);/magaza/2el-smc-sy3130-5uf1-c6
+240;Pnömatik ve vakum;Airtac;SE80X85S;;Airtac SE80X85S ISO 15552 standart pnömatik silindir, Ø80×85 mm;8;Orta;Var (seri);/magaza/2el-airtac-se80x85s
+241;Pnömatik ve vakum;Airtac;SE80X50S;;Airtac SE80X50S ISO 15552 standart pnömatik silindir, Ø80×50 mm;18;Orta;Var (seri);/magaza/2el-airtac-se80x50s
+242;Pnömatik ve vakum;Airtac;SE80X200S;;Airtac SE80X200S ISO 15552 standart pnömatik silindir, Ø80×200 mm;1;Orta;Var (seri);/magaza/2el-airtac-se80x200s
+243;Pnömatik ve vakum;Airtac;TR32X70S;;Airtac TR32X70S çift milli pnömatik silindir, Ø32×70 mm;17;Orta;Var (seri);/magaza/2el-airtac-tr32x70s
+244;Pnömatik ve vakum;Airtac;TCL32X100S;;Airtac TCL32X100S kılavuzlu (üç milli) pnömatik silindir, Ø32×100 mm;4;Orta;Var (seri);/magaza/2el-airtac-tcl32x100s
+245;Pnömatik ve vakum;Airtac;TR32X150S;;Airtac TR32X150S çift milli pnömatik silindir, Ø32×150 mm;6;Orta;Var (seri);/magaza/2el-airtac-tr32x150s
+246;Pnömatik ve vakum;Airtac;TCL80X80S;;Airtac TCL80X80S kılavuzlu (üç milli) pnömatik silindir, Ø80×80 mm;1;Orta;Var (seri);/magaza/2el-airtac-tcl80x80s
+247;Pnömatik ve vakum;Airtac;SE50AX50S;;Airtac SE50AX50S ISO 15552 standart pnömatik silindir, Ø50×50 mm;6;Orta;Var (seri);/magaza/2el-airtac-se50ax50s
+248;Pnömatik ve vakum;Airtac;SE63X125S;;Airtac SE63X125S ISO 15552 standart pnömatik silindir, Ø63×125 mm;2;Orta;Var (seri);/magaza/2el-airtac-se63x125s
+249;Pnömatik ve vakum;Airtac;SE32X150S;;Airtac SE32X150S ISO 15552 standart pnömatik silindir, Ø32×150 mm;2;Orta;Var (seri);/magaza/2el-airtac-se32x150s
+250;Pnömatik ve vakum;Airtac;SE32X100S;;Airtac SE32X100S ISO 15552 standart pnömatik silindir, Ø32×100 mm;2;Orta;Var (seri);/magaza/2el-airtac-se32x100s
+251;Pnömatik ve vakum;Airtac;TR32X50S;;Airtac TR32X50S çift milli pnömatik silindir, Ø32×50 mm;4;Orta;Var (seri);/magaza/2el-airtac-tr32x50s
+252;Pnömatik ve vakum;Airtac;TCL25X75S;;Airtac TCL25X75S kılavuzlu (üç milli) pnömatik silindir, Ø25×75 mm;4;Orta;Var (seri);/magaza/2el-airtac-tcl25x75s
+253;Pnömatik ve vakum;Airtac;TCL32X25S;;Airtac TCL32X25S kılavuzlu (üç milli) pnömatik silindir, Ø32×25 mm;9;Orta;Var (seri);/magaza/2el-airtac-tcl32x25s
+254;Pnömatik ve vakum;Airtac;TCM40X50S;;Airtac TCM40X50S kılavuzlu (üç milli) pnömatik silindir, Ø40×50 mm;3;Orta;Var (seri);/magaza/2el-airtac-tcm40x50s
+255;Pnömatik ve vakum;Airtac;TCL32X30S;;Airtac TCL32X30S kılavuzlu (üç milli) pnömatik silindir, Ø32×30 mm;2;Orta;Var (seri);/magaza/2el-airtac-tcl32x30s
+256;Pnömatik ve vakum;Airtac;TCL25X50S;;Airtac TCL25X50S kılavuzlu (üç milli) pnömatik silindir, Ø25×50 mm;10;Orta;Var (seri);/magaza/2el-airtac-tcl25x50s
+257;Pnömatik ve vakum;Airtac;TCM25X50S;;Airtac TCM25X50S kılavuzlu (üç milli) pnömatik silindir, Ø25×50 mm;6;Orta;Var (seri);/magaza/2el-airtac-tcm25x50s
+258;Pnömatik ve vakum;Airtac;TCM25X30S;;Airtac TCM25X30S kılavuzlu (üç milli) pnömatik silindir, Ø25×30 mm;8;Orta;Var (seri);/magaza/2el-airtac-tcm25x30s
+259;Pnömatik ve vakum;HLPC;MGP-25X50;;HLPC MGP-25X50 pnömatik silindir, Ø25×50 mm;8;Düşük;Yok;/magaza/2el-hlpc-mgp-25x50
+260;Pnömatik ve vakum;Airtac;TR16X30S;;Airtac TR16X30S çift milli pnömatik silindir, Ø16×30 mm;8;Orta;Var (seri);/magaza/2el-airtac-tr16x30s
+261;Pnömatik ve vakum;Pneutech;CXSM16-30D;;Pneutech CXSM16-30D pnömatik silindir;1;Düşük;Yok;/magaza/2el-pneutech-cxsm16-30d
+262;Pnömatik ve vakum;Airtac;TN25X80S;;Airtac TN25X80S çift milli (twin rod) pnömatik silindir, Ø25×80 mm;4;Orta;Var (seri);/magaza/2el-airtac-tn25x80s
+263;Pnömatik ve vakum;Airtac;TR16X80S;;Airtac TR16X80S çift milli pnömatik silindir, Ø16×80 mm;1;Orta;Var (seri);/magaza/2el-airtac-tr16x80s
+264;Pnömatik ve vakum;Airtac;TN20X30S;;Airtac TN20X30S çift milli (twin rod) pnömatik silindir, Ø20×30 mm;4;Orta;Var (seri);/magaza/2el-airtac-tn20x30s
+265;Pnömatik ve vakum;Airtac;TN25X30S;;Airtac TN25X30S çift milli (twin rod) pnömatik silindir, Ø25×30 mm;3;Orta;Var (seri);/magaza/2el-airtac-tn25x30s
+266;Pnömatik ve vakum;Airtac;TN25X50S;;Airtac TN25X50S çift milli (twin rod) pnömatik silindir, Ø25×50 mm;2;Orta;Var (seri);/magaza/2el-airtac-tn25x50s
+267;Pnömatik ve vakum;Airtac;TR16X40S;;Airtac TR16X40S çift milli pnömatik silindir, Ø16×40 mm;8;Orta;Var (seri);/magaza/2el-airtac-tr16x40s
+268;Pnömatik ve vakum;Airtac;TR16X50S;;Airtac TR16X50S çift milli pnömatik silindir, Ø16×50 mm;6;Orta;Var (seri);/magaza/2el-airtac-tr16x50s
+269;Pnömatik ve vakum;Xinde;TN16X30-S;;Xinde TN16X30-S pnömatik silindir, Ø16×30 mm;2;Düşük;Yok;/magaza/2el-xinde-tn16x30-s
+270;Pnömatik ve vakum;Airtac;HLS16X75SA;;Airtac HLS16X75SA pnömatik kızaklı tabla (slide table), Ø16×75 mm;1;Orta;Var (seri);/magaza/2el-airtac-hls16x75sa
+271;Pnömatik ve vakum;Airtac;TCL12X30S;;Airtac TCL12X30S kılavuzlu (üç milli) pnömatik silindir, Ø12×30 mm;8;Orta;Var (seri);/magaza/2el-airtac-tcl12x30s
+272;Pnömatik ve vakum;Airtac;TCM16X30S;;Airtac TCM16X30S kılavuzlu (üç milli) pnömatik silindir, Ø16×30 mm;8;Orta;Var (seri);/magaza/2el-airtac-tcm16x30s
+273;Pnömatik ve vakum;Airtac;TCL16X50S;;Airtac TCL16X50S kılavuzlu (üç milli) pnömatik silindir, Ø16×50 mm;7;Orta;Var (seri);/magaza/2el-airtac-tcl16x50s
+274;Pnömatik ve vakum;Airtac;HRQ30;;Airtac HRQ30 pnömatik döner tabla;2;Orta;Var (seri);/magaza/2el-airtac-hrq30
+275;Pnömatik ve vakum;Airtac;ACQ32X100SB;;Airtac ACQ32X100SB kompakt pnömatik silindir, Ø32×100 mm;2;Orta;Var (seri);/magaza/2el-airtac-acq32x100sb
+276;Pnömatik ve vakum;Airtac;TWQ40X20SC-HY1141A;;Airtac TWQ40X20SC-HY1141A pnömatik silindir, Ø40×20 mm;32;Orta;Yok;/magaza/2el-airtac-twq40x20sc-hy1141a
+277;Pnömatik ve vakum;Airtac;QCKL40X20S;;Airtac QCKL40X20S döner sıkma (clamp) silindiri, Ø40×20 mm;3;Orta;Var (seri);/magaza/2el-airtac-qckl40x20s
+278;Pnömatik ve vakum;Airtac;QCKL32X10S;;Airtac QCKL32X10S döner sıkma (clamp) silindiri, Ø32×10 mm;4;Orta;Var (seri);/magaza/2el-airtac-qckl32x10s
+279;Pnömatik ve vakum;Airtac;QCKR32X10S;;Airtac QCKR32X10S döner sıkma (clamp) silindiri, Ø32×10 mm;4;Orta;Var (seri);/magaza/2el-airtac-qckr32x10s
+280;Pnömatik ve vakum;Airtac;TACQ40X50S;;Airtac TACQ40X50S kompakt pnömatik silindir, Ø40×50 mm;2;Orta;Var (seri);/magaza/2el-airtac-tacq40x50s
+281;Pnömatik ve vakum;Airtac;TACQ40X30S;;Airtac TACQ40X30S kompakt pnömatik silindir, Ø40×30 mm;2;Orta;Var (seri);/magaza/2el-airtac-tacq40x30s
+282;Pnömatik ve vakum;SMC;MKB32-20LZ;;SMC MKB32-20LZ döner sıkma (clamp) silindiri;2;Orta;Var (seri);/magaza/2el-smc-mkb32-20lz
+283;Pnömatik ve vakum;SMC;CDQ2B32-50DZ;;SMC CDQ2B32-50DZ kompakt pnömatik silindir;1;Orta;Var (seri);/magaza/2el-smc-cdq2b32-50dz
+284;Pnömatik ve vakum;Airtac;QCKL32X20SM;;Airtac QCKL32X20SM döner sıkma (clamp) silindiri, Ø32×20 mm;2;Orta;Var (seri);/magaza/2el-airtac-qckl32x20sm
+285;Pnömatik ve vakum;Airtac;QCKR40X20S;;Airtac QCKR40X20S döner sıkma (clamp) silindiri, Ø40×20 mm;3;Orta;Var (seri);/magaza/2el-airtac-qckr40x20s
+286;Pnömatik ve vakum;Airtac;SDA40X20;;Airtac SDA40X20 kompakt (ince) pnömatik silindir, Ø40×20 mm;14;Orta;Var (seri);/magaza/2el-airtac-sda40x20
+287;Pnömatik ve vakum;Airtac;SDA40X30;;Airtac SDA40X30 kompakt (ince) pnömatik silindir, Ø40×30 mm;6;Orta;Var (seri);/magaza/2el-airtac-sda40x30
+288;Pnömatik ve vakum;Airtac;SDA50X40;;Airtac SDA50X40 kompakt (ince) pnömatik silindir, Ø50×40 mm;3;Orta;Var (seri);/magaza/2el-airtac-sda50x40
+289;Pnömatik ve vakum;Airtac;SDA50X30;;Airtac SDA50X30 kompakt (ince) pnömatik silindir, Ø50×30 mm;1;Orta;Var (seri);/magaza/2el-airtac-sda50x30
+290;Pnömatik ve vakum;Airtac;SDA50X60;;Airtac SDA50X60 kompakt (ince) pnömatik silindir, Ø50×60 mm;6;Orta;Var (seri);/magaza/2el-airtac-sda50x60
+291;Pnömatik ve vakum;Obend;SDA50X20;;Obend SDA50X20 pnömatik silindir, Ø50×20 mm;6;Düşük;Yok;/magaza/2el-obend-sda50x20
+292;Pnömatik ve vakum;Airtac;MU16X10S;;Airtac MU16X10S mini pnömatik silindir, Ø16×10 mm;3;Orta;Var (seri);/magaza/2el-airtac-mu16x10s
+293;Pnömatik ve vakum;Airtac;HFY16;;Airtac HFY16 pnömatik tutucu;18;Orta;Var (seri);/magaza/2el-airtac-hfy16
+294;Pnömatik ve vakum;Airtac;HFK20N;;Airtac HFK20N pnömatik tutucu;3;Orta;Var (seri);/magaza/2el-airtac-hfk20n
+295;Pnömatik ve vakum;HLPC;MHZ2-20-D;;HLPC MHZ2-20-D pnömatik tutucu (gripper);4;Düşük;Yok;/magaza/2el-hlpc-mhz2-20-d
+296;Pnömatik ve vakum;JXPC;MHZ2-20;;JXPC MHZ2-20 pnömatik tutucu (gripper);4;Düşük;Yok;/magaza/2el-jxpc-mhz2-20
+297;Pnömatik ve vakum;Airtac;SE50X200S;;Airtac SE50X200S ISO 15552 standart pnömatik silindir, Ø50×200 mm;2;Orta;Var (seri);/magaza/2el-airtac-se50x200s
+298;Pnömatik ve vakum;Airtac;MBL40X150SCA;;Airtac MBL40X150SCA mini pnömatik silindir, Ø40×150 mm;2;Orta;Var (seri);/magaza/2el-airtac-mbl40x150sca
+299;Pnömatik ve vakum;Airtac;F-M8X125F;;Airtac F-M8X125F silindir aksesuarı;2;Düşük;Yok;/magaza/2el-airtac-f-m8x125f
+300;Pnömatik ve vakum;Airtac;SE40X600S;;Airtac SE40X600S ISO 15552 standart pnömatik silindir, Ø40×600 mm;2;Orta;Var (seri);/magaza/2el-airtac-se40x600s
+301;Pnömatik ve vakum;Airtac;STWB25X100S;;Airtac STWB25X100S pnömatik silindir, Ø25×100 mm;1;Orta;Yok;/magaza/2el-airtac-stwb25x100s
+302;Pnömatik ve vakum;Airtac;MAJ20X50-30S;;Airtac MAJ20X50-30S strok ayarlı mini pnömatik silindir, Ø20×50 mm;8;Orta;Var (seri);/magaza/2el-airtac-maj20x50-30s
+303;Pnömatik ve vakum;Airtac;MF25X80SU;;Airtac MF25X80SU pnömatik silindir, Ø25×80 mm;14;Orta;Var (seri);/magaza/2el-airtac-mf25x80su
+304;Pnömatik ve vakum;SMC;CD85N25-50-B;;SMC CD85N25-50-B ISO 6432 mini pnömatik silindir;1;Orta;Var (seri);/magaza/2el-smc-cd85n25-50-b
+424;Pnömatik ve vakum;Festo;CRVZS-5;V:5L PS:16 BAR EA:2,5 MM;Festo CRVZS-5 hava tankı, 5 l;1;Orta;Yok;/magaza/2el-festo-crvzs-5
+425;Pnömatik ve vakum;SMC;AMG450C-F06D;4A1-40A;SMC AMG450C-F06D su ayırıcı filtre;6;Orta;Var (seri);/magaza/2el-smc-amg450c-f06d
+426;Pnömatik ve vakum;SMC;AFF11C-F06D-T;4J1-32A;SMC AFF11C-F06D-T ana hat hava filtresi;6;Orta;Var (seri);/magaza/2el-smc-aff11c-f06d-t
+427;Pnömatik ve vakum;SMC;AFF22C-F100-T;4J1-33A;SMC AFF22C-F100-T ana hat hava filtresi;2;Orta;Var (seri);/magaza/2el-smc-aff22c-f100-t
+428;Pnömatik ve vakum;SMC;AMG55C-F10D;4A1-9W;SMC AMG55C-F10D su ayırıcı filtre;1;Orta;Var (seri);/magaza/2el-smc-amg55c-f10d
+429;Pnömatik ve vakum;SMC;CDRB1W50-180S;;SMC CDRB1W50-180S kanatlı döner aktüatör;1;Orta;Var (seri);/magaza/2el-smc-cdrb1w50-180s
+430;Pnömatik ve vakum;Dopac;401.09.01/36534;P: 250 BAR-315 BAR LW2.5;Dopac 401.09.01/36534 yüksek basınç sprey valfi;1;Düşük;Yok;/magaza/2el-dopac-401-09-01-36534
+436;Pnömatik ve vakum;PIAB;F75;G3/8'';PIAB F75 vakum vantuzu;1;Düşük;Yok;/magaza/2el-piab-f75
+468;Pnömatik ve vakum;Airbest;ZPDC-P-E;;Airbest ZPDC-P-E vakum anahtarı / basınç göstergesi;3;Düşük;Yok;/magaza/2el-airbest-zpdc-p-e
+469;Pnömatik ve vakum;Airtac;TN16X55S;;Airtac TN16X55S çift milli (twin rod) pnömatik silindir, Ø16×55 mm;5;Orta;Var (seri);/magaza/2el-airtac-tn16x55s
+479;Pnömatik ve vakum;SMC;CD85N16-10-B;;SMC CD85N16-10-B ISO 6432 mini pnömatik silindir;2;Orta;Var (seri);/magaza/2el-smc-cd85n16-10-b
+480;Pnömatik ve vakum;Festo;DSNU-16-15-PPV-A;;Festo DSNU-16-15-PPV-A pnömatik silindir, Ø16×15 mm;1;Yüksek;Yok;/magaza/2el-festo-dsnu-16-15-ppv-a
+506;Pnömatik ve vakum;Festo;VN-07-H-T3-PQ2-VQ2-RQ1-B;;Festo VN-07-H-T3-PQ2-VQ2-RQ1-B vakum jeneratörü;2;Yüksek;Yok;/magaza/2el-festo-vn-07-h-t3-pq2-vq2-rq1-b
+516;Pnömatik ve vakum;Yueqing;KK-P30/22;24V 15KG;Yueqing KK-P30/22 tutucu elektromıknatıs;11;Düşük;Yok;/magaza/2el-yueqing-kk-p30-22
+517;Pnömatik ve vakum;Yueqing;KK-P30/25;24V 15KG;Yueqing KK-P30/25 tutucu elektromıknatıs;2;Düşük;Yok;/magaza/2el-yueqing-kk-p30-25
+518;Pnömatik ve vakum;Yueqing;KK-P25/20;24V 8KG;Yueqing KK-P25/20 tutucu elektromıknatıs;7;Düşük;Yok;/magaza/2el-yueqing-kk-p25-20
+519;Pnömatik ve vakum;Huaxiang;HX-P25/20;24V 8KG;Huaxiang HX-P25/20 tutucu elektromıknatıs;1;Düşük;Yok;/magaza/2el-huaxiang-hx-p25-20
+550;Pnömatik ve vakum;SMC;SY7220-5D0-02F-Q;;SMC SY7220-5D0-02F-Q solenoid valf, 5/2 çift bobinli;1;Orta;Var (seri);/magaza/2el-smc-sy7220-5d0-02f-q
+551;Pnömatik ve vakum;SMC;MGJ10-15;;SMC MGJ10-15 kılavuzlu mini silindir;2;Orta;Yok;/magaza/2el-smc-mgj10-15
+552;Pnömatik ve vakum;Airtac;MD16X10S;;Airtac MD16X10S çok yönlü montajlı pnömatik silindir, Ø16×10 mm;1;Orta;Var (seri);/magaza/2el-airtac-md16x10s
+764;Pnömatik ve vakum;JLD;SCR A-14025;;JLD SCR A-14025 regülatör;16;Düşük;Yok;/magaza/2el-jld-scr-a-14025
+86;Sensörler ve enkoderler;Kcenn;KT20-8-A;;Kcenn KT20-8-A güvenlik sensörü;6;Düşük;Yok;/magaza/2el-kcenn-kt20-8-a
+87;Sensörler ve enkoderler;ESPE;ESN0840L1NC-10;;ESPE ESN0840L1NC-10 güvenlik sensörü;1;Düşük;Yok;/magaza/2el-espe-esn0840l1nc-10
+117;Sensörler ve enkoderler;Bianfu;BF500AU-6540B-V1;;Bianfu BF500AU-6540B-V1 ultrasonik sensör;3;Düşük;Yok;/magaza/2el-bianfu-bf500au-6540b-v1
+118,120,123;Sensörler ve enkoderler;Airtac;DMSE-NPN;;Airtac DMSE-NPN manyetik silindir sensörü;36;Orta;Var (seri);/magaza/2el-airtac-dmse-npn
+119,121,131,132,134,135,137,138,139,140,141,143,145,151,153,157,162,496;Sensörler ve enkoderler;Airtac;DMSG-NPN;;Airtac DMSG-NPN manyetik silindir sensörü;100;Orta;Var (seri);/magaza/2el-airtac-dmsg-npn
+122,133,148;Sensörler ve enkoderler;Airtac;DMSE;;Airtac DMSE manyetik silindir sensörü;8;Orta;Var (seri);/magaza/2el-airtac-dmse
+124;Sensörler ve enkoderler;Airtac;DMSH;;Airtac DMSH manyetik silindir sensörü;2;Orta;Var (seri);/magaza/2el-airtac-dmsh
+125,126,127,128,130,147,149;Sensörler ve enkoderler;Airtac;DMSG;;Airtac DMSG manyetik silindir sensörü;25;Orta;Var (seri);/magaza/2el-airtac-dmsg
+129,136,152,165,166;Sensörler ve enkoderler;SMC;D-M9N;;SMC D-M9N katı hal silindir sensörü;9;Orta;Var (seri);/magaza/2el-smc-d-m9n
+142,150,154,156;Sensörler ve enkoderler;Airtac;DMSH-NPN;;Airtac DMSH-NPN manyetik silindir sensörü;6;Orta;Var (seri);/magaza/2el-airtac-dmsh-npn
+144,155;Sensörler ve enkoderler;Airtac;D-M9N;;SMC D-M9N katı hal silindir sensörü;4;Orta;Yok;/magaza/2el-airtac-d-m9n
+146;Sensörler ve enkoderler;Airtac;CMSH;;Airtac CMSH manyetik silindir sensörü;1;Orta;Var (seri);/magaza/2el-airtac-cmsh
+158;Sensörler ve enkoderler;Panasonic;CX-421;;Panasonic CX-421 fotoelektrik sensör;62;Yüksek;Yok;/magaza/2el-panasonic-cx-421
+159;Sensörler ve enkoderler;Panasonic;CX-441;;Panasonic CX-441 fotoelektrik sensör;3;Yüksek;Yok;/magaza/2el-panasonic-cx-441
+160;Sensörler ve enkoderler;Panasonic;CX-442;;Panasonic CX-442 fotoelektrik sensör;10;Yüksek;Yok;/magaza/2el-panasonic-cx-442
+161;Sensörler ve enkoderler;Omron;E3Z-D61;;Omron E3Z-D61 fotoelektrik sensör;4;Yüksek;Yok;/magaza/2el-omron-e3z-d61
+163,164;Sensörler ve enkoderler;SICK;GTB6-N1211;;SICK GTB6-N1211 fotoelektrik sensör (1052441);3;Yüksek;Yok;/magaza/2el-sick-gtb6-n1211
+167;Sensörler ve enkoderler;Navi;FX-501-C2;;Navi FX-501-C2 fiber optik sensör amplifikatörü;3;Düşük;Yok;/magaza/2el-navi-fx-501-c2
+168;Sensörler ve enkoderler;Riko;JND04-N;;Riko JND04-N sensör;3;Düşük;Yok;/magaza/2el-riko-jnd04-n
+169;Sensörler ve enkoderler;SMC;D-R732;;SMC D-R732 reed silindir sensörü;1;Orta;Yok;/magaza/2el-smc-d-r732
+170;Sensörler ve enkoderler;SMC;D-R731;;SMC D-R731 reed silindir sensörü;1;Orta;Yok;/magaza/2el-smc-d-r731
+171,174,175,176,177;Sensörler ve enkoderler;Panasonic;PM-T65;;Panasonic PM-T65 U tipi mikro fotoelektrik sensör;14;Orta;Yok;/magaza/2el-panasonic-pm-t65
+172;Sensörler ve enkoderler;Omron;EE-SX672-WR;;Omron EE-SX672-WR U tipi mikro fotoelektrik sensör;2;Orta;Yok;/magaza/2el-omron-ee-sx672-wr
+173;Sensörler ve enkoderler;Wi-Che;HU-N72-2;;Wi-Che HU-N72-2 sensör;2;Düşük;Yok;/magaza/2el-wi-che-hu-n72-2
+178;Sensörler ve enkoderler;Panasonic;PM-T45;;Panasonic PM-T45 U tipi mikro fotoelektrik sensör;4;Orta;Yok;/magaza/2el-panasonic-pm-t45
+179;Sensörler ve enkoderler;Panasonic;PM-Y45;;Panasonic PM-Y45 U tipi mikro fotoelektrik sensör;2;Orta;Yok;/magaza/2el-panasonic-pm-y45
+180;Sensörler ve enkoderler;ELCO;F5F40N6;;ELCO F5F40N6 sensör;4;Düşük;Yok;/magaza/2el-elco-f5f40n6
+181;Sensörler ve enkoderler;Panasonic;PM-L45;;Panasonic PM-L45 U tipi mikro fotoelektrik sensör;1;Orta;Yok;/magaza/2el-panasonic-pm-l45
+182,305;Sensörler ve enkoderler;Airtac;DMSJ-NPN;;Airtac DMSJ-NPN manyetik silindir sensörü;5;Orta;Var (seri);/magaza/2el-airtac-dmsj-npn
+183;Sensörler ve enkoderler;;H12N1-N;;H12N1-N sensör;7;Düşük;Yok;/magaza/2el-h12n1-n
+184;Sensörler ve enkoderler;Eatec;TTHOC;;Eatec TTHOC dış ortam sıcaklık/nem sensörü;1;Düşük;Yok;/magaza/2el-eatec-tthoc
+185;Sensörler ve enkoderler;Autonics;PR12-4DN;;Autonics PR12-4DN endüktif yaklaşım sensörü, M12, 4 mm;2;Yüksek;Yok;/magaza/2el-autonics-pr12-4dn
+186;Sensörler ve enkoderler;Banner;T30UXUA;;Banner T30UXUA ultrasonik sensör;1;Orta;Yok;/magaza/2el-banner-t30uxua
+201;Röleler ve röle soketleri;Mind Electric;HH54P-L;;Mind Electric HH54P-L minyatür röle, 4 C/O, LED'li;14;Orta;Yok;/magaza/2el-mind-electric-hh54p-l
+202;Röleler ve röle soketleri;Mind Electric;TP514X;;Mind Electric TP514X 14 pin röle soketi;14;Orta;Yok;/magaza/2el-mind-electric-tp514x
+203;Röleler ve röle soketleri;Omron;MY2N-GS DC24;;Omron MY2N-GS DC24 röle, 2 C/O, 24 V DC;33;Yüksek;Yok;/magaza/2el-omron-my2n-gs-dc24
+204;Röleler ve röle soketleri;Omron;25X20C2;;Omron 25X20C2 röle soketi (etiket kodu);20;Düşük;Yok;/magaza/2el-omron-25x20c2
+205;Röleler ve röle soketleri;IDEC;RJ25-CL-D24;;IDEC RJ25-CL-D24 ince röle, 1 C/O, 24 V DC, LED'li;243;Orta;Yok;/magaza/2el-idec-rj25-cl-d24
+206,583;Röleler ve röle soketleri;IDEC;SJ2S-05B;;IDEC SJ2S-05B röle soketi, RJ serisi için;242;Orta;Yok;/magaza/2el-idec-sj2s-05b
+207;Röleler ve röle soketleri;Omron;MY2IN-GS DC24;;Omron MY2IN-GS DC24 röle, 2 C/O, 24 V DC, LED'li;1;Yüksek;Yok;/magaza/2el-omron-my2in-gs-dc24
+208;Röleler ve röle soketleri;Omron;05Z6CX2;;Omron 05Z6CX2 röle soketi (etiket kodu);6;Düşük;Yok;/magaza/2el-omron-05z6cx2
+237;Sensörler ve enkoderler;Omron;GLS-M1;;Omron GLS-M1 manyetik yaklaşım anahtarı;1;Orta;Yok;/magaza/2el-omron-gls-m1
+238;Sensörler ve enkoderler;Omron;GLS-S1;;Omron GLS-S1 manyetik yaklaşım anahtarı;1;Orta;Yok;/magaza/2el-omron-gls-s1
+418;Fanlar;ebm-papst;4656N;;ebm-papst 4656N fan, 119×119×38 mm;1;Orta;Yok;/magaza/2el-ebm-papst-4656n
+419;Fanlar;Marxlow;92X92X25;;Marxlow 92X92X25 fan, 92×92×25 mm;1;Düşük;Yok;/magaza/2el-marxlow-92x92x25
+420;Fanlar;Taiju;SJ1725HA2;;Taiju SJ1725HA2 fan, 172×150×51 mm;2;Düşük;Yok;/magaza/2el-taiju-sj1725ha2
+421;Fanlar;KAKU;KA1238XA2;;KAKU KA1238XA2 fan, 120×120×38 mm;1;Orta;Yok;/magaza/2el-kaku-ka1238xa2
+422;Fanlar;Huyang;SK6623.230;;Huyang SK6623.230 fan;2;Düşük;Yok;/magaza/2el-huyang-sk6623-230
+423;Fanlar;Mutual Motor;M230RFA2H;200V-240V AC50/60Hz;Mutual Motor M230RFA2H fan;5;Düşük;Yok;/magaza/2el-mutual-motor-m230rfa2h
+434;Sensörler ve enkoderler;;OGGK P FD-R41;;OGGK P FD-R41 sensör;1;Düşük;Yok;/magaza/2el-oggk-p-fd-r41
+447;Sensörler ve enkoderler;Omron;EE-SX674;;Omron EE-SX674 U tipi mikro fotoelektrik sensör;1;Orta;Yok;/magaza/2el-omron-ee-sx674
+495,499;Sensörler ve enkoderler;SMC;D-M9NV;;SMC D-M9NV katı hal silindir sensörü;2;Orta;Var (seri);/magaza/2el-smc-d-m9nv
+497;Sensörler ve enkoderler;Panasonic;GX-H8A;;Panasonic GX-H8A endüktif yaklaşım sensörü;2;Orta;Yok;/magaza/2el-panasonic-gx-h8a
+498;Sensörler ve enkoderler;Carlo Gavazzi;IA12ASF02POM1;;Carlo Gavazzi IA12ASF02POM1 endüktif yaklaşım sensörü;1;Düşük;Yok;/magaza/2el-carlo-gavazzi-ia12asf02pom1
+502;Sensörler ve enkoderler;;3RG4013-3AG01 PF;;3RG4013-3AG01 PF endüktif yaklaşım sensörü;1;Düşük;Yok;/magaza/2el-3rg4013-3ag01-pf
+504;Röleler ve röle soketleri;Omron;G2R-2 SN;;Omron G2R-2 SN röle, 2 C/O;1;Orta;Yok;/magaza/2el-omron-g2r-2-sn
+513;Fanlar;Commonwealth;FP-108K S1-B;;Commonwealth FP-108K S1-B fan, 120×120×38 mm;1;Orta;Yok;/magaza/2el-commonwealth-fp-108k-s1-b
+514;Sensörler ve enkoderler;Sensorc;P100-4008;;Sensorc P100-4008 güvenlik sensörü;2;Düşük;Yok;/magaza/2el-sensorc-p100-4008
+515;Sensörler ve enkoderler;Autonics;E50S8-600-3-T-24;;Autonics E50S8-600-3-T-24 artımlı enkoder, 600 P/R;1;Yüksek;Var (seri);/magaza/2el-autonics-e50s8-600-3-t-24
+553;Sensörler ve enkoderler;SMC;D-M9B;;SMC D-M9B katı hal silindir sensörü;1;Orta;Var (seri);/magaza/2el-smc-d-m9b
+555;Röleler ve röle soketleri;Kangyu;JGX4025;;Kangyu JGX4025 solid state röle;4;Düşük;Yok;/magaza/2el-kangyu-jgx4025
+575;Röleler ve röle soketleri;GOLD;SDP0840D;;GOLD SDP0840D solid state röle, 40 A;4;Düşük;Yok;/magaza/2el-gold-sdp0840d
+576;Röleler ve röle soketleri;Omron;16Z20C3;;Omron 16Z20C3 röle soketi (etiket kodu);1;Düşük;Yok;/magaza/2el-omron-16z20c3
+645;Fanlar;Ming Quan;MQ9225HSL;;Ming Quan MQ9225HSL fan, 92×92×25 mm;1;Düşük;Yok;/magaza/2el-ming-quan-mq9225hsl
+651;Röleler ve röle soketleri;GOLD;SAM40300D;IN:4-32VDC LOAD:24-480VAC 300A (4 FAN TAKILI);GOLD SAM40300D solid state röle, 300 A;4;Düşük;Yok;/magaza/2el-gold-sam40300d
+653;Fanlar;Zhendafan;ZD1550A2HB;;Zhendafan ZD1550A2HB fan, 150×150×50 mm;15;Düşük;Yok;/magaza/2el-zhendafan-zd1550a2hb
+656;Sensörler ve enkoderler;People;JW2-11H/L;;People JW2-11H/L limit anahtarı;2;Düşük;Yok;/magaza/2el-people-jw2-11h-l
+717;Röleler ve röle soketleri;Siemens;3TX7014-01BM00;;Siemens 3TX7014-01BM00 arayüz rölesi;1;Düşük;Yok;/magaza/2el-siemens-3tx7014-01bm00
+726;Sensörler ve enkoderler;Wi-Che;YD18M08CNO;;Wi-Che YD18M08CNO sensör;1;Düşük;Yok;/magaza/2el-wi-che-yd18m08cno
+730;Röleler ve röle soketleri;ER-NA;ZR-30;;ER-NA ZR-30 zaman rölesi;1;Düşük;Yok;/magaza/2el-er-na-zr-30
+738;Röleler ve röle soketleri;Phoenix Contact;REL-MR- 24DC/21 (2961105);;Phoenix Contact REL-MR-24DC/21 röle (2961105);2;Orta;Yok;/magaza/2el-phoenix-contact-rel-mr-24dc-21-2961105
+739;Röleler ve röle soketleri;Phoenix Contact;PLC-BPT-24DC/21;;Phoenix Contact PLC-BPT-24DC/21 röle tabanı;2;Orta;Yok;/magaza/2el-phoenix-contact-plc-bpt-24dc-21
+817;Röleler ve röle soketleri;Senmun;R4T-G5NB;;Senmun R4T-G5NB röle modülü;2;Düşük;Yok;/magaza/2el-senmun-r4t-g5nb
+818;Röleler ve röle soketleri;CHINT;NJX-13FW(D)2Z;;CHINT NJX-13FW(D)2Z röle;5;Düşük;Yok;/magaza/2el-chint-njx-13fw-d-2z
+826;Röleler ve röle soketleri;Kzscr;SSR-40DA;;Kzscr SSR-40DA solid state röle, 40 A;4;Düşük;Yok;/magaza/2el-kzscr-ssr-40da
+860;Röleler ve röle soketleri;Schneider Electric;RXM2LB2BD;;Schneider Electric RXM2LB2BD minyatür röle, 2 C/O, 24 V DC, LED'li;7;Yüksek;Var (model);/magaza/2el-schneider-electric-rxm2lb2bd
+209,558;Sigortalar;CHINT;DZ47-60 C32;3'LÜ;CHINT DZ47-60 C32 otomatik sigorta, C 32 A, 3P;2;Orta;Yok;/magaza/2el-chint-dz47-60-c32
+210,556;Sigortalar;CHINT;DZ47-60 C16;1' Lİ;CHINT DZ47-60 C16 otomatik sigorta, C 16 A, 1P;4;Orta;Yok;/magaza/2el-chint-dz47-60-c16
+211;Sigortalar;Siemens;5SQ22 C16 (210714B1417);2'Lİ;Siemens 5SQ22 C16 (210714B1417) otomatik sigorta, C 16 A, 2P;1;Orta;Yok;/magaza/2el-siemens-5sq22-c16-210714b1417
+212;Sigortalar;Eaton;PL9-C10/2;2'Lİ;Eaton PL9-C10/2 otomatik sigorta, C 10 A, 2P;11;Orta;Yok;/magaza/2el-eaton-pl9-c10-2
+218;Şalt ürünleri;;AC30-103;;CHINT AC30 modüler priz (DIN ray);1;Düşük;Yok;/magaza/2el-ac30-103
+219;Şalt ürünleri;;AC30;;CHINT AC30 modüler priz (DIN ray);1;Düşük;Yok;/magaza/2el-ac30
+224;Sigortalar;Siemens;5SL6101-7;1'Lİ;Siemens 5SL6101-7 otomatik sigorta, C 1 A, 1P;1;Orta;Var (model);/magaza/2el-siemens-5sl6101-7
+435;Terminal bloklar ve klemensler;Qeepo;QP-E30;;Qeepo QP-E30 topraklama barası;1;Düşük;Yok;/magaza/2el-qeepo-qp-e30
+439,579;Sigortalar;Eaton;PL9-C4/2;8'Lİ;Eaton PL9-C4/2 otomatik sigorta, C 4 A, 2P;48;Orta;Yok;/magaza/2el-eaton-pl9-c4-2
+448;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;3'LÜ 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 3 kutuplu;58;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5
+449;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;4'LÜ 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 4 kutuplu;106;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5-4-8-a
+450;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;8'Lİ 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 8 kutuplu;25;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5-8-8-a
+451;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;6'LI 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 6 kutuplu;41;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5-6-8-a
+452;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;12'Lİ 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 12 kutuplu;27;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5-12-8-a
+453;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;18'Lİ 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 18 kutuplu;1;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5-18-8-a
+454;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;16'Lİ 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 16 kutuplu;1;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5-16-8-a
+455;Terminal bloklar ve klemensler;KEFA;KF2EDGKD-3.5;20'Lİ 300V 8A;KEFA KF2EDGKD-3.5 takılabilir klemens, 20 kutuplu;1;Orta;Yok;/magaza/2el-kefa-kf2edgkd-3-5-20-8-a
+456;Terminal bloklar ve klemensler;Zhongb;ZB400RK;2'Lİ 300V 10A;Zhongb ZB400RK klemens, 2 kutuplu;5;Düşük;Yok;/magaza/2el-zhongb-zb400rk
+457;Terminal bloklar ve klemensler;Zhongb;ZB400RK;3'LÜ 300V 10A;Zhongb ZB400RK klemens, 3 kutuplu;17;Düşük;Yok;/magaza/2el-zhongb-zb400rk-3-10-a
+458;Terminal bloklar ve klemensler;Zhongb;ZB400RK;4'LÜ 300V 10A;Zhongb ZB400RK klemens, 4 kutuplu;3;Düşük;Yok;/magaza/2el-zhongb-zb400rk-4-10-a
+459;Terminal bloklar ve klemensler;Zhongb;ZB400RK;6'lı 300V 10A;Zhongb ZB400RK klemens, 6 kutuplu;5;Düşük;Yok;/magaza/2el-zhongb-zb400rk-6-10-a
+460;Terminal bloklar ve klemensler;Kaifeng;KF2EKR;10'LU 300V 15A;Kaifeng KF2EKR takılabilir klemens, 10 kutuplu;1;Orta;Yok;/magaza/2el-kaifeng-kf2ekr
+461;Terminal bloklar ve klemensler;KEFA;KF2EDGKKP-3.81;12'Lİ;KEFA KF2EDGKKP-3.81 takılabilir klemens, 12 kutuplu;1;Orta;Yok;/magaza/2el-kefa-kf2edgkkp-3-81
+462;Terminal bloklar ve klemensler;;KV212 AWG28-12;2'Lİ 600V 32A;KV212 AWG28-12 klemens, 2 kutuplu;2;Düşük;Yok;/magaza/2el-kv212-awg28-12
+463;Terminal bloklar ve klemensler;Degson;9EDGK-7.5;9'LU;Degson 9EDGK-7.5 takılabilir klemens, 9 kutuplu;2;Orta;Yok;/magaza/2el-degson-9edgk-7-5
+464;Terminal bloklar ve klemensler;CHINT;TD-20;1'Lİ;CHINT TD-20 klemens, 1 kutuplu;1;Düşük;Yok;/magaza/2el-chint-td-20
+465;Terminal bloklar ve klemensler;Dinkle;EC381F;5'Lİ;Dinkle EC381F klemens, 5 kutuplu;2;Düşük;Yok;/magaza/2el-dinkle-ec381f
+466;Terminal bloklar ve klemensler;Dinkle;EC381F;10'LU;Dinkle EC381F klemens, 10 kutuplu;1;Düşük;Yok;/magaza/2el-dinkle-ec381f-10
+481;Sigortalar;;KG10;10X38 16A 500V-100KA;KG10 kartuş sigorta, 10×38 mm, 16 A;22;Düşük;Yok;/magaza/2el-kg10
+482;Sigortalar;;KG10;10X38 4A 500V-100KA;KG10 kartuş sigorta, 10×38 mm, 4 A;2;Düşük;Yok;/magaza/2el-kg10-4-a
+483;Sigortalar;;KG10;10X38 1A 500V-100KA;KG10 kartuş sigorta, 10×38 mm, 1 A;1;Düşük;Yok;/magaza/2el-kg10-1-a
+484;Sigortalar;;KG10;10X38 10A 500V-100KA;KG10 kartuş sigorta, 10×38 mm, 10 A;1;Düşük;Yok;/magaza/2el-kg10-10-a
+485;Sigortalar;Italweber;CH10;1A 500V 120KA 2,77W;Italweber CH10 kartuş sigorta, 10×38 mm, 1 A;2;Orta;Yok;/magaza/2el-italweber-ch10
+486;Sigortalar;Italweber;CH10;2A 500V-120KA 6,60W;Italweber CH10 kartuş sigorta, 10×38 mm, 2 A;4;Orta;Yok;/magaza/2el-italweber-ch10-2-a
+487;Sigortalar;Italweber;CH10;10A 500V-120KA 1W;Italweber CH10 kartuş sigorta, 10×38 mm, 10 A;5;Orta;Yok;/magaza/2el-italweber-ch10-10-a
+488;Sigortalar;Bussmann;PV-20A10F;20A 1000V;Bussmann PV-20A10F kartuş sigorta, 10×38 mm, 20 A;4;Orta;Yok;/magaza/2el-bussmann-pv-20a10f
+489;Sigortalar;Italweber;CH10;16A 500V 120KA 0,92W;Italweber CH10 kartuş sigorta, 10×38 mm, 16 A;9;Orta;Yok;/magaza/2el-italweber-ch10-16-a
+490;Sigortalar;;F1.6AL250V;;Cam sigorta 1,6 A 250 V (F, hızlı);87;Düşük;Yok;/magaza/2el-f1-6al250v
+491;Sigortalar;;F4AL250V;;Cam sigorta 4 A 250 V (F, hızlı);14;Düşük;Yok;/magaza/2el-f4al250v
+492;Sigortalar;;F3.15A250V;;Cam sigorta 3,15 A 250 V (F, hızlı);20;Düşük;Yok;/magaza/2el-f3-15a250v
+493;Sigortalar;;F6AL250V;;Cam sigorta 6 A 250 V (F, hızlı);47;Düşük;Yok;/magaza/2el-f6al250v
+494;Sigortalar;;F2AL250V;;Cam sigorta 2 A 250 V (F, hızlı);1;Düşük;Yok;/magaza/2el-f2al250v
+505;Sigortalar;Bussmann;C10G25;25A 500V 120KA;Bussmann C10G25 kartuş sigorta, 10×38 mm, 25 A;28;Orta;Yok;/magaza/2el-bussmann-c10g25
+554;Terminal bloklar ve klemensler;CHINT;TD-15;660V 1.6MM2 15A 21'Lİ;CHINT TD-15 klemens, 21 kutuplu;1;Düşük;Yok;/magaza/2el-chint-td-15
+561;Terminal bloklar ve klemensler;CHINT;TD-15;30'LU;CHINT TD-15 klemens, 30 kutuplu;2;Düşük;Yok;/magaza/2el-chint-td-15-30
+562;Terminal bloklar ve klemensler;CHINT;TD-15;7'Lİ;CHINT TD-15 klemens, 7 kutuplu;1;Düşük;Yok;/magaza/2el-chint-td-15-7
+563;Terminal bloklar ve klemensler;CHINT;TD-20;660V 2.5MM2 20A 11'Lİ;CHINT TD-20 klemens, 11 kutuplu;1;Düşük;Yok;/magaza/2el-chint-td-20-11-20-a-2-5-mm
+567;Terminal bloklar ve klemensler;UPUN;UJ5-4/2-2G;;UPUN UJ5-4/2-2G klemens;5;Düşük;Yok;/magaza/2el-upun-uj5-4-2-2g
+570;Sigortalar;Schneider Electric;C6;;Schneider Electric C6 otomatik sigorta, C 6 A;22;Düşük;Yok;/magaza/2el-schneider-electric-c6
+571;Sigortalar;Schneider Electric;C16;;Schneider Electric C16 otomatik sigorta, C 16 A;22;Düşük;Yok;/magaza/2el-schneider-electric-c16
+572;Terminal bloklar ve klemensler;UPUN;UJ5-4/2-2;;UPUN UJ5-4/2-2 klemens;88;Düşük;Yok;/magaza/2el-upun-uj5-4-2-2
+578;Sigortalar;Siemens;5SQ21 C16;;Siemens 5SQ21 C16 otomatik sigorta, C 16 A;3;Orta;Yok;/magaza/2el-siemens-5sq21-c16
+580;Terminal bloklar ve klemensler;Weidmüller;ZDU 2.5;;Weidmüller ZDU 2,5 yaylı (tension clamp) ray klemensi, 2,5 mm²;1158;Yüksek;Yok;/magaza/2el-weidmuller-zdu-2-5
+581;Terminal bloklar ve klemensler;Weidmüller;ZPE 4;;Weidmüller ZPE 4 yaylı topraklama klemensi, 4 mm²;63;Yüksek;Yok;/magaza/2el-weidmuller-zpe-4
+582;Terminal bloklar ve klemensler;Weidmüller;ZDU 4;;Weidmüller ZDU 4 yaylı (tension clamp) ray klemensi, 4 mm²;219;Yüksek;Yok;/magaza/2el-weidmuller-zdu-4
+584;Sigortalar;CHINT;NXB-63 C6;1'Lİ;CHINT NXB-63 C6 otomatik sigorta, C 6 A, 1P;9;Orta;Yok;/magaza/2el-chint-nxb-63-c6
+585;Terminal bloklar ve klemensler;Weidmüller;ZDU 1.5;;Weidmüller ZDU 1,5 yaylı (tension clamp) ray klemensi, 1,5 mm²;503;Yüksek;Yok;/magaza/2el-weidmuller-zdu-1-5
+586;Terminal bloklar ve klemensler;Weidmüller;ZEW 35;;Weidmüller ZEW 35 klemens durdurucu (end bracket);99;Orta;Yok;/magaza/2el-weidmuller-zew-35
+587;Terminal bloklar ve klemensler;Weidmüller;WDU 6;;Weidmüller WDU 6 vidalı ray klemensi, 6 mm²;2;Yüksek;Yok;/magaza/2el-weidmuller-wdu-6
+588;Terminal bloklar ve klemensler;Klemsan;AVK6;;Klemsan AVK6 vidalı ray klemensi;9;Orta;Yok;/magaza/2el-klemsan-avk6
+589;Terminal bloklar ve klemensler;Klemsan;AVK 10T;;Klemsan AVK 10T vidalı ray klemensi;4;Orta;Yok;/magaza/2el-klemsan-avk-10t
+590;Terminal bloklar ve klemensler;Phoenix Contact;UT 2.5;;Phoenix Contact UT 2.5 vidalı ray klemensi;9;Yüksek;Yok;/magaza/2el-phoenix-contact-ut-2-5
+591;Terminal bloklar ve klemensler;Wieland;WK2.5/U;;Wieland WK2.5/U ray klemensi;8;Düşük;Yok;/magaza/2el-wieland-wk2-5-u
+592;Terminal bloklar ve klemensler;Weidmüller;ZPE 2.5;;Weidmüller ZPE 2,5 yaylı topraklama klemensi, 2,5 mm²;124;Yüksek;Yok;/magaza/2el-weidmuller-zpe-2-5
+593;Terminal bloklar ve klemensler;Phoenix Contact;UT 4-PE;;Phoenix Contact UT 4-PE vidalı topraklama klemensi;1;Yüksek;Yok;/magaza/2el-phoenix-contact-ut-4-pe
+596;Sigortalar;Eaton;PL9-C32/3;4'LÜ;Eaton PL9-C32/3 otomatik sigorta, C 32 A, 3P;1;Orta;Yok;/magaza/2el-eaton-pl9-c32-3
+597,787;Sigortalar;Eaton;PL9-C4/1N;2'Lİ;Eaton PL9-C4/1N otomatik sigorta, C 4 A, 1P+N;18;Orta;Yok;/magaza/2el-eaton-pl9-c4-1n
+598;Sigortalar;Eaton;PL9-C4;1'Lİ;Eaton PL9-C4 otomatik sigorta, C 4 A, 1P;3;Orta;Yok;/magaza/2el-eaton-pl9-c4
+599,786;Sigortalar;Eaton;PL9-C13/3;3'LÜ;Eaton PL9-C13/3 otomatik sigorta, C 13 A, 3P;5;Orta;Yok;/magaza/2el-eaton-pl9-c13-3
+608;Terminal bloklar ve klemensler;Misumi;MWS-M40-ET40;;Misumi MWS-M40-ET40 ray klemensi;11;Düşük;Yok;/magaza/2el-misumi-mws-m40-et40
+609;Terminal bloklar ve klemensler;Wonkedq;JUKK 2.5 B;;Wonkedq JUKK 2.5 B ray klemensi;52;Düşük;Yok;/magaza/2el-wonkedq-jukk-2-5-b
+610;Sigortalar;Siemens;5SQ22 C3;2'Lİ;Siemens 5SQ22 C3 otomatik sigorta, C 3 A, 2P;1;Orta;Yok;/magaza/2el-siemens-5sq22-c3
+611;Sigortalar;Schneider Electric;IDPNN C 6A;1'Lİ;Schneider Electric IDPNN C 6A otomatik sigorta, C 6 A, 1P;3;Orta;Yok;/magaza/2el-schneider-electric-idpnn-c-6a
+612;Sigortalar;Schneider Electric;IDPNa C 16A;1'Lİ;Schneider Electric IDPNa C 16A otomatik sigorta, C 16 A, 1P;1;Orta;Yok;/magaza/2el-schneider-electric-idpna-c-16a
+613;Sigortalar;Schneider Electric;Vigi IDPN ELE;1'Lİ;Schneider Electric Vigi IDPN ELE kaçak akım modülü;1;Düşük;Yok;/magaza/2el-schneider-electric-vigi-idpn-ele
+616;Terminal bloklar ve klemensler;Weidmüller;ZDU 10;;Weidmüller ZDU 10 yaylı (tension clamp) ray klemensi, 10 mm²;94;Yüksek;Yok;/magaza/2el-weidmuller-zdu-10
+617;Terminal bloklar ve klemensler;Weidmüller;ZPE 10;;Weidmüller ZPE 10 yaylı topraklama klemensi, 10 mm²;6;Yüksek;Yok;/magaza/2el-weidmuller-zpe-10
+620;Sigortalar;Eaton;PL9-C32/1N;2'Lİ;Eaton PL9-C32/1N otomatik sigorta, C 32 A, 1P+N;11;Orta;Yok;/magaza/2el-eaton-pl9-c32-1n
+621;Sigortalar;Eaton;PL9-C6/1N;2'Lİ;Eaton PL9-C6/1N otomatik sigorta, C 6 A, 1P+N;5;Orta;Yok;/magaza/2el-eaton-pl9-c6-1n
+624;Terminal bloklar ve klemensler;Dinkle;FX-40BB;;Dinkle FX-40BB ray klemensi;5;Düşük;Yok;/magaza/2el-dinkle-fx-40bb
+625;Terminal bloklar ve klemensler;Siron;21Y01002-1000 T001;;Siron 21Y01002-1000 T001 ray klemensi;4;Düşük;Yok;/magaza/2el-siron-21y01002-1000-t001
+629;Sigortalar;Eaton;PL9-C16/1N;2'Lİ;Eaton PL9-C16/1N otomatik sigorta, C 16 A, 1P+N;2;Orta;Yok;/magaza/2el-eaton-pl9-c16-1n
+630;Sigortalar;CHINT;NXB-63 C16;2'Lİ;CHINT NXB-63 C16 otomatik sigorta, C 16 A, 2P;1;Orta;Yok;/magaza/2el-chint-nxb-63-c16
+634,642;Terminal bloklar ve klemensler;Wonkedq;JUKK5;;Wonkedq JUKK5 ray klemensi;121;Düşük;Yok;/magaza/2el-wonkedq-jukk5
+635;Sigortalar;Siemens;5SQ21 C1;1'Lİ;Siemens 5SQ21 C1 otomatik sigorta, C 1 A, 1P;1;Orta;Yok;/magaza/2el-siemens-5sq21-c1
+638;Sigortalar;Siemens;5SL6110-6;;Siemens 5SL6110-6 otomatik sigorta, B 10 A, 1P;1;Orta;Var (model);/magaza/2el-siemens-5sl6110-6
+643;Sigortalar;Jie Le;JXB-RD;F3AL250V CAM SİGORTA TAKILI;Jie Le JXB-RD sigortalı klemens;1;Düşük;Yok;/magaza/2el-jie-le-jxb-rd
+644;Terminal bloklar ve klemensler;Wonkedq;USLKG 2.5N;2.5MM;Wonkedq USLKG 2.5N topraklama klemensi;1;Düşük;Yok;/magaza/2el-wonkedq-uslkg-2-5n
+648;Sigortalar;MRO;RS32(NGTC1)Ar;690V-225A;MRO RS32 NH1 bıçaklı sigorta, 225 A, 690 V, aR;12;Düşük;Yok;/magaza/2el-mro-rs32-ngtc1-ar
+649;Sigortalar;MRO;RT16-1(NT1);;MRO RT16-1(NT1) sigorta yuvası;12;Düşük;Yok;/magaza/2el-mro-rt16-1-nt1
+654;Terminal bloklar ve klemensler;Klemsan;PYK 2.5;;Klemsan PYK 2.5 yaylı ray klemensi;228;Orta;Yok;/magaza/2el-klemsan-pyk-2-5
+655;Terminal bloklar ve klemensler;Weidmüller;WFF 70;;Weidmüller WFF 70 cıvatalı güç klemensi, 70 mm²;8;Yüksek;Yok;/magaza/2el-weidmuller-wff-70
+658;Terminal bloklar ve klemensler;;WPD109 60947-7-1;;WPD109 60947-7-1 güç dağıtım bloğu;3;Düşük;Yok;/magaza/2el-wpd109-60947-7-1
+660;Sigortalar;Nader;NDB1-63 C2;3'LÜ;Nader NDB1-63 C2 otomatik sigorta, C 2 A, 3P;2;Orta;Yok;/magaza/2el-nader-ndb1-63-c2
+661;Sigortalar;Nader;NDB1-63 D12;3'LÜ;Nader NDB1-63 D12 otomatik sigorta, D 12 A, 3P;2;Orta;Yok;/magaza/2el-nader-ndb1-63-d12
+662;Sigortalar;Nader;NDB1-63 D6;3'LÜ;Nader NDB1-63 D6 otomatik sigorta, D 6 A, 3P;2;Orta;Yok;/magaza/2el-nader-ndb1-63-d6
+663;Sigortalar;Nader;NDB1-63 D32;3'LÜ;Nader NDB1-63 D32 otomatik sigorta, D 32 A, 3P;1;Orta;Yok;/magaza/2el-nader-ndb1-63-d32
+664;Sigortalar;Nader;NDB1-63 C5;1'Lİ;Nader NDB1-63 C5 otomatik sigorta, C 5 A, 1P;1;Orta;Yok;/magaza/2el-nader-ndb1-63-c5
+665;Sigortalar;Siemens;5SL6332-7;3'LÜ;Siemens 5SL6332-7 otomatik sigorta, C 32 A, 3P;1;Orta;Var (model);/magaza/2el-siemens-5sl6332-7
+666;Sigortalar;Siemens;5SQ21 C6;1'Lİ;Siemens 5SQ21 C6 otomatik sigorta, C 6 A, 1P;1;Orta;Yok;/magaza/2el-siemens-5sq21-c6
+667;Sigortalar;Siemens;5SL6110-7;1'Lİ;Siemens 5SL6110-7 otomatik sigorta, C 10 A, 1P;1;Orta;Var (model);/magaza/2el-siemens-5sl6110-7
+668;Terminal bloklar ve klemensler;Onka;MRK6;;Onka MRK6 ray klemensi;1;Düşük;Yok;/magaza/2el-onka-mrk6
+670;Terminal bloklar ve klemensler;ABB;PS1-4-0-65;;ABB PS1-4-0-65 köprüleme barası (1SAM201906R1104);4;Yüksek;Yok;/magaza/2el-abb-ps1-4-0-65
+671;Terminal bloklar ve klemensler;ABB;S1-M1-25;;ABB S1-M1-25 besleme bloğu (1SAM201907R1101);4;Yüksek;Yok;/magaza/2el-abb-s1-m1-25
+679;Terminal bloklar ve klemensler;Weidmüller;WDU 35;;Weidmüller WDU 35 vidalı ray klemensi, 35 mm²;4;Yüksek;Yok;/magaza/2el-weidmuller-wdu-35
+680;Terminal bloklar ve klemensler;Weidmüller;WPE 35;;Weidmüller WPE 35 vidalı topraklama klemensi, 35 mm²;3;Yüksek;Yok;/magaza/2el-weidmuller-wpe-35
+681;Terminal bloklar ve klemensler;Weidmüller;ZDU 16;;Weidmüller ZDU 16 yaylı (tension clamp) ray klemensi, 16 mm²;10;Yüksek;Yok;/magaza/2el-weidmuller-zdu-16
+684;Sigortalar;Nader;NDB1-63 D10;3'LÜ;Nader NDB1-63 D10 otomatik sigorta, D 10 A, 3P;2;Orta;Yok;/magaza/2el-nader-ndb1-63-d10
+688;Sigortalar;Eaton;PFKM-40/4/003;;Eaton PFKM-40/4/003 kaçak akım rölesi, 40 A, 4 kutuplu, 30 mA;5;Orta;Yok;/magaza/2el-eaton-pfkm-40-4-003
+689;Sigortalar;Eaton;PL9-C16/3;3'LÜ;Eaton PL9-C16/3 otomatik sigorta, C 16 A, 3P;10;Orta;Yok;/magaza/2el-eaton-pl9-c16-3
+690;Sigortalar;Eaton;PL9-D20/3;3'LÜ;Eaton PL9-D20/3 otomatik sigorta, D 20 A, 3P;2;Orta;Yok;/magaza/2el-eaton-pl9-d20-3
+694;Terminal bloklar ve klemensler;Weidmüller;ZDU 6;;Weidmüller ZDU 6 yaylı (tension clamp) ray klemensi, 6 mm²;204;Yüksek;Yok;/magaza/2el-weidmuller-zdu-6
+696;Sigortalar;Eaton;PL9-C2/1N;2'Lİ;Eaton PL9-C2/1N otomatik sigorta, C 2 A, 1P+N;4;Orta;Yok;/magaza/2el-eaton-pl9-c2-1n
+700;Terminal bloklar ve klemensler;Weidmüller;ZPE 6;;Weidmüller ZPE 6 yaylı topraklama klemensi, 6 mm²;24;Yüksek;Yok;/magaza/2el-weidmuller-zpe-6
+705;Sigortalar;Schneider Electric;OSMC32N4C40;4'LÜ;Schneider Electric OSMC32N4C40 otomatik sigorta, C 40 A, 4P;1;Orta;Yok;/magaza/2el-schneider-electric-osmc32n4c40
+706;Sigortalar;Schneider Electric;OSMC32N1C6;1'Lİ;Schneider Electric OSMC32N1C6 otomatik sigorta, C 6 A, 1P;4;Orta;Yok;/magaza/2el-schneider-electric-osmc32n1c6
+707;Sigortalar;Schneider Electric;OSMC32N1C4;1'Lİ;Schneider Electric OSMC32N1C4 otomatik sigorta, C 4 A, 1P;3;Orta;Yok;/magaza/2el-schneider-electric-osmc32n1c4
+708;Terminal bloklar ve klemensler;Siron;T001 22E01006-3000;;Siron T001 22E01006-3000 ray klemensi;3;Düşük;Yok;/magaza/2el-siron-t001-22e01006-3000
+709;Terminal bloklar ve klemensler;YHDE;ZHV04;;YHDE ZHV04 ray klemensi;3;Düşük;Yok;/magaza/2el-yhde-zhv04
+711;Terminal bloklar ve klemensler;Weidmüller;ZPU 6;;Weidmüller ZPU 6 push-in ray klemensi, 6 mm²;1;Yüksek;Yok;/magaza/2el-weidmuller-zpu-6
+712;Terminal bloklar ve klemensler;Klemsan;PEK6;;Klemsan PEK6 topraklama klemensi;1;Orta;Yok;/magaza/2el-klemsan-pek6
+713;Terminal bloklar ve klemensler;Onka;ORK4;;Onka ORK4 ray klemensi;5;Düşük;Yok;/magaza/2el-onka-ork4
+714;Terminal bloklar ve klemensler;;WKN 2.5;;WKN 2.5 ray klemensi;1;Düşük;Yok;/magaza/2el-wkn-2-5
+715;Sigortalar;Siemens;5SL6102-7;;Siemens 5SL6102-7 otomatik sigorta, C 2 A, 1P;1;Orta;Var (model);/magaza/2el-siemens-5sl6102-7
+719;Sigortalar;Eaton;PFIM80/4/003;;Eaton PFIM80/4/003 kaçak akım rölesi, 80 A, 4 kutuplu, 30 mA;1;Orta;Yok;/magaza/2el-eaton-pfim80-4-003
+720;Sigortalar;Eaton;PL9-C4/3;3'LÜ;Eaton PL9-C4/3 otomatik sigorta, C 4 A, 3P;2;Orta;Yok;/magaza/2el-eaton-pl9-c4-3
+721;Terminal bloklar ve klemensler;Siron;T100 21A01008-0600;;Siron T100 21A01008-0600 ray klemensi;2;Düşük;Yok;/magaza/2el-siron-t100-21a01008-0600
+723;Terminal bloklar ve klemensler;Weidmüller;ZPE 16;;Weidmüller ZPE 16 yaylı topraklama klemensi, 16 mm²;1;Yüksek;Yok;/magaza/2el-weidmuller-zpe-16
+727;Sigortalar;ABB;SH201 B16;1'Lİ;ABB SH201 B16 otomatik sigorta, B 16 A, 1P;1;Orta;Yok;/magaza/2el-abb-sh201-b16
+735;Sigortalar;Eaton;PL9-C40/1N;2'Lİ;Eaton PL9-C40/1N otomatik sigorta, C 40 A, 1P+N;1;Orta;Yok;/magaza/2el-eaton-pl9-c40-1n
+736;Sigortalar;Eaton;PL9-C16/2;2'Lİ;Eaton PL9-C16/2 otomatik sigorta, C 16 A, 2P;2;Orta;Yok;/magaza/2el-eaton-pl9-c16-2
+754;Terminal bloklar ve klemensler;Siron;T100;;Siron T100 ray klemensi;4;Düşük;Yok;/magaza/2el-siron-t100
+757;Şalt ürünleri;Schneider Electric;NSC100S;;Schneider Electric NSC100S kompakt şalter, 100 A;3;Düşük;Yok;/magaza/2el-schneider-electric-nsc100s
+758;Sigortalar;Schneider Electric;C6/2;;Schneider Electric C6/2 otomatik sigorta, C 6 A, 2P;7;Düşük;Yok;/magaza/2el-schneider-electric-c6-2
+759;Sigortalar;Schneider Electric;C4;;Schneider Electric C4 otomatik sigorta, C 4 A;15;Düşük;Yok;/magaza/2el-schneider-electric-c4
+760;Sigortalar;Schneider Electric;C10;;Schneider Electric C10 otomatik sigorta, C 10 A;8;Düşük;Yok;/magaza/2el-schneider-electric-c10
+761;Sigortalar;Schneider Electric;C25;;Schneider Electric C25 otomatik sigorta, C 25 A;5;Düşük;Yok;/magaza/2el-schneider-electric-c25
+762;Sigortalar;Eaton;PL9-C3;;Eaton PL9-C3 otomatik sigorta, C 3 A;1;Orta;Yok;/magaza/2el-eaton-pl9-c3
+763;Sigortalar;Siemens;5SQ21 C6;;Siemens 5SQ21 C6 otomatik sigorta, C 6 A;1;Orta;Yok;/magaza/2el-siemens-5sq21-c6-6-a
+767;Terminal bloklar ve klemensler;Weidmüller;SACK;;Weidmüller SACK klemens aksesuarı (etiket kodu);25;Düşük;Yok;/magaza/2el-weidmuller-sack
+769;Sigortalar;Schneider Electric;C25/4;;Schneider Electric C25/4 otomatik sigorta, C 25 A, 4P;1;Düşük;Yok;/magaza/2el-schneider-electric-c25-4
+770;Sigortalar;Schneider Electric;C6/3;;Schneider Electric C6/3 otomatik sigorta, C 6 A, 3P;3;Düşük;Yok;/magaza/2el-schneider-electric-c6-3
+771;Sigortalar;Schneider Electric;D16/2;;Schneider Electric D16/2 otomatik sigorta, D 16 A, 2P;1;Düşük;Yok;/magaza/2el-schneider-electric-d16-2
+777;Sigortalar;Schneider Electric;C32;;Schneider Electric C32 otomatik sigorta, C 32 A;1;Düşük;Yok;/magaza/2el-schneider-electric-c32
+778;Sigortalar;Schneider Electric;C20;;Schneider Electric C20 otomatik sigorta, C 20 A;1;Düşük;Yok;/magaza/2el-schneider-electric-c20
+780;Sigortalar;Schneider Electric;C10/3;;Schneider Electric C10/3 otomatik sigorta, C 10 A, 3P;2;Düşük;Yok;/magaza/2el-schneider-electric-c10-3
+781;Sigortalar;Schneider Electric;C32/3;;Schneider Electric C32/3 otomatik sigorta, C 32 A, 3P;1;Düşük;Yok;/magaza/2el-schneider-electric-c32-3
+785;Sigortalar;Eaton;PL9-C32/3N;;Eaton PL9-C32/3N otomatik sigorta, C 32 A, 3P+N;1;Orta;Yok;/magaza/2el-eaton-pl9-c32-3n
+792;Sigortalar;Eaton;PL9-C10;;Eaton PL9-C10 otomatik sigorta, C 10 A;13;Orta;Yok;/magaza/2el-eaton-pl9-c10
+793;Sigortalar;Eaton;PL9-C6;;Eaton PL9-C6 otomatik sigorta, C 6 A;10;Orta;Yok;/magaza/2el-eaton-pl9-c6
+794;Sigortalar;Eaton;PL9-C4;;Eaton PL9-C4 otomatik sigorta, C 4 A;22;Orta;Yok;/magaza/2el-eaton-pl9-c4-4-a
+795;Terminal bloklar ve klemensler;Weidmüller;SAKDU 16;;Weidmüller SAKDU 16 vidalı ray klemensi, 16 mm²;36;Yüksek;Yok;/magaza/2el-weidmuller-sakdu-16
+798;Sigortalar;Eaton;PL9-C4-DC;;Eaton PL9-C4-DC otomatik sigorta, C 4 A;4;Orta;Yok;/magaza/2el-eaton-pl9-c4-dc
+799;Sigortalar;Eaton;PL9-C20/3;;Eaton PL9-C20/3 otomatik sigorta, C 20 A, 3P;3;Orta;Yok;/magaza/2el-eaton-pl9-c20-3
+800;Sigortalar;Eaton;PL9-C40/3;;Eaton PL9-C40/3 otomatik sigorta, C 40 A, 3P;2;Orta;Yok;/magaza/2el-eaton-pl9-c40-3
+804;Terminal bloklar ve klemensler;Siron;T001 21A01008-0600;;Siron T001 21A01008-0600 ray klemensi;2;Düşük;Yok;/magaza/2el-siron-t001-21a01008-0600
+816;Terminal bloklar ve klemensler;Senmun;D1015;;Senmun D1015 ray klemensi;4;Düşük;Yok;/magaza/2el-senmun-d1015
+819;Terminal bloklar ve klemensler;Qitai;QUKJ-4JD;;Qitai QUKJ-4JD topraklama klemensi;20;Düşük;Yok;/magaza/2el-qitai-qukj-4jd
+820;Terminal bloklar ve klemensler;Qitai;QUKJ-4;;Qitai QUKJ-4 ray klemensi;117;Düşük;Yok;/magaza/2el-qitai-qukj-4
+821;Terminal bloklar ve klemensler;Qitai;QUKJ-4/2-2;;Qitai QUKJ-4/2-2 ray klemensi;9;Düşük;Yok;/magaza/2el-qitai-qukj-4-2-2
+822;Terminal bloklar ve klemensler;Qitai;QUKJ-2.5M/2-2;;Qitai QUKJ-2.5M/2-2 ray klemensi;18;Düşük;Yok;/magaza/2el-qitai-qukj-2-5m-2-2
+829;Sigortalar;CHINT;NXB-63 D16;;CHINT NXB-63 D16 otomatik sigorta, D 16 A;3;Orta;Yok;/magaza/2el-chint-nxb-63-d16
+830;Sigortalar;CHINT;NXB-63 D25;;CHINT NXB-63 D25 otomatik sigorta, D 25 A;3;Orta;Yok;/magaza/2el-chint-nxb-63-d25
+831;Sigortalar;CHINT;NXB-63 D6;;CHINT NXB-63 D6 otomatik sigorta, D 6 A;1;Orta;Yok;/magaza/2el-chint-nxb-63-d6
+833;Terminal bloklar ve klemensler;Qitai;QUKJ-10;;Qitai QUKJ-10 ray klemensi;14;Düşük;Yok;/magaza/2el-qitai-qukj-10
+834;Terminal bloklar ve klemensler;Qitai;QUKJ-10JD;;Qitai QUKJ-10JD topraklama klemensi;1;Düşük;Yok;/magaza/2el-qitai-qukj-10jd
+839;Sigortalar;Schneider Electric;IC65N C10A;;Schneider Electric IC65N C10A otomatik sigorta, C 10 A;1;Orta;Yok;/magaza/2el-schneider-electric-ic65n-c10a
+840;Sigortalar;Schneider Electric;IC65N C2A;;Schneider Electric IC65N C2A otomatik sigorta, C 2 A;3;Orta;Yok;/magaza/2el-schneider-electric-ic65n-c2a
+841,866;Sigortalar;Schneider Electric;IC65N C16A;;Schneider Electric IC65N C16A otomatik sigorta, C 16 A;6;Orta;Yok;/magaza/2el-schneider-electric-ic65n-c16a
+842;Sigortalar;Schneider Electric;IC65N C6A;;Schneider Electric IC65N C6A otomatik sigorta, C 6 A;6;Orta;Yok;/magaza/2el-schneider-electric-ic65n-c6a
+843;Sigortalar;Schneider Electric;IC65N C20A;;Schneider Electric IC65N C20A otomatik sigorta, C 20 A;1;Orta;Yok;/magaza/2el-schneider-electric-ic65n-c20a
+854;Sigortalar;Schneider Electric;IC65N C63A;;Schneider Electric IC65N C63A otomatik sigorta, C 63 A;2;Orta;Yok;/magaza/2el-schneider-electric-ic65n-c63a
+855;Sigortalar;Schneider Electric;Vigi İC65ELE;;Schneider Electric Vigi IC65ELE kaçak akım modülü;2;Düşük;Yok;/magaza/2el-schneider-electric-vigi-ic65ele
+870;Sigortalar;CHINT;RT28N-32X;;CHINT RT28N-32X sigorta yuvası;1;Düşük;Yok;/magaza/2el-chint-rt28n-32x
+871;Sigortalar;Schneider Electric;IC65N C32A;;Schneider Electric IC65N C32A otomatik sigorta, C 32 A;1;Orta;Yok;/magaza/2el-schneider-electric-ic65n-c32a
+872;Sigortalar;Siemens;5SQ26 C16;;Siemens 5SQ26 C16 otomatik sigorta, C 16 A;1;Orta;Yok;/magaza/2el-siemens-5sq26-c16
+877;Sigortalar;CHINT;NXB-63 C6;;CHINT NXB-63 C6 otomatik sigorta, C 6 A;6;Orta;Yok;/magaza/2el-chint-nxb-63-c6-6-a
+878;Sigortalar;CHINT;NXB-63 C20;;CHINT NXB-63 C20 otomatik sigorta, C 20 A;1;Orta;Yok;/magaza/2el-chint-nxb-63-c20
+884;Sigortalar;CHINT;NXB-63 D32;;CHINT NXB-63 D32 otomatik sigorta, D 32 A;1;Orta;Yok;/magaza/2el-chint-nxb-63-d32
+897;Sigortalar;HURO;RT18-32X;;HURO RT18-32X sigorta yuvası;1;Düşük;Yok;/magaza/2el-huro-rt18-32x
+898;Şalt ürünleri;CHINT;NXC-22;;CHINT NXC-22 kontaktör, 22 A;1;Orta;Yok;/magaza/2el-chint-nxc-22
+48;Butonlar, anahtarlar ve sinyal lambaları;Omron;D4V-811Z;;Omron D4V-811Z limit anahtarı;4;Orta;Yok;/magaza/2el-omron-d4v-811z
+49;Butonlar, anahtarlar ve sinyal lambaları;Siemens;3SE5232-0HK50;;Siemens 3SE5232-0HK50 SIRIUS pozisyon anahtarı;1;Yüksek;Var (model);/magaza/2el-siemens-3se5232-0hk50
+50;Butonlar, anahtarlar ve sinyal lambaları;CHINT;YBLX-ME/8108;;CHINT YBLX-ME/8108 anahtar;6;Düşük;Yok;/magaza/2el-chint-yblx-me-8108
+51;Butonlar, anahtarlar ve sinyal lambaları;Omron;D4N-112H;;Omron D4N-112H limit anahtarı;9;Orta;Yok;/magaza/2el-omron-d4n-112h
+52;Butonlar, anahtarlar ve sinyal lambaları;Omron;D4V-8108SZ-N;;Omron D4V-8108SZ-N limit anahtarı;11;Orta;Yok;/magaza/2el-omron-d4v-8108sz-n
+53;Butonlar, anahtarlar ve sinyal lambaları;Omron;D4V-8108Z-N;;Omron D4V-8108Z-N limit anahtarı;57;Orta;Yok;/magaza/2el-omron-d4v-8108z-n
+62;Hız kontrol cihazları (inverter);Siemens;6SL3210-5BE22-2UV0;;Siemens 6SL3210-5BE22-2UV0 SINAMICS V20 hız kontrol cihazı, 2,2 kW, 3 faz 400 V;3;Yüksek;Var (model);/magaza/2el-siemens-6sl3210-5be22-2uv0
+63;Hız kontrol cihazları (inverter);Siemens;6SL3210-5BE21-5UV0;;Siemens 6SL3210-5BE21-5UV0 SINAMICS V20 hız kontrol cihazı, 1,5 kW, 3 faz 400 V;3;Yüksek;Var (model);/magaza/2el-siemens-6sl3210-5be21-5uv0
+64;Hız kontrol cihazları (inverter);Siemens;6SL3210-5BE13-7UV0;;Siemens 6SL3210-5BE13-7UV0 SINAMICS V20 hız kontrol cihazı, 0,37 kW, 3 faz 400 V;2;Yüksek;Var (model);/magaza/2el-siemens-6sl3210-5be13-7uv0
+65;Butonlar, anahtarlar ve sinyal lambaları;Siemens;3SE5312-1SF11;;Siemens 3SE5312-1SF11 SIRIUS pozisyon anahtarı;2;Yüksek;Var (model);/magaza/2el-siemens-3se5312-1sf11
+66;Şalt ürünleri;Siemens;3TF4011-0A;;Siemens 3TF4011-0A kontaktör (üretim dışı 3TF serisi);1;Orta;Yok;/magaza/2el-siemens-3tf4011-0a
+67;Şalt ürünleri;Siemens;3TB4322-0X;;Siemens 3TB4322-0X kontaktör;2;Düşük;Yok;/magaza/2el-siemens-3tb4322-0x
+68;Şalt ürünleri;Siemens;3TS3010-0X;;Siemens 3TS3010-0X kontaktör;3;Düşük;Yok;/magaza/2el-siemens-3ts3010-0x
+88;Butonlar, anahtarlar ve sinyal lambaları;TEND;TPFB5-7;;TEND TPFB5-7 ışık kulesi;7;Düşük;Yok;/magaza/2el-tend-tpfb5-7
+89;Butonlar, anahtarlar ve sinyal lambaları;TAED;TTB5-24;;TAED TTB5-24 ışık kulesi;1;Düşük;Yok;/magaza/2el-taed-ttb5-24
+90;Butonlar, anahtarlar ve sinyal lambaları;Werma;CST60;;Werma CST60 ışık kulesi;2;Düşük;Yok;/magaza/2el-werma-cst60
+91;Butonlar, anahtarlar ve sinyal lambaları;Schneider Electric;XVGB3S;;Schneider Electric XVGB3S ışık kulesi;2;Orta;Var (model);/magaza/2el-schneider-electric-xvgb3s
+92;Butonlar, anahtarlar ve sinyal lambaları;Juijia;N3-3-2CWS;;Juijia N3-3-2CWS ışık kulesi;3;Düşük;Yok;/magaza/2el-juijia-n3-3-2cws
+195;Butonlar, anahtarlar ve sinyal lambaları;ILME;A2B;3 BUTON;ILME A2B buton kutusu;1;Düşük;Yok;/magaza/2el-ilme-a2b
+196;Butonlar, anahtarlar ve sinyal lambaları;ILME;A2P;3 BUTON;ILME A2P buton kutusu;1;Düşük;Yok;/magaza/2el-ilme-a2p
+197;Butonlar, anahtarlar ve sinyal lambaları;Tayee;TYX4S 400-820-4217;4 BUTON;Tayee TYX4S 400-820-4217 buton kutusu;2;Düşük;Yok;/magaza/2el-tayee-tyx4s-400-820-4217
+198;Butonlar, anahtarlar ve sinyal lambaları;ILME;A2M;1 BUTON;ILME A2M buton kutusu;1;Düşük;Yok;/magaza/2el-ilme-a2m
+199;Butonlar, anahtarlar ve sinyal lambaları;Jiangyin Changjiang;LA38-20;;Jiangyin Changjiang LA38-20 buton;3;Düşük;Yok;/magaza/2el-jiangyin-changjiang-la38-20
+200;Butonlar, anahtarlar ve sinyal lambaları;Jiangyin Changjiang;LA38-11;;Jiangyin Changjiang LA38-11 buton;32;Düşük;Yok;/magaza/2el-jiangyin-changjiang-la38-11
+225;Butonlar, anahtarlar ve sinyal lambaları;Siemens;3SB3400-0C;;Siemens 3SB3400-0C kontak bloğu, 1NC;5;Orta;Var (model);/magaza/2el-siemens-3sb3400-0c
+226;Butonlar, anahtarlar ve sinyal lambaları;EMAS;E251518;;EMAS E251518 kontak bloğu;8;Düşük;Yok;/magaza/2el-emas-e251518
+227;Butonlar, anahtarlar ve sinyal lambaları;APT;PB1-F-C01;;APT PB1-F-C01 kontak bloğu;3;Düşük;Yok;/magaza/2el-apt-pb1-f-c01
+228;Butonlar, anahtarlar ve sinyal lambaları;APT;PB1-F-C10;;APT PB1-F-C10 kontak bloğu;5;Düşük;Yok;/magaza/2el-apt-pb1-f-c10
+229;Butonlar, anahtarlar ve sinyal lambaları;Schneider Electric;ZBE101;;Schneider Electric ZBE101 kontak bloğu, 1NO;2;Yüksek;Var (model);/magaza/2el-schneider-electric-zbe101
+239;Şalt ürünleri;Eaton;GB/T14048.3;;Eaton yük ayırıcı şalter (etikette yalnız standart no: GB/T14048.3);1;Düşük;Yok;/magaza/2el-eaton-gb-t14048-3
+431;Butonlar, anahtarlar ve sinyal lambaları;MLS;WT8W08-6A;9W(48X0.2/LED) 220V-50Hz 6500K;MLS WT8W08-6A LED armatür;19;Düşük;Yok;/magaza/2el-mls-wt8w08-6a
+432;Butonlar, anahtarlar ve sinyal lambaları;Damla Led;DA-KBS24-SC;;Damla Led DA-KBS24-SC LED armatür;1;Düşük;Yok;/magaza/2el-damla-led-da-kbs24-sc
+433;Butonlar, anahtarlar ve sinyal lambaları;CAT;CT-2475;40W 220-240V 50-60Hz 6400K;CAT CT-2475 LED armatür;1;Düşük;Yok;/magaza/2el-cat-ct-2475
+440;Şalt ürünleri;;CBB61;1UF 500VAC 50/60Hz;CBB61 motor kondansatörü, 1 µF, 500 V AC;8;Düşük;Yok;/magaza/2el-cbb61
+441;Şalt ürünleri;;CBB61;7UF 500VAC 50/60Hz;CBB61 motor kondansatörü, 7 µF, 500 V AC;3;Düşük;Yok;/magaza/2el-cbb61-2
+444;Butonlar, anahtarlar ve sinyal lambaları;Eaton;M22-EF;;Eaton M22-EF montaj adaptörü;12;Orta;Yok;/magaza/2el-eaton-m22-ef
+445;Butonlar, anahtarlar ve sinyal lambaları;Eaton;M22-EK01;;Eaton M22-EK01 kontak bloğu, 1NC;17;Orta;Yok;/magaza/2el-eaton-m22-ek01
+446;Butonlar, anahtarlar ve sinyal lambaları;Eaton;M22-EK10;;Eaton M22-EK10 kontak bloğu, 1NO;3;Orta;Yok;/magaza/2el-eaton-m22-ek10
+471;Butonlar, anahtarlar ve sinyal lambaları;Siemens;3SB3400-0B;;Siemens 3SB3400-0B kontak bloğu, 1NO;6;Orta;Var (model);/magaza/2el-siemens-3sb3400-0b
+472;Butonlar, anahtarlar ve sinyal lambaları;Siemens;3SB3400-1PE;;Siemens 3SB3400-1PE lamba tutucu;2;Orta;Yok;/magaza/2el-siemens-3sb3400-1pe
+474;Butonlar, anahtarlar ve sinyal lambaları;Gwest;LA115-A;;Gwest LA115-A kontak bloğu;1;Düşük;Yok;/magaza/2el-gwest-la115-a
+511;Şalt ürünleri;Multitech;TST78;;Multitech TST78 toprak sürekliliği test kutusu;1;Düşük;Yok;/magaza/2el-multitech-tst78
+512;Butonlar, anahtarlar ve sinyal lambaları;ZMR;ZMR-PJ-22;100W-6500K;ZMR ZMR-PJ-22 LED armatür;1;Düşük;Yok;/magaza/2el-zmr-zmr-pj-22
+559;Şalt ürünleri;CHINT;AC30-103 200613096403007;;CHINT AC30-103 200613096403007 modüler priz;1;Düşük;Yok;/magaza/2el-chint-ac30-103-200613096403007
+568;Şalt ürünleri;Schneider Electric;EA9X310;;Schneider Electric EA9X310 (etiket kodu);2;Düşük;Yok;/magaza/2el-schneider-electric-ea9x310
+569;Şalt ürünleri;Schneider Electric;LC1N0610;;Schneider Electric LC1N0610 TeSys kontaktör, 6 A;2;Yüksek;Yok;/magaza/2el-schneider-electric-lc1n0610
+573;Şalt ürünleri;Anzhou;AN-10A4BL;;Anzhou AN-10A4BL EMI filtresi;2;Düşük;Yok;/magaza/2el-anzhou-an-10a4bl
+600,691;Şalt ürünleri;Eaton;DILM32-10;;Eaton DILM32-10 kontaktör, 32 A;5;Orta;Yok;/magaza/2el-eaton-dilm32-10
+601,692,788;Şalt ürünleri;;AC30;10-16A 250V;AC30 priz;14;Düşük;Yok;/magaza/2el-ac30-2
+622,697;Şalt ürünleri;Eaton;DILM32-XHI22;;Eaton DILM32-XHI22 yardımcı kontak bloğu, 2NO+2NC;5;Orta;Yok;/magaza/2el-eaton-dilm32-xhi22
+639;Şalt ürünleri;Siemens;5TE68;;Siemens 5TE68 priz;1;Düşük;Yok;/magaza/2el-siemens-5te68
+647;Butonlar, anahtarlar ve sinyal lambaları;APT;LW39-16B-9AC-02/1GR;;APT LW39-16B-9AC-02/1GR kontak bloğu;1;Düşük;Yok;/magaza/2el-apt-lw39-16b-9ac-02-1gr
+650;Şalt ürünleri;Nader;NDC1-115;;Nader NDC1-115 kontaktör, 115 A;4;Orta;Yok;/magaza/2el-nader-ndc1-115
+652;Şalt ürünleri;Nader;NDM3-630L;630A;Nader NDM3-630L kompakt şalter, 630 A;2;Orta;Yok;/magaza/2el-nader-ndm3-630l
+657;Butonlar, anahtarlar ve sinyal lambaları;FSL;WT5-LED4;;FSL WT5-LED4 LED armatür;3;Düşük;Yok;/magaza/2el-fsl-wt5-led4
+659;Şalt ürünleri;ABB;AF16-30-10-11;;ABB AF16-30-10-11 kontaktör, 16 A;9;Yüksek;Yok;/magaza/2el-abb-af16-30-10-11
+669;Şalt ürünleri;ABB;MS116-2.5;;ABB MS116-2.5 motor koruma şalteri, 1,6–2,5 A;5;Yüksek;Yok;/magaza/2el-abb-ms116-2-5
+672;Şalt ürünleri;ABB;AF09-30-10-11;;ABB AF09-30-10-11 kontaktör, 9 A;6;Yüksek;Yok;/magaza/2el-abb-af09-30-10-11
+673;Butonlar, anahtarlar ve sinyal lambaları;ABB;CA4;;ABB CA4 yardımcı kontak bloğu;4;Düşük;Yok;/magaza/2el-abb-ca4
+674;Şalt ürünleri;ABB;MS116-16;;ABB MS116-16 motor koruma şalteri, 10–16 A;6;Yüksek;Yok;/magaza/2el-abb-ms116-16
+675;Şalt ürünleri;Schneider Electric;GV2ME20;;Schneider Electric GV2ME20 motor koruma şalteri, 13–18 A;1;Yüksek;Var (model);/magaza/2el-schneider-electric-gv2me20
+682;Şalt ürünleri;ABB;AF30-30-00-11;;ABB AF30-30-00-11 kontaktör, 30 A;1;Yüksek;Yok;/magaza/2el-abb-af30-30-00-11
+683;Şalt ürünleri;ABB;MS116-6.3;;ABB MS116-6.3 motor koruma şalteri, 4,0–6,3 A;1;Yüksek;Yok;/magaza/2el-abb-ms116-6-3
+701;Butonlar, anahtarlar ve sinyal lambaları;APT;PB-1-F-C10;;APT PB-1-F-C10 kontak bloğu;3;Düşük;Yok;/magaza/2el-apt-pb-1-f-c10
+702;Butonlar, anahtarlar ve sinyal lambaları;Qronz;700U ETL50;;Qronz 700U ETL50 ışık kulesi;1;Düşük;Yok;/magaza/2el-qronz-700u-etl50
+704;Şalt ürünleri;Schneider Electric;LC1D12;;Schneider Electric LC1D12 TeSys kontaktör, 12 A;1;Yüksek;Var (seri);/magaza/2el-schneider-electric-lc1d12
+716;Şalt ürünleri;Siemens;3TF4010-0A;;Siemens 3TF4010-0A kontaktör (üretim dışı 3TF serisi);1;Orta;Yok;/magaza/2el-siemens-3tf4010-0a
+718;Butonlar, anahtarlar ve sinyal lambaları;APT;PB-1-F-C01;;APT PB-1-F-C01 kontak bloğu;2;Düşük;Yok;/magaza/2el-apt-pb-1-f-c01
+722;Şalt ürünleri;Eaton;DILM80;;Eaton DILM80 kontaktör, 80 A;1;Orta;Yok;/magaza/2el-eaton-dilm80
+728;Şalt ürünleri;Siemens;3TF4211-0A;;Siemens 3TF4211-0A kontaktör (üretim dışı 3TF serisi);2;Orta;Yok;/magaza/2el-siemens-3tf4211-0a
+729;Şalt ürünleri;Siemens;3UA59;;Siemens 3UA59 termik aşırı akım rölesi;1;Düşük;Yok;/magaza/2el-siemens-3ua59
+731;Şalt ürünleri;Bemis;BC1-3505-2011;;Bemis BC1-3505-2011 fiş;1;Düşük;Yok;/magaza/2el-bemis-bc1-3505-2011
+732;Şalt ürünleri;Bemis;BC1-3505-2413;;Bemis BC1-3505-2413 priz;2;Düşük;Yok;/magaza/2el-bemis-bc1-3505-2413
+756;Şalt ürünleri;Schneider Electric;LC1D95;;Schneider Electric LC1D95 TeSys kontaktör, 95 A;1;Yüksek;Var (seri);/magaza/2el-schneider-electric-lc1d95
+797;Şalt ürünleri;Schneider Electric;GV2ME08;;Schneider Electric GV2ME08 motor koruma şalteri, 2,5–4 A;3;Yüksek;Var (model);/magaza/2el-schneider-electric-gv2me08
+801;Şalt ürünleri;Eaton;DILM7-10N;;Eaton DILM7-10N kontaktör, 7 A;2;Orta;Yok;/magaza/2el-eaton-dilm7-10n
+802;Şalt ürünleri;Eaton;DILM95;;Eaton DILM95 kontaktör, 95 A;1;Orta;Yok;/magaza/2el-eaton-dilm95
+803;Şalt ürünleri;Eaton;LZM 1;;Eaton LZM1 kompakt şalter;1;Düşük;Yok;/magaza/2el-eaton-lzm-1
+828;Şalt ürünleri;Sunhenry;SH220-20;;Sunhenry SH220-20 parazit önleyici (RC / varistör);3;Düşük;Yok;/magaza/2el-sunhenry-sh220-20
+832;Şalt ürünleri;CHINT;CJX2-4011;;CHINT CJX2-4011 kontaktör, 40 A;1;Orta;Yok;/magaza/2el-chint-cjx2-4011
+865;Şalt ürünleri;Rongweixin;RV410-30-T;;Rongweixin RV410-30-T parazit önleyici (RC / varistör);1;Düşük;Yok;/magaza/2el-rongweixin-rv410-30-t
+867;Şalt ürünleri;Delixi;CJX2sK-0910;;Delixi CJX2sK-0910 kontaktör, 9 A;1;Orta;Yok;/magaza/2el-delixi-cjx2sk-0910
+879;Şalt ürünleri;Siemens;3RT1016-1BB42;;Siemens 3RT1016-1BB42 kontaktör;1;Orta;Yok;/magaza/2el-siemens-3rt1016-1bb42
+885;Şalt ürünleri;Schneider Electric;LC1D18;;Schneider Electric LC1D18 TeSys kontaktör, 18 A;2;Yüksek;Var (seri);/magaza/2el-schneider-electric-lc1d18
+896;Şalt ürünleri;Schaffner;FN3270H-20-44;;Schaffner FN3270H-20-44 3 fazlı EMC filtresi, 20 A;1;Orta;Yok;/magaza/2el-schaffner-fn3270h-20-44
+3;Motorlar ve redüktörler;ZD;6IK200GU-SFT;;ZD 6IK200GU-SFT endüksiyon (AC) motor, 200 W;81;Düşük;Yok;/magaza/2el-zd-6ik200gu-sft
+4;Motorlar ve redüktörler;JSCC;100YS200GY22;;JSCC 100YS200GY22 AC motor, 200 W;6;Düşük;Yok;/magaza/2el-jscc-100ys200gy22
+5;Motorlar ve redüktörler;JSCC;90YS120GY22;;JSCC 90YS120GY22 AC motor, 120 W;7;Düşük;Yok;/magaza/2el-jscc-90ys120gy22
+6;Motorlar ve redüktörler;ZD;5IK120GU-S3FT;;ZD 5IK120GU-S3FT endüksiyon (AC) motor, 120 W;4;Düşük;Yok;/magaza/2el-zd-5ik120gu-s3ft
+7;Motorlar ve redüktörler;Wuxi Zhenjie;MHS9005-380V/5;;Wuxi Zhenjie MHS9005-380V/5 hidrolik motor;3;Düşük;Yok;/magaza/2el-wuxi-zhenjie-mhs9005-380v-5
+8;Servo motorlar ve sürücüler;Inovance;MS1H3-13C15CB;;Inovance MS1H3-13C15CB servo motor, 1,3 kW;1;Orta;Yok;/magaza/2el-inovance-ms1h3-13c15cb
+9;Motorlar ve redüktörler;CPG;CH-4;;CPG CH-4 motor;3;Düşük;Yok;/magaza/2el-cpg-ch-4
+11;Motorlar ve redüktörler;SEV;YS-80M2-4;;SEV YS-80M2-4 3 fazlı asenkron motor;2;Düşük;Yok;/magaza/2el-sev-ys-80m2-4
+12;Motorlar ve redüktörler;SEV;NMRV63;;SEV NMRV63 sonsuz vida redüktör;2;Düşük;Yok;/magaza/2el-sev-nmrv63
+13;Motorlar ve redüktörler;JSCC;S370Y22L200H;;JSCC S370Y22L200H dişli kutulu AC motor;2;Düşük;Yok;/magaza/2el-jscc-s370y22l200h
+14;Servo motorlar ve sürücüler;Mitsubishi Electric;HJ-KS203J;;Mitsubishi Electric HJ-KS203J servo motor, 2 kW;5;Orta;Yok;/magaza/2el-mitsubishi-electric-hj-ks203j
+15;Servo motorlar ve sürücüler;Mitsubishi Electric;HJ-KS203BJ;;Mitsubishi Electric HJ-KS203BJ servo motor, 2 kW, frenli;8;Orta;Yok;/magaza/2el-mitsubishi-electric-hj-ks203bj
+16;Motorlar ve redüktörler;BOC;WVRBR115-010-S2-P2;;BOC WVRBR115-010-S2-P2 açılı / planet redüktör;4;Düşük;Yok;/magaza/2el-boc-wvrbr115-010-s2-p2
+17;Motorlar ve redüktörler;Apex Dynamics;ATB11OFH;;Apex Dynamics ATB11OFH planet redüktör;1;Düşük;Yok;/magaza/2el-apex-dynamics-atb11ofh
+18;Motorlar ve redüktörler;BOC;WVRBR115-015-S2-P2;;BOC WVRBR115-015-S2-P2 açılı / planet redüktör;4;Düşük;Yok;/magaza/2el-boc-wvrbr115-015-s2-p2
+19;Servo motorlar ve sürücüler;Mitsubishi Electric;HJ-KS152J;;Mitsubishi Electric HJ-KS152J servo motor, 1,5 kW;1;Orta;Yok;/magaza/2el-mitsubishi-electric-hj-ks152j
+20;Motorlar ve redüktörler;BOC;ND040-105-RF-P0;;BOC ND040-105-RF-P0 açılı / planet redüktör;1;Düşük;Yok;/magaza/2el-boc-nd040-105-rf-p0
+21;Servo motorlar ve sürücüler;Inovance;MS1H3-18C15CD;;Inovance MS1H3-18C15CD servo motor, 1,8 kW;6;Orta;Yok;/magaza/2el-inovance-ms1h3-18c15cd
+22;Servo motorlar ve sürücüler;Inovance;MS1H3-29C15CD;;Inovance MS1H3-29C15CD servo motor, 2,9 kW;3;Orta;Yok;/magaza/2el-inovance-ms1h3-29c15cd
+23;Motorlar ve redüktörler;Suzhou Si'aoke;90TDY060D4-2TYJ;;Suzhou Si'aoke 90TDY060D4-2TYJ mikro motor (dişli kutulu);3;Düşük;Yok;/magaza/2el-suzhou-si-aoke-90tdy060d4-2tyj
+25;Servo motorlar ve sürücüler;Mitsubishi Electric;HJ-KS202BJ;;Mitsubishi Electric HJ-KS202BJ servo motor, 2 kW, frenli;2;Orta;Yok;/magaza/2el-mitsubishi-electric-hj-ks202bj
+26;Motorlar ve redüktörler;ZD;115ZDS20-0031;;ZD 115ZDS20-0031 redüktör;2;Düşük;Yok;/magaza/2el-zd-115zds20-0031
+27;Motorlar ve redüktörler;Apex Dynamics;PA115-52;;Apex Dynamics PA115-52 planet redüktör;2;Düşük;Yok;/magaza/2el-apex-dynamics-pa115-52
+28;Servo motorlar ve sürücüler;Delta;ECMA-C20807RS;;Delta ECMA-C20807RS servo motor, 750 W;1;Yüksek;Yok;/magaza/2el-delta-ecma-c20807rs
+29;Motorlar ve redüktörler;Mingchuan;DF90-L1-5K;;Mingchuan DF90-L1-5K planet redüktör;1;Düşük;Yok;/magaza/2el-mingchuan-df90-l1-5k
+30;Servo motorlar ve sürücüler;Mitsubishi Electric;HJ-KS43J;;Mitsubishi Electric HJ-KS43J servo motor, 400 W;6;Orta;Yok;/magaza/2el-mitsubishi-electric-hj-ks43j
+31;Motorlar ve redüktörler;BOC;WPF080-005;;BOC WPF080-005 açılı / planet redüktör;4;Düşük;Yok;/magaza/2el-boc-wpf080-005
+32;Servo motorlar ve sürücüler;Delta;ECMA-C20604RS;;Delta ECMA-C20604RS servo motor, 400 W;3;Yüksek;Yok;/magaza/2el-delta-ecma-c20604rs
+33;Motorlar ve redüktörler;Mingchuan;DF60-L2-20K16;;Mingchuan DF60-L2-20K16 planet redüktör;1;Düşük;Yok;/magaza/2el-mingchuan-df60-l2-20k16
+34;Motorlar ve redüktörler;ZD;60ZDF10-400T3;;ZD 60ZDF10-400T3 redüktör;3;Düşük;Yok;/magaza/2el-zd-60zdf10-400t3
+35;Motorlar ve redüktörler;Bismai;PLE60-10-S2-P2;;Bismai PLE60-10-S2-P2 planet redüktör;3;Düşük;Yok;/magaza/2el-bismai-ple60-10-s2-p2
+36;Servo motorlar ve sürücüler;Panasonic;MHMF042L1U2M;;Panasonic MHMF042L1U2M servo motor, 400 W;1;Orta;Yok;/magaza/2el-panasonic-mhmf042l1u2m
+37;Servo motorlar ve sürücüler;Panasonic;MSMD042P1S;;Panasonic MSMD042P1S servo motor, 400 W;2;Orta;Yok;/magaza/2el-panasonic-msmd042p1s
+38;Servo motorlar ve sürücüler;Panasonic;MSMJ042S1U;;Panasonic MSMJ042S1U servo motor, 400 W;1;Orta;Yok;/magaza/2el-panasonic-msmj042s1u
+39;Motorlar ve redüktörler;Panasonic;HTE60-10-MHMD042;;Panasonic motor uyumlu HTE60-10-MHMD042 planet redüktör, 1:10;1;Düşük;Yok;/magaza/2el-panasonic-hte60-10-mhmd042
+40;Motorlar ve redüktörler;Mingchuan;DF60-L1-5K-14;;Mingchuan DF60-L1-5K-14 planet redüktör;1;Düşük;Yok;/magaza/2el-mingchuan-df60-l1-5k-14
+41;Motorlar ve redüktörler;Mingchuan;DF60-L1-5K;;Mingchuan DF60-L1-5K planet redüktör;1;Düşük;Yok;/magaza/2el-mingchuan-df60-l1-5k
+42;Motorlar ve redüktörler;BOC;WPF060-100;;BOC WPF060-100 açılı / planet redüktör;4;Düşük;Yok;/magaza/2el-boc-wpf060-100
+43;Motorlar ve redüktörler;ZD;ZDWF8-400T3;;ZD ZDWF8-400T3 redüktör;1;Düşük;Yok;/magaza/2el-zd-zdwf8-400t3
+44;Servo motorlar ve sürücüler;Mitsubishi Electric;HG-KN13J-S100;;Mitsubishi Electric HG-KN13J-S100 servo motor, 100 W;4;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-hg-kn13j-s100
+45;Motorlar ve redüktörler;ZD;60ZDF10-100T3;;ZD 60ZDF10-100T3 redüktör;4;Düşük;Yok;/magaza/2el-zd-60zdf10-100t3
+46;Servo motorlar ve sürücüler;Mitsubishi Electric;HG-KN43J-S100;;Mitsubishi Electric HG-KN43J-S100 servo motor, 400 W;2;Yüksek;Var (seri);/magaza/2el-mitsubishi-electric-hg-kn43j-s100
+47;Motorlar ve redüktörler;Suzhou Si'aoke;70TDY060D4-2TYJ;;Suzhou Si'aoke 70TDY060D4-2TYJ mikro motor (dişli kutulu);9;Düşük;Yok;/magaza/2el-suzhou-si-aoke-70tdy060d4-2tyj
+60;Servo motorlar ve sürücüler;Inovance;SV660PT012I;;Inovance SV660PT012I servo sürücü, Pals / analog;2;Orta;Yok;/magaza/2el-inovance-sv660pt012i
+61;Servo motorlar ve sürücüler;Inovance;SV660PT8R4I;;Inovance SV660PT8R4I servo sürücü, Pals / analog;5;Orta;Yok;/magaza/2el-inovance-sv660pt8r4i
+69;PLC ve PLC modülleri;Qeepo;QP-HD;;Qeepo QP-HD güç ünitesi;1;Düşük;Yok;/magaza/2el-qeepo-qp-hd
+70;PLC ve PLC modülleri;;APT24V-4;;APT24V-4 güç ünitesi;1;Düşük;Yok;/magaza/2el-apt24v-4
+85;Operatör panelleri, ekranlar ve kontrol cihazları;SMC;ZSE30A-C6H-A;;SMC ZSE30A-C6H-A dijital vakum anahtarı;6;Yüksek;Var (seri);/magaza/2el-smc-zse30a-c6h-a
+93;Operatör panelleri, ekranlar ve kontrol cihazları;SMC;ISE30A-01-N-M;;SMC ISE30A-01-N-M dijital basınç anahtarı;1;Yüksek;Var (seri);/magaza/2el-smc-ise30a-01-n-m
+187;Operatör panelleri, ekranlar ve kontrol cihazları;Pro-face;PFXGP4402WADW;;"Pro-face PFXGP4402WADW dokunmatik operatör paneli, 7"" geniş";2;Orta;Yok;/magaza/2el-pro-face-pfxgp4402wadw
+188;Operatör panelleri, ekranlar ve kontrol cihazları;Delta;DOP-110CS;;"Delta DOP-110CS dokunmatik operatör paneli, 10,1""";1;Yüksek;Yok;/magaza/2el-delta-dop-110cs
+189;Operatör panelleri, ekranlar ve kontrol cihazları;Pro-face;PFXGP4502WADW;;"Pro-face PFXGP4502WADW dokunmatik operatör paneli, 10,1"" geniş";8;Orta;Yok;/magaza/2el-pro-face-pfxgp4502wadw
+190;Operatör panelleri, ekranlar ve kontrol cihazları;Delta;DOP-107BV;;"Delta DOP-107BV dokunmatik operatör paneli, 7""";3;Yüksek;Yok;/magaza/2el-delta-dop-107bv
+191,192,193,194,467,473,500,501;Operatör panelleri, ekranlar ve kontrol cihazları;Airtac;DPSN1;;Airtac DPSN1 dijital basınç anahtarı;11;Orta;Var (seri);/magaza/2el-airtac-dpsn1
+213;PLC ve PLC modülleri;Mitsubishi Electric;FX3U-3A-ADP;;Mitsubishi Electric FX3U-3A-ADP analog adaptör, 2 giriş + 1 çıkış;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-fx3u-3a-adp
+214;PLC ve PLC modülleri;Delta;DVP16EH00T3;;Delta DVP16EH00T3 kompakt PLC (EH3), 8 giriş / 8 transistör çıkış;1;Orta;Yok;/magaza/2el-delta-dvp16eh00t3
+215;PLC ve PLC modülleri;Delta;DVP06XA-H3;;Delta DVP06XA-H3 analog G/Ç modülü (EH3), 4 giriş / 2 çıkış;1;Orta;Yok;/magaza/2el-delta-dvp06xa-h3
+216;Güç kaynakları ve trafolar;Delta;PMT-24V50W2BA;;Delta PMT-24V50W2BA güç kaynağı, 24 V DC, 50 W;1;Yüksek;Yok;/magaza/2el-delta-pmt-24v50w2ba
+217;Güç kaynakları ve trafolar;Wuxi;JBK-50VA;;Wuxi JBK-50VA kontrol transformatörü, 50 VA;2;Düşük;Yok;/magaza/2el-wuxi-jbk-50va
+220;PLC ve PLC modülleri;Mitsubishi Electric;AJ65SBTB1-32D;;Mitsubishi Electric AJ65SBTB1-32D CC-Link uzak G/Ç modülü, 32 giriş;3;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-aj65sbtb1-32d
+221;PLC ve PLC modülleri;Mitsubishi Electric;AJ65SBTB1-32T;;Mitsubishi Electric AJ65SBTB1-32T CC-Link uzak G/Ç modülü, 32 transistör çıkış;2;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-aj65sbtb1-32t
+222;Operatör panelleri, ekranlar ve kontrol cihazları;Bianfu;BF5200S;;Bianfu BF5200S operatör paneli (HMI);3;Düşük;Yok;/magaza/2el-bianfu-bf5200s
+223;Operatör panelleri, ekranlar ve kontrol cihazları;RKC;REX-C100FK02-V*AN;;RKC REX-C100FK02-V*AN sıcaklık kontrol cihazı;4;Orta;Yok;/magaza/2el-rkc-rex-c100fk02-v-an
+235;Servo motorlar ve sürücüler;;RXLG 800W50RJ;;RXLG 800W50RJ fren direnci (alüminyum gövdeli), 800 W;5;Düşük;Yok;/magaza/2el-rxlg-800w50rj
+236;Servo motorlar ve sürücüler;;RXLG 1200W50RJ;;RXLG 1200W50RJ fren direnci (alüminyum gövdeli), 1200 W;3;Düşük;Yok;/magaza/2el-rxlg-1200w50rj
+306;Konveyör ve mekanik parçalar;Winroller;DGAC60-AS-3PH220V-24M/MIN-500L-J64-I-H1-H;;Winroller DGAC60-AS-3PH220V-24M/MIN-500L-J64-I-H1-H motorlu tambur (motorize rulo);2;Düşük;Yok;/magaza/2el-winroller-dgac60-as-3ph220v-24m-min-500l-j64-i-h1-h
+307;Konveyör ve mekanik parçalar;Winroller;DGAC-60-HAS-3PH220V-24M/MIN-592L-JP64-I-H1-H;;Winroller DGAC-60-HAS-3PH220V-24M/MIN-592L-JP64-I-H1-H motorlu tambur (motorize rulo);2;Düşük;Yok;/magaza/2el-winroller-dgac-60-has-3ph220v-24m-min-592l-jp64-i-h1-h
+308;Konveyör ve mekanik parçalar;;CD60-1200L-J64 HZKFW1767;;CD60-1200L-J64 HZKFW1767 konveyör rulosu;2;Düşük;Yok;/magaza/2el-cd60-1200l-j64-hzkfw1767
+309;Konveyör ve mekanik parçalar;Winroller;DG60-AS-3PH220V-1200L-24M-J64;;Winroller DG60-AS-3PH220V-1200L-24M-J64 motorlu tambur (motorize rulo);2;Düşük;Yok;/magaza/2el-winroller-dg60-as-3ph220v-1200l-24m-j64
+310;Konveyör ve mekanik parçalar;Winroller;DGAC60-AS-3PH220V-24M/MIN-1490L-J64(PVC)-I-H1-H;;Winroller DGAC60-AS-3PH220V-24M/MIN-1490L-J64(PVC)-I-H1-H motorlu tambur (motorize rulo);18;Düşük;Yok;/magaza/2el-winroller-dgac60-as-3ph220v-24m-min-1490l-j64-pvc-i-h1-h
+311;Güç aktarma: kasnak ve dişli;;E19.100-06;;E19.100-06 triger kasnak;2;Düşük;Yok;/magaza/2el-e19-100-06
+312;Güç aktarma: kasnak ve dişli;;E12.200-05;;E12.200-05 triger kasnak;298;Düşük;Yok;/magaza/2el-e12-200-05
+313;Güç aktarma: kasnak ve dişli;;E12.200-06A;;E12.200-06A triger kasnak;302;Düşük;Yok;/magaza/2el-e12-200-06a
+314;Güç aktarma: kasnak ve dişli;;DZZTBL017;;DZZTBL017 triger kasnak;4;Düşük;Yok;/magaza/2el-dzztbl017
+315;Güç aktarma: kasnak ve dişli;Suninc;ZXJ1200-04-33(8M-44);;Suninc ZXJ1200-04-33(8M-44) triger kasnak;23;Düşük;Yok;/magaza/2el-suninc-zxj1200-04-33-8m-44
+316;Güç aktarma: kasnak ve dişli;;DZZTBL009;;DZZTBL009 triger kasnak;1;Düşük;Yok;/magaza/2el-dzztbl009
+317;Güç aktarma: kasnak ve dişli;;DZZTBL008;;DZZTBL008 triger kasnak;2;Düşük;Yok;/magaza/2el-dzztbl008
+318;Güç aktarma: kasnak ve dişli;;MH DZZTBL026MO;;MH DZZTBL026MO triger kasnak;4;Düşük;Yok;/magaza/2el-mh-dzztbl026mo
+319;Güç aktarma: kasnak ve dişli;TESE;DZZTBL040MB;;TESE DZZTBL040MB triger kasnak;3;Düşük;Yok;/magaza/2el-tese-dzztbl040mb
+320;Güç aktarma: kasnak ve dişli;;AT5-150-18T-19-21;;AT5-150-18T-19-21 triger kasnak;1;Düşük;Yok;/magaza/2el-at5-150-18t-19-21
+321;Güç aktarma: kasnak ve dişli;;E14.200-07;;E14.200-07 triger kasnak;155;Düşük;Yok;/magaza/2el-e14-200-07
+437;Hız kontrol cihazları (inverter);Shihlin Electric;SL3-021-0.4K;;Shihlin Electric SL3-021-0.4K hız kontrol cihazı, 0,4 kW, 1 faz 230 V;31;Yüksek;Var (seri);/magaza/2el-shihlin-electric-sl3-021-0-4k
+438;PLC ve PLC modülleri;Mitsubishi Electric;AJ65SBTB1-32DT;;Mitsubishi Electric AJ65SBTB1-32DT CC-Link uzak G/Ç modülü, 16 giriş + 16 transistör çıkış;21;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-aj65sbtb1-32dt
+442;Servo motorlar ve sürücüler;;RX24-25W;;RX24-25W fren direnci (alüminyum gövdeli), 25 W;8;Düşük;Yok;/magaza/2el-rx24-25w
+443;Servo motorlar ve sürücüler;;RX24-50W;;RX24-50W fren direnci (alüminyum gövdeli), 50 W;3;Düşük;Yok;/magaza/2el-rx24-50w
+470;Servo motorlar ve sürücüler;Mitsubishi Electric;HG-KR13D-S920040;;Mitsubishi Electric HG-KR13D-S920040 servo motor, 100 W;2;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-hg-kr13d-s920040
+509;PLC ve PLC modülleri;Deeppower;12N5L-BS(MF);12V 5AH/10HR;Deeppower 12N5L-BS(MF) akü 12 V 5 Ah;1;Düşük;Yok;/magaza/2el-deeppower-12n5l-bs-mf
+510;PLC ve PLC modülleri;Lyno Power;LYS4866156S;;Lyno Power LYS4866156S akü / batarya;1;Düşük;Yok;/magaza/2el-lyno-power-lys4866156s
+520;Güç aktarma: kasnak ve dişli;BOC;BOC-0308R100C1B-L300;;BOC BOC-0308R100C1B-L300 kremayer dişli;2;Düşük;Yok;/magaza/2el-boc-boc-0308r100c1b-l300
+521;Güç aktarma: kasnak ve dişli;BOC;BOC-03081100C1B;;BOC BOC-03081100C1B kremayer dişli;5;Düşük;Yok;/magaza/2el-boc-boc-03081100c1b
+522;Güç aktarma: kasnak ve dişli;BOC;BOC-0308R100C1B-L880;;BOC BOC-0308R100C1B-L880 kremayer dişli;1;Düşük;Yok;/magaza/2el-boc-boc-0308r100c1b-l880
+523;Güç aktarma: kasnak ve dişli;BOC;BOC-0308R100C1B;;BOC BOC-0308R100C1B kremayer dişli;21;Düşük;Yok;/magaza/2el-boc-boc-0308r100c1b
+557;Güç kaynakları ve trafolar;Mean Well;LRS-75-24;;Mean Well LRS-75-24 güç kaynağı, 24 V DC, 75 W;1;Yüksek;Yok;/magaza/2el-mean-well-lrs-75-24
+560;PLC ve PLC modülleri;;XSGK-DC-8N;8 KANALLI;XSGK-DC-8N transistör çıkış kartı;1;Düşük;Yok;/magaza/2el-xsgk-dc-8n
+564;PLC ve PLC modülleri;Omron;CP1W-20EDT;;Omron CP1W-20EDT genişleme G/Ç birimi, 12 giriş / 8 transistör çıkış;2;Orta;Yok;/magaza/2el-omron-cp1w-20edt
+565;PLC ve PLC modülleri;Omron;CP1H-EX40DT-D;;Omron CP1H-EX40DT-D kompakt PLC (CP1H), 24 giriş / 16 transistör çıkış;2;Orta;Yok;/magaza/2el-omron-cp1h-ex40dt-d
+566;Güç kaynakları ve trafolar;Omron;S8VK-C12024;;Omron S8VK-C12024 güç kaynağı, 24 V DC, 120 W;2;Yüksek;Yok;/magaza/2el-omron-s8vk-c12024
+574;Servo motorlar ve sürücüler;Panasonic;MBDLN25SE;;Panasonic MBDLN25SE MINAS A6 servo sürücü;4;Orta;Yok;/magaza/2el-panasonic-mbdln25se
+577;Güç kaynakları ve trafolar;Mean Well;MDR-40-24;;Mean Well MDR-40-24 güç kaynağı, 24 V DC, 40 W;17;Yüksek;Yok;/magaza/2el-mean-well-mdr-40-24
+594;Güç kaynakları ve trafolar;S&Y;SYT-110;11KVA;S&Y SYT-110 kontrol transformatörü, 11 kVA;4;Düşük;Yok;/magaza/2el-s-y-syt-110
+595;Servo motorlar ve sürücüler;Mitsubishi Electric;MR-JE-200A;;Mitsubishi Electric MR-JE-200A servo sürücü, 2 kW;10;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-mr-je-200a
+602;Güç kaynakları ve trafolar;Mitsubishi Electric;L61P-CM;;Mitsubishi Electric L61P-CM güç kaynağı modülü;9;Yüksek;Yok;/magaza/2el-mitsubishi-electric-l61p-cm
+603;PLC ve PLC modülleri;Mitsubishi Electric;L02CPU-CM;;Mitsubishi Electric L02CPU-CM CPU modülü;5;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-l02cpu-cm
+604;PLC ve PLC modülleri;Mitsubishi Electric;LD75P4-CM;;Mitsubishi Electric LD75P4-CM konumlandırma modülü, 4 eksen, pals çıkışlı;4;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-ld75p4-cm
+605;PLC ve PLC modülleri;Mitsubishi Electric;LX42C4-CM;;Mitsubishi Electric LX42C4-CM dijital giriş modülü, 64 nokta, 24 V DC;3;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-lx42c4-cm
+606;PLC ve PLC modülleri;Mitsubishi Electric;LY41NT1P-CM;;Mitsubishi Electric LY41NT1P-CM transistör çıkış modülü, 32 nokta;6;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-ly41nt1p-cm
+607;PLC ve PLC modülleri;Mitsubishi Electric;L6EC-CM;;Mitsubishi Electric L6EC-CM bitiş kapağı (end cover);8;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-l6ec-cm
+614;Hız kontrol cihazları (inverter);JSCC;A040 D28M09Y017CN;;"A040 D28M09Y017CN hız kontrol cihazı (etiketteki seri no; marka/model teyit edilmeli)";2;Düşük;Yok;/magaza/2el-jscc-a040-d28m09y017cn
+615;Hız kontrol cihazları (inverter);JSCC;A025 D08M07Y020CN;;"A025 D08M07Y020CN hız kontrol cihazı (etiketteki seri no; marka/model teyit edilmeli)";7;Düşük;Yok;/magaza/2el-jscc-a025-d08m07y020cn
+618;Güç kaynakları ve trafolar;Mean Well;MDR-100-24;;Mean Well MDR-100-24 güç kaynağı, 24 V DC, 100 W;3;Yüksek;Yok;/magaza/2el-mean-well-mdr-100-24
+619;Servo motorlar ve sürücüler;Mitsubishi Electric;MR-JE-10A;;Mitsubishi Electric MR-JE-10A servo sürücü, 100 W;6;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-mr-je-10a
+623;PLC ve PLC modülleri;Mitsubishi Electric;LX41C4-CM;;Mitsubishi Electric LX41C4-CM dijital giriş modülü, 32 nokta, 24 V DC;3;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-lx41c4-cm
+626;Hız kontrol cihazları (inverter);JSCC;A025 D21M05Y020CN;;"A025 D21M05Y020CN hız kontrol cihazı (etiketteki seri no; marka/model teyit edilmeli)";1;Düşük;Yok;/magaza/2el-jscc-a025-d21m05y020cn
+627;PLC ve PLC modülleri;Mitsubishi Electric;FX3U-64MT/ES-A;;Mitsubishi Electric FX3U-64MT/ES-A kompakt PLC, 32 giriş / 32 transistör çıkış;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-fx3u-64mt-es-a
+628;Güç kaynakları ve trafolar;Mean Well;MDR-60-24;;Mean Well MDR-60-24 güç kaynağı, 24 V DC, 60 W;5;Yüksek;Yok;/magaza/2el-mean-well-mdr-60-24
+631;PLC ve PLC modülleri;Leetro;MC7744;;Leetro MC7744 hareket kontrol kartı;1;Düşük;Yok;/magaza/2el-leetro-mc7744
+632;Servo motorlar ve sürücüler;Delta;ASD-B2-0421-B;400W;Delta ASD-B2-0421-B servo sürücü, 400 W;4;Yüksek;Yok;/magaza/2el-delta-asd-b2-0421-b
+633;Güç kaynakları ve trafolar;Delta;PMT-24V150W2BA;;Delta PMT-24V150W2BA güç kaynağı, 24 V DC, 150 W;3;Yüksek;Yok;/magaza/2el-delta-pmt-24v150w2ba
+636;Hız kontrol cihazları (inverter);Weidmüller;A025 D21M05Y020CN;;"A025 D21M05Y020CN hız kontrol cihazı (etiketteki seri no; marka/model teyit edilmeli)";1;Düşük;Yok;/magaza/2el-weidmuller-a025-d21m05y020cn
+637;PLC ve PLC modülleri;Mitsubishi Electric;LD75P2-CM;;Mitsubishi Electric LD75P2-CM konumlandırma modülü, 2 eksen, pals çıkışlı;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-ld75p2-cm
+640;PLC ve PLC modülleri;Delta;DVP32-HM;;Delta DVP32-HM genişleme modülü;1;Orta;Yok;/magaza/2el-delta-dvp32-hm
+641;PLC ve PLC modülleri;Delta;DVP80-EH;;Delta DVP80-EH kompakt PLC (EH);1;Orta;Yok;/magaza/2el-delta-dvp80-eh
+646;Endüstriyel haberleşme;Scicala;SC-NE224-BP;;Scicala SC-NE224-BP Ethernet dönüştürücü;1;Düşük;Yok;/magaza/2el-scicala-sc-ne224-bp
+676;Servo motorlar ve sürücüler;Howcore;RXLG-1;5KW-100RJ-DZ;Howcore RXLG-1 fren direnci (alüminyum gövdeli), 5 kW;2;Düşük;Yok;/magaza/2el-howcore-rxlg-1
+677,686;Hız kontrol cihazları (inverter);Schneider Electric;ATV320U40N4B;;Schneider Electric ATV320U40N4B ATV320 hız kontrol cihazı, 4 kW, 3 faz 400 V;2;Yüksek;Var (model);/magaza/2el-schneider-electric-atv320u40n4b
+678,687;Hız kontrol cihazları (inverter);Schneider Electric;ATV320U15N4B;;Schneider Electric ATV320U15N4B ATV320 hız kontrol cihazı, 1,5 kW, 3 faz 400 V;2;Yüksek;Var (model);/magaza/2el-schneider-electric-atv320u15n4b
+685;Hız kontrol cihazları (inverter);Schneider Electric;ATV320U22N4B;2.2KW-3HP-380-500V;Schneider Electric ATV320U22N4B ATV320 hız kontrol cihazı, 2,2 kW, 3 faz 400 V;2;Yüksek;Var (model);/magaza/2el-schneider-electric-atv320u22n4b
+693;PLC ve PLC modülleri;Mitsubishi Electric;FX3U-64M;;Mitsubishi Electric FX3U-64M kompakt PLC, 64 G/Ç (kodun sonu eksik: MR/MT);2;Yüksek;Yok;/magaza/2el-mitsubishi-electric-fx3u-64m
+695;Hız kontrol cihazları (inverter);JSCC;D550 D03M03Y018CN;;"D550 D03M03Y018CN hız kontrol cihazı (etiketteki seri no; marka/model teyit edilmeli)";1;Düşük;Yok;/magaza/2el-jscc-d550-d03m03y018cn
+698;PLC ve PLC modülleri;Mitsubishi Electric;L06CPU-CM;;Mitsubishi Electric L06CPU-CM CPU modülü;3;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-l06cpu-cm
+699;PLC ve PLC modülleri;Mitsubishi Electric;LJ61BT11-CM;;Mitsubishi Electric LJ61BT11-CM CC-Link master/yerel modül;4;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-lj61bt11-cm
+703;Hız kontrol cihazları (inverter);JSCC;A025 D21M03Y022CN;;"A025 D21M03Y022CN hız kontrol cihazı (etiketteki seri no; marka/model teyit edilmeli)";3;Düşük;Yok;/magaza/2el-jscc-a025-d21m03y022cn
+710;Servo motorlar ve sürücüler;Mitsubishi Electric;MR-JE-40A;;Mitsubishi Electric MR-JE-40A servo sürücü, 400 W;5;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-mr-je-40a
+724;Operatör panelleri, ekranlar ve kontrol cihazları;Weintek;MT8102iQ;;"Weintek MT8102iQ dokunmatik operatör paneli, 10,1""";1;Yüksek;Yok;/magaza/2el-weintek-mt8102iq
+725;Güç kaynakları ve trafolar;Mean Well;LRS-350-24;;Mean Well LRS-350-24 güç kaynağı, 24 V DC, 350 W;3;Yüksek;Yok;/magaza/2el-mean-well-lrs-350-24
+733;Motorlar ve redüktörler;Zhejiang;Y2EJ-00L2-4-TK;;Zhejiang Y2EJ-00L2-4-TK 3 fazlı asenkron motor;1;Düşük;Yok;/magaza/2el-zhejiang-y2ej-00l2-4-tk
+734;Motorlar ve redüktörler;SUTA;RCW107-YEJ3.0-197.4-W5-180;;SUTA RCW107-YEJ3.0-197.4-W5-180 redüktör;1;Düşük;Yok;/magaza/2el-suta-rcw107-yej3-0-197-4-w5-180
+737;PLC ve PLC modülleri;Inovance;H3U-3232MT;;Inovance H3U-3232MT kompakt PLC, 32 giriş / 32 transistör çıkış;2;Orta;Yok;/magaza/2el-inovance-h3u-3232mt
+740;Hız kontrol cihazları (inverter);JSCC;A25 D21M11Y020CN;;"A25 D21M11Y020CN hız kontrol cihazı (etiketteki seri no; marka/model teyit edilmeli)";1;Düşük;Yok;/magaza/2el-jscc-a25-d21m11y020cn
+741;Servo motorlar ve sürücüler;Inovance;SV630AS012I;;Inovance SV630AS012I servo sürücü;2;Orta;Yok;/magaza/2el-inovance-sv630as012i
+742;Servo motorlar ve sürücüler;Leadshine;MA860C-IO;;Leadshine MA860C-IO step motor sürücü;28;Orta;Yok;/magaza/2el-leadshine-ma860c-io
+743;Güç kaynakları ve trafolar;Mitsubishi Electric;Q61P;;Mitsubishi Electric Q61P güç kaynağı modülü;1;Yüksek;Yok;/magaza/2el-mitsubishi-electric-q61p
+744;PLC ve PLC modülleri;Mitsubishi Electric;Q26UDVCPU;;Mitsubishi Electric Q26UDVCPU CPU modülü;1;Yüksek;Yok;/magaza/2el-mitsubishi-electric-q26udvcpu
+745;PLC ve PLC modülleri;Mitsubishi Electric;QD77MS16;;Mitsubishi Electric QD77MS16 Simple Motion modülü, 16 eksen, SSCNET III/H;2;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-qd77ms16
+746;PLC ve PLC modülleri;Mitsubishi Electric;QJ61BT11N;;Mitsubishi Electric QJ61BT11N CC-Link master/yerel modül;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-qj61bt11n
+747;PLC ve PLC modülleri;Mitsubishi Electric;QJ71MB91;;Mitsubishi Electric QJ71MB91 Modbus seri haberleşme modülü;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-qj71mb91
+748;PLC ve PLC modülleri;Mitsubishi Electric;QX42;;Mitsubishi Electric QX42 dijital giriş modülü, 64 nokta, 24 V DC (sink);1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-qx42
+749;PLC ve PLC modülleri;Mitsubishi Electric;QX42P;;Mitsubishi Electric QX42P dijital giriş modülü, 64 nokta, 24 V DC (sink);1;Yüksek;Yok;/magaza/2el-mitsubishi-electric-qx42p
+750;PLC ve PLC modülleri;Mitsubishi Electric;Q68DAIN;;Mitsubishi Electric Q68DAIN analog çıkış modülü, 8 kanal (akım);2;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-q68dain
+751;PLC ve PLC modülleri;Mitsubishi Electric;Q64AD;;Mitsubishi Electric Q64AD analog giriş modülü, 4 kanal;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-q64ad
+752;Endüstriyel haberleşme;Weidmüller;IES101-SW8;;Weidmüller IES101-SW8 endüstriyel Ethernet anahtarı, 8 port;1;Orta;Yok;/magaza/2el-weidmuller-ies101-sw8
+753;Güç kaynakları ve trafolar;Juche;BK-300;;Juche BK-300 kontrol transformatörü, 300 VA;1;Düşük;Yok;/magaza/2el-juche-bk-300
+755;Servo motorlar ve sürücüler;Mitsubishi Electric;HG-KN73J-S100;;Mitsubishi Electric HG-KN73J-S100 servo motor, 750 W;2;Yüksek;Var (seri);/magaza/2el-mitsubishi-electric-hg-kn73j-s100
+765;Güç kaynakları ve trafolar;Mean Well;NDR-480-24;;Mean Well NDR-480-24 güç kaynağı, 24 V DC, 480 W;2;Yüksek;Yok;/magaza/2el-mean-well-ndr-480-24
+766;Güç kaynakları ve trafolar;Mean Well;SDR-960-48;;Mean Well SDR-960-48 güç kaynağı, 48 V DC, 960 W;4;Yüksek;Yok;/magaza/2el-mean-well-sdr-960-48
+768;Motorlar ve redüktörler;TLB;TB501MG022T;;TLB TB501MG022T yan kanal blower (hava üfleyici);2;Düşük;Yok;/magaza/2el-tlb-tb501mg022t
+772;Servo motorlar ve sürücüler;Mitsubishi Electric;MR-JE-10B;;Mitsubishi Electric MR-JE-10B servo sürücü, 100 W;18;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-mr-je-10b
+773;Servo motorlar ve sürücüler;Mitsubishi Electric;MR-JE-40B;;Mitsubishi Electric MR-JE-40B servo sürücü, 400 W;15;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-mr-je-40b
+774;Hız kontrol cihazları (inverter);Shihlin Electric;SL3-043-1.5K;;Shihlin Electric SL3-043-1.5K hız kontrol cihazı, 1,5 kW, 3 faz 400 V;5;Yüksek;Var (seri);/magaza/2el-shihlin-electric-sl3-043-1-5k
+775;Güç kaynakları ve trafolar;;VPT-PRS50W-24-4;;VPT-PRS50W-24-4 güç kaynağı, 50 W;1;Düşük;Yok;/magaza/2el-vpt-prs50w-24-4
+776;Servo motorlar ve sürücüler;Mitsubishi Electric;MR-JE-70B;;Mitsubishi Electric MR-JE-70B servo sürücü, 750 W;11;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-mr-je-70b
+779;Servo motorlar ve sürücüler;JSCC;SK200E;;JSCC SK200E sürücü;3;Düşük;Yok;/magaza/2el-jscc-sk200e
+782;PLC ve PLC modülleri;Mitsubishi Electric;AJ65SBTB1-16T;;Mitsubishi Electric AJ65SBTB1-16T CC-Link uzak G/Ç modülü, 16 transistör çıkış;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-aj65sbtb1-16t
+783;Güç kaynakları ve trafolar;Juche;SG-10K;;Juche SG-10K 3 fazlı kuru tip transformatör, 10 kVA;1;Düşük;Yok;/magaza/2el-juche-sg-10k
+784;Motorlar ve redüktörler;TLB;TB301MG005T;;TLB TB301MG005T yan kanal blower (hava üfleyici);3;Düşük;Yok;/magaza/2el-tlb-tb301mg005t
+789;Servo motorlar ve sürücüler;Inovance;SV630PT8R4I;;Inovance SV630PT8R4I servo sürücü, Pals / analog;1;Orta;Yok;/magaza/2el-inovance-sv630pt8r4i
+790;Operatör panelleri, ekranlar ve kontrol cihazları;Pro-face;GP-4402WW;;"Pro-face GP-4402WW dokunmatik operatör paneli, 7"" geniş";1;Orta;Yok;/magaza/2el-pro-face-gp-4402ww
+791;Servo motorlar ve sürücüler;Mitsubishi Electric;MR-JE-20B;;Mitsubishi Electric MR-JE-20B servo sürücü, 200 W;10;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-mr-je-20b
+796;Güç kaynakları ve trafolar;Mean Well;MDR-100-12;;Mean Well MDR-100-12 güç kaynağı, 12 V DC, 100 W;1;Yüksek;Yok;/magaza/2el-mean-well-mdr-100-12
+805;PLC ve PLC modülleri;Mitsubishi Electric;L26CPU-BT-CM;;Mitsubishi Electric L26CPU-BT-CM CPU modülü;1;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-l26cpu-bt-cm
+806;PLC ve PLC modülleri;Mitsubishi Electric;LD77MS16;;Mitsubishi Electric LD77MS16 Simple Motion modülü, 16 eksen, SSCNET III/H;2;Yüksek;Var (model);/magaza/2el-mitsubishi-electric-ld77ms16
+807;Güç kaynakları ve trafolar;Mean Well;SDR-240-48;;Mean Well SDR-240-48 güç kaynağı, 48 V DC, 240 W;1;Yüksek;Yok;/magaza/2el-mean-well-sdr-240-48
+808;Endüstriyel haberleşme;Weidmüller;IES101-SW5;;Weidmüller IES101-SW5 endüstriyel Ethernet anahtarı, 5 port;1;Orta;Yok;/magaza/2el-weidmuller-ies101-sw5
+809;Güç kaynakları ve trafolar;Weidmüller;CP DC BUFFER (1251220000);;Weidmüller CP DC BUFFER 24V 20A tampon modülü (1251220000);1;Orta;Yok;/magaza/2el-weidmuller-cp-dc-buffer-1251220000
+810;PLC ve PLC modülleri;Inovance;AC801-0221-U0R0;;Inovance AC801-0221-U0R0 hareket kontrol PLC (AC800);1;Orta;Yok;/magaza/2el-inovance-ac801-0221-u0r0
+811;PLC ve PLC modülleri;Keyence;KV-8000;;Keyence KV-8000 CPU birimi (KV-8000);1;Orta;Yok;/magaza/2el-keyence-kv-8000
+812;PLC ve PLC modülleri;Keyence;KV-XH16EC;;Keyence KV-XH16EC EtherCAT konumlandırma / hareket birimi, 16 eksen;2;Orta;Yok;/magaza/2el-keyence-kv-xh16ec
+813;PLC ve PLC modülleri;Keyence;KV-C64XC;;Keyence KV-C64XC dijital giriş birimi, 64 nokta;1;Orta;Yok;/magaza/2el-keyence-kv-c64xc
+814;PLC ve PLC modülleri;Keyence;KV-C64TC;;Keyence KV-C64TC transistör çıkış birimi, 64 nokta;1;Orta;Yok;/magaza/2el-keyence-kv-c64tc
+815;PLC ve PLC modülleri;Keyence;KV-B16XC;;Keyence KV-B16XC dijital giriş birimi, 16 nokta;1;Orta;Yok;/magaza/2el-keyence-kv-b16xc
+823;Güç kaynakları ve trafolar;Mean Well;SE-600-24;;Mean Well SE-600-24 güç kaynağı, 24 V DC, 600 W;1;Yüksek;Yok;/magaza/2el-mean-well-se-600-24
+824;Servo motorlar ve sürücüler;YAKO;YKD2608MH-B3;;YAKO YKD2608MH-B3 step motor sürücü;2;Düşük;Yok;/magaza/2el-yako-ykd2608mh-b3
+825;Servo motorlar ve sürücüler;YAKO;YKD2405M-B13;;YAKO YKD2405M-B13 step motor sürücü;1;Düşük;Yok;/magaza/2el-yako-ykd2405m-b13
+827;PLC ve PLC modülleri;Kzscr;TC-8;;Kzscr TC-8 sıcaklık kontrol modülü;1;Düşük;Yok;/magaza/2el-kzscr-tc-8
+835;Motorlar ve redüktörler;TLB;TB401MG007T;;TLB TB401MG007T yan kanal blower (hava üfleyici);1;Düşük;Yok;/magaza/2el-tlb-tb401mg007t
+836;Servo motorlar ve sürücüler;Inovance;SV660N;;Inovance SV660N servo sürücü, EtherCAT;10;Orta;Yok;/magaza/2el-inovance-sv660n
+837;Servo motorlar ve sürücüler;Servotronix;LDHD2;;Servotronix LDHD2 servo sürücü;5;Düşük;Yok;/magaza/2el-servotronix-ldhd2
+838;Servo motorlar ve sürücüler;Servotronix;CDHD;;Servotronix CDHD servo sürücü;2;Düşük;Yok;/magaza/2el-servotronix-cdhd
+844;Güç kaynakları ve trafolar;Inovance;GL10-PS2;;Inovance GL10-PS2 GL10 güç kaynağı modülü;2;Orta;Yok;/magaza/2el-inovance-gl10-ps2
+845;PLC ve PLC modülleri;Inovance;AM402-CPU1608TN;;Inovance AM402-CPU1608TN orta seri PLC CPU (AM400), 16 giriş / 8 çıkış;1;Orta;Yok;/magaza/2el-inovance-am402-cpu1608tn
+846;PLC ve PLC modülleri;Inovance;GL10-3200END;;Inovance GL10-3200END dijital giriş modülü, 32 nokta;4;Orta;Yok;/magaza/2el-inovance-gl10-3200end
+847;PLC ve PLC modülleri;Inovance;GL10-4AD;;Inovance GL10-4AD analog giriş modülü, 4 kanal;2;Orta;Yok;/magaza/2el-inovance-gl10-4ad
+848;PLC ve PLC modülleri;Inovance;GL10-00116ETN;;Inovance GL10-00116ETN transistör çıkış modülü;2;Orta;Yok;/magaza/2el-inovance-gl10-00116etn
+849;PLC ve PLC modülleri;Inovance;GL10-0032ETN;;Inovance GL10-0032ETN transistör çıkış modülü, 32 nokta;4;Orta;Yok;/magaza/2el-inovance-gl10-0032etn
+850;Operatör panelleri, ekranlar ve kontrol cihazları;;XMTL-XJ4;;XMTL-XJ4 kontrol cihazı;1;Düşük;Yok;/magaza/2el-xmtl-xj4
+851;Servo motorlar ve sürücüler;Inovance;SV660NS1R6I;;Inovance SV660NS1R6I servo sürücü, EtherCAT;8;Orta;Yok;/magaza/2el-inovance-sv660ns1r6i
+852;Servo motorlar ve sürücüler;Leadshine;DM542;;Leadshine DM542 dijital step motor sürücü;3;Orta;Yok;/magaza/2el-leadshine-dm542
+853;Servo motorlar ve sürücüler;YAKO;2D45M;;YAKO 2D45M step motor sürücü;1;Düşük;Yok;/magaza/2el-yako-2d45m
+856;Güç kaynakları ve trafolar;Mean Well;EDR-150-24;;Mean Well EDR-150-24 güç kaynağı, 24 V DC, 150 W;1;Yüksek;Yok;/magaza/2el-mean-well-edr-150-24
+857;PLC ve PLC modülleri;Inovance;GL10-RTU-ECTA;;Inovance GL10-RTU-ECTA EtherCAT uzak G/Ç kuplörü;1;Orta;Yok;/magaza/2el-inovance-gl10-rtu-ecta
+858;PLC ve PLC modülleri;Inovance;GL10-1600END;;Inovance GL10-1600END dijital giriş modülü, 16 nokta;2;Orta;Yok;/magaza/2el-inovance-gl10-1600end
+859;Endüstriyel haberleşme;TP-Link;TL-SF1005;;TP-Link TL-SF1005 5 port Ethernet anahtarı;1;Yüksek;Yok;/magaza/2el-tp-link-tl-sf1005
+861;Servo motorlar ve sürücüler;Inovance;SV630NS5R5I;;Inovance SV630NS5R5I servo sürücü, EtherCAT;2;Orta;Yok;/magaza/2el-inovance-sv630ns5r5i
+862;Servo motorlar ve sürücüler;Servotronix;CDHD-4D52AEC2;;Servotronix CDHD-4D52AEC2 servo sürücü;1;Orta;Yok;/magaza/2el-servotronix-cdhd-4d52aec2
+863;Servo motorlar ve sürücüler;Servotronix;CDHD-0032AEC2;;Servotronix CDHD-0032AEC2 servo sürücü;3;Orta;Yok;/magaza/2el-servotronix-cdhd-0032aec2
+864;Hız kontrol cihazları (inverter);Inovance;MD200S0.4B;;Inovance MD200S0.4B hız kontrol cihazı, 0,4 kW;1;Düşük;Yok;/magaza/2el-inovance-md200s0-4b
+868;PLC ve PLC modülleri;Inovance;AM403-CPU1608TN;;Inovance AM403-CPU1608TN orta seri PLC CPU (AM400), 16 giriş / 8 çıkış;1;Orta;Yok;/magaza/2el-inovance-am403-cpu1608tn
+869;Güç kaynakları ve trafolar;Mean Well;NDR-240-24;;Mean Well NDR-240-24 güç kaynağı, 24 V DC, 240 W;1;Yüksek;Yok;/magaza/2el-mean-well-ndr-240-24
+873;PLC ve PLC modülleri;Delta;DVP16XP211T;;Delta DVP16XP211T dijital G/Ç genişleme modülü, 8 giriş / 8 transistör çıkış;1;Orta;Yok;/magaza/2el-delta-dvp16xp211t
+874;PLC ve PLC modülleri;Delta;DVP20EX2;;Delta DVP20EX2 kompakt PLC (EX2), analog G/Ç dahili;1;Orta;Yok;/magaza/2el-delta-dvp20ex2
+875;Hız kontrol cihazları (inverter);Delta;VFD4A8MS21ANSAA;;Delta VFD4A8MS21ANSAA MS300 hız kontrol cihazı, 0,75 kW, 1 faz 230 V;1;Orta;Yok;/magaza/2el-delta-vfd4a8ms21ansaa
+876;Hız kontrol cihazları (inverter);Delta;VFD2A8MS21ANSAA;;Delta VFD2A8MS21ANSAA MS300 hız kontrol cihazı, 0,4 kW, 1 faz 230 V;1;Orta;Yok;/magaza/2el-delta-vfd2a8ms21ansaa
+880;Motorlar ve redüktörler;Wansin;WSS-400W;;Wansin WSS-400W servo motor;1;Düşük;Yok;/magaza/2el-wansin-wss-400w
+881;Motorlar ve redüktörler;Wansin;WSS-200W;;Wansin WSS-200W servo motor;1;Düşük;Yok;/magaza/2el-wansin-wss-200w
+882;Motorlar ve redüktörler;Ningbo;YL-7134;;Ningbo YL-7134 motor;1;Düşük;Yok;/magaza/2el-ningbo-yl-7134
+883;Operatör panelleri, ekranlar ve kontrol cihazları;KEBA;KeTop T70-qqu-Aa0;;KEBA KeTop T70-qqu-Aa0 el tipi operatör paneli (KeTop T70);1;Düşük;Yok;/magaza/2el-keba-ketop-t70-qqu-aa0
+886;Servo motorlar ve sürücüler;Estun;PRONET-50DEA-EC-R1;;Estun PRONET-50DEA-EC-R1 servo sürücü;2;Orta;Yok;/magaza/2el-estun-pronet-50dea-ec-r1
+887;Servo motorlar ve sürücüler;Estun;PRONET-20AEG-EC-R1;;Estun PRONET-20AEG-EC-R1 servo sürücü;1;Orta;Yok;/magaza/2el-estun-pronet-20aeg-ec-r1
+888;Servo motorlar ve sürücüler;Estun;PRONET-10AEG-EC-R1;;Estun PRONET-10AEG-EC-R1 servo sürücü;1;Orta;Yok;/magaza/2el-estun-pronet-10aeg-ec-r1
+889;Servo motorlar ve sürücüler;Estun;PRONET-04AEG-EC-R1;;Estun PRONET-04AEG-EC-R1 servo sürücü;1;Orta;Yok;/magaza/2el-estun-pronet-04aeg-ec-r1
+890;PLC ve PLC modülleri;KEBA;KEMRO K2-200;;KEBA KEMRO K2-200 G/Ç modülü (Kemro K2-200);2;Düşük;Yok;/magaza/2el-keba-kemro-k2-200
+891;PLC ve PLC modülleri;KEBA;CP 263/X;;KEBA CP 263/X CPU modülü;1;Düşük;Yok;/magaza/2el-keba-cp-263-x
+892;Servo motorlar ve sürücüler;Estun;ED3L-30D;;Estun ED3L-30D servo sürücü;2;Orta;Yok;/magaza/2el-estun-ed3l-30d
+893;Servo motorlar ve sürücüler;Estun;ED3L-20D;;Estun ED3L-20D servo sürücü;1;Orta;Yok;/magaza/2el-estun-ed3l-20d
+894;Servo motorlar ve sürücüler;Estun;ED3L-08A;;Estun ED3L-08A servo sürücü;1;Orta;Yok;/magaza/2el-estun-ed3l-08a
+895;Servo motorlar ve sürücüler;Estun;ED3L-04A;;Estun ED3L-04A servo sürücü;1;Orta;Yok;/magaza/2el-estun-ed3l-04a
+899;Güç kaynakları ve trafolar;Delta;DRL-24V120W1EN;;Delta DRL-24V120W1EN güç kaynağı, 24 V DC, 120 W;1;Yüksek;Yok;/magaza/2el-delta-drl-24v120w1en
+900;Güç kaynakları ve trafolar;Delta;DRL-24V240W1EN;;Delta DRL-24V240W1EN güç kaynağı, 24 V DC, 240 W;1;Yüksek;Yok;/magaza/2el-delta-drl-24v240w1en
+901;PLC ve PLC modülleri;Estun;ERC300-N;;Estun ERC300-N robot kontrolörü CPU;1;Düşük;Yok;/magaza/2el-estun-erc300-n
+902;PLC ve PLC modülleri;Estun;EC4-1616BWE;;Estun EC4-1616BWE EtherCAT G/Ç modülü, 16 giriş / 16 çıkış;1;Düşük;Yok;/magaza/2el-estun-ec4-1616bwe

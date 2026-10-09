@@ -44,6 +44,7 @@ import { encProducts } from "./enkoder";
 import { kontrolProducts } from "./kontrol";
 import { YEDEK_CAT_TEXT, yedekParcaProducts } from "./yedek-parca";
 import { IKINCI_EL_PREFIX, ikinciElProducts } from "./ikinci-el";
+import { gefranProducts } from "./gefran";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -153,6 +154,8 @@ export const products: Product[] = [
   ...encProducts,
   ...kontrolProducts,
   ...yedekParcaProducts,
+  // Gefran güç kontrol, SSR ve motor yol verici serileri (07-10-2026): src/data/gefran.ts
+  ...gefranProducts,
   ...ikinciElProducts,
 ];
 
@@ -196,7 +199,10 @@ export const seriesOf = (p: Product) =>
 
 
 // Mağaza listesi: kategori → grup (seri + gövde) → ürün. Yeni kategori veya seri eklendiğinde otomatik ayrılır.
+// Sabit kategori adresleri (ör. Gefran talimatı: /magaza/kategori/motor-starter)
+const SLUG_OVERRIDE: Record<string, string> = { "Motor yol vericiler (motor starter)": "motor-starter" };
 export const slugify = (t: string) =>
+  SLUG_OVERRIDE[t] ??
   t.toLocaleLowerCase("tr-TR").replace(/ç/g, "c").replace(/ğ/g, "g").replace(/ı/g, "i").replace(/ö/g, "o").replace(/ş/g, "s").replace(/ü/g, "u").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const groupLabel = (p: Product) => {
   if (p.groupTitle) return p.groupTitle;
@@ -270,24 +276,26 @@ export const seriesSlug = (series: string) => slugify(series);
 // Kategori açıklamaları: kategori sayfasında ve mağaza listesinde görünür. İddia içermeyen, ürün bilgisine dayalı metin.
 export const CATEGORY_INFO: Record<string, { seoTitle: string; description: string; intro: string[]; keywords: string[] }> = {
   "tristorlu-guc-kontrol": {
-    seoTitle: "Tristörlü Güç Kontrol Ünitesi (SCR) – Autonics DPU, SPR | Ankara",
+    seoTitle: "Tristörlü Güç Kontrol Ünitesi (SCR) – Gefran, Autonics | Ankara",
     description:
-      "Autonics tristörlü (SCR) güç kontrol üniteleri: DPU3, SPR1 monofaze, SPR3 trifaze, SPRM çok kanallı, SPRS modüler; 25–600 A. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+      "Gefran ve Autonics tristörlü (SCR) güç kontrol üniteleri: Gefran GRC, GPC, GRM, GFX4, GFX; Autonics DPU3, SPR1, SPR3, SPRM, SPRS; 25–600 A. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
     intro: [
       "Tristörlü (SCR) güç kontrol üniteleri fırın, ısıl işlem ve proses ısıtıcılarında yük gücünü sıcaklık kontrol cihazının 4–20 mA veya 0–10 V sinyaline göre ayarlar. Mağazada Autonics DPU3 (3 faz 440 V, 120–600 A), SPR1 monofaze ve SPR3 trifaze ince tip (110–440 VAC, 25–150 A), SPRM çok kanallı (25–160 A) ve SPRS modüler (25–600 A güç modülleri ve EtherCAT, PROFINET, EtherNet/IP, CC-Link haberleşme modülleri) serileri bulunur. DPU serisinin 840 sipariş kodunun tamamı ayrıca DPU model kodları sayfasında listelenir.",
+      "AOM, Gefran yetkili satış noktasıdır. Gefran tarafında kompakt GRC (1/2/3 faz, 25–150 A), gelişmiş GPC (40–600 A, 690 Vac'a kadar), IO-Link'li tek fazlı GRM ve GRM-H (10–120 A), 4 PID çevrimli GFX4 ve SWIR lambalar için GFX4-IR, çok kanallı IR-12/IR-24, tek çevrim PID'li GFX ve GFX Multifunzione ile akıllı yük yöneticisi GSLM listelenir. Gefran ürünlerinde fiyat için teklif isteyin.",
       "Ankara merkezli AOM, tristörlü güç kontrol panolarında ünite seçimi, pano entegrasyonu ve devreye alma desteği verir. Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
     ],
-    keywords: ["tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "tristör sürücü", "thyristor power controller", "Autonics DPU", "Autonics SPR1", "Autonics SPR3", "Autonics SPRM", "Autonics SPRS", "güç kontrol ünitesi Ankara", "tristör fiyat"],
+    keywords: ["tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "tristör sürücü", "thyristor power controller", "Autonics DPU", "Autonics SPR1", "Autonics SPR3", "Autonics SPRM", "Autonics SPRS", "güç kontrol ünitesi Ankara", "tristör fiyat", "Gefran güç kontrol", "Gefran GRC", "Gefran GPC", "Gefran GFX4", "Gefran tristör"],
   },
   "solid-state-roleler-ssr": {
-    seoTitle: "Solid State Röle (SSR) – Autonics, NCR Katı Hal Rölesi | Ankara",
+    seoTitle: "Solid State Röle (SSR) – Gefran, Autonics, NCR | Ankara",
     description:
-      "Autonics ve NCR solid state röleler (SSR, katı hal rölesi): tek ve üç fazlı, 1–120 A; Autonics 8 seri 224 model, NCR HHG1, HHG1D, HHG1-3, HHG2 ve potansiyometreyle sürülen HHT1. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
+      "Gefran, Autonics ve NCR solid state röleler (SSR, katı hal rölesi): tek ve üç fazlı, 1–120 A; Gefran GRS, GRP, GRZ ve GQ serileri, Autonics 8 seri 224 model, NCR HHG1, HHG1D, HHG1-3, HHG2 ve potansiyometreyle sürülen HHT1. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
     intro: [
       "Solid state röleler (SSR, katı hal rölesi) yükü mekanik kontak olmadan yarı iletkenle anahtarlar; sessiz, hızlı ve uzun ömürlüdür. Isıtıcı kontrolü, fırınlar, ambalaj ve plastik makineleri gibi sık anahtarlama gereken uygulamalarda kullanılır. Autonics SSR ailesi tek fazlı ve üç fazlı, 1 A'den 75 A'e kadar, sıfır geçişli ve rastgele açma modellerinden oluşur.",
+      "Gefran tarafında (AOM yetkili satış noktası) tek fazlı GRS ve entegre soğutuculu GRS-H (15–120 A), IO-Link ve gelişmiş diyagnostikli GRP ve GRP-H (15–120 A), üç fazlı GRZ ve GRZ-H (10–75 A) ile 90 A'e kadar GQ serileri listelenir. Gefran ürünlerinde fiyat için teklif isteyin.",
       "Mağazada ayrıca NCR (Nicerelay) HHG1 masa tipi, HHG1D tarak tipi, HHG1-3 üç fazlı, HHG2 tek fazlı ve potansiyometreyle sürülen HHT1 SSR'ler yer alır. Autonics serileri: sökülebilir soğutuculu SR1 ve SR3, ince tip SRC1, entegre soğutuculu SRH1 ve SRH3, aşırı ısınma önlemeli SRHL1 ve SRHL3, soketli SRS1. Ankara merkezli AOM, SSR seçimi, soğutucu ve pano uygulaması konusunda destek verir; Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
     ],
-    keywords: ["solid state röle", "SSR", "katı hal rölesi", "SSR röle fiyatları", "Autonics SSR", "üç fazlı SSR", "SSR Ankara"],
+    keywords: ["solid state röle", "SSR", "katı hal rölesi", "SSR röle fiyatları", "Autonics SSR", "üç fazlı SSR", "SSR Ankara", "Gefran SSR", "Gefran GRS", "Gefran GRZ", "Gefran GQ"],
   },
   enkoderler: {
     seoTitle: "Enkoder (Encoder) – Autonics Artımlı ve Mutlak Enkoder | Ankara",
@@ -411,6 +419,17 @@ for (const cat of new Set(ikinciElProducts.map((p) => p.category))) {
     keywords: [`2. el ${name.toLocaleLowerCase("tr-TR")}`, `ikinci el ${name.toLocaleLowerCase("tr-TR")}`, "2. el otomasyon malzemesi"],
   };
 }
+
+// Gefran motor yol vericiler (07-10-2026)
+CATEGORY_INFO["motor-starter"] = {
+  seoTitle: "Motor Yol Verici (Motor Starter) | Ankara",
+  description: "Gefran G-Start motor yol verici (motor starter): 3 kW / 7 A, doğrudan yol verme ve ters dönüş, PL e / SIL 3 acil stop. AOM Gefran yetkili satış noktası; Ankara'dan Türkiye geneline teklif.",
+  intro: [
+    "Küçük ve orta güçlü motorlar için doğrudan yol verme, yön değiştirme ve koruma fonksiyonlu kompakt motor starter modülleri.",
+    "AOM, Gefran yetkili satış noktasıdır. Konveyör, pompa, fan ve helezon motorları için motor yol verici seçimi, pano entegrasyonu ve devreye alma desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["motor yol verici", "motor starter", "Gefran G-Start", "ters dönüşlü motor starter", "motor yol verici fiyat", "motor starter Ankara"],
+};
 
 CATEGORY_INFO[slugify(OTHER_CATEGORY)] = {
   seoTitle: "Diğer Ürünler – CNC Yedek Parça, Fan, Sigorta, Potansiyometre | Ankara",

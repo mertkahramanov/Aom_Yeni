@@ -3,6 +3,7 @@ import { products, storeCategories, storeSeries } from "@/data/magaza";
 import { DPU_GROUPS } from "@/data/dpuCodes";
 import { ENC_SERIES } from "@/data/enkoder";
 import { KONTROL_KOD_SERIES } from "@/data/kontrol";
+import { BRANDS } from "@/data/markalar";
 
 const SITE = "https://aomtechnology.tr";
 
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: SITE, lastModified: now, changeFrequency: "monthly", priority: 1 },
     { url: `${SITE}/magaza`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     ...storeCategories().map((c) => ({ url: `${SITE}/magaza/kategori/${c.id}`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 })),
+    ...Object.keys(BRANDS).map((b) => ({ url: `${SITE}/magaza/marka/${b}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.75 })),
     ...storeSeries().map((s) => ({ url: `${SITE}/magaza/seri/${s.slug}`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.75 })),
     { url: `${SITE}/magaza/dpu-kodlari`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     ...DPU_GROUPS.map((g) => ({ url: `${SITE}/magaza/dpu-kodlari/${g.id}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 })),
