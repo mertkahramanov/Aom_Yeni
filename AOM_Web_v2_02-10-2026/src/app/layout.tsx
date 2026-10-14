@@ -5,7 +5,7 @@ import Analytics from "@/components/Analytics";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { orgJsonLd } from "@/lib/seo";
+import { orgJsonLd, SITE } from "@/lib/seo";
 import "./globals.css";
 
 const saira = Saira({
@@ -23,7 +23,7 @@ const plex = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aomtechnology.tr"),
+  metadataBase: new URL(SITE),
   title: {
     default: "AOM | Robotik kaynak, pres güvenliği, CNC ve otomasyon",
     template: "%s | AOM",

@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import OemMarquee from "@/components/OemMarquee";
+import SearchBox from "@/components/SearchBox";
+import TeklifForm from "@/components/TeklifForm";
 
 const solutions = [
   {
@@ -83,6 +85,12 @@ export default function HomePage() {
   return (
     <>
       <HeroSlider />
+
+      {/* Ürün kodu / model arama (14-10-2026) */}
+      <section className="container" style={{ paddingTop: 32, paddingBottom: 8, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
+        <div className="eyebrow">Ürün kodu ile hızlı arama</div>
+        <SearchBox />
+      </section>
 
       {/* OEM partnerlikleri: kayan logo şeridi */}
       <OemMarquee />
@@ -213,7 +221,7 @@ export default function HomePage() {
               ))}
             </ul>
           </div>
-          <div className="card contact-card">
+          <div className="card contact-card" style={{ display: "flex", flexDirection: "column", gap: 14 }}>
             <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 20 }}>İletişim</div>
             <a className="big" href="mailto:info@aomtechnology.tr">
               info@aomtechnology.tr
@@ -222,9 +230,7 @@ export default function HomePage() {
               0544 624 75 14
             </a>
             <div style={{ fontSize: 15, color: "var(--ink-muted)" }}>1147. Cad. No: 8, Yenimahalle / Ankara</div>
-            <a href="mailto:info@aomtechnology.tr" className="btn btn-primary" style={{ alignSelf: "flex-start" }}>
-              Proje dosyalarını gönderin
-            </a>
+            <TeklifForm formName="homepage_contact_form" embedded />
           </div>
         </div>
       </section>

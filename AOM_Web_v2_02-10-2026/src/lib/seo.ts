@@ -1,6 +1,10 @@
 // Ortak SEO verileri (03-10-2026). Firma bilgileri sitede yayımlanan iletişim bilgilerinden alınmıştır.
 // Açılış saatleri, posta kodu ve koordinat bilinmediği için eklenmedi [TEYİT]; Google İşletme Profili ile aynı olmalı.
-export const SITE = "https://aomtechnology.tr";
+// www birliği (14-10-2026, claude/SITE_TRAFIK_DURUM_14-10-2026.md Bulgu 2): Vercel'de asıl (primary)
+// domain www.aomtechnology.tr olduğu için kanonik adresler buna göre birleştirildi. Vercel › Domains'te
+// www'siz aomtechnology.tr'nin buraya yönlendirdiğinden ayrıca emin olunmalı (bu kod seviyesinde değil,
+// platform ayarıdır).
+export const SITE = "https://www.aomtechnology.tr";
 
 export const ORG = {
   name: "AOM",

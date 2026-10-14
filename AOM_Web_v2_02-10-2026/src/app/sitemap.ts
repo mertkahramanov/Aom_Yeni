@@ -4,8 +4,7 @@ import { DPU_GROUPS } from "@/data/dpuCodes";
 import { ENC_SERIES } from "@/data/enkoder";
 import { KONTROL_KOD_SERIES } from "@/data/kontrol";
 import { BRANDS } from "@/data/markalar";
-
-const SITE = "https://aomtechnology.tr";
+import { SITE } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

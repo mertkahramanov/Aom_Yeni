@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import SearchBox from "@/components/SearchBox";
 import { isUsedCategory, products, storeCategories } from "@/data/magaza";
 import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
@@ -82,6 +83,7 @@ export default function MagazaPage() {
         <p className="lead">
           Gefran (yetkili satış noktası) ve Autonics tristörlü güç kontrol üniteleri, solid state röleler (SSR), Gefran motor yol vericiler, Autonics enkoderler ve kontrol cihazları; NCR röleler ve röle soketleri, CNC yedek parçaları ve endüstriyel elektronik ürünler. Kategoriyi seçerek ürünlere ulaşın. Fiyatlar KDV hariçtir. {REGION_LINE}
         </p>
+        <SearchBox placeholder="Ürün kodu veya model ile arayın (ör. DPU34D-500A, E40S6-1000)" />
       </div>
       {MAIN_GROUPS.map((m) => {
         if (m.id === "ikinci-el") {

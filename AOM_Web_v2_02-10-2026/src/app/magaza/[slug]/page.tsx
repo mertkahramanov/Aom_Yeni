@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import TeklifForm from "@/components/TeklifForm";
 import { fullName, getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
 import { BRANDS } from "@/data/markalar";
 import { eligibleRegion, REGION_LINE, sellerRef, SITE } from "@/lib/seo";
@@ -102,7 +103,6 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
   const idx = allSiblings.findIndex((x) => x.slug === p.slug);
   const siblings = allSiblings.length > 40 ? allSiblings.slice(Math.max(0, idx - 12), Math.max(0, idx - 12) + 25) : allSiblings;
   const sibAmp = siblings.some((x) => x.current !== undefined);
-  const mail = `mailto:info@aomtechnology.tr?subject=${encodeURIComponent(`Teklif talebi: ${fullName(p)}`)}`;
   return (
     <section className="container section" style={{ display: "flex", flexDirection: "column", gap: 24 }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(p)) }} />
@@ -164,7 +164,6 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
           )}
           <p className="caption" style={{ margin: 0 }}>{REGION_LINE}</p>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-            <a href={mail} className="btn btn-primary">{pr ? "Sipariş / teklif isteyin" : "Teklif isteyin"}</a>
             {p.codePage && (
               <Link href={p.codePage.href} className="btn btn-outline">
                 {p.codePage.count} sipariş kodunu gör
@@ -181,6 +180,7 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
               </Link>
             )}
           </div>
+          <TeklifForm formName="product_page_form" itemName={fullName(p)} title={pr ? "Sipariş / teklif isteyin" : "Teklif isteyin"} />
         </div>
       </div>
 
