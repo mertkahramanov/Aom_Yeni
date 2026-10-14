@@ -220,7 +220,7 @@ for (const p of products) if (!catOrder.has(p.category)) catOrder.set(p.category
 for (const p of products) {
   if (p.image || p.used) continue; // 2. el ürünler kendi bölümünde kalır
   const from = p.category;
-  p.groupTitle = from;
+  p.groupTitle = p.brand ? `${from} · ${p.brand}` : from; // kategori + marka grubu (Mert, 11-10-2026)
   p.groupOrder = catOrder.get(from) ?? 99;
   p.category = OTHER_CATEGORY;
 }
@@ -236,7 +236,8 @@ export function storeCategories() {
     g.items.push(p);
   }
   for (const c of cats) {
-    c.groups.sort((a, b) => (a.items[0].groupOrder ?? 0) - (b.items[0].groupOrder ?? 0) || (a.items[0].current ?? 0) - (b.items[0].current ?? 0));
+    // Mert, 11-10-2026: ürünler her zaman kategori ve markaya göre gruplanır (aynı sıradaki gruplar marka, sonra seri adına göre)
+    c.groups.sort((a, b) => (a.items[0].groupOrder ?? 0) - (b.items[0].groupOrder ?? 0) || (a.items[0].brand ?? "").localeCompare(b.items[0].brand ?? "", "tr") || (a.items[0].current ?? 0) - (b.items[0].current ?? 0) || a.title.localeCompare(b.title, "tr"));
     for (const g of c.groups) g.items.sort((a, b) => (a.current ?? 0) - (b.current ?? 0) || a.model.localeCompare(b.model));
   }
   // "Diğer ürünler" her zaman en sonda, 2. el kategorileri ondan önce

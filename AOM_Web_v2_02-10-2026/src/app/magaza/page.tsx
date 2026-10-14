@@ -47,6 +47,7 @@ const MAIN_GROUPS: { id: string; title: string; ids: string[] | null; codes?: Co
   },
   { id: "operator-panelleri", title: "Operatör panelleri ve endüstriyel bilgisayarlar", ids: ["grafik-paneller-hmi", "endustriyel-bilgisayarlar"] },
   { id: "roleler", title: "Röleler", ids: ["roleler-ve-role-soketleri"] },
+  { id: "motor-suruculer", title: "Motor sürücüler ve yol vericiler", ids: ["hiz-kontrol-cihazlari-ac-suruculer", "dc-motor-suruculer", "yumusak-yol-vericiler-soft-starter", "fren-uniteleri-ve-direncleri"] },
   { id: "cnc-elektronik", title: "CNC yedek parça ve elektronik", ids: null },
   { id: "ikinci-el", title: "2. El ürünler", ids: [] }, // kategoriler isUsedCategory ile otomatik eklenir
   { id: "diger", title: "Diğer", ids: ["diger-urunler"] },

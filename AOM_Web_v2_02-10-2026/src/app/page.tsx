@@ -45,15 +45,17 @@ const services = [
 
 // OEM partnerliği logoları: hepsi sözleşmeli partner, kullanım onaylı.
 // Dosyalar /public/oem/ altında (OemMarquee ile aynı kaynak).
+// Her logo kendi marka sayfasına (/magaza/marka/<slug>) bağlanır (11-10-2026).
 const oem = [
-  { name: "Yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
-  { name: "Fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160 },
-  { name: "ABB", src: "/oem/abb_03-10-2026.png", w: 319, h: 129 },
-  { name: "Siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60 },
-  { name: "Mitsubishi Electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160 },
-  { name: "Omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99 },
-  { name: "Pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149 },
-  { name: "Leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115 },
+  { name: "Yaskawa", slug: "yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
+  { name: "Fanuc", slug: "fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160 },
+  { name: "ABB", slug: "abb", src: "/oem/abb_03-10-2026.png", w: 319, h: 129 },
+  { name: "Siemens", slug: "siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60 },
+  { name: "Mitsubishi Electric", slug: "mitsubishi-electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160 },
+  { name: "Omron", slug: "omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99 },
+  { name: "Pilz", slug: "pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149 },
+  { name: "Leuze", slug: "leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115 },
+  { name: "Gefran", slug: "gefran", src: "/oem/gefran_11-10-2026.svg", w: 160, h: 37 },
 ];
 
 // Referans/müşteri logoları: AOM Media / Referanslarımız klasöründeki resmi
@@ -151,13 +153,26 @@ export default function HomePage() {
           <ul className="logo-grid">
             {oem.map((b) => (
               <li key={b.name}>
-                <Image
-                  src={b.src}
-                  alt={b.name}
-                  width={b.w}
-                  height={b.h}
-                  style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
-                />
+                <Link href={`/magaza/marka/${b.slug}`} aria-label={`${b.name} ürünleri`}>
+                  {b.src.endsWith(".svg") ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={b.src}
+                      alt={b.name}
+                      width={b.w}
+                      height={b.h}
+                      style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
+                    />
+                  ) : (
+                    <Image
+                      src={b.src}
+                      alt={b.name}
+                      width={b.w}
+                      height={b.h}
+                      style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
+                    />
+                  )}
+                </Link>
               </li>
             ))}
           </ul>

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ marka: st
   return {
     title: b.seoTitle,
     description: b.description,
-    keywords: [`${b.name} yetkili satıcı`, `${b.name} Türkiye`, `${b.name} Ankara`, `${b.name} fiyat`],
+    keywords: [`${b.name} ${b.keyword ?? "OEM partneri"}`, `${b.name} Türkiye`, `${b.name} Ankara`, `${b.name} fiyat`],
     alternates: { canonical: url },
     openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title: b.seoTitle, description: b.description },
   };
@@ -64,7 +64,7 @@ export default async function MarkaPage({ params }: { params: Promise<{ marka: s
         <Link href="/">Ana sayfa</Link> <span aria-hidden="true">/</span> <Link href="/magaza">Mağaza</Link> <span aria-hidden="true">/</span> <span>{b.name}</span>
       </nav>
       <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 860 }}>
-        <div className="eyebrow">Yetkili satış noktası · Ankara ve Türkiye geneli</div>
+        <div className="eyebrow">{b.eyebrow ?? "OEM partneri · Ankara ve Türkiye geneli"}</div>
         <h1 style={{ fontWeight: 800, fontSize: 40, lineHeight: 1.08 }}>{b.name} ürünleri</h1>
         {b.intro.map((t) => (
           <p key={t.slice(0, 24)} style={{ margin: 0, color: "var(--ink-muted)" }}>
@@ -77,23 +77,48 @@ export default async function MarkaPage({ params }: { params: Promise<{ marka: s
           </a>
         </div>
       </div>
-      {cats.map((c) => (
-        <div key={c.title} className="store-group">
-          <h2 className="store-group-title">
-            <Link href={`/magaza/kategori/${slugify(c.title)}`} className="store-cat-link">
-              {c.title}
-            </Link>{" "}
-            <span className="store-count">{c.items.length} seri</span>
-          </h2>
-          <ul className="store-grid">
-            {c.items.map((p) => (
-              <li key={p.slug}>
-                <StoreCard p={p} />
-              </li>
-            ))}
-          </ul>
+      {cats.length > 0 ? (
+        cats.map((c) => (
+          <div key={c.title} className="store-group">
+            <h2 className="store-group-title">
+              <Link href={`/magaza/kategori/${slugify(c.title)}`} className="store-cat-link">
+                {c.title}
+              </Link>{" "}
+              <span className="store-count">{c.items.length} seri</span>
+            </h2>
+            <ul className="store-grid">
+              {c.items.map((p) => (
+                <li key={p.slug}>
+                  <StoreCard p={p} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      ) : (
+        <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+          {b.name} ürünleri için fiyat, stok ve teslim süresi bilgisi almak üzere bizimle iletişime geçin.
+        </p>
+      )}
+
+      {/* Marka sayfası iletişim/teklif çağrısı (11-10-2026) */}
+      <div className="card contact-card" style={{ maxWidth: 520 }}>
+        <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 20 }}>
+          {b.name} için teklif isteyin
         </div>
-      ))}
+        <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 15 }}>
+          Model seçimi, fiyat, stok ve teslim süresi için bize ulaşın; Ankara&apos;dan Türkiye&apos;nin her şehrine gönderim yapılır.
+        </p>
+        <a className="big" href="mailto:info@aomtechnology.tr">
+          info@aomtechnology.tr
+        </a>
+        <a className="big" href="tel:+905446247514">
+          0544 624 75 14
+        </a>
+        <a href={`mailto:info@aomtechnology.tr?subject=${encodeURIComponent(`${b.name} teklif talebi`)}`} className="btn btn-primary" style={{ alignSelf: "flex-start" }}>
+          Teklif isteyin
+        </a>
+      </div>
     </section>
   );
 }

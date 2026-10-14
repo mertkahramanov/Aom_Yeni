@@ -8,6 +8,9 @@
 // Fiyat yok: "Teklif isteyin".
 import type { Product } from "./magaza";
 import raw from "./yedek-parca_06-10-2026.json";
+// AC / DC sürücüler, yumuşak yol vericiler, fren üniteleri (11-10-2026): kod listesi Endelkon ve Hareket Otomasyon kategorilerinden;
+// yalnız kodlar alındı, değerler üretici kod yapısından çözüldü, bilinmeyen alan boş. Ayrıntı: 14_SURUCU_INDEKS_11-10-2026.md
+import raw2 from "./surucu_11-10-2026.json";
 
 type Raw = {
   slug: string;
@@ -60,6 +63,10 @@ const CAT_TEXT: Record<string, string> = {
   "Sarf malzemeleri": "Bakım ve onarımda kullanılan yapıştırıcı, gres, temizleme aparatı ve benzeri sarf malzemeleri.",
   "Güç kaynakları ve trafolar": "Anahtarlamalı DC güç kaynakları pano içindeki kumanda, sensör ve kontrol devrelerini; AC trafolar step motor sürücüleri ve kumanda devrelerini besler. Seçimde giriş / çıkış gerilimi, çıkış akımı ve güç birlikte değerlendirilmelidir.",
   "Hız kontrol cihazları (AC sürücüler)": "Hız kontrol cihazları (AC motor sürücü, inverter) asenkron motorun hızını frekansı değiştirerek ayarlar. Seçimde motor gücü, besleme gerilimi ve faz sayısı, nominal çıkış akımı ve kontrol yöntemi birlikte değerlendirilmelidir.",
+  "Yumuşak yol vericiler (soft starter)": "Yumuşak yol vericiler (soft starter) asenkron motorun kalkış ve duruşunda gerilimi kademeli değiştirerek kalkış akımını ve mekanik darbeyi azaltır. Seçimde motor gücü, nominal akım, şebeke gerilimi ve kalkış sıklığı birlikte değerlendirilmelidir.",
+  "Fren üniteleri ve dirençleri": "Fren üniteleri, motor yavaşlarken sürücünün DC barasında oluşan enerjiyi fren direncine aktararak aşırı gerilim hatasını önler. Seçimde sürücünün gerilim sınıfı, motor gücü ve fren çevrimi birlikte değerlendirilmelidir.",
+  "Güvenlik röleleri": "Güvenlik röleleri acil stop, kapı sviçi ve ışık perdesi gibi güvenlik elemanlarını izleyerek makineyi güvenli şekilde durdurur; kategori / PL seviyesi, kontak sayısı ve besleme gerilimine göre seçilir.",
+  "DC motor sürücüler": "DC motor sürücüleri DC motorun armatür gerilimini tristörlerle kontrol ederek hız ve tork ayarlar. 4 bölgeli (rejeneratif) sürücüler motoru iki yönde sürer ve frenleme enerjisini şebekeye geri verir.",
   "Spindle motorlar": "Spindle (iş mili) motorları CNC router ve işleme makinelerinde kesici takımı döndürür. Seçimde güç, maksimum devir, takım bağlama (ER pens, ISO / HSK konik), soğutma tipi ve takım değiştirme ihtiyacı birlikte değerlendirilmelidir.",
   "Step ve servo motorlar, sürücüler": "Step motorlar ve sürücüleri CNC eksenlerinde konumlamayı açık veya kapalı çevrimle (enkoderli) sağlar. Seçimde flanş ölçüsü (NEMA), tutma torku, faz akımı ve sürücünün gerilim / akım aralığı birlikte değerlendirilmelidir.",
   "Şalt ürünleri": "Kontaktörler, motor koruma şalterleri, termik röleler, otomatik sigortalar ve pako şalterler motor ve kumanda devrelerini anahtarlar ve korur. Seçimde anma akımı, motor gücü, bobin gerilimi ve ayar aralığı birlikte değerlendirilmelidir.",
@@ -76,6 +83,10 @@ const CAT_TEXT: Record<string, string> = {
 // Seri sayfası başlığındaki ürün türü
 const KIND: Record<string, string> = {
   "Hız kontrol cihazları (AC sürücüler)": "Hız Kontrol Cihazı",
+  "Yumuşak yol vericiler (soft starter)": "Yumuşak Yol Verici",
+  "Fren üniteleri ve dirençleri": "Fren Ünitesi",
+  "Güvenlik röleleri": "Güvenlik Rölesi",
+  "DC motor sürücüler": "DC Motor Sürücü",
   "Spindle motorlar": "Spindle Motor",
   "Step ve servo motorlar, sürücüler": "Step Motor ve Sürücü",
   "Şalt ürünleri": "Şalt Ürünü",
@@ -143,5 +154,5 @@ function build(r: Raw): Product {
   };
 }
 
-export const yedekParcaProducts: Product[] = (raw as unknown as Raw[]).map(build);
+export const yedekParcaProducts: Product[] = [...(raw as unknown as Raw[]), ...(raw2 as unknown as Raw[])].map(build);
 export const YEDEK_CAT_TEXT = CAT_TEXT;
