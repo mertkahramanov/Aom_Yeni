@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Saira, IBM_Plex_Sans } from "next/font/google";
 import Analytics from "@/components/Analytics";
+import CookieBanner from "@/components/CookieBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -25,11 +26,11 @@ const plex = IBM_Plex_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
-    default: "AOM | Robotik kaynak, pres güvenliği, CNC ve otomasyon",
+    default: "AOM | Endüstriyel Otomasyon, PLC, Servo Motor, Robotik Kaynak | Ankara",
     template: "%s | AOM",
   },
   description:
-    "Angora Endüstriyel Makine: robotik kaynak hücreleri, pozisyonerler, pres güvenliği, CNC tezgâhlar ve tristörlü güç kontrol. Tasarım, imalat ve devreye alma tek çatı altında, Ankara.",
+    "Angora Endüstriyel Makine: Ankara merkezli endüstriyel otomasyon ve makine otomasyonu; PLC/SCADA uyumlu ürünler, servo motor ve motor sürücüler, motion kontrol (enkoder), robotik kaynak hücreleri, pres güvenliği, CNC tezgâhlar ve tristörlü güç kontrol. Tasarım, imalat ve devreye alma tek çatı altında.",
   openGraph: { type: "website", locale: "tr_TR", siteName: "AOM" },
   other: { "geo.region": "TR-06", "geo.placename": "Ankara" },
 };
@@ -46,6 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <WhatsAppButton />
+        <CookieBanner />
       </body>
     </html>
   );

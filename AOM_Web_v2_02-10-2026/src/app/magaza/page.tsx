@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Mağaza: Autonics, Gefran – Kontrol, Enkoder, SSR, Tristör | Ankara",
   description:
     "Autonics sıcaklık kontrol cihazları, sayıcı, zamanlayıcı, panel metre, HMI, enkoderler, solid state röle (SSR), DPU ve SPR tristörlü güç kontrol üniteleri; Gefran güç kontrol, SSR ve motor yol vericiler. Fiyatlar KDV hariç. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
-  keywords: ["Autonics bayi Ankara", "sıcaklık kontrol cihazı", "zamanlayıcı", "sayıcı", "HMI", "enkoder", "encoder", "artımlı enkoder", "mutlak enkoder", "solid state röle", "SSR", "katı hal rölesi", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "otomasyon malzemeleri Ankara", "Autonics fiyat listesi", "Gefran yetkili satıcı", "Gefran güç kontrol"],
+  keywords: ["Autonics bayi Ankara", "sıcaklık kontrol cihazı", "zamanlayıcı", "sayıcı", "HMI", "enkoder", "encoder", "artımlı enkoder", "mutlak enkoder", "solid state röle", "SSR", "katı hal rölesi", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "otomasyon malzemeleri Ankara", "Autonics fiyat listesi", "Gefran satış noktası", "Gefran teknik destek", "Gefran güç kontrol"],
   alternates: { canonical: "/magaza" },
   openGraph: {
     type: "website",
@@ -81,7 +81,7 @@ export default function MagazaPage() {
         <div className="eyebrow">Mağaza</div>
         <h1 style={{ fontWeight: 800, fontSize: 44, lineHeight: 1.05 }}>AOM Mağaza</h1>
         <p className="lead">
-          Gefran (yetkili satış noktası) ve Autonics tristörlü güç kontrol üniteleri, solid state röleler (SSR), Gefran motor yol vericiler, Autonics enkoderler ve kontrol cihazları; NCR röleler ve röle soketleri, CNC yedek parçaları ve endüstriyel elektronik ürünler. Kategoriyi seçerek ürünlere ulaşın. Fiyatlar KDV hariçtir. {REGION_LINE}
+          Gefran (satış noktası ve teknik destek) ve Autonics tristörlü güç kontrol üniteleri, solid state röleler (SSR), Gefran motor yol vericiler, Autonics enkoderler ve kontrol cihazları; NCR röleler ve röle soketleri, CNC yedek parçaları ve endüstriyel elektronik ürünler. Kategoriyi seçerek ürünlere ulaşın. Fiyatlar KDV hariçtir. {REGION_LINE}
         </p>
         <SearchBox placeholder="Ürün kodu veya model ile arayın (ör. DPU34D-500A, E40S6-1000)" />
       </div>

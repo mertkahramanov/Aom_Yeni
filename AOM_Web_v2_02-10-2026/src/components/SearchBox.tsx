@@ -14,6 +14,7 @@ export default function SearchBox({ placeholder = "Ürün kodu veya model ile ar
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [activeIdx, setActiveIdx] = useState(-1);
+  const [focused, setFocused] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const boxRef = useRef<HTMLDivElement>(null);
 
@@ -73,24 +74,45 @@ export default function SearchBox({ placeholder = "Ürün kodu veya model ile ar
 
   return (
     <div ref={boxRef} className="search-box" style={{ position: "relative", maxWidth: 480, width: "100%" }}>
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="var(--aom-red)"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+        style={{ position: "absolute", left: 14, top: "50%", transform: "translateY(-50%)", pointerEvents: "none" }}
+      >
+        <circle cx="11" cy="11" r="7" />
+        <line x1="21" y1="21" x2="16.2" y2="16.2" />
+      </svg>
       <input
         type="search"
         value={q}
         onChange={(e) => setQ(e.target.value)}
-        onFocus={() => q.trim().length >= 2 && setOpen(true)}
+        onFocus={() => {
+          setFocused(true);
+          if (q.trim().length >= 2) setOpen(true);
+        }}
+        onBlur={() => setFocused(false)}
         onKeyDown={onKeyDown}
         placeholder={placeholder}
         autoComplete="off"
         aria-label="Ürün kodu veya model arama"
         style={{
           width: "100%",
-          padding: "11px 14px",
+          padding: "11px 14px 11px 42px",
           borderRadius: 10,
-          border: "1px solid var(--line)",
+          border: `2px solid var(--aom-red)`,
+          boxShadow: focused ? "0 0 0 3px rgba(142, 27, 32, 0.18)" : undefined,
           fontFamily: "var(--font-body)",
           fontSize: 15,
-          background: "var(--surface, #fff)",
+          background: "var(--surface-raised, #fff)",
           color: "inherit",
+          outline: "none",
         }}
       />
       {open && q.trim().length >= 2 && (

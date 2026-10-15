@@ -1,9 +1,42 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import OemMarquee from "@/components/OemMarquee";
 import SearchBox from "@/components/SearchBox";
 import TeklifForm from "@/components/TeklifForm";
+
+// Canonical etiketi (15-10-2026): ana sayfada eksikti (bkz. claude/SITE_GOOGLE_DURUM_09-10-2026.md).
+// "/" metadataBase (https://www.aomtechnology.tr) ile birleşip https://www.aomtechnology.tr/ olur.
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
+
+// Endüstriyel otomasyon bölümü (14-10-2026): Ankara'da PLC, servo motor ve motion kontrol
+// aramalarında görünürlük için — ürün satışı + teknik danışmanlık çerçevesi (Mert onayı).
+// Her kart /otomasyon sayfasındaki ilgili bölüme veya mağazadaki ilgili ana kategoriye bağlanır.
+const automation = [
+  {
+    href: "/otomasyon#plc",
+    title: "PLC / SCADA uyumlu ürünler",
+    text: "Sıcaklık kontrol cihazı, sayıcı, zamanlayıcı, panel metre, HMI ve dijital ekran birimleri; PLC veya SCADA sistemine bağlanarak izlenebilir ve kumanda edilebilir.",
+  },
+  {
+    href: "/otomasyon#servo",
+    title: "Servo motor ve motor sürücüler",
+    text: "AC/DC motor sürücüler, soft starter ve step/servo motor sürücüleri; seçim, tedarik ve pano entegrasyonu desteği.",
+  },
+  {
+    href: "/otomasyon#motion",
+    title: "Motion kontrol / enkoderler",
+    text: "34 seri, 8.644 sipariş koduyla artımlı ve mutlak enkoderler; konum ve hız geri beslemesi gerektiren motion uygulamaları.",
+  },
+  {
+    href: "/otomasyon",
+    title: "Otomasyon projelerinde teknik destek",
+    text: "Robotik kaynak, CNC ve pres hücrelerinin elektrik-kontrol aşamasında ürün seçimi, pano entegrasyonu ve devreye alma desteği.",
+  },
+];
 
 const solutions = [
   {
@@ -90,6 +123,30 @@ export default function HomePage() {
       <section className="container" style={{ paddingTop: 32, paddingBottom: 8, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
         <div className="eyebrow">Ürün kodu ile hızlı arama</div>
         <SearchBox />
+      </section>
+
+      {/* Endüstriyel otomasyon (14-10-2026): Ankara'da PLC, servo motor, motion kontrol görünürlüğü için */}
+      <section id="otomasyon" className="container section" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 760 }}>
+          <div className="eyebrow">Endüstriyel otomasyon</div>
+          <h2 className="h2">Ankara&apos;dan Türkiye geneline otomasyon ürünleri ve teknik destek</h2>
+          <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+            AOM, Ankara merkezli bir endüstriyel otomasyon ve makine otomasyonu firmasıdır. PLC/SCADA uyumlu kontrol
+            cihazları, servo motor ve motor sürücüler, motion kontrol için enkoderler mağazamızda ürün olarak
+            satılır; robotik kaynak, CNC ve pres otomasyonu projelerimizin elektrik-kontrol aşamasında da aynı
+            ürün ailelerini kullanır, seçim ve devreye alma desteği veririz.
+          </p>
+        </div>
+        <div className="grid-auto solutions">
+          {automation.map((a) => (
+            <Link key={a.title} href={a.href} className="card solution">
+              <div className="rule" />
+              <h3>{a.title}</h3>
+              <p>{a.text}</p>
+              <span className="more">İncele →</span>
+            </Link>
+          ))}
+        </div>
       </section>
 
       {/* OEM partnerlikleri: kayan logo şeridi */}

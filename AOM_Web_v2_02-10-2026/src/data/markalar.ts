@@ -1,10 +1,11 @@
 import { GEFRAN_BRAND } from "./gefran";
 
-// Marka sayfaları (/magaza/marka/<slug>). Gefran (07-10-2026) için "yetkili satış noktası" ifadesi
-// önceden doğrulanmıştı. Diğer markalar (11-10-2026), ana sayfadaki "OEM partnerlikleri" bölümünde
-// zaten yer alan, sözleşmeli/kullanım onaylı OEM partnerleridir; bunlar için "yetkili satıcı/distribütör"
-// gibi doğrulanmamış bir ilişki iddia edilmez — sayfa metni yalnız OEM partnerliği ve (varsa) mağaza
-// kataloğundaki gerçek ürün varlığına dayanır. Ürünü olmayan markalarda sayfa tanıtım + teklif çağrısı içerir.
+// Marka sayfaları (/magaza/marka/<slug>). Gefran (07-10-2026, 14-10-2026'da "satış noktası ve teknik
+// destek" olarak güncellendi) için bu ilişki önceden doğrulanmıştı. Diğer markalar (11-10-2026), ana
+// sayfadaki "OEM partnerlikleri" bölümünde zaten yer alan, sözleşmeli/kullanım onaylı OEM partnerleridir;
+// bunlar için "yetkili satıcı/distribütör" gibi doğrulanmamış bir ilişki iddia edilmez — sayfa metni
+// yalnız OEM partnerliği ve (varsa) mağaza kataloğundaki gerçek ürün varlığına dayanır. Ürünü olmayan
+// markalarda sayfa tanıtım + teklif çağrısı içerir.
 export const BRANDS: Record<
   string,
   { name: string; country: string; site: string; seoTitle: string; description: string; intro: string[]; eyebrow?: string; keyword?: string }
@@ -13,11 +14,11 @@ export const BRANDS: Record<
     name: GEFRAN_BRAND.name,
     country: GEFRAN_BRAND.country,
     site: GEFRAN_BRAND.manufacturer_url,
-    seoTitle: "Gefran Yetkili Satıcı – Güç Kontrol, SSR, Motor Starter | Ankara",
+    seoTitle: "Gefran Satış Noktası ve Teknik Destek – Güç Kontrol, SSR, Motor Starter | Ankara",
     description:
-      "AOM, Gefran yetkili satış noktası: GRC, GPC, GRM, GFX4, GFX tristörlü güç kontrol üniteleri; GRS, GRP, GRZ, GQ solid state röleler; G-Start motor yol verici. Ankara'dan Türkiye geneline teklif.",
-    eyebrow: "Yetkili satış noktası · Ankara ve Türkiye geneli",
-    keyword: "yetkili satıcı",
+      "AOM, Gefran satış noktası ve teknik destek: GRC, GPC, GRM, GFX4, GFX tristörlü güç kontrol üniteleri; GRS, GRP, GRZ, GQ solid state röleler; G-Start motor yol verici. Ankara'dan Türkiye geneline teklif.",
+    eyebrow: "Satış noktası ve teknik destek · Ankara ve Türkiye geneli",
+    keyword: "satış noktası ve teknik destek",
     intro: [
       GEFRAN_BRAND.brand_page_intro,
       "Gefran, İtalya merkezli endüstriyel otomasyon üreticisidir. Aşağıda Gefran güç kontrol serileri kategorilerine göre listelenir; her serinin teknik özellikleri ve Gefran ürün sayfası bağlantısı ürün sayfasında yer alır. Fiyat için teklif isteyin.",

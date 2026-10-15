@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const menu = [
+  { href: "/otomasyon", label: "Otomasyon" },
   { href: "/#cozumler", label: "Çözümler" },
   { href: "/#hizmetler", label: "Hizmetler" },
   { href: "/#surec", label: "Süreç" },

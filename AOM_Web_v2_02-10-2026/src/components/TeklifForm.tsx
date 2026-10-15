@@ -29,6 +29,9 @@ type Props = {
 };
 
 export default function TeklifForm({ formName, itemName, title = "Teklif isteyin", embedded }: Props) {
+  // Form, sayfada sürekli durmasın diye varsayılan olarak kapalı: önce sadece buton görünür,
+  // tıklanınca alanlar açılır (14-10-2026, Mert'in isteği).
+  const [revealed, setRevealed] = useState(false);
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -72,6 +75,19 @@ export default function TeklifForm({ formName, itemName, title = "Teklif isteyin
       setStatus("error");
       setErrorMsg("Bağlantı hatası, lütfen tekrar deneyin veya bizi telefonla arayın.");
     }
+  }
+
+  if (!revealed) {
+    return (
+      <button
+        type="button"
+        className="btn btn-primary"
+        onClick={() => setRevealed(true)}
+        style={embedded ? { alignSelf: "flex-start" } : undefined}
+      >
+        {title}
+      </button>
+    );
   }
 
   if (status === "ok") {
@@ -120,9 +136,25 @@ export default function TeklifForm({ formName, itemName, title = "Teklif isteyin
           {errorMsg}
         </p>
       )}
-      <button type="submit" className="btn btn-primary" disabled={status === "sending"} style={{ alignSelf: "flex-start" }}>
-        {status === "sending" ? "Gönderiliyor…" : "Teklif isteyin"}
-      </button>
+      {/* KVKK bilgilendirme satırı (15-10-2026) — bkz. claude/CEREZ_BANDI_TALIMATI_15-10-2026.md md.4 */}
+      <p style={{ margin: 0, fontSize: 12.5, color: "var(--ink-muted)" }}>
+        Kişisel verileriniz, talebinize yanıt vermek amacıyla{" "}
+        <a href="/kvkk-aydinlatma-metni">KVKK Aydınlatma Metni</a> kapsamında işlenir.
+      </p>
+      <div style={{ display: "flex", gap: 14, alignItems: "center" }}>
+        <button type="submit" className="btn btn-primary" disabled={status === "sending"}>
+          {status === "sending" ? "Gönderiliyor…" : "Gönder"}
+        </button>
+        {status !== "sending" && (
+          <button
+            type="button"
+            onClick={() => setRevealed(false)}
+            style={{ background: "none", border: "none", padding: 0, color: "var(--ink-muted)", fontSize: 14, cursor: "pointer", textDecoration: "underline" }}
+          >
+            Vazgeç
+          </button>
+        )}
+      </div>
     </form>
   );
 

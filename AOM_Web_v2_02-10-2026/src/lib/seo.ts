@@ -62,6 +62,10 @@ export function orgJsonLd() {
         parentOrganization: { "@id": `${SITE}/#org` },
         knowsAbout: [
           "endüstriyel otomasyon",
+          "makine otomasyonu",
+          "PLC",
+          "servo motor",
+          "motion kontrol",
           "robotik kaynak",
           "pres güvenliği",
           "CNC tezgâh",
