@@ -73,7 +73,7 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 }
 .btn-primary { background: var(--aom-red); color: #fff; }
 .btn-primary:hover { background: var(--aom-red-deep); color: #fff; }
-.btn-outline { border: 1px solid var(--ink); color: var(--ink); padding: 13px 25px; }
+.btn-outline { background: transparent; border: 1px solid var(--ink); color: var(--ink); padding: 13px 25px; }
 .btn-outline:hover { background: var(--ink); color: #fff; }
 
 .card { background: var(--surface-raised); border: 1px solid var(--line); }
@@ -118,7 +118,7 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .slider-lead { margin: 0; font-size: 18px; line-height: 1.55; color: var(--ink-muted-on-dark); max-width: 560px; }
 .slider-spec { align-self: flex-start; background: var(--vurgu-sari); color: var(--ink); font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 14px; padding: 6px 12px; border-radius: var(--radius-sm); }
 .slider-ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
-.btn-outline-light { border: 1px solid var(--ink-on-dark); color: var(--ink-on-dark); padding: 13px 25px; }
+.btn-outline-light { background: transparent; border: 1px solid var(--ink-on-dark); color: var(--ink-on-dark); padding: 13px 25px; }
 .btn-outline-light:hover { background: var(--ink-on-dark); color: var(--ink); }
 .slider-visual { background: #222326; border: 1px solid #3a3b3f; border-top: 3px solid var(--aom-red); height: 420px; display: flex; align-items: center; justify-content: center; position: relative; border-radius: 8px; overflow: hidden; }
 .slider-visual-photo { height: 480px; overflow: hidden; background: #e9e8e5; }

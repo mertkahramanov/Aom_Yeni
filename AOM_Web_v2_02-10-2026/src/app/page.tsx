@@ -105,12 +105,15 @@ const references = [
   { name: "FNSS", src: "/referanslar/fnss_06-10-2026.png", w: 738, h: 195 },
   { name: "ASFAT", src: "/referanslar/asfat_06-10-2026.png", w: 300, h: 126 },
   // 15-10-2026 eklendi — bkz. claude/REFERANS_LOGOLARI_EKLEME_15-10-2026.md
-  { name: "ArmAda", src: "/referanslar/armada_15-10-2026.webp", w: 480, h: 240 },
-  { name: "TSE (Türk Standardları Enstitüsü)", src: "/referanslar/tse_15-10-2026.webp", w: 480, h: 240 },
-  { name: "MKE (Makina ve Kimya Endüstrisi)", src: "/referanslar/mke_15-10-2026.webp", w: 480, h: 240 },
-  { name: "SpaceX", src: "/referanslar/spacex_15-10-2026.webp", w: 480, h: 240 },
-  { name: "Tunatek", src: "/referanslar/tunatek_15-10-2026.webp", w: 480, h: 240 },
-  { name: "Orbant Plastik", src: "/referanslar/orbant-plastik_15-10-2026.webp", w: 480, h: 240 },
+  // (15-10-2026, düzeltme: sabit 480×240 tuval + içine gömülü boşluk, kare/portre logolarda CSS'in
+  // maxWidth/maxHeight sınırıyla üst üste küçülüyor, logolar diğer 8 logoya göre çok küçük görünüyordu.
+  // Artık diğer logolar gibi içeriğe sıkı kırpılmış gerçek piksel boyutları kullanılıyor.)
+  { name: "ArmAda", src: "/referanslar/armada_15-10-2026.webp", w: 418, h: 480 },
+  { name: "TSE (Türk Standardları Enstitüsü)", src: "/referanslar/tse_15-10-2026.webp", w: 736, h: 429 },
+  { name: "MKE (Makina ve Kimya Endüstrisi)", src: "/referanslar/mke_15-10-2026.webp", w: 500, h: 500 },
+  { name: "SpaceX", src: "/referanslar/spacex_15-10-2026.webp", w: 501, h: 54 },
+  { name: "Tunatek", src: "/referanslar/tunatek_15-10-2026.webp", w: 480, h: 480 },
+  { name: "Orbant Plastik", src: "/referanslar/orbant-plastik_15-10-2026.webp", w: 432, h: 432 },
 ];
 
 const projectInputs = [
