@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { Saira, IBM_Plex_Sans } from "next/font/google";
 import Analytics from "@/components/Analytics";
 import CookieBanner from "@/components/CookieBanner";
@@ -39,9 +38,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="tr" className={`${saira.variable} ${plex.variable}`}>
       <body>
-        <Suspense fallback={null}>
-          <Analytics />
-        </Suspense>
+        {/* Analytics, Suspense ile sarmalanmıyor (15-10-2026 düzeltmesi) — bkz. Analytics.tsx üst
+            yorumu: consent default script'inin ilk render'a garanti girmesi için Suspense'in
+            yalnızca component içindeki PageviewTracker'ı sarması gerekiyor. */}
+        <Analytics />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd()) }} />
         <Header />
         <main>{children}</main>

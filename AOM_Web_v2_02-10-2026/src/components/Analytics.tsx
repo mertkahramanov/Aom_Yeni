@@ -15,15 +15,22 @@
 // projede tüm "teklif isteyin" / iletişim aksiyonlarının mailto:info@aomtechnology.tr olması sayesinde
 // her sayfaya ayrı ayrı event kodu eklemeye gerek kalmaz.
 //
-// Google Consent Mode v2: KVKK/çerez bandı kararı kullanıcı tarafından ayrıca değerlendirilecek (talimatta
-// açıkça belirtiliyor, bu kararı ben vermiyorum). Bu yüzden varsayılan durum "reddedilmiş" (denied) olarak
-// ayarlanmıştır; ileride bir çerez bandı eklendiğinde gtag('consent','update',{...}) çağrısıyla kullanıcı
-// onayına göre güncellenmesi gerekir. "Denied" durumunda GA4, çerezsiz (cookieless) ping'lerle sınırlı event
-// ölçümü yapabilir; tam ölçüm (oturum/kullanıcı bazlı raporlar) için ileride onay akışı şarttır.
+// Google Consent Mode v2: varsayılan (default) durum CookieBanner.tsx'in yazdığı "aom_consent" localStorage
+// kaydına bakılarak belirlenir (kayıt yoksa "reddedilmiş"). Karar daha sonra CookieBanner'daki
+// gtag('consent','update',{...}) çağrısıyla güncellenir.
+//
+// DÜZELTME (15-10-2026, bkz. claude/CEREZ_BANDI_DUZELTME_15-10-2026.md): Canlı sitede
+// google_tag_data.ics.usedDefault === false tespit edildi — yani "consent default" komutu gtag.js
+// kütüphanesi yüklenmeden önce işlenmiyordu. Sebep: bu bileşenin tamamı layout.tsx'te <Suspense> içine
+// sarılmıştı; useSearchParams() nedeniyle PageviewTracker Suspense gerektiriyor, ama bu sarmalama
+// "ga-consent-default" script'ini de aynı Suspense sınırının içine alıyor ve Next.js'in beforeInteractive
+// script'i ilk HTML çıktısına (head'e) garanti şekilde basmasını engelliyordu. Çözüm: Suspense sınırı artık
+// yalnızca PageviewTracker'ı sarıyor (aşağıda); consent/gtag script'leri Suspense DIŞINDA, component'in
+// kendi gövdesinde, böylece ilk sunucu taraflı render çıktısının bir parçası olmaları garanti.
 
 import Script from "next/script";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-0L3GMR93MW";
 
@@ -116,13 +123,18 @@ export default function Analytics() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           window.gtag = gtag;
+          var c = null;
+          try { c = JSON.parse(window.localStorage.getItem('aom_consent')); } catch (e) {}
+          var a = c && c.analytics ? 'granted' : 'denied';
+          var d = c && c.ads ? 'granted' : 'denied';
           gtag('consent', 'default', {
-            ad_storage: 'denied',
-            analytics_storage: 'denied',
-            ad_user_data: 'denied',
-            ad_personalization: 'denied',
+            analytics_storage: a,
+            ad_storage: d,
+            ad_user_data: d,
+            ad_personalization: d,
             wait_for_update: 500
           });
+          gtag('set', 'ads_data_redaction', true);
         `}
       </Script>
       <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
@@ -139,7 +151,9 @@ export default function Analytics() {
           gtag('config', '${GA_ID}', { send_page_view: false });
         `}
       </Script>
-      <PageviewTracker />
+      <Suspense fallback={null}>
+        <PageviewTracker />
+      </Suspense>
     </>
   );
 }
