@@ -45,6 +45,13 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .section { padding-top: 88px; padding-bottom: 88px; }
 @media (max-width: 640px) { .section { padding-top: 56px; padding-bottom: 56px; } }
 
+/* Hizmet sayfaları (16-10-2026, Mert geri bildirimi): standart .section'ın 88px üst boşluğu
+   başlığı ekranın çok altına itiyordu ("bu alanı çok geniş kullanıyorsun, gerekli kısımlar
+   çok aşağıda kalıyor"). Yalnızca 5 hizmet sayfası (robotik-kaynak, pres-guvenligi, cnc-tezgah,
+   plc-scada, tristorlu-guc-kontrol) için dar bir üst boşluk; alt boşluk aynı kaldı. */
+.hizmet-section { padding-top: 28px; padding-bottom: 88px; }
+@media (max-width: 640px) { .hizmet-section { padding-top: 20px; padding-bottom: 56px; } }
+
 .eyebrow {
   font-family: var(--font-display), sans-serif;
   font-weight: 600;

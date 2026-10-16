@@ -125,7 +125,7 @@ export default function RobotikKaynakPage() {
   ];
 
   return (
-    <section className="container section" style={{ display: "flex", flexDirection: "column", gap: 56 }}>
+    <section className="container hizmet-section" style={{ display: "flex", flexDirection: "column", gap: 56 }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <nav aria-label="Konum" className="store-crumbs">
