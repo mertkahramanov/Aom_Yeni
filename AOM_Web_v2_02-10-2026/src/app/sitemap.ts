@@ -11,6 +11,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: SITE, lastModified: now, changeFrequency: "monthly", priority: 1 },
     { url: `${SITE}/otomasyon`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    // Hizmet sayfaları (16-10-2026, bkz. claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md)
+    { url: `${SITE}/robotik-kaynak`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/pres-guvenligi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/cnc-tezgah`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/plc-scada`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/tristorlu-guc-kontrol`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/magaza`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE}/cerez-politikasi`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE}/kvkk-aydinlatma-metni`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },

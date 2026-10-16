@@ -85,3 +85,29 @@ export const breadcrumbJsonLd = (items: { name: string; path: string }[]) => ({
 
 export const sellerRef = { "@type": "Organization", "@id": `${SITE}/#org`, name: ORG.name, url: SITE };
 export const eligibleRegion = { "@type": "Country", name: "TR" };
+
+// Hizmet sayfaları için FAQPage şeması (16-10-2026, bkz. claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md)
+export const faqJsonLd = (items: { q: string; a: string }[]) => ({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: items.map((it) => ({
+    "@type": "Question",
+    name: it.q,
+    acceptedAnswer: { "@type": "Answer", text: it.a },
+  })),
+});
+
+// Hizmet sayfaları için Service şeması (16-10-2026)
+export const serviceJsonLd = (opts: { name: string; url: string; serviceType: string; description: string }) => ({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: opts.name,
+  serviceType: opts.serviceType,
+  url: opts.url,
+  provider: { "@type": "Organization", "@id": `${SITE}/#org`, name: ORG.name },
+  areaServed: [
+    { "@type": "City", name: "Ankara" },
+    { "@type": "Country", name: "Türkiye" },
+  ],
+  description: opts.description,
+});

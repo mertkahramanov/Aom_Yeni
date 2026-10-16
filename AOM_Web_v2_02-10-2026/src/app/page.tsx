@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import OemMarquee from "@/components/OemMarquee";
+import ProcessSteps from "@/components/ProcessSteps";
 import SearchBox from "@/components/SearchBox";
 import TeklifForm from "@/components/TeklifForm";
 
@@ -38,37 +39,36 @@ const automation = [
   },
 ];
 
+// Çözümler (16-10-2026): artık ana sayfa bölümlerine değil, kendi URL'si ve içeriği olan
+// hizmet sayfalarına yönlendiriyor (bkz. claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md).
+// 5. kart (PLC/SCADA) eklendi — /otomasyon ürün odaklı kaldığı için proje/hizmet odaklı
+// karşılığı burada ayrıca listelenir.
 const solutions = [
   {
-    href: "#robotik-kaynak",
+    href: "/robotik-kaynak",
     title: "Robotik kaynak ve harici sistemler",
     text: "Kaynak hücreleri, pozisyonerler, harici eksenler, kolon-bom, rotatör, fit-up hatları ve dairesel kaynak sistemleri.",
   },
   {
-    href: "#pres",
+    href: "/pres-guvenligi",
     title: "Pres güvenliği ve otomatik besleme",
     text: "Işık perdesi, kavrama-fren dönüşümü, kafes ve kilitli kapı çözümleri; servo NC besleme.",
   },
   {
-    href: "#cnc",
+    href: "/cnc-tezgah",
     title: "CNC tezgâhlar",
     text: "Kompakt CNC işleme merkezleri; Siemens, Fanuc veya Mitsubishi Electric kontrol, robotlu hücre seçeneği.",
   },
   {
-    href: "#tristor",
+    href: "/plc-scada",
+    title: "PLC, SCADA ve makine otomasyonu",
+    text: "PLC/HMI programlama, SCADA ve veri toplama, özel makine otomasyonu, pano tasarımı ve devreye alma.",
+  },
+  {
+    href: "/tristorlu-guc-kontrol",
     title: "Tristörlü güç kontrol",
     text: "Faz açısı ve sıfır geçiş kontrolü, RS485 Modbus RTU haberleşme.",
   },
-];
-
-const steps = [
-  "İhtiyaç ve parça analizi",
-  "Proje öncesi simülasyon",
-  "Mekanik tasarım",
-  "İmalat ve montaj, kendi atölyemizde",
-  "Elektrik ve kontrol",
-  "Kalibrasyon ve programlama",
-  "Devreye alma ve eğitim",
 ];
 
 const services = [
@@ -181,25 +181,7 @@ export default function HomePage() {
       </section>
 
       {/* Süreç */}
-      <section id="surec" className="process">
-        <div className="container section" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 720 }}>
-            <div className="eyebrow">Tasarımdan devreye alma</div>
-            <h2 className="h2">Yedi adım, tek sorumlu</h2>
-            <p style={{ margin: 0 }}>
-              Her proje, erişim, çarpışma ve çevrim süresi doğrulanan bir simülasyonla başlar.
-            </p>
-          </div>
-          <ol className="steps">
-            {steps.map((s, i) => (
-              <li key={s}>
-                <span className="num">{String(i + 1).padStart(2, "0")}</span>
-                <span style={{ fontSize: 15 }}>{s}</span>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      <ProcessSteps />
 
       {/* Hizmetler */}
       <section id="hizmetler" className="container section services">

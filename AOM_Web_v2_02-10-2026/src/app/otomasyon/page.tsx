@@ -131,6 +131,12 @@ export default function OtomasyonPage() {
           aşamada PLC/SCADA uyumlu kontrol cihazları, servo motor ve sürücüler ile enkoderli motion kontrol
           bileşenlerini seçer, pano entegrasyonunu kurar ve devreye alırız.
         </p>
+        {/* Çapraz bağlantı (16-10-2026): bu sayfa ürün odaklı kalır; proje/hizmet odaklı
+            karşılığı için bkz. claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md */}
+        <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+          PLC programlama, SCADA, özel makine otomasyonu ve pano projelerini uçtan uca bir hizmet olarak
+          almak isterseniz <Link href="/plc-scada">PLC, SCADA ve makine otomasyonu sayfamıza</Link> bakabilirsiniz.
+        </p>
       </div>
 
       {/* Otomasyon sayfası teklif formu (14-10-2026) */}

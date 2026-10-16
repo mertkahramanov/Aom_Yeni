@@ -207,6 +207,12 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .footer-legal-btn { background: none; border: none; padding: 0; font: inherit; font-size: 13px; cursor: pointer; }
 .footer-legal a:hover, .footer-legal-btn:hover { color: var(--ink-on-dark); }
 
+/* Footer: Çözümler sütunu (16-10-2026) */
+.footer-solutions { display: flex; flex-direction: column; gap: 6px; }
+.footer-solutions a { color: var(--ink-muted-on-dark); text-decoration: none; }
+.footer-solutions a:hover { color: var(--ink-on-dark); text-decoration: underline; }
+.footer-col-title { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--aom-red-on-dark); margin-bottom: 2px; }
+
 /* OEM logo şeridi */
 .oem-strip { background: var(--surface-raised); border-bottom: 1px solid var(--line); padding: 28px 0 32px; }
 .oem-strip-head { margin-bottom: 16px; text-align: center; }
