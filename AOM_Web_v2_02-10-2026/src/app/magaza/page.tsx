@@ -75,6 +75,12 @@ const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: strin
     lead: "Autonics ve Gefran tristörlü güç kontrol üniteleri (DPU, SPR) ve solid state röleler (SSR); ısıl proseslerde hassas güç kontrolü.",
     href: "#guc-kontrol",
     catIds: ["tristorlu-guc-kontrol", "solid-state-roleler-ssr", "motor-starter"],
+    // Not (17-10-2026): Mert'in verdiği görsel aslında 3 adet frekans invertörü/VFD gösteriyor
+    // ("VARIABLE FREQUENCY DRIVE", VFD-1K serisi) — bu kategorideki ürünler (tristörlü güç kontrol,
+    // SSR, motor starter) değil, sürücü/invertör. Kategori uyuşmazlığı Mert'e sohbette bildirildi;
+    // Mert "yine de bu slaytta kullan" diye onayladı, bu yüzden genel/temsili bir güç elektroniği
+    // görseli olarak kullanıldı.
+    image: { src: "/magaza-slider/guc-kontrol-slider_17-10-2026.webp", alt: "Güç elektroniği üniteleri" },
   },
   {
     id: "kontrol-cihazlari",
