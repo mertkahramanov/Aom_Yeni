@@ -58,32 +58,71 @@ const KNOWN = new Set(MAIN_GROUPS.flatMap((m) => m.ids ?? []));
 
 // Mağaza slider (17-10-2026, Mert isteği): sayfanın en üstünde öne çıkan ana kategoriler arasında
 // gezinme. Başlık/açıklama metinleri dışında (kısa, doğrulanmış tanıtım cümleleri) tüm veriler
-// (ürün sayısı, görsel) aşağıdaki MAIN_GROUPS ile aynı kategori verisinden hesaplanır; ayrı bir
-// sayı veya görsel uydurulmadı.
-const SLIDER_FEATURE: { groupId: string; short: string; title: string; lead: string }[] = [
+// (ürün sayısı, görsel yoksa) aşağıdaki catIds ile aynı kategori verisinden (storeCategories())
+// hesaplanır; ayrı bir sayı uydurulmadı. catIds, MAIN_GROUPS'taki bir grubun tüm alt kategorileri
+// olabilir (ör. "guc-kontrol") veya tek bir alt kategori olabilir (ör. "Servo motorlar" slaytı,
+// "cnc-elektronik" grubunun içindeki "step-ve-servo-motorlar-suruculer" alt kategorisini hedefler —
+// kendi grubu olmadığı için href doğrudan kategori sayfasına gider, sayfa içi çapaya değil).
+// image: Mert'in slider için ayrıca verdiği kategori görseli (17-10-2026, "Mağaza Slider" klasörü,
+// public/magaza-slider/ altına optimize edilip kopyalandı). Yoksa (Güç kontrol, 2. El ürünler)
+// kategorideki ilk ürün fotoğrafına düşülüyor (aşağıdaki `f.image ?? items.find(...)`).
+const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: string; lead: string; href: string; catIds: string[]; image?: { src: string; alt: string } }[] = [
   {
-    groupId: "guc-kontrol",
+    id: "guc-kontrol",
     short: "Güç kontrol",
+    eyebrow: "Güç kontrol",
     title: "Tristörlü güç kontrol ve SSR",
     lead: "Autonics ve Gefran tristörlü güç kontrol üniteleri (DPU, SPR) ve solid state röleler (SSR); ısıl proseslerde hassas güç kontrolü.",
+    href: "#guc-kontrol",
+    catIds: ["tristorlu-guc-kontrol", "solid-state-roleler-ssr", "motor-starter"],
   },
   {
-    groupId: "kontrol-cihazlari",
+    id: "kontrol-cihazlari",
     short: "Kontrol cihazları",
+    eyebrow: "Kontrol cihazları",
     title: "Sıcaklık kontrol, sayıcı, zamanlayıcı ve HMI",
     lead: "Autonics sıcaklık kontrol cihazı, sayıcı, zamanlayıcı, dijital panel metre, kayıt cihazı, gösterge, ekran birimi ve HMI serileri.",
+    href: "#kontrol-cihazlari",
+    catIds: ["sicaklik-kontrol-cihazlari", "sayicilar", "zamanlayicilar", "dijital-panel-metreler", "kayit-cihazlari", "gostergeler", "dijital-ekran-birimleri", "sensor-kontrol-cihazlari"],
+    // Not: Mert'in verdiği görsel Omron E5CC/E5EC/E5AC gösteriyor; bu kategorideki ürünlerin
+    // tamamı Autonics. Genel/temsili bir "sıcaklık kontrol cihazı" görseli olarak kullanıldı —
+    // marka uyuşmazlığı aşağıdaki sohbet mesajında Mert'e ayrıca bildirildi.
+    image: { src: "/magaza-slider/kontrol-cihazlari-slider_17-10-2026.webp", alt: "Dijital sıcaklık kontrol cihazları" },
   },
   {
-    groupId: "enkoderler-grup",
+    id: "enkoderler-grup",
     short: "Enkoderler",
+    eyebrow: "Enkoderler",
     title: "Artımlı ve mutlak enkoderler",
     lead: "Autonics enkoderler: 34 seri, çözünürlük ve çıkış tipine göre 8.644 sipariş kodu.",
+    href: "#enkoderler-grup",
+    catIds: ["enkoderler"],
+    image: { src: "/magaza-slider/enkoderler-slider_17-10-2026.webp", alt: "Artımlı enkoderler" },
   },
   {
-    groupId: "motor-suruculer",
+    id: "motor-suruculer",
     short: "Motor sürücüler",
+    eyebrow: "Motor sürücüler ve yol vericiler",
     title: "AC/DC motor sürücü ve yol vericiler",
     lead: "AC hız kontrol cihazları (invertör), DC motor sürücüler, yumuşak yol vericiler ve fren üniteleri.",
+    href: "#motor-suruculer",
+    catIds: ["hiz-kontrol-cihazlari-ac-suruculer", "dc-motor-suruculer", "yumusak-yol-vericiler-soft-starter", "fren-uniteleri-ve-direncleri"],
+    image: { src: "/magaza-slider/motor-suruculer-slider_17-10-2026.webp", alt: "Yaskawa AC motor sürücü (GA500)" },
+  },
+  {
+    // Mert isteği (17-10-2026): "Servo motorlar" diye bir slayt eklendi. Gerçek kategori adı
+    // "Step ve servo motorlar, sürücüler" (step ve servo motor + sürücü birlikte, CNC yedek parça
+    // ve elektronik grubunun altında); sekme/eyebrow kısa olsun diye "Servo motorlar" kullanıldı,
+    // başlık ve açıklama gerçek kategori adını ve mevcut onaylı metnini (src/data/yedek-parca.ts
+    // CAT_TEXT) koruyor — step motorları da kapsadığını gizlemiyor.
+    id: "servo-motorlar",
+    short: "Servo motorlar",
+    eyebrow: "Servo motorlar",
+    title: "Step ve servo motorlar, sürücüler",
+    lead: "Step motorlar ve sürücüleri CNC eksenlerinde konumlamayı açık veya kapalı çevrimle (enkoderli) sağlar; flanş ölçüsü (NEMA), tutma torku ve faz akımına göre seçilir.",
+    href: "/magaza/kategori/step-ve-servo-motorlar-suruculer",
+    catIds: ["step-ve-servo-motorlar-suruculer"],
+    image: { src: "/magaza-slider/servo-motorlar-slider_17-10-2026.webp", alt: "Yaskawa Sigma servo motor ve sürücü" },
   },
 ];
 
@@ -91,19 +130,18 @@ export default function MagazaPage() {
   const cats = storeCategories();
 
   const sliderSlides: StoreSlide[] = SLIDER_FEATURE.map((f) => {
-    const group = MAIN_GROUPS.find((m) => m.id === f.groupId);
-    const subs = (group?.ids ?? []).map((id) => cats.find((c) => c.id === id)).filter((c): c is (typeof cats)[number] => !!c);
+    const subs = f.catIds.map((id) => cats.find((c) => c.id === id)).filter((c): c is (typeof cats)[number] => !!c);
     const items = subs.flatMap((c) => c.groups.flatMap((g) => g.items));
-    const image = items.find((p) => p.image)?.image;
+    const image = f.image ?? items.find((p) => p.image)?.image;
     return {
-      id: f.groupId,
+      id: f.id,
       short: f.short,
-      eyebrow: group?.title ?? "",
+      eyebrow: f.eyebrow,
       title: f.title,
       lead: f.lead,
       spec: `${items.length.toLocaleString("tr-TR")} ürün`,
-      cta: `${group?.title ?? ""} kategorisine git`,
-      href: `#${f.groupId}`,
+      cta: `${f.eyebrow} kategorisine git`,
+      href: f.href,
       image,
     };
   }).filter((s) => s.spec !== "0 ürün");
