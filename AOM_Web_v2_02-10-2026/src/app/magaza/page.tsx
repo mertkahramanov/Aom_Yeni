@@ -79,7 +79,11 @@ const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: strin
     // ("VARIABLE FREQUENCY DRIVE", VFD-1K serisi) — bu kategorideki ürünler (tristörlü güç kontrol,
     // SSR, motor starter) değil, sürücü/invertör. Kategori uyuşmazlığı Mert'e sohbette bildirildi;
     // Mert "yine de bu slaytta kullan" diye onayladı, bu yüzden genel/temsili bir güç elektroniği
-    // görseli olarak kullanıldı.
+    // görseli olarak kullanıldı. Ayrıca Mert'in genel talimatı ("gönderdiğim görüntüleri işle,
+    // bize özel hale getirerek slider'a yerleştir" → netleştirme sonucu: "görünür marka
+    // logolarını/yazılarını kaldır") üzerine görseldeki üretici marka yazıları/logoları
+    // (üç ünitenin üst etiketleri ve ön panel markaları) bulanıklaştırılarak kaldırıldı; AOM logosu
+    // eklenmedi.
     image: { src: "/magaza-slider/guc-kontrol-slider_17-10-2026.webp", alt: "Güç elektroniği üniteleri" },
   },
   {
@@ -93,7 +97,15 @@ const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: strin
     // Not: Mert'in verdiği görsel Omron E5CC/E5EC/E5AC gösteriyor; bu kategorideki ürünlerin
     // tamamı Autonics. Genel/temsili bir "sıcaklık kontrol cihazı" görseli olarak kullanıldı —
     // marka uyuşmazlığı aşağıdaki sohbet mesajında Mert'e ayrıca bildirildi.
-    image: { src: "/magaza-slider/kontrol-cihazlari-slider_17-10-2026.webp", alt: "Dijital sıcaklık kontrol cihazları" },
+    // Güncelleme (17-10-2026): Mert bu görseli, Mitsubishi Electric GOT3000 serisi HMI panellerini
+    // gösteren yeni bir fotoğrafla değiştirmemizi istedi ("kontrol cihazları resmini bununla
+    // değiştir"). Bu kategoride (sıcaklık kontrol, sayıcı, zamanlayıcı, panel metre, kayıt cihazı,
+    // gösterge, ekran birimi, sensör kontrol cihazı) sadece Autonics ürünleri var; kataloğumuzda hiç
+    // Mitsubishi HMI yok — hem marka hem ürün tipi (küçük kontrol cihazı yerine büyük dokunmatik
+    // panel) uyuşmuyor. Mert bu HMI görselini onayladı. Aynı de-branding talimatı gereği görünür
+    // "Mitsubishi Electric" ve "GOT3000" marka yazıları/logoları panellerin hepsinde
+    // bulanıklaştırılarak kaldırıldı; AOM logosu eklenmedi.
+    image: { src: "/magaza-slider/kontrol-cihazlari-slider_17-10-2026.webp", alt: "HMI dokunmatik operatör panelleri" },
   },
   {
     id: "enkoderler-grup",
@@ -103,7 +115,11 @@ const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: strin
     lead: "Autonics enkoderler: 34 seri, çözünürlük ve çıkış tipine göre 8.644 sipariş kodu.",
     href: "#enkoderler-grup",
     catIds: ["enkoderler"],
-    image: { src: "/magaza-slider/enkoderler-slider_17-10-2026.webp", alt: "Artımlı enkoderler" },
+    // Güncelleme (17-10-2026): Mert'in gönderdiği enkoder çeşitleri (çeşitli gövde tiplerinde artımlı/
+    // mutlak enkoderler) görseli kullanıldı. De-branding talimatı gereği görsel incelendi; okunabilir
+    // marka logosu/yazısı bulunmadı (sadece genel uyarı etiketleri), bu yüzden bulanıklaştırma
+    // uygulanmadı.
+    image: { src: "/magaza-slider/enkoderler-slider_17-10-2026.webp", alt: "Çeşitli enkoder tipleri" },
   },
   {
     id: "motor-suruculer",
@@ -129,6 +145,25 @@ const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: strin
     href: "/magaza/kategori/step-ve-servo-motorlar-suruculer",
     catIds: ["step-ve-servo-motorlar-suruculer"],
     image: { src: "/magaza-slider/servo-motorlar-slider_17-10-2026.webp", alt: "Yaskawa Sigma servo motor ve sürücü" },
+  },
+  {
+    // Mert isteği (17-10-2026): "Sensörler" diye bir slayt eklendi. Gerçek kategori adı
+    // "Sviç, sensör ve butonlar" (CNC yedek parça ve elektronik grubunun altında) — limit sviç,
+    // endüktif yaklaşım sensörü, dijital kodlu mod anahtarı ve buton/pedalları kapsıyor (44 ürün,
+    // 11'inde gerçek fotoğraf var); sekme/eyebrow kısa olsun diye "Sensörler" kullanıldı, başlık ve
+    // açıklama gerçek kapsamı (sviç + buton da var) gizlemiyor. Lead metni src/data/yedek-parca.ts
+    // CAT_TEXT'teki mevcut onaylı açıklamadan alındı. Görsel: kategorideki gerçek bir üründen
+    // (Balluff BES 516-300-S205-D-PU endüktif sensör) — ilk sıradaki otomatik görsele bırakılmadı,
+    // çünkü sırada önce limit sviç fotoğrafı geliyor; "Sensörler" başlığıyla en örtüşen gerçek ürün
+    // fotoğrafı elle seçildi.
+    id: "sensorler",
+    short: "Sensörler",
+    eyebrow: "Sensörler ve switchler",
+    title: "Limit sviç, endüktif sensör ve butonlar",
+    lead: "Limit sviçler, endüktif sensörler, mod anahtarları ve butonlar CNC tezgâhlarında konum algılama, eksen referansı ve operatör kumandası için kullanılır.",
+    href: "/magaza/kategori/svic-sensor-ve-butonlar",
+    catIds: ["svic-sensor-ve-butonlar"],
+    image: { src: "/magaza/assets-fcdfa49c_06-10-2026.jpg", alt: "Balluff endüktif yaklaşım sensörü" },
   },
 ];
 
@@ -170,9 +205,18 @@ export default function MagazaPage() {
       // Not: Mert'in bu slayt için verdiği "İkinci Yedek Parça.jpg" kullanılmadı — bir üçüncü taraf
       // sitesinden alınmış Fanuc tanıtım görseli (üstte FANUC logosu, altta "TÜM ÜRÜNLER" düğmesi
       // gömülü) ve gerçek ikinci el stoğumuzda (809 üründe) hiç Fanuc ürünü yok; görsel gerçek
-      // envanteri yansıtmıyor. Sohbette Mert'e ayrıca soruldu; yanıt gelene kadar eskisi gibi
-      // gerçek 2. el ürün fotoğraflarından (217/809'unda var) ilkine düşülüyor.
-      image: usedItems.find((p) => p.image)?.image,
+      // envanteri yansıtmıyor. Sohbette Mert'e ayrıca soruldu.
+      // Güncelleme (17-10-2026): Mert bu slayt için ELCO Industrial Automation marka geniş bir ürün
+      // kolajı (endüstriyel I/O modülleri, sensörler, kablolar, güvenlik röleleri vb.) gönderdi.
+      // Gerçek 2. el stoğumuzda (809 üründe) ELCO markalı ürün sayısı sadece 1 — bu görsel de gerçek
+      // envanteri birebir yansıtmıyor (Fanuc görselindeki duruma benzer), ama Mert'in genel "gönderdiğim
+      // tüm görselleri işleyip slider'a yerleştir" talimatı ve kategori uyuşmazlıklarının onaylandığı
+      // önceki örnekler (güç kontrol, kontrol cihazları) doğrultusunda kullanıldı; bu uyuşmazlık burada
+      // da açıkça not düşülüyor. De-branding talimatı gereği görseldeki 25'ten fazla "ELCO" marka
+      // logosu/yazısı (ürün etiketleri, kablo baskıları, panel rozetleri) tek tek bulanıklaştırılarak
+      // kaldırıldı; model/sipariş kodu metinleri (marka içermeyen) ve EtherCAT/CE gibi endüstri
+      // standardı işaretleri olduğu gibi bırakıldı. AOM logosu eklenmedi.
+      image: { src: "/magaza-slider/ikinci-el-slider_17-10-2026.webp", alt: "Endüstriyel otomasyon ürün çeşitliliği" },
     });
   }
   const jsonLd = [
