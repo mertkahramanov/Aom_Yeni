@@ -154,12 +154,18 @@ export default function MagazaPage() {
     sliderSlides.push({
       id: "ikinci-el",
       short: "2. El ürünler",
-      eyebrow: "2. El ürünler",
-      title: "Test edilmiş, garantili ikinci el ekipman",
-      lead: "Kontrol cihazı, sürücü ve CNC yedek parçalarında ikinci el stok; durum, test ve garanti bilgisiyle listelenir.",
+      eyebrow: "İkinci el yedek parça",
+      // Mert isteği (17-10-2026): açıklamalarda "ikinci el yedek parça" ifadesi kullanıldı.
+      title: "İkinci el yedek parça, test edilmiş ve garantili",
+      lead: "Rulman, lineer hareket, sürücü, kontrol cihazı ve CNC yedek parçalarında ikinci el stok; durum, test ve garanti bilgisiyle listelenir.",
       spec: `${usedItems.length.toLocaleString("tr-TR")} ürün`,
-      cta: "2. el ürünlere git",
+      cta: "İkinci el yedek parçalara git",
       href: "#ikinci-el",
+      // Not: Mert'in bu slayt için verdiği "İkinci Yedek Parça.jpg" kullanılmadı — bir üçüncü taraf
+      // sitesinden alınmış Fanuc tanıtım görseli (üstte FANUC logosu, altta "TÜM ÜRÜNLER" düğmesi
+      // gömülü) ve gerçek ikinci el stoğumuzda (809 üründe) hiç Fanuc ürünü yok; görsel gerçek
+      // envanteri yansıtmıyor. Sohbette Mert'e ayrıca soruldu; yanıt gelene kadar eskisi gibi
+      // gerçek 2. el ürün fotoğraflarından (217/809'unda var) ilkine düşülüyor.
       image: usedItems.find((p) => p.image)?.image,
     });
   }
