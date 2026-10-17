@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import SearchBox from "@/components/SearchBox";
+import StoreSlider, { type StoreSlide } from "@/components/StoreSlider";
 import { isUsedCategory, products, storeCategories } from "@/data/magaza";
 import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
@@ -55,8 +56,75 @@ const MAIN_GROUPS: { id: string; title: string; ids: string[] | null; codes?: Co
 ];
 const KNOWN = new Set(MAIN_GROUPS.flatMap((m) => m.ids ?? []));
 
+// Mağaza slider (17-10-2026, Mert isteği): sayfanın en üstünde öne çıkan ana kategoriler arasında
+// gezinme. Başlık/açıklama metinleri dışında (kısa, doğrulanmış tanıtım cümleleri) tüm veriler
+// (ürün sayısı, görsel) aşağıdaki MAIN_GROUPS ile aynı kategori verisinden hesaplanır; ayrı bir
+// sayı veya görsel uydurulmadı.
+const SLIDER_FEATURE: { groupId: string; short: string; title: string; lead: string }[] = [
+  {
+    groupId: "guc-kontrol",
+    short: "Güç kontrol",
+    title: "Tristörlü güç kontrol ve SSR",
+    lead: "Autonics ve Gefran tristörlü güç kontrol üniteleri (DPU, SPR) ve solid state röleler (SSR); ısıl proseslerde hassas güç kontrolü.",
+  },
+  {
+    groupId: "kontrol-cihazlari",
+    short: "Kontrol cihazları",
+    title: "Sıcaklık kontrol, sayıcı, zamanlayıcı ve HMI",
+    lead: "Autonics sıcaklık kontrol cihazı, sayıcı, zamanlayıcı, dijital panel metre, kayıt cihazı, gösterge, ekran birimi ve HMI serileri.",
+  },
+  {
+    groupId: "enkoderler-grup",
+    short: "Enkoderler",
+    title: "Artımlı ve mutlak enkoderler",
+    lead: "Autonics enkoderler: 34 seri, çözünürlük ve çıkış tipine göre 8.644 sipariş kodu.",
+  },
+  {
+    groupId: "motor-suruculer",
+    short: "Motor sürücüler",
+    title: "AC/DC motor sürücü ve yol vericiler",
+    lead: "AC hız kontrol cihazları (invertör), DC motor sürücüler, yumuşak yol vericiler ve fren üniteleri.",
+  },
+];
+
 export default function MagazaPage() {
   const cats = storeCategories();
+
+  const sliderSlides: StoreSlide[] = SLIDER_FEATURE.map((f) => {
+    const group = MAIN_GROUPS.find((m) => m.id === f.groupId);
+    const subs = (group?.ids ?? []).map((id) => cats.find((c) => c.id === id)).filter((c): c is (typeof cats)[number] => !!c);
+    const items = subs.flatMap((c) => c.groups.flatMap((g) => g.items));
+    const image = items.find((p) => p.image)?.image;
+    return {
+      id: f.groupId,
+      short: f.short,
+      eyebrow: group?.title ?? "",
+      title: f.title,
+      lead: f.lead,
+      spec: `${items.length.toLocaleString("tr-TR")} ürün`,
+      cta: `${group?.title ?? ""} kategorisine git`,
+      href: `#${f.groupId}`,
+      image,
+    };
+  }).filter((s) => s.spec !== "0 ürün");
+
+  // 2. El ürünler: ayrı bir filtre mantığı (isUsedCategory) kullandığı için yukarıdaki döngüye dahil
+  // edilmedi; MAIN_GROUPS'taki "ikinci-el" bölümüyle aynı hesaplama.
+  const usedCats = cats.filter((c) => isUsedCategory(c.title));
+  const usedItems = usedCats.flatMap((c) => c.groups.flatMap((g) => g.items));
+  if (usedItems.length) {
+    sliderSlides.push({
+      id: "ikinci-el",
+      short: "2. El ürünler",
+      eyebrow: "2. El ürünler",
+      title: "Test edilmiş, garantili ikinci el ekipman",
+      lead: "Kontrol cihazı, sürücü ve CNC yedek parçalarında ikinci el stok; durum, test ve garanti bilgisiyle listelenir.",
+      spec: `${usedItems.length.toLocaleString("tr-TR")} ürün`,
+      cta: "2. el ürünlere git",
+      href: "#ikinci-el",
+      image: usedItems.find((p) => p.image)?.image,
+    });
+  }
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -74,7 +142,9 @@ export default function MagazaPage() {
     ]),
   ];
   return (
-    <section className="container section" style={{ display: "flex", flexDirection: "column", gap: 32 }}>
+    <>
+      <StoreSlider slides={sliderSlides} />
+      <section className="container section" style={{ display: "flex", flexDirection: "column", gap: 32, paddingTop: 40 }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 820 }}>
         <div className="rule" />
@@ -177,6 +247,7 @@ export default function MagazaPage() {
           </section>
         );
       })}
-    </section>
+      </section>
+    </>
   );
 }
