@@ -79,11 +79,9 @@ const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: strin
     // ("VARIABLE FREQUENCY DRIVE", VFD-1K serisi) — bu kategorideki ürünler (tristörlü güç kontrol,
     // SSR, motor starter) değil, sürücü/invertör. Kategori uyuşmazlığı Mert'e sohbette bildirildi;
     // Mert "yine de bu slaytta kullan" diye onayladı, bu yüzden genel/temsili bir güç elektroniği
-    // görseli olarak kullanıldı. Ayrıca Mert'in genel talimatı ("gönderdiğim görüntüleri işle,
-    // bize özel hale getirerek slider'a yerleştir" → netleştirme sonucu: "görünür marka
-    // logolarını/yazılarını kaldır") üzerine görseldeki üretici marka yazıları/logoları
-    // (üç ünitenin üst etiketleri ve ön panel markaları) bulanıklaştırılarak kaldırıldı; AOM logosu
-    // eklenmedi.
+    // görseli olarak kullanıldı. Güncelleme: görseldeki marka yazıları bulanıklaştırılarak
+    // denenmişti, ama Mert bu işin görünümünü beğenmedi ("berbat görünüyor") ve eski (bulanıklaştırma
+    // öncesi, marka yazıları görünür) haline döndürülmesini istedi — görsel orijinaline geri alındı.
     image: { src: "/magaza-slider/guc-kontrol-slider_17-10-2026.webp", alt: "Güç elektroniği üniteleri" },
   },
   {
@@ -102,9 +100,10 @@ const SLIDER_FEATURE: { id: string; short: string; eyebrow: string; title: strin
     // değiştir"). Bu kategoride (sıcaklık kontrol, sayıcı, zamanlayıcı, panel metre, kayıt cihazı,
     // gösterge, ekran birimi, sensör kontrol cihazı) sadece Autonics ürünleri var; kataloğumuzda hiç
     // Mitsubishi HMI yok — hem marka hem ürün tipi (küçük kontrol cihazı yerine büyük dokunmatik
-    // panel) uyuşmuyor. Mert bu HMI görselini onayladı. Aynı de-branding talimatı gereği görünür
-    // "Mitsubishi Electric" ve "GOT3000" marka yazıları/logoları panellerin hepsinde
-    // bulanıklaştırılarak kaldırıldı; AOM logosu eklenmedi.
+    // panel) uyuşmuyor. Mert bu HMI görselini onayladı. "Mitsubishi Electric" ve "GOT3000" marka
+    // yazıları bulanıklaştırılarak kaldırılmıştı, ama Mert bu işin görünümünü beğenmedi ("berbat
+    // görünüyor") ve eski (bulanıklaştırma öncesi, marka yazıları görünür) haline döndürülmesini
+    // istedi — görsel orijinaline geri alındı.
     image: { src: "/magaza-slider/kontrol-cihazlari-slider_17-10-2026.webp", alt: "HMI dokunmatik operatör panelleri" },
   },
   {
@@ -212,10 +211,10 @@ export default function MagazaPage() {
       // envanteri birebir yansıtmıyor (Fanuc görselindeki duruma benzer), ama Mert'in genel "gönderdiğim
       // tüm görselleri işleyip slider'a yerleştir" talimatı ve kategori uyuşmazlıklarının onaylandığı
       // önceki örnekler (güç kontrol, kontrol cihazları) doğrultusunda kullanıldı; bu uyuşmazlık burada
-      // da açıkça not düşülüyor. De-branding talimatı gereği görseldeki 25'ten fazla "ELCO" marka
-      // logosu/yazısı (ürün etiketleri, kablo baskıları, panel rozetleri) tek tek bulanıklaştırılarak
-      // kaldırıldı; model/sipariş kodu metinleri (marka içermeyen) ve EtherCAT/CE gibi endüstri
-      // standardı işaretleri olduğu gibi bırakıldı. AOM logosu eklenmedi.
+      // da açıkça not düşülüyor. Görseldeki "ELCO" marka logoları/yazıları önce tek tek
+      // bulanıklaştırılarak kaldırılmıştı, ama Mert bu işin görünümünü beğenmedi ("berbat görünüyor")
+      // ve eski (bulanıklaştırma öncesi, marka yazıları görünür) haline döndürülmesini istedi — görsel
+      // orijinaline geri alındı.
       image: { src: "/magaza-slider/ikinci-el-slider_17-10-2026.webp", alt: "Endüstriyel otomasyon ürün çeşitliliği" },
     });
   }
