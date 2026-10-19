@@ -5,7 +5,7 @@ import StoreCard from "@/components/StoreCard";
 import { categoryBySlug, fullName, seriesSlug, storeCategories } from "@/data/magaza";
 import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
-import { breadcrumbJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, SITE } from "@/lib/seo";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { ANKARA_REGION_SHORT, REGION_LINE } from "@/i18n/pages/common";
 import { MAGAZA_UI, CATEGORY_PAGE_UI, CODE_LISTS_UI, modelCount, seriesCount, codeCount, seeAllModelsLabel } from "@/i18n/pages/magaza";
@@ -21,9 +21,9 @@ type CodeListEntry = { href: string; label: string; total: number; text: string 
 
 function codeListFor(id: string, loc: Locale): CodeListEntry | undefined {
   const u = CODE_LISTS_UI[loc];
-  if (id === "tristorlu-guc-kontrol") return { href: "/magaza/dpu-kodlari", total: 840, ...u.dpu };
-  if (id === "sicaklik-kontrol-cihazlari" || id === "dijital-panel-metreler") return { href: "/magaza/kontrol-kodlari", total: KONTROL_KOD_TOTAL, ...u.kontrol };
-  if (id === "enkoderler") return { href: "/magaza/enkoder-kodlari", total: ENC_TOTAL, ...u.enkoder };
+  if (id === "tristorlu-guc-kontrol") return { href: `/${loc}/magaza/dpu-kodlari`, total: 840, ...u.dpu };
+  if (id === "sicaklik-kontrol-cihazlari" || id === "dijital-panel-metreler") return { href: `/${loc}/magaza/kontrol-kodlari`, total: KONTROL_KOD_TOTAL, ...u.kontrol };
+  if (id === "enkoderler") return { href: `/${loc}/magaza/enkoder-kodlari`, total: ENC_TOTAL, ...u.enkoder };
   return undefined;
 }
 
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${title} | AOM`,
     description,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(`/magaza/kategori/${c.id}`) },
     openGraph: { type: "website", locale: ogLocale[loc], url, siteName: "AOM", title: `${title} | AOM`, description },
   };
 }
@@ -126,7 +126,7 @@ export default async function LocaleKategoriPage({ params }: { params: Promise<{
         <div key={g.id} id={g.id} className="store-group">
           <h2 className="store-group-title">
             {g.items[0].series ? (
-              <Link href={`/magaza/seri/${seriesSlug(g.items[0].series)}`} className="store-cat-link">
+              <Link href={`/${loc}/magaza/seri/${seriesSlug(g.items[0].series)}`} className="store-cat-link">
                 {g.title}
               </Link>
             ) : (
@@ -137,12 +137,12 @@ export default async function LocaleKategoriPage({ params }: { params: Promise<{
           <ul className="store-grid">
             {(g.items[0].series ? g.items.slice(0, 9) : g.items).map((p) => (
               <li key={p.slug}>
-                <StoreCard p={p} />
+                <StoreCard p={p} locale={loc} />
               </li>
             ))}
           </ul>
           {g.items.length > 9 && g.items[0].series && (
-            <Link href={`/magaza/seri/${seriesSlug(g.items[0].series)}`} className="btn btn-outline" style={{ alignSelf: "flex-start" }}>
+            <Link href={`/${loc}/magaza/seri/${seriesSlug(g.items[0].series)}`} className="btn btn-outline" style={{ alignSelf: "flex-start" }}>
               {seeAllModelsLabel(g.title.replace(/^Autonics /, "").split(" · ")[0], g.items.length, loc)}
             </Link>
           )}

@@ -6,11 +6,12 @@ import OemMarquee from "@/components/OemMarquee";
 import ProcessSteps from "@/components/ProcessSteps";
 import SearchBox from "@/components/SearchBox";
 import TeklifForm from "@/components/TeklifForm";
+import { hreflangAlternates } from "@/lib/seo";
 
 // Canonical etiketi (15-10-2026): ana sayfada eksikti (bkz. claude/SITE_GOOGLE_DURUM_09-10-2026.md).
 // "/" metadataBase (https://www.aomtechnology.tr) ile birleşip https://www.aomtechnology.tr/ olur.
 export const metadata: Metadata = {
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", languages: hreflangAlternates("") },
 };
 
 // Endüstriyel otomasyon bölümü (14-10-2026): Ankara'da PLC, servo motor ve motion kontrol

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import StoreCard from "@/components/StoreCard";
 import { fullName, products, slugify } from "@/data/magaza";
 import { BRANDS } from "@/data/markalar";
-import { breadcrumbJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, SITE } from "@/lib/seo";
 
 export function generateStaticParams() {
   return Object.keys(BRANDS).map((marka) => ({ marka }));
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ marka: st
     title: b.seoTitle,
     description: b.description,
     keywords: [`${b.name} ${b.keyword ?? "OEM partneri"}`, `${b.name} Türkiye`, `${b.name} Ankara`, `${b.name} fiyat`],
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(url) },
     openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title: b.seoTitle, description: b.description },
   };
 }

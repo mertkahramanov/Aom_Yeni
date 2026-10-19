@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProcessSteps from "@/components/ProcessSteps";
 import TeklifForm from "@/components/TeklifForm";
-import { breadcrumbJsonLd, faqJsonLd, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
 
 // Hizmet sayfası (16-10-2026): claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md taslağı,
 // AOM_Tristorlu_Guc_Kontrol_Brosuru.pdf içeriğiyle dolduruldu. Bu broşür, 5 hizmet sayfası
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "sıfır geçiş kontrolü",
     "gefran tristör",
   ],
-  alternates: { canonical: url },
+  alternates: { canonical: url, languages: hreflangAlternates("/tristorlu-guc-kontrol") },
   openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description },
 };
 

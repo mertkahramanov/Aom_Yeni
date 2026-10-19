@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import SearchBox from "@/components/SearchBox";
+import LocaleSearchBox from "@/components/LocaleSearchBox";
 import LocaleTeklifForm from "@/components/LocaleTeklifForm";
-import { breadcrumbJsonLd, serviceJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, serviceJsonLd, SITE } from "@/lib/seo";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { getDictionary } from "@/i18n/dictionary";
 import { REGION_LINE } from "@/i18n/pages/common";
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: c.metaTitle,
     description: c.metaDescription,
     keywords: c.keywords,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(slugPath) },
     openGraph: { type: "website", locale: ogLocale[loc], url, siteName: "AOM", title: c.metaTitle, description: c.metaDescription },
   };
 }
@@ -84,7 +84,7 @@ export default async function LocaleOtomasyonPage({ params }: { params: Promise<
         <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 16 }}>
           {c.intro} {REGION_LINE[loc]}
         </p>
-        <SearchBox placeholder={c.searchPlaceholder} />
+        <LocaleSearchBox dict={dict} />
       </div>
 
       {groups.map((g, i) => (

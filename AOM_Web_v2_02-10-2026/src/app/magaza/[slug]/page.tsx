@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import TeklifForm from "@/components/TeklifForm";
 import { fullName, getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
 import { BRANDS } from "@/data/markalar";
-import { eligibleRegion, REGION_LINE, sellerRef, SITE } from "@/lib/seo";
+import { eligibleRegion, hreflangAlternates, REGION_LINE, sellerRef, SITE } from "@/lib/seo";
 
 const catSlug = (c: string) => slugify(c);
 
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title,
     description,
     keywords: p.keywords,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(url) },
     openGraph: {
       type: "website",
       locale: "tr_TR",

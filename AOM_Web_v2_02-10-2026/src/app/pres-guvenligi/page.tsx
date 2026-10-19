@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProcessSteps from "@/components/ProcessSteps";
 import TeklifForm from "@/components/TeklifForm";
-import { breadcrumbJsonLd, faqJsonLd, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
 
 // Hizmet sayfası (16-10-2026): claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md taslağı,
 // AOM_Eksantrik_Pres_Guvenlik_ve_Otomatik_Besleme_Brosuru.pdf içeriğiyle dolduruldu.
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "NC besleme",
     "kamalı pres güvenliği",
   ],
-  alternates: { canonical: url },
+  alternates: { canonical: url, languages: hreflangAlternates("/pres-guvenligi") },
   openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description },
 };
 

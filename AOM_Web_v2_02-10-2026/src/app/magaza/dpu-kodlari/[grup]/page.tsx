@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DPU_GROUPS, DPU_OPTION, dpuGroup } from "@/data/dpuCodes";
 import { products } from "@/data/magaza";
-import { breadcrumbJsonLd, ORG, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, ORG, REGION_LINE, SITE } from "@/lib/seo";
 
 const WA = ORG.telephone.replace(/\D/g, "");
 
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ grup: str
     title,
     description,
     keywords: [`Autonics ${g.prefix}`, `${g.prefix} fiyat`, ...g.codes.filter((c) => !c.suffixA).slice(0, 12).map((c) => c.code)],
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(url) },
     openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description },
   };
 }

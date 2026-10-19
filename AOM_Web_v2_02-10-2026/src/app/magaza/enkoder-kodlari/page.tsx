@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ENC_GROUPS, ENC_SERIES, ENC_TOTAL, encLabel } from "@/data/enkoder";
-import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, REGION_LINE, SITE } from "@/lib/seo";
 
 const TOTAL = ENC_TOTAL.toLocaleString("tr-TR");
 
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Autonics Enkoder Model Kodları: 34 Seri, Tüm Sipariş Kodları | Ankara",
   description: `Autonics enkoder sipariş kodları: ${TOTAL} kod, 34 seri. Artımlı ve mutlak enkoderler, E40S, E50S, E58, E40H, EP50S, MGA50S ve diğerleri; çözünürlük, çıkış, besleme ve bağlantı bilgisiyle. Her kod için teklif. ${REGION_LINE}`,
   keywords: ["Autonics enkoder kodu", "enkoder model kodu", "encoder sipariş kodu", "Autonics E40S", "Autonics E50S", "Autonics E58", "Autonics EP50S", "enkoder fiyat", "artımlı enkoder", "mutlak enkoder"],
-  alternates: { canonical: "/magaza/enkoder-kodlari" },
+  alternates: { canonical: "/magaza/enkoder-kodlari", languages: hreflangAlternates("/magaza/enkoder-kodlari") },
   openGraph: { type: "website", locale: "tr_TR", url: "/magaza/enkoder-kodlari", siteName: "AOM", title: "Autonics enkoder model kodları", description: `${TOTAL} sipariş kodu için teklif ve tedarik. ${REGION_LINE}` },
 };
 

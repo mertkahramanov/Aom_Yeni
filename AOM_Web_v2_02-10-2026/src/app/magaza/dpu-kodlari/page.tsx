@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { DPU_CODES, DPU_GROUPS, DPU_OPTION } from "@/data/dpuCodes";
-import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, REGION_LINE, SITE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Autonics DPU Model Kodları: Tüm Tristörlü Güç Kontrol Üniteleri | Ankara",
   description: `Autonics DPU serisi ${DPU_CODES.length} sipariş kodu: monofaze ve trifaze, 110–480 V, 25–600 A, RS485 ve harici gösterge seçenekleri. Her kod için teklif ve tedarik. ${REGION_LINE}`,
   keywords: ["Autonics DPU", "DPU model kodu", "DPU fiyat", "tristörlü güç kontrol ünitesi", "SCR güç kontrolörü", "DPU34", "DPU32", "DPU14", "DPU12"],
-  alternates: { canonical: "/magaza/dpu-kodlari" },
+  alternates: { canonical: "/magaza/dpu-kodlari", languages: hreflangAlternates("/magaza/dpu-kodlari") },
   openGraph: { type: "website", locale: "tr_TR", url: "/magaza/dpu-kodlari", siteName: "AOM", title: "Autonics DPU model kodları", description: `${DPU_CODES.length} sipariş kodu için teklif ve tedarik. ${REGION_LINE}` },
 };
 

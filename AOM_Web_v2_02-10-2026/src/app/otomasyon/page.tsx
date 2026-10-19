@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SearchBox from "@/components/SearchBox";
 import TeklifForm from "@/components/TeklifForm";
-import { breadcrumbJsonLd, ORG, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, ORG, REGION_LINE, SITE } from "@/lib/seo";
 
 // Endüstriyel otomasyon sayfası (14-10-2026): Ankara'da "endüstriyel otomasyon", "makine otomasyonu",
 // "PLC", "servo motor", "motion" aramalarında görünürlük için (Mert'in isteği). Çerçeve: ürün satışı +
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "motion kontrol",
     "otomasyon firması Ankara",
   ],
-  alternates: { canonical: url },
+  alternates: { canonical: url, languages: hreflangAlternates("/otomasyon") },
   openGraph: {
     type: "website",
     locale: "tr_TR",

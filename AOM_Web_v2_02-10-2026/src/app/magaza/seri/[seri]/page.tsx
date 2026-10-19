@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import StoreCard from "@/components/StoreCard";
 import { fullName, priceInfo, storeSeries } from "@/data/magaza";
-import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, REGION_LINE, SITE } from "@/lib/seo";
 
 const find = (slug: string) => storeSeries().find((s) => s.slug === slug);
 const kind = (cat: string, k?: string) => k ?? (cat.startsWith("Solid") ? "Solid State Röle (SSR)" : "Tristörlü Güç Kontrol Ünitesi");
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ seri: str
     title,
     description,
     keywords: [s.title, `${s.title} fiyat`, k, `${k} Ankara`, ...s.items.slice(0, 10).map((p) => p.model)],
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(url) },
     openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description },
   };
 }

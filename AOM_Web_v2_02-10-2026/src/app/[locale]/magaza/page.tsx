@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import SearchBox from "@/components/SearchBox";
+import LocaleSearchBox from "@/components/LocaleSearchBox";
 import StoreSlider, { type StoreSlide } from "@/components/StoreSlider";
 import { isUsedCategory, products, storeCategories } from "@/data/magaza";
 import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
-import { breadcrumbJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, SITE } from "@/lib/seo";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
+import { getDictionary } from "@/i18n/dictionary";
 import { REGION_LINE } from "@/i18n/pages/common";
 import { MAGAZA_UI, SLIDER_TEXT, productCount, groupCount, orderCodeWord } from "@/i18n/pages/magaza";
 import { IKINCI_EL_CATEGORY_TITLES, IKINCI_EL_PREFIX_LABEL, translateCategoryTitle, translateMainGroupTitle } from "@/i18n/pages/magaza-categories";
@@ -25,19 +26,19 @@ const MAIN_GROUPS: { id: string; trTitle: string; ids: string[] | null; codes?: 
     id: "guc-kontrol",
     trTitle: "Güç kontrol",
     ids: ["tristorlu-guc-kontrol", "solid-state-roleler-ssr", "motor-starter"],
-    codes: (loc) => [{ href: "/magaza/dpu-kodlari", title: MAGAZA_UI[loc].orderCodeLabels.dpu, total: 840 }],
+    codes: (loc) => [{ href: `/${loc}/magaza/dpu-kodlari`, title: MAGAZA_UI[loc].orderCodeLabels.dpu, total: 840 }],
   },
   {
     id: "kontrol-cihazlari",
     trTitle: "Kontrol cihazları",
     ids: ["sicaklik-kontrol-cihazlari", "sayicilar", "zamanlayicilar", "dijital-panel-metreler", "kayit-cihazlari", "gostergeler", "dijital-ekran-birimleri", "sensor-kontrol-cihazlari"],
-    codes: (loc) => [{ href: "/magaza/kontrol-kodlari", title: MAGAZA_UI[loc].orderCodeLabels.kontrol, total: KONTROL_KOD_TOTAL }],
+    codes: (loc) => [{ href: `/${loc}/magaza/kontrol-kodlari`, title: MAGAZA_UI[loc].orderCodeLabels.kontrol, total: KONTROL_KOD_TOTAL }],
   },
   {
     id: "enkoderler-grup",
     trTitle: "Enkoderler",
     ids: ["enkoderler"],
-    codes: (loc) => [{ href: "/magaza/enkoder-kodlari", title: MAGAZA_UI[loc].orderCodeLabels.enkoder, total: ENC_TOTAL }],
+    codes: (loc) => [{ href: `/${loc}/magaza/enkoder-kodlari`, title: MAGAZA_UI[loc].orderCodeLabels.enkoder, total: ENC_TOTAL }],
   },
   { id: "operator-panelleri", trTitle: "Operatör panelleri ve endüstriyel bilgisayarlar", ids: ["grafik-paneller-hmi", "endustriyel-bilgisayarlar"] },
   { id: "roleler", trTitle: "Röleler", ids: ["roleler-ve-role-soketleri"] },
@@ -67,7 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: u.metaTitle,
     description: u.metaDescription,
     keywords: u.keywords,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(slugPath) },
     openGraph: { type: "website", locale: ogLocale[loc], url, siteName: "AOM", title: u.ogTitle, description: u.ogDescription },
   };
 }
@@ -77,6 +78,7 @@ export default async function LocaleMagazaPage({ params }: { params: Promise<{ l
   if (!isLocale(locale)) notFound();
   const loc = locale as Locale;
   const u = MAGAZA_UI[loc];
+  const dict = getDictionary(loc);
   const cats = storeCategories();
 
   const ikinciElBareTitle = (trTitle: string) => {
@@ -148,7 +150,7 @@ export default async function LocaleMagazaPage({ params }: { params: Promise<{ l
           <p className="lead">
             {u.lead} {REGION_LINE[loc]}
           </p>
-          <SearchBox placeholder={u.searchPlaceholder} />
+          <LocaleSearchBox dict={dict} />
         </div>
         {MAIN_GROUPS.map((m) => {
           const title = translateMainGroupTitle(m.trTitle, loc);

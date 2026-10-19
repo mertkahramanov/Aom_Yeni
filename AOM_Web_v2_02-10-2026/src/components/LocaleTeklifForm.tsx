@@ -22,10 +22,13 @@ type Props = {
   itemName?: string;
   dict: Dictionary;
   embedded?: boolean;
+  /** Formun üstündeki/butondaki başlığı geçersiz kılar (ör. ürün sayfasında fiyat olup olmamasına göre); verilmezse dict.teklif.title kullanılır (19-10-2026). */
+  title?: string;
 };
 
-export default function LocaleTeklifForm({ formName, itemName, dict, embedded }: Props) {
+export default function LocaleTeklifForm({ formName, itemName, dict, embedded, title }: Props) {
   const t = dict.teklif;
+  const formTitle = title ?? t.title;
   const [revealed, setRevealed] = useState(false);
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
@@ -80,7 +83,7 @@ export default function LocaleTeklifForm({ formName, itemName, dict, embedded }:
         onClick={() => setRevealed(true)}
         style={embedded ? { alignSelf: "flex-start" } : undefined}
       >
-        {t.title}
+        {formTitle}
       </button>
     );
   }
@@ -96,7 +99,7 @@ export default function LocaleTeklifForm({ formName, itemName, dict, embedded }:
 
   const fields = (
     <form onSubmit={onSubmit} style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-      {!embedded && <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 18 }}>{t.title}</div>}
+      {!embedded && <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 18 }}>{formTitle}</div>}
       <input
         type="text"
         name="company"

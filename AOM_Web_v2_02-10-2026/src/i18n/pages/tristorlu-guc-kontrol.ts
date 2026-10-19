@@ -146,8 +146,8 @@ export const tristorluGucKontrolContent: Record<Locale, TristorluGucKontrolConte
       itemName: "Thyristor power control panel",
     },
     related: [
-      { label: "Store · Thyristor power control (Gefran)", href: "/magaza/kategori/tristorlu-guc-kontrol" },
-      { label: "Store · Gefran", href: "/magaza/marka/gefran" },
+      { label: "Store · Thyristor power control (Gefran)", href: "/en/magaza/kategori/tristorlu-guc-kontrol" },
+      { label: "Store · Gefran", href: "/en/magaza/marka/gefran" },
       { label: "PLC, SCADA and machine automation", href: "/plc-scada" },
     ],
   },
@@ -259,8 +259,8 @@ export const tristorluGucKontrolContent: Record<Locale, TristorluGucKontrolConte
       itemName: "Тиристорная панель управления мощностью",
     },
     related: [
-      { label: "Магазин · Тиристорное управление мощностью (Gefran)", href: "/magaza/kategori/tristorlu-guc-kontrol" },
-      { label: "Магазин · Gefran", href: "/magaza/marka/gefran" },
+      { label: "Магазин · Тиристорное управление мощностью (Gefran)", href: "/ru/magaza/kategori/tristorlu-guc-kontrol" },
+      { label: "Магазин · Gefran", href: "/ru/magaza/marka/gefran" },
       { label: "ПЛК, SCADA и автоматизация машин", href: "/plc-scada" },
     ],
   },
@@ -371,8 +371,8 @@ export const tristorluGucKontrolContent: Record<Locale, TristorluGucKontrolConte
       itemName: "لوحة تحكم بالطاقة ثايرستورية",
     },
     related: [
-      { label: "المتجر · التحكم بالطاقة الثايرستوري (Gefran)", href: "/magaza/kategori/tristorlu-guc-kontrol" },
-      { label: "المتجر · Gefran", href: "/magaza/marka/gefran" },
+      { label: "المتجر · التحكم بالطاقة الثايرستوري (Gefran)", href: "/ar/magaza/kategori/tristorlu-guc-kontrol" },
+      { label: "المتجر · Gefran", href: "/ar/magaza/marka/gefran" },
       { label: "PLC وSCADA وأتمتة الآلات", href: "/plc-scada" },
     ],
   },

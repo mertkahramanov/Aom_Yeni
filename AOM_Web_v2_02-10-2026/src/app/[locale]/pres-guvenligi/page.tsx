@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import LocaleProcessSteps from "@/components/LocaleProcessSteps";
 import LocaleTeklifForm from "@/components/LocaleTeklifForm";
-import { breadcrumbJsonLd, faqJsonLd, serviceJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, serviceJsonLd, SITE } from "@/lib/seo";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { getDictionary } from "@/i18n/dictionary";
 import { REGION_LINE, SERVICE_UI } from "@/i18n/pages/common";
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: c.metaTitle,
     description: c.metaDescription,
     keywords: c.keywords,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(slugPath) },
     openGraph: { type: "website", locale: ogLocale[loc], url, siteName: "AOM", title: c.metaTitle, description: c.metaDescription },
   };
 }

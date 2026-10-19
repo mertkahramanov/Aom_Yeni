@@ -1,10 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { fullName, priceInfo, type Product } from "@/data/magaza";
+import type { Locale } from "@/i18n/locales";
+import { translateCategoryTitle } from "@/i18n/pages/magaza-categories";
+import { URUN_UI, USED_BADGE } from "@/i18n/pages/magaza-urun";
 
-export function Price({ p }: { p: Product }) {
+// locale: verilirse (çok dilli mağaza sayfalarından çağrıldığında, 19-10-2026) ürün linki
+// /{locale}/magaza/{slug}'a gider ve "Teklif isteyin"/"2. el"/kategori/"Seçenek" etiketleri çevrilir;
+// verilmezse (TR sayfalardan çağrıldığında) eski davranış aynen korunur. Ürünün kendi verisi
+// (isim, model, kategori adı hariç) Türkçe kalır — bkz. claude/COK_DILLI_SITE_ASAMA3_19-10-2026.md.
+export function Price({ p, locale }: { p: Product; locale?: Locale }) {
   const pr = priceInfo(p);
-  if (!pr) return <span className="store-price">Teklif isteyin</span>;
+  if (!pr) return <span className="store-price">{locale ? URUN_UI[locale].requestQuoteCell : "Teklif isteyin"}</span>;
   return (
     <span className="store-price-wrap">
       {pr.discount && <s className="store-price-list">{pr.list}</s>}
@@ -15,11 +22,20 @@ export function Price({ p }: { p: Product }) {
   );
 }
 
-export default function StoreCard({ p }: { p: Product }) {
+export default function StoreCard({ p, locale }: { p: Product; locale?: Locale }) {
+  const href = locale ? `/${locale}/magaza/${p.slug}` : `/magaza/${p.slug}`;
+  const category = locale ? translateCategoryTitle(p.category, locale) : p.category;
+  const optionLabel = p.option
+    ? p.optionLabel
+      ? p.option
+      : locale
+      ? `${URUN_UI[locale].colOption} ${p.option}`
+      : `Seçenek ${p.option}`
+    : undefined;
   return (
-    <Link href={`/magaza/${p.slug}`} className="store-card">
+    <Link href={href} className="store-card">
       <div className="store-visual">
-        {p.used && <span className="used-badge used-badge-card">2. el</span>}
+        {p.used && <span className="used-badge used-badge-card">{locale ? USED_BADGE[locale] : "2. el"}</span>}
         {p.image ? (
           <Image src={p.image.src} alt={p.image.alt} fill sizes="360px" style={{ objectFit: "contain" }} />
         ) : (
@@ -34,11 +50,11 @@ export default function StoreCard({ p }: { p: Product }) {
         )}
       </div>
       <div className="store-body">
-        <span className="store-cat">{p.category}</span>
+        <span className="store-cat">{category}</span>
         <strong className="store-model">{fullName(p)}</strong>
         <span className="store-name">{p.name}</span>
-        {p.option && <span className="store-opt">{p.optionLabel ? p.option : `Seçenek ${p.option}`}</span>}
-        <Price p={p} />
+        {optionLabel && <span className="store-opt">{optionLabel}</span>}
+        <Price p={p} locale={locale} />
       </div>
     </Link>
   );

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProcessSteps from "@/components/ProcessSteps";
 import TeklifForm from "@/components/TeklifForm";
-import { breadcrumbJsonLd, faqJsonLd, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
 
 // Hizmet sayfası (16-10-2026): claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md taslağındaki
 // metin çok dar olduğu için AOM_CNC_Tanitim_Brosuru.pdf'in çok daha zengin gerçek içeriğiyle
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "robotlu cnc hücresi",
     "cnc tezgah üreticisi",
   ],
-  alternates: { canonical: url },
+  alternates: { canonical: url, languages: hreflangAlternates("/cnc-tezgah") },
   openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description },
 };
 

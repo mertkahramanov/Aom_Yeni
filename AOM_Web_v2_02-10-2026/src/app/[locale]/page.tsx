@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { getDictionary } from "@/i18n/dictionary";
+import { hreflangAlternates, SITE } from "@/lib/seo";
 import LocaleHeroSlider from "@/components/LocaleHeroSlider";
 import LocaleOemMarquee from "@/components/LocaleOemMarquee";
 import LocaleProcessSteps from "@/components/LocaleProcessSteps";
@@ -51,8 +52,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: dict.home.metaTitle,
     description: dict.home.metaDescription,
     alternates: {
-      canonical: `/${locale}`,
-      languages: { tr: "/", en: "/en", ru: "/ru", ar: "/ar" },
+      canonical: `${SITE}/${locale}`,
+      languages: hreflangAlternates(""),
     },
     openGraph: { type: "website", locale: ogLocale[locale as Locale], siteName: "AOM" },
   };
@@ -135,7 +136,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
           <ul className="logo-grid">
             {oem.map((b) => (
               <li key={b.name}>
-                <Link href={`/magaza/marka/${b.slug}`} aria-label={`${b.name} ${dict.oem.ariaSuffix}`}>
+                <Link href={`/${loc}/magaza/marka/${b.slug}`} aria-label={`${b.name} ${dict.oem.ariaSuffix}`}>
                   {b.src.endsWith(".svg") ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img

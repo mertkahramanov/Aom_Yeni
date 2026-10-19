@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { KONTROL_KOD_SERIES, KONTROL_KOD_TOTAL } from "@/data/kontrol";
-import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, REGION_LINE, SITE } from "@/lib/seo";
 
 const TOTAL = KONTROL_KOD_TOTAL.toLocaleString("tr-TR");
 const GROUPS = [...new Set(KONTROL_KOD_SERIES.map((s) => s.cat))].sort((a, b) => b.localeCompare(a, "tr"));
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Autonics Sıcaklık Kontrol ve Panel Metre Kodları | Ankara",
   description: `Autonics sıcaklık kontrol cihazı ve dijital panel metre sipariş kodları: ${TOTAL} kod, ${KONTROL_KOD_SERIES.length} seri (TN, TX, TC, TCN, TA, T3/T4, KPN, MT4W, MT4N, M4 serisi ve diğerleri). Her kod için teklif. ${REGION_LINE}`,
   keywords: ["Autonics sıcaklık kontrol kodu", "Autonics TX", "Autonics TC4S", "Autonics TCN4S", "Autonics TA", "Autonics MT4W", "Autonics M4W", "panel metre kodu", "sıcaklık kontrol cihazı fiyat"],
-  alternates: { canonical: "/magaza/kontrol-kodlari" },
+  alternates: { canonical: "/magaza/kontrol-kodlari", languages: hreflangAlternates("/magaza/kontrol-kodlari") },
   openGraph: { type: "website", locale: "tr_TR", url: "/magaza/kontrol-kodlari", siteName: "AOM", title: "Autonics kontrol cihazı model kodları", description: `${TOTAL} sipariş kodu için teklif ve tedarik. ${REGION_LINE}` },
 };
 

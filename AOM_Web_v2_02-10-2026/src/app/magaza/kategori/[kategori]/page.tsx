@@ -5,7 +5,7 @@ import StoreCard from "@/components/StoreCard";
 import { CATEGORY_INFO, categoryBySlug, fullName, seriesSlug, storeCategories } from "@/data/magaza";
 import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
-import { breadcrumbJsonLd, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, REGION_LINE, SITE } from "@/lib/seo";
 
 // Kategoriye ait sipariş kodu listeleri (mağaza ilk sayfasından buraya taşındı, 06-10-2026).
 const DPU_LIST = { href: "/magaza/dpu-kodlari", label: "DPU model kodları", total: 840, text: "Autonics DPU serisinin tüm sipariş kodları: monofaze ve trifaze, 110–480 V." };
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ kategori:
     title,
     description,
     keywords: info?.keywords,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(url) },
     openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description },
   };
 }

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CodeFilter from "@/components/CodeFilter";
 import { ENC_SERIES, encLabel, encProductSlug, encSeries, lcFirst } from "@/data/enkoder";
-import { breadcrumbJsonLd, ORG, REGION_LINE, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, hreflangAlternates, ORG, REGION_LINE, SITE } from "@/lib/seo";
 
 const WA = ORG.telephone.replace(/\D/g, "");
 
@@ -89,7 +89,7 @@ export async function generateMetadata({ params }: { params: Promise<{ seri: str
     title,
     description,
     keywords: [`Autonics ${s.key}`, `${s.key} enkoder`, `${s.key} fiyat`, ...s.codes.filter((c) => c[1] === 0).slice(0, 12).map((c) => String(c[0]))],
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: hreflangAlternates(url) },
     openGraph: { type: "website", locale: "tr_TR", url, siteName: "AOM", title, description, images: s.img ? [{ url: `/magaza/${s.img}` }] : undefined },
   };
 }

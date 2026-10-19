@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProcessSteps from "@/components/ProcessSteps";
 import TeklifForm from "@/components/TeklifForm";
-import { breadcrumbJsonLd, faqJsonLd, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJsonLd, SITE } from "@/lib/seo";
 
 // Hizmet sayfası (16-10-2026): claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md taslağı,
 // AOM_Robotik_Kaynak_ve_Harici_Sistemler_Brosuru.pdf içeriğiyle dolduruldu (Mert'in kendi
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "dairesel kaynak sistemi",
     "kaynak fikstürü tasarımı",
   ],
-  alternates: { canonical: url },
+  alternates: { canonical: url, languages: hreflangAlternates("/robotik-kaynak") },
   openGraph: {
     type: "website",
     locale: "tr_TR",

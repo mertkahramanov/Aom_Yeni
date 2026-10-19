@@ -1,3 +1,5 @@
+import { locales as i18nLocales } from "@/i18n/locales";
+
 // Ortak SEO verileri (03-10-2026). Firma bilgileri sitede yayımlanan iletişim bilgilerinden alınmıştır.
 // Açılış saatleri, posta kodu ve koordinat bilinmediği için eklenmedi [TEYİT]; Google İşletme Profili ile aynı olmalı.
 // www birliği (14-10-2026, claude/SITE_TRAFIK_DURUM_14-10-2026.md Bulgu 2): Vercel'de asıl (primary)
@@ -82,6 +84,21 @@ export const breadcrumbJsonLd = (items: { name: string; path: string }[]) => ({
   "@type": "BreadcrumbList",
   itemListElement: items.map((it, i) => ({ "@type": "ListItem", position: i + 1, name: it.name, item: `${SITE}${it.path}` })),
 });
+
+// Çok dilli sayfalar için hreflang (Metadata.alternates.languages) üretir (19-10-2026,
+// bkz. claude/COK_DILLI_SITE_ASAMA3_19-10-2026.md ve src/app/sitemap.ts). path: TR sayfanın
+// SITE'den sonraki yolu (örn. "/magaza/seri/xyz"; anasayfa için ""). Yalnızca [locale]
+// ağacında karşılığı olan sayfalarda kullanılır: anasayfa, /otomasyon, 5 hizmet sayfası ve
+// mağazanın tüm 9 rota tipi. /cerez-politikasi ve /kvkk-aydinlatma-metni'nin çok dilli
+// karşılığı olmadığı için orada kullanılmaz.
+export function hreflangAlternates(path: string): Record<string, string> {
+  const languages: Record<string, string> = {
+    tr: `${SITE}${path}`,
+    "x-default": `${SITE}${path}`,
+  };
+  for (const loc of i18nLocales) languages[loc] = `${SITE}/${loc}${path}`;
+  return languages;
+}
 
 export const sellerRef = { "@type": "Organization", "@id": `${SITE}/#org`, name: ORG.name, url: SITE };
 export const eligibleRegion = { "@type": "Country", name: "TR" };
