@@ -432,7 +432,14 @@ function build(locale: Locale): Dictionary {
     },
   }[locale];
 
-  const heroSlides: HeroSlide[] = {
+  // Record<Locale, HeroSlide[]> ile açıkça tiplendi (19-10-2026 derleme düzeltmesi): bu
+  // tip belirtilmeden nesne hazır bilgisine (object literal) bırakılırsa, TypeScript her
+  // dizideki "key"/"icon" alanlarını union literal yerine genel string'e genişletiyor
+  // (contextual typing yok) ve }[locale] ile HeroSlide[]'a atama sırasında derleme hatası
+  // veriyordu (Vercel build hatası, 19-10-2026). Diğer sözlükler (nav, footer, home.* vb.)
+  // yalnızca düz string alanlar kullandığı için bu sorunu yaşamıyor; yalnızca HeroSlide/HeroArea
+  // gibi literal union alanı olan tipler bu açık Record<Locale, T> kalıbını gerektirir.
+  const heroSlidesByLocale: Record<Locale, HeroSlide[]> = {
     en: [
       {
         key: "otomasyon",
@@ -661,7 +668,8 @@ function build(locale: Locale): Dictionary {
         ],
       },
     ],
-  }[locale];
+  };
+  const heroSlides: HeroSlide[] = heroSlidesByLocale[locale];
 
   const homeAutomationCards = {
     en: [

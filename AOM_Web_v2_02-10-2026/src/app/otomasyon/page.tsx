@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import SearchBox from "@/components/SearchBox";
 import TeklifForm from "@/components/TeklifForm";
@@ -9,6 +10,11 @@ import { breadcrumbJsonLd, ORG, REGION_LINE, SITE } from "@/lib/seo";
 // teknik ürün danışmanlığı; robotik kaynak/CNC/pres projelerindeki elektrik-kontrol yetkinliği zaten
 // ana sayfadaki 7 adımlık süreçte ("Elektrik ve kontrol") yer alıyor, burada aynı yetkinlik PLC/servo/
 // motion bağlamında yeniden ifade ediliyor — yeni, doğrulanmamış bir hizmet iddiası eklenmedi.
+//
+// Örnek projeler galerisi (19-10-2026, Mert'in kendi saha fotoğrafları/videoları): PLC/SCADA uyumlu
+// ürünler ve pano entegrasyonu iddialarını somutlaştırmak için eklendi. Fotoğraf/video başlıkları
+// kasıtlı olarak genel tutuldu — görselde doğrulanamayan teknik rakam/iddia (akım, güç vb.) EKLENMEDİ
+// (bkz. AOM kurumsal kimlik kuralı: "Rakam ve iddia uydurma; doğrulanmamışsa [YER TUTUCU] bırak").
 const url = `${SITE}/otomasyon`;
 
 export const metadata: Metadata = {
@@ -61,6 +67,25 @@ const groups = [
     linkLabel: "Enkoderleri incele",
     text: "Motion kontrol uygulamalarının temel geri besleme bileşeni enkoderdir. Mağazamızda Autonics'in artımlı (inkremental) ve mutlak enkoderleri 34 seri ve 8.644 sipariş koduyla, çözünürlük, çıkış tipi ve bağlantıya göre tam listelenir; kaplin, montaj ve PLC/sayıcı bağlantısı konusunda destek veririz.",
   },
+];
+
+// Saha fotoğrafları (19-10-2026). Dosyalar: public/hizmetler/otomasyon/.
+const galeriGorseller = [
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-01_19-10-2026.webp", w: 631, h: 486, alt: "AOM tarafından hazırlanan PLC ve sürücü modüllü kontrol panosu", caption: "PLC ve sürücü entegrasyonlu kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-02_19-10-2026.webp", w: 480, h: 640, alt: "Yoğun klemens bağlantılı, PLC ve röle gruplu açık kontrol panosu", caption: "Yoğun klemens bağlantılı kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-03_19-10-2026.webp", w: 900, h: 1600, alt: "Motor sürücülü, sahaya sevke hazır kontrol panosu", caption: "Sevkiyata hazır kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-04_19-10-2026.webp", w: 720, h: 1600, alt: "PLC modülleri, güç kaynağı ve klemens gruplarından oluşan kontrol panosu", caption: "PLC ve güç dağıtım modülleri" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-05_19-10-2026.webp", w: 554, h: 554, alt: "Kompakt ölçülerde hazırlanmış kontrol panosu", caption: "Kompakt kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-06_19-10-2026.webp", w: 572, h: 536, alt: "Sürücü ve PLC bölümlerinden oluşan açık kontrol panosu", caption: "Sürücü ve PLC bölümlü pano" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-07_19-10-2026.webp", w: 397, h: 772, alt: "Dar gövdeli, çok katlı yerleşimli kontrol panosu", caption: "Çok katlı yerleşimli kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-08_19-10-2026.webp", w: 585, h: 524, alt: "Pano iç yerleşim tasarımı ve bileşen planı", caption: "Pano iç yerleşim tasarımı" },
+];
+
+const galeriVideolar = [
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-01_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-01_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 1" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-02_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-02_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 2" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-03_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-03_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 3" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-04_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-04_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 4" },
 ];
 
 export default function OtomasyonPage() {
@@ -137,6 +162,52 @@ export default function OtomasyonPage() {
           PLC programlama, SCADA, özel makine otomasyonu ve pano projelerini uçtan uca bir hizmet olarak
           almak isterseniz <Link href="/plc-scada">PLC, SCADA ve makine otomasyonu sayfamıza</Link> bakabilirsiniz.
         </p>
+      </div>
+
+      {/* Örnek projeler galerisi (19-10-2026) — Mert'in kendi saha fotoğraf/videoları */}
+      <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
+          <div className="eyebrow">Saha çalışmalarımız</div>
+          <h2 className="h2" style={{ fontSize: 26 }}>
+            Örnek projelerimiz
+          </h2>
+          <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+            PLC/SCADA uyumlu kontrol panoları ve motor sürücü entegrasyonlarımızdan birkaç örnek. Proje ve müşteri
+            ayrıntıları gizlilik anlaşmaları kapsamında olduğundan burada yalnızca pano görselleri paylaşılıyor.
+          </p>
+        </div>
+
+        <div className="grid-auto" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 220px), 1fr))" }}>
+          {galeriGorseller.map((g) => (
+            <figure key={g.src} style={{ margin: 0, display: "flex", flexDirection: "column", gap: 6 }}>
+              <Image
+                src={g.src}
+                alt={g.alt}
+                width={g.w}
+                height={g.h}
+                style={{ width: "100%", height: "auto", borderRadius: 8, border: "1px solid var(--line)" }}
+              />
+              <figcaption className="caption">{g.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+
+        <div className="grid-auto" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 220px), 1fr))" }}>
+          {galeriVideolar.map((v) => (
+            <figure key={v.src} style={{ margin: 0, display: "flex", flexDirection: "column", gap: 6 }}>
+              {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+              <video
+                src={v.src}
+                poster={v.poster}
+                controls
+                playsInline
+                preload="metadata"
+                style={{ width: "100%", height: "auto", borderRadius: 8, border: "1px solid var(--line)", background: "#000" }}
+              />
+              <figcaption className="caption">{v.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
       </div>
 
       {/* Otomasyon sayfası teklif formu (14-10-2026) */}
