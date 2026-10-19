@@ -101,13 +101,16 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 
 /* Üst menü */
 .site-header { background: var(--surface-raised); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
-.site-header .inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-top: 14px; padding-bottom: 14px; }
+.site-header .inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 12px 24px; padding-top: 14px; padding-bottom: 14px; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 0 24px; font-family: var(--font-display), sans-serif; font-weight: 600; font-size: 15px; }
 .site-nav a { color: var(--ink); text-decoration: none; padding: 10px 0; display: inline-block; }
 .site-nav a:hover { color: var(--aom-red); }
 @media (max-width: 900px) { .site-nav { order: 3; width: 100%; gap: 0 18px; } }
 
-.header-actions { display: flex; align-items: center; gap: 10px; }
+/* header-actions: margin-left:auto (space-between yerine) bu bloğu satır sarsa bile sağa
+   yaslı tutar — dil değiştirici eklenince (19-10-2026) dar genişliklerde "sola düşüp kaymış"
+   görünmesini önler (düzeltme: Mert'in geri bildirimi, 19-10-2026). */
+.header-actions { display: flex; align-items: center; gap: 10px; margin-left: auto; }
 .btn-store { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--aom-red); color: var(--aom-red); padding: 13px 20px; background: transparent; }
 .btn-store:hover { background: var(--aom-red-tint); color: var(--aom-red-deep); }
 
@@ -363,8 +366,8 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .cat-tile-used { border-top-color: var(--ink); }
 
 /* Header dil değiştirici — TR/EN/RU/AR (19-10-2026). Mevcut kurallar değişmedi, yalnızca ek. */
-.lang-switcher { display: flex; align-items: center; gap: 4px; font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 13px; letter-spacing: .02em; margin-right: 6px; }
-.lang-switcher-sep { color: var(--line); }
+.lang-switcher { display: flex; align-items: center; gap: 3px; font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 12px; letter-spacing: .02em; padding-right: 10px; margin-right: 4px; border-right: 1px solid var(--line); }
+.lang-switcher-sep { color: var(--line); margin: 0 1px; }
 .lang-switcher-link { color: var(--ink); text-decoration: none; opacity: .55; }
 .lang-switcher-link:hover { color: var(--aom-red); opacity: 1; }
 .lang-switcher-current { color: var(--aom-red); }

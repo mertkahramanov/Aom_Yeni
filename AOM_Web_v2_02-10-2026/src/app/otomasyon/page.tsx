@@ -84,13 +84,17 @@ const galeriGorseller = [
   { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-06_19-10-2026.webp", w: 1000, h: 1250, alt: "Sürücü ve PLC bölümlerinden oluşan açık kontrol panosu", caption: "Sürücü ve PLC bölümlü pano" },
   { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-07_19-10-2026.webp", w: 1000, h: 1250, alt: "Dar gövdeli, çok katlı yerleşimli kontrol panosu", caption: "Çok katlı yerleşimli kontrol panosu" },
   { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-08_19-10-2026.webp", w: 1000, h: 1250, alt: "Pano iç yerleşim tasarımı ve bileşen planı", caption: "Pano iç yerleşim tasarımı" },
+  // 09–10 eklendi (19-10-2026, Mert'in gönderdiği iki saha fotoğrafı; aynı 4:5, 1000x1250 standardı)
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-09_19-10-2026.webp", w: 1000, h: 1250, alt: "Faz koruma röleleri, otomatik sigortalar, zaman röleleri ve ara röle gruplarından oluşan kumanda panoları", caption: "Faz koruma ve zaman röleli kumanda panoları" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-10_19-10-2026.webp", w: 1000, h: 1250, alt: "Dört adet fanlı dijital tristörlü güç ünitesinin entegre edildiği güç kontrol panosu", caption: "Dijital tristörlü güç ünitesi panosu" },
 ];
 
+// Video açıklamaları (19-10-2026, Mert'in bilgisi): sırasıyla Rusya, Rusya, Kazakistan, Azerbaycan projeleri.
 const galeriVideolar = [
-  { src: "/hizmetler/otomasyon/otomasyon-pano-video-01_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-01_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 1" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-video-02_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-02_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 2" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-video-03_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-03_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 3" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-video-04_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-04_19-10-2026-poster.webp", caption: "Pano imalatından kısa görüntü — 4" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-01_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-01_19-10-2026-poster.webp", caption: "Rusya projesi — pano imalatından kısa görüntü" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-02_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-02_19-10-2026-poster.webp", caption: "Rusya projesi — pano imalatından kısa görüntü" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-03_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-03_19-10-2026-poster.webp", caption: "Kazakistan projesi — pano imalatından kısa görüntü" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-video-04_19-10-2026.mp4", poster: "/hizmetler/otomasyon/otomasyon-pano-video-04_19-10-2026-poster.webp", caption: "Azerbaycan projesi — pano imalatından kısa görüntü" },
 ];
 
 export default function OtomasyonPage() {
@@ -177,7 +181,8 @@ export default function OtomasyonPage() {
             Örnek projelerimiz
           </h2>
           <p style={{ margin: 0, color: "var(--ink-muted)" }}>
-            PLC/SCADA uyumlu kontrol panoları ve motor sürücü entegrasyonlarımızdan birkaç örnek. Proje ve müşteri
+            PLC/SCADA uyumlu kontrol panoları ve motor sürücü entegrasyonlarımızdan birkaç örnek; Rusya, Kazakistan
+            ve Azerbaycan&apos;a teslim ettiğimiz projeler dahil. Proje ve müşteri
             ayrıntıları gizlilik anlaşmaları kapsamında olduğundan burada yalnızca pano görselleri paylaşılıyor.
           </p>
         </div>

@@ -35,7 +35,7 @@ export default function LanguageSwitcher({ current }: { current: "tr" | Locale }
         <span key={opt} className="lang-switcher-item">
           {i > 0 && (
             <span className="lang-switcher-sep" aria-hidden="true">
-              /
+              ·
             </span>
           )}
           {opt === current ? (
