@@ -91,7 +91,7 @@ export default async function LocalePlcScadaPage({ params }: { params: Promise<{
         </h2>
         <p style={{ margin: 0, color: "var(--ink-muted)" }}>
           {c.productSide.prefix} <Link href={`/${loc}/otomasyon`}>{c.productSide.link1Text}</Link> {c.productSide.mid}{" "}
-          <Link href="/magaza">{c.productSide.link2Text}</Link>
+          <Link href={`/${loc}/magaza`}>{c.productSide.link2Text}</Link>
           {c.productSide.suffix}
         </p>
       </div>

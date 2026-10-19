@@ -4,6 +4,13 @@
 // (src/i18n/pages/<sayfa>.ts). Türkçe sayfalar bu dosyadan etkilenmez.
 import type { Locale } from "../locales";
 
+// Kısa bölge ifadesi (eyebrow'larda "Mağaza · Ankara ve Türkiye geneli" gibi kullanılır, 19-10-2026).
+export const ANKARA_REGION_SHORT: Record<Locale, string> = {
+  en: "Ankara and nationwide Turkey",
+  ru: "Анкара и вся Турция",
+  ar: "أنقرة وعموم تركيا",
+};
+
 export const REGION_LINE: Record<Locale, string> = {
   en: "Sales and quotes from Ankara-based AOM, nationwide across Turkey.",
   ru: "Продажи и предложения от компании AOM (Анкара) по всей Турции.",
