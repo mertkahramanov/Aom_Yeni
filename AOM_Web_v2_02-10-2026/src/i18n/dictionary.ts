@@ -53,7 +53,10 @@ export type Dictionary = {
     email: string;
     phone: string;
     message: string;
-    messageSuffix: (item: string) => string;
+    /** "{item}" yerine ürün adı konur (19-10-2026 düzeltmesi: fonksiyon değil düz string —
+     * Next.js Server→Client Component sınırında fonksiyonlar serileştirilemiyor, bu da
+     * "yabancı diller çalışmıyor" / Application error hatasına sebep oluyordu). */
+    messageSuffix: string;
     kvkkPre: string;
     kvkkLink: string;
     kvkkPost: string;
@@ -236,7 +239,7 @@ function build(locale: Locale): Dictionary {
       fEmail: "Email",
       fPhone: "Phone (optional)",
       fMessage: "Message",
-      messageSuffix: (item: string) => ` (for ${item})`,
+      messageSuffix: " (for {item})",
       kvkkPre: "Your personal data is processed under our ",
       kvkkLink: "Privacy Notice (KVKK)",
       kvkkPost: " in order to respond to your request.",
@@ -315,7 +318,7 @@ function build(locale: Locale): Dictionary {
       fEmail: "Эл. почта",
       fPhone: "Телефон (необязательно)",
       fMessage: "Сообщение",
-      messageSuffix: (item: string) => ` (по товару ${item})`,
+      messageSuffix: " (по товару {item})",
       kvkkPre: "Ваши персональные данные обрабатываются в соответствии с ",
       kvkkLink: "Уведомлением о защите данных (KVKK)",
       kvkkPost: " с целью ответа на ваш запрос.",
@@ -394,7 +397,7 @@ function build(locale: Locale): Dictionary {
       fEmail: "البريد الإلكتروني",
       fPhone: "الهاتف (اختياري)",
       fMessage: "الرسالة",
-      messageSuffix: (item: string) => ` (بخصوص ${item})`,
+      messageSuffix: " (بخصوص {item})",
       kvkkPre: "تتم معالجة بياناتك الشخصية بموجب ",
       kvkkLink: "إشعار حماية البيانات (KVKK)",
       kvkkPost: " بهدف الرد على طلبك.",

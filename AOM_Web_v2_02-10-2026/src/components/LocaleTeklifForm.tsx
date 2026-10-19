@@ -122,7 +122,7 @@ export default function LocaleTeklifForm({ formName, itemName, dict, embedded, t
       </label>
       <label style={{ display: "flex", flexDirection: "column", gap: 4, fontSize: 14 }}>
         {t.message}
-        {itemName ? t.messageSuffix(itemName) : ""}
+        {itemName ? t.messageSuffix.replace("{item}", itemName) : ""}
         <textarea name="message" required minLength={3} rows={4} style={inputStyle} />
       </label>
       {status === "error" && (
