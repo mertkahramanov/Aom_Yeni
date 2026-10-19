@@ -361,3 +361,11 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .used-box dt { font-weight: 600; color: var(--ink); }
 .used-box dd { margin: 0; color: var(--ink-muted); }
 .cat-tile-used { border-top-color: var(--ink); }
+
+/* Header dil değiştirici — TR/EN/RU/AR (19-10-2026). Mevcut kurallar değişmedi, yalnızca ek. */
+.lang-switcher { display: flex; align-items: center; gap: 4px; font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 13px; letter-spacing: .02em; margin-right: 6px; }
+.lang-switcher-sep { color: var(--line); }
+.lang-switcher-link { color: var(--ink); text-decoration: none; opacity: .55; }
+.lang-switcher-link:hover { color: var(--aom-red); opacity: 1; }
+.lang-switcher-current { color: var(--aom-red); }
+@media (max-width: 900px) { .lang-switcher { order: 2; } }

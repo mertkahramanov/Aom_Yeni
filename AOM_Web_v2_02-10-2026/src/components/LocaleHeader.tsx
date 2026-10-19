@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary } from "@/i18n/dictionary";
 import type { Locale } from "@/i18n/locales";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 // Header.tsx'in çok dilli karşılığı (18-10-2026). Aynı CSS sınıflarını kullanır (site-header,
 // site-nav, header-actions, btn vb.) — görsel stil globals.css'ten hiç değişmeden miras alınır.
@@ -21,6 +22,7 @@ export default function LocaleHeader({ locale, dict }: { locale: Locale; dict: D
           ))}
         </nav>
         <div className="header-actions">
+          <LanguageSwitcher current={locale} />
           <Link href="/magaza" className="btn btn-store">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20 8H6.2" />

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const menu = [
   { href: "/otomasyon", label: "Otomasyon" },
@@ -25,6 +26,7 @@ export default function Header() {
           ))}
         </nav>
         <div className="header-actions">
+          <LanguageSwitcher current="tr" />
           <Link href="/magaza" className="btn btn-store">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20 8H6.2" />
