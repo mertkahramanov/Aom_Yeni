@@ -366,7 +366,7 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .cat-tile-used { border-top-color: var(--ink); }
 
 /* Header dil değiştirici — TR/EN/RU/AR (19-10-2026). Mevcut kurallar değişmedi, yalnızca ek. */
-.lang-switcher { display: flex; align-items: center; gap: 3px; font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 12px; letter-spacing: .02em; padding-right: 10px; margin-right: 4px; border-right: 1px solid var(--line); }
+.lang-switcher { display: flex; align-items: center; align-self: stretch; gap: 3px; font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 12px; letter-spacing: .02em; padding-right: 10px; margin-right: 4px; border-right: 1px solid var(--line); }
 .lang-switcher-sep { color: var(--line); margin: 0 1px; }
 .lang-switcher-link { color: var(--ink); text-decoration: none; opacity: .55; }
 .lang-switcher-link:hover { color: var(--aom-red); opacity: 1; }

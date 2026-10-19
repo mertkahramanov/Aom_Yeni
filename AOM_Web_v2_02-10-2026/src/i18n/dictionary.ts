@@ -5,9 +5,12 @@
 //
 // Kapsam notu (18-10-2026, Mert onayı): ana sayfa + ortak arayüz (menü, footer, WhatsApp,
 // arama kutusu, 7 adım süreç, teklif formu, çerez bandı, hero slider, OEM şeridi) bu sözlükle
-// çevrildi. Henüz çevrilmemiş sayfalar (5 hizmet sayfası, /otomasyon, /magaza, çerez/KVKK
-// metin sayfaları) için menü/footer bağlantıları şimdilik Türkçe sürüme işaret eder — bu
-// sayfalar çevrilince bağlantılar da güncellenecek (bkz. proje görev listesi #28–#30).
+// çevrildi. 19-10-2026 güncellemesi: 5 hizmet sayfası (robotik-kaynak, pres-guvenligi,
+// cnc-tezgah, plc-scada, tristorlu-guc-kontrol) ve /otomasyon da çevrildi; menü/footer/ana
+// sayfa kartlarındaki bağlantılar artık bu sayfaların /en, /ru, /ar karşılıklarına işaret eder
+// (bkz. solutionHref, p("/otomasyon...")). Henüz çevrilmemiş /magaza ve çerez/KVKK metin
+// sayfaları için bağlantılar hâlâ Türkçe sürüme işaret eder — bu sayfalar çevrilince
+// güncellenecek (bkz. proje görev listesi #29–#30).
 
 import type { Locale } from "./locales";
 
@@ -143,7 +146,7 @@ function build(locale: Locale): Dictionary {
 
   const nav = {
     en: [
-      { href: "/otomasyon", label: "Automation" },
+      { href: p("/otomasyon"), label: "Automation" },
       { href: p("#cozumler"), label: "Solutions" },
       { href: p("#hizmetler"), label: "Services" },
       { href: p("#surec"), label: "Process" },
@@ -151,7 +154,7 @@ function build(locale: Locale): Dictionary {
       { href: p("#referanslar"), label: "References" },
     ],
     ru: [
-      { href: "/otomasyon", label: "Автоматизация" },
+      { href: p("/otomasyon"), label: "Автоматизация" },
       { href: p("#cozumler"), label: "Решения" },
       { href: p("#hizmetler"), label: "Услуги" },
       { href: p("#surec"), label: "Процесс" },
@@ -159,7 +162,7 @@ function build(locale: Locale): Dictionary {
       { href: p("#referanslar"), label: "Референсы" },
     ],
     ar: [
-      { href: "/otomasyon", label: "الأتمتة" },
+      { href: p("/otomasyon"), label: "الأتمتة" },
       { href: p("#cozumler"), label: "الحلول" },
       { href: p("#hizmetler"), label: "الخدمات" },
       { href: p("#surec"), label: "العملية" },
@@ -168,27 +171,35 @@ function build(locale: Locale): Dictionary {
     ],
   }[locale];
 
+  const solutionHref = {
+    kaynak: p(solutionHrefTr.kaynak),
+    pres: p(solutionHrefTr.pres),
+    cnc: p(solutionHrefTr.cnc),
+    plc: p(solutionHrefTr.plc),
+    tristor: p(solutionHrefTr.tristor),
+  };
+
   const solutionsFooter = {
     en: [
-      { href: solutionHrefTr.kaynak, label: "Robotic welding" },
-      { href: solutionHrefTr.pres, label: "Press safety" },
-      { href: solutionHrefTr.cnc, label: "CNC machines" },
-      { href: solutionHrefTr.plc, label: "PLC, SCADA" },
-      { href: solutionHrefTr.tristor, label: "Thyristor power control" },
+      { href: solutionHref.kaynak, label: "Robotic welding" },
+      { href: solutionHref.pres, label: "Press safety" },
+      { href: solutionHref.cnc, label: "CNC machines" },
+      { href: solutionHref.plc, label: "PLC, SCADA" },
+      { href: solutionHref.tristor, label: "Thyristor power control" },
     ],
     ru: [
-      { href: solutionHrefTr.kaynak, label: "Роботизированная сварка" },
-      { href: solutionHrefTr.pres, label: "Безопасность прессов" },
-      { href: solutionHrefTr.cnc, label: "Станки с ЧПУ" },
-      { href: solutionHrefTr.plc, label: "ПЛК, SCADA" },
-      { href: solutionHrefTr.tristor, label: "Тиристорное управление мощностью" },
+      { href: solutionHref.kaynak, label: "Роботизированная сварка" },
+      { href: solutionHref.pres, label: "Безопасность прессов" },
+      { href: solutionHref.cnc, label: "Станки с ЧПУ" },
+      { href: solutionHref.plc, label: "ПЛК, SCADA" },
+      { href: solutionHref.tristor, label: "Тиристорное управление мощностью" },
     ],
     ar: [
-      { href: solutionHrefTr.kaynak, label: "اللحام الروبوتي" },
-      { href: solutionHrefTr.pres, label: "سلامة المكابس" },
-      { href: solutionHrefTr.cnc, label: "مكائن CNC" },
-      { href: solutionHrefTr.plc, label: "PLC، SCADA" },
-      { href: solutionHrefTr.tristor, label: "التحكم بالطاقة بالثايرستور" },
+      { href: solutionHref.kaynak, label: "اللحام الروبوتي" },
+      { href: solutionHref.pres, label: "سلامة المكابس" },
+      { href: solutionHref.cnc, label: "مكائن CNC" },
+      { href: solutionHref.plc, label: "PLC، SCADA" },
+      { href: solutionHref.tristor, label: "التحكم بالطاقة بالثايرستور" },
     ],
   }[locale];
 
@@ -673,46 +684,46 @@ function build(locale: Locale): Dictionary {
 
   const homeAutomationCards = {
     en: [
-      { href: "/otomasyon#plc", title: "PLC / SCADA-compatible products", text: "Temperature controllers, counters, timers, panel meters, HMI and digital display units; can be connected to a PLC or SCADA system for monitoring and control." },
-      { href: "/otomasyon#servo", title: "Servo motors and motor drives", text: "AC/DC motor drives, soft starters and step/servo motor drives; support with selection, supply and panel integration." },
-      { href: "/otomasyon#motion", title: "Motion control / encoders", text: "Incremental and absolute encoders across 34 series with 8,644 order codes; for motion applications that require position and speed feedback." },
-      { href: "/otomasyon", title: "Technical support for automation projects", text: "Support with product selection, panel integration and commissioning in the electrical-control stage of robotic welding, CNC and press cells." },
+      { href: p("/otomasyon#plc"), title: "PLC / SCADA-compatible products", text: "Temperature controllers, counters, timers, panel meters, HMI and digital display units; can be connected to a PLC or SCADA system for monitoring and control." },
+      { href: p("/otomasyon#servo"), title: "Servo motors and motor drives", text: "AC/DC motor drives, soft starters and step/servo motor drives; support with selection, supply and panel integration." },
+      { href: p("/otomasyon#motion"), title: "Motion control / encoders", text: "Incremental and absolute encoders across 34 series with 8,644 order codes; for motion applications that require position and speed feedback." },
+      { href: p("/otomasyon"), title: "Technical support for automation projects", text: "Support with product selection, panel integration and commissioning in the electrical-control stage of robotic welding, CNC and press cells." },
     ],
     ru: [
-      { href: "/otomasyon#plc", title: "Продукция, совместимая с ПЛК/SCADA", text: "Терморегуляторы, счётчики, таймеры, щитовые измерители, HMI и цифровые дисплейные блоки; подключаются к ПЛК или SCADA-системе для мониторинга и управления." },
-      { href: "/otomasyon#servo", title: "Сервоприводы и приводы двигателей", text: "Приводы двигателей переменного/постоянного тока, устройства плавного пуска и приводы шаговых/сервоприводов; поддержка в выборе, поставке и интеграции в шкаф." },
-      { href: "/otomasyon#motion", title: "Управление движением / энкодеры", text: "Инкрементальные и абсолютные энкодеры — 34 серии, 8 644 артикула; для задач управления движением с обратной связью по положению и скорости." },
-      { href: "/otomasyon", title: "Техническая поддержка в проектах автоматизации", text: "Поддержка в выборе продукции, интеграции в шкаф и вводе в эксплуатацию на этапе электрики и управления в ячейках роботизированной сварки, ЧПУ и прессов." },
+      { href: p("/otomasyon#plc"), title: "Продукция, совместимая с ПЛК/SCADA", text: "Терморегуляторы, счётчики, таймеры, щитовые измерители, HMI и цифровые дисплейные блоки; подключаются к ПЛК или SCADA-системе для мониторинга и управления." },
+      { href: p("/otomasyon#servo"), title: "Сервоприводы и приводы двигателей", text: "Приводы двигателей переменного/постоянного тока, устройства плавного пуска и приводы шаговых/сервоприводов; поддержка в выборе, поставке и интеграции в шкаф." },
+      { href: p("/otomasyon#motion"), title: "Управление движением / энкодеры", text: "Инкрементальные и абсолютные энкодеры — 34 серии, 8 644 артикула; для задач управления движением с обратной связью по положению и скорости." },
+      { href: p("/otomasyon"), title: "Техническая поддержка в проектах автоматизации", text: "Поддержка в выборе продукции, интеграции в шкаф и вводе в эксплуатацию на этапе электрики и управления в ячейках роботизированной сварки, ЧПУ и прессов." },
     ],
     ar: [
-      { href: "/otomasyon#plc", title: "منتجات متوافقة مع PLC / SCADA", text: "أجهزة تحكم بدرجة الحرارة، عدّادات، مؤقتات، أجهزة قياس للوحات، وحدات HMI وشاشات رقمية؛ يمكن ربطها بنظام PLC أو SCADA للمراقبة والتحكم." },
-      { href: "/otomasyon#servo", title: "محركات السيرفو ومشغلات المحركات", text: "مشغلات محركات AC/DC، أجهزة بدء تشغيل ناعم ومشغلات محركات الخطوة/السيرفو؛ دعم في الاختيار والتوريد والدمج في اللوحات." },
-      { href: "/otomasyon#motion", title: "التحكم بالحركة / أجهزة الترميز", text: "أجهزة ترميز تزايدية ومطلقة ضمن 34 سلسلة و8,644 رمز طلب؛ لتطبيقات الحركة التي تتطلب تغذية راجعة للموضع والسرعة." },
-      { href: "/otomasyon", title: "الدعم الفني لمشاريع الأتمتة", text: "دعم في اختيار المنتجات والدمج في اللوحات والتشغيل في مرحلة الكهرباء والتحكم لخلايا اللحام الروبوتي وCNC والمكابس." },
+      { href: p("/otomasyon#plc"), title: "منتجات متوافقة مع PLC / SCADA", text: "أجهزة تحكم بدرجة الحرارة، عدّادات، مؤقتات، أجهزة قياس للوحات، وحدات HMI وشاشات رقمية؛ يمكن ربطها بنظام PLC أو SCADA للمراقبة والتحكم." },
+      { href: p("/otomasyon#servo"), title: "محركات السيرفو ومشغلات المحركات", text: "مشغلات محركات AC/DC، أجهزة بدء تشغيل ناعم ومشغلات محركات الخطوة/السيرفو؛ دعم في الاختيار والتوريد والدمج في اللوحات." },
+      { href: p("/otomasyon#motion"), title: "التحكم بالحركة / أجهزة الترميز", text: "أجهزة ترميز تزايدية ومطلقة ضمن 34 سلسلة و8,644 رمز طلب؛ لتطبيقات الحركة التي تتطلب تغذية راجعة للموضع والسرعة." },
+      { href: p("/otomasyon"), title: "الدعم الفني لمشاريع الأتمتة", text: "دعم في اختيار المنتجات والدمج في اللوحات والتشغيل في مرحلة الكهرباء والتحكم لخلايا اللحام الروبوتي وCNC والمكابس." },
     ],
   }[locale];
 
   const solutionsCards = {
     en: [
-      { href: solutionHrefTr.kaynak, title: "Robotic welding and external systems", text: "Welding cells, positioners, external axes, column-and-boom, rotators, fit-up lines and circumferential welding systems." },
-      { href: solutionHrefTr.pres, title: "Press safety and automatic feeding", text: "Light curtains, clutch-brake retrofits, cage and interlocked-door solutions; servo NC feeding." },
-      { href: solutionHrefTr.cnc, title: "CNC machines", text: "Compact CNC machining centers; Siemens, Fanuc or Mitsubishi Electric control, robotic cell option." },
-      { href: solutionHrefTr.plc, title: "PLC, SCADA and machine automation", text: "PLC/HMI programming, SCADA and data acquisition, custom machine automation, panel design and commissioning." },
-      { href: solutionHrefTr.tristor, title: "Thyristor power control", text: "Phase-angle and zero-crossing control, RS485 Modbus RTU communication." },
+      { href: solutionHref.kaynak, title: "Robotic welding and external systems", text: "Welding cells, positioners, external axes, column-and-boom, rotators, fit-up lines and circumferential welding systems." },
+      { href: solutionHref.pres, title: "Press safety and automatic feeding", text: "Light curtains, clutch-brake retrofits, cage and interlocked-door solutions; servo NC feeding." },
+      { href: solutionHref.cnc, title: "CNC machines", text: "Compact CNC machining centers; Siemens, Fanuc or Mitsubishi Electric control, robotic cell option." },
+      { href: solutionHref.plc, title: "PLC, SCADA and machine automation", text: "PLC/HMI programming, SCADA and data acquisition, custom machine automation, panel design and commissioning." },
+      { href: solutionHref.tristor, title: "Thyristor power control", text: "Phase-angle and zero-crossing control, RS485 Modbus RTU communication." },
     ],
     ru: [
-      { href: solutionHrefTr.kaynak, title: "Роботизированная сварка и внешние системы", text: "Сварочные ячейки, позиционеры, внешние оси, колонно-консольные системы, ротаторы, линии фит-ап и системы кольцевой сварки." },
-      { href: solutionHrefTr.pres, title: "Безопасность прессов и автоматическая подача", text: "Световые завесы, модернизация муфты-тормоза, защитные клетки и блокируемые двери; серво NC подача." },
-      { href: solutionHrefTr.cnc, title: "Станки с ЧПУ", text: "Компактные обрабатывающие центры с ЧПУ; управление Siemens, Fanuc или Mitsubishi Electric, вариант с роботизированной ячейкой." },
-      { href: solutionHrefTr.plc, title: "ПЛК, SCADA и автоматизация машин", text: "Программирование ПЛК/HMI, SCADA и сбор данных, автоматизация специальных машин, проектирование шкафов и ввод в эксплуатацию." },
-      { href: solutionHrefTr.tristor, title: "Тиристорное управление мощностью", text: "Фазовое и нулевое управление, связь RS485 Modbus RTU." },
+      { href: solutionHref.kaynak, title: "Роботизированная сварка и внешние системы", text: "Сварочные ячейки, позиционеры, внешние оси, колонно-консольные системы, ротаторы, линии фит-ап и системы кольцевой сварки." },
+      { href: solutionHref.pres, title: "Безопасность прессов и автоматическая подача", text: "Световые завесы, модернизация муфты-тормоза, защитные клетки и блокируемые двери; серво NC подача." },
+      { href: solutionHref.cnc, title: "Станки с ЧПУ", text: "Компактные обрабатывающие центры с ЧПУ; управление Siemens, Fanuc или Mitsubishi Electric, вариант с роботизированной ячейкой." },
+      { href: solutionHref.plc, title: "ПЛК, SCADA и автоматизация машин", text: "Программирование ПЛК/HMI, SCADA и сбор данных, автоматизация специальных машин, проектирование шкафов и ввод в эксплуатацию." },
+      { href: solutionHref.tristor, title: "Тиристорное управление мощностью", text: "Фазовое и нулевое управление, связь RS485 Modbus RTU." },
     ],
     ar: [
-      { href: solutionHrefTr.kaynak, title: "اللحام الروبوتي والأنظمة الخارجية", text: "خلايا لحام، محدِّدات، محاور خارجية، أنظمة عمود-ذراع، أجهزة تدوير، خطوط تجميع وأنظمة لحام دائري." },
-      { href: solutionHrefTr.pres, title: "سلامة المكابس والتغذية الآلية", text: "ستائر ضوئية، تحديث القابض-الفرامل، حلول الأقفاص والأبواب المترابطة؛ تغذية NC بالسيرفو." },
-      { href: solutionHrefTr.cnc, title: "مكائن CNC", text: "مراكز تشغيل CNC مدمجة؛ تحكم Siemens أو Fanuc أو Mitsubishi Electric، مع خيار الخلية الروبوتية." },
-      { href: solutionHrefTr.plc, title: "PLC وSCADA وأتمتة الآلات", text: "برمجة PLC/HMI، SCADA وجمع البيانات، أتمتة آلات مخصّصة، تصميم اللوحات والتشغيل." },
-      { href: solutionHrefTr.tristor, title: "التحكم بالطاقة بالثايرستور", text: "تحكم بزاوية الطور والعبور الصفري، اتصال RS485 Modbus RTU." },
+      { href: solutionHref.kaynak, title: "اللحام الروبوتي والأنظمة الخارجية", text: "خلايا لحام، محدِّدات، محاور خارجية، أنظمة عمود-ذراع، أجهزة تدوير، خطوط تجميع وأنظمة لحام دائري." },
+      { href: solutionHref.pres, title: "سلامة المكابس والتغذية الآلية", text: "ستائر ضوئية، تحديث القابض-الفرامل، حلول الأقفاص والأبواب المترابطة؛ تغذية NC بالسيرفو." },
+      { href: solutionHref.cnc, title: "مكائن CNC", text: "مراكز تشغيل CNC مدمجة؛ تحكم Siemens أو Fanuc أو Mitsubishi Electric، مع خيار الخلية الروبوتية." },
+      { href: solutionHref.plc, title: "PLC وSCADA وأتمتة الآلات", text: "برمجة PLC/HMI، SCADA وجمع البيانات، أتمتة آلات مخصّصة، تصميم اللوحات والتشغيل." },
+      { href: solutionHref.tristor, title: "التحكم بالطاقة بالثايرستور", text: "تحكم بزاوية الطور والعبور الصفري، اتصال RS485 Modbus RTU." },
     ],
   }[locale];
 
