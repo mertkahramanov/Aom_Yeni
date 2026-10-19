@@ -102,7 +102,7 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 /* Üst menü */
 .site-header { background: var(--surface-raised); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
 .site-header .inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 12px 24px; padding-top: 14px; padding-bottom: 14px; }
-.site-nav { display: flex; flex-wrap: wrap; gap: 0 20px; font-family: var(--font-display), sans-serif; font-weight: 600; font-size: 15px; }
+.site-nav { display: flex; flex-wrap: wrap; gap: 0 14px; font-family: var(--font-display), sans-serif; font-weight: 600; font-size: 15px; }
 .site-nav a { color: var(--ink); text-decoration: none; padding: 10px 0; display: inline-block; }
 .site-nav a:hover { color: var(--aom-red); }
 @media (max-width: 900px) { .site-nav { order: 3; width: 100%; gap: 0 18px; } }
@@ -112,11 +112,18 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
    görünmesini önler (düzeltme: Mert'in geri bildirimi, 19-10-2026).
    19-10-2026 (2): dil değiştirici 4 dile çıkınca toplam genişlik dar/orta ekranlarda tek satıra
    sığmayıp bu blok satır sarıyordu; gap/padding biraz daraltıldı ve satır sardığında (900–1400px
-   arası) iki satırlı görünüm belirgin biçimde ayrı ve sağa yaslı kalsın diye ayrı bir kural eklendi. */
-.header-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; }
-.btn-store { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--aom-red); color: var(--aom-red); padding: 12px 18px; background: transparent; }
+   arası) iki satırlı görünüm belirgin biçimde ayrı ve sağa yaslı kalsın diye ayrı bir kural eklendi.
+   19-10-2026 (4) — RUSÇA HİZALAMA DÜZELTMESİ: .container 1280px'de sınırlanıyor; Rusça menüdeki
+   uzun "ОЕМ-партнёрства" etiketi bu genişlikte menü+sağ blok toplamını konteynerin sınırına çok
+   yaklaştırıyor (canlı sitede ölçüldü: yalnızca ~15px pay kalıyordu) — platforma/yazı tipi
+   render farkına göre bu ya satırı gereksiz yere sarıyor ya da neredeyse bitişik, sıkışık görünen
+   tek satıra düşüyordu (Mert'in ekran görüntüsü, 19-10-2026). site-nav gap'i ve buton iç
+   boşlukları biraz daraltılarak tüm diller için ~50px pay açıldı; TR/EN/AR'da fark edilmez, RU'da
+   rahat ve tutarlı bir boşluk sağlanıyor (canlı sitede doğrulandı). */
+.header-actions { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.btn-store { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--aom-red); color: var(--aom-red); padding: 12px 14px; background: transparent; }
 .btn-store:hover { background: var(--aom-red-tint); color: var(--aom-red-deep); }
-.header-actions .btn-primary { padding: 12px 22px; }
+.header-actions .btn-primary { padding: 12px 18px; }
 @media (min-width: 901px) and (max-width: 1400px) {
   .site-header .inner { row-gap: 10px; }
   .header-actions { width: 100%; justify-content: flex-end; padding-top: 10px; border-top: 1px dashed var(--line); }
