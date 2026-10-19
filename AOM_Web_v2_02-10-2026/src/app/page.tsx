@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import OemMarquee from "@/components/OemMarquee";
-import ProcessSteps from "@/components/ProcessSteps";
 import SearchBox from "@/components/SearchBox";
 import TeklifForm from "@/components/TeklifForm";
 import { hreflangAlternates } from "@/lib/seo";
@@ -79,6 +78,20 @@ const services = [
   { title: "Mekanik dönüşümler", text: "Örn. kamalı preste pnömatik kavrama-fren" },
 ];
 
+// Süreç adımları (19-10-2026): src/components/ProcessSteps.tsx ile BİREBİR AYNI içerik.
+// O bileşen diğer 5 hizmet sayfasında (robotik-kaynak, pres-guvenligi, cnc-tezgah, plc-scada,
+// tristorlu-guc-kontrol) tam bölüm olarak kullanılmaya devam ediyor; ana sayfada artık bu adımlar
+// Çözümlerimiz bölümünün bir alt bloğu olarak satır içi (inline) render edilir (bkz. aşağıda).
+const processSteps = [
+  "İhtiyaç ve parça analizi",
+  "Proje öncesi simülasyon",
+  "Mekanik tasarım",
+  "İmalat ve montaj, kendi atölyemizde",
+  "Elektrik ve kontrol",
+  "Kalibrasyon ve programlama",
+  "Devreye alma ve eğitim",
+];
+
 // OEM partnerliği logoları: hepsi sözleşmeli partner, kullanım onaylı.
 // Dosyalar /public/oem/ altında (OemMarquee ile aynı kaynak).
 // Her logo kendi marka sayfasına (/magaza/marka/<slug>) bağlanır (11-10-2026).
@@ -92,6 +105,17 @@ const oem = [
   { name: "Pilz", slug: "pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149 },
   { name: "Leuze", slug: "leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115 },
   { name: "Gefran", slug: "gefran", src: "/oem/gefran_11-10-2026.svg", w: 160, h: 37 },
+  // 19-10-2026 eklendi (Mert talebi): bu 5 marka OemMarquee'de (kayan şerit) zaten vardı/ekleniyor
+  // ama bu statik "OEM partnerlikleri" ızgarasında eksikti. Delta/Schneider Electric/Autonics için
+  // OemMarquee ile aynı, zaten mevcut 03-10-2026 tarihli dosyalar kullanıldı. Lenze ve Inovance site
+  // için yeni eklenen markalar — src/data/markalar.ts'e de (diğer salt-OEM-partneri markalar ABB/Pilz/
+  // Leuze/Banner ile aynı kalıpta) kısa bir marka kaydı eklendi, aksi halde /magaza/marka/lenze ve
+  // /magaza/marka/inovance 404 verirdi.
+  { name: "Delta", slug: "delta", src: "/oem/delta_03-10-2026.png", w: 520, h: 160 },
+  { name: "Schneider Electric", slug: "schneider-electric", src: "/oem/schneider-electric_03-10-2026.png", w: 388, h: 160 },
+  { name: "Autonics", slug: "autonics", src: "/oem/autonics_03-10-2026.png", w: 746, h: 160 },
+  { name: "Lenze", slug: "lenze", src: "/oem/lenze_19-10-2026.jpg", w: 184, h: 184 },
+  { name: "Inovance", slug: "inovance", src: "/oem/inovance_19-10-2026.svg", w: 207, h: 36 },
 ];
 
 // Referans/müşteri logoları: AOM Media / Referanslarımız klasöründeki resmi
@@ -136,72 +160,111 @@ export default function HomePage() {
         <SearchBox />
       </section>
 
-      {/* Endüstriyel otomasyon (14-10-2026): Ankara'da PLC, servo motor, motion kontrol görünürlüğü için */}
-      <section id="otomasyon" className="container section" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 760 }}>
-          <div className="eyebrow">Endüstriyel otomasyon</div>
-          <h2 className="h2">Ankara&apos;dan Türkiye geneline otomasyon ürünleri ve teknik destek</h2>
-          <p style={{ margin: 0, color: "var(--ink-muted)" }}>
-            AOM, Ankara merkezli bir endüstriyel otomasyon ve makine otomasyonu firmasıdır. PLC/SCADA uyumlu kontrol
-            cihazları, servo motor ve motor sürücüler, motion kontrol için enkoderler mağazamızda ürün olarak
-            satılır; robotik kaynak, CNC ve pres otomasyonu projelerimizin elektrik-kontrol aşamasında da aynı
-            ürün ailelerini kullanır, seçim ve devreye alma desteği veririz.
-          </p>
-        </div>
-        <div className="grid-auto solutions">
-          {automation.map((a) => (
-            <Link key={a.title} href={a.href} className="card solution">
-              <div className="rule" />
-              <h3>{a.title}</h3>
-              <p>{a.text}</p>
-              <span className="more">İncele →</span>
-            </Link>
-          ))}
-        </div>
+      {/* Hakkımızda (19-10-2026, Mert onayı: eski "Otomasyon" bölümünün yerine, aynı konumda.
+          Otomasyon'un 4 kartı içerik kaybı olmadan aşağıdaki Çözümlerimiz bölümünün "Ürünler"
+          alt bloğuna taşındı — bkz. claude/ANASAYFA_BOLUM_YENIDEN_YAPILANDIRMA_19-10-2026.md). */}
+      <section id="hakkimizda" className="container section" style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 820 }}>
+        <div className="eyebrow">Hakkımızda</div>
+        <h2 className="h2">Ankara merkezli, uçtan uca endüstriyel otomasyon ortağı</h2>
+        <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 16 }}>
+          AOM (Angora Endüstriyel Makine), Ankara merkezli bir endüstriyel otomasyon ve makine otomasyonu
+          firmasıdır. Robotik kaynak hücrelerinden CNC işleme merkezlerine, pres güvenliği sistemlerinden
+          PLC/SCADA tabanlı makine otomasyonuna kadar projelerin tasarım, imalat, devreye alma ve eğitim
+          aşamalarını tek elden yürütür.
+        </p>
+        <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 16 }}>
+          Mekanik tasarım, imalat ve montaj kendi atölyemizde yapılır; devreye almadan sonra ücretsiz robot
+          ve pendant eğitimi veririz.
+        </p>
       </section>
 
       {/* OEM partnerlikleri: kayan logo şeridi */}
       <OemMarquee />
 
-      {/* Çözümler */}
-      <section id="cozumler" className="container section" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 720 }}>
-          <div className="eyebrow">Çözümler</div>
-          <h2 className="h2">Hücreden hatta, ihtiyacın kadar sistem</h2>
+      {/* Çözümlerimiz (19-10-2026, Mert onayı: tek bölüm altında 4 alt blok — Çözümler, Ürünler
+          [eski Otomasyon kartları], Hizmetler, Süreç. Hiçbir kart/metin silinmedi, yalnızca
+          yeniden gruplandı. ProcessSteps bileşeni kasıtlı olarak burada KULLANILMADI: o bileşen
+          robotik-kaynak/pres-guvenligi/cnc-tezgah/plc-scada/tristorlu-guc-kontrol sayfalarında
+          tam bölüm olarak hâlâ kullanılıyor (dokunulmadı); burada aynı 7 adım içerik bir alt blok
+          olarak satır içi (inline) render edilir. */}
+      <section id="cozumler" className="container section" style={{ display: "flex", flexDirection: "column", gap: 64 }}>
+        {/* Alt blok 1: Çözümler */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 720 }}>
+            <div className="eyebrow">Çözümler</div>
+            <h2 className="h2">Hücreden hatta, ihtiyacın kadar sistem</h2>
+          </div>
+          <div className="grid-auto solutions">
+            {solutions.map((s) => (
+              <Link key={s.title} href={s.href} className="card solution">
+                <div className="rule" />
+                <h3>{s.title}</h3>
+                <p>{s.text}</p>
+                <span className="more">İncele →</span>
+              </Link>
+            ))}
+          </div>
         </div>
-        <div className="grid-auto solutions">
-          {solutions.map((s) => (
-            <Link key={s.title} href={s.href} className="card solution">
-              <div className="rule" />
-              <h3>{s.title}</h3>
-              <p>{s.text}</p>
-              <span className="more">İncele →</span>
-            </Link>
-          ))}
-        </div>
-      </section>
 
-      {/* Süreç */}
-      <ProcessSteps />
-
-      {/* Hizmetler */}
-      <section id="hizmetler" className="container section services">
-        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-          <div className="eyebrow">Hizmetler</div>
-          <h2 className="h2">Robotun ötesinde mühendislik desteği</h2>
-          <p style={{ margin: 0, color: "var(--ink-muted)" }}>
-            Robot satışı sonrasında ücretsiz robot ve pendant eğitimi veriyoruz. Mevcut robotlarınız için
-            programlama, parça, fikstür ve tutucu tasarımı da ayrı hizmet olarak sunulur.
-          </p>
+        {/* Alt blok 2: Ürünler (eski "Otomasyon" bölümü, 19-10-2026'da buraya taşındı) */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 760 }}>
+            <div className="eyebrow">Ürünler</div>
+            <h2 className="h2">Ankara&apos;dan Türkiye geneline otomasyon ürünleri ve teknik destek</h2>
+            <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+              PLC/SCADA uyumlu kontrol cihazları, servo motor ve motor sürücüler, motion kontrol için enkoderler
+              mağazamızda ürün olarak satılır; robotik kaynak, CNC ve pres otomasyonu projelerimizin
+              elektrik-kontrol aşamasında da aynı ürün ailelerini kullanır, seçim ve devreye alma desteği veririz.
+            </p>
+          </div>
+          <div className="grid-auto solutions">
+            {automation.map((a) => (
+              <Link key={a.title} href={a.href} className="card solution">
+                <div className="rule" />
+                <h3>{a.title}</h3>
+                <p>{a.text}</p>
+                <span className="more">İncele →</span>
+              </Link>
+            ))}
+          </div>
         </div>
-        <ul className="service-list">
-          {services.map((s) => (
-            <li key={s.title} className="card">
-              <strong>{s.title}</strong>
-              <span>{s.text}</span>
-            </li>
-          ))}
-        </ul>
+
+        {/* Alt blok 3: Hizmetler */}
+        <div className="services">
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            <div className="eyebrow">Hizmetler</div>
+            <h2 className="h2">Robotun ötesinde mühendislik desteği</h2>
+            <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+              Robot satışı sonrasında ücretsiz robot ve pendant eğitimi veriyoruz. Mevcut robotlarınız için
+              programlama, parça, fikstür ve tutucu tasarımı da ayrı hizmet olarak sunulur.
+            </p>
+          </div>
+          <ul className="service-list">
+            {services.map((s) => (
+              <li key={s.title} className="card">
+                <strong>{s.title}</strong>
+                <span>{s.text}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Alt blok 4: Sürecimiz (eski ProcessSteps içeriğiyle birebir aynı metin, satır içi) */}
+        <div className="process" style={{ borderRadius: 16, padding: "40px 32px", display: "flex", flexDirection: "column", gap: 40 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 720 }}>
+            <div className="eyebrow">Tasarımdan devreye alma</div>
+            <h2 className="h2">Yedi adım, tek sorumlu</h2>
+            <p style={{ margin: 0 }}>Her proje, erişim, çarpışma ve çevrim süresi doğrulanan bir simülasyonla başlar.</p>
+          </div>
+          <ol className="steps">
+            {processSteps.map((s, i) => (
+              <li key={s}>
+                <span className="num">{String(i + 1).padStart(2, "0")}</span>
+                <span style={{ fontSize: 15 }}>{s}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
       </section>
 
       {/* OEM partnerlikleri */}
@@ -244,7 +307,7 @@ export default function HomePage() {
           Savunma, havacılık, ağır sanayi ve üretim alanında çalıştığımız kuruluşlardan bazıları. Proje
           ayrıntıları gizlilik anlaşmaları kapsamındadır.
         </p>
-        <ul className="logo-grid">
+        <ul className="logo-grid logo-grid--refs">
           {references.map((r) => (
             <li key={r.name}>
               <Image

@@ -11,6 +11,10 @@
 // (bkz. solutionHref, p("/otomasyon...")). Henüz çevrilmemiş /magaza ve çerez/KVKK metin
 // sayfaları için bağlantılar hâlâ Türkçe sürüme işaret eder — bu sayfalar çevrilince
 // güncellenecek (bkz. proje görev listesi #29–#30).
+//
+// 19-10-2026 güncellemesi (Mert onayı, bölüm yeniden yapılandırması): ana sayfa bölüm sırası
+// ve menü yeniden düzenlendi — yeni "home.about" (Hakkımızda) alanı eklendi, menü 5 öğeye indi.
+// Ayrıntı için src/app/page.tsx ve src/app/[locale]/page.tsx üstündeki yorumlara bakın.
 
 import type { Locale } from "./locales";
 
@@ -104,6 +108,11 @@ export type Dictionary = {
     metaTitle: string;
     metaDescription: string;
     searchEyebrow: string;
+    about: {
+      eyebrow: string;
+      h2: string;
+      body: string[];
+    };
     automation: {
       eyebrow: string;
       h2: string;
@@ -147,30 +156,32 @@ const solutionHrefTr = {
 function build(locale: Locale): Dictionary {
   const p = (hash: string) => `/${locale}${hash}`;
 
+  // 19-10-2026 güncellemesi (Mert onayı): ana sayfa bölüm yeniden yapılandırması — menü artık
+  // 5 öğeye indi (Hakkımızda, Çözümlerimiz, OEM Partnerlerimiz, Referanslarımız, İletişim).
+  // "Otomasyon" artık ayrı bir menü öğesi değil (içeriği Hakkımızda + Çözümlerimiz'e taşındı;
+  // /otomasyon sayfasının kendisi silinmedi, yalnızca menüden kalktı). "Hizmetler" ve "Süreç"
+  // de ayrı menü öğesi değil, Çözümlerimiz'in alt blokları oldu.
   const nav = {
     en: [
-      { href: p("/otomasyon"), label: "Automation" },
+      { href: p("#hakkimizda"), label: "About Us" },
       { href: p("#cozumler"), label: "Solutions" },
-      { href: p("#hizmetler"), label: "Services" },
-      { href: p("#surec"), label: "Process" },
-      { href: p("#oem"), label: "OEM partnerships" },
+      { href: p("#oem"), label: "OEM Partners" },
       { href: p("#referanslar"), label: "References" },
+      { href: p("#iletisim"), label: "Contact" },
     ],
     ru: [
-      { href: p("/otomasyon"), label: "Автоматизация" },
+      { href: p("#hakkimizda"), label: "О нас" },
       { href: p("#cozumler"), label: "Решения" },
-      { href: p("#hizmetler"), label: "Услуги" },
-      { href: p("#surec"), label: "Процесс" },
-      { href: p("#oem"), label: "OEM-партнёрства" },
+      { href: p("#oem"), label: "OEM-партнёры" },
       { href: p("#referanslar"), label: "Референсы" },
+      { href: p("#iletisim"), label: "Контакты" },
     ],
     ar: [
-      { href: p("/otomasyon"), label: "الأتمتة" },
+      { href: p("#hakkimizda"), label: "من نحن" },
       { href: p("#cozumler"), label: "الحلول" },
-      { href: p("#hizmetler"), label: "الخدمات" },
-      { href: p("#surec"), label: "العملية" },
-      { href: p("#oem"), label: "شراكات المصنّعين (OEM)" },
+      { href: p("#oem"), label: "شركاء OEM" },
       { href: p("#referanslar"), label: "المراجع" },
+      { href: p("#iletisim"), label: "اتصل بنا" },
     ],
   }[locale];
 
@@ -751,6 +762,36 @@ function build(locale: Locale): Dictionary {
     ],
   }[locale];
 
+  // 19-10-2026 eklendi (Mert onayı, bölüm yeniden yapılandırması): yeni "Hakkımızda" bölümü.
+  // AOM kurumsal kimlik kurallarına uygun — doğrulanmamış rakam/iddia yok, yalnızca zaten
+  // sitede yer alan bilgilerin (Ankara merkezli, kendi atölyesi, ücretsiz eğitim) özeti.
+  const aboutContent = {
+    en: {
+      eyebrow: "About Us",
+      h2: "An Ankara-based, end-to-end industrial automation partner",
+      body: [
+        "AOM (Angora Industrial Machinery) is an Ankara-based industrial and machine automation company. From robotic welding cells to CNC machining centers, from press safety systems to PLC/SCADA-based machine automation, we handle the design, manufacturing, commissioning and training stages of a project under one roof.",
+        "Mechanical design, manufacturing and assembly are carried out in our own workshop; after commissioning, we provide free robot and pendant training.",
+      ],
+    },
+    ru: {
+      eyebrow: "О нас",
+      h2: "Партнёр в промышленной автоматизации полного цикла, из Анкары",
+      body: [
+        "AOM (Angora Industrial Machinery) — компания по промышленной и машинной автоматизации, базирующаяся в Анкаре. От ячеек роботизированной сварки до обрабатывающих центров с ЧПУ, от систем безопасности прессов до автоматизации машин на базе ПЛК/SCADA — мы берём на себя проектирование, производство, ввод в эксплуатацию и обучение в рамках одного проекта.",
+        "Механическое проектирование, производство и сборка выполняются в собственном цехе; после ввода в эксплуатацию мы бесплатно обучаем работе с роботом и пультом.",
+      ],
+    },
+    ar: {
+      eyebrow: "من نحن",
+      h2: "شريك متكامل في الأتمتة الصناعية، من أنقرة",
+      body: [
+        "AOM (أنجورا للآلات الصناعية) هي شركة أتمتة صناعية وأتمتة آلات مقرها أنقرة. من خلايا اللحام الروبوتي إلى مراكز تشغيل CNC، ومن أنظمة سلامة المكابس إلى أتمتة الآلات القائمة على PLC/SCADA، نتولّى مراحل التصميم والتصنيع والتشغيل والتدريب للمشروع تحت سقف واحد.",
+        "يتم التصميم الميكانيكي والتصنيع والتجميع في ورشتنا الخاصة؛ وبعد التشغيل نقدّم تدريبًا مجانيًا على الروبوت ولوحة التحكم.",
+      ],
+    },
+  }[locale];
+
   const projectInputs = {
     en: ["3D model or technical drawing", "Part weight and dimensions", "Weld seam list and process", "Annual volume and target cycle time", "Existing robot and welding machine, if any"],
     ru: ["3D-модель или технический чертёж", "Вес и размеры детали", "Перечень сварных швов и процесс", "Годовой объём и целевое время цикла", "Имеющийся робот и сварочный аппарат, если есть"],
@@ -825,6 +866,7 @@ function build(locale: Locale): Dictionary {
       metaTitle: common.metaTitle,
       metaDescription: common.metaDescription,
       searchEyebrow: common.searchEyebrow,
+      about: aboutContent,
       automation: {
         eyebrow: { en: "Industrial automation", ru: "Промышленная автоматизация", ar: "الأتمتة الصناعية" }[locale],
         h2: { en: "Automation products and technical support, from Ankara to all of Turkey", ru: "Продукция для автоматизации и техническая поддержка — из Анкары по всей Турции", ar: "منتجات الأتمتة والدعم الفني من أنقرة إلى جميع أنحاء تركيا" }[locale],

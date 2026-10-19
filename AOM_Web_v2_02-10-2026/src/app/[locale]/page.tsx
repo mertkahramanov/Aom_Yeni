@@ -7,7 +7,6 @@ import { getDictionary } from "@/i18n/dictionary";
 import { hreflangAlternates, SITE } from "@/lib/seo";
 import LocaleHeroSlider from "@/components/LocaleHeroSlider";
 import LocaleOemMarquee from "@/components/LocaleOemMarquee";
-import LocaleProcessSteps from "@/components/LocaleProcessSteps";
 import LocaleSearchBox from "@/components/LocaleSearchBox";
 import LocaleTeklifForm from "@/components/LocaleTeklifForm";
 
@@ -25,6 +24,14 @@ const oem = [
   { name: "Pilz", slug: "pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149 },
   { name: "Leuze", slug: "leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115 },
   { name: "Gefran", slug: "gefran", src: "/oem/gefran_11-10-2026.svg", w: 160, h: 37 },
+  // 19-10-2026 eklendi (Mert talebi): TR ana sayfa (src/app/page.tsx) ile eşitleme. Delta/Schneider
+  // Electric/Autonics için OemMarquee ile aynı, zaten mevcut 03-10-2026 tarihli dosyalar; Lenze ve
+  // Inovance yeni eklenen markalar (src/data/markalar.ts'e de kayıt eklendi, 404 önlemek için).
+  { name: "Delta", slug: "delta", src: "/oem/delta_03-10-2026.png", w: 520, h: 160 },
+  { name: "Schneider Electric", slug: "schneider-electric", src: "/oem/schneider-electric_03-10-2026.png", w: 388, h: 160 },
+  { name: "Autonics", slug: "autonics", src: "/oem/autonics_03-10-2026.png", w: 746, h: 160 },
+  { name: "Lenze", slug: "lenze", src: "/oem/lenze_19-10-2026.jpg", w: 184, h: 184 },
+  { name: "Inovance", slug: "inovance", src: "/oem/inovance_19-10-2026.svg", w: 207, h: 36 },
 ];
 
 const references = [
@@ -75,59 +82,94 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
         <LocaleSearchBox dict={dict} />
       </section>
 
-      <section id="otomasyon" className="container section" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 760 }}>
-          <div className="eyebrow">{h.automation.eyebrow}</div>
-          <h2 className="h2">{h.automation.h2}</h2>
-          <p style={{ margin: 0, color: "var(--ink-muted)" }}>{h.automation.lead}</p>
-        </div>
-        <div className="grid-auto solutions">
-          {h.automation.cards.map((a) => (
-            <Link key={a.title} href={a.href} className="card solution">
-              <div className="rule" />
-              <h3>{a.title}</h3>
-              <p>{a.text}</p>
-              <span className="more">{h.automation.more}</span>
-            </Link>
-          ))}
-        </div>
+      {/* Hakkımızda / About Us (19-10-2026, Mert onayı: eski "Otomasyon" bölümünün yerine, TR ile
+          aynı yapı — bkz. src/app/page.tsx üstündeki yorum). Otomasyon'un kartları içerik kaybı
+          olmadan aşağıdaki Çözümlerimiz bölümünün "Ürünler" alt bloğuna taşındı. */}
+      <section id="hakkimizda" className="container section" style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 820 }}>
+        <div className="eyebrow">{h.about.eyebrow}</div>
+        <h2 className="h2">{h.about.h2}</h2>
+        {h.about.body.map((paragraph, i) => (
+          <p key={i} style={{ margin: 0, color: "var(--ink-muted)", fontSize: 16 }}>
+            {paragraph}
+          </p>
+        ))}
       </section>
 
       <LocaleOemMarquee dict={dict} />
 
-      <section id="cozumler" className="container section" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 720 }}>
-          <div className="eyebrow">{h.solutions.eyebrow}</div>
-          <h2 className="h2">{h.solutions.h2}</h2>
+      {/* Çözümlerimiz / Solutions (19-10-2026, Mert onayı: TR ile aynı yapı — tek bölüm altında
+          4 alt blok: Çözümler, Ürünler (eski Otomasyon kartları), Hizmetler, Süreç. */}
+      <section id="cozumler" className="container section" style={{ display: "flex", flexDirection: "column", gap: 64 }}>
+        {/* Alt blok 1: Çözümler / Solutions */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 720 }}>
+            <div className="eyebrow">{h.solutions.eyebrow}</div>
+            <h2 className="h2">{h.solutions.h2}</h2>
+          </div>
+          <div className="grid-auto solutions">
+            {h.solutions.cards.map((s) => (
+              <Link key={s.title} href={s.href} className="card solution">
+                <div className="rule" />
+                <h3>{s.title}</h3>
+                <p>{s.text}</p>
+                <span className="more">{h.automation.more}</span>
+              </Link>
+            ))}
+          </div>
         </div>
-        <div className="grid-auto solutions">
-          {h.solutions.cards.map((s) => (
-            <Link key={s.title} href={s.href} className="card solution">
-              <div className="rule" />
-              <h3>{s.title}</h3>
-              <p>{s.text}</p>
-              <span className="more">{h.automation.more}</span>
-            </Link>
-          ))}
-        </div>
-      </section>
 
-      <LocaleProcessSteps dict={dict} />
-
-      <section id="hizmetler" className="container section services">
-        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-          <div className="eyebrow">{h.services.eyebrow}</div>
-          <h2 className="h2">{h.services.h2}</h2>
-          <p style={{ margin: 0, color: "var(--ink-muted)" }}>{h.services.lead}</p>
+        {/* Alt blok 2: Ürünler / Products (eski Otomasyon bölümü) */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 760 }}>
+            <div className="eyebrow">{h.automation.eyebrow}</div>
+            <h2 className="h2">{h.automation.h2}</h2>
+            <p style={{ margin: 0, color: "var(--ink-muted)" }}>{h.automation.lead}</p>
+          </div>
+          <div className="grid-auto solutions">
+            {h.automation.cards.map((a) => (
+              <Link key={a.title} href={a.href} className="card solution">
+                <div className="rule" />
+                <h3>{a.title}</h3>
+                <p>{a.text}</p>
+                <span className="more">{h.automation.more}</span>
+              </Link>
+            ))}
+          </div>
         </div>
-        <ul className="service-list">
-          {h.services.items.map((s) => (
-            <li key={s.title} className="card">
-              <strong>{s.title}</strong>
-              <span>{s.text}</span>
-            </li>
-          ))}
-        </ul>
+
+        {/* Alt blok 3: Hizmetler / Services */}
+        <div className="services">
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            <div className="eyebrow">{h.services.eyebrow}</div>
+            <h2 className="h2">{h.services.h2}</h2>
+            <p style={{ margin: 0, color: "var(--ink-muted)" }}>{h.services.lead}</p>
+          </div>
+          <ul className="service-list">
+            {h.services.items.map((s) => (
+              <li key={s.title} className="card">
+                <strong>{s.title}</strong>
+                <span>{s.text}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Alt blok 4: Süreç / Process (eski LocaleProcessSteps içeriğiyle birebir aynı, satır içi) */}
+        <div className="process" style={{ borderRadius: 16, padding: "40px 32px", display: "flex", flexDirection: "column", gap: 40 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 720 }}>
+            <div className="eyebrow">{dict.process.eyebrow}</div>
+            <h2 className="h2">{dict.process.title}</h2>
+            <p style={{ margin: 0 }}>{dict.process.lead}</p>
+          </div>
+          <ol className="steps">
+            {dict.process.steps.map((s, i) => (
+              <li key={s}>
+                <span className="num">{String(i + 1).padStart(2, "0")}</span>
+                <span style={{ fontSize: 15 }}>{s}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
       </section>
 
       <section id="oem" style={{ background: "var(--surface-raised)", borderTop: "1px solid var(--line)" }}>
@@ -165,7 +207,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
       <section id="referanslar" className="container" style={{ paddingTop: 64, paddingBottom: 64, display: "flex", flexDirection: "column", gap: 24 }}>
         <div className="eyebrow">{h.references.eyebrow}</div>
         <p style={{ margin: 0, fontSize: 15, color: "var(--ink-muted)", maxWidth: 720 }}>{h.references.lead}</p>
-        <ul className="logo-grid">
+        <ul className="logo-grid logo-grid--refs">
           {references.map((r) => (
             <li key={r.name}>
               <Image

@@ -217,6 +217,11 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .logo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 16px; list-style: none; margin: 0; padding: 0; max-width: 820px; }
 .logo-grid li { border: 1px solid var(--line); height: 190px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display), sans-serif; font-weight: 700; color: var(--ink-muted); background: var(--surface-raised); text-align: center; padding: 16px 12px; border-radius: 8px; }
 
+/* Referanslar ızgarası (19-10-2026): sabit 2 satır x 7 sütun, dar ekranlarda kademeli azalır */
+.logo-grid--refs { grid-template-columns: repeat(7, 1fr); max-width: 1180px; }
+@media (max-width: 1100px) { .logo-grid--refs { grid-template-columns: repeat(4, 1fr); max-width: 820px; } }
+@media (max-width: 640px) { .logo-grid--refs { grid-template-columns: repeat(2, 1fr); } }
+
 /* İletişim */
 .contact { background: var(--aom-red-tint); }
 .contact .inner { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 40px; align-items: start; }

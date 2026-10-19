@@ -2,13 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import LanguageSwitcher from "./LanguageSwitcher";
 
+// 19-10-2026 güncellemesi (Mert onayı, bölüm yeniden yapılandırması): menü 5 öğeye indi.
+// "Otomasyon" artık ayrı menü öğesi değil (içeriği Hakkımızda + Çözümlerimiz'e taşındı; /otomasyon
+// sayfası silinmedi, yalnızca menüden kalktı). "Hizmetler" ve "Süreç" artık Çözümlerimiz'in
+// alt blokları (bkz. src/app/page.tsx).
 const menu = [
-  { href: "/otomasyon", label: "Otomasyon" },
-  { href: "/#cozumler", label: "Çözümler" },
-  { href: "/#hizmetler", label: "Hizmetler" },
-  { href: "/#surec", label: "Süreç" },
-  { href: "/#oem", label: "OEM partnerlikleri" },
-  { href: "/#referanslar", label: "Referanslar" },
+  { href: "/#hakkimizda", label: "Hakkımızda" },
+  { href: "/#cozumler", label: "Çözümlerimiz" },
+  { href: "/#oem", label: "OEM Partnerlerimiz" },
+  { href: "/#referanslar", label: "Referanslarımız" },
+  { href: "/#iletisim", label: "İletişim" },
 ];
 
 export default function Header() {

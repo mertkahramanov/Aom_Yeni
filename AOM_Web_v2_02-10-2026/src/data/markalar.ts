@@ -159,4 +159,29 @@ export const BRANDS: Record<
       "Projenize uygun Schneider Electric ürünleri için bizimle iletişime geçin.",
     ],
   },
+  // 19-10-2026 eklendi (Mert talebi, OEM partnerlikleri ızgarasına yeni logo): diğer salt-OEM-partneri
+  // markalar (ABB, Pilz, Leuze, Banner) ile aynı kalıp — mağaza kataloğunda ürünü yok, sayfa yalnızca
+  // tanıtım + teklif çağrısı içerir, doğrulanmamış rakam/iddia yok.
+  lenze: {
+    name: "Lenze",
+    country: "Almanya",
+    site: "https://www.lenze.com",
+    seoTitle: "Lenze OEM Partneri | AOM Ankara",
+    description: "Lenze, AOM'un OEM partnerlerinden biridir; motor sürücü ve tahrik teknolojileri alanında kullanılır.",
+    intro: [
+      "Lenze, AOM'un OEM partnerlerinden biridir. Motor sürücü ve tahrik teknolojileri alanında kullanılan markalardan biridir.",
+      "Projenize uygun Lenze ürünleri için bizimle iletişime geçin.",
+    ],
+  },
+  inovance: {
+    name: "Inovance",
+    country: "Çin",
+    site: "https://www.inovance.com",
+    seoTitle: "Inovance OEM Partneri | AOM Ankara",
+    description: "Inovance, AOM'un OEM partnerlerinden biridir; servo motor, motor sürücü ve otomasyon bileşenlerinde kullanılır.",
+    intro: [
+      "Inovance, AOM'un OEM partnerlerinden biridir. Servo motor, motor sürücü ve otomasyon bileşenlerinde kullanılan markalardan biridir.",
+      "Projenize uygun Inovance ürünleri için bizimle iletişime geçin.",
+    ],
+  },
 };
