@@ -1,0 +1,44 @@
+/* Çok dilli (EN/RU/AR) destek — RTL (Arapça) ek kuralları (18-10-2026).
+   Bu dosya YALNIZCA src/app/[locale]/layout.tsx tarafından import edilir; Türkçe sayfaların
+   kullandığı globals.css hiç değiştirilmedi. Buradaki kurallar yalnızca .intl-root[dir="rtl"]
+   içine ek/override olarak uygulanır, mevcut LTR kurallarına dokunmaz.
+   Not (Mert için): bu, ilk otomatik RTL geçişidir — ikon aynalama ve ince boşluk ayarları
+   npm run dev ile görsel kontrolden sonra incelikle ayarlanmalı (bkz. proje görev #27/#32). */
+
+.intl-root[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+.intl-root[dir="rtl"] .site-nav,
+.intl-root[dir="rtl"] .header-actions,
+.intl-root[dir="rtl"] .slider-ctas,
+.intl-root[dir="rtl"] .cookie-bar-actions,
+.intl-root[dir="rtl"] .slider-arrows,
+.intl-root[dir="rtl"] .footer-legal {
+  flex-direction: row-reverse;
+}
+
+.intl-root[dir="rtl"] .slider-arrows button svg {
+  transform: scaleX(-1);
+}
+
+.intl-root[dir="rtl"] ul.steps,
+.intl-root[dir="rtl"] ul[style*="padding-left"] {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.intl-root[dir="rtl"] .wa-button {
+  right: auto;
+  left: 20px;
+}
+
+.intl-root[dir="rtl"] .search-box input[type="search"] {
+  padding: 11px 42px 11px 14px;
+}
+
+.intl-root[dir="rtl"] .search-box svg {
+  left: auto;
+  right: 14px;
+}

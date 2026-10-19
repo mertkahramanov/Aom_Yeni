@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Saira, IBM_Plex_Sans } from "next/font/google";
+import { headers } from "next/headers";
 import Analytics from "@/components/Analytics";
 import CookieBanner from "@/components/CookieBanner";
 import Header from "@/components/Header";
@@ -34,7 +35,15 @@ export const metadata: Metadata = {
   other: { "geo.region": "TR-06", "geo.placename": "Ankara" },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  // Çok dilli destek (18-10-2026): /en, /ru, /ar sayfaları kendi Locale* header/footer/WhatsApp/
+  // çerez bandı bileşenlerini src/app/[locale]/layout.tsx içinde render eder. Bu Türkçe Header/
+  // Footer/WhatsAppButton/CookieBanner'ın orada TEKRAR render edilmesini önlemek için middleware.ts'in
+  // eklediği x-is-intl başlığına bakılır. Başlık yoksa (Türkçe sayfalar) davranış hiç değişmedi —
+  // bu, mevcut TR sitesine sıfır risk garantisi verir.
+  const hdrs = await headers();
+  const isIntl = hdrs.get("x-is-intl") === "1";
+
   return (
     <html lang="tr" className={`${saira.variable} ${plex.variable}`}>
       <body>
@@ -43,11 +52,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             yalnızca component içindeki PageviewTracker'ı sarması gerekiyor. */}
         <Analytics />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd()) }} />
-        <Header />
+        {!isIntl && <Header />}
         <main>{children}</main>
-        <Footer />
-        <WhatsAppButton />
-        <CookieBanner />
+        {!isIntl && (
+          <>
+            <Footer />
+            <WhatsAppButton />
+            <CookieBanner />
+          </>
+        )}
       </body>
     </html>
   );
