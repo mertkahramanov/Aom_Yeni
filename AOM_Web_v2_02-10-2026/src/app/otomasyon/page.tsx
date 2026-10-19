@@ -69,16 +69,21 @@ const groups = [
   },
 ];
 
-// Saha fotoğrafları (19-10-2026). Dosyalar: public/hizmetler/otomasyon/.
+// Saha fotoğrafları (19-10-2026, 19-10-2026 standardizasyon düzeltmesi). Dosyalar:
+// public/hizmetler/otomasyon/. Sayfa simetrisi için 8 görsel de aynı 4:5 oranında (1000x1250),
+// ortadan kırpılarak (cover-crop) standart boyuta getirildi — artık hepsi aynı kart ölçüsünde
+// görünüyor. 03 numaralı görseldeki üst sarı şerit, sağ üstteki beyaz simge ve alttaki
+// "softacsystems" yazılı mavi şerit kırpılarak tamamen kaldırıldı (panonun kendisinden hiçbir
+// şey kaybedilmedi).
 const galeriGorseller = [
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-01_19-10-2026.webp", w: 631, h: 486, alt: "AOM tarafından hazırlanan PLC ve sürücü modüllü kontrol panosu", caption: "PLC ve sürücü entegrasyonlu kontrol panosu" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-02_19-10-2026.webp", w: 480, h: 640, alt: "Yoğun klemens bağlantılı, PLC ve röle gruplu açık kontrol panosu", caption: "Yoğun klemens bağlantılı kontrol panosu" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-03_19-10-2026.webp", w: 900, h: 1600, alt: "Motor sürücülü, sahaya sevke hazır kontrol panosu", caption: "Sevkiyata hazır kontrol panosu" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-04_19-10-2026.webp", w: 720, h: 1600, alt: "PLC modülleri, güç kaynağı ve klemens gruplarından oluşan kontrol panosu", caption: "PLC ve güç dağıtım modülleri" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-05_19-10-2026.webp", w: 554, h: 554, alt: "Kompakt ölçülerde hazırlanmış kontrol panosu", caption: "Kompakt kontrol panosu" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-06_19-10-2026.webp", w: 572, h: 536, alt: "Sürücü ve PLC bölümlerinden oluşan açık kontrol panosu", caption: "Sürücü ve PLC bölümlü pano" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-07_19-10-2026.webp", w: 397, h: 772, alt: "Dar gövdeli, çok katlı yerleşimli kontrol panosu", caption: "Çok katlı yerleşimli kontrol panosu" },
-  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-08_19-10-2026.webp", w: 585, h: 524, alt: "Pano iç yerleşim tasarımı ve bileşen planı", caption: "Pano iç yerleşim tasarımı" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-01_19-10-2026.webp", w: 1000, h: 1250, alt: "AOM tarafından hazırlanan PLC ve sürücü modüllü kontrol panosu", caption: "PLC ve sürücü entegrasyonlu kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-02_19-10-2026.webp", w: 1000, h: 1250, alt: "Yoğun klemens bağlantılı, PLC ve röle gruplu açık kontrol panosu", caption: "Yoğun klemens bağlantılı kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-03_19-10-2026.webp", w: 1000, h: 1250, alt: "Motor sürücülü, sahaya sevke hazır kontrol panosu", caption: "Sevkiyata hazır kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-04_19-10-2026.webp", w: 1000, h: 1250, alt: "PLC modülleri, güç kaynağı ve klemens gruplarından oluşan kontrol panosu", caption: "PLC ve güç dağıtım modülleri" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-05_19-10-2026.webp", w: 1000, h: 1250, alt: "Kompakt ölçülerde hazırlanmış kontrol panosu", caption: "Kompakt kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-06_19-10-2026.webp", w: 1000, h: 1250, alt: "Sürücü ve PLC bölümlerinden oluşan açık kontrol panosu", caption: "Sürücü ve PLC bölümlü pano" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-07_19-10-2026.webp", w: 1000, h: 1250, alt: "Dar gövdeli, çok katlı yerleşimli kontrol panosu", caption: "Çok katlı yerleşimli kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-08_19-10-2026.webp", w: 1000, h: 1250, alt: "Pano iç yerleşim tasarımı ve bileşen planı", caption: "Pano iç yerleşim tasarımı" },
 ];
 
 const galeriVideolar = [
