@@ -95,10 +95,11 @@ const processSteps = [
 // OEM partnerliği logoları: hepsi sözleşmeli partner, kullanım onaylı.
 // Dosyalar /public/oem/ altında (OemMarquee ile aynı kaynak).
 // Her logo kendi marka sayfasına (/magaza/marka/<slug>) bağlanır (11-10-2026).
-const oem = [
+const oem: { name: string; slug: string; src: string; w: number; h: number; text?: boolean }[] = [
   { name: "Yaskawa", slug: "yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
   { name: "Fanuc", slug: "fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160 },
-  { name: "ABB", slug: "abb", src: "/oem/abb_03-10-2026.png", w: 319, h: 129 },
+  // 20-10-2026 düzeltme (Mert talebi): abb_03-10-2026.png yerine Mert'in verdiği resmi ABB görseli kullanıldı.
+  { name: "ABB", slug: "abb", src: "/oem/abb_20-10-2026.png", w: 332, h: 141 },
   { name: "Siemens", slug: "siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60 },
   { name: "Mitsubishi Electric", slug: "mitsubishi-electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160 },
   { name: "Omron", slug: "omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99 },
@@ -115,7 +116,12 @@ const oem = [
   { name: "Schneider Electric", slug: "schneider-electric", src: "/oem/schneider-electric_03-10-2026.png", w: 388, h: 160 },
   { name: "Autonics", slug: "autonics", src: "/oem/autonics_03-10-2026.png", w: 746, h: 160 },
   { name: "Lenze", slug: "lenze", src: "/oem/lenze_19-10-2026.jpg", w: 184, h: 184 },
-  { name: "Inovance", slug: "inovance", src: "/oem/inovance_19-10-2026.svg", w: 207, h: 36 },
+  // 20-10-2026 düzeltme (Mert talebi): inovance_19-10-2026.svg dosyasındaki "VANCE" kısmı neredeyse
+  // beyaz (#f9fbfc) bir "plaka" şekli olarak çizilmiş olduğundan beyaz kart zemininde görünmüyordu
+  // (bu yüzden 19-10-2026'da text:true düz metne düşürülmüştü). Inovance'ın resmi global sitesinden
+  // (inovance.com/global) temiz, transparan zeminli, yüksek çözünürlüklü (2858×431) resmi logo
+  // indirildi; artık diğer markalar gibi gerçek görseliyle gösteriliyor.
+  { name: "Inovance", slug: "inovance", src: "/oem/inovance_20-10-2026.png", w: 2858, h: 431 },
 ];
 
 // Referans/müşteri logoları: AOM Media / Referanslarımız klasöründeki resmi
@@ -275,7 +281,11 @@ export default function HomePage() {
             {oem.map((b) => (
               <li key={b.name}>
                 <Link href={`/magaza/marka/${b.slug}`} aria-label={`${b.name} ürünleri`}>
-                  {b.src.endsWith(".svg") ? (
+                  {b.text ? (
+                    <span style={{ fontFamily: "var(--font-display), sans-serif", fontWeight: 700, fontSize: 15, color: "var(--ink-muted)" }}>
+                      {b.name}
+                    </span>
+                  ) : b.src.endsWith(".svg") ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
                       src={b.src}

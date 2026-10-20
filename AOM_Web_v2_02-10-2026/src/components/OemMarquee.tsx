@@ -12,7 +12,8 @@ type Brand = { name: string; slug: string; src: string; w: number; h: number; dw
 const brands: Brand[] = [
   { name: "Yaskawa", slug: "yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160, dw: 125, dh: 32 },
   { name: "Fanuc", slug: "fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160, dw: 136, dh: 23 },
-  { name: "ABB", slug: "abb", src: "/oem/abb_03-10-2026.png", w: 319, h: 129, dw: 99, dh: 40 },
+  // 20-10-2026 düzeltme (Mert talebi): abb_03-10-2026.png yerine Mert'in verdiği resmi ABB görseli kullanıldı.
+  { name: "ABB", slug: "abb", src: "/oem/abb_20-10-2026.png", w: 332, h: 141, dw: 94, dh: 40 },
   { name: "Siemens", slug: "siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60, dw: 136, dh: 22 },
   { name: "Mitsubishi Electric", slug: "mitsubishi-electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160, dw: 117, dh: 34 },
   { name: "Omron", slug: "omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99, dw: 136, dh: 26 },

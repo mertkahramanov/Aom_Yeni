@@ -184,4 +184,22 @@ export const BRANDS: Record<
       "Projenize uygun Inovance ürünleri için bizimle iletişime geçin.",
     ],
   },
+  // 20-10-2026 eklendi (Mert talebi, Yaskawa robot kataloğu mağazaya işlendi): Yaskawa zaten ana sayfadaki
+  // OEM partnerlikleri ızgarasında yer alıyordu; mağazada artık gerçek ürün kataloğu (88 robot modeli) de
+  // bulunduğundan sayfa, diğer salt-tanıtım OEM markalarından farklı olarak ürün kategorisine bağlanır.
+  // "Yetkili satıcı/distribütör" gibi doğrulanmamış bir ilişki iddia edilmez; AOM'un kendi robotik otomasyon
+  // ve entegrasyon hizmetine dayanan bir metin kullanılır (Gefran/Autonics'teki "satış noktası" ifadesinden farklı).
+  yaskawa: {
+    name: "Yaskawa",
+    country: "Japonya",
+    site: "https://www.yaskawa.com.tr",
+    seoTitle: "Yaskawa MOTOMAN Robotları – GP, HC, AR, PL ve Diğerleri | Ankara",
+    description:
+      "AOM'un OEM partnerlerinden Yaskawa; mağazada GP genel amaçlı taşıma, HC/NHC kolaboratif, AR ark kaynağı, SP punta kaynağı, MPX boyama, PL paletleme, SG/MPP paketleme ve diğer MOTOMAN robot serileri (17 seri, 88 model) yer alır. Ankara'dan Türkiye geneline teklif.",
+    eyebrow: "Robotik otomasyon ve entegrasyon · Ankara ve Türkiye geneli",
+    intro: [
+      "Yaskawa, AOM'un OEM partnerlerinden biridir. AOM, robotik otomasyon ve kaynak projelerinde Yaskawa MOTOMAN robotlarını entegre eder; model seçimi, hücre tasarımı ve devreye alma desteği sunar.",
+      "Aşağıda AOM mağazasındaki Yaskawa MOTOMAN robot serileri (taşıma, kolaboratif, kaynak, boyama, paletleme, paketleme) listelenir; teknik veriler Yaskawa'nın resmi ürün sayfalarından alınmıştır. Fiyat ve teslim süresi için teklif isteyin.",
+    ],
+  },
 };

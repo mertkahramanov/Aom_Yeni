@@ -45,6 +45,7 @@ import { kontrolProducts } from "./kontrol";
 import { YEDEK_CAT_TEXT, yedekParcaProducts } from "./yedek-parca";
 import { IKINCI_EL_PREFIX, ikinciElProducts } from "./ikinci-el";
 import { gefranProducts } from "./gefran";
+import { yaskawaRobotProducts } from "./yaskawa-robotlar";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -156,6 +157,8 @@ export const products: Product[] = [
   ...yedekParcaProducts,
   // Gefran güç kontrol, SSR ve motor yol verici serileri (07-10-2026): src/data/gefran.ts
   ...gefranProducts,
+  // Yaskawa MOTOMAN robotları, 17 seri / 88 model (20-10-2026): src/data/yaskawa-robotlar.ts
+  ...yaskawaRobotProducts,
   ...ikinciElProducts,
 ];
 
@@ -430,6 +433,18 @@ CATEGORY_INFO["motor-starter"] = {
     "AOM, Gefran satış noktası ve teknik destek sağlayıcısıdır. Konveyör, pompa, fan ve helezon motorları için motor yol verici seçimi, pano entegrasyonu ve devreye alma desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
   ],
   keywords: ["motor yol verici", "motor starter", "Gefran G-Start", "ters dönüşlü motor starter", "motor yol verici fiyat", "motor starter Ankara"],
+};
+
+// Yaskawa MOTOMAN robotları (20-10-2026): src/data/yaskawa-robotlar.ts
+CATEGORY_INFO["robotlar"] = {
+  seoTitle: "Endüstriyel Robot – Yaskawa MOTOMAN GP, HC, AR, PL ve Diğerleri | Ankara",
+  description:
+    "Yaskawa MOTOMAN endüstriyel robotlar: GP genel amaçlı taşıma (4-600 kg), HC/NHC kolaboratif, AR ark kaynağı, SP punta kaynağı, MPX boyama, PL paletleme, SG/MPP paketleme, GA/GG lazer ve sürtünme kaynağı, SDA çift kollu, ME1000 ağır yük. 17 seri, 88 model. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+  intro: [
+    "Yaskawa MOTOMAN robotları, 0,5-1000 kg taşıma kapasitesi ve 350-4004 mm çalışma alanı aralığında, taşıma ve montajdan kaynak, boyama, paletleme ve paketlemeye kadar geniş bir uygulama yelpazesini kapsar. Mağazada GP Serisi (genel amaçlı taşıma, 4-600 kg), gıda sınıfı GP FGG, adaptif NEX-Series (MOTOMAN NEXT), çift kollu SDA Serisi, HC ve NHC kolaboratif robotlar (kobot), hijyenik HD Serisi, ark kaynağı için AR Serisi, lazer uygulamaları için GA Serisi, sürtünme karıştırma kaynağı için GG Serisi, punta kaynağı için SP Serisi, boyama için MPX Serisi, paletleme için PL Serisi, paralel kinematik MPP Serisi, SCARA SG Serisi ve ağır yük taşıma robotu ME1000 modelleriyle birlikte listelenir.",
+    "Teknik veriler Yaskawa'nın resmi ürün sayfalarından (yaskawa.com.tr) alınmıştır; sipariş kodu üreticinin sitesinde yayınlanmadığından fiyat ve teslim süresi teklif üzerine bildirilir. AOM, robotik otomasyon ve kaynak projelerinde robot seçimi, hücre tasarımı, entegrasyon ve devreye alma desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["Yaskawa robot", "MOTOMAN robot", "endüstriyel robot", "Yaskawa GP serisi", "Yaskawa HC kobot", "Yaskawa AR kaynak robotu", "Yaskawa paletleme robotu", "robot fiyat Ankara", "robotik otomasyon", "kaynak robotu"],
 };
 
 CATEGORY_INFO[slugify(OTHER_CATEGORY)] = {
