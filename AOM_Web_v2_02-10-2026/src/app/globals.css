@@ -262,7 +262,11 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 }
 
 /* Mağaza */
-.store-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 20px; }
+/* 20-10-2026 düzeltme (Mert talebi, "ürün ızgaralarını daha simetrik hale getir"): az ürünlü
+   seriler/gruplarda (ör. 1-2 modelli bir seri) eski auto-fill+1fr yapısı kartları sola yapıştırıp
+   satırın geri kalanını boş bırakıyordu. auto-fit + sabit üst sınırlı kart genişliği + justify-content:
+   center ile her satır (tam dolu ya da tek/iki ürünlü) ortalanıyor, kart boyutu sabit kalıyor. */
+.store-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 380px)); justify-content: center; gap: 20px; }
 .store-card { display: flex; flex-direction: column; height: 100%; background: var(--surface-raised); border: 1px solid var(--line); border-top: 3px solid var(--aom-red); border-radius: 8px; overflow: hidden; text-decoration: none; color: var(--ink); }
 .store-card:hover { border-color: var(--aom-red); color: var(--ink); }
 .store-visual { position: relative; height: 220px; background: #fff; border-bottom: 1px solid var(--line); }
