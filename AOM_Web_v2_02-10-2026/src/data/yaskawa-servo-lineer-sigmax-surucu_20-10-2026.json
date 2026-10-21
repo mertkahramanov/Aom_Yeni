@@ -1,0 +1,764 @@
+{
+  "groups": [
+    {
+      "key": "SGLFW2",
+      "slug": "sglfw2",
+      "title": "SGLFW2 Lineer Servo Motor (Moving Coil)",
+      "note": "SGLFW2, Moving Coil (hareketli bobin) tipi lineer servo motor serisidir; manyetik yol (magnetic way) ile birlikte kullanılır. 70–714 mm uzunluk ve 45–2520 N nominal kuvvet aralığında 10 modelden oluşur.",
+      "cols": [
+        "Tip",
+        "Nominal kuvvet"
+      ],
+      "codes": [
+        [
+          "SGLFW2-30A070AS1E",
+          0,
+          "Moving Coil",
+          "45 N"
+        ],
+        [
+          "SGLFW2-30A120AS1E",
+          0,
+          "Moving Coil",
+          "90 N"
+        ],
+        [
+          "SGLFW2-30A230AS1E",
+          0,
+          "Moving Coil",
+          "180 N"
+        ],
+        [
+          "SGLFW2-45A200AS1E",
+          0,
+          "Moving Coil",
+          "280 N"
+        ],
+        [
+          "SGLFW2-45A380AS1E",
+          0,
+          "Moving Coil",
+          "560 N"
+        ],
+        [
+          "SGLFW2-90A200AS1E",
+          0,
+          "Moving Coil",
+          "560 N"
+        ],
+        [
+          "SGLFW2-90A380AS1E",
+          0,
+          "Moving Coil",
+          "1120 N"
+        ],
+        [
+          "SGLFW2-90A560AS1E",
+          0,
+          "Moving Coil",
+          "1680 N"
+        ],
+        [
+          "SGLFW2-1DA380AS1E",
+          0,
+          "Moving Coil",
+          "1680 N"
+        ],
+        [
+          "SGLFW2-1DA560AS1E",
+          0,
+          "Moving Coil",
+          "2520 N"
+        ]
+      ],
+      "specs": [
+        [
+          "Tip",
+          "Moving Coil / Magnetic Way"
+        ],
+        [
+          "Uzunluk",
+          "70–714 mm"
+        ],
+        [
+          "Nominal kuvvet",
+          "45–2520 N"
+        ]
+      ],
+      "rep": {
+        "model": null,
+        "rows": []
+      },
+      "img": "yaskawa-servo-sglfw2_20-10-2026.png",
+      "imgSize": [
+        628,
+        419
+      ]
+    },
+    {
+      "key": "SGLG",
+      "slug": "sglg",
+      "title": "SGLG Lineer Servo Motor (Moving Coil)",
+      "note": "SGLG, Moving Coil tipi lineer servo motor serisidir; manyetik yol ile birlikte kullanılır. 50–535 mm uzunluk ve 12,5–750 N nominal kuvvet aralığında 11 modelden oluşur.",
+      "cols": [
+        "Tip",
+        "Nominal kuvvet"
+      ],
+      "codes": [
+        [
+          "SGLGW-30A050CP_-E",
+          0,
+          "Moving Coil",
+          "12,5 N"
+        ],
+        [
+          "SGLGW-30A080CP_-E",
+          0,
+          "Moving Coil",
+          "25 N"
+        ],
+        [
+          "SGLGW-40A140CPDE",
+          0,
+          "Moving Coil",
+          "47 N"
+        ],
+        [
+          "SGLGW-40A253CP_-E",
+          0,
+          "Moving Coil",
+          "93 N"
+        ],
+        [
+          "SGLGW-40A365CP_-E",
+          0,
+          "Moving Coil",
+          "47 N [TEYİT: üretici sitesinde bu değer aynı serideki daha kısa SGLGW-40A140CPDE ile özdeş gösteriliyor; olası veri girişi hatası, site verisi aynen aktarıldı]"
+        ],
+        [
+          "SGLGW-60A140CP_-E",
+          0,
+          "Moving Coil",
+          "70 N"
+        ],
+        [
+          "SGLGW-60A253CP_-E",
+          0,
+          "Moving Coil",
+          "140 N"
+        ],
+        [
+          "SGLGW-60A365CP_-E",
+          0,
+          "Moving Coil",
+          "210 N"
+        ],
+        [
+          "SGLGW-90A200CP_-E",
+          0,
+          "Moving Coil",
+          "325 N"
+        ],
+        [
+          "SGLGW-90A370CP_-E",
+          0,
+          "Moving Coil",
+          "550 N"
+        ],
+        [
+          "SGLGW-90A535CP_-E",
+          0,
+          "Moving Coil",
+          "750 N"
+        ]
+      ],
+      "specs": [
+        [
+          "Tip",
+          "Moving Coil / Magnetic Way"
+        ],
+        [
+          "Uzunluk",
+          "50–535 mm"
+        ],
+        [
+          "Nominal kuvvet",
+          "12,5–750 N"
+        ]
+      ],
+      "rep": {
+        "model": null,
+        "rows": []
+      },
+      "img": "yaskawa-servo-sglg_20-10-2026.png",
+      "imgSize": [
+        547,
+        419
+      ]
+    },
+    {
+      "key": "SGDXS",
+      "slug": "sgdxs",
+      "title": "SGDXS Sigma-X Tek Eksenli Servo Sürücü",
+      "note": "SGDXS, Yaskawa'nın iCube Mechatronics konseptinin parçası olan Sigma-X tek eksenli (single-axis) servo sürücüsüdür. 3,5 kHz bant genişliği, gelişmiş titreşim bastırma ve ayarsız devreye alma sunar; Yaskawa'nın rotary, lineer ve doğrudan tahrik servo motorlarının tamamını destekler.",
+      "cols": [
+        "Maks. motor kapasitesi",
+        "Haberleşme"
+      ],
+      "codes": [
+        [
+          "SGDXS-R70A00A",
+          0,
+          "0,05 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-R70AA0A",
+          0,
+          "0,05 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-R70A40A",
+          0,
+          "0,05 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-R90A00A",
+          0,
+          "0,1 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-R90AA0A",
+          0,
+          "0,1 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-R90A40A",
+          0,
+          "0,1 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-1R6A00A",
+          0,
+          "0,2 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-1R6AA0A",
+          0,
+          "0,2 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-1R6A40A",
+          0,
+          "0,2 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-2R8A00A",
+          0,
+          "0,4 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-2R8AA0A",
+          0,
+          "0,4 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-2R8A40A",
+          0,
+          "0,4 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-1R9D00A",
+          0,
+          "0,5 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-1R9DA0A",
+          0,
+          "0,5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-1R9DA0A0020",
+          0,
+          "0,5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-1R9D40A",
+          0,
+          "0,5 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-5R5A00A",
+          0,
+          "0,75 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-5R5AA0A",
+          0,
+          "0,75 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-5R5A40A",
+          0,
+          "0,75 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-3R5D00A",
+          0,
+          "1 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-3R5DA0A",
+          0,
+          "1 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-3R5DA0A0020",
+          0,
+          "1 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-3R5D40A",
+          0,
+          "1 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-120A00A0008",
+          0,
+          "1,5 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-120AA0A0008",
+          0,
+          "1,5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-120A40A0008",
+          0,
+          "1,5 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-5R4D00A",
+          0,
+          "1,5 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-5R4DA0A",
+          0,
+          "1,5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-5R4DA0A0020",
+          0,
+          "1,5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-5R4D40A",
+          0,
+          "1,5 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-8R4D00A",
+          0,
+          "2 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-8R4DA0A",
+          0,
+          "2 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-8R4DA0A0020",
+          0,
+          "2 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-8R4D40A",
+          0,
+          "2 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-120D00A",
+          0,
+          "3 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-120DA0A",
+          0,
+          "3 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-120DA0A0020",
+          0,
+          "3 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-120D40A",
+          0,
+          "3 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-170D00A",
+          0,
+          "5 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-170DA0A",
+          0,
+          "5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-170DA0A0020",
+          0,
+          "5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-170D40A",
+          0,
+          "5 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-210D00A",
+          0,
+          "6 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-210DA0A",
+          0,
+          "6 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-210DA0A0020",
+          0,
+          "6 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-210D40A",
+          0,
+          "6 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-260D00A",
+          0,
+          "7,5 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-260DA0A",
+          0,
+          "7,5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-260DA0A0020",
+          0,
+          "7,5 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-260D40A",
+          0,
+          "7,5 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-280D00A",
+          0,
+          "11 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-280DA0A",
+          0,
+          "11 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-280DA0A0020",
+          0,
+          "11 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-280D40A",
+          0,
+          "11 kW",
+          "Mechatrolink-4/III"
+        ],
+        [
+          "SGDXS-370D00A",
+          0,
+          "15 kW",
+          "Analog Voltage/Pulse Train"
+        ],
+        [
+          "SGDXS-370DA0A",
+          0,
+          "15 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-370DA0A0020",
+          0,
+          "15 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXS-370D40A",
+          0,
+          "15 kW",
+          "Mechatrolink-4/III"
+        ]
+      ],
+      "specs": [
+        [
+          "Maks. uygulanabilir motor kapasitesi",
+          "0,05–15,00 kW"
+        ],
+        [
+          "Giriş güç kaynağı",
+          "200 / 400 V"
+        ],
+        [
+          "Haberleşme",
+          "Analog Voltage/Pulse Train, EtherCAT, Mechatrolink-4/III"
+        ],
+        [
+          "Bant genişliği",
+          "3,5 kHz"
+        ]
+      ],
+      "rep": {
+        "model": "SGDXS-R70A00A",
+        "rows": [
+          [
+            "Maks. uygulanabilir motor kapasitesi",
+            "0,05 kW"
+          ],
+          [
+            "Haberleşme",
+            "Analog Voltage/Pulse Train"
+          ],
+          [
+            "Giriş güç kaynağı",
+            "200 / 400 V (seri geneli)"
+          ],
+          [
+            "Bant genişliği",
+            "3,5 kHz (seri geneli)"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-sgdxs_20-10-2026.png",
+      "imgSize": [
+        169,
+        419
+      ]
+    },
+    {
+      "key": "SGDXW",
+      "slug": "sgdxw",
+      "title": "SGDXW Sigma-X Çift Eksenli Servo Sürücü",
+      "note": "SGDXW, Sigma-X çift eksenli (double-axis) servo sürücüsüdür; yalnızca EtherCAT haberleşmesiyle sunulur. 0,20–0,75 kW maks. motor kapasitesi aralığında 3 modelden oluşur.",
+      "cols": [
+        "Maks. motor kapasitesi",
+        "Haberleşme"
+      ],
+      "codes": [
+        [
+          "SGDXW-1R6AA0A1000",
+          0,
+          "0,2 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXW-2R8AA0A1000",
+          0,
+          "0,4 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXW-5R5AA0A1000",
+          0,
+          "0,75 kW",
+          "EtherCAT"
+        ]
+      ],
+      "specs": [
+        [
+          "Maks. uygulanabilir motor kapasitesi",
+          "0,20–0,75 kW"
+        ],
+        [
+          "Haberleşme",
+          "EtherCAT"
+        ]
+      ],
+      "rep": {
+        "model": null,
+        "rows": []
+      },
+      "img": "yaskawa-servo-sgdxw_20-10-2026.png",
+      "imgSize": [
+        290,
+        419
+      ]
+    },
+    {
+      "key": "SGDXT",
+      "slug": "sgdxt",
+      "title": "SGDXT Sigma-X Üç Eksenli Servo Sürücü",
+      "note": "SGDXT, Sigma-X üç eksenli (triple-axis) servo sürücüsüdür; yalnızca EtherCAT haberleşmesiyle sunulur. 0,20–0,40 kW maks. motor kapasitesi aralığında 2 modelden oluşur.",
+      "cols": [
+        "Maks. motor kapasitesi",
+        "Haberleşme"
+      ],
+      "codes": [
+        [
+          "SGDXT-1R6AA0A1000",
+          0,
+          "0,2 kW",
+          "EtherCAT"
+        ],
+        [
+          "SGDXT-2R8AA0A1000",
+          0,
+          "0,4 kW",
+          "EtherCAT"
+        ]
+      ],
+      "specs": [
+        [
+          "Maks. uygulanabilir motor kapasitesi",
+          "0,20–0,40 kW"
+        ],
+        [
+          "Haberleşme",
+          "EtherCAT"
+        ]
+      ],
+      "rep": {
+        "model": null,
+        "rows": []
+      },
+      "img": "yaskawa-servo-sgdxt_20-10-2026.png",
+      "imgSize": [
+        209,
+        419
+      ]
+    },
+    {
+      "key": "MP3000iec",
+      "slug": "mp3000iec",
+      "title": "MP3000iec Serisi Makina Kontrolörü",
+      "note": "MP3000iec Serisi, geniş uygulama yelpazesinde kullanım ve performansı artıran makina kontrolörüdür. Üretici sitesinde kontrol edilebilir eksen sayısı varyantlarıyla (4 / 8 / 20 / 32 / 62) tek bir katalog kaydı olarak listelenir.",
+      "cols": [
+        "Kontrol edilebilir eksen sayısı"
+      ],
+      "codes": [
+        [
+          "MP3000iec Serisi",
+          0,
+          "4 / 8 / 20 / 32 / 62 (varyant)"
+        ]
+      ],
+      "specs": [
+        [
+          "Kontrol edilebilir eksen sayısı",
+          "4 / 8 / 20 / 32 / 62 (varyant)"
+        ],
+        [
+          "Bellek",
+          "52 MB'a kadar"
+        ],
+        [
+          "CPU",
+          "1 GHz'e kadar"
+        ]
+      ],
+      "rep": {
+        "model": "MP3000iec Serisi",
+        "rows": [
+          [
+            "Varyant 1 – kontrol edilebilir eksen",
+            "4"
+          ],
+          [
+            "Varyant 2 – kontrol edilebilir eksen",
+            "8"
+          ],
+          [
+            "Varyant 3 – kontrol edilebilir eksen",
+            "20"
+          ],
+          [
+            "Varyant 4 – kontrol edilebilir eksen",
+            "32"
+          ],
+          [
+            "Varyant 5 – kontrol edilebilir eksen",
+            "62"
+          ],
+          [
+            "Bellek",
+            "52 MB'a kadar"
+          ],
+          [
+            "CPU",
+            "1 GHz'e kadar"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-mp3000iec_20-10-2026.png",
+      "imgSize": [
+        395,
+        419
+      ]
+    }
+  ]
+}

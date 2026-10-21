@@ -19,6 +19,7 @@ export type Product = {
   specNote?: string; // teknik tablo altındaki kaynak notu (yoksa Autonics notu)
   imageNote?: string; // görsel notu (ör. seri görseli)
   price?: { list: number; currency: "USD" | "EUR" | "TRY"; discountPct?: number };
+  leadTime?: string; // tedarik süresi (ör. "3-5 iş günü"); varsa fiyat bloğunda gösterilir
   series?: string; // aynı serideki modelleri birbirine bağlar
   current?: number; // A, seri tablosunda sıralama için
   bodySize?: string;
@@ -46,6 +47,16 @@ import { YEDEK_CAT_TEXT, yedekParcaProducts } from "./yedek-parca";
 import { IKINCI_EL_PREFIX, ikinciElProducts } from "./ikinci-el";
 import { gefranProducts } from "./gefran";
 import { yaskawaRobotProducts } from "./yaskawa-robotlar";
+import { yaskawaPlcProducts } from "./yaskawa-kontrol-plc";
+import { acGenelKompaktProducts } from "./yaskawa-ac-genel-kompakt";
+import { acOzelUygulamaProducts } from "./yaskawa-ac-ozel-uygulama";
+import { acRejProducts } from "./yaskawa-ac-rejeneratif";
+import { s7MotorProducts } from "./yaskawa-servo-sigma7-motor";
+import { yaskawaServoSigma7SurucuProducts } from "./yaskawa-servo-sigma7-surucu";
+import { svDdProducts } from "./yaskawa-servo-dogrudan-tahrik";
+import { yaskawaServoLineerSigmaxProducts } from "./yaskawa-servo-lineer-sigmax-surucu";
+import { sxMotorProducts } from "./yaskawa-servo-sigmax-motor";
+import { yaskawaKontrolDigerProducts } from "./yaskawa-kontrol-hmi-diger";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -159,6 +170,26 @@ export const products: Product[] = [
   ...gefranProducts,
   // Yaskawa MOTOMAN robotları, 17 seri / 88 model (20-10-2026): src/data/yaskawa-robotlar.ts
   ...yaskawaRobotProducts,
+  // VIPA (Yaskawa'nın satın aldığı marka) PLC/IO kontrol sistemleri, Faz 4 (20-10-2026): Micro PLC (12 model,
+  // doğrudan ürün), SLIO ve 300S+ (16 tip-grubu, 200 model kod sayfalarında) — src/data/yaskawa-kontrol-plc.ts
+  ...yaskawaPlcProducts,
+  // Yaskawa AC sürücüler, Faz 2 (20-10-2026): genel/kompakt (GA500/GA700/A1000/V1000/J1000/L1000V — 273 kod),
+  // özel uygulama (CR700/L1000A/HV600/LA500 — 138 kod), rejeneratif (D1000/U1000/U1000 Panel — 92 kod).
+  ...acGenelKompaktProducts,
+  ...acOzelUygulamaProducts,
+  ...acRejProducts,
+  // Yaskawa Servo, Faz 3 (20-10-2026): Sigma-7 motor (SGM7A/G/J — 1087 kod), Sigma-7 sürücü (SGD7S/W/C +
+  // opsiyon modülleri — 181 kod), doğrudan tahrik (SGM7D/E/F — 368 kod), lineer/Sigma-X sürücü (SGLFW2/SGLG/
+  // SGDXS/W/T + MP3000iec — 85 kod), Sigma-X motor (SGMXG/J/A — 376 kod).
+  ...s7MotorProducts,
+  ...yaskawaServoSigma7SurucuProducts,
+  ...svDdProducts,
+  ...yaskawaServoLineerSigmaxProducts,
+  ...sxMotorProducts,
+  // Yaskawa/VIPA HMI (Panel PC, Line Displays, smartPanels — mevcut "Grafik paneller (HMI)" / "Endüstriyel
+  // bilgisayarlar" kategorilerine eklenir), Profichip (gömülü haberleşme çipleri) ve Sistemler (MOTOMAN çözüm
+  // paketleri), Faz 4 (20-10-2026): src/data/yaskawa-kontrol-hmi-diger.ts
+  ...yaskawaKontrolDigerProducts,
   ...ikinciElProducts,
 ];
 
@@ -445,6 +476,85 @@ CATEGORY_INFO["robotlar"] = {
     "Teknik veriler Yaskawa'nın resmi ürün sayfalarından (yaskawa.com.tr) alınmıştır; sipariş kodu üreticinin sitesinde yayınlanmadığından fiyat ve teslim süresi teklif üzerine bildirilir. AOM, robotik otomasyon ve kaynak projelerinde robot seçimi, hücre tasarımı, entegrasyon ve devreye alma desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
   ],
   keywords: ["Yaskawa robot", "MOTOMAN robot", "endüstriyel robot", "Yaskawa GP serisi", "Yaskawa HC kobot", "Yaskawa AR kaynak robotu", "Yaskawa paletleme robotu", "robot fiyat Ankara", "robotik otomasyon", "kaynak robotu"],
+};
+
+// VIPA (Yaskawa'nın satın aldığı marka) PLC/IO kontrol sistemleri (20-10-2026): src/data/yaskawa-kontrol-plc.ts
+CATEGORY_INFO["kontrol-sistemleri-plc"] = {
+  seoTitle: "VIPA (Yaskawa) PLC – Micro PLC, SLIO, 300S+ Kontrol Sistemleri | Ankara",
+  description:
+    "VIPA (Yaskawa'nın satın aldığı marka) SPEED7 tabanlı PLC/IO sistemleri: Micro PLC (12 model), SLIO (117 model, 9 tip grubu) ve 300S+ (83 model, 7 tip grubu). CPU, arayüz, güç kaynağı, iletişim işlemcisi, fonksiyon ve sinyal modülleri. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+  intro: [
+    "VIPA, Yaskawa'nın satın aldığı bir kontrol sistemleri markasıdır; Micro PLC, SLIO ve 300S+ serileri SPEED7 tabanlı PLC/IO sistemleridir ve bu nedenle \"Yaskawa\" diye tek başına değil, \"VIPA (Yaskawa)\" olarak satılır. Mağazada Micro PLC'nin 12 modeli (CPU, güç kaynağı, dijital/analog sinyal modülleri, genişleme ünitesi) doğrudan ürün olarak; SLIO (CPU, arayüz modülü, güç kaynağı, klemens modülü, iletişim işlemcisi, fonksiyon modülü, analog/dijital sinyal modülü — bazıları PROFIsafe/FSoE güvenlik varyantı — ve aksesuar) ve 300S+ (CPU, iletişim işlemcisi, arayüz modülü, güç kaynağı, analog/dijital sinyal modülü ve aksesuar) tip gruplarına ayrılarak listelenir; bu iki serinin toplam 200 modelinin sipariş kodu, model adı ve teknik özeti model kodları sayfalarında yer alır.",
+    "Teknik veriler Yaskawa Türkiye'nin resmi ürün sayfalarından (yaskawa.com.tr) alınmıştır; sipariş kodu üretici sitesinde yayınlanmadığından fiyat ve teslim süresi teklif üzerine bildirilir. AOM, PLC/IO sistemi seçimi, pano entegrasyonu ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["VIPA PLC", "Yaskawa VIPA PLC", "VIPA Micro PLC", "VIPA SLIO", "VIPA 300S+", "SPEED7 PLC", "VIPA PLC fiyat", "VIPA PLC Ankara", "PLC kontrol sistemi"],
+};
+
+// Yaskawa AC sürücüler, Faz 2 (20-10-2026): src/data/yaskawa-ac-genel-kompakt.ts, yaskawa-ac-ozel-uygulama.ts,
+// yaskawa-ac-rejeneratif.ts — 3 alt aile (Genel Amaçlı/Öncü, Özel Uygulama, Rejeneratif) tek kategoride.
+CATEGORY_INFO["ac-suruculer"] = {
+  seoTitle: "Yaskawa AC Sürücü – GA500, GA700, A1000, V1000, D1000, U1000 | Ankara",
+  description:
+    "Yaskawa AC sürücüler (inverter): genel amaçlı/kompakt GA500, GA700, A1000, V1000, J1000, L1000V; özel uygulama CR700, L1000A, HV600, LA500; rejeneratif D1000, U1000. 13 seri, 503 sipariş kodu. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+  intro: [
+    "Yaskawa AC sürücüler, genel amaçlı endüstriyel uygulamalardan (GA500 kompakt, GA700 gelişmiş, A1000 vektör kontrollü) özel uygulamalara (CR700 vinç, L1000A asansör, HV600 yüksek voltaj, LA500 pompa/fan) ve enerji geri kazanımlı rejeneratif sürücülere (D1000, U1000) kadar geniş bir model yelpazesini kapsar.",
+    "Teknik veriler ve sipariş kodları Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, AC sürücü seçimi, pano entegrasyonu ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["Yaskawa AC sürücü", "Yaskawa inverter", "Yaskawa GA500", "Yaskawa GA700", "Yaskawa A1000", "Yaskawa V1000", "Yaskawa D1000", "Yaskawa U1000", "AC sürücü fiyat Ankara"],
+};
+
+// Yaskawa Servo, Faz 3 (20-10-2026): src/data/yaskawa-servo-*.ts — 5 alt aile (Sigma-7 motor/sürücü, doğrudan
+// tahrik, lineer/Sigma-X sürücü, Sigma-X motor) tek kategoride.
+CATEGORY_INFO["servo-motor-ve-suruculer"] = {
+  seoTitle: "Yaskawa Servo Motor ve Sürücü – Sigma-7, Sigma-X | Ankara",
+  description:
+    "Yaskawa servo motor ve sürücüler: Sigma-7 rotary motor (SGM7A/G/J) ve sürücü (SGD7S/W/C), doğrudan tahrik motor (SGM7D/E/F), lineer ve Sigma-X sürücü (SGLFW2/SGLG/SGDXS/W/T, MP3000iec), Sigma-X motor (SGMXG/J/A). 20 seri, 2.097 sipariş kodu. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+  intro: [
+    "Yaskawa Sigma-7 servo ailesi rotary motor ve tek/çift eksenli servo sürücülerden oluşur; doğrudan tahrik (direct drive) motorlar dişli/kayış gibi aktarma elemanı olmadan yüksek hassasiyetli döner hareket sağlar; lineer servo motorlar (Moving Coil) doğrusal hareket üretir; Sigma-X ailesi (iCube Mechatronics) tek/çift/üç eksenli sürücüler ve dahili IEC kontrolörlü MP3000iec seçeneğini kapsar.",
+    "Teknik veriler ve sipariş kodları Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, servo sistem seçimi, hareket kontrolü uygulaması ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["Yaskawa servo motor", "Yaskawa servo sürücü", "Sigma-7", "Sigma-X", "Yaskawa SGD7S", "Yaskawa SGM7A", "doğrudan tahrik servo motor", "lineer servo motor", "servo motor fiyat Ankara"],
+};
+
+// Yaskawa/VIPA HMI, Profichip, Sistemler, Faz 4 (20-10-2026): src/data/yaskawa-kontrol-hmi-diger.ts.
+// Panel PC ve Grafik Paneller (HMI) mevcut Autonics kategorilerine eklenir (ayrı kategori açılmaz);
+// açıklamaları aşağıda VIPA/Yaskawa eklentisini de kapsayacak şekilde güncellendi.
+CATEGORY_INFO["grafik-paneller-hmi"].description =
+  "Grafik panel (HMI) ve operatör panelleri: Autonics TP, iTP, GP-A, LP-A (29 model) ile VIPA (Yaskawa) Line Displays ve smartPanels (5 model). Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.";
+CATEGORY_INFO["grafik-paneller-hmi"].keywords = [
+  ...(CATEGORY_INFO["grafik-paneller-hmi"].keywords ?? []),
+  "VIPA smartPanel",
+  "VIPA satır göstergesi",
+  "Yaskawa HMI",
+];
+CATEGORY_INFO["endustriyel-bilgisayarlar"].description =
+  "Endüstriyel panel bilgisayar: Autonics APC (10,1\") ile VIPA (Yaskawa) Panel PC serisi (PPC010/015/021, CE/IE — 6 model). Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.";
+CATEGORY_INFO["endustriyel-bilgisayarlar"].keywords = [
+  ...(CATEGORY_INFO["endustriyel-bilgisayarlar"].keywords ?? []),
+  "VIPA Panel PC",
+  "Yaskawa Panel PC",
+];
+
+CATEGORY_INFO["gomulu-haberlesme-cozumleri"] = {
+  seoTitle: "VIPA (Yaskawa) Profichip – Gömülü Haberleşme Çipleri (SoC) | Ankara",
+  description:
+    "VIPA (Yaskawa) Profichip: TRITON, ANTAIOS endüstriyel işlemci SoC'leri; MPI12x, VPC3+C/S, VPCLS2, proficonn fieldbus çipleri; ANTAIOS Evaluation Kit, EasyConn PB. 9 model, OEM/sistem entegratörüne yönelik. Ankara merkezli AOM'dan teklif.",
+  intro: [
+    "Profichip, PROFINET/PROFIBUS ve diğer endüstriyel Ethernet protokolleri için gömülü haberleşme çipleri (SoC) ve bileşenler üreten Yaskawa/VIPA markasıdır. Bu ürünler son kullanıcıya değil OEM/makine üreticisi ve sistem entegratörüne yöneliktir; kendi kontrol kartı veya cihaz tasarımına entegre edilir.",
+    "Teknik veriler Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır; sipariş kodu ve fiyat sitede yayınlanmadığından teklif üzerine bildirilir. AOM, OEM/entegratör müşterilerine Profichip tedariki ve teknik danışmanlık konusunda destek verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["VIPA Profichip", "gömülü haberleşme çipi", "PROFINET SoC", "PROFIBUS kontrolcü çipi", "TRITON SoC", "ANTAIOS SoC", "OEM haberleşme çipi"],
+};
+
+CATEGORY_INFO["robotik-otomasyon-cozum-paketleri"] = {
+  seoTitle: "Yaskawa MOTOMAN Robotik Çözüm Paketleri – Kaynak, Pres Besleme | Ankara",
+  description:
+    "Yaskawa MOTOMAN tabanlı hazır mühendislik çözüm paketleri: Standart Ark Kaynağı (ArcWorld CS, ArcWorld RS/HS Micro, Weld4Me, Weld4Me CE, ArcSystem) ve Pres Besleme (Abkant MH50, MH180). 7 paket. Ankara merkezli AOM'dan teklif.",
+  intro: [
+    "Bu paketler stoktan satılan ürünler değil, MOTOMAN endüstriyel robotu üzerine kurulu, projeye göre yapılandırılan iş hücresi çözümleridir: ark kaynağı hücreleri (ArcWorld, Weld4Me, ArcSystem ailesi) ve abkant/pres besleme hücreleri (Abkant MH50 50 kg, MH180 180 kg taşıma kapasiteli).",
+    "Teknik veriler Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır. AOM, robotik otomasyon projelerinde bu tür çözüm paketlerinin uygulama ve entegrasyon desteğini verir; kapsam, robot modeli, pano ve devreye alma dahil güncel teklif için Türkiye'nin her şehrinden iletişime geçebilirsiniz.",
+  ],
+  keywords: ["MOTOMAN robotik çözüm", "ArcWorld", "Weld4Me", "MOTOMAN ark kaynağı hücresi", "robotik pres besleme", "MOTOMAN sistem entegrasyonu Ankara"],
 };
 
 CATEGORY_INFO[slugify(OTHER_CATEGORY)] = {

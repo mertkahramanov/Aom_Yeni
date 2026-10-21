@@ -1,0 +1,1035 @@
+{
+ "series": [
+  {
+   "key": "D1000",
+   "slug": "d1000",
+   "title": "Düşük Harmonikli Rejeneratif Konvertör Ünitesi",
+   "note": "D1000, AC sürücülerden, servolardan ve robotlardan oluşan sistemlere DC güç kaynağı sağlayan rejeneratif bir konvertör ünitesidir. Frenleme enerjisini geri kazanır; sinüs giriş akımı (THD < %5) ve cosΦ = 1 değeriyle iletim hattı, transformatör ve jeneratör kayıplarını azaltarak şebeke dostu ve verimli çalışma sağlar. Fren direnci ısısı oluşmadığından soğutma/havalandırma ihtiyacı ve işletme maliyeti düşer.",
+   "cols": [
+    "Güç (ND, kW)",
+    "Akım (ND, A)",
+    "Gerilim sınıfı"
+   ],
+   "codes": [
+    [
+     "CIMR-DC4A0005BAA",
+     0,
+     3.7,
+     8,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0005BAA",
+     0,
+     3.7,
+     15,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0010BAA",
+     0,
+     7.5,
+     15,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0010BAA",
+     0,
+     7.5,
+     30,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0020BAA",
+     0,
+     15,
+     30,
+     "400 V"
+    ],
+    [
+     "CIMR-DC4A0030AAA",
+     0,
+     22,
+     45,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0020BAA",
+     0,
+     15,
+     61,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0040AAA",
+     0,
+     30,
+     61,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0030BAA",
+     0,
+     22,
+     90,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0060AAA",
+     0,
+     45,
+     91,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0050BAA",
+     0,
+     37,
+     152,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0100AAA",
+     0,
+     75,
+     152,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0065BAA",
+     0,
+     55,
+     197,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0130AAA",
+     0,
+     110,
+     197,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0090BAA",
+     0,
+     75,
+     273,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0185AAA",
+     0,
+     160,
+     280,
+     "400 V"
+    ],
+    [
+     "CIMR-DC2A0130BAA",
+     0,
+     110,
+     394,
+     "200 V"
+    ],
+    [
+     "CIMR-DC4A0270AAA",
+     0,
+     220,
+     409,
+     "400 V"
+    ],
+    [
+     "CIMR-DC4A0370AAA",
+     0,
+     315,
+     561,
+     "400 V"
+    ],
+    [
+     "CIMR-DC4A0630AAA",
+     0,
+     560,
+     955,
+     "400 V"
+    ]
+   ],
+   "specs": [
+    [
+     "Tip",
+     "Düşük harmonikli rejeneratif konvertör ünitesi"
+    ],
+    [
+     "Güç aralığı (ND)",
+     "3,7 – 560 kW"
+    ],
+    [
+     "Akım aralığı (ND)",
+     "8 – 955 A"
+    ],
+    [
+     "Gerilim sınıfları",
+     "200 V (8 kod) / 400 V (12 kod)"
+    ],
+    [
+     "Giriş güç fazları",
+     "3 faz"
+    ],
+    [
+     "Giriş akımı THD",
+     "< %5 (sinüzoidal giriş akımı)"
+    ],
+    [
+     "Güç faktörü (cosΦ)",
+     "1"
+    ],
+    [
+     "Aşırı yük toleransı (ND / HD)",
+     "%120 / 60 sn · %150 / 60 sn"
+    ],
+    [
+     "Muhafaza",
+     "IP20"
+    ],
+    [
+     "Soğutma",
+     "Hava soğutmalı"
+    ],
+    [
+     "Standartlara uygunluk",
+     "CE, UL, UKCA"
+    ]
+   ],
+   "rep": {
+    "model": "CIMR-DC4A0005BAA",
+    "rows": [
+     [
+      "Giriş güç kaynağı",
+      "400 V"
+     ],
+     [
+      "Anma çıkış akımı (ND)",
+      "8 A"
+     ],
+     [
+      "Aşırı yük toleransı (ND)",
+      "%120 / 60 sn"
+     ],
+     [
+      "Aşırı yük toleransı (HD)",
+      "%150 / 60 sn"
+     ],
+     [
+      "Maks. uygulanabilir motor çıkışı (ND)",
+      "3,7 kW"
+     ],
+     [
+      "Giriş güç fazları",
+      "3 faz"
+     ],
+     [
+      "Standartlara uygunluk",
+      "CE, UL, UKCA"
+     ],
+     [
+      "Çevre sıcaklığı",
+      "-10°C … 40°C (değer düşürme ile 50°C)"
+     ],
+     [
+      "Maks. nem",
+      "%95 (yoğuşmasız)"
+     ],
+     [
+      "Maks. rakım",
+      "1000 m (değer kaybı olmadan) / 3000 m (değer kaybı ile)"
+     ],
+     [
+      "Ölçüler (Y×G×D)",
+      "300 × 180 × 187 mm"
+     ],
+     [
+      "Ağırlık",
+      "5 kg"
+     ],
+     [
+      "Soğutma yöntemi",
+      "Hava soğutmalı"
+     ],
+     [
+      "Muhafaza",
+      "IP20"
+     ],
+     [
+      "Analog giriş / çıkış",
+      "3 / 2"
+     ],
+     [
+      "Dijital giriş / çıkış",
+      "8 / 4"
+     ],
+     [
+      "Fren transistörü",
+      "Harici"
+     ]
+    ]
+   },
+   "img": "yaskawa-ac-d1000_20-10-2026.png",
+   "imgSize": [
+    291,
+    420
+   ]
+  },
+  {
+   "key": "U1000",
+   "slug": "u1000",
+   "title": "AC-AC Matris Konvertör",
+   "note": "U1000, en yeni matris konvertör teknolojisine dayanan, ultra kompakt ve yüksek verimli bir rejeneratif sürücüdür. DC bara kondansatörü olmadan 500 kW'ye kadar dahili güç rejenerasyonu sunar; sinüzoidal giriş akımı ve 1'e yakın güç faktörüyle trafo ve güç hatları üzerindeki yükü azaltır. 50 Hz bypass çalışma, dahili PLC işlevselliği ve dahili SIL3 STO güvenlik fonksiyonuna sahiptir; global denizcilik tesisatlarında kullanım için onaylıdır.",
+   "cols": [
+    "Güç (ND, kW)",
+    "Akım (ND, A)",
+    "Gerilim sınıfı"
+   ],
+   "codes": [
+    [
+     "CIMR-UC4A0011AAA",
+     0,
+     3.7,
+     11,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0011AAA",
+     0,
+     3.7,
+     11,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0014AAA",
+     0,
+     5.5,
+     14,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0014AAA",
+     0,
+     5.5,
+     14,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0021AAA",
+     0,
+     7.5,
+     21,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0021AAA",
+     0,
+     7.5,
+     21,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0027AAA",
+     0,
+     11,
+     27,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0027AAA",
+     0,
+     11,
+     27,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0028AAA",
+     0,
+     5.5,
+     28,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0028AAA",
+     0,
+     5.5,
+     28,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0034AAA",
+     0,
+     15,
+     34,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0034AAA",
+     0,
+     15,
+     34,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0040AAA",
+     0,
+     18.5,
+     40,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0040AAA",
+     0,
+     18.5,
+     40,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0042AAA",
+     0,
+     7.5,
+     42,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0042AAA",
+     0,
+     7.5,
+     42,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0052AAA",
+     0,
+     22,
+     52,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0052AAA",
+     0,
+     22,
+     52,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0054AAA",
+     0,
+     11,
+     54,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0054AAA",
+     0,
+     11,
+     54,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0065AAA",
+     0,
+     30,
+     65,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0065AAA",
+     0,
+     30,
+     65,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0068AAA",
+     0,
+     15,
+     68,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0068AAA",
+     0,
+     15,
+     68,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0077AAA",
+     0,
+     37,
+     77,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0077AAA",
+     0,
+     37,
+     77,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0081AAA",
+     0,
+     18.5,
+     81,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0081AAA",
+     0,
+     18.5,
+     81,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0096AAA",
+     0,
+     45,
+     96,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0096AAA",
+     0,
+     45,
+     96,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0104AAA",
+     0,
+     22,
+     104,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0104AAA",
+     0,
+     22,
+     104,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0124AAA",
+     0,
+     55,
+     124,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0124AAA",
+     0,
+     55,
+     124,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0130AAA",
+     0,
+     30,
+     130,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0130AAA",
+     0,
+     30,
+     130,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2A0154AAA",
+     0,
+     37,
+     154,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0154AAA",
+     0,
+     37,
+     154,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0156AAA",
+     0,
+     75,
+     156,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0156AAA",
+     0,
+     75,
+     156,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0180AAA",
+     0,
+     90,
+     180,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0180AAA",
+     0,
+     90,
+     180,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0192AAA",
+     0,
+     45,
+     192,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0192AAA",
+     0,
+     45,
+     192,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0216AAA",
+     0,
+     110,
+     216,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0216AAA",
+     0,
+     110,
+     216,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0240AAA",
+     0,
+     132,
+     240,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0240AAA",
+     0,
+     132,
+     240,
+     "400 V"
+    ],
+    [
+     "CIMR-UC2A0248AAA",
+     0,
+     55,
+     248,
+     "200 V"
+    ],
+    [
+     "CIMR-UC2E0248AAA",
+     0,
+     55,
+     248,
+     "200 V"
+    ],
+    [
+     "CIMR-UC4A0302AAA",
+     0,
+     160,
+     302,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0302AAA",
+     0,
+     160,
+     302,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0361AAA",
+     0,
+     185,
+     361,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0361AAA",
+     0,
+     185,
+     361,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0414AAA",
+     0,
+     200,
+     414,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4E0414AAA",
+     0,
+     200,
+     414,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0477AAB",
+     0,
+     250,
+     477,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0590AAB",
+     0,
+     315,
+     590,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0720AAB",
+     0,
+     355,
+     720,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0900AAB",
+     0,
+     400,
+     900,
+     "400 V"
+    ],
+    [
+     "CIMR-UC4A0930AAB",
+     0,
+     450,
+     930,
+     "400 V"
+    ]
+   ],
+   "specs": [
+    [
+     "Tip",
+     "AC-AC matris konvertör (dahili güç rejenerasyonu)"
+    ],
+    [
+     "Güç aralığı (ND)",
+     "3,7 – 450 kW"
+    ],
+    [
+     "Akım aralığı (ND)",
+     "11 – 930 A"
+    ],
+    [
+     "Gerilim sınıfları",
+     "200 V (20 kod) / 400 V (41 kod)"
+    ],
+    [
+     "Giriş güç fazları",
+     "3 faz"
+    ],
+    [
+     "Motor tipi",
+     "İndüksiyon motoru, Sabit mıknatıslı (PM) motor"
+    ],
+    [
+     "Güvenlik",
+     "Dahili SIL3 / PL e STO fonksiyonu"
+    ],
+    [
+     "Aşırı yük toleransı (ND / HD)",
+     "%120 / 60 sn · %150 / 60 sn"
+    ],
+    [
+     "Maks. çıkış frekansı",
+     "400 Hz"
+    ],
+    [
+     "Standartlara uygunluk",
+     "CE, RoHS, UL, GL, UKCA"
+    ],
+    [
+     "Sertifikasyon",
+     "Denizcilik tesisatı sertifikaları mevcuttur (ör. ABS, BV, DNV)"
+    ]
+   ],
+   "rep": {
+    "model": "CIMR-UC4A0011AAA",
+    "rows": [
+     [
+      "Giriş güç kaynağı",
+      "400 V"
+     ],
+     [
+      "Anma çıkış akımı (ND / HD)",
+      "11 A / 9,6 A"
+     ],
+     [
+      "Aşırı yük toleransı (ND / HD)",
+      "%120 / 60 sn · %150 / 60 sn"
+     ],
+     [
+      "Maks. uygulanabilir motor çıkışı (ND / HD)",
+      "3,7 kW / 2,2 kW"
+     ],
+     [
+      "Giriş güç fazları",
+      "3 faz"
+     ],
+     [
+      "Motor tipi",
+      "Sabit mıknatıslı motor, İndüksiyon motoru"
+     ],
+     [
+      "Standartlara uygunluk",
+      "CE, RoHS, UL, GL, UKCA"
+     ],
+     [
+      "Çevre sıcaklığı",
+      "-10°C … 40°C (değer düşürme ile 50°C)"
+     ],
+     [
+      "Maks. nem",
+      "%95 (yoğuşmasız)"
+     ],
+     [
+      "Ölçüler (Y×G×D)",
+      "480 × 250 × 360 mm"
+     ],
+     [
+      "Ağırlık",
+      "20 kg"
+     ],
+     [
+      "Muhafaza",
+      "IP00"
+     ],
+     [
+      "Güvenlik seviyesi",
+      "SIL3, PL e"
+     ],
+     [
+      "Maks. çıkış frekansı",
+      "400 Hz"
+     ]
+    ]
+   },
+   "img": "yaskawa-ac-u1000_20-10-2026.png",
+   "imgSize": [
+    272,
+    420
+   ]
+  },
+  {
+   "key": "U1000 Panel",
+   "slug": "u1000-panel",
+   "title": "Matris Konvertör Panel (Kabin) Versiyonu",
+   "note": "U1000 Panel, U1000 matris konvertörün panel/kabin yapılı (floor-standing) versiyonudur; yeni ve mevcut sistemler için esnek ve bireysel olarak yapılandırılabilir bir çözüm sunar. Yalnızca 400 V gerilim sınıfında ve 90-450 kW güç aralığında üretilir.",
+   "cols": [
+    "Güç (ND, kW)",
+    "Akım (ND, A)",
+    "Gerilim sınıfı"
+   ],
+   "codes": [
+    [
+     "FSP4-U1K180C205008011A0000",
+     0,
+     90,
+     180,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K216C205008011A0000",
+     0,
+     110,
+     216,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K240C205008011A0000",
+     0,
+     132,
+     240,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K302C205008011A0000",
+     0,
+     160,
+     302,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K361C205008011A0000",
+     0,
+     185,
+     361,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K414C205008011A0000",
+     0,
+     200,
+     414,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K477C205008011A0000",
+     0,
+     250,
+     477,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K590C205008011A0000",
+     0,
+     315,
+     590,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K720C205008011A0000",
+     0,
+     355,
+     720,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K900C205008011A0000",
+     0,
+     400,
+     900,
+     "400 V"
+    ],
+    [
+     "FSP4-U1K930C205008011A0000",
+     0,
+     450,
+     930,
+     "400 V"
+    ]
+   ],
+   "specs": [
+    [
+     "Tip",
+     "Matris konvertör — panel/kabin (floor-standing) versiyonu"
+    ],
+    [
+     "Güç aralığı (ND)",
+     "90 – 450 kW"
+    ],
+    [
+     "Akım aralığı (ND)",
+     "180 – 930 A"
+    ],
+    [
+     "Gerilim sınıfı",
+     "400 V (11 kod) — tek gerilim sınıfı"
+    ],
+    [
+     "Giriş güç fazları",
+     "3 faz"
+    ],
+    [
+     "Motor tipi",
+     "İndüksiyon motoru, Sabit mıknatıslı (PM) motor"
+    ],
+    [
+     "EMC filtre",
+     "Dahili (evet)"
+    ],
+    [
+     "Güvenlik",
+     "SIL3 / PL e"
+    ],
+    [
+     "Muhafaza",
+     "IP54 Ready"
+    ],
+    [
+     "Standartlara uygunluk",
+     "CE, RoHS"
+    ]
+   ],
+   "rep": {
+    "model": "FSP4-U1K180C205008011A0000",
+    "rows": [
+     [
+      "Giriş güç kaynağı",
+      "400 V"
+     ],
+     [
+      "Anma çıkış akımı (ND / HD)",
+      "180 A / 156 A"
+     ],
+     [
+      "Aşırı yük toleransı (ND / HD)",
+      "%120 / 60 sn · %150 / 60 sn"
+     ],
+     [
+      "Maks. uygulanabilir motor çıkışı (ND / HD)",
+      "90 kW / 75 kW"
+     ],
+     [
+      "Giriş güç fazları",
+      "3 faz"
+     ],
+     [
+      "EMC filtre",
+      "Var"
+     ],
+     [
+      "Motor tipi",
+      "Sabit mıknatıslı motor, İndüksiyon motoru"
+     ],
+     [
+      "Standartlara uygunluk",
+      "CE, RoHS"
+     ],
+     [
+      "Çevre sıcaklığı",
+      "-10°C … 50°C"
+     ],
+     [
+      "Maks. nem",
+      "%95 (yoğuşmasız)"
+     ],
+     [
+      "Ölçüler (Y×G×D)",
+      "2230 × 1400 × 630 mm"
+     ],
+     [
+      "Ağırlık",
+      "680 kg"
+     ],
+     [
+      "Muhafaza",
+      "IP54 Ready"
+     ],
+     [
+      "Güvenlik seviyesi",
+      "SIL3, PL e"
+     ],
+     [
+      "Maks. çıkış frekansı",
+      "400 Hz"
+     ]
+    ]
+   },
+   "img": "yaskawa-ac-u1000-panel_20-10-2026.png",
+   "imgSize": [
+    277,
+    420
+   ]
+  }
+ ]
+}

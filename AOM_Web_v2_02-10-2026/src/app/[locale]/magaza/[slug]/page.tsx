@@ -6,6 +6,7 @@ import LocaleTeklifForm from "@/components/LocaleTeklifForm";
 import { fullName, getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
 import { BRANDS } from "@/data/markalar";
 import { eligibleRegion, hreflangAlternates, sellerRef, SITE } from "@/lib/seo";
+import { formatTryApprox, getEurSellingRate } from "@/lib/tcmb";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { getDictionary } from "@/i18n/dictionary";
 import { REGION_LINE } from "@/i18n/pages/common";
@@ -21,6 +22,13 @@ import { USED_BADGE, USED_FIELD_LABELS, URUN_UI } from "@/i18n/pages/magaza-urun
 // değil, kendi locale eşdeğerlerine bağlanır.
 
 const catSlug = (c: string) => slugify(c);
+
+// JSON-LD Offer.priceValidUntil: derleme (build) tarihinden +30 gün, ISO tarih (Mert, SCHNEIDER_FIYATLANDIRMA_PLANI_17-10-2026).
+const priceValidUntil = () => {
+  const d = new Date();
+  d.setDate(d.getDate() + 30);
+  return d.toISOString().slice(0, 10);
+};
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -78,6 +86,8 @@ function jsonLd(p: NonNullable<ReturnType<typeof getProduct>>, loc: Locale, u: M
       url,
       priceCurrency: p.price.currency,
       price: offerPrice.toFixed(2),
+      availability: "https://schema.org/InStock",
+      priceValidUntil: priceValidUntil(),
       itemCondition: "https://schema.org/NewCondition",
       priceSpecification: { "@type": "UnitPriceSpecification", price: offerPrice.toFixed(2), priceCurrency: p.price.currency, valueAddedTaxIncluded: false },
       eligibleRegion,
@@ -110,6 +120,7 @@ export default async function LocaleUrunPage({ params }: { params: Promise<{ loc
   const uu = URUN_UI[loc];
   const usedF = USED_FIELD_LABELS[loc];
   const pr = priceInfo(p);
+  const eurRate = p.price?.currency === "EUR" ? await getEurSellingRate() : null;
   const categoryTitle = translateCategoryTitle(p.category, loc);
   const allSiblings = seriesOf(p);
   const idx = allSiblings.findIndex((x) => x.slug === p.slug);
@@ -203,7 +214,11 @@ export default async function LocaleUrunPage({ params }: { params: Promise<{ loc
                 </span>
                 {pr.discount && <span className="store-discount">{pr.discount}</span>}
               </span>
-              <span className="caption">{pr.vatNote}</span>
+              {eurRate && p.price && (
+                <span className="caption">{uu.tryApproxLine(formatTryApprox(p.price.list, eurRate.rate), eurRate.date)}</span>
+              )}
+              {p.leadTime && <span className="caption">{uu.leadTimeLabel(p.leadTime)}</span>}
+              <span className="caption">{p.price?.currency === "EUR" ? uu.eurVatNote(KDV_ORANI) : pr.vatNote}</span>
             </div>
           ) : (
             <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>

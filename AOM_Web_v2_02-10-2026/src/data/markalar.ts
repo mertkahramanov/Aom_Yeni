@@ -193,13 +193,13 @@ export const BRANDS: Record<
     name: "Yaskawa",
     country: "Japonya",
     site: "https://www.yaskawa.com.tr",
-    seoTitle: "Yaskawa MOTOMAN Robotları – GP, HC, AR, PL ve Diğerleri | Ankara",
+    seoTitle: "Yaskawa MOTOMAN Robot, AC Sürücü, Servo ve VIPA PLC | Ankara",
     description:
-      "AOM'un OEM partnerlerinden Yaskawa; mağazada GP genel amaçlı taşıma, HC/NHC kolaboratif, AR ark kaynağı, SP punta kaynağı, MPX boyama, PL paletleme, SG/MPP paketleme ve diğer MOTOMAN robot serileri (17 seri, 88 model) yer alır. Ankara'dan Türkiye geneline teklif.",
-    eyebrow: "Robotik otomasyon ve entegrasyon · Ankara ve Türkiye geneli",
+      "AOM'un OEM partnerlerinden Yaskawa; mağazada MOTOMAN robot serileri (17 seri, 88 model), AC sürücüler (GA500/GA700/A1000/V1000/D1000/U1000 ve diğerleri, 13 seri), Sigma-7/Sigma-X servo motor ve sürücüler (20 seri), VIPA markalı Micro PLC/SLIO/300S+ PLC sistemleri (212 model) ve HMI/Panel PC ürünleri yer alır. Ankara'dan Türkiye geneline teklif.",
+    eyebrow: "Robotik otomasyon, AC sürücü, servo, kontrol sistemleri ve entegrasyon · Ankara ve Türkiye geneli",
     intro: [
-      "Yaskawa, AOM'un OEM partnerlerinden biridir. AOM, robotik otomasyon ve kaynak projelerinde Yaskawa MOTOMAN robotlarını entegre eder; model seçimi, hücre tasarımı ve devreye alma desteği sunar.",
-      "Aşağıda AOM mağazasındaki Yaskawa MOTOMAN robot serileri (taşıma, kolaboratif, kaynak, boyama, paletleme, paketleme) listelenir; teknik veriler Yaskawa'nın resmi ürün sayfalarından alınmıştır. Fiyat ve teslim süresi için teklif isteyin.",
+      "Yaskawa, AOM'un OEM partnerlerinden biridir. AOM, robotik otomasyon, AC sürücü/servo sistem seçimi ve kaynak projelerinde Yaskawa ürünlerini entegre eder; model seçimi, hücre tasarımı ve devreye alma desteği sunar.",
+      "Aşağıda AOM mağazasındaki Yaskawa MOTOMAN robot serileri (taşıma, kolaboratif, kaynak, boyama, paletleme, paketleme), AC sürücüler (genel amaçlı, özel uygulama ve rejeneratif) ve Sigma-7/Sigma-X servo motor ve sürücüler listelenir; teknik veriler Yaskawa'nın resmi ürün sayfalarından alınmıştır. Mağazada ayrıca Yaskawa'nın satın aldığı VIPA markalı Micro PLC, SLIO ve 300S+ SPEED7 tabanlı PLC/IO kontrol sistemleri (212 model) ile HMI/Panel PC ürünleri yer alır — PLC ve HMI/Panel PC ürünleri \"VIPA (Yaskawa)\" olarak, Yaskawa diye tek başına değil, doğru markasıyla listelenir. Fiyat ve teslim süresi için teklif isteyin.",
     ],
   },
 };

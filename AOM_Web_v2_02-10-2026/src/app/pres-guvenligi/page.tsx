@@ -17,7 +17,7 @@ import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJs
 // panosu yenileme" gibi broşürde doğrulanmayan iddialar eklenmedi/dar kapsamda tutuldu.
 // Broşürün referans bölümü genel/gizli olduğu için somut vaka uydurulmadı.
 const url = `${SITE}/pres-guvenligi`;
-const title = "Pres Güvenliği, Işık Perdesi ve Servo Besleme | Ankara | AOM";
+const title = "Pres Güvenliği, Işık Perdesi ve Servo Besleme | Ankara";
 const description =
   "Eksantrik preslerde ışık perdesi, kavrama-fren dönüşümü, kafes ve kilitli kapı çözümleri; servo NC besleme. Dönüşümler Ankara'daki kendi atölyemizde.";
 

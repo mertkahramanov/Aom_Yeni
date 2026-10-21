@@ -1,0 +1,2775 @@
+{
+  "series": [
+    {
+      "key": "SGM7D",
+      "slug": "sgm7d",
+      "title": "Dış rotorlu, nüveli doğrudan tahrik servo motoru",
+      "note": "SGM7D serisi, dış rotorlu (outer rotor) ve nüveli (cored) yapıda, Yaskawa Sigma-7 ailesinin en geniş tork ve çap aralığına sahip doğrudan tahrik (direct drive) servo motorudur. Redüktör, kayış veya dişli gibi aktarma elemanı kullanmadan yükü doğrudan döndürür; bu da boşluğu (backlash) ortadan kaldırır, konumlama hassasiyetini artırır ve bakım ihtiyacını azaltır.",
+      "cols": [
+        "Anma torku (Nm)",
+        "Dış çap (mm)",
+        "Enkoder tipi"
+      ],
+      "codes": [
+        [
+          "SGM7D-01G7C42",
+          0,
+          "1,3",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-02K7C51",
+          0,
+          "2,06",
+          107,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-02K7C52",
+          0,
+          "2,06",
+          107,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-02KFC51",
+          0,
+          "2,06",
+          107,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-02KFC52",
+          0,
+          "2,06",
+          107,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-03H7C42",
+          0,
+          "3",
+          116,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-03HFC42",
+          0,
+          "3",
+          116,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-05GFC42",
+          0,
+          "5",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-05G7C42",
+          0,
+          "5",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-06K7C52",
+          0,
+          "6",
+          107,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-06K7C51",
+          0,
+          "6",
+          107,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-06KFC52",
+          0,
+          "6",
+          107,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-06KFC51",
+          0,
+          "6",
+          107,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-06J7C51",
+          0,
+          "6",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-06J7C52",
+          0,
+          "6",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-06JFC51",
+          0,
+          "6",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-06JFC52",
+          0,
+          "6",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-06LFC42",
+          0,
+          "6",
+          224,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-06L7C41",
+          0,
+          "6",
+          224,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-06L7C42",
+          0,
+          "6",
+          224,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-06LFC41",
+          0,
+          "6",
+          224,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-08K7C52",
+          0,
+          "8",
+          107,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-08KFC51",
+          0,
+          "8",
+          107,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-08KFC52",
+          0,
+          "8",
+          107,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-08K7C51",
+          0,
+          "8",
+          107,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-08G7C42",
+          0,
+          "8",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-08G7C41",
+          0,
+          "8",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-08GFC41",
+          0,
+          "8",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-08GFC42",
+          0,
+          "8",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-08GFC51",
+          0,
+          "8",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-08G7C51",
+          0,
+          "8",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-08G7C52",
+          0,
+          "8",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-08GFC52",
+          0,
+          "8",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-09J7C51",
+          0,
+          "9",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-09J7C52",
+          0,
+          "9",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-09JFC52",
+          0,
+          "9",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-09JFC51",
+          0,
+          "9",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-12LFC41",
+          0,
+          "12",
+          224,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-12LFC42",
+          0,
+          "12",
+          224,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-12L7C41",
+          0,
+          "12",
+          224,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-12L7C42",
+          0,
+          "12",
+          224,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-18J7C51",
+          0,
+          "18",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-18J7C52",
+          0,
+          "18",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-18JFC51",
+          0,
+          "18",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-18JFC52",
+          0,
+          "18",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-18G7C41",
+          0,
+          "18",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-18G7C42",
+          0,
+          "18",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-18GFC41",
+          0,
+          "18",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-18GFC42",
+          0,
+          "18",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-18G7C51",
+          0,
+          "18",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-18G7C52",
+          0,
+          "18",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-18GFC51",
+          0,
+          "18",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-18GFC52",
+          0,
+          "18",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-20J7C51",
+          0,
+          "20",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-20J7C52",
+          0,
+          "20",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-20JFC51",
+          0,
+          "20",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-20JFC52",
+          0,
+          "20",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-24GFC41",
+          0,
+          "24",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-24GFC42",
+          0,
+          "24",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-24GFC51",
+          0,
+          "24",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-24GFC52",
+          0,
+          "24",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-24G7C51",
+          0,
+          "24",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-24G7C52",
+          0,
+          "24",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-24G7C42",
+          0,
+          "24",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-24G7C41",
+          0,
+          "24",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-28I7C51",
+          0,
+          "28",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-28I7C52",
+          0,
+          "28",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-28IFC51",
+          0,
+          "28",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-28IFC52",
+          0,
+          "28",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-30L7C41",
+          0,
+          "30",
+          224,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-30L7C42",
+          0,
+          "30",
+          224,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-30LFC41",
+          0,
+          "30",
+          224,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-30LFC42",
+          0,
+          "30",
+          224,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-30FFC52",
+          0,
+          "30",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-30FFC51",
+          0,
+          "30",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-30FFC42",
+          0,
+          "30",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-30FFC41",
+          0,
+          "30",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-30F7C52",
+          0,
+          "30",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-30F7C51",
+          0,
+          "30",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-30F7C42",
+          0,
+          "30",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-30F7C41",
+          0,
+          "30",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-34G7C51",
+          0,
+          "34",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-34G7C41",
+          0,
+          "34",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-34G7C42",
+          0,
+          "34",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-34G7C52",
+          0,
+          "34",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-34GFC41",
+          0,
+          "34",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-34GFC42",
+          0,
+          "34",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-34GFC51",
+          0,
+          "34",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-34GFC52",
+          0,
+          "34",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-38J7C51",
+          0,
+          "38",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-38J7C52",
+          0,
+          "38",
+          150,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-38JFC51",
+          0,
+          "38",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-38JFC52",
+          0,
+          "38",
+          150,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-45GFC51",
+          0,
+          "45",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-45GFC52",
+          0,
+          "45",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-45GFC41",
+          0,
+          "45",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-45GFC42",
+          0,
+          "45",
+          160,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-45G7C52",
+          0,
+          "45",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-45G7C51",
+          0,
+          "45",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-45G7C41",
+          0,
+          "45",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-45G7C42",
+          0,
+          "45",
+          160,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-58F7C52",
+          0,
+          "58",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-58FFC52",
+          0,
+          "58",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-58FFC51",
+          0,
+          "58",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-58FFC42",
+          0,
+          "58",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-58FFC41",
+          0,
+          "58",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-58F7C51",
+          0,
+          "58",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-58F7C42",
+          0,
+          "58",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-58F7C41",
+          0,
+          "58",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-70IFC51",
+          0,
+          "70",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-70I7C51",
+          0,
+          "70",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-70I7C52",
+          0,
+          "70",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-70IFC52",
+          0,
+          "70",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-90FFC52",
+          0,
+          "90",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-90FFC51",
+          0,
+          "90",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-90FFC42",
+          0,
+          "90",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-90FFC41",
+          0,
+          "90",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-90F7C52",
+          0,
+          "90",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-90F7C41",
+          0,
+          "90",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-90F7C42",
+          0,
+          "90",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-90F7C51",
+          0,
+          "90",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1ZI7C51",
+          0,
+          "100",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1ZI7C52",
+          0,
+          "100",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1ZIFC51",
+          0,
+          "100",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-1ZIFC52",
+          0,
+          "100",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-1AF7C41",
+          0,
+          "110",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1AFFC52",
+          0,
+          "110",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-1AFFC51",
+          0,
+          "110",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-1AFFC42",
+          0,
+          "110",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-1AFFC41",
+          0,
+          "110",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-1AF7C42",
+          0,
+          "110",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1AF7C51",
+          0,
+          "110",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1AF7C52",
+          0,
+          "110",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1CI7C51",
+          0,
+          "130",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1CI7C52",
+          0,
+          "130",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-1CIFC51",
+          0,
+          "130",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-1CIFC52",
+          0,
+          "130",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-2BIFC51",
+          0,
+          "220",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-2BIFC52",
+          0,
+          "220",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-2BI7C52",
+          0,
+          "220",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-2BI7C51",
+          0,
+          "220",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-2DI7C51",
+          0,
+          "240",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-2DI7C52",
+          0,
+          "240",
+          264,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7D-2DIFC51",
+          0,
+          "240",
+          264,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7D-2DIFC52",
+          0,
+          "240",
+          264,
+          "Artımlı (Incremental)"
+        ]
+      ],
+      "specs": [
+        [
+          "Anma torku aralığı",
+          "1,3 – 240 Nm"
+        ],
+        [
+          "Dış çap aralığı",
+          "107 – 264 mm"
+        ],
+        [
+          "Enkoder tipi",
+          "Artımlı (Incremental) / Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "Gerilim",
+          "200 V"
+        ]
+      ],
+      "rep": {
+        "model": "SGM7D-01G7C42",
+        "rows": [
+          [
+            "Giriş Güç Kaynağı",
+            "200 V"
+          ],
+          [
+            "Anma Torku",
+            "1,3 Nm"
+          ],
+          [
+            "Anlık Azami Torku",
+            "4 Nm"
+          ],
+          [
+            "Dış Çap",
+            "160 mm"
+          ],
+          [
+            "Flanş",
+            "Non-load side (with cable on side)"
+          ],
+          [
+            "Yükseklik",
+            "160 mm"
+          ],
+          [
+            "Genişlik",
+            "160 mm"
+          ],
+          [
+            "Derinlik",
+            "45,7 mm"
+          ],
+          [
+            "Ağırlık",
+            "3 kg"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-sgm7d_20-10-2026.png",
+      "imgSize": [
+        350,
+        197
+      ]
+    },
+    {
+      "key": "SGM7E",
+      "slug": "sgm7e",
+      "title": "Nüvesiz (coreless), iç rotorlu doğrudan tahrik servo motoru",
+      "note": "SGM7E serisi, nüvesiz (coreless) sargı yapılı iç rotorlu bir doğrudan tahrik (direct drive) servo motorudur. Nüvesiz tasarım kogging torku (dişli etkisi) ortadan kaldırır ve çok düşük tork dalgalanmasıyla son derece pürüzsüz, titreşimsiz hareket sağlar; hassas konumlama ve sabit hızda dönüş gerektiren uygulamalar için uygundur.",
+      "cols": [
+        "Anma torku (Nm)",
+        "Dış çap (mm)",
+        "Enkoder tipi"
+      ],
+      "codes": [
+        [
+          "SGM7E-02B7A11",
+          0,
+          "2",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-02B7A12",
+          0,
+          "2",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-02BFA42",
+          0,
+          "2",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-02BFA41",
+          0,
+          "2",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-02BFA12",
+          0,
+          "2",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-02BFA11",
+          0,
+          "2",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-02B7A42",
+          0,
+          "2",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-02B7A41",
+          0,
+          "2",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-04C7A42",
+          0,
+          "4",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-04C7A41",
+          0,
+          "4",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-04C7A12",
+          0,
+          "4",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-04C7A11",
+          0,
+          "4",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-05B7A42",
+          0,
+          "5",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-05B7A41",
+          0,
+          "5",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-05B7A12",
+          0,
+          "5",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-05B7A11",
+          0,
+          "5",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-04CFA42",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-04CFA41",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-04CFA12",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-04CFA11",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-05BFA12",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-05BFA11",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-05BFA41",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-05BFA42",
+          0,
+          "5",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "Belirtilmemiş",
+          0,
+          "7",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-07BFA41",
+          0,
+          "7",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-07BFA12",
+          0,
+          "7",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-07BFA11",
+          0,
+          "7",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-07B7A42",
+          0,
+          "7",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-07B7A41",
+          0,
+          "7",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-07B7A12",
+          0,
+          "7",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-07B7A11",
+          0,
+          "7",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-08D7A12",
+          0,
+          "8",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-08D7A42",
+          0,
+          "8",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-08D7A41",
+          0,
+          "8",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-08D7A11",
+          0,
+          "8",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-10CFA42",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-10CFA41",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-10CFA11",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-10CFA12",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-10C7A42",
+          0,
+          "10",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-10C7A41",
+          0,
+          "10",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-10C7A12",
+          0,
+          "10",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-10C7A11",
+          0,
+          "10",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-08DFA42",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-08DFA41",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-08DFA12",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-08DFA11",
+          0,
+          "10",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-14CFA42",
+          0,
+          "14",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-14CFA41",
+          0,
+          "14",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-14CFA12",
+          0,
+          "14",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-14CFA11",
+          0,
+          "14",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-14C7A42",
+          0,
+          "14",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-14C7A41",
+          0,
+          "14",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-14C7A12",
+          0,
+          "14",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-14C7A11",
+          0,
+          "14",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-16EFA42",
+          0,
+          "16",
+          290,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-16EFA41",
+          0,
+          "16",
+          290,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-16EFA12",
+          0,
+          "16",
+          290,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-16EFA11",
+          0,
+          "16",
+          290,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-16E7A42",
+          0,
+          "16",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-16E7A41",
+          0,
+          "16",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-16E7A12",
+          0,
+          "16",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-16E7A11",
+          0,
+          "16",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-17D7A41",
+          0,
+          "17",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-17D7A12",
+          0,
+          "17",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-17D7A42",
+          0,
+          "17",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-17DFA11",
+          0,
+          "17",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-17DFA42",
+          0,
+          "17",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-17DFA41",
+          0,
+          "17",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-17DFA12",
+          0,
+          "17",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-25DFA41",
+          0,
+          "25",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-25DFA42",
+          0,
+          "25",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-25DFA12",
+          0,
+          "25",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-25DFA11",
+          0,
+          "25",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-25D7A42",
+          0,
+          "25",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-25D7A41",
+          0,
+          "25",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-25D7A12",
+          0,
+          "25",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-25D7A11",
+          0,
+          "25",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-35EFA41",
+          0,
+          "35",
+          290,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-35EFA12",
+          0,
+          "35",
+          290,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-35EFA11",
+          0,
+          "35",
+          290,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7E-35E7A42",
+          0,
+          "35",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-35E7A41",
+          0,
+          "35",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-35E7A12",
+          0,
+          "35",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-35E7A11",
+          0,
+          "35",
+          290,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7E-35EFA42",
+          0,
+          "35",
+          290,
+          "Artımlı (Incremental)"
+        ]
+      ],
+      "specs": [
+        [
+          "Anma torku aralığı",
+          "2 – 35 Nm"
+        ],
+        [
+          "Dış çap aralığı",
+          "135 – 290 mm"
+        ],
+        [
+          "Enkoder tipi",
+          "Artımlı (Incremental) / Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "Gerilim",
+          "200 V"
+        ],
+        [
+          "Not",
+          "Üretici sitesinde bu serinin bir kaydı (ürün id 11734, 7 Nm / 135 mm / Artımlı) model adı boş görüntüleniyor; sıra numarasına göre muhtemelen eksik bir bağlantı seçeneği varyantı olsa da bu teyit edilemediğinden model adı \"Belirtilmemiş\" olarak bırakılmıştır."
+        ]
+      ],
+      "rep": {
+        "model": "SGM7E-02B7A11",
+        "rows": [
+          [
+            "Giriş Güç Kaynağı",
+            "200 V"
+          ],
+          [
+            "Anma Torku",
+            "2 Nm"
+          ],
+          [
+            "Dış Çap",
+            "135 mm"
+          ],
+          [
+            "Flanş",
+            "Non-load side"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-sgm7e_20-10-2026.png",
+      "imgSize": [
+        350,
+        197
+      ]
+    },
+    {
+      "key": "SGM7F",
+      "slug": "sgm7f",
+      "title": "İç rotorlu, nüveli doğrudan tahrik servo motoru",
+      "note": "SGM7F serisi, iç rotorlu ve nüveli (cored) yapıda, SGM7D ile birlikte Yaskawa'nın geniş tork aralıklı doğrudan tahrik (direct drive) servo motor ailesini tamamlayan seridir. Nüveli iç rotor tasarımı yüksek tork yoğunluğu ve kompakt gövde ölçüleri sunar.",
+      "cols": [
+        "Anma torku (Nm)",
+        "Dış çap (mm)",
+        "Enkoder tipi"
+      ],
+      "codes": [
+        [
+          "SGM7F-02A7A11",
+          0,
+          "2",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-02A7A12",
+          0,
+          "2",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-02AFA42",
+          0,
+          "2",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-02AFA41",
+          0,
+          "2",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-02AFA12",
+          0,
+          "2",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-02AFA11",
+          0,
+          "2",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-02A7A42",
+          0,
+          "2",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-02A7A41",
+          0,
+          "2",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-04BFA42",
+          0,
+          "4",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-04BFA41",
+          0,
+          "4",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-04BFA12",
+          0,
+          "4",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-04BFA11",
+          0,
+          "4",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-04B7A42",
+          0,
+          "4",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-04B7A41",
+          0,
+          "4",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-04B7A12",
+          0,
+          "4",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-04B7A11",
+          0,
+          "4",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-05A7A42",
+          0,
+          "5",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-05A7A41",
+          0,
+          "5",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-05A7A12",
+          0,
+          "5",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-05A7A11",
+          0,
+          "5",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-05AFA42",
+          0,
+          "5",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-05AFA41",
+          0,
+          "5",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-05AFA12",
+          0,
+          "5",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-05AFA11",
+          0,
+          "5",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-07A7A12",
+          0,
+          "7",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-07AFA42",
+          0,
+          "7",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-07AFA41",
+          0,
+          "7",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-07AFA12",
+          0,
+          "7",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-07AFA11",
+          0,
+          "7",
+          100,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-07A7A42",
+          0,
+          "7",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-07A7A41",
+          0,
+          "7",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-07A7A11",
+          0,
+          "7",
+          100,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-08CFA11",
+          0,
+          "8",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-08CFA42",
+          0,
+          "8",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-08CFA41",
+          0,
+          "8",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-08CFA12",
+          0,
+          "8",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-08C7A42",
+          0,
+          "8",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-08C7A41",
+          0,
+          "8",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-08C7A11",
+          0,
+          "8",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-08C7A12",
+          0,
+          "8",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-10BFA12",
+          0,
+          "10",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-10BFA11",
+          0,
+          "10",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-10BFA41",
+          0,
+          "10",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-10BFA42",
+          0,
+          "10",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-10B7A11",
+          0,
+          "10",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-10B7A12",
+          0,
+          "10",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-10B7A41",
+          0,
+          "10",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-10B7A42",
+          0,
+          "10",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-14B7A41",
+          0,
+          "14",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-14B7A11",
+          0,
+          "14",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-14B7A12",
+          0,
+          "14",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-14B7A42",
+          0,
+          "14",
+          135,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-14BFA11",
+          0,
+          "14",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-14BFA12",
+          0,
+          "14",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-14BFA41",
+          0,
+          "14",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-14BFA42",
+          0,
+          "14",
+          135,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-16DFA42",
+          0,
+          "16",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-16DFA41",
+          0,
+          "16",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-16DFA12",
+          0,
+          "16",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-16DFA11",
+          0,
+          "16",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-16D7A42",
+          0,
+          "16",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-16D7A41",
+          0,
+          "16",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-16D7A12",
+          0,
+          "16",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-16D7A11",
+          0,
+          "16",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-17CFA42",
+          0,
+          "17",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-17CFA41",
+          0,
+          "17",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-17CFA12",
+          0,
+          "17",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-17CFA11",
+          0,
+          "17",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-17C7A42",
+          0,
+          "17",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-17C7A41",
+          0,
+          "17",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-17C7A12",
+          0,
+          "17",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-17C7A11",
+          0,
+          "17",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-25CFA42",
+          0,
+          "25",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-25CFA12",
+          0,
+          "25",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-25CFA41",
+          0,
+          "25",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-25CFA11",
+          0,
+          "25",
+          175,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-25C7A42",
+          0,
+          "25",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-25C7A41",
+          0,
+          "25",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-25C7A12",
+          0,
+          "25",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-25C7A11",
+          0,
+          "25",
+          175,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-35DFA41",
+          0,
+          "35",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-35DFA42",
+          0,
+          "35",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-35DFA12",
+          0,
+          "35",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-35DFA11",
+          0,
+          "35",
+          230,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-35D7A42",
+          0,
+          "35",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-35D7A41",
+          0,
+          "35",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-35D7A12",
+          0,
+          "35",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-35D7A11",
+          0,
+          "35",
+          230,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-45MFA11",
+          0,
+          "45",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-45M7A32",
+          0,
+          "45",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-45M7A31",
+          0,
+          "45",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-45M7A12",
+          0,
+          "45",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-45M7A11",
+          0,
+          "45",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-45MFA31",
+          0,
+          "45",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-45MFA12",
+          0,
+          "45",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-45MFA32",
+          0,
+          "45",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80M7A11",
+          0,
+          "80",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80MFA32",
+          0,
+          "80",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80MFA31",
+          0,
+          "80",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80MFA12",
+          0,
+          "80",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80MFA11",
+          0,
+          "80",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80M7A32",
+          0,
+          "80",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80M7A31",
+          0,
+          "80",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80M7A12",
+          0,
+          "80",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80NFA31",
+          0,
+          "80",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80NFA12",
+          0,
+          "80",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80NFA11",
+          0,
+          "80",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-80N7A32",
+          0,
+          "80",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80N7A31",
+          0,
+          "80",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80N7A12",
+          0,
+          "80",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80N7A11",
+          0,
+          "80",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-80NFA32",
+          0,
+          "80",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1AMFA32",
+          0,
+          "110",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1AMFA31",
+          0,
+          "110",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1AMFA12",
+          0,
+          "110",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1AMFA11",
+          0,
+          "110",
+          280,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1AM7A32",
+          0,
+          "110",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-1AM7A31",
+          0,
+          "110",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-1AM7A12",
+          0,
+          "110",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-1AM7A11",
+          0,
+          "110",
+          280,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-1ENFA32",
+          0,
+          "150",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1ENFA31",
+          0,
+          "150",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1ENFA12",
+          0,
+          "150",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1ENFA11",
+          0,
+          "150",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-1EN7A32",
+          0,
+          "150",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-1EN7A31",
+          0,
+          "150",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-1EN7A12",
+          0,
+          "150",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-1EN7A11",
+          0,
+          "150",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-2ZN7A11",
+          0,
+          "200",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-2ZNFA32",
+          0,
+          "200",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-2ZNFA31",
+          0,
+          "200",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-2ZNFA12",
+          0,
+          "200",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-2ZNFA11",
+          0,
+          "200",
+          360,
+          "Artımlı (Incremental)"
+        ],
+        [
+          "SGM7F-2ZN7A32",
+          0,
+          "200",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-2ZN7A31",
+          0,
+          "200",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "SGM7F-2ZN7A12",
+          0,
+          "200",
+          360,
+          "Çok turlu mutlak (Multiturn Absolute)"
+        ]
+      ],
+      "specs": [
+        [
+          "Anma torku aralığı",
+          "2 – 200 Nm"
+        ],
+        [
+          "Dış çap aralığı",
+          "100 – 360 mm"
+        ],
+        [
+          "Enkoder tipi",
+          "Artımlı (Incremental) / Çok turlu mutlak (Multiturn Absolute)"
+        ],
+        [
+          "Gerilim",
+          "200 V"
+        ]
+      ],
+      "rep": {
+        "model": "SGM7F-02A7A11",
+        "rows": [
+          [
+            "Giriş Güç Kaynağı",
+            "200 V"
+          ],
+          [
+            "Anma Torku",
+            "2 Nm"
+          ],
+          [
+            "Dış Çap",
+            "100 mm"
+          ],
+          [
+            "Flanş",
+            "Non-load side"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-sgm7f_20-10-2026.png",
+      "imgSize": [
+        350,
+        197
+      ]
+    }
+  ]
+}

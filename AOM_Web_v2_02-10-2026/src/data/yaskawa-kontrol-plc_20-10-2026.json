@@ -1,0 +1,2052 @@
+{
+  "groups": [
+    {
+      "key": "slio-cpu",
+      "slug": "yaskawa-slio-cpu",
+      "title": "VIPA SLIO CPU",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup cpu tipindeki 6 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "019-CEFPM00",
+          0,
+          "CPU 019PN",
+          "SPEED7 · 6.144KB · PROFINET IO · PROFIBUS"
+        ],
+        [
+          "017-CEFPR00",
+          0,
+          "CPU 017PN",
+          "SPEED7 · 512...2.048KB · PROFINET"
+        ],
+        [
+          "015-CEFPR01",
+          0,
+          "CPU 015PN",
+          "SPEED7 · 256...512KB · PROFINET"
+        ],
+        [
+          "014-CEF0R01",
+          0,
+          "CPU 014",
+          "SPEED7 · 128...256KB · PROFINET"
+        ],
+        [
+          "013-CCF0R00",
+          0,
+          "CPU 013C",
+          "SPEED7 · 64...128KB · PROFINET · 16xDI, 12xDO, 2xAI 0...10V, 4xCounter"
+        ],
+        [
+          "015-CEFNR00",
+          0,
+          "CPU 015N",
+          "SPEED7 · 256...512KB · EtherCAT"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — CPU"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "CPU 019PN",
+        "rows": [
+          [
+            "Model",
+            "CPU 019PN"
+          ],
+          [
+            "Sipariş kodu",
+            "019-CEFPM00"
+          ],
+          [
+            "Teknik özet",
+            "SPEED7 · 6.144KB · PROFINET IO · PROFIBUS"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-interface-modules",
+      "slug": "yaskawa-slio-interface-modules",
+      "title": "VIPA SLIO Arayüz Modülü (Interface Module)",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup arayüz modülü (ınterface module) tipindeki 12 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "061-1BA01",
+          0,
+          "IM 061 - Line Extension",
+          "Line Extension SubDevice · installed at first position next line · max. cable length 10m"
+        ],
+        [
+          "053-1PN01",
+          0,
+          "IM 053 - PROFINET-IO-Slave",
+          "2-port switch · 100MBit/s full duplex"
+        ],
+        [
+          "060-1AA01",
+          0,
+          "IM 060 - Line Extension",
+          "Line Extension MainDevice · installed at last position in line · max. cable length 10m"
+        ],
+        [
+          "053-1EC01",
+          0,
+          "IM 053 - EtherCAT-Slave",
+          "2-port switch · RJ45 100BaseTX full duplex · CoE, EoE, FoE"
+        ],
+        [
+          "053-1IP01",
+          0,
+          "IM 053 - EtherNet/IP Slave",
+          "2-port switch · RJ45 100BaseTX full duplex"
+        ],
+        [
+          "053-1ML00",
+          0,
+          "IM 053 - MECHATROLINK",
+          "IEC 61158, IEC 61784 · Standard I/O Profile · Multi Slave Node max. 9 stations"
+        ],
+        [
+          "053-1MT01",
+          0,
+          "IM 053 - Modbus/TCP-Slave",
+          "2-port switch · RJ45 100BaseTX full duplex"
+        ],
+        [
+          "053-1DP00",
+          0,
+          "IM 053 - PROFIBUS-DP-Slave",
+          "DP-V0, DP-V1 · 244byte input · 244Byte output · 244Byte parameter"
+        ],
+        [
+          "053-1CA00",
+          0,
+          "IM 053 - CANopen Slave",
+          "16x Rx / 16x Tx PDOs · 2xSDOs · PDO linking · PDO mapping: fixed"
+        ],
+        [
+          "061-1BA00",
+          0,
+          "IM 061 - Line Extension",
+          "Line Extension SubDevice · installed at first position next line · max. cable length 2m"
+        ],
+        [
+          "060-1AA00",
+          0,
+          "IM 060 - Line Extension",
+          "Line Extension MainDevice · installed at last position in line · max. cable length 2m"
+        ],
+        [
+          "053-1ML40",
+          0,
+          "IM 053 - MECHATROLINK-4",
+          "IEC 61158, IEC 61784 · Standard I/O Profile · Multi Slave Node max. 15 stations"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — Arayüz Modülü (Interface Module)"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "IM 061 - Line Extension",
+        "rows": [
+          [
+            "Model",
+            "IM 061 - Line Extension"
+          ],
+          [
+            "Sipariş kodu",
+            "061-1BA01"
+          ],
+          [
+            "Teknik özet",
+            "Line Extension SubDevice · installed at first position next line · max. cable length 10m"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-guc-kaynagi",
+      "slug": "yaskawa-slio-guc-kaynagi",
+      "title": "VIPA SLIO Güç Kaynağı (Power Module)",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup güç kaynağı (power module) tipindeki 3 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "007-0AA00",
+          0,
+          "PM 007 - Power Module",
+          "DC 24V · electronic module · spare part"
+        ],
+        [
+          "007-1AB00",
+          0,
+          "PM 007 - Power Module",
+          "DC 24V 10A"
+        ],
+        [
+          "007-1AB10",
+          0,
+          "PM 007 - Power Module",
+          "DC 24V 4A · DC 24V/5V 2A"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — Güç Kaynağı (Power Module)"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "PM 007 - Power Module",
+        "rows": [
+          [
+            "Model",
+            "PM 007 - Power Module"
+          ],
+          [
+            "Sipariş kodu",
+            "007-0AA00"
+          ],
+          [
+            "Teknik özet",
+            "DC 24V · electronic module · spare part"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-clamp-modules",
+      "slug": "yaskawa-slio-clamp-modules",
+      "title": "VIPA SLIO Klemens Modülü (Clamp Module)",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup klemens modülü (clamp module) tipindeki 3 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "001-1BA00",
+          0,
+          "CM 001 - Clamp Module",
+          "8xDC 24V terminals"
+        ],
+        [
+          "001-1BA10",
+          0,
+          "CM 001 - Clamp Module",
+          "8xDC 0V terminals"
+        ],
+        [
+          "001-1BA20",
+          0,
+          "CM 001 - Clamp Module",
+          "4xDC 24V terminals · 4xDC 0V terminals"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — Klemens Modülü (Clamp Module)"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "CM 001 - Clamp Module",
+        "rows": [
+          [
+            "Model",
+            "CM 001 - Clamp Module"
+          ],
+          [
+            "Sipariş kodu",
+            "001-1BA00"
+          ],
+          [
+            "Teknik özet",
+            "8xDC 24V terminals"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-communication-processor",
+      "slug": "yaskawa-slio-communication-processor",
+      "title": "VIPA SLIO İletişim İşlemcisi (Communication Processor)",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup iletişim işlemcisi (communication processor) tipindeki 3 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "040-1BA00",
+          0,
+          "CP 040 - Communication Processor",
+          "RS232 interface"
+        ],
+        [
+          "042-1IO00",
+          0,
+          "CP 042 - Master Communication Processor",
+          "IO-Link · 4 channels (4 IO-Link devices)"
+        ],
+        [
+          "040-1CA00",
+          0,
+          "CP 040 - Communication Processor",
+          "RS422/485 interface"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — İletişim İşlemcisi (Communication Processor)"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "CP 040 - Communication Processor",
+        "rows": [
+          [
+            "Model",
+            "CP 040 - Communication Processor"
+          ],
+          [
+            "Sipariş kodu",
+            "040-1BA00"
+          ],
+          [
+            "Teknik özet",
+            "RS232 interface"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-function-modules",
+      "slug": "yaskawa-slio-function-modules",
+      "title": "VIPA SLIO Fonksiyon Modülü (Function Module)",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup fonksiyon modülü (function module) tipindeki 9 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "054-2BA10",
+          0,
+          "FM 054 - Function Module",
+          "Motion Modül · Stepper DC 48V 5A"
+        ],
+        [
+          "050-1BA10",
+          0,
+          "FM 050 - Function Module",
+          "Counter 5V differential · 1x32Bit"
+        ],
+        [
+          "050-1BB00",
+          0,
+          "FM 050 - Function Module",
+          "Counter · 2x32Bit"
+        ],
+        [
+          "050-1BB30",
+          0,
+          "FM 050 - Function Module",
+          "Counter Eco · 2x32Bit"
+        ],
+        [
+          "050-1BB40",
+          0,
+          "FM 050 - Function Module",
+          "Frequency measurement · 2x24Bit"
+        ],
+        [
+          "050-1BS00",
+          0,
+          "FM 050 - Function Module",
+          "SSI"
+        ],
+        [
+          "054-1BA00",
+          0,
+          "FM 054 - Function Module",
+          "Motion · Stepper"
+        ],
+        [
+          "054-1CB00",
+          0,
+          "FM 054 - Function Module",
+          "Motion · 2xDC"
+        ],
+        [
+          "054-1DA00",
+          0,
+          "FM 054 - Function Module",
+          "Motion · Pulse Train · RS422"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — Fonksiyon Modülü (Function Module)"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "FM 054 - Function Module",
+        "rows": [
+          [
+            "Model",
+            "FM 054 - Function Module"
+          ],
+          [
+            "Sipariş kodu",
+            "054-2BA10"
+          ],
+          [
+            "Teknik özet",
+            "Motion Modül · Stepper DC 48V 5A"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-signal-modules-analog",
+      "slug": "yaskawa-slio-signal-modules-analog",
+      "title": "VIPA SLIO Analog Sinyal Modülü",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup analog sinyal modülü tipindeki 39 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "031-1CD28",
+          0,
+          "SM 031 - Analog Input",
+          "AI 8x16Bit TC"
+        ],
+        [
+          "031-1BB10",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x12Bit 0(4)...20mA - ISO"
+        ],
+        [
+          "031-1BB70",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x12Bit ±10V"
+        ],
+        [
+          "031-1BB90",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x16Bit TC"
+        ],
+        [
+          "031-1BD30",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x12Bit 0...10V"
+        ],
+        [
+          "031-1BD40",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x12Bit 0(4)...20mA"
+        ],
+        [
+          "031-1BD70",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x12Bit ±10V"
+        ],
+        [
+          "031-1BD80",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x16Bit R/RTD"
+        ],
+        [
+          "031-1BF60",
+          0,
+          "SM 031 - Analog Input",
+          "AI 8x12Bit 0(4)...20mA"
+        ],
+        [
+          "031-1BF74",
+          0,
+          "SM 031 - Analog Input",
+          "AI 8x12Bit ±10V"
+        ],
+        [
+          "031-1CB30",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x16Bit 0...10V"
+        ],
+        [
+          "031-1CB40",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x16Bit 0(4)...20mA"
+        ],
+        [
+          "031-1CB70",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x16Bit ±10V"
+        ],
+        [
+          "031-1CD30",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x16Bit 0...10V"
+        ],
+        [
+          "031-1CD35",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x16Bit 0...10V"
+        ],
+        [
+          "031-1CD40",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x16Bit 0(4)...20mA"
+        ],
+        [
+          "031-1CD45",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x16Bit 0(4)...20mA"
+        ],
+        [
+          "031-1CD70",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x16Bit ±10V"
+        ],
+        [
+          "031-1LB90",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x16Bit TC ±80mV"
+        ],
+        [
+          "031-1LD80",
+          0,
+          "SM 031 - Analog Input",
+          "AI 4x16Bit R/RTD"
+        ],
+        [
+          "031-1CA20",
+          0,
+          "SM 031 - Analog Input",
+          "AI 1x16(24)Bit DMS"
+        ],
+        [
+          "031-1CF90",
+          0,
+          "SM 031 - Analog Input",
+          "AI 8x16Bit TC"
+        ],
+        [
+          "031-1PA00",
+          0,
+          "SM 031 - Analog Input",
+          "AI1x 3Ph 230/400V 1A"
+        ],
+        [
+          "031-1PA10",
+          0,
+          "SM 031 - Analog Input",
+          "AI 1x3Ph 230/400V 5A"
+        ],
+        [
+          "031-1BB30",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x12Bit 0...10V"
+        ],
+        [
+          "031-1BB40",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x12Bit 0(4)...20mA"
+        ],
+        [
+          "031-1BB60",
+          0,
+          "SM 031 - Analog Input",
+          "AI 2x12Bit 0(4)...20mA - Sensor"
+        ],
+        [
+          "032-1BB30",
+          0,
+          "SM 032 - Analog output",
+          "AO 2x12Bit 0...10V"
+        ],
+        [
+          "032-1BB40",
+          0,
+          "SM 032 - Analog output",
+          "AO 2x12Bit 0(4)...20mA"
+        ],
+        [
+          "032-1BB70",
+          0,
+          "SM 032 - Analog output",
+          "AO 2x12Bit ±10V"
+        ],
+        [
+          "032-1BD30",
+          0,
+          "SM 032 - Analog output",
+          "AO 4x12Bit 0...10V"
+        ],
+        [
+          "032-1BD40",
+          0,
+          "SM 032 - Analog output",
+          "AO 4x12Bit 0(4)...20mA"
+        ],
+        [
+          "032-1BD70",
+          0,
+          "SM 032 - Analog output",
+          "AO 4x12Bit ±10V"
+        ],
+        [
+          "032-1CB30",
+          0,
+          "SM 032 - Analog output",
+          "AO 2x16Bit 0...10V"
+        ],
+        [
+          "032-1CB40",
+          0,
+          "SM 032 - Analog output",
+          "AO 2x16Bit 0(4)...20mA"
+        ],
+        [
+          "032-1CB70",
+          0,
+          "SM 032 - Analog output",
+          "AO 2x16Bit ±10V"
+        ],
+        [
+          "032-1CD30",
+          0,
+          "SM 032 - Analog output",
+          "AO 4x16Bit 0...10V"
+        ],
+        [
+          "032-1CD40",
+          0,
+          "SM 032 - Analog output",
+          "AO 4x16Bit 0(4)...20mA"
+        ],
+        [
+          "032-1CD70",
+          0,
+          "SM 032 - Analog output",
+          "AO 4x16Bit ±10V"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — Analog Sinyal Modülü"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "SM 031 - Analog Input",
+        "rows": [
+          [
+            "Model",
+            "SM 031 - Analog Input"
+          ],
+          [
+            "Sipariş kodu",
+            "031-1CD28"
+          ],
+          [
+            "Teknik özet",
+            "AI 8x16Bit TC"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-signal-modules-digital",
+      "slug": "yaskawa-slio-signal-modules-digital",
+      "title": "VIPA SLIO Dijital Sinyal Modülü",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup dijital sinyal modülü tipindeki 34 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "021-1BF51",
+          0,
+          "SM 021 - Digital Input",
+          "DI 8xDC 24V 0.5ms NPN"
+        ],
+        [
+          "021-1BD80",
+          0,
+          "SM 021 - Digital Input",
+          "DI 4xDC 24V ETS NPN"
+        ],
+        [
+          "021-1DF50",
+          0,
+          "SM 021 - Digital Input",
+          "Belirtilmemiş"
+        ],
+        [
+          "021-1BH00",
+          0,
+          "SM 021 - Digital Input",
+          "DI 16xDC 24V"
+        ],
+        [
+          "021-1BB00",
+          0,
+          "SM 021 - Digital Input",
+          "DI 2xDC 24V"
+        ],
+        [
+          "021-1BB10",
+          0,
+          "SM 021 - Digital Input",
+          "DI 2xDC 24V 2μs...4ms"
+        ],
+        [
+          "021-1BD00",
+          0,
+          "SM 021 - Digital Input",
+          "DI 4xDC 24V"
+        ],
+        [
+          "021-1BD10",
+          0,
+          "SM 021 - Digital Input",
+          "DI 4xDC 24V 2μs...4ms"
+        ],
+        [
+          "021-1BD40",
+          0,
+          "SM 021 - Digital Input",
+          "DI 4xDC 24V 3-wire"
+        ],
+        [
+          "021-1BD50",
+          0,
+          "SM 021 - Digital Input",
+          "DI 4xDC 24V NPN"
+        ],
+        [
+          "021-1BD70",
+          0,
+          "SM 021 - Digital Input",
+          "DI 4xDC 24V ETS"
+        ],
+        [
+          "021-1BF00",
+          0,
+          "SM 021 - Digital Input",
+          "DI 8xDC 24V"
+        ],
+        [
+          "021-1BF01",
+          0,
+          "SM 021 - Digital Input",
+          "DI 8xDC 24V 0.5ms"
+        ],
+        [
+          "021-1BF50",
+          0,
+          "SM 021 - Digital Input",
+          "DI 8xDC 24V NPN"
+        ],
+        [
+          "021-1DF00",
+          0,
+          "SM 021 - Digital Input",
+          "DI 8xDC 24V Diagnostics"
+        ],
+        [
+          "021-1SD00",
+          0,
+          "SM 021 - Digital Input",
+          "SDI 4xDC 24V · Safety / PROFIsafe"
+        ],
+        [
+          "021-1SD10",
+          0,
+          "SM 021 - Digital Input",
+          "SDI 4xDC 24V · Safety / FSoE"
+        ],
+        [
+          "022-1BD80",
+          0,
+          "SM 022 - Digital Output",
+          "DO 8xDC 24V 0.5A"
+        ],
+        [
+          "022-1BH50",
+          0,
+          "SM 022 - Digital Output",
+          "DO 4xDC 24V 0.5A ETS NPN"
+        ],
+        [
+          "022-1BF01",
+          0,
+          "SM 022 - Digital Output",
+          "DO 16xDC 24V 0.5A NPN"
+        ],
+        [
+          "022-1BH00",
+          0,
+          "SM 022 - Digital Output",
+          "DO 16xDC 24V 0.5A"
+        ],
+        [
+          "022-1BB00",
+          0,
+          "SM 022 - Digital Output",
+          "DO 2xDC 24V 0.5A"
+        ],
+        [
+          "022-1BD00",
+          0,
+          "SM 022 - Digital Output",
+          "DO 4xDC 24V 0.5A"
+        ],
+        [
+          "022-1BD20",
+          0,
+          "SM 022 - Digital Output",
+          "DO 4xDC 24V 2A"
+        ],
+        [
+          "022-1BD50",
+          0,
+          "SM 022 - Digital Output",
+          "DO 4xDC 24V 0.5A NPN"
+        ],
+        [
+          "022-1BD70",
+          0,
+          "SM 022 - Digital Output",
+          "DO 4xDC 24V 0.5A ETS"
+        ],
+        [
+          "022-1BF00",
+          0,
+          "SM 022 - Digital Output",
+          "DO 8xDC 24V 0.5A"
+        ],
+        [
+          "022-1BF50",
+          0,
+          "SM 022 - Digital Output",
+          "DO 8xDC 24V 0.5A NPN"
+        ],
+        [
+          "022-1HB10",
+          0,
+          "SM 022 - Digital Output",
+          "DO 2xRelay"
+        ],
+        [
+          "022-1HD10",
+          0,
+          "SM 022 - Digital Output",
+          "DO 4xRelay"
+        ],
+        [
+          "022-1DF00",
+          0,
+          "SM 022 - Digital Output",
+          "DO 8xDC 24V 0.5A Diagnostics"
+        ],
+        [
+          "022-1SD00",
+          0,
+          "SM 022 - Digital Output",
+          "SDO 4xDC 24V 0.5A · Safety /PROFIsafe"
+        ],
+        [
+          "022-1SD10",
+          0,
+          "SM 022 - Digital Output",
+          "SDO 4xDC 24V 0.5A · Safety FSoE"
+        ],
+        [
+          "022-1BB90",
+          0,
+          "SM 022 - Digital Output",
+          "DO 2xDC 24V 0.5A PWM"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — Dijital Sinyal Modülü"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "SM 021 - Digital Input",
+        "rows": [
+          [
+            "Model",
+            "SM 021 - Digital Input"
+          ],
+          [
+            "Sipariş kodu",
+            "021-1BF51"
+          ],
+          [
+            "Teknik özet",
+            "DI 8xDC 24V 0.5ms NPN"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "slio-accessories",
+      "slug": "yaskawa-slio-accessories",
+      "title": "VIPA SLIO Aksesuar",
+      "note": "VIPA SLIO (System SLIO), modüler ve kompakt bir kontrol ve I/O sistemidir; SPEED7 tabanlı CPU, çok sayıda arayüz, haberleşme ve sinyal modülüyle genişletilebilir. Bu grup aksesuar tipindeki 8 modeli kapsar.",
+      "group": [
+        "slio",
+        "VIPA SLIO",
+        10
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "VIPA SD-Card (VSD)",
+          0,
+          "VIPA SD-Card (VSD)",
+          "Industrial SD-Card · 512MB (Industrial SLC)"
+        ],
+        [
+          "VIPASetCard (VSC)",
+          0,
+          "VIPASetCard (VSC)",
+          "Belirtilmemiş"
+        ],
+        [
+          "000-0AA00",
+          0,
+          "SLIO Accessories",
+          "1 piece"
+        ],
+        [
+          "950-0KD30",
+          0,
+          "Line extension cable",
+          "Length: 2m · 2xRJ45 · Connection of IM060 and IM061"
+        ],
+        [
+          "35 mm profile rail",
+          0,
+          "35 mm profile rail",
+          "Length: 530mm · 2000mm"
+        ],
+        [
+          "000-0AB00",
+          0,
+          "Shield bus carrier",
+          "10 pieces"
+        ],
+        [
+          "000-0AC00",
+          0,
+          "Coding pins",
+          "100 pieces"
+        ],
+        [
+          "000-0DN00",
+          0,
+          "DeviceNET connector",
+          "For IM 053-1DN00"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "SLIO — Aksesuar"
+        },
+        {
+          "label": "Seri",
+          "value": "SLIO"
+        }
+      ],
+      "rep": {
+        "model": "VIPA SD-Card (VSD)",
+        "rows": [
+          [
+            "Model",
+            "VIPA SD-Card (VSD)"
+          ],
+          [
+            "Sipariş kodu",
+            "VIPA SD-Card (VSD)"
+          ],
+          [
+            "Teknik özet",
+            "Industrial SD-Card · 512MB (Industrial SLC)"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-slio_20-10-2026.png",
+      "imgSize": [
+        480,
+        407
+      ]
+    },
+    {
+      "key": "300s-cpu",
+      "slug": "yaskawa-300s-cpu",
+      "title": "VIPA 300S+ CPU",
+      "note": "VIPA 300S+ (System 300S), SPEED7 tabanlı CPU ve geniş modül yelpazesiyle Siemens S7-300 mekanik ve elektriksel uyumluluğuna sahip bir kontrol sistemidir. Bu grup cpu tipindeki 14 modeli kapsar.",
+      "group": [
+        "300s",
+        "VIPA 300S+",
+        20
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "CPU 312SC",
+          0,
+          "CPU 312SC",
+          "SPEED7 · 128...1.024KB · 16xDI, 8xDO, 2xCounter, 2xPWM"
+        ],
+        [
+          "CPU 313SC",
+          0,
+          "CPU 313SC",
+          "SPEED7 · 256...1.024KB · 24xDI, 16xDO, 4xAI, 2xAO, 1xPt100, 3xCounter, 3xPWM"
+        ],
+        [
+          "CPU 313SC DPM",
+          0,
+          "CPU 313SC DPM",
+          "SPEED7 · 256...1.024KB · 16xDI, 16xDO, 3xCounter, 3xPWM"
+        ],
+        [
+          "CPU 314SB DPM",
+          0,
+          "CPU 314SB DPM",
+          "SPEED7 · 512...1.024KB"
+        ],
+        [
+          "CPU 314SC DPM",
+          0,
+          "CPU 314SC DPM",
+          "SPEED7 · 512...2.048KB · 24xDI, 16xDO, 8xDIO, 4xAI, 2xAO, 1xPt100, 4xCounter, 4xPWM"
+        ],
+        [
+          "CPU 314SE",
+          0,
+          "CPU 314SE",
+          "SPEED7 · 256...1.024KB"
+        ],
+        [
+          "CPU 314ST",
+          0,
+          "CPU 314ST",
+          "SPEED7 · 512...2.048KB · 8xDI, 8xDIO, 4xAI, 2xAO, 1xPt100, 4xCounter"
+        ],
+        [
+          "CPU 315PN",
+          0,
+          "CPU 315PN",
+          "SPEED7 · 1.024...4.096KB · PROFINET"
+        ],
+        [
+          "CPU 315PN ECO",
+          0,
+          "CPU 315PN ECO",
+          "SPEED7 · 512...1.024KB · PROFINET"
+        ],
+        [
+          "CPU 315SB",
+          0,
+          "CPU 315SB",
+          "SPEED7 · 1.024...4.096KB"
+        ],
+        [
+          "CPU 315SN",
+          0,
+          "CPU 315SN",
+          "SPEED7 · 1.024...4.096KB · Ethernet CP343-Lean"
+        ],
+        [
+          "CPU 317PN",
+          0,
+          "CPU 317PN",
+          "SPEED7 · 8.192KB · PROFINET · SPEED-Bus"
+        ],
+        [
+          "CPU 317SE",
+          0,
+          "CPU 317SE",
+          "SPEED7 · 4.096...8.192KB · SPEED-Bus"
+        ],
+        [
+          "CPU 317SN",
+          0,
+          "CPU 317SN",
+          "SPEED7 · 4.096...8.192KB · Ethernet CP343 · SPEED-Bus"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "300S+ — CPU"
+        },
+        {
+          "label": "Seri",
+          "value": "300S+"
+        }
+      ],
+      "rep": {
+        "model": "CPU 312SC",
+        "rows": [
+          [
+            "Model",
+            "CPU 312SC"
+          ],
+          [
+            "Sipariş kodu",
+            "CPU 312SC"
+          ],
+          [
+            "Teknik özet",
+            "SPEED7 · 128...1.024KB · 16xDI, 8xDO, 2xCounter, 2xPWM"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-300s-plus_20-10-2026.png",
+      "imgSize": [
+        480,
+        733
+      ]
+    },
+    {
+      "key": "300s-interface-modules",
+      "slug": "yaskawa-300s-interface-modules",
+      "title": "VIPA 300S+ Arayüz Modülü (Interface Module)",
+      "note": "VIPA 300S+ (System 300S), SPEED7 tabanlı CPU ve geniş modül yelpazesiyle Siemens S7-300 mekanik ve elektriksel uyumluluğuna sahip bir kontrol sistemidir. Bu grup arayüz modülü (ınterface module) tipindeki 1 modeli kapsar.",
+      "group": [
+        "300s",
+        "VIPA 300S+",
+        20
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "353-1DP01",
+          0,
+          "IM 353DP - PROFIBUS-DP-Slave",
+          "DC 24V · 12Mbit/s · for max. 29 peripheral modules (16 analog)"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "300S+ — Arayüz Modülü (Interface Module)"
+        },
+        {
+          "label": "Seri",
+          "value": "300S+"
+        }
+      ],
+      "rep": {
+        "model": "IM 353DP - PROFIBUS-DP-Slave",
+        "rows": [
+          [
+            "Model",
+            "IM 353DP - PROFIBUS-DP-Slave"
+          ],
+          [
+            "Sipariş kodu",
+            "353-1DP01"
+          ],
+          [
+            "Teknik özet",
+            "DC 24V · 12Mbit/s · for max. 29 peripheral modules (16 analog)"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-300s-plus_20-10-2026.png",
+      "imgSize": [
+        480,
+        733
+      ]
+    },
+    {
+      "key": "300s-guc-kaynagi",
+      "slug": "yaskawa-300s-guc-kaynagi",
+      "title": "VIPA 300S+ Güç Kaynağı (Power Module)",
+      "note": "VIPA 300S+ (System 300S), SPEED7 tabanlı CPU ve geniş modül yelpazesiyle Siemens S7-300 mekanik ve elektriksel uyumluluğuna sahip bir kontrol sistemidir. Bu grup güç kaynağı (power module) tipindeki 3 modeli kapsar.",
+      "group": [
+        "300s",
+        "VIPA 300S+",
+        20
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "307-1EA00",
+          0,
+          "PS 307 - Power Supply",
+          "AC 120...230V · DC 24V · 5A · 60/50Hz switchable"
+        ],
+        [
+          "307-1FB70",
+          0,
+          "PS 307 - Power Supply",
+          "DC 24V · 5.5A · only for 317S CPUs"
+        ],
+        [
+          "307-1KA00",
+          0,
+          "PS 307 - Power Supply",
+          "AC 120...230V · DC 24V · 10A · 60/50Hz switchable"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "300S+ — Güç Kaynağı (Power Module)"
+        },
+        {
+          "label": "Seri",
+          "value": "300S+"
+        }
+      ],
+      "rep": {
+        "model": "PS 307 - Power Supply",
+        "rows": [
+          [
+            "Model",
+            "PS 307 - Power Supply"
+          ],
+          [
+            "Sipariş kodu",
+            "307-1EA00"
+          ],
+          [
+            "Teknik özet",
+            "AC 120...230V · DC 24V · 5A · 60/50Hz switchable"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-300s-plus_20-10-2026.png",
+      "imgSize": [
+        480,
+        733
+      ]
+    },
+    {
+      "key": "300s-communication-processor",
+      "slug": "yaskawa-300s-communication-processor",
+      "title": "VIPA 300S+ İletişim İşlemcisi (Communication Processor)",
+      "note": "VIPA 300S+ (System 300S), SPEED7 tabanlı CPU ve geniş modül yelpazesiyle Siemens S7-300 mekanik ve elektriksel uyumluluğuna sahip bir kontrol sistemidir. Bu grup iletişim işlemcisi (communication processor) tipindeki 8 modeli kapsar.",
+      "group": [
+        "300s",
+        "VIPA 300S+",
+        20
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "341-1AH0",
+          0,
+          "CP 341 - Communication processor",
+          "RS232"
+        ],
+        [
+          "341-1CH01",
+          0,
+          "CP 341 - Communication processor",
+          "RS422/485"
+        ],
+        [
+          "341-2CH71",
+          0,
+          "CP 341 - Communication processor",
+          "2x RS422/485 · SPEED-Bus"
+        ],
+        [
+          "342-0IA01",
+          0,
+          "300S Accessories",
+          "Configuration / diagnosis module for 342-2IA71"
+        ],
+        [
+          "342-1CA70",
+          0,
+          "CP 342S CAN - CANopen-Master",
+          "CAN · SPEED-Bus"
+        ],
+        [
+          "342-1DA70",
+          0,
+          "CP 342S DP - PROFIBUS-DP-Master",
+          "DP · SPEED-Bus"
+        ],
+        [
+          "342-2IA71",
+          0,
+          "CP 342S IBS - INTERBUS Master",
+          "2IBS · SPEED-Bus"
+        ],
+        [
+          "343-1EX71",
+          0,
+          "CP 343S TCP/IP - Ethernet-CP",
+          "NET · SPEED-Bus"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "300S+ — İletişim İşlemcisi (Communication Processor)"
+        },
+        {
+          "label": "Seri",
+          "value": "300S+"
+        }
+      ],
+      "rep": {
+        "model": "CP 341 - Communication processor",
+        "rows": [
+          [
+            "Model",
+            "CP 341 - Communication processor"
+          ],
+          [
+            "Sipariş kodu",
+            "341-1AH0"
+          ],
+          [
+            "Teknik özet",
+            "RS232"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-300s-plus_20-10-2026.png",
+      "imgSize": [
+        480,
+        733
+      ]
+    },
+    {
+      "key": "300s-signal-modules-analog",
+      "slug": "yaskawa-300s-signal-modules-analog",
+      "title": "VIPA 300S+ Analog Sinyal Modülü",
+      "note": "VIPA 300S+ (System 300S), SPEED7 tabanlı CPU ve geniş modül yelpazesiyle Siemens S7-300 mekanik ve elektriksel uyumluluğuna sahip bir kontrol sistemidir. Bu grup analog sinyal modülü tipindeki 8 modeli kapsar.",
+      "group": [
+        "300s",
+        "VIPA 300S+",
+        20
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "331-1KF01",
+          0,
+          "SM 331 - Analog Input",
+          "AI 8x13Bit · U, I, RTD, TC · for 40pol. front connect."
+        ],
+        [
+          "331-7AF70",
+          0,
+          "SM 331S - Analog Input FAST-SPEED-Bus",
+          "AI 8x16Bit · ±20mA · SPEED-Bus · for 20pol. front connector"
+        ],
+        [
+          "331-7BF70",
+          0,
+          "SM 331S - Analog Input FAST-SPEED-Bus",
+          "AI 8x16Bit · ±10V · SPEED-Bus · for 20pol. front connector"
+        ],
+        [
+          "331-7KB01",
+          0,
+          "SM 331 - Analog Input",
+          "AI 2x12Bit · U, I, RTD, TC · for 20pol. front connector"
+        ],
+        [
+          "331-7KF01",
+          0,
+          "SM 331 - Analog Input",
+          "AI 8x12Bit · U, I, RTD, TC · for 20pol. front connector"
+        ],
+        [
+          "332-5HB01",
+          0,
+          "SM 332 - Analog Output",
+          "AO 2x12Bit · U, I · for 20pol. front connector"
+        ],
+        [
+          "332-5HD01",
+          0,
+          "SM 332 - Analog Output",
+          "AO 4x12Bit · U, I · for 20pin. front connector"
+        ],
+        [
+          "334-0KE00",
+          0,
+          "SM 334 - Analog In-/Output",
+          "AI 4x · AO 2x12Bit · Input: RTD / Output: U · for 20 pol. front connector"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "300S+ — Analog Sinyal Modülü"
+        },
+        {
+          "label": "Seri",
+          "value": "300S+"
+        }
+      ],
+      "rep": {
+        "model": "SM 331 - Analog Input",
+        "rows": [
+          [
+            "Model",
+            "SM 331 - Analog Input"
+          ],
+          [
+            "Sipariş kodu",
+            "331-1KF01"
+          ],
+          [
+            "Teknik özet",
+            "AI 8x13Bit · U, I, RTD, TC · for 40pol. front connect."
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-300s-plus_20-10-2026.png",
+      "imgSize": [
+        480,
+        733
+      ]
+    },
+    {
+      "key": "300s-signal-modules-digital",
+      "slug": "yaskawa-300s-signal-modules-digital",
+      "title": "VIPA 300S+ Dijital Sinyal Modülü",
+      "note": "VIPA 300S+ (System 300S), SPEED7 tabanlı CPU ve geniş modül yelpazesiyle Siemens S7-300 mekanik ve elektriksel uyumluluğuna sahip bir kontrol sistemidir. Bu grup dijital sinyal modülü tipindeki 18 modeli kapsar.",
+      "group": [
+        "300s",
+        "VIPA 300S+",
+        20
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "321-1BH01",
+          0,
+          "SM 321 - Digital Input",
+          "DI 16xDC 24V"
+        ],
+        [
+          "321-1BH70",
+          0,
+          "SM 321 - Digital Input",
+          "DI 16xDC 24V · SPEED-Bus"
+        ],
+        [
+          "321-1BL00",
+          0,
+          "SM 321 - Digital Input",
+          "DI 32xDC 24V"
+        ],
+        [
+          "321-1FH00",
+          0,
+          "SM 321 - Digital Input",
+          "DI 16xAC 120/230V"
+        ],
+        [
+          "323-1BH00",
+          0,
+          "SM 323 - Digital In-/Output",
+          "DIO 16xDC 24V, 1A"
+        ],
+        [
+          "323-1BH01",
+          0,
+          "SM 323 - Digital In-/Output",
+          "DI 8xDC 24V · DO 8xDC 24V, 1A"
+        ],
+        [
+          "323-1BH70",
+          0,
+          "SM 323 - Digital In-/Output",
+          "DIO 16xDC24V 0.5A · SPEED-Bus"
+        ],
+        [
+          "323-1BL00",
+          0,
+          "SM 323 - Digital In-/Output",
+          "DI 16xDC 24V · DO 16xDC 24V, 1A"
+        ],
+        [
+          "323-1BL00-S",
+          0,
+          "SM 323 - Digital In-/Output",
+          "DI 16xDC 24V · DO 16xDC 24V, 1A"
+        ],
+        [
+          "322-1BF01",
+          0,
+          "SM 322 - Digital Output",
+          "DO 8xDC 24V, 2A"
+        ],
+        [
+          "322-1BH01",
+          0,
+          "SM 322 - Digital Output",
+          "DO 16xDC 24V, 1A"
+        ],
+        [
+          "322-1BH01-S",
+          0,
+          "SM 322 - Digital Output",
+          "DO 16xDC 24V, 1A"
+        ],
+        [
+          "322-1BH41",
+          0,
+          "SM 322 - Digital Output",
+          "DO 16xDC 24V, 2A"
+        ],
+        [
+          "322-1BH70",
+          0,
+          "SM 322 - Digital Output",
+          "DO 16xDC 24V 0.5A · SPEED-Bus"
+        ],
+        [
+          "322-1BL00",
+          0,
+          "SM 322 - Digital Output",
+          "DO 32xDC 24V, 1A"
+        ],
+        [
+          "322-1BL00-S",
+          0,
+          "SM 322 - Digital Output",
+          "DO 32xDC 24V, 1A"
+        ],
+        [
+          "322-1HH00",
+          0,
+          "SM 322 - Digital Output",
+          "DO 16xRelay AC 230V / DC 30V"
+        ],
+        [
+          "322-5FF00",
+          0,
+          "SM 322 - Digital Output",
+          "DO 8xAC 120/230V, 2A"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "300S+ — Dijital Sinyal Modülü"
+        },
+        {
+          "label": "Seri",
+          "value": "300S+"
+        }
+      ],
+      "rep": {
+        "model": "SM 321 - Digital Input",
+        "rows": [
+          [
+            "Model",
+            "SM 321 - Digital Input"
+          ],
+          [
+            "Sipariş kodu",
+            "321-1BH01"
+          ],
+          [
+            "Teknik özet",
+            "DI 16xDC 24V"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-300s-plus_20-10-2026.png",
+      "imgSize": [
+        480,
+        733
+      ]
+    },
+    {
+      "key": "300s-accessories",
+      "slug": "yaskawa-300s-accessories",
+      "title": "VIPA 300S+ Aksesuar",
+      "note": "VIPA 300S+ (System 300S), SPEED7 tabanlı CPU ve geniş modül yelpazesiyle Siemens S7-300 mekanik ve elektriksel uyumluluğuna sahip bir kontrol sistemidir. Bu grup aksesuar tipindeki 31 modeli kapsar.",
+      "group": [
+        "300s",
+        "VIPA 300S+",
+        20
+      ],
+      "cols": [
+        "Model adı",
+        "Teknik özet"
+      ],
+      "codes": [
+        [
+          "390-1AB60",
+          0,
+          "300S Accessories",
+          "Profil rail · Length: 160mm"
+        ],
+        [
+          "390-1AE80",
+          0,
+          "300S Accessories",
+          "Profil rail · Length: 482mm"
+        ],
+        [
+          "390-1AF30",
+          0,
+          "300S Accessories",
+          "Profil rail · Length: 530mm"
+        ],
+        [
+          "390-1AJ30",
+          0,
+          "300S Accessories",
+          "Profil rail · Length: 830mm"
+        ],
+        [
+          "391-1AF10",
+          0,
+          "300S Accessories",
+          "Length: 530mm · High-SPEED backplane bus · for 2 expansion slots"
+        ],
+        [
+          "391-1AF30",
+          0,
+          "300S Accessories",
+          "Length: 530mm · High-SPEED backplane bus · for 6 expansion slots"
+        ],
+        [
+          "391-1AF50",
+          0,
+          "300S Accessories",
+          "Length: 530mm · High-SPEED backplane bus · for 10 expansion slots"
+        ],
+        [
+          "391-1AJ10",
+          0,
+          "300S Accessories",
+          "Length: 830mm · High-SPEED backplane bus · for 2 expansion slots"
+        ],
+        [
+          "391-1AJ30",
+          0,
+          "300S Accessories",
+          "Length: 830mm · High-SPEED backplane bus · for 6 expansion slots"
+        ],
+        [
+          "391-1AJ50",
+          0,
+          "300S Accessories",
+          "Length: 830mm · High-SPEED backplane bus · for 10 expansion slots"
+        ],
+        [
+          "392-1AJ00",
+          0,
+          "300S Accessories",
+          "Front connector · 20pin · Screw contact"
+        ],
+        [
+          "392-1AM00",
+          0,
+          "300S Accessories",
+          "Front connector · 40pin · Screw contact"
+        ],
+        [
+          "392-1BJ00",
+          0,
+          "300S Accessories",
+          "Front connector · 20pole · Cage clamps"
+        ],
+        [
+          "392-1BM01",
+          0,
+          "300S Accessories",
+          "Front connector · 40pole · Cage clamps"
+        ],
+        [
+          "922-3BC50",
+          0,
+          "300S Accessories",
+          "Front connector · 20pin · 20 single cores · cable length: 2.5m"
+        ],
+        [
+          "922-3BD20",
+          0,
+          "300S Accessories",
+          "Front connector · 20pin · 20 single cores · cable length: 3.2m"
+        ],
+        [
+          "922-3BF00",
+          0,
+          "300S Accessories",
+          "Front connector · 20pin · 20 single cores · cable length: 5m"
+        ],
+        [
+          "922-6BC50",
+          0,
+          "300S Accessories",
+          "Front connector · 40pin · 40 single cores · cable length: 2.5m"
+        ],
+        [
+          "922-6BD20",
+          0,
+          "300S Accessories",
+          "Front connector · 40pin · 40 single cores · cable length: 3.2m"
+        ],
+        [
+          "922-6BF00",
+          0,
+          "300S Accessories",
+          "Front connector · 40pin · 40 single cores · cable length: 5m"
+        ],
+        [
+          "953-0KX10",
+          0,
+          "300S Accessories",
+          "MMC for CPUs 11x, 21x, 24x, 31x, 51x · MMC for 208-1DP01, CC 03"
+        ],
+        [
+          "953-1LE00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 32KB · 16KB program / 16KB data"
+        ],
+        [
+          "953-1LF00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 64KB · 32KB program / 32KB data"
+        ],
+        [
+          "953-1LG00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 128KB · 64KB program / 64KB data"
+        ],
+        [
+          "953-1LH00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 256KB · 128KB program / 128KB data"
+        ],
+        [
+          "953-1LJ00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 512KB · 256KB program / 256KB data"
+        ],
+        [
+          "953-1LK00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 1MB · 512KB program / 512KB data"
+        ],
+        [
+          "953-1LL00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 2MB · 1MB program/1MB data"
+        ],
+        [
+          "953-1LM00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 4MB · 2MB program/2MB data"
+        ],
+        [
+          "953-1LP00",
+          0,
+          "300S Accessories",
+          "MMC for SPEED7 CPUs · 8MB · 4MB program/4MB data"
+        ],
+        [
+          "VIPA SD-Card (VSD)",
+          0,
+          "VIPA SD-Card (VSD)",
+          "Industrial SD-Card · 512MB (Industrial SLC)"
+        ]
+      ],
+      "specs": [
+        {
+          "label": "Marka",
+          "value": "VIPA (Yaskawa'nın satın aldığı marka)"
+        },
+        {
+          "label": "Ürün grubu",
+          "value": "300S+ — Aksesuar"
+        },
+        {
+          "label": "Seri",
+          "value": "300S+"
+        }
+      ],
+      "rep": {
+        "model": "300S Accessories",
+        "rows": [
+          [
+            "Model",
+            "300S Accessories"
+          ],
+          [
+            "Sipariş kodu",
+            "390-1AB60"
+          ],
+          [
+            "Teknik özet",
+            "Profil rail · Length: 160mm"
+          ]
+        ]
+      },
+      "img": "yaskawa-kontrol-300s-plus_20-10-2026.png",
+      "imgSize": [
+        480,
+        733
+      ]
+    }
+  ]
+}

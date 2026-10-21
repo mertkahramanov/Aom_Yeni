@@ -1,0 +1,1408 @@
+{
+  "series": [
+    {
+      "key": "CR700",
+      "slug": "cr700",
+      "title": "CR700 Serisi — Vinç (Kaldırma) Uygulaması AC Sürücüsü",
+      "note": "Vinç ve kaldırma uygulamaları için geliştirilmiş, yalnızca 400 V gerilim sınıfında üretilen AC sürücü.",
+      "cols": [
+        "Güç (kW)",
+        "Akım (A)",
+        "Gerilim"
+      ],
+      "codes": [
+        [
+          "CIPR-CR70C4002BBA",
+          0.4,
+          1.8,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4003BBA",
+          0.75,
+          3.4,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4005BBA",
+          1.5,
+          4.8,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4006BBA",
+          2.2,
+          5.5,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4007BBA",
+          3,
+          7.2,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4009BBA",
+          3.7,
+          9.2,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4015BBA",
+          5.5,
+          14.8,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4018BBA",
+          7.5,
+          18,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4024BBA",
+          11,
+          24,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4031BBA",
+          15,
+          31,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4039BBA",
+          18.5,
+          39,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4045BBA",
+          22,
+          45,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4060BBA",
+          30,
+          60,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4075BBA",
+          37,
+          75,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4091BBA",
+          45,
+          91,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4112BBA",
+          55,
+          112,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4150BBA",
+          75,
+          150,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4180BBA",
+          90,
+          180,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4216BBA",
+          110,
+          216,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4260BBA",
+          132,
+          260,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4304BBA",
+          160,
+          304,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4371BBA",
+          200,
+          371,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4414BBA",
+          220,
+          414,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4453BBA",
+          250,
+          453,
+          "400 V"
+        ],
+        [
+          "CIPR-CR70C4605BBA",
+          315,
+          605,
+          "400 V"
+        ]
+      ],
+      "specs": [
+        [
+          "Marka",
+          "Yaskawa"
+        ],
+        [
+          "Seri",
+          "CR700"
+        ],
+        [
+          "Uygulama",
+          "Vinç (kule vinç, gezer vinç, kaldırma) uygulamaları"
+        ],
+        [
+          "Sipariş kodu sayısı",
+          "25 kod"
+        ],
+        [
+          "Güç aralığı (HD)",
+          "0.4 – 315 kW"
+        ],
+        [
+          "Akım aralığı (HD)",
+          "1.8 – 605 A"
+        ],
+        [
+          "Gerilim sınıfı",
+          "400 V (tamamı)"
+        ]
+      ],
+      "rep": {
+        "model": "CIPR-CR70C4060BBA",
+        "rows": [
+          [
+            "Giriş Güç Kaynağı",
+            "400 V"
+          ],
+          [
+            "Anma Çıkış Akımı (HD)",
+            "60 A"
+          ],
+          [
+            "Aşırı yük toleransı (ND)",
+            "120 % for 60 s"
+          ],
+          [
+            "Aşırı yük toleransı (HD)",
+            "150 % for 60 s"
+          ],
+          [
+            "Maks. Uygulanabilir Motor Çıkışı (HD)",
+            "30 kW"
+          ],
+          [
+            "Giriş Güç Fazları",
+            "3-faz"
+          ],
+          [
+            "EMC Filtre",
+            "✓ Evet"
+          ],
+          [
+            "Motor Tipi",
+            "İndüksiyon motoru"
+          ],
+          [
+            "Enkoder",
+            "✓ Evet"
+          ],
+          [
+            "Standartlara Uygunluk",
+            "CE, RoHS, UL, UKCA"
+          ],
+          [
+            "Çevre Sıcaklığı (Min)",
+            "-10 °C"
+          ],
+          [
+            "Çevre Sıcaklığı (Maks)",
+            "50 °C"
+          ],
+          [
+            "Yükseklik",
+            "400 mm"
+          ],
+          [
+            "Genişlik",
+            "240 mm"
+          ],
+          [
+            "Derinlik",
+            "280 mm"
+          ],
+          [
+            "Ağırlık",
+            "17 kg"
+          ],
+          [
+            "Soğutma yöntemi",
+            "Hava soğutmalı"
+          ],
+          [
+            "Muhafaza",
+            "IP20"
+          ],
+          [
+            "Çevresel Teknik Özellikler",
+            "Standart"
+          ],
+          [
+            "Analog giriş",
+            "3"
+          ],
+          [
+            "Analog çıkış",
+            "2"
+          ],
+          [
+            "Dijital giriş",
+            "8"
+          ],
+          [
+            "Dijital çıkış",
+            "4"
+          ],
+          [
+            "Güvenlik seviyesi (SIL)",
+            "SIL3"
+          ],
+          [
+            "Performans seviyesi (PL)",
+            "PL e"
+          ],
+          [
+            "Tork kontrolü",
+            "Standart"
+          ],
+          [
+            "Frenleme Transistörü",
+            "Dahili"
+          ],
+          [
+            "Motor termal koruması",
+            "Standart"
+          ],
+          [
+            "Maks. çıkış frekansı",
+            "590 Hz"
+          ]
+        ]
+      },
+      "img": "yaskawa-ac-cr700_20-10-2026.png",
+      "imgSize": [
+        500,
+        750
+      ]
+    },
+    {
+      "key": "L1000A",
+      "slug": "l1000a",
+      "title": "L1000A Serisi — Asansör AC Sürücüsü",
+      "note": "Yeni asansör tesisatı, makine dairesiz (MRL) asansörler ve modernizasyon projeleri için AC sürücü.",
+      "cols": [
+        "Güç (kW)",
+        "Akım (A)",
+        "Gerilim"
+      ],
+      "codes": [
+        [
+          "CIMR-LC4F0005BAA",
+          1.5,
+          4.8,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0008BAA",
+          1.5,
+          8,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0006BAA",
+          2.2,
+          5.5,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0011BAA",
+          2.2,
+          11,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0009BAA",
+          3.7,
+          9.2,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0018BAA",
+          3.7,
+          17.5,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0015BAA",
+          5.5,
+          14.8,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0025BAA",
+          5.5,
+          25,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0018BAA",
+          7.5,
+          18,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0033BAA",
+          7.5,
+          33,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0024BAA",
+          11,
+          24,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0047BAA",
+          11,
+          47,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0031BAA",
+          15,
+          31,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0060BAA",
+          15,
+          60,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0039BAA",
+          18.5,
+          39,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0075BAA",
+          18.5,
+          75,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0045BAA",
+          22,
+          45,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0085BAA",
+          22,
+          85,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0060BAA",
+          30,
+          60,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0115BAA",
+          30,
+          115,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0075BAA",
+          37,
+          75,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0145BAA",
+          37,
+          145,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0091BAA",
+          45,
+          91,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0180BAA",
+          45,
+          180,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0112BAA",
+          55,
+          112,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0215BAA",
+          55,
+          215,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0150BAA",
+          75,
+          150,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0283BAA",
+          75,
+          283,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0180BAA",
+          90,
+          180,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0346BAA",
+          90,
+          346,
+          "200 V"
+        ],
+        [
+          "CIMR-LC4F0216BAA",
+          110,
+          216,
+          "400 V"
+        ],
+        [
+          "CIMR-LC2A0415BAA",
+          110,
+          415,
+          "200 V"
+        ]
+      ],
+      "specs": [
+        [
+          "Marka",
+          "Yaskawa"
+        ],
+        [
+          "Seri",
+          "L1000A"
+        ],
+        [
+          "Uygulama",
+          "Asansör (yeni tesis ve modernizasyon)"
+        ],
+        [
+          "Sipariş kodu sayısı",
+          "32 kod"
+        ],
+        [
+          "Güç aralığı (HD)",
+          "1.5 – 110 kW"
+        ],
+        [
+          "Akım aralığı (HD)",
+          "4.8 – 415 A"
+        ],
+        [
+          "Gerilim sınıfı",
+          "200 V (16) / 400 V (16)"
+        ]
+      ],
+      "rep": {
+        "model": "CIMR-LC4F0045BAA",
+        "rows": [
+          [
+            "Giriş Güç Kaynağı",
+            "400 V"
+          ],
+          [
+            "Anma Çıkış Akımı (HD)",
+            "45 A"
+          ],
+          [
+            "Aşırı yük toleransı (ND)",
+            "120 % for 60 s"
+          ],
+          [
+            "Aşırı yük toleransı (HD)",
+            "150 % for 60 s"
+          ],
+          [
+            "Maks. Uygulanabilir Motor Çıkışı (HD)",
+            "22 kW"
+          ],
+          [
+            "Giriş Güç Fazları",
+            "3-faz"
+          ],
+          [
+            "Motor Tipi",
+            "İndüksiyon motoru, Kalıcı mıknatıslı (PM) motor"
+          ],
+          [
+            "Enkoder",
+            "✓ Evet"
+          ],
+          [
+            "Standartlara Uygunluk",
+            "CE, RoHS, UL, cUL, UKCA"
+          ],
+          [
+            "Çevre Sıcaklığı (Maks)",
+            "50 °C"
+          ],
+          [
+            "Yükseklik",
+            "465 mm"
+          ],
+          [
+            "Genişlik",
+            "254 mm"
+          ],
+          [
+            "Derinlik",
+            "258 mm"
+          ],
+          [
+            "Ağırlık",
+            "23 kg"
+          ],
+          [
+            "Soğutma yöntemi",
+            "Hava soğutmalı"
+          ],
+          [
+            "Muhafaza",
+            "IP20"
+          ],
+          [
+            "Çevresel Teknik Özellikler",
+            "Standart"
+          ],
+          [
+            "Analog giriş",
+            "2"
+          ],
+          [
+            "Analog çıkış",
+            "2"
+          ],
+          [
+            "Dijital giriş",
+            "8"
+          ],
+          [
+            "Dijital çıkış",
+            "6"
+          ],
+          [
+            "Güvenlik seviyesi (SIL)",
+            "SIL2"
+          ],
+          [
+            "Performans seviyesi (PL)",
+            "PL d"
+          ],
+          [
+            "Tork kontrolü",
+            "Mevcut değil"
+          ],
+          [
+            "Motor termal koruması",
+            "Standart"
+          ],
+          [
+            "Maks. çıkış frekansı",
+            "200 Hz"
+          ]
+        ]
+      },
+      "img": "yaskawa-ac-l1000a_20-10-2026.png",
+      "imgSize": [
+        500,
+        750
+      ]
+    },
+    {
+      "key": "HV600",
+      "slug": "hv600",
+      "title": "HV600 Serisi — HVAC / İklimlendirme AC Sürücüsü",
+      "note": "HVAC (ısıtma, havalandırma, iklimlendirme) sistemlerinde pompa ve fan uygulamalarına yönelik AC sürücü.",
+      "cols": [
+        "Güç (kW)",
+        "Akım (A)",
+        "Gerilim"
+      ],
+      "codes": [
+        [
+          "CIPR-HV60C4005CFA",
+          1.5,
+          4.8,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4005CVA",
+          1.5,
+          4.8,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4006CFA",
+          2.2,
+          5.4,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4006CVA",
+          2.2,
+          5.4,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2011CFA",
+          2.2,
+          10.6,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2011CVA",
+          2.2,
+          10.6,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4008CFA",
+          3,
+          7.6,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4008CVA",
+          3,
+          7.6,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2017CFA",
+          3.7,
+          16.7,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2017CVA",
+          3.7,
+          16.7,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4011CFA",
+          4,
+          11,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4011CVA",
+          4,
+          11,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4014CFA",
+          5.5,
+          14,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4014CVA",
+          5.5,
+          14,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2024CFA",
+          5.5,
+          24.2,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2024CVA",
+          5.5,
+          24.2,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4021CFA",
+          7.5,
+          21,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4021CVA",
+          7.5,
+          21,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2031CFA",
+          7.5,
+          30.8,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2031CVA",
+          7.5,
+          30.8,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4027CFA",
+          11,
+          27,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4027CVA",
+          11,
+          27,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2046CFA",
+          11,
+          46.2,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2046CVA",
+          11,
+          46.2,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4034CFA",
+          15,
+          34,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4034CVA",
+          15,
+          34,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2059CFA",
+          15,
+          59.4,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2059CVA",
+          15,
+          59.4,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4040CFA",
+          18.5,
+          40,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4040CVA",
+          18.5,
+          40,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2075CFA",
+          18.5,
+          74.8,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2075CVA",
+          18.5,
+          74.8,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4052CFA",
+          22,
+          52,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4052CVA",
+          22,
+          52,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2088CFA",
+          22,
+          88,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2088CVA",
+          22,
+          88,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4065CFA",
+          30,
+          65,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4065CVA",
+          30,
+          65,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2114CFA",
+          30,
+          114,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2114CVA",
+          30,
+          114,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4077CFA",
+          37,
+          77,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4077CVA",
+          37,
+          77,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2143CVA",
+          37,
+          143,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4096CFA",
+          45,
+          96,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4096CVA",
+          45,
+          96,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2169CFA",
+          45,
+          169,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C2169CVA",
+          45,
+          169,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4124CFA",
+          55,
+          124,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4124CVA",
+          55,
+          124,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C2211CFA",
+          55,
+          211,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4156CFA",
+          75,
+          156,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60A2273CFA",
+          75,
+          273,
+          "200 V"
+        ],
+        [
+          "CIPR-HV60C4180CFA",
+          90,
+          180,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60A4240CFA",
+          110,
+          240,
+          "400 V"
+        ],
+        [
+          "CIPR-HV60C4302CFA",
+          160,
+          302,
+          "400 V"
+        ]
+      ],
+      "specs": [
+        [
+          "Marka",
+          "Yaskawa"
+        ],
+        [
+          "Seri",
+          "HV600"
+        ],
+        [
+          "Uygulama",
+          "HVAC: pompa, fan ve iklimlendirme uygulamaları"
+        ],
+        [
+          "Sipariş kodu sayısı",
+          "55 kod"
+        ],
+        [
+          "Güç aralığı (ND)",
+          "1.5 – 160 kW"
+        ],
+        [
+          "Akım aralığı (ND)",
+          "4.8 – 302 A"
+        ],
+        [
+          "Gerilim sınıfı",
+          "200 V (23) / 400 V (32)"
+        ]
+      ],
+      "rep": {
+        "model": "CIPR-HV60C4077CVA",
+        "rows": [
+          [
+            "Giriş Güç Kaynağı",
+            "400 V"
+          ],
+          [
+            "Anma Çıkış Akımı (ND)",
+            "77 A"
+          ],
+          [
+            "Maks. Uygulanabilir Motor Çıkışı (ND)",
+            "37 kW"
+          ],
+          [
+            "Giriş Güç Fazları",
+            "3-faz"
+          ],
+          [
+            "Çevre Sıcaklığı (Maks)",
+            "40 °C"
+          ],
+          [
+            "Muhafaza",
+            "IP55/UL Type 12"
+          ]
+        ]
+      },
+      "img": "yaskawa-ac-hv600_20-10-2026.png",
+      "imgSize": [
+        500,
+        750
+      ]
+    },
+    {
+      "key": "LA500",
+      "slug": "la500",
+      "title": "LA500 Serisi — Asansör AC Sürücüsü",
+      "note": "Entegre güvenlik fonksiyonlarına sahip, asansör modernizasyonu ve küçük/orta kapasiteli yeni tesisler için AC sürücü.",
+      "cols": [
+        "Güç (kW)",
+        "Akım (A)",
+        "Gerilim"
+      ],
+      "codes": [
+        [
+          "LA50C4009EBB",
+          4,
+          9.2,
+          "400 V"
+        ],
+        [
+          "LA50C4009ABB",
+          4,
+          9.2,
+          "400 V"
+        ],
+        [
+          "LA50C2018EBB",
+          4,
+          17.6,
+          "200 V"
+        ],
+        [
+          "LA50C2018ABB",
+          4,
+          17.6,
+          "200 V"
+        ],
+        [
+          "LA50C4015EBB",
+          5.5,
+          14.8,
+          "400 V"
+        ],
+        [
+          "LA50C4015ABB",
+          5.5,
+          14.8,
+          "400 V"
+        ],
+        [
+          "LA50C2025EBB",
+          5.5,
+          25,
+          "200 V"
+        ],
+        [
+          "LA50C2025ABB",
+          5.5,
+          25,
+          "200 V"
+        ],
+        [
+          "LA50C4018EBB",
+          7.5,
+          18,
+          "400 V"
+        ],
+        [
+          "LA50C4018ABB",
+          7.5,
+          18,
+          "400 V"
+        ],
+        [
+          "LA50C2033EBB",
+          7.5,
+          33,
+          "200 V"
+        ],
+        [
+          "LA50C2033ABB",
+          7.5,
+          33,
+          "200 V"
+        ],
+        [
+          "LA50C4024EBB",
+          11,
+          24,
+          "400 V"
+        ],
+        [
+          "LA50C4024ABB",
+          11,
+          24,
+          "400 V"
+        ],
+        [
+          "LA50C2047EBB",
+          11,
+          47,
+          "200 V"
+        ],
+        [
+          "LA50C2047ABB",
+          11,
+          47,
+          "200 V"
+        ],
+        [
+          "LA50C4031EBB",
+          15,
+          31,
+          "400 V"
+        ],
+        [
+          "LA50C4031ABB",
+          15,
+          31,
+          "400 V"
+        ],
+        [
+          "LA50C2060EBB",
+          15,
+          60,
+          "200 V"
+        ],
+        [
+          "LA50C2060ABB",
+          15,
+          60,
+          "200 V"
+        ],
+        [
+          "LA50C4039EBB",
+          18.5,
+          39,
+          "400 V"
+        ],
+        [
+          "LA50C4039ABB",
+          18.5,
+          39,
+          "400 V"
+        ],
+        [
+          "LA50C2075EBB",
+          18.5,
+          75,
+          "200 V"
+        ],
+        [
+          "LA50C2075ABB",
+          18.5,
+          75,
+          "200 V"
+        ],
+        [
+          "LA50C4045EBB",
+          22,
+          45,
+          "400 V"
+        ],
+        [
+          "LA50C4045ABB",
+          22,
+          45,
+          "400 V"
+        ]
+      ],
+      "specs": [
+        [
+          "Marka",
+          "Yaskawa"
+        ],
+        [
+          "Seri",
+          "LA500"
+        ],
+        [
+          "Uygulama",
+          "Asansör (modernizasyon ve küçük/orta kapasiteli yeni tesis)"
+        ],
+        [
+          "Sipariş kodu sayısı",
+          "26 kod"
+        ],
+        [
+          "Güç aralığı (HD)",
+          "4 – 22 kW"
+        ],
+        [
+          "Akım aralığı (HD)",
+          "9.2 – 75 A"
+        ],
+        [
+          "Gerilim sınıfı",
+          "200 V (12) / 400 V (14)"
+        ]
+      ],
+      "rep": {
+        "model": "LA50C4024ABB",
+        "rows": [
+          [
+            "Giriş Güç Kaynağı",
+            "400 V"
+          ],
+          [
+            "Anma Çıkış Akımı (HD)",
+            "24 A"
+          ],
+          [
+            "Aşırı yük toleransı (HD)",
+            "165% 60 sec"
+          ],
+          [
+            "Maks. Uygulanabilir Motor Çıkışı (HD)",
+            "11 kW"
+          ],
+          [
+            "Giriş Güç Fazları",
+            "3-faz"
+          ],
+          [
+            "Motor Tipi",
+            "İndüksiyon motoru"
+          ],
+          [
+            "Standartlara Uygunluk",
+            "CE, RoHS"
+          ],
+          [
+            "Çevre Sıcaklığı (Min)",
+            "-10 °C"
+          ],
+          [
+            "Çevre Sıcaklığı (Maks)",
+            "50 °C"
+          ],
+          [
+            "Çevre Sıcaklığı (Maks) değer düşürme ile",
+            "60 °C"
+          ],
+          [
+            "Maks. Nem (yoğuşmasız)",
+            "95 %"
+          ],
+          [
+            "Maks. Rakım (Değer kaybı olmadan)",
+            "1000 m"
+          ],
+          [
+            "Maks. Rakım (Değer kaybı ile)",
+            "4000 m"
+          ],
+          [
+            "Yükseklik",
+            "300 mm"
+          ],
+          [
+            "Genişlik",
+            "180 mm"
+          ],
+          [
+            "Derinlik",
+            "143 mm"
+          ],
+          [
+            "Ağırlık",
+            "4.6 kg"
+          ],
+          [
+            "Soğutma yöntemi",
+            "Hava soğutmalı"
+          ],
+          [
+            "Muhafaza",
+            "IP20"
+          ],
+          [
+            "Çevresel Teknik Özellikler",
+            "Standart"
+          ],
+          [
+            "Analog giriş",
+            "2"
+          ],
+          [
+            "Analog çıkış",
+            "1"
+          ],
+          [
+            "Dijital giriş",
+            "7"
+          ],
+          [
+            "Dijital çıkış",
+            "3"
+          ],
+          [
+            "Güvenlik seviyesi (SIL)",
+            "SIL3"
+          ],
+          [
+            "Performans seviyesi (PL)",
+            "PL e"
+          ],
+          [
+            "Tork kontrolü",
+            "Standart"
+          ],
+          [
+            "Frenleme Transistörü",
+            "Dahili"
+          ],
+          [
+            "Motor termal koruması",
+            "Standart"
+          ],
+          [
+            "Maks. çıkış frekansı",
+            "120 Hz"
+          ]
+        ]
+      },
+      "img": "yaskawa-ac-la500_20-10-2026.png",
+      "imgSize": [
+        500,
+        607
+      ]
+    }
+  ]
+}

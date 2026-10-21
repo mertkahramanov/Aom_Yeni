@@ -1,0 +1,1483 @@
+{
+  "series": [
+    {
+      "key": "SGD7S",
+      "slug": "sgd7s",
+      "title": "SGD7S Sigma-7 Tek Eksenli Servo Sürücü (Servopack)",
+      "note": "SGD7S, Sigma-7 ailesinin tek eksenli (single-axis) servo sürücüsüdür (servopack). Analog gerilim/pals treni, MECHATROLINK-II, MECHATROLINK-III (standart veya RJ45 konnektörlü), EtherCAT, PROFINET, komut opsiyon modülü takılabilir tip ve dahili IEC kontrolörlü (Sigma-7Siec) seçenekleriyle sunulur. 0,05–15,00 kW azami motor kapasitesi ve 200 V / 400 V gerilim aralığında 141 modelden oluşur.",
+      "cols": [
+        "Azami motor kapasitesi",
+        "Haberleşme",
+        "Gerilim"
+      ],
+      "codes": [
+        [
+          "SGD7S-120DA0Bxxxxxx",
+          0,
+          "3 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-120D30Bxxxxxx",
+          0,
+          "3 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-170DA0Bxxxxxx",
+          0,
+          "5 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-170D30Bxxxxxx",
+          0,
+          "5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-1R9DA0Bxxxxxx",
+          0,
+          "0,5 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-1R9D30Bxxxxxx",
+          0,
+          "0,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-210DA0Bxxxxxx",
+          0,
+          "6 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-210D30Bxxxxxx",
+          0,
+          "6 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-260DA0Bxxxxxx",
+          0,
+          "7,5 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-260D30Bxxxxxx",
+          0,
+          "7,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-3R5DA0Bxxxxxx",
+          0,
+          "1 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-3R5D30Bxxxxxx",
+          0,
+          "1 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-5R4DA0Bxxxxxx",
+          0,
+          "1,5 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-5R4D30Bxxxxxx",
+          0,
+          "1,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-8R4DA0Bxxxxxx",
+          0,
+          "2 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-8R4D30Bxxxxxx",
+          0,
+          "2 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-120A30Axxxxxx",
+          0,
+          "1,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-120AA0Axxxxxx",
+          0,
+          "1,5 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6A30Axxxxxx",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6AA0Axxxxxx",
+          0,
+          "0,2 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8A30Axxxxxx",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8AA0Axxxxxx",
+          0,
+          "0,4 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5A30A",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5AA0A",
+          0,
+          "0,75 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70A30A",
+          0,
+          "0,05 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70AA0A",
+          0,
+          "0,05 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90A30A",
+          0,
+          "0,1 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90AA0A",
+          0,
+          "0,1 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70AC0A",
+          0,
+          "0,05 kW",
+          "PROFINET",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90AC0A",
+          0,
+          "0,1 kW",
+          "PROFINET",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6AC0A",
+          0,
+          "0,2 kW",
+          "PROFINET",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8AC0A",
+          0,
+          "0,4 kW",
+          "PROFINET",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5AC0A",
+          0,
+          "0,75 kW",
+          "PROFINET",
+          "200 V"
+        ],
+        [
+          "SGD7S-120AC0A",
+          0,
+          "1,5 kW",
+          "PROFINET",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R4DC0Bxxxxxx",
+          0,
+          "1,5 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-3R5DC0Bxxxxxx",
+          0,
+          "1 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-1R9DC0Bxxxxxx",
+          0,
+          "0,5 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-370DC0Bxxxxxx",
+          0,
+          "15 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-260DC0Bxxxxxx",
+          0,
+          "7,5 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-120DC0Bxxxxxx",
+          0,
+          "3 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-170DC0Bxxxxxx",
+          0,
+          "5 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-280DC0Bxxxxxx",
+          0,
+          "11 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-210DC0Bxxxxxx",
+          0,
+          "6 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-8R4DC0Bxxxxxx",
+          0,
+          "2 kW",
+          "PROFINET",
+          "400 V"
+        ],
+        [
+          "SGD7S-120AM0Axxxxxx",
+          0,
+          "1,5 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-120AE0Axxxxxx",
+          0,
+          "1,5 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-120A20Axxxxxx",
+          0,
+          "1,5 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-120A10Axxxxxx",
+          0,
+          "1,5 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-120A00Axxxxxx",
+          0,
+          "1,5 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-370D30Bxxxxxx",
+          0,
+          "15 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-370DA0Bxxxxxx",
+          0,
+          "15 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-280DA0Bxxxxxx",
+          0,
+          "11 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7S-280D30Bxxxxxx",
+          0,
+          "11 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7S-180AA0Axxxxxx",
+          0,
+          "2 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-180A20Axxxxxx",
+          0,
+          "2 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-180A10Axxxxxx",
+          0,
+          "2 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-180AM0Axxxxxx",
+          0,
+          "2 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-180AE0Axxxxxx",
+          0,
+          "2 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-180A00Axxxxxx",
+          0,
+          "2 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-180A30Axxxxxx",
+          0,
+          "2 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6AM0Axxxxxx",
+          0,
+          "0,2 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6A00Axxxxxx",
+          0,
+          "0,2 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6A10Axxxxxx",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6A20Axxxxxx",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-1R6AE0Axxxxxx",
+          0,
+          "0,2 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-200A10Axxxxxx",
+          0,
+          "3 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-200AA0Axxxxxx",
+          0,
+          "3 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-200A20Axxxxxx",
+          0,
+          "3 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-200AM0Axxxxxx",
+          0,
+          "3 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-200AE0Axxxxxx",
+          0,
+          "3 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-200A00Axxxxxx",
+          0,
+          "3 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-200A30Axxxxxx",
+          0,
+          "3 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-330A00Axxxxxx",
+          0,
+          "5 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8AM0Axxxxxx",
+          0,
+          "0,4 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8AE0Axxxxxx",
+          0,
+          "0,4 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8A20Axxxxxx",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8A10Axxxxxx",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-330AM0Axxxxxx",
+          0,
+          "5 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-330AE0Axxxxxx",
+          0,
+          "5 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-330AA0Axxxxxx",
+          0,
+          "5 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-330A20Axxxxxx",
+          0,
+          "5 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-2R8A00Axxxxxx",
+          0,
+          "0,4 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-3R8A10A",
+          0,
+          "0,5 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-470A10A",
+          0,
+          "6 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-3R8AM0A",
+          0,
+          "0,5 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-330A30Axxxxxx",
+          0,
+          "5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-3R8A00A",
+          0,
+          "0,5 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-3R8A20A",
+          0,
+          "0,5 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-3R8AE0A",
+          0,
+          "0,5 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-470A20A",
+          0,
+          "6 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-550A10A",
+          0,
+          "7,5 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-470AM0A",
+          0,
+          "6 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-470AE0A",
+          0,
+          "6 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-3R8A30A",
+          0,
+          "0,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-3R8AA0A",
+          0,
+          "0,5 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-470A00A",
+          0,
+          "6 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-550A20A",
+          0,
+          "7,5 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-550A00A",
+          0,
+          "7,5 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-470AA0A",
+          0,
+          "6 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-590A10A",
+          0,
+          "11 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-470A30A",
+          0,
+          "6 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-550AM0A",
+          0,
+          "7,5 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-590AE0A",
+          0,
+          "11 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-590A20A",
+          0,
+          "11 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-590A00A",
+          0,
+          "11 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5A10A",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-590AM0A",
+          0,
+          "11 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70AE0A",
+          0,
+          "0,05 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-550A30A",
+          0,
+          "7,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-550AA0A",
+          0,
+          "7,5 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5A20A",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-7R6A10A",
+          0,
+          "1 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-590A30A",
+          0,
+          "11 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5A00A",
+          0,
+          "0,75 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5AE0A",
+          0,
+          "0,75 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-5R5AM0A",
+          0,
+          "0,75 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70A10A",
+          0,
+          "0,05 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-590AA0A",
+          0,
+          "11 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-780A00A",
+          0,
+          "15 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-780A20A",
+          0,
+          "15 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90AE0A",
+          0,
+          "0,1 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-780AM0A",
+          0,
+          "15 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70A20A",
+          0,
+          "0,05 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-7R6A00A",
+          0,
+          "1 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-7R6AM0A",
+          0,
+          "1 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-780AE0A",
+          0,
+          "15 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-780A30A",
+          0,
+          "15 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90A10A",
+          0,
+          "0,1 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70A00A",
+          0,
+          "0,05 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-R70AM0A",
+          0,
+          "0,05 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-7R6AE0A",
+          0,
+          "1 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-7R6A30A",
+          0,
+          "1 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7S-780A10A",
+          0,
+          "15 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90A20A",
+          0,
+          "0,1 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7S-780AA0A",
+          0,
+          "15 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90A00A",
+          0,
+          "0,1 kW",
+          "Analog Voltage/Pulse Train",
+          "200 V"
+        ],
+        [
+          "SGD7S-550AE0A",
+          0,
+          "7,5 kW",
+          "Command Option Attachable Type",
+          "200 V"
+        ],
+        [
+          "SGD7S-7R6AA0A",
+          0,
+          "1 kW",
+          "EtherCAT",
+          "200 V"
+        ],
+        [
+          "SGD7S-R90AM0A",
+          0,
+          "0,1 kW",
+          "Sigma-7Siec (with integrated iec-Controller)",
+          "200 V"
+        ],
+        [
+          "SGD7S-330A10Axxxxxx",
+          0,
+          "5 kW",
+          "MECHATROLINK-II",
+          "200 V"
+        ],
+        [
+          "SGD7S-7R6A20A",
+          0,
+          "1 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ]
+      ],
+      "specs": [
+        [
+          "Seri",
+          "SGD7S"
+        ],
+        [
+          "Tip",
+          "Tek eksenli (single-axis) servo sürücü"
+        ],
+        [
+          "Azami motor kapasitesi aralığı",
+          "0,05–15,00 kW"
+        ],
+        [
+          "Gerilim",
+          "200 V / 400 V"
+        ],
+        [
+          "Haberleşme seçenekleri",
+          "Analog Gerilim/Pals Treni, MECHATROLINK-II, MECHATROLINK-III, MECHATROLINK-III (RJ45), EtherCAT, PROFINET, Komut Opsiyon Modülü Takılabilir Tip, Sigma-7Siec (dahili IEC kontrolörlü)"
+        ]
+      ],
+      "rep": {
+        "model": "SGD7S-7R6A20A",
+        "rows": [
+          [
+            "Azami motor kapasitesi",
+            "1 kW"
+          ],
+          [
+            "Haberleşme",
+            "MECHATROLINK-III"
+          ],
+          [
+            "Gerilim",
+            "200 V"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-sgd7s_20-10-2026.png",
+      "imgSize": [
+        450,
+        979
+      ]
+    },
+    {
+      "key": "SGD7W",
+      "slug": "sgd7w",
+      "title": "SGD7W Sigma-7 Çift Eksenli Servo Sürücü (Servopack)",
+      "note": "SGD7W, Sigma-7 ailesinin çift eksenli (dual-axis) servo sürücüsüdür; tek gövdede iki ekseni sürerek pano içinde yer kazandırır. EtherCAT ve MECHATROLINK-III (standart veya RJ45 konnektörlü) haberleşmesini destekler. 0,20–1,50 kW azami motor kapasitesi ve 200 V / 400 V gerilim aralığında 23 modelden oluşur; bunlardan 6'sı Yaskawa'nın kendi sitesinde \"SGD7W-xxxAxxAxxx\" şeklinde eksik/placeholder model adıyla listelenmiştir (gerilim bilgisi bu kayıtlarda üretici sitesinde de belirtilmemiştir).",
+      "cols": [
+        "Azami motor kapasitesi",
+        "Haberleşme",
+        "Gerilim"
+      ],
+      "codes": [
+        [
+          "SGD7W-2R6DA0B",
+          0,
+          "0,75 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7W-2R6DA0B026",
+          0,
+          "0,75 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7W-5R4DA0B",
+          0,
+          "1,5 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7W-5R4DA0B026",
+          0,
+          "1,5 kW",
+          "EtherCAT",
+          "400 V"
+        ],
+        [
+          "SGD7W-2R6D30B",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7W-5R4D30B",
+          0,
+          "1,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7W-5R4D30B026",
+          0,
+          "1,5 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "400 V"
+        ],
+        [
+          "SGD7W-1R6A20A700",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-1R6A30A",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7W-1R6A20A",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-1R6A30A700",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "200 V"
+        ],
+        [
+          "SGD7W-xxxAxxAxxx",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "Belirtilmemiş"
+        ],
+        [
+          "SGD7W-2R8A20A700",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-2R8A20A",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-xxxAxxAxxx",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "Belirtilmemiş"
+        ],
+        [
+          "SGD7W-7R6A20A700",
+          0,
+          "1 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-xxxAxxAxxx",
+          0,
+          "1 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "Belirtilmemiş"
+        ],
+        [
+          "SGD7W-7R6A20A",
+          0,
+          "1 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-xxxAxxAxxx",
+          0,
+          "1 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "Belirtilmemiş"
+        ],
+        [
+          "SGD7W-5R5A20A700",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-xxxAxxAxxx",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "Belirtilmemiş"
+        ],
+        [
+          "SGD7W-5R5A20A",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7W-xxxAxxAxxx",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III with RJ45 Connector",
+          "Belirtilmemiş"
+        ]
+      ],
+      "specs": [
+        [
+          "Seri",
+          "SGD7W"
+        ],
+        [
+          "Tip",
+          "Çift eksenli (dual-axis) servo sürücü"
+        ],
+        [
+          "Azami motor kapasitesi aralığı",
+          "0,20–1,50 kW"
+        ],
+        [
+          "Gerilim",
+          "200 V / 400 V"
+        ],
+        [
+          "Haberleşme seçenekleri",
+          "MECHATROLINK-III, MECHATROLINK-III (RJ45), EtherCAT"
+        ]
+      ],
+      "rep": {
+        "model": "SGD7W-5R4D30B026",
+        "rows": [
+          [
+            "Azami motor kapasitesi",
+            "1,5 kW"
+          ],
+          [
+            "Haberleşme",
+            "MECHATROLINK-III (RJ45)"
+          ],
+          [
+            "Gerilim",
+            "400 V"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-sgd7w_20-10-2026.png",
+      "imgSize": [
+        450,
+        1011
+      ]
+    },
+    {
+      "key": "SGD7C",
+      "slug": "sgd7c",
+      "title": "SGD7C Dahili Kontrolörlü Sigma-7 Servo Sürücü (Servopack)",
+      "note": "SGD7C, dahili hareket kontrolörüne sahip Sigma-7 çift eksenli servo sürücüsüdür. MECHATROLINK-III veya referans tabanlı bus bağlantısı (Bus Connection with References) ile çalışır. 0,20–1,00 kW azami motor kapasitesi aralığında, yalnızca 200 V'ta sunulan 16 modelden oluşur.",
+      "cols": [
+        "Azami motor kapasitesi",
+        "Haberleşme",
+        "Gerilim"
+      ],
+      "codes": [
+        [
+          "SGD7C-1R6A20A",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-1R6AMAA",
+          0,
+          "0,2 kW",
+          "Bus Connection with References",
+          "200 V"
+        ],
+        [
+          "SGD7C-1R6A20A700",
+          0,
+          "0,2 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-1R6AMAA700",
+          0,
+          "0,2 kW",
+          "Bus Connection with References",
+          "200 V"
+        ],
+        [
+          "SGD7C-2R8A20A",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-2R8AMAA",
+          0,
+          "0,4 kW",
+          "Bus Connection with References",
+          "200 V"
+        ],
+        [
+          "SGD7C-2R8A20A700",
+          0,
+          "0,4 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-2R8AMAA700",
+          0,
+          "0,4 kW",
+          "Bus Connection with References",
+          "200 V"
+        ],
+        [
+          "SGD7C-5R5A20A",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-5R5AMAA",
+          0,
+          "0,75 kW",
+          "Bus Connection with References",
+          "200 V"
+        ],
+        [
+          "SGD7C-5R5A20A700",
+          0,
+          "0,75 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-5R5AMAA700",
+          0,
+          "0,75 kW",
+          "Bus Connection with References",
+          "200 V"
+        ],
+        [
+          "SGD7C-7R6A20A",
+          0,
+          "1 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-7R6AMAA",
+          0,
+          "1 kW",
+          "Bus Connection with References",
+          "200 V"
+        ],
+        [
+          "SGD7C-7R6A20A700",
+          0,
+          "1 kW",
+          "MECHATROLINK-III",
+          "200 V"
+        ],
+        [
+          "SGD7C-7R6AMAA700",
+          0,
+          "1 kW",
+          "Bus Connection with References",
+          "200 V"
+        ]
+      ],
+      "specs": [
+        [
+          "Seri",
+          "SGD7C"
+        ],
+        [
+          "Tip",
+          "Dahili kontrolörlü çift eksenli (dual-axis) servo sürücü"
+        ],
+        [
+          "Azami motor kapasitesi aralığı",
+          "0,20–1,00 kW"
+        ],
+        [
+          "Gerilim",
+          "200 V"
+        ],
+        [
+          "Haberleşme seçenekleri",
+          "MECHATROLINK-III, Bus Connection with References"
+        ]
+      ],
+      "rep": {
+        "model": "SGD7C-7R6A20A",
+        "rows": [
+          [
+            "Azami motor kapasitesi",
+            "1 kW"
+          ],
+          [
+            "Haberleşme",
+            "MECHATROLINK-III"
+          ],
+          [
+            "Gerilim",
+            "200 V"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-sgd7c_20-10-2026.png",
+      "imgSize": [
+        450,
+        338
+      ]
+    },
+    {
+      "key": "Option Modules 400V",
+      "slug": "option-modules-400v",
+      "title": "Sigma-7 400V Opsiyon Modülleri",
+      "note": "Sigma-7 400V servo sürücülerinin işlevlerini genişleten opsiyon modülleri. Yaskawa'nın Türkiye sitesinde bu kategoride tek kayıt vardır: Advanced Safety Module (gelişmiş güvenlik opsiyon modülü).",
+      "cols": [
+        "Açıklama"
+      ],
+      "codes": [
+        [
+          "Advanced Safety Module",
+          0,
+          "Sigma-7 400V servo sürücüleri için gelişmiş güvenlik (safety) opsiyon modülü"
+        ]
+      ],
+      "specs": [
+        [
+          "Seri",
+          "Option Modules 400V"
+        ],
+        [
+          "Tip",
+          "Opsiyon modülü"
+        ],
+        [
+          "Uyumluluk",
+          "Sigma-7 400V servo sürücüleri"
+        ]
+      ],
+      "rep": {
+        "model": "Advanced Safety Module",
+        "rows": [
+          [
+            "Tip",
+            "Opsiyon modülü (gelişmiş güvenlik)"
+          ],
+          [
+            "Uyumluluk",
+            "Sigma-7 400V servo sürücüleri"
+          ]
+        ]
+      },
+      "img": "yaskawa-servo-option-modules-400v_20-10-2026.png",
+      "imgSize": [
+        322,
+        363
+      ]
+    }
+  ]
+}

@@ -6,8 +6,16 @@ import TeklifForm from "@/components/TeklifForm";
 import { fullName, getProduct, KDV_ORANI, priceInfo, products, seriesOf, seriesSlug, slugify } from "@/data/magaza";
 import { BRANDS } from "@/data/markalar";
 import { eligibleRegion, hreflangAlternates, REGION_LINE, sellerRef, SITE } from "@/lib/seo";
+import { formatTryApprox, getEurSellingRate } from "@/lib/tcmb";
 
 const catSlug = (c: string) => slugify(c);
+
+// JSON-LD Offer.priceValidUntil: derleme (build) tarihinden +30 gün, ISO tarih (Mert, SCHNEIDER_FIYATLANDIRMA_PLANI_17-10-2026).
+const priceValidUntil = () => {
+  const d = new Date();
+  d.setDate(d.getDate() + 30);
+  return d.toISOString().slice(0, 10);
+};
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -68,6 +76,8 @@ function jsonLd(p: NonNullable<ReturnType<typeof getProduct>>) {
       url,
       priceCurrency: p.price.currency,
       price: offerPrice.toFixed(2),
+      availability: "https://schema.org/InStock",
+      priceValidUntil: priceValidUntil(),
       itemCondition: "https://schema.org/NewCondition",
       priceSpecification: {
         "@type": "UnitPriceSpecification",
@@ -98,6 +108,8 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
   const p = getProduct((await params).slug);
   if (!p) notFound();
   const pr = priceInfo(p);
+  // EUR fiyatlı ürünlerde (ör. Schneider) TL karşılığı için TCMB günlük kuru (20-10-2026); kur alınamazsa satır gizlenir.
+  const eurRate = p.price?.currency === "EUR" ? await getEurSellingRate() : null;
   const allSiblings = seriesOf(p);
   // Büyük serilerde (ör. TK 509 model) ürün sayfasında yalnız yakın modeller gösterilir; tamamı seri sayfasında
   const idx = allSiblings.findIndex((x) => x.slug === p.slug);
@@ -154,7 +166,17 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
                 <span className="store-vat" style={{ fontSize: 16 }}>{pr.vatLabel}</span>
                 {pr.discount && <span className="store-discount">{pr.discount}</span>}
               </span>
-              <span className="caption">{pr.vatNote}</span>
+              {eurRate && p.price && (
+                <span className="caption">
+                  {formatTryApprox(p.price.list, eurRate.rate)} + KDV (TCMB EUR döviz satış kuru, {eurRate.date})
+                </span>
+              )}
+              {p.leadTime && <span className="caption">Tedarik: {p.leadTime}</span>}
+              <span className="caption">
+                {p.price?.currency === "EUR"
+                  ? `Fiyatlar KDV hariçtir; %${KDV_ORANI} KDV eklenir. Faturalama EUR veya fatura tarihindeki kurla TL.`
+                  : pr.vatNote}
+              </span>
             </div>
           ) : (
             <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>

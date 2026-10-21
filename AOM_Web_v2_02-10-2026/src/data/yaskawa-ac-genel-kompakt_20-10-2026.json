@@ -1,0 +1,2395 @@
+{
+"series":[
+{
+"key":"GA500",
+"slug":"ga500",
+"title":"GA500 Serisi",
+"note":"Endüstriyel uygulamalar için kompakt AC mikro sürücü; asenkron, kalıcı mıknatıslı ve senkron relüktans motorları tek sürücüyle kontrol eder, dahili EMC filtresi ve IP20 gövdeye sahiptir.",
+"category":"Genel Amaçlı Endüstriyel AC Sürücüler",
+"categoryUrl":"https://www.yaskawa.com.tr/ac-surucu/ac-surucu/genel-amacli",
+"cols":[
+"Güç (kW)",
+"Akım (A)",
+"Duty",
+"Gerilim"
+],
+"codes":[
+[
+"CIPR-GA50CB001EBA",
+0.18,
+1.2,
+"ND",
+"200 V"
+],
+[
+"CIPR-GA50CB001ABA",
+0.18,
+1.2,
+"ND",
+"200 V"
+],
+[
+"GA50C2001EBA",
+0.18,
+1.2,
+"ND",
+"200 V"
+],
+[
+"GA50C4001EBA",
+0.37,
+1.2,
+"ND",
+"400 V"
+],
+[
+"GA50C4001ABA",
+0.37,
+1.2,
+"ND",
+"400 V"
+],
+[
+"GA50C2001ABA",
+0.18,
+1.2,
+"ND",
+"200 V"
+],
+[
+"CIPR-GA50CB001AJA",
+0.18,
+1.2,
+"ND",
+"200 V"
+],
+[
+"GA50C2001AJA",
+0.18,
+1.2,
+"ND",
+"200 V"
+],
+[
+"GA50C4001AJA",
+0.37,
+1.2,
+"ND",
+"400 V"
+],
+[
+"GA50CB002EBA",
+0.37,
+1.9,
+"ND",
+"200 V"
+],
+[
+"GA50CB002ABA",
+0.37,
+1.9,
+"ND",
+"200 V"
+],
+[
+"GA50C2002EBA",
+0.37,
+1.9,
+"ND",
+"200 V"
+],
+[
+"GA50C2002ABA",
+0.37,
+1.9,
+"ND",
+"200 V"
+],
+[
+"GA50CB002AJA",
+0.37,
+1.9,
+"ND",
+"200 V"
+],
+[
+"GA50C2002AJA",
+0.37,
+1.9,
+"ND",
+"200 V"
+],
+[
+"GA50C4002EBA",
+0.75,
+2.1,
+"ND",
+"400 V"
+],
+[
+"GA50C4002ABA",
+0.75,
+2.1,
+"ND",
+"400 V"
+],
+[
+"GA50C4002AJA",
+0.75,
+2.1,
+"ND",
+"400 V"
+],
+[
+"GA50CB004EBA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA50CB004ABA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA50C2004EBA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA50C2004ABA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA50CB004AJA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA50C2004AJA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA50C4004EBA",
+1.5,
+4.1,
+"ND",
+"400 V"
+],
+[
+"GA50C4004ABA",
+1.5,
+4.1,
+"ND",
+"400 V"
+],
+[
+"GA50C4004AJA",
+1.5,
+4.1,
+"ND",
+"400 V"
+],
+[
+"GA50C4005EBA",
+2.2,
+5.4,
+"ND",
+"400 V"
+],
+[
+"GA50C4005ABA",
+2.2,
+5.4,
+"ND",
+"400 V"
+],
+[
+"GA50C4005AJA",
+2.2,
+5.4,
+"ND",
+"400 V"
+],
+[
+"GA50CB006EBA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA50CB006ABA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA50C2006EBA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA50C2006ABA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA50CB006AJA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA50C2006AJA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA50C4007EBA",
+3,
+7.1,
+"ND",
+"400 V"
+],
+[
+"GA50C4007ABA",
+3,
+7.1,
+"ND",
+"400 V"
+],
+[
+"GA50C4007AJA",
+3,
+7.1,
+"ND",
+"400 V"
+],
+[
+"GA50C2008EBA",
+1.5,
+8,
+"ND",
+"200 V"
+],
+[
+"GA50C2008ABA",
+1.5,
+8,
+"ND",
+"200 V"
+],
+[
+"GA50C2008AJA",
+1.5,
+8,
+"ND",
+"200 V"
+],
+[
+"GA50C4009EBA",
+4,
+8.9,
+"ND",
+"400 V"
+],
+[
+"GA50C4009ABA",
+4,
+8.9,
+"ND",
+"400 V"
+],
+[
+"GA50C4009AJA",
+4,
+8.9,
+"ND",
+"400 V"
+],
+[
+"GA50CB010EBA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA50CB010ABA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA50C2010EBA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA50C2010ABA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA50CB010AJA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA50C2010AJA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA50C4012EBA",
+5.5,
+11.9,
+"ND",
+"400 V"
+],
+[
+"GA50C4012ABA",
+5.5,
+11.9,
+"ND",
+"400 V"
+],
+[
+"GA50C4012AJA",
+5.5,
+11.9,
+"ND",
+"400 V"
+],
+[
+"GA50CB012EBA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA50CB012ABA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA50C2012EBA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA50C2012ABA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA50CB012AJA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA50C2012AJA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA50C2018EBA",
+3.7,
+17.5,
+"ND",
+"200 V"
+],
+[
+"GA50C4018EBA",
+7.5,
+17.5,
+"ND",
+"400 V"
+],
+[
+"GA50C4018ABA",
+7.5,
+17.5,
+"ND",
+"400 V"
+],
+[
+"GA50C2018ABA",
+3.7,
+17.5,
+"ND",
+"200 V"
+],
+[
+"GA50C2018AJA",
+3.7,
+17.5,
+"ND",
+"200 V"
+],
+[
+"GA50C4018AJA",
+7.5,
+17.5,
+"ND",
+"400 V"
+],
+[
+"GA50CB018ABA",
+4,
+17.6,
+"HD",
+"200 V"
+],
+[
+"GA50C2021EBA",
+5.5,
+21,
+"ND",
+"200 V"
+],
+[
+"GA50C2021ABA",
+5.5,
+21,
+"ND",
+"200 V"
+],
+[
+"GA50C2021AJA",
+5.5,
+21,
+"ND",
+"200 V"
+],
+[
+"GA50C4023EBA",
+11,
+23.4,
+"ND",
+"400 V"
+],
+[
+"GA50C4023ABA",
+11,
+23.4,
+"ND",
+"400 V"
+],
+[
+"GA50C4023AJA",
+11,
+23.4,
+"ND",
+"400 V"
+],
+[
+"GA50C2030EBA",
+7.5,
+30,
+"ND",
+"200 V"
+],
+[
+"GA50C2030ABA",
+7.5,
+30,
+"ND",
+"200 V"
+],
+[
+"GA50C2030AJA",
+7.5,
+30,
+"ND",
+"200 V"
+],
+[
+"GA50C4031EBA",
+15,
+31,
+"ND",
+"400 V"
+],
+[
+"GA50C4031ABA",
+15,
+31,
+"ND",
+"400 V"
+],
+[
+"GA50C4031AJA",
+15,
+31,
+"ND",
+"400 V"
+],
+[
+"GA50C4038EBA",
+18.5,
+38,
+"ND",
+"400 V"
+],
+[
+"GA50C4038ABA",
+18.5,
+38,
+"ND",
+"400 V"
+],
+[
+"GA50C4038AJA",
+18.5,
+38,
+"ND",
+"400 V"
+],
+[
+"GA50C2042EBA",
+11,
+42,
+"ND",
+"200 V"
+],
+[
+"GA50C2042ABA",
+11,
+42,
+"ND",
+"200 V"
+],
+[
+"GA50C2042AJA",
+11,
+42,
+"ND",
+"200 V"
+],
+[
+"GA50C4044EBA",
+22,
+44,
+"ND",
+"400 V"
+],
+[
+"GA50C4044ABA",
+22,
+44,
+"ND",
+"400 V"
+],
+[
+"GA50C2056EBA",
+15,
+56,
+"ND",
+"200 V"
+],
+[
+"GA50C2056ABA",
+15,
+56,
+"ND",
+"200 V"
+],
+[
+"GA50C2056AJA",
+15,
+56,
+"ND",
+"200 V"
+],
+[
+"GA50C4060EBA",
+30,
+60,
+"ND",
+"400 V"
+],
+[
+"GA50C4060ABA",
+30,
+60,
+"ND",
+"400 V"
+],
+[
+"GA50C2070EBA",
+18.5,
+70,
+"ND",
+"200 V"
+],
+[
+"GA50C2070ABA",
+18.5,
+70,
+"ND",
+"200 V"
+],
+[
+"GA50C2070AJA",
+18.5,
+70,
+"ND",
+"200 V"
+],
+[
+"GA50C2082EBA",
+22,
+82,
+"ND",
+"200 V"
+],
+[
+"GA50C2082ABA",
+22,
+82,
+"ND",
+"200 V"
+]
+],
+"specs":[
+[
+"Marka",
+"Yaskawa"
+],
+[
+"Seri",
+"GA500 Serisi"
+],
+[
+"Kategori",
+"Genel Amaçlı Endüstriyel AC Sürücüler"
+],
+[
+"Sipariş kodu sayısı",
+"97"
+],
+[
+"Güç aralığı",
+"0.18 - 30 kW (ND bazında, üretici sitesindeki ürün kartlarında gösterilen değer)"
+],
+[
+"Akım aralığı",
+"1.2 - 82 A (ND bazında)"
+],
+[
+"Gerilim sınıfları",
+"200 V (60 kod) / 400 V (37 kod)"
+]
+],
+"rep":{
+"model":"GA50C4023EBA",
+"rows":[
+[
+"Model / sipariş kodu",
+"GA50C4023EBA"
+],
+[
+"Güç",
+"11 kW (ND)"
+],
+[
+"Akım",
+"23.4 A (ND)"
+],
+[
+"Gerilim",
+"400 V"
+],
+[
+"Seri",
+"GA500 Serisi"
+],
+[
+"Kategori",
+"Genel Amaçlı Endüstriyel AC Sürücüler"
+]
+]
+},
+"img":"yaskawa-ac-ga500_20-10-2026.png",
+"imgSize":[
+700,
+394
+]
+},
+{
+"key":"GA700",
+"slug":"ga700",
+"title":"GA700 Serisi",
+"note":"Genel amaçlı endüstriyel AC sürücü; kabin veya duvara esnek montaj, dahili çift kanallı STO (güvenli tork kapatma) ve EDM sinyali, DriveWizard Mobile / Yaskawa Drive Cloud ile uzaktan devreye alma desteği sunar.",
+"category":"Genel Amaçlı Endüstriyel AC Sürücüler",
+"categoryUrl":"https://www.yaskawa.com.tr/ac-surucu/ac-surucu/genel-amacli",
+"cols":[
+"Güç (kW)",
+"Akım (A)",
+"Duty",
+"Gerilim"
+],
+"codes":[
+[
+"GA70C4002BBA",
+0.75,
+2.1,
+"ND",
+"400 V"
+],
+[
+"GA70C2004BBA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA70C2004ABA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"GA70C4004BBA",
+1.5,
+4.1,
+"ND",
+"400 V"
+],
+[
+"GA70C4005BBA",
+2.2,
+5.4,
+"ND",
+"400 V"
+],
+[
+"GA70C2006BBA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA70C2006ABA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"GA70C4007BBA",
+3,
+7.1,
+"ND",
+"400 V"
+],
+[
+"GA70C4009BBA",
+3.7,
+8.9,
+"ND",
+"400 V"
+],
+[
+"GA70C2010BBA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA70C2010ABA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"GA70C4012BBA",
+5.5,
+11.9,
+"ND",
+"400 V"
+],
+[
+"GA70C2012BBA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA70C2012ABA",
+3,
+12.2,
+"ND",
+"200 V"
+],
+[
+"GA70C4018BBA",
+7.5,
+17.5,
+"ND",
+"400 V"
+],
+[
+"GA70C2021BBA",
+5.5,
+21,
+"ND",
+"200 V"
+],
+[
+"GA70C2021ABA",
+5.5,
+21,
+"ND",
+"200 V"
+],
+[
+"GA70C4023BBA",
+11,
+23.4,
+"ND",
+"400 V"
+],
+[
+"GA70C2030BBA",
+7.5,
+30,
+"ND",
+"200 V"
+],
+[
+"GA70C2030ABA",
+7.5,
+30,
+"ND",
+"200 V"
+],
+[
+"GA70C4031BBA",
+15,
+31,
+"ND",
+"400 V"
+],
+[
+"GA70C4038BBA",
+18.5,
+38,
+"ND",
+"400 V"
+],
+[
+"GA70C2042BBA",
+11,
+42,
+"ND",
+"200 V"
+],
+[
+"GA70C2042ABA",
+11,
+42,
+"ND",
+"200 V"
+],
+[
+"GA70C4044BBA",
+22,
+44,
+"ND",
+"400 V"
+],
+[
+"GA70C2056BBA",
+15,
+56,
+"ND",
+"200 V"
+],
+[
+"GA70C2056ABA",
+15,
+56,
+"ND",
+"200 V"
+],
+[
+"GA70C4060BBA",
+30,
+59.6,
+"ND",
+"400 V"
+],
+[
+"GA70C2070BBA",
+18.5,
+70,
+"ND",
+"200 V"
+],
+[
+"GA70C2070ABA",
+18.5,
+70,
+"ND",
+"200 V"
+],
+[
+"GA70C4075BBA",
+37,
+74.9,
+"ND",
+"400 V"
+],
+[
+"GA70C2082BBA",
+22,
+82,
+"ND",
+"200 V"
+],
+[
+"GA70C2082ABA",
+22,
+82,
+"ND",
+"200 V"
+],
+[
+"GA70C4089BBA",
+45,
+89.2,
+"ND",
+"400 V"
+],
+[
+"GA70C4103BBA",
+55,
+103,
+"ND",
+"400 V"
+],
+[
+"GA70C2110BBA",
+30,
+110,
+"ND",
+"200 V"
+],
+[
+"GA70C2110ABA",
+30,
+110,
+"ND",
+"200 V"
+],
+[
+"GA70C2138BBA",
+37,
+138,
+"ND",
+"200 V"
+],
+[
+"GA70C2138ABA",
+37,
+138,
+"ND",
+"200 V"
+],
+[
+"GA70C4140BBA",
+75,
+140,
+"ND",
+"400 V"
+],
+[
+"GA70C4168BBA",
+90,
+168,
+"ND",
+"400 V"
+],
+[
+"GA70C2169BBA",
+45,
+169,
+"ND",
+"200 V"
+],
+[
+"GA70C2169ABA",
+45,
+169,
+"ND",
+"200 V"
+],
+[
+"GA70C4208BBA",
+110,
+208,
+"ND",
+"400 V"
+],
+[
+"GA70C2211BBA",
+55,
+211,
+"ND",
+"200 V"
+],
+[
+"GA70C2211ABA",
+55,
+211,
+"ND",
+"200 V"
+],
+[
+"GA70C4250BBA",
+132,
+250,
+"ND",
+"400 V"
+],
+[
+"GA70C2257BBA",
+75,
+257,
+"ND",
+"200 V"
+],
+[
+"GA70C2257ABA",
+75,
+257,
+"ND",
+"200 V"
+],
+[
+"GA70C4296BBA",
+160,
+296,
+"ND",
+"400 V"
+],
+[
+"GA70C2313BBA",
+90,
+313,
+"ND",
+"200 V"
+],
+[
+"GA70C2313ABA",
+90,
+313,
+"ND",
+"200 V"
+],
+[
+"GA70C2360BBA",
+110,
+360,
+"ND",
+"200 V"
+],
+[
+"GA70C2360ABA",
+110,
+360,
+"ND",
+"200 V"
+],
+[
+"GA70C4371BBA",
+200,
+371,
+"ND",
+"400 V"
+],
+[
+"GA70C4389BBA",
+220,
+389,
+"ND",
+"400 V"
+],
+[
+"GA70C2415BBA",
+110,
+415,
+"HD",
+"200 V"
+],
+[
+"GA70C2415ABA",
+110,
+415,
+"HD",
+"200 V"
+],
+[
+"GA70C4453BBA",
+250,
+453,
+"ND",
+"400 V"
+],
+[
+"GA70C4568BBA",
+315,
+568,
+"ND",
+"400 V"
+],
+[
+"GA70C4675BBA",
+355,
+675,
+"ND",
+"400 V"
+],
+[
+"GA70C4810AAA",
+450,
+810,
+"ND",
+"400 V"
+],
+[
+"GA70C4930AAA",
+500,
+930,
+"ND",
+"400 V"
+],
+[
+"GA70C4H11AAA",
+560,
+1090,
+"ND",
+"400 V"
+],
+[
+"GA70C4H12AAA",
+630,
+1200,
+"ND",
+"400 V"
+]
+],
+"specs":[
+[
+"Marka",
+"Yaskawa"
+],
+[
+"Seri",
+"GA700 Serisi"
+],
+[
+"Kategori",
+"Genel Amaçlı Endüstriyel AC Sürücüler"
+],
+[
+"Sipariş kodu sayısı",
+"65"
+],
+[
+"Güç aralığı",
+"0.75 - 630 kW (ND bazında, üretici sitesindeki ürün kartlarında gösterilen değer)"
+],
+[
+"Akım aralığı",
+"2.1 - 1200 A (ND bazında)"
+],
+[
+"Gerilim sınıfları",
+"400 V (29 kod) / 200 V (36 kod)"
+]
+],
+"rep":{
+"model":"GA70C2110BBA",
+"rows":[
+[
+"Model / sipariş kodu",
+"GA70C2110BBA"
+],
+[
+"Güç",
+"30 kW (ND)"
+],
+[
+"Akım",
+"110 A (ND)"
+],
+[
+"Gerilim",
+"200 V"
+],
+[
+"Seri",
+"GA700 Serisi"
+],
+[
+"Kategori",
+"Genel Amaçlı Endüstriyel AC Sürücüler"
+]
+]
+},
+"img":"yaskawa-ac-ga700_20-10-2026.png",
+"imgSize":[
+700,
+394
+]
+},
+{
+"key":"A1000",
+"slug":"a1000",
+"title":"A1000 Serisi",
+"note":"Yaskawa'nın geniş güç aralığına sahip \"premium\" AC sürücüsü; yüksek çalışma güvenilirliği, enerji tasarrufu ve kullanıcı odaklı işletim özellikleriyle öne çıkar.",
+"category":"Öncü AC Sürücüler",
+"categoryUrl":"https://www.yaskawa.com.tr/ac-surucu/ac-surucu/kompakt",
+"cols":[
+"Güç (kW)",
+"Akım (A)",
+"Duty",
+"Gerilim"
+],
+"codes":[
+[
+"CIMR-AC4A0002FAA",
+0.75,
+2.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0004FAA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0004FAA",
+1.5,
+4.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0005FAA",
+2.2,
+5.4,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0006FAA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0007FAA",
+3,
+6.9,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0009FAA",
+3.7,
+8.8,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0010FAA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0011FAA",
+5.5,
+11.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0012FAA",
+3,
+12,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0018FAA",
+7.5,
+17.5,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0021FAA",
+5.5,
+21,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0023FAA",
+11,
+23,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0030FAA",
+7.5,
+30,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0031FAA",
+15,
+31,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0038FAA",
+18.5,
+38,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0040FAA",
+11,
+40,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0044FAA",
+22,
+44,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0056FAA",
+15,
+56,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0058AAA",
+30,
+58,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0069FAA",
+18.5,
+69,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0072AAA",
+37,
+72,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0081FAA",
+22,
+81,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0088AAA",
+45,
+88,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0103AAA",
+55,
+103,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0110AAA",
+30,
+110,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC2A0138AAA",
+37,
+138,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0139AAA",
+75,
+139,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0165AAA",
+90,
+165,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0169AAA",
+45,
+169,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0208AAA",
+110,
+208,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0211AAA",
+55,
+211,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC2A0250AAA",
+75,
+250,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0250AAA",
+132,
+250,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0296AAA",
+160,
+296,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0312AAA",
+90,
+312,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC2A0360AAA",
+110,
+360,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0362AAA",
+185,
+362,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0414AAA",
+220,
+414,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC2A0415AAA",
+110,
+415,
+"ND",
+"200 V"
+],
+[
+"CIMR-AC4A0515AAA",
+250,
+515,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0675AAA",
+355,
+675,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A0930AAA",
+500,
+930,
+"ND",
+"400 V"
+],
+[
+"CIMR-AC4A1200AAA",
+630,
+1200,
+"ND",
+"400 V"
+]
+],
+"specs":[
+[
+"Marka",
+"Yaskawa"
+],
+[
+"Seri",
+"A1000 Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+],
+[
+"Sipariş kodu sayısı",
+"44"
+],
+[
+"Güç aralığı",
+"0.75 - 630 kW (ND bazında, üretici sitesindeki ürün kartlarında gösterilen değer)"
+],
+[
+"Akım aralığı",
+"2.1 - 1200 A (ND bazında)"
+],
+[
+"Gerilim sınıfları",
+"400 V (26 kod) / 200 V (18 kod)"
+]
+],
+"rep":{
+"model":"CIMR-AC2A0110AAA",
+"rows":[
+[
+"Model / sipariş kodu",
+"CIMR-AC2A0110AAA"
+],
+[
+"Güç",
+"30 kW (ND)"
+],
+[
+"Akım",
+"110 A (ND)"
+],
+[
+"Gerilim",
+"200 V"
+],
+[
+"Seri",
+"A1000 Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+]
+]
+},
+"img":"yaskawa-ac-a1000_20-10-2026.png",
+"imgSize":[
+676,
+381
+]
+},
+{
+"key":"V1000",
+"slug":"v1000",
+"title":"V1000 Serisi",
+"note":"Açık çevrim vektör kontrollü genel amaçlı AC sürücü; geri beslemesiz kalıcı mıknatıslı (PM) motor sürüşü dahil kompakt bir platformda çalışır.",
+"category":"Öncü AC Sürücüler",
+"categoryUrl":"https://www.yaskawa.com.tr/ac-surucu/ac-surucu/kompakt",
+"cols":[
+"Güç (kW)",
+"Akım (A)",
+"Duty",
+"Gerilim"
+],
+"codes":[
+[
+"CIMR-VC2A0001BAA",
+0.18,
+1.2,
+"ND",
+"200 V"
+],
+[
+"CIMR-VC4A0001BAA",
+0.37,
+1.2,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC2A0002BAA",
+0.37,
+1.9,
+"ND",
+"200 V"
+],
+[
+"CIMR-VCBA0002BAA",
+0.37,
+1.9,
+"ND",
+"Belirtilmemiş"
+],
+[
+"CIMR-VC4A0002BAA",
+0.75,
+2.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-VCBA0003BAA",
+0.75,
+3.3,
+"ND",
+"Belirtilmemiş"
+],
+[
+"CIMR-VC2A0004BAA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"CIMR-VC4A0004BAA",
+1.5,
+4.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC4A0005BAA",
+2.2,
+5.4,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC2A0006BAA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"CIMR-VCBA0006BAA",
+1.1,
+6,
+"ND",
+"Belirtilmemiş"
+],
+[
+"CIMR-VC4A0007BAA",
+3,
+6.9,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC4A0009BAA",
+4,
+8.8,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC2A0010BAA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"CIMR-VCBA0010BAA",
+1.8,
+9.6,
+"ND",
+"Belirtilmemiş"
+],
+[
+"CIMR-VC4A0011BAA",
+5.5,
+11.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC2A0012BAA",
+3,
+12,
+"ND",
+"200 V"
+],
+[
+"CIMR-VCBA0012BAA",
+3,
+12,
+"ND",
+"Belirtilmemiş"
+],
+[
+"CIMR-VC4A0018FAA",
+7.5,
+17.5,
+"ND",
+"400 V"
+],
+[
+"CIMR-VCBA0018BAA",
+4,
+17.5,
+"HD",
+"Belirtilmemiş"
+],
+[
+"CIMR-VC2A0020BAA",
+5.5,
+19.6,
+"ND",
+"200 V"
+],
+[
+"CIMR-VC4A0023FAA",
+11,
+23,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC2A0030FAA",
+7.5,
+30,
+"ND",
+"200 V"
+],
+[
+"CIMR-VC4A0031FAA",
+15,
+31,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC4A0038FAA",
+18.5,
+38,
+"ND",
+"400 V"
+],
+[
+"CIMR-VC2A0040FAA",
+11,
+40,
+"ND",
+"200 V"
+],
+[
+"CIMR-VC2A0056FAA",
+15,
+56,
+"ND",
+"200 V"
+],
+[
+"CIMR-VC2A0069FAA",
+18.5,
+69,
+"ND",
+"200 V"
+]
+],
+"specs":[
+[
+"Marka",
+"Yaskawa"
+],
+[
+"Seri",
+"V1000 Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+],
+[
+"Sipariş kodu sayısı",
+"28"
+],
+[
+"Güç aralığı",
+"0.18 - 18.5 kW (ND bazında, üretici sitesindeki ürün kartlarında gösterilen değer)"
+],
+[
+"Akım aralığı",
+"1.2 - 69 A (ND bazında)"
+],
+[
+"Gerilim sınıfları",
+"200 V (11 kod) / 400 V (11 kod) / Belirtilmemiş (6 kod)"
+]
+],
+"rep":{
+"model":"CIMR-VC2A0030FAA",
+"rows":[
+[
+"Model / sipariş kodu",
+"CIMR-VC2A0030FAA"
+],
+[
+"Güç",
+"7.5 kW (ND)"
+],
+[
+"Akım",
+"30 A (ND)"
+],
+[
+"Gerilim",
+"200 V"
+],
+[
+"Seri",
+"V1000 Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+]
+]
+},
+"img":"yaskawa-ac-v1000_20-10-2026.png",
+"imgSize":[
+700,
+394
+]
+},
+{
+"key":"J1000",
+"slug":"j1000",
+"title":"J1000 Serisi",
+"note":"Son derece kompakt AC sürücü; dar pano içi ve değişken hızlı otomasyon uygulamalarında enerji tasarrufu sağlar.",
+"category":"Öncü AC Sürücüler",
+"categoryUrl":"https://www.yaskawa.com.tr/ac-surucu/ac-surucu/kompakt",
+"cols":[
+"Güç (kW)",
+"Akım (A)",
+"Duty",
+"Gerilim"
+],
+"codes":[
+[
+"CIMR-JCBA0001BAA",
+0.2,
+1.2,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC2A0001BAA",
+0.2,
+1.2,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC4A0001BAA",
+0.4,
+1.2,
+"ND",
+"400 V"
+],
+[
+"CIMR-JCBA0002BAA",
+0.4,
+1.9,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC2A0002BAA",
+0.4,
+1.9,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC4A0002BAA",
+0.75,
+2.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-JCBA0003BAA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC2A0004BAA",
+0.75,
+3.5,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC4A0004BAA",
+1.5,
+4.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-JC4A0005BAA",
+2.2,
+5.4,
+"ND",
+"400 V"
+],
+[
+"CIMR-JCBA0006BAA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC2A0006BAA",
+1.1,
+6,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC4A0007BAA",
+3,
+6.9,
+"ND",
+"400 V"
+],
+[
+"CIMR-JC4A0009BAA",
+3.7,
+8.8,
+"ND",
+"400 V"
+],
+[
+"CIMR-JCBA0010BAA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC2A0010BAA",
+2.2,
+9.6,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC4A0011BAA",
+5.5,
+11.1,
+"ND",
+"400 V"
+],
+[
+"CIMR-JC2A0012BAA",
+3,
+12,
+"ND",
+"200 V"
+],
+[
+"CIMR-JC2A0020BAA",
+5.5,
+19.6,
+"ND",
+"200 V"
+]
+],
+"specs":[
+[
+"Marka",
+"Yaskawa"
+],
+[
+"Seri",
+"J1000 Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+],
+[
+"Sipariş kodu sayısı",
+"19"
+],
+[
+"Güç aralığı",
+"0.2 - 5.5 kW (ND bazında, üretici sitesindeki ürün kartlarında gösterilen değer)"
+],
+[
+"Akım aralığı",
+"1.2 - 19.6 A (ND bazında)"
+],
+[
+"Gerilim sınıfları",
+"200 V (12 kod) / 400 V (7 kod)"
+]
+],
+"rep":{
+"model":"CIMR-JC2A0006BAA",
+"rows":[
+[
+"Model / sipariş kodu",
+"CIMR-JC2A0006BAA"
+],
+[
+"Güç",
+"1.1 kW (ND)"
+],
+[
+"Akım",
+"6 A (ND)"
+],
+[
+"Gerilim",
+"200 V"
+],
+[
+"Seri",
+"J1000 Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+]
+]
+},
+"img":"yaskawa-ac-j1000_20-10-2026.png",
+"imgSize":[
+648,
+365
+]
+},
+{
+"key":"L1000V",
+"slug":"l1000v",
+"title":"L1000V Serisi",
+"note":"Açık çevrim dişlili asansörler için geliştirilmiş asansör sürücüsü (en fazla 1,0 m/s); asenkron motorlar için otomatik ayarlama ve asansöre özel komisyonlama menüleri sunar.",
+"category":"Öncü AC Sürücüler",
+"categoryUrl":"https://www.yaskawa.com.tr/ac-surucu/ac-surucu/kompakt",
+"cols":[
+"Güç (kW)",
+"Akım (A)",
+"Duty",
+"Gerilim"
+],
+"codes":[
+[
+"CIMR-LC4V0009FAA",
+3.7,
+9.2,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC4V0009BAA",
+3.7,
+9.2,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC4V0015FAA",
+5.5,
+14.8,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC4V0015BAA",
+5.5,
+14.8,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC2V0018FAA",
+3.7,
+17.5,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC2V0018BAA",
+3.7,
+17.5,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC4V0018FAA",
+7.5,
+18,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC4V0018BAA",
+7.5,
+18,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC4V0024FAA",
+11,
+24,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC4V0024BAA",
+11,
+24,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC2V0025FAA",
+5.5,
+25,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC2V0025BAA",
+5.5,
+25,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC4V0031FAA",
+15,
+31,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC4V0031BAA",
+15,
+31,
+"HD",
+"400 V"
+],
+[
+"CIMR-LC2V0033FAA",
+7.5,
+33,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC2V0033BAA",
+7.5,
+33,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC2V0047FAA",
+11,
+47,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC2V0047BAA",
+11,
+47,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC2V0060FAA",
+15,
+60,
+"HD",
+"200 V"
+],
+[
+"CIMR-LC2V0060BAA",
+15,
+60,
+"HD",
+"200 V"
+]
+],
+"specs":[
+[
+"Marka",
+"Yaskawa"
+],
+[
+"Seri",
+"L1000V Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+],
+[
+"Sipariş kodu sayısı",
+"20"
+],
+[
+"Güç aralığı",
+"3.7 - 15 kW (HD bazında, üretici sitesindeki ürün kartlarında gösterilen değer)"
+],
+[
+"Akım aralığı",
+"9.2 - 60 A (HD bazında)"
+],
+[
+"Gerilim sınıfları",
+"400 V (10 kod) / 200 V (10 kod)"
+]
+],
+"rep":{
+"model":"CIMR-LC2V0033FAA",
+"rows":[
+[
+"Model / sipariş kodu",
+"CIMR-LC2V0033FAA"
+],
+[
+"Güç",
+"7.5 kW (HD)"
+],
+[
+"Akım",
+"33 A (HD)"
+],
+[
+"Gerilim",
+"200 V"
+],
+[
+"Seri",
+"L1000V Serisi"
+],
+[
+"Kategori",
+"Öncü AC Sürücüler"
+]
+]
+},
+"img":"yaskawa-ac-l1000v_20-10-2026.png",
+"imgSize":[
+700,
+394
+]
+}
+]
+}

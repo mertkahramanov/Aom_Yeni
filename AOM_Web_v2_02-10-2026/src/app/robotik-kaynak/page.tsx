@@ -16,7 +16,7 @@ import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJs
 // alınmadı (ürün satışında "Türkiye geneli" zaten doğru ve yayında — REGION_LINE — ama saha
 // kurulumu için ayrı bir iddia broşürde yok).
 const url = `${SITE}/robotik-kaynak`;
-const title = "Robotik Kaynak Sistemleri ve Kaynak Hücreleri | Ankara | AOM";
+const title = "Robotik Kaynak Sistemleri ve Kaynak Hücreleri | Ankara";
 const description =
   "Ankara'da robotik kaynak hücresi, pozisyoner, kolon-bom ve harici eksen çözümleri. Tasarım, kendi atölyemizde imalat, robot entegrasyonu ve devreye alma tek elden.";
 

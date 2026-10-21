@@ -13,7 +13,7 @@ import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJs
 // ölçülmüş enerji tasarrufu" rakamı broşürdeki "AOM projelerinde ölçülen en düşük tasarruf
 // %40'tır" notuyla birlikte kullanıldı (kesin oranın prosese göre değiştiği belirtilerek).
 const url = `${SITE}/tristorlu-guc-kontrol`;
-const title = "Tristörlü Güç Kontrol Panoları | Ankara | AOM";
+const title = "Tristörlü Güç Kontrol Panoları | Ankara";
 const description =
   "Isıl proseslerde hassas güç kontrolü için tristörlü güç kontrol panoları. Faz açısı ve sıfır geçiş kontrolü, RS485 Modbus RTU, kanal başına 600 A. Gefran yetkili satış.";
 

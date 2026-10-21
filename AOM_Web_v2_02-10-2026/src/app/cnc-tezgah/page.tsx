@@ -15,7 +15,7 @@ import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJs
 // çerçevesi (özelleştirme ilkesi) kullanıldı. "Teslim süresi" ve "yerli/ithal" süre
 // karşılaştırması gibi broşürde doğrulanmayan rakamlar da eklenmedi.
 const url = `${SITE}/cnc-tezgah`;
-const title = "Kompakt CNC İşleme Merkezleri | Ankara'da Üretim | AOM";
+const title = "Kompakt CNC İşleme Merkezleri | Ankara'da Üretim";
 const description =
   "Ankara'da tasarlanan ve üretilen kompakt CNC işleme merkezleri. Siemens, Fanuc veya Mitsubishi Electric kontrol, robotlu hücre seçeneği, Ankara'dan servis ve yedek parça.";
 

@@ -43,6 +43,9 @@ export type UrunPageUi = {
   colPrice: string;
   priceVatSuffix: string;
   requestQuoteCell: string;
+  leadTimeLabel: (leadTime: string) => string; // "Tedarik: {leadTime}"
+  eurVatNote: (pct: number) => string; // EUR fiyatlı ürünlerde (ör. Schneider) KDV + faturalama notu
+  tryApproxLine: (tryAmount: string, date: string) => string; // "{tryAmount} + VAT (TCMB EUR selling rate, {date})"
 };
 
 export const URUN_UI: Record<Locale, UrunPageUi> = {
@@ -76,6 +79,9 @@ export const URUN_UI: Record<Locale, UrunPageUi> = {
     colPrice: "Price",
     priceVatSuffix: " + VAT",
     requestQuoteCell: "Request a quote",
+    leadTimeLabel: (leadTime) => `Lead time: ${leadTime}`,
+    eurVatNote: (pct) => `Prices exclude VAT; ${pct}% VAT is added. Invoicing in EUR, or in TRY at the invoice-date exchange rate.`,
+    tryApproxLine: (tryAmount, date) => `${tryAmount} + VAT (TCMB EUR selling rate, ${date})`,
   },
   ru: {
     requestQuotePrice: "Запросите цену",
@@ -107,6 +113,9 @@ export const URUN_UI: Record<Locale, UrunPageUi> = {
     colPrice: "Цена",
     priceVatSuffix: " + НДС",
     requestQuoteCell: "Запросить предложение",
+    leadTimeLabel: (leadTime) => `Срок поставки: ${leadTime}`,
+    eurVatNote: (pct) => `Цены без НДС; добавляется НДС ${pct}%. Счёт в EUR или в TRY по курсу на дату счёта.`,
+    tryApproxLine: (tryAmount, date) => `${tryAmount} + НДС (курс продажи EUR ЦБ Турции, ${date})`,
   },
   ar: {
     requestQuotePrice: "اطلب عرض سعر",
@@ -138,5 +147,8 @@ export const URUN_UI: Record<Locale, UrunPageUi> = {
     colPrice: "السعر",
     priceVatSuffix: " + ضريبة",
     requestQuoteCell: "اطلب عرض سعر",
+    leadTimeLabel: (leadTime) => `مدة التوريد: ${leadTime}`,
+    eurVatNote: (pct) => `الأسعار غير شاملة الضريبة؛ تُضاف ضريبة ${pct}%. الفوترة باليورو أو بالليرة التركية بسعر صرف تاريخ الفاتورة.`,
+    tryApproxLine: (tryAmount, date) => `${tryAmount} + ضريبة (سعر بيع اليورو لدى البنك المركزي التركي، ${date})`,
   },
 };

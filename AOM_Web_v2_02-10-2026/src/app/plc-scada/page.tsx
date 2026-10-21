@@ -13,7 +13,7 @@ import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJs
 // destek" gibi hiçbir broşürde AOM'un kendi hizmeti olarak net geçmeyen bir ifade kullanılmadı
 // (yalnızca oksijen/azot broşüründe, kapsam dışı bir üründe geçiyordu).
 const url = `${SITE}/plc-scada`;
-const title = "PLC Programlama, SCADA ve Makine Otomasyonu | Ankara | AOM";
+const title = "PLC Programlama, SCADA ve Makine Otomasyonu | Ankara";
 const description =
   "Ankara'da PLC ve HMI programlama, SCADA, izleme ve raporlama, özel makine otomasyonu ve pano projeleri. Tasarımdan devreye almaya tek ekip, tek muhatap.";
 

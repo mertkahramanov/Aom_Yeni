@@ -107,6 +107,40 @@ const KIND: Record<string, string> = {
 const SUPPORT =
   "AOM, parça numarasına göre tedarik ve muadil araştırmasında, pano ve tezgâh uygulamasında destek verir. Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.";
 
+// Schneider Electric fiyatlandırması (17-10-2026, Mert onayı: "Evet, uygula").
+// Kaynak: se.com/tr liste fiyatları (EUR, 17-10-2026) ve claude/SCHNEIDER_FIYATLANDIRMA_PLANI_17-10-2026.md.
+// İskonto: Altivar ATV310/ATV320/ATV340 sürücüler %45, ATS01/ATS22 yumuşak yol vericiler %55 (Mert kararı).
+// ÖNEMLİ: listEur ve discountPct yalnız dahili kayıt/doğrulama amaçlıdır — sitede YALNIZ netEur (KDV hariç
+// net satış fiyatı) gösterilir; bu yüzden build() aşağıda Product.price'a discountPct YAZMAZ (yalnız
+// { list: netEur, currency: "EUR" }), çünkü mevcut priceInfo()/StoreCard, discountPct set edilirse liste
+// fiyatını ve indirim yüzdesini de kamuya açık gösterir (ör. Autonics DPU3'te olduğu gibi) — Mert'in
+// "Liste fiyatı ve iskonto oranı sitede gösterilmesin, yalnız net satış fiyatı" kararına aykırı olurdu.
+const SCHNEIDER_PRICE_DATE = "17-10-2026";
+const SCHNEIDER_PRICES: Record<string, { listEur: number; discountPct: number; netEur: number; leadTime: string }> = {
+  ATS22D32Q: { listEur: 1169.0, discountPct: 55, netEur: 526.05, leadTime: "3-5 iş günü" },
+  ATS22D17Q: { listEur: 1072.0, discountPct: 55, netEur: 482.4, leadTime: "3-5 iş günü" },
+  ATS22D47Q: { listEur: 1231.0, discountPct: 55, netEur: 553.95, leadTime: "3-5 iş günü" },
+  ATS22D62Q: { listEur: 1602.0, discountPct: 55, netEur: 720.9, leadTime: "3-5 iş günü" },
+  ATS22D75Q: { listEur: 1659.0, discountPct: 55, netEur: 746.55, leadTime: "3-5 iş günü" },
+  ATS22D88Q: { listEur: 1801.0, discountPct: 55, netEur: 810.45, leadTime: "3-5 iş günü" },
+  ATS22C11Q: { listEur: 2440.0, discountPct: 55, netEur: 1098.0, leadTime: "3-5 iş günü" },
+  ATS22C14Q: { listEur: 3023.0, discountPct: 55, netEur: 1360.35, leadTime: "3-5 iş günü" },
+  ATS01N222QN: { listEur: 345.0, discountPct: 55, netEur: 155.25, leadTime: "3-5 iş günü" },
+  ATS01N232QN: { listEur: 432.0, discountPct: 55, netEur: 194.4, leadTime: "3-5 iş günü" },
+  ATV310H075N4E: { listEur: 476.0, discountPct: 45, netEur: 261.8, leadTime: "3-5 iş günü" },
+  ATV310HU55N4E: { listEur: 855.0, discountPct: 45, netEur: 470.25, leadTime: "3-5 iş günü" },
+  ATV310HU75N4E: { listEur: 1043.0, discountPct: 45, netEur: 573.65, leadTime: "3-5 iş günü" },
+  ATV310HD11N4E: { listEur: 1287.0, discountPct: 45, netEur: 707.85, leadTime: "3-5 iş günü" },
+  ATV320U06N4B: { listEur: 830.0, discountPct: 45, netEur: 456.5, leadTime: "3-5 iş günü" },
+  ATV320U07N4B: { listEur: 867.0, discountPct: 45, netEur: 476.85, leadTime: "3-5 iş günü" },
+  ATV320U15M2C: { listEur: 664.0, discountPct: 45, netEur: 365.2, leadTime: "3-5 iş günü" },
+  ATV320U30N4B: { listEur: 1131.0, discountPct: 45, netEur: 622.05, leadTime: "3-5 iş günü" },
+  ATV320D11N4B: { listEur: 2277.0, discountPct: 45, netEur: 1252.35, leadTime: "3-5 iş günü" },
+  ATV320D15N4B: { listEur: 2848.0, discountPct: 45, netEur: 1566.4, leadTime: "3-5 iş günü" },
+  ATV340U55N4: { listEur: 1626.0, discountPct: 45, netEur: 894.3, leadTime: "3-5 iş günü" },
+  ATV340D18N4E: { listEur: 4176.0, discountPct: 45, netEur: 2296.8, leadTime: "3-5 iş günü" },
+};
+
 const lc = (t: string) => (/^[A-ZÇĞİÖŞÜ][a-zçğıöşü]/.test(t) ? t[0].toLocaleLowerCase("tr-TR") + t.slice(1) : t);
 
 function build(r: Raw): Product {
@@ -121,6 +155,7 @@ function build(r: Raw): Product {
   for (const pre of [full, r.model]) if (pre && lead.toLocaleLowerCase("tr-TR").startsWith(pre.toLocaleLowerCase("tr-TR"))) lead = lead.slice(pre.length).replace(/^[\s,;:–-]+/, "");
   if (!lead) lead = r.group && r.group !== "Diğer" ? `${r.category} · ${r.group}` : r.category;
   lead = lead[0].toLocaleUpperCase("tr-TR") + lead.slice(1);
+  const schn = r.brand === "Schneider Electric" ? SCHNEIDER_PRICES[r.model] : undefined;
   return {
     slug: r.slug,
     brand: r.brand,
@@ -129,11 +164,13 @@ function build(r: Raw): Product {
     name: lead,
     category: r.category,
     summary: [factLine ? `Özellikler: ${factLine}.` : "", alts ? `Diğer geçerli kodlar: ${alts}.` : "", !factLine && !alts ? "Parça numarası veya ürün etiketi bilgisiyle teklif isteyebilirsiniz." : ""].filter(Boolean).join(" "),
+    price: schn ? { list: schn.netEur, currency: "EUR" } : undefined, // yalnız net fiyat (bkz. SCHNEIDER_PRICES yorumu); liste/iskonto kamuya kapalı
+    leadTime: schn?.leadTime,
     image: r.img ? { src: `/magaza/${r.img.file}`, alt: r.name } : undefined,
     imageNote: r.img?.scope === "seri" ? "Fotoğraf, üreticinin bu seri için yayınladığı görseldir." : undefined,
     specs: r.specs.map(([label, value]) => ({ label, value })),
     source: r.source ? { label: "Üretici sayfası", url: r.source } : undefined,
-    specNote: "Teknik bilgiler üretici katalog ve veri sayfalarından ve ürün kodundan derlenmiştir; sipariş öncesi kodu ürün etiketiyle birlikte teyit ederiz.",
+    specNote: `Teknik bilgiler üretici katalog ve veri sayfalarından ve ürün kodundan derlenmiştir; sipariş öncesi kodu ürün etiketiyle birlikte teyit ederiz.${schn ? ` Fiyat kaynağı: se.com/tr (${SCHNEIDER_PRICE_DATE}).` : ""}`,
     groupTitle: r.group,
     series: r.series || undefined,
     kindLabel: KIND[r.category] ?? "Ürün",
