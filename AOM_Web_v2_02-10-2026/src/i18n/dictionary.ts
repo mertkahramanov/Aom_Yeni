@@ -896,9 +896,9 @@ function build(locale: Locale): Dictionary {
       references: {
         eyebrow: { en: "Key references", ru: "Основные референсы", ar: "أبرز المراجع" }[locale],
         lead: {
-          en: "Some of the organizations we work with in defense, aerospace, heavy industry and manufacturing. Project details are covered by non-disclosure agreements.",
-          ru: "Некоторые из организаций, с которыми мы работаем в сфере обороны, авиакосмической отрасли, тяжёлой промышленности и производства. Детали проектов защищены соглашениями о неразглашении.",
-          ar: "بعض الجهات التي نعمل معها في مجالات الدفاع والطيران والصناعات الثقيلة والتصنيع. تفاصيل المشاريع مشمولة باتفاقيات عدم الإفصاح.",
+          en: "Some of the organizations we work with in defense, aerospace, energy, healthcare, heavy industry and manufacturing. Project details are covered by non-disclosure agreements.",
+          ru: "Некоторые из организаций, с которыми мы работаем в сфере обороны, авиакосмической отрасли, энергетики, здравоохранения, тяжёлой промышленности и производства. Детали проектов защищены соглашениями о неразглашении.",
+          ar: "بعض الجهات التي نعمل معها في مجالات الدفاع والطيران والطاقة والرعاية الصحية والصناعات الثقيلة والتصنيع. تفاصيل المشاريع مشمولة باتفاقيات عدم الإفصاح.",
         }[locale],
       },
       contact: {

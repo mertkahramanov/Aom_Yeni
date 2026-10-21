@@ -150,6 +150,18 @@ const references = [
   { name: "SpaceX", src: "/referanslar/spacex_15-10-2026.webp", w: 501, h: 54 },
   { name: "Tunatek", src: "/referanslar/tunatek_15-10-2026.webp", w: 480, h: 480 },
   { name: "Orbant Plastik", src: "/referanslar/orbant-plastik_15-10-2026.webp", w: 432, h: 432 },
+  // 21-10-2026 eklendi (Mert talebi, 3. satır) — bkz. claude/REFERANS_LOGOLARI_3_SATIR_21-10-2026.md
+  // Hepsi beyaz/açık zemin kaldırılıp şeffaflaştırıldı (ADNOC, Atasam, Uralshina, İlim, Taşkent
+  // Kislorod); Eni'nin resmi sarı zemini markanın parçası olduğu için korundu; Oxy Turan ise
+  // Mert'in gönderdiği koyu zeminli "sunum mockup" görselinden amblem+yazı ayıklanarak şeffaf
+  // zemine aktarıldı.
+  { name: "ADNOC (Abu Dhabi National Oil Company)", src: "/referanslar/adnoc_21-10-2026.png", w: 254, h: 387 },
+  { name: "Atasam", src: "/referanslar/atasam_21-10-2026.png", w: 469, h: 146 },
+  { name: "Uralshina", src: "/referanslar/uralshina_21-10-2026.png", w: 698, h: 298 },
+  { name: "Oxy Turan", src: "/referanslar/oxy-turan_21-10-2026.png", w: 553, h: 729 },
+  { name: "Ilim", src: "/referanslar/ilim_21-10-2026.png", w: 183, h: 64 },
+  { name: "Eni", src: "/referanslar/eni_21-10-2026.png", w: 225, h: 225 },
+  { name: "Taşkent Kislorod", src: "/referanslar/taskent-kislorod_21-10-2026.png", w: 472, h: 473 },
 ];
 
 const projectInputs = [
@@ -319,8 +331,8 @@ export default function HomePage() {
       <section id="referanslar" className="container" style={{ paddingTop: 64, paddingBottom: 64, display: "flex", flexDirection: "column", gap: 24 }}>
         <div className="eyebrow">Başlıca referanslar</div>
         <p style={{ margin: 0, fontSize: 15, color: "var(--ink-muted)", maxWidth: 720 }}>
-          Savunma, havacılık, ağır sanayi ve üretim alanında çalıştığımız kuruluşlardan bazıları. Proje
-          ayrıntıları gizlilik anlaşmaları kapsamındadır.
+          Savunma, havacılık, enerji, sağlık, ağır sanayi ve üretim alanında çalıştığımız kuruluşlardan
+          bazıları. Proje ayrıntıları gizlilik anlaşmaları kapsamındadır.
         </p>
         <ul className="logo-grid logo-grid--refs">
           {references.map((r) => (

@@ -55,6 +55,14 @@ const references = [
   { name: "SpaceX", src: "/referanslar/spacex_15-10-2026.webp", w: 501, h: 54 },
   { name: "Tunatek", src: "/referanslar/tunatek_15-10-2026.webp", w: 480, h: 480 },
   { name: "Orbant Plastik", src: "/referanslar/orbant-plastik_15-10-2026.webp", w: 432, h: 432 },
+  // 21-10-2026 eklendi (Mert talebi, 3. satır) — bkz. claude/REFERANS_LOGOLARI_3_SATIR_21-10-2026.md
+  { name: "ADNOC (Abu Dhabi National Oil Company)", src: "/referanslar/adnoc_21-10-2026.png", w: 254, h: 387 },
+  { name: "Atasam", src: "/referanslar/atasam_21-10-2026.png", w: 469, h: 146 },
+  { name: "Uralshina", src: "/referanslar/uralshina_21-10-2026.png", w: 698, h: 298 },
+  { name: "Oxy Turan", src: "/referanslar/oxy-turan_21-10-2026.png", w: 553, h: 729 },
+  { name: "Ilim", src: "/referanslar/ilim_21-10-2026.png", w: 183, h: 64 },
+  { name: "Eni", src: "/referanslar/eni_21-10-2026.png", w: 225, h: 225 },
+  { name: "Taşkent Kislorod", src: "/referanslar/taskent-kislorod_21-10-2026.png", w: 472, h: 473 },
 ];
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
