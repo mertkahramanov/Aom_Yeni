@@ -14,7 +14,9 @@ import LocaleTeklifForm from "@/components/LocaleTeklifForm";
 // sınıfları kullanılır; metin ve bağlantılar dict üzerinden gelir. OEM ve referans logoları,
 // marka adları ve e-posta/telefon gibi özel adlar çevrilmez (orijinaliyle aynı).
 
-const oem: { name: string; slug: string; src: string; w: number; h: number; text?: boolean }[] = [
+// `cert: true` olan kayıtlar bir firma/partner değil, bir sertifikasyon/uyarı işaretidir (örn. ATEX);
+// bunlar marka sayfasına bağlanmaz, yalnızca rozet olarak gösterilir (21-10-2026, TR ile eşitleme).
+const oem: { name: string; slug?: string; src: string; w: number; h: number; text?: boolean; cert?: boolean; certLabel?: string }[] = [
   { name: "Yaskawa", slug: "yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
   { name: "Fanuc", slug: "fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160 },
   // 21-10-2026 (TR ana sayfa ile eşitleme): Mert'in yeniden gönderdiği güncel ABB logosu.
@@ -38,6 +40,15 @@ const oem: { name: string; slug: string; src: string; w: number; h: number; text
   // resmi global sitesinden (inovance.com/global) temiz, transparan zeminli, yüksek çözünürlüklü
   // (2858×431) resmi logo indirildi; artık diğer markalar gibi gerçek görseliyle gösteriliyor.
   { name: "Inovance", slug: "inovance", src: "/oem/inovance_20-10-2026.png", w: 2858, h: 431 },
+  // 21-10-2026 eklendi (TR ana sayfa ile eşitleme — bkz. oradaki not): ızgara sağa 2 sütun × 3 satır
+  // genişletildi (15→21 logo = 5→7 sütun).
+  { name: "Weidmüller", slug: "weidmuller", src: "/oem/weidmuller_21-10-2026.png", w: 703, h: 158 },
+  { name: "Telemecanique Sensors", slug: "telemecanique-sensors", src: "/oem/telemecanique-sensors_21-10-2026.png", w: 580, h: 196 },
+  { name: "LS Electric", slug: "ls-electric", src: "/oem/ls-electric_21-10-2026.png", w: 788, h: 192 },
+  { name: "Panasonic", slug: "panasonic", src: "/oem/panasonic_21-10-2026.png", w: 868, h: 211 },
+  { name: "Keyence", slug: "keyence", src: "/oem/keyence_21-10-2026.svg", w: 91, h: 16 },
+  // ATEX: bir firma/partner değil, sertifikasyon/uyarı işareti; marka sayfasına bağlanmaz (Mert onayı).
+  { name: "ATEX", src: "/oem/atex-ex_21-10-2026.png", w: 887, h: 780, cert: true, certLabel: "ATEX sertifikası" },
 ];
 
 const references = [
@@ -189,35 +200,44 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
       <section id="oem" style={{ background: "var(--surface-raised)", borderTop: "1px solid var(--line)" }}>
         <div className="container" style={{ paddingTop: 64, paddingBottom: 64, display: "flex", flexDirection: "column", gap: 24 }}>
           <div className="eyebrow">{dict.oem.heading}</div>
-          <ul className="logo-grid">
-            {oem.map((b) => (
-              <li key={b.name}>
-                <Link href={`/${loc}/magaza/marka/${b.slug}`} aria-label={`${b.name} ${dict.oem.ariaSuffix}`}>
-                  {b.text ? (
-                    <span style={{ fontFamily: "var(--font-display), sans-serif", fontWeight: 700, fontSize: 15, color: "var(--ink-muted)" }}>
-                      {b.name}
-                    </span>
-                  ) : b.src.endsWith(".svg") ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={b.src}
-                      alt={b.name}
-                      width={b.w}
-                      height={b.h}
-                      style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
-                    />
+          <ul className="logo-grid logo-grid--oem">
+            {oem.map((b) => {
+              const logo = b.text ? (
+                <span style={{ fontFamily: "var(--font-display), sans-serif", fontWeight: 700, fontSize: 15, color: "var(--ink-muted)" }}>
+                  {b.name}
+                </span>
+              ) : b.src.endsWith(".svg") ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={b.src}
+                  alt={b.cert ? (b.certLabel ?? b.name) : b.name}
+                  width={b.w}
+                  height={b.h}
+                  style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
+                />
+              ) : (
+                <Image
+                  src={b.src}
+                  alt={b.cert ? (b.certLabel ?? b.name) : b.name}
+                  width={b.w}
+                  height={b.h}
+                  style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
+                />
+              );
+              return (
+                <li key={b.name}>
+                  {b.cert ? (
+                    <div role="img" aria-label={b.certLabel ?? b.name} title={b.certLabel ?? b.name} style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "100%" }}>
+                      {logo}
+                    </div>
                   ) : (
-                    <Image
-                      src={b.src}
-                      alt={b.name}
-                      width={b.w}
-                      height={b.h}
-                      style={{ width: "auto", height: "auto", maxWidth: "85%", maxHeight: "70%", objectFit: "contain" }}
-                    />
+                    <Link href={`/${loc}/magaza/marka/${b.slug}`} aria-label={`${b.name} ${dict.oem.ariaSuffix}`}>
+                      {logo}
+                    </Link>
                   )}
-                </Link>
-              </li>
-            ))}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>

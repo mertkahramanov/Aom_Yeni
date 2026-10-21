@@ -197,6 +197,52 @@ export const BRANDS: Record<
       "Projenize uygun Inovance ürünleri için bizimle iletişime geçin.",
     ],
   },
+  // 21-10-2026 eklendi (Mert talebi, OEM ızgarası sağa 2 sütun/3 satır genişletildi) — bkz.
+  // claude/OEM_LOGO_WEIDMULLER_TELEMECANIQUE_LSELECTRIC_KEYENCE_21-10-2026.md
+  weidmuller: {
+    name: "Weidmüller",
+    country: "Almanya",
+    site: "https://www.weidmueller.com",
+    seoTitle: "Weidmüller OEM Partneri – Endüstriyel Bağlantı Teknolojileri | Ankara",
+    description: "Weidmüller, AOM'un OEM partnerlerinden biridir; endüstriyel bağlantı, klemens ve arayüz teknolojilerinde kullanılır.",
+    intro: [
+      "Weidmüller, AOM'un OEM partnerlerinden biridir. Endüstriyel bağlantı, klemens ve arayüz teknolojilerinde kullanılan markalardan biridir.",
+      "Projenize uygun Weidmüller ürünleri için bizimle iletişime geçin.",
+    ],
+  },
+  "telemecanique-sensors": {
+    name: "Telemecanique Sensors",
+    country: "Fransa",
+    site: "https://www.telemecaniquesensors.com",
+    seoTitle: "Telemecanique Sensors OEM Partneri – Endüstriyel Sensör | Ankara",
+    description: "Telemecanique Sensors, AOM'un OEM partnerlerinden biridir; endüstriyel sensör çözümlerinde kullanılır.",
+    intro: [
+      "Telemecanique Sensors, AOM'un OEM partnerlerinden biridir. Endüstriyel sensör çözümlerinde kullanılan markalardan biridir.",
+      "Projenize uygun Telemecanique Sensors ürünleri için bizimle iletişime geçin.",
+    ],
+  },
+  "ls-electric": {
+    name: "LS Electric",
+    country: "Güney Kore",
+    site: "https://www.lselectric.com",
+    seoTitle: "LS Electric OEM Partneri – Endüstriyel Otomasyon | Ankara",
+    description: "LS Electric, AOM'un OEM partnerlerinden biridir; endüstriyel otomasyon ve güç elektroniği ürünlerinde kullanılır.",
+    intro: [
+      "LS Electric, AOM'un OEM partnerlerinden biridir. Endüstriyel otomasyon ve güç elektroniği ürünlerinde kullanılan markalardan biridir.",
+      "Projenize uygun LS Electric ürünleri için bizimle iletişime geçin.",
+    ],
+  },
+  keyence: {
+    name: "Keyence",
+    country: "Japonya",
+    site: "https://www.keyence.com.tr",
+    seoTitle: "Keyence OEM Partneri – Endüstriyel Sensör ve Görüntüleme | Ankara",
+    description: "Keyence, AOM'un OEM partnerlerinden biridir; endüstriyel sensör, ölçüm ve görüntüleme sistemlerinde kullanılır.",
+    intro: [
+      "Keyence, AOM'un OEM partnerlerinden biridir. Endüstriyel sensör, ölçüm ve görüntüleme sistemlerinde kullanılan markalardan biridir.",
+      "Projenize uygun Keyence ürünleri için bizimle iletişime geçin.",
+    ],
+  },
   // 20-10-2026 eklendi (Mert talebi, Yaskawa robot kataloğu mağazaya işlendi): Yaskawa zaten ana sayfadaki
   // OEM partnerlikleri ızgarasında yer alıyordu; mağazada artık gerçek ürün kataloğu (88 robot modeli) de
   // bulunduğundan sayfa, diğer salt-tanıtım OEM markalarından farklı olarak ürün kategorisine bağlanır.
