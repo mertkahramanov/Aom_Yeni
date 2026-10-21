@@ -137,6 +137,19 @@ export const BRANDS: Record<
       "Projenize uygun Leuze ürünleri için bizimle iletişime geçin.",
     ],
   },
+  // 21-10-2026 eklendi (Mert talebi): Balluff, Pilz/Leuze/Banner ile aynı kalıpta (yalnız OEM partnerliği,
+  // doğrulanmamış "yetkili satıcı/distribütör" iddiası yok); aksi halde /magaza/marka/balluff 404 verirdi.
+  balluff: {
+    name: "Balluff",
+    country: "Almanya",
+    site: "https://www.balluff.com",
+    seoTitle: "Balluff OEM Partneri – Endüstriyel Sensör | Ankara",
+    description: "Balluff, AOM'un OEM partnerlerinden biridir; endüstriyel sensör ve otomasyon çözümlerinde kullanılır.",
+    intro: [
+      "Balluff, AOM'un OEM partnerlerinden biridir. Endüstriyel sensör ve otomasyon çözümlerinde kullanılan markalardan biridir.",
+      "Projenize uygun Balluff ürünleri için bizimle iletişime geçin.",
+    ],
+  },
   banner: {
     name: "Banner",
     country: "ABD",

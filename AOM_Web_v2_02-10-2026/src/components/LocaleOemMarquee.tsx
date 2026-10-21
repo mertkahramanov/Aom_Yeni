@@ -10,13 +10,15 @@ type Brand = { name: string; slug: string; src: string; w: number; h: number; dw
 const brands: Brand[] = [
   { name: "Yaskawa", slug: "yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160, dw: 125, dh: 32 },
   { name: "Fanuc", slug: "fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160, dw: 136, dh: 23 },
-  // 20-10-2026 düzeltme (Mert talebi): abb_03-10-2026.png yerine Mert'in verdiği resmi ABB görseli kullanıldı.
-  { name: "ABB", slug: "abb", src: "/oem/abb_20-10-2026.png", w: 332, h: 141, dw: 94, dh: 40 },
+  // 21-10-2026 (Mert talebi): Mert'in yeniden gönderdiği güncel ABB logosuyla değiştirildi.
+  { name: "ABB", slug: "abb", src: "/oem/abb_21-10-2026.png", w: 1352, h: 580, dw: 94, dh: 40 },
   { name: "Siemens", slug: "siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60, dw: 136, dh: 22 },
   { name: "Mitsubishi Electric", slug: "mitsubishi-electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160, dw: 117, dh: 34 },
   { name: "Omron", slug: "omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99, dw: 136, dh: 26 },
   { name: "Pilz", slug: "pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149, dw: 103, dh: 39 },
   { name: "Leuze", slug: "leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115, dw: 115, dh: 35 },
+  // 21-10-2026 eklendi (Mert talebi): Balluff, arka planı temizlenmiş şeffaf PNG.
+  { name: "Balluff", slug: "balluff", src: "/oem/balluff_21-10-2026.png", w: 908, h: 216, dw: 97, dh: 23 },
   { name: "Banner", slug: "banner", src: "/oem/banner_03-10-2026.png", w: 283, h: 61, dw: 136, dh: 29 },
   { name: "Autonics", slug: "autonics", src: "/oem/autonics_03-10-2026.png", w: 746, h: 160, dw: 136, dh: 29 },
   { name: "Schneider Electric", slug: "schneider-electric", src: "/oem/schneider-electric_03-10-2026.png", w: 388, h: 160, dw: 98, dh: 41 },

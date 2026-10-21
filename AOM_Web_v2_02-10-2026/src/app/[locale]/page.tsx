@@ -17,13 +17,15 @@ import LocaleTeklifForm from "@/components/LocaleTeklifForm";
 const oem: { name: string; slug: string; src: string; w: number; h: number; text?: boolean }[] = [
   { name: "Yaskawa", slug: "yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
   { name: "Fanuc", slug: "fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160 },
-  // 20-10-2026 düzeltme (TR ana sayfa ile eşitleme): abb_03-10-2026.png yerine Mert'in verdiği resmi ABB görseli.
-  { name: "ABB", slug: "abb", src: "/oem/abb_20-10-2026.png", w: 332, h: 141 },
+  // 21-10-2026 (TR ana sayfa ile eşitleme): Mert'in yeniden gönderdiği güncel ABB logosu.
+  { name: "ABB", slug: "abb", src: "/oem/abb_21-10-2026.png", w: 1352, h: 580 },
   { name: "Siemens", slug: "siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60 },
   { name: "Mitsubishi Electric", slug: "mitsubishi-electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160 },
   { name: "Omron", slug: "omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99 },
   { name: "Pilz", slug: "pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149 },
   { name: "Leuze", slug: "leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115 },
+  // 21-10-2026 eklendi (TR ana sayfa ile eşitleme): Balluff, arka planı temizlenmiş şeffaf PNG.
+  { name: "Balluff", slug: "balluff", src: "/oem/balluff_21-10-2026.png", w: 908, h: 216 },
   { name: "Gefran", slug: "gefran", src: "/oem/gefran_11-10-2026.svg", w: 160, h: 37 },
   // 19-10-2026 eklendi (Mert talebi): TR ana sayfa (src/app/page.tsx) ile eşitleme. Delta/Schneider
   // Electric/Autonics için OemMarquee ile aynı, zaten mevcut 03-10-2026 tarihli dosyalar; Lenze ve

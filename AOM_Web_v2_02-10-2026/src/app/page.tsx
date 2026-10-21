@@ -98,13 +98,18 @@ const processSteps = [
 const oem: { name: string; slug: string; src: string; w: number; h: number; text?: boolean }[] = [
   { name: "Yaskawa", slug: "yaskawa", src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
   { name: "Fanuc", slug: "fanuc", src: "/oem/fanuc_03-10-2026.png", w: 947, h: 160 },
-  // 20-10-2026 düzeltme (Mert talebi): abb_03-10-2026.png yerine Mert'in verdiği resmi ABB görseli kullanıldı.
-  { name: "ABB", slug: "abb", src: "/oem/abb_20-10-2026.png", w: 332, h: 141 },
+  // 21-10-2026 (Mert talebi): Mert'in yeniden gönderdiği güncel ABB logosuyla değiştirildi (zaten
+  // şeffaf zeminliydi, yalnız kırpıldı); eski abb_20-10-2026.png artık referanssız.
+  { name: "ABB", slug: "abb", src: "/oem/abb_21-10-2026.png", w: 1352, h: 580 },
   { name: "Siemens", slug: "siemens", src: "/oem/siemens_03-10-2026.png", w: 376, h: 60 },
   { name: "Mitsubishi Electric", slug: "mitsubishi-electric", src: "/oem/mitsubishi-electric_03-10-2026.png", w: 548, h: 160 },
   { name: "Omron", slug: "omron", src: "/oem/omron_03-10-2026.png", w: 509, h: 99 },
   { name: "Pilz", slug: "pilz", src: "/oem/pilz_03-10-2026.png", w: 396, h: 149 },
   { name: "Leuze", slug: "leuze", src: "/oem/leuze_03-10-2026.png", w: 381, h: 115 },
+  // 21-10-2026 eklendi (Mert talebi): Mert'in verdiği Balluff logosu; arka planı (baskılı dama deseni)
+  // temizlenip gerçek şeffaf PNG olarak işlendi (bkz. claude/OEM_LOGO_ABB_GUNCELLEME_BALLUFF_EKLEME_21-10-2026.md).
+  // markalar.ts'e de kısa bir marka kaydı eklendi, aksi halde /magaza/marka/balluff 404 verirdi.
+  { name: "Balluff", slug: "balluff", src: "/oem/balluff_21-10-2026.png", w: 908, h: 216 },
   { name: "Gefran", slug: "gefran", src: "/oem/gefran_11-10-2026.svg", w: 160, h: 37 },
   // 19-10-2026 eklendi (Mert talebi): bu 5 marka OemMarquee'de (kayan şerit) zaten vardı/ekleniyor
   // ama bu statik "OEM partnerlikleri" ızgarasında eksikti. Delta/Schneider Electric/Autonics için
