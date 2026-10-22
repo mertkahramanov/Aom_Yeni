@@ -6,12 +6,27 @@ import LanguageSwitcher from "./LanguageSwitcher";
 // "Otomasyon" artık ayrı menü öğesi değil (içeriği Hakkımızda + Çözümlerimiz'e taşındı; /otomasyon
 // sayfası silinmedi, yalnızca menüden kalktı). "Hizmetler" ve "Süreç" artık Çözümlerimiz'in
 // alt blokları (bkz. src/app/page.tsx).
+// 21-10-2026 güncellemesi (Mert onayı): "Çözümlerimiz" üzerine gelince açılan alt menü eklendi
+// (bkz. globals.css .nav-dropdown). /otomasyon sayfası bu alt menüye eklenerek Çözümlerimiz
+// kapsamına dahil edildi — sayfa taşınmadı/silinmedi, yalnızca header seviyesinde ilişkilendirildi.
+// Ayrıca HeroSlider.tsx'teki "Otomasyon" slaytının CTA'sı artık #cozumler yerine /otomasyon'a gider.
 const menu = [
   { href: "/#hakkimizda", label: "Hakkımızda" },
   { href: "/#cozumler", label: "Çözümlerimiz" },
   { href: "/#oem", label: "OEM Partnerlerimiz" },
   { href: "/#referanslar", label: "Referanslarımız" },
   { href: "/#iletisim", label: "İletişim" },
+];
+
+// Çözümlerimiz alt menüsü: Footer.tsx'teki "solutions" listesiyle birebir aynı 5 hizmet sayfası,
+// artı /otomasyon (saha projeleri galerisi — video ve pano fotoğrafları).
+const solutionsMenu = [
+  { href: "/robotik-kaynak", label: "Robotik kaynak" },
+  { href: "/pres-guvenligi", label: "Pres güvenliği" },
+  { href: "/cnc-tezgah", label: "CNC tezgâh" },
+  { href: "/plc-scada", label: "PLC, SCADA" },
+  { href: "/tristorlu-guc-kontrol", label: "Tristörlü güç kontrol" },
+  { href: "/otomasyon", label: "Otomasyon (saha projeleri)" },
 ];
 
 export default function Header() {
@@ -22,11 +37,26 @@ export default function Header() {
           <Image src="/aom-wordmark.png" alt="AOM" width={181} height={40} priority />
         </Link>
         <nav aria-label="Ana menü" className="site-nav">
-          {menu.map((m) => (
-            <Link key={m.href} href={m.href}>
-              {m.label}
-            </Link>
-          ))}
+          {menu.map((m) =>
+            m.href === "/#cozumler" ? (
+              <div key={m.href} className="nav-dropdown">
+                <Link href={m.href} aria-haspopup="true">
+                  {m.label}
+                </Link>
+                <div className="nav-dropdown-panel" role="menu" aria-label="Çözümlerimiz alt menüsü">
+                  {solutionsMenu.map((s) => (
+                    <Link key={s.href} href={s.href} role="menuitem">
+                      {s.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <Link key={m.href} href={m.href}>
+                {m.label}
+              </Link>
+            )
+          )}
         </nav>
         <div className="header-actions">
           <LanguageSwitcher current="tr" />

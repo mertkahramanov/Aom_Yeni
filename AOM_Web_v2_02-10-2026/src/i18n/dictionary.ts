@@ -36,6 +36,9 @@ export type Dictionary = {
   nav: {
     ariaLogo: string;
     items: { href: string; label: string }[];
+    /** 21-10-2026 eklendi (Mert onayı): "Çözümlerimiz" üzerine gelince açılan alt menü —
+     * 5 hizmet sayfası + /otomasyon (saha projeleri galerisi). Bkz. LocaleHeader.tsx. */
+    solutionsMenu: { href: string; label: string }[];
     store: string;
     cta: string;
   };
@@ -798,8 +801,17 @@ function build(locale: Locale): Dictionary {
     ar: ["نموذج ثلاثي الأبعاد أو رسم فني", "وزن القطعة وأبعادها", "قائمة لحامات اللحام والعملية", "الكمية السنوية وزمن الدورة المستهدف", "الروبوت وآلة اللحام الموجودة إن وجدت"],
   }[locale];
 
+  // 21-10-2026 eklendi (Mert onayı): Header dropdown içeriği — footer'daki 5 çözüm sayfası +
+  // /otomasyon (saha projeleri galerisi). solutionsFooter ile aynı hrefler, otomasyon eklendi.
+  const automationMenuLabel = {
+    en: "Automation (field projects)",
+    ru: "Автоматизация (проекты на объекте)",
+    ar: "الأتمتة (مشاريع ميدانية)",
+  }[locale];
+  const solutionsMenu = [...solutionsFooter, { href: p("/otomasyon"), label: automationMenuLabel }];
+
   return {
-    nav: { ariaLogo: common.ariaLogo, items: nav, store: common.store, cta: common.cta },
+    nav: { ariaLogo: common.ariaLogo, items: nav, solutionsMenu, store: common.store, cta: common.cta },
     footer: {
       legalName: "ANGORA ENDÜSTRİYEL MAKİNE TEKNO. OTOMAS. SAN. VE TİC. LTD. ŞTİ.",
       addressSuffix: common.addressSuffix,

@@ -30,7 +30,10 @@ const slides: Slide[] = [
     lead: "Endüstriyel otomasyon, yazılım, makine otomasyonu ve SCADA projelerini tasarımdan devreye almaya kadar tek ekip olarak yürütüyoruz.",
     spec: "Tek muhatap, tek sorumluluk",
     cta: "Otomasyon çözümlerini inceleyin",
-    href: "#cozumler",
+    // 21-10-2026 düzeltmesi (Mert onayı): bu slaytın CTA'sı artık ana sayfadaki #cozumler
+    // bölümüne değil, saha projeleri (video/pano fotoğrafları) içeren /otomasyon sayfasına gider.
+    // Diğer slaytların href'i (kaynak/pres/cnc/tristor/medikal) kapsam dışı, değiştirilmedi.
+    href: "/otomasyon",
     visual: "",
     areas: [
       {

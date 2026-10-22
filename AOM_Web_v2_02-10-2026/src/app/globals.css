@@ -107,6 +107,53 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
 .site-nav a:hover { color: var(--aom-red); }
 @media (max-width: 900px) { .site-nav { order: 3; width: 100%; gap: 0 18px; } }
 
+/* Çözümlerimiz alt menüsü (21-10-2026, Mert onayı): "Çözümlerimiz" üzerine gelince açılır,
+   5 hizmet sayfası + /otomasyon'u listeler. Header.tsx ve LocaleHeader.tsx'te kullanılır. */
+.nav-dropdown { position: relative; }
+.nav-dropdown-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--aom-red);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.14);
+  padding: 8px 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  z-index: 20;
+}
+.nav-dropdown:hover .nav-dropdown-panel,
+.nav-dropdown:focus-within .nav-dropdown-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.nav-dropdown-panel a { padding: 10px 18px; font-size: 14px; font-weight: 500; white-space: nowrap; }
+.nav-dropdown-panel a:hover { background: var(--surface); color: var(--aom-red); }
+@media (max-width: 900px) {
+  /* Dokunmatik ekranlarda hover olmadığı için alt menü her zaman açık/erişilebilir tutulur
+     (gizleyip yalnızca hover ile açmak dokunmatikte ulaşılamaz hale getirirdi). */
+  .nav-dropdown-panel {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    display: flex;
+    padding: 0 0 4px 16px;
+    margin-top: 0;
+  }
+  .nav-dropdown-panel a { padding: 6px 0; font-size: 14px; }
+}
+
 /* header-actions: margin-left:auto (space-between yerine) bu bloğu satır sarsa bile sağa
    yaslı tutar — dil değiştirici eklenince (19-10-2026) dar genişliklerde "sola düşüp kaymış"
    görünmesini önler (düzeltme: Mert'in geri bildirimi, 19-10-2026).

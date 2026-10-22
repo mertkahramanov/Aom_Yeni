@@ -7,6 +7,10 @@ import LanguageSwitcher from "./LanguageSwitcher";
 // Header.tsx'in çok dilli karşılığı (18-10-2026). Aynı CSS sınıflarını kullanır (site-header,
 // site-nav, header-actions, btn vb.) — görsel stil globals.css'ten hiç değişmeden miras alınır.
 // Türkçe Header.tsx bu dosyadan etkilenmez, ayrı ve değişmeden kalır.
+// 21-10-2026 güncellemesi (Mert onayı): "Çözümlerimiz" öğesi üzerine gelince açılan alt menü
+// eklendi (bkz. Header.tsx'teki aynı değişiklik ve globals.css .nav-dropdown). İçerik
+// dict.nav.solutionsMenu'den gelir (bkz. src/i18n/dictionary.ts). "Çözümlerimiz" öğesi,
+// hash'i "#cozumler" ile biten href'e bakılarak bulunur (p("#cozumler") = `/${locale}#cozumler`).
 export default function LocaleHeader({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     <header className="site-header">
@@ -15,11 +19,26 @@ export default function LocaleHeader({ locale, dict }: { locale: Locale; dict: D
           <Image src="/aom-wordmark.png" alt="AOM" width={181} height={40} priority />
         </Link>
         <nav aria-label={dict.nav.items.length ? dict.nav.ariaLogo : undefined} className="site-nav">
-          {dict.nav.items.map((m) => (
-            <Link key={m.href} href={m.href}>
-              {m.label}
-            </Link>
-          ))}
+          {dict.nav.items.map((m) =>
+            m.href.endsWith("#cozumler") ? (
+              <div key={m.href} className="nav-dropdown">
+                <Link href={m.href} aria-haspopup="true">
+                  {m.label}
+                </Link>
+                <div className="nav-dropdown-panel" role="menu" aria-label={m.label}>
+                  {dict.nav.solutionsMenu.map((s) => (
+                    <Link key={s.href} href={s.href} role="menuitem">
+                      {s.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <Link key={m.href} href={m.href}>
+                {m.label}
+              </Link>
+            )
+          )}
         </nav>
         <div className="header-actions">
           <LanguageSwitcher current={locale} />

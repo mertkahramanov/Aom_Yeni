@@ -166,7 +166,11 @@ export default function LocaleHeroSlider({ locale, dict }: { locale: Locale; dic
               <p className="slider-lead">{cur.lead}</p>
               <div className="slider-spec">{cur.spec}</div>
               <div className="slider-ctas">
-                <Link href={`/${locale}#cozumler`} className="btn btn-primary">
+                {/* 21-10-2026 düzeltmesi (Mert onayı): "Otomasyon" slaytının CTA'sı artık
+                    #cozumler yerine /otomasyon sayfasına gider (TR HeroSlider.tsx ile aynı
+                    düzeltme). Diğer slaytlar (kaynak/pres/cnc/tristor/medikal) kapsam dışı,
+                    #cozumler'e gitmeye devam eder. */}
+                <Link href={cur.key === "otomasyon" ? `/${locale}/otomasyon` : `/${locale}#cozumler`} className="btn btn-primary">
                   {cur.cta}
                 </Link>
                 <Link href={`/${locale}#iletisim`} className="btn btn-outline-light">
