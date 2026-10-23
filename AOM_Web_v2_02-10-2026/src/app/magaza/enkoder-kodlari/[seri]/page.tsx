@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CodeFilter from "@/components/CodeFilter";
-import { ENC_SERIES, encLabel, encProductSlug, encSeries, lcFirst } from "@/data/enkoder";
+import { ENC_SERIES, ENKODER_PRICES, encLabel, encProductSlug, encSeries, lcFirst } from "@/data/enkoder";
+import { priceInfo, type Product } from "@/data/magaza";
 import { breadcrumbJsonLd, hreflangAlternates, ORG, REGION_LINE, SITE } from "@/lib/seo";
 
 const WA = ORG.telephone.replace(/\D/g, "");
@@ -183,6 +184,7 @@ export default async function EnkoderSeriKodPage({ params }: { params: Promise<{
                   <th key={c} scope="col">{c}</th>
                 ))}
                 <th scope="col">Durum</th>
+                <th scope="col">Fiyat</th>
                 <th scope="col">Teklif</th>
               </tr>
             </thead>
@@ -192,6 +194,7 @@ export default async function EnkoderSeriKodPage({ params }: { params: Promise<{
                 const off = row[1] === 1;
                 const subject = encodeURIComponent(`Teklif talebi: Autonics ${code}`);
                 const wa = encodeURIComponent(`Merhaba, Autonics ${code} için teklif almak istiyorum.`);
+                const pi = ENKODER_PRICES[code] ? priceInfo({ price: ENKODER_PRICES[code] } as Product) : null;
                 return (
                   <tr key={code} id={code}>
                     <th scope="row">{code}</th>
@@ -199,6 +202,17 @@ export default async function EnkoderSeriKodPage({ params }: { params: Promise<{
                       <td key={s.cols[i]}>{String(v)}</td>
                     ))}
                     <td className={off ? "enc-status-off" : undefined}>{off ? "Üretimden kalktı" : "Üretimde"}</td>
+                    <td className="store-price-wrap" style={{ margin: 0 }}>
+                      {pi ? (
+                        <>
+                          {pi.discount && <s className="store-price-list">{pi.list}</s>}
+                          <span className="store-price" style={{ marginTop: 0 }}>{pi.net}</span>
+                          {pi.discount && <span className="store-discount">{pi.discount}</span>}
+                        </>
+                      ) : (
+                        "Teklif isteyin"
+                      )}
+                    </td>
                     <td className="dpu-actions">
                       <a href={`mailto:${ORG.email}?subject=${subject}`}>E-posta</a> ·{" "}
                       <a href={`https://wa.me/${WA}?text=${wa}`} target="_blank" rel="noopener noreferrer">

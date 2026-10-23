@@ -15,6 +15,18 @@ import { robotikKaynakContent } from "@/i18n/pages/robotik-kaynak";
 // görseller kullanılır (src/w/h değişmez), yalnızca metin robotikKaynakContent'ten gelir.
 const slugPath = "/robotik-kaynak";
 
+// 23-10-2026 eklendi: "Mühendislik ve simülasyon yazılımlarımız" galerisinin görsel dosya yolları
+// ve boyutları (src/w/h) dile göre değişmez; alt/title/text metinleri robotikKaynakContent[loc].software'den gelir.
+const SOFTWARE_IMAGES = [
+  { src: "/hizmetler/robotik-kaynak/robot-otomasyon-solidworks-electrical-3d_23-10-2026.webp", w: 1920, h: 1080 },
+  { src: "/hizmetler/robotik-kaynak/robot-otomasyon-siemens-nx-teamcenter_23-10-2026.webp", w: 1366, h: 768 },
+  { src: "/hizmetler/robotik-kaynak/robot-otomasyon-fanuc-roboguide-tasima-hucresi_23-10-2026.webp", w: 1318, h: 724 },
+  { src: "/hizmetler/robotik-kaynak/robot-otomasyon-tecnomatix-plant-simulation_23-10-2026.webp", w: 1294, h: 678 },
+  { src: "/hizmetler/robotik-kaynak/robot-otomasyon-tia-portal-factory-io_23-10-2026.webp", w: 1366, h: 768 },
+  { src: "/hizmetler/robotik-kaynak/robot-otomasyon-delmia-v5-tool-changer_23-10-2026.webp", w: 1343, h: 725 },
+  { src: "/hizmetler/robotik-kaynak/robot-otomasyon-fanuc-roboguide-yikama-hucresi_23-10-2026.webp", w: 1366, h: 768 },
+];
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
@@ -61,6 +73,7 @@ export default async function LocaleRobotikKaynakPage({ params }: { params: Prom
       <div style={{ display: "flex", flexDirection: "column", gap: 16, maxWidth: 860 }}>
         <div className="eyebrow">{c.eyebrow}</div>
         <h1 style={{ fontWeight: 800, fontSize: 40, lineHeight: 1.08 }}>{c.h1}</h1>
+        <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 17, fontWeight: 600 }}>{c.subH1}</p>
         <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 16 }}>
           {c.intro} {REGION_LINE[loc]}
         </p>
@@ -83,6 +96,30 @@ export default async function LocaleRobotikKaynakPage({ params }: { params: Prom
           style={{ width: "100%", height: "auto", borderRadius: 8, border: "1px solid var(--line)" }}
         />
       </figure>
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
+        <h2 className="h2" style={{ fontSize: 26 }}>
+          {c.softwareTitle}
+        </h2>
+        <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 15 }}>{c.softwareIntro}</p>
+      </div>
+      <div className="grid-auto" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))" }}>
+        {c.software.map((s, i) => (
+          <figure key={s.title} className="card" style={{ margin: 0, padding: 0, overflow: "hidden", display: "flex", flexDirection: "column", gap: 0 }}>
+            <Image
+              src={SOFTWARE_IMAGES[i].src}
+              alt={s.alt}
+              width={SOFTWARE_IMAGES[i].w}
+              height={SOFTWARE_IMAGES[i].h}
+              style={{ width: "100%", height: "auto", display: "block", borderBottom: "1px solid var(--line)" }}
+            />
+            <figcaption style={{ padding: 14, display: "flex", flexDirection: "column", gap: 4 }}>
+              <strong style={{ fontFamily: "var(--font-display)", fontSize: 15 }}>{s.title}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-muted)" }}>{s.text}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
         <h2 className="h2" style={{ fontSize: 26 }}>

@@ -2,6 +2,9 @@
 // Kaynak: Autonics Türkiye seri sayfası model listesi (03-10-2026). Aşağıdaki şemayla üretilen 840 kod,
 // Autonics listesiyle birebir karşılaştırıldı (eksik / fazla yok).
 // "-A" soneki: yalnız trifazede; Autonics teknik tablosunda -A'lı ve -A'sız model arasında fark görünmüyor [TEYİT].
+// Fiyat: Mert'in sağladığı Autonics fiyat listesiyle eşleşen 479/840 kod için DPU_PRICES'tan geliyor (23-10-2026,
+// %40 iskonto, DPU3 ürün sayfalarıyla aynı kamuya açık gösterim). Eşleşmeyenlerde "Teklif isteyin".
+export { DPU_PRICES } from "./autonics-fiyat-eslesen_23-10-2026";
 
 export type DpuCode = {
   code: string;

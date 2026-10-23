@@ -3,10 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CodeFilter from "@/components/CodeFilter";
-import { KONTROL_KOD_SERIES, kontrolKodSeries, kontrolSlug } from "@/data/kontrol";
+import { KONTROL_KOD_PRICES, KONTROL_KOD_SERIES, kontrolKodSeries, kontrolSlug } from "@/data/kontrol";
 
 const lc = (t: string) => (/^[A-ZÇĞİÖŞÜ][a-zçğıöşü]/.test(t) ? t[0].toLocaleLowerCase("tr-TR") + t.slice(1) : t);
-import { products } from "@/data/magaza";
+import { priceInfo, products, type Product } from "@/data/magaza";
 import { breadcrumbJsonLd, hreflangAlternates, ORG, REGION_LINE, SITE } from "@/lib/seo";
 
 const WA = ORG.telephone.replace(/\D/g, "");
@@ -106,6 +106,7 @@ export default async function KontrolKodSeriPage({ params }: { params: Promise<{
                   <th key={c} scope="col">{c}</th>
                 ))}
                 <th scope="col">Durum</th>
+                <th scope="col">Fiyat</th>
                 <th scope="col">Teklif</th>
               </tr>
             </thead>
@@ -117,6 +118,7 @@ export default async function KontrolKodSeriPage({ params }: { params: Promise<{
                 const isProduct = productSlugs.has(ps);
                 const subject = encodeURIComponent(`Teklif talebi: Autonics ${code}`);
                 const wa = encodeURIComponent(`Merhaba, Autonics ${code} için teklif almak istiyorum.`);
+                const pi = KONTROL_KOD_PRICES[code] ? priceInfo({ price: KONTROL_KOD_PRICES[code] } as Product) : null;
                 return (
                   <tr key={code} id={code}>
                     <th scope="row">{isProduct ? <Link href={`/magaza/${ps}`}>{code}</Link> : code}</th>
@@ -124,6 +126,17 @@ export default async function KontrolKodSeriPage({ params }: { params: Promise<{
                       <td key={s.cols[i]}>{String(v)}</td>
                     ))}
                     <td className={off ? "enc-status-off" : undefined}>{off ? "Üretimden kalktı" : "Üretimde"}</td>
+                    <td className="store-price-wrap" style={{ margin: 0 }}>
+                      {pi ? (
+                        <>
+                          {pi.discount && <s className="store-price-list">{pi.list}</s>}
+                          <span className="store-price" style={{ marginTop: 0 }}>{pi.net}</span>
+                          {pi.discount && <span className="store-discount">{pi.discount}</span>}
+                        </>
+                      ) : (
+                        "Teklif isteyin"
+                      )}
+                    </td>
                     <td className="dpu-actions">
                       {isProduct ? (
                         <Link href={`/magaza/${ps}`}>Ürün sayfası</Link>

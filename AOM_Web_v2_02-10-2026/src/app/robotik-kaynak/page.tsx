@@ -15,15 +15,21 @@ import { breadcrumbJsonLd, faqJsonLd, hreflangAlternates, REGION_LINE, serviceJs
 // çalışılıyor?] ve "Türkiye genelinde kurulum" soruları broşürde doğrulanmadığı için SSS'ye
 // alınmadı (ürün satışında "Türkiye geneli" zaten doğru ve yayında — REGION_LINE — ama saha
 // kurulumu için ayrı bir iddia broşürde yok).
+// 23-10-2026 güncellemesi (Mert onayı): sayfanın görünen adı "Robot - Robotik Otomasyon" oldu
+// (nav/footer/breadcrumb/H1; bkz. Header.tsx, Footer.tsx). URL (/robotik-kaynak) SEO sürekliliği
+// için değişmedi. Eski "Robotik Kaynak Sistemleri ve Kaynak Hücreleri" başlığı H1'den alt başlığa
+// indi, anahtar kelimeler meta title/description'da korundu. Ayrıca Mert'in kendi mühendislik
+// projelerinden 7 görselle "Mühendislik ve simülasyon yazılımlarımız" bölümü eklendi (aşağıda).
 const url = `${SITE}/robotik-kaynak`;
-const title = "Robotik Kaynak Sistemleri ve Kaynak Hücreleri | Ankara";
+const title = "Robot - Robotik Otomasyon | Robotik Kaynak Sistemleri | Ankara";
 const description =
-  "Ankara'da robotik kaynak hücresi, pozisyoner, kolon-bom ve harici eksen çözümleri. Tasarım, kendi atölyemizde imalat, robot entegrasyonu ve devreye alma tek elden.";
+  "Ankara'da robotik otomasyon, robotik kaynak hücresi, pozisyoner, kolon-bom ve harici eksen çözümleri. Mekanik tasarım, offline robot simülasyonu, kendi atölyemizde imalat, robot entegrasyonu ve devreye alma tek elden.";
 
 export const metadata: Metadata = {
   title,
   description,
   keywords: [
+    "robotik otomasyon Ankara",
     "robotik kaynak Ankara",
     "kaynak robotu hücresi",
     "robotlu kaynak sistemi",
@@ -31,6 +37,7 @@ export const metadata: Metadata = {
     "kolon bom kaynak",
     "dairesel kaynak sistemi",
     "kaynak fikstürü tasarımı",
+    "robot offline simülasyon",
   ],
   alternates: { canonical: url, languages: hreflangAlternates("/robotik-kaynak") },
   openGraph: {
@@ -85,6 +92,68 @@ const services = [
   },
 ];
 
+// 23-10-2026 eklendi (Mert onayı): Mert'in kendi mühendislik/simülasyon çalışmalarından 7 görsel.
+// Başlıklar yalnızca ekran görüntüsünde görünen yazılım adı ve sahneyi tarif eder; uydurma iddia
+// (sertifika, "uzmanlık" gibi) eklenmedi.
+const software = [
+  {
+    src: "/hizmetler/robotik-kaynak/robot-otomasyon-solidworks-electrical-3d_23-10-2026.webp",
+    w: 1920,
+    h: 1080,
+    alt: "SOLIDWORKS Electrical 3D: elektrik kabini içinde kablo güzergâhı ve bağlantı tasarımı",
+    title: "SOLIDWORKS Electrical 3D",
+    text: "Pano içi kablo güzergâhı, demet (harness) ve bağlantı tasarımı.",
+  },
+  {
+    src: "/hizmetler/robotik-kaynak/robot-otomasyon-siemens-nx-teamcenter_23-10-2026.webp",
+    w: 1366,
+    h: 768,
+    alt: "Siemens NX ve Teamcenter: santrifüj pompa grubunun 3B mekanik tasarımı ve revizyon yönetimi",
+    title: "Siemens NX / Teamcenter",
+    text: "3B mekanik tasarım ve revizyon/doküman yönetimi.",
+  },
+  {
+    src: "/hizmetler/robotik-kaynak/robot-otomasyon-fanuc-roboguide-tasima-hucresi_23-10-2026.webp",
+    w: 1318,
+    h: 724,
+    alt: "Fanuc ROBOGUIDE: konveyörlü bir taşıma hücresinde robot offline simülasyonu",
+    title: "Fanuc ROBOGUIDE",
+    text: "Robot yerleşimi, erişim ve çevrim süresinin saha kurulumundan önce offline doğrulanması.",
+  },
+  {
+    src: "/hizmetler/robotik-kaynak/robot-otomasyon-tecnomatix-plant-simulation_23-10-2026.webp",
+    w: 1294,
+    h: 678,
+    alt: "Siemens Tecnomatix Plant Simulation: paletleyici/depaletleyici hattının malzeme akışı simülasyonu",
+    title: "Siemens Tecnomatix Plant Simulation",
+    text: "Hat düzeninde malzeme akışı, darboğaz ve kapasite analizi.",
+  },
+  {
+    src: "/hizmetler/robotik-kaynak/robot-otomasyon-tia-portal-factory-io_23-10-2026.webp",
+    w: 1366,
+    h: 768,
+    alt: "Siemens TIA Portal ve Factory I/O: PLC programının otomatik depo (stacker crane) simülasyonuyla test edilmesi",
+    title: "Siemens TIA Portal + Factory I/O",
+    text: "PLC programının sahaya çıkmadan sanal bir hücre üzerinde test edilmesi.",
+  },
+  {
+    src: "/hizmetler/robotik-kaynak/robot-otomasyon-delmia-v5-tool-changer_23-10-2026.webp",
+    w: 1343,
+    h: 725,
+    alt: "DELMIA V5: robot hücresinde uç değiştirici (tool changer) hareket simülasyonu",
+    title: "DELMIA V5",
+    text: "Robot hücresinde uç değiştirici (tool changer) ve çarpışma kontrolü simülasyonu.",
+  },
+  {
+    src: "/hizmetler/robotik-kaynak/robot-otomasyon-fanuc-roboguide-yikama-hucresi_23-10-2026.webp",
+    w: 1366,
+    h: 768,
+    alt: "Fanuc ROBOGUIDE ve öğretme ünitesi (teach pendant): bir yıkama hücresinde robot devreye alma kontrol listesi",
+    title: "Fanuc ROBOGUIDE + öğretme ünitesi",
+    text: "Devreye alma öncesi kontrol listesi ve öğretme ünitesi (teach pendant) ile saha programlama.",
+  },
+];
+
 const faqs = [
   {
     q: "Robotik kaynak hücresi kurmadan önce ne gerekiyor?",
@@ -111,7 +180,7 @@ const faqs = [
 export default function RobotikKaynakPage() {
   const jsonLd = [
     serviceJsonLd({
-      name: "AOM Robotik Kaynak Sistemleri",
+      name: "AOM Robot - Robotik Otomasyon",
       url,
       serviceType: "Robotik kaynak hücresi ve harici sistem tasarımı, imalatı, devreye alma",
       description,
@@ -119,7 +188,7 @@ export default function RobotikKaynakPage() {
     breadcrumbJsonLd([
       { name: "Ana sayfa", path: "/" },
       { name: "Çözümler", path: "/#cozumler" },
-      { name: "Robotik Kaynak", path: "/robotik-kaynak" },
+      { name: "Robot - Robotik Otomasyon", path: "/robotik-kaynak" },
     ]),
     faqJsonLd(faqs),
   ];
@@ -130,14 +199,17 @@ export default function RobotikKaynakPage() {
 
       <nav aria-label="Konum" className="store-crumbs">
         <Link href="/">Ana sayfa</Link> <span aria-hidden="true">/</span>{" "}
-        <Link href="/#cozumler">Çözümler</Link> <span aria-hidden="true">/</span> <span>Robotik Kaynak</span>
+        <Link href="/#cozumler">Çözümler</Link> <span aria-hidden="true">/</span> <span>Robot - Robotik Otomasyon</span>
       </nav>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 16, maxWidth: 860 }}>
-        <div className="eyebrow">Robotik kaynak · Ankara</div>
+        <div className="eyebrow">Robot - Robotik Otomasyon · Ankara</div>
         <h1 style={{ fontWeight: 800, fontSize: 40, lineHeight: 1.08 }}>
-          Robotik kaynak sistemleri ve kaynak hücreleri
+          Robot - Robotik Otomasyon
         </h1>
+        <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 17, fontWeight: 600 }}>
+          Robotik kaynak sistemleri ve kaynak hücreleri
+        </p>
         <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 16 }}>
           AOM, Ankara&apos;da kaynak robotu hücrelerini ve harici sistemlerini &mdash; pozisyoner, lineer eksen,
           kolon-bom, rotatör, fit-up hattı, dairesel kaynak sistemi ve fikstürü &mdash; tek elden tasarlar, kendi
@@ -163,6 +235,34 @@ export default function RobotikKaynakPage() {
           style={{ width: "100%", height: "auto", borderRadius: 8, border: "1px solid var(--line)" }}
         />
       </figure>
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
+        <h2 className="h2" style={{ fontSize: 26 }}>
+          Mühendislik ve simülasyon yazılımlarımız
+        </h2>
+        <p style={{ margin: 0, color: "var(--ink-muted)", fontSize: 15 }}>
+          Robot hücresini sahada kurmadan önce sanal ortamda doğruluyoruz: mekanik ve elektrik
+          tasarımından robot offline programlamaya, PLC test etmeye ve hat simülasyonuna kadar
+          kullandığımız başlıca mühendislik yazılımlarından birkaç kare.
+        </p>
+      </div>
+      <div className="grid-auto" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))" }}>
+        {software.map((s) => (
+          <figure key={s.src} className="card" style={{ margin: 0, padding: 0, overflow: "hidden", display: "flex", flexDirection: "column", gap: 0 }}>
+            <Image
+              src={s.src}
+              alt={s.alt}
+              width={s.w}
+              height={s.h}
+              style={{ width: "100%", height: "auto", display: "block", borderBottom: "1px solid var(--line)" }}
+            />
+            <figcaption style={{ padding: 14, display: "flex", flexDirection: "column", gap: 4 }}>
+              <strong style={{ fontFamily: "var(--font-display)", fontSize: 15 }}>{s.title}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-muted)" }}>{s.text}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
         <h2 className="h2" style={{ fontSize: 26 }}>

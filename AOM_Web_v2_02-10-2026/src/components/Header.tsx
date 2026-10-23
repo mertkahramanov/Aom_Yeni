@@ -21,7 +21,7 @@ const menu = [
 // Çözümlerimiz alt menüsü: Footer.tsx'teki "solutions" listesiyle birebir aynı 5 hizmet sayfası,
 // artı /otomasyon (saha projeleri galerisi — video ve pano fotoğrafları).
 const solutionsMenu = [
-  { href: "/robotik-kaynak", label: "Robotik kaynak" },
+  { href: "/robotik-kaynak", label: "Robot - Robotik Otomasyon" },
   { href: "/pres-guvenligi", label: "Pres güvenliği" },
   { href: "/cnc-tezgah", label: "CNC tezgâh" },
   { href: "/plc-scada", label: "PLC, SCADA" },

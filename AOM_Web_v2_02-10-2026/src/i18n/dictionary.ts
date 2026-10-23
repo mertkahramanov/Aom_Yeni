@@ -198,21 +198,21 @@ function build(locale: Locale): Dictionary {
 
   const solutionsFooter = {
     en: [
-      { href: solutionHref.kaynak, label: "Robotic welding" },
+      { href: solutionHref.kaynak, label: "Robots - Robotic Automation" },
       { href: solutionHref.pres, label: "Press safety" },
       { href: solutionHref.cnc, label: "CNC machines" },
       { href: solutionHref.plc, label: "PLC, SCADA" },
       { href: solutionHref.tristor, label: "Thyristor power control" },
     ],
     ru: [
-      { href: solutionHref.kaynak, label: "Роботизированная сварка" },
+      { href: solutionHref.kaynak, label: "Роботы - Робототехническая автоматизация" },
       { href: solutionHref.pres, label: "Безопасность прессов" },
       { href: solutionHref.cnc, label: "Станки с ЧПУ" },
       { href: solutionHref.plc, label: "ПЛК, SCADA" },
       { href: solutionHref.tristor, label: "Тиристорное управление мощностью" },
     ],
     ar: [
-      { href: solutionHref.kaynak, label: "اللحام الروبوتي" },
+      { href: solutionHref.kaynak, label: "الروبوتات - الأتمتة الروبوتية" },
       { href: solutionHref.pres, label: "سلامة المكابس" },
       { href: solutionHref.cnc, label: "مكائن CNC" },
       { href: solutionHref.plc, label: "PLC، SCADA" },
@@ -722,21 +722,21 @@ function build(locale: Locale): Dictionary {
 
   const solutionsCards = {
     en: [
-      { href: solutionHref.kaynak, title: "Robotic welding and external systems", text: "Welding cells, positioners, external axes, column-and-boom, rotators, fit-up lines and circumferential welding systems." },
+      { href: solutionHref.kaynak, title: "Robots - Robotic Automation", text: "Robotic welding cells, positioners, external axes, column-and-boom, rotators, fit-up lines and circumferential welding systems; offline robot simulation and engineering software." },
       { href: solutionHref.pres, title: "Press safety and automatic feeding", text: "Light curtains, clutch-brake retrofits, cage and interlocked-door solutions; servo NC feeding." },
       { href: solutionHref.cnc, title: "CNC machines", text: "Compact CNC machining centers; Siemens, Fanuc or Mitsubishi Electric control, robotic cell option." },
       { href: solutionHref.plc, title: "PLC, SCADA and machine automation", text: "PLC/HMI programming, SCADA and data acquisition, custom machine automation, panel design and commissioning." },
       { href: solutionHref.tristor, title: "Thyristor power control", text: "Phase-angle and zero-crossing control, RS485 Modbus RTU communication." },
     ],
     ru: [
-      { href: solutionHref.kaynak, title: "Роботизированная сварка и внешние системы", text: "Сварочные ячейки, позиционеры, внешние оси, колонно-консольные системы, ротаторы, линии фит-ап и системы кольцевой сварки." },
+      { href: solutionHref.kaynak, title: "Роботы - Робототехническая автоматизация", text: "Роботизированные сварочные ячейки, позиционеры, внешние оси, колонно-консольные системы, ротаторы, линии фит-ап и системы кольцевой сварки; офлайн-симуляция робота и инженерное ПО." },
       { href: solutionHref.pres, title: "Безопасность прессов и автоматическая подача", text: "Световые завесы, модернизация муфты-тормоза, защитные клетки и блокируемые двери; серво NC подача." },
       { href: solutionHref.cnc, title: "Станки с ЧПУ", text: "Компактные обрабатывающие центры с ЧПУ; управление Siemens, Fanuc или Mitsubishi Electric, вариант с роботизированной ячейкой." },
       { href: solutionHref.plc, title: "ПЛК, SCADA и автоматизация машин", text: "Программирование ПЛК/HMI, SCADA и сбор данных, автоматизация специальных машин, проектирование шкафов и ввод в эксплуатацию." },
       { href: solutionHref.tristor, title: "Тиристорное управление мощностью", text: "Фазовое и нулевое управление, связь RS485 Modbus RTU." },
     ],
     ar: [
-      { href: solutionHref.kaynak, title: "اللحام الروبوتي والأنظمة الخارجية", text: "خلايا لحام، محدِّدات، محاور خارجية، أنظمة عمود-ذراع، أجهزة تدوير، خطوط تجميع وأنظمة لحام دائري." },
+      { href: solutionHref.kaynak, title: "الروبوتات - الأتمتة الروبوتية", text: "خلايا لحام روبوتية، محدِّدات، محاور خارجية، أنظمة عمود-ذراع، أجهزة تدوير، خطوط تجميع وأنظمة لحام دائري؛ محاكاة روبوت دون اتصال وبرمجيات هندسية." },
       { href: solutionHref.pres, title: "سلامة المكابس والتغذية الآلية", text: "ستائر ضوئية، تحديث القابض-الفرامل، حلول الأقفاص والأبواب المترابطة؛ تغذية NC بالسيرفو." },
       { href: solutionHref.cnc, title: "مكائن CNC", text: "مراكز تشغيل CNC مدمجة؛ تحكم Siemens أو Fanuc أو Mitsubishi Electric، مع خيار الخلية الروبوتية." },
       { href: solutionHref.plc, title: "PLC وSCADA وأتمتة الآلات", text: "برمجة PLC/HMI، SCADA وجمع البيانات، أتمتة آلات مخصّصة، تصميم اللوحات والتشغيل." },

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { DPU_GROUPS, DPU_OPTION, dpuGroup } from "@/data/dpuCodes";
-import { products } from "@/data/magaza";
+import { DPU_GROUPS, DPU_OPTION, DPU_PRICES, dpuGroup } from "@/data/dpuCodes";
+import { priceInfo, products, type Product } from "@/data/magaza";
 import { breadcrumbJsonLd, hreflangAlternates, ORG, REGION_LINE, SITE } from "@/lib/seo";
 
 const WA = ORG.telephone.replace(/\D/g, "");
@@ -74,6 +74,7 @@ export default async function DpuGrupPage({ params }: { params: Promise<{ grup: 
               <th scope="col">Akım</th>
               <th scope="col">Gövde</th>
               <th scope="col">Seçenek</th>
+              <th scope="col">Fiyat</th>
               <th scope="col">Teklif</th>
             </tr>
           </thead>
@@ -82,6 +83,7 @@ export default async function DpuGrupPage({ params }: { params: Promise<{ grup: 
               const slug = productBy.get(c.code);
               const subject = encodeURIComponent(`Teklif talebi: Autonics ${c.code}`);
               const wa = encodeURIComponent(`Merhaba, Autonics ${c.code} için teklif almak istiyorum.`);
+              const pi = DPU_PRICES[c.code] ? priceInfo({ price: DPU_PRICES[c.code] } as Product) : null;
               return (
                 <tr key={c.code} id={c.code}>
                   <th scope="row">{slug ? <Link href={`/magaza/${slug}`}>{c.code}</Link> : c.code}</th>
@@ -90,6 +92,17 @@ export default async function DpuGrupPage({ params }: { params: Promise<{ grup: 
                   <td>
                     {DPU_OPTION[c.option]}
                     {c.suffixA ? " (-A)" : ""}
+                  </td>
+                  <td className="store-price-wrap" style={{ margin: 0 }}>
+                    {pi ? (
+                      <>
+                        {pi.discount && <s className="store-price-list">{pi.list}</s>}
+                        <span className="store-price" style={{ marginTop: 0 }}>{pi.net}</span>
+                        {pi.discount && <span className="store-discount">{pi.discount}</span>}
+                      </>
+                    ) : (
+                      "Teklif isteyin"
+                    )}
                   </td>
                   <td className="dpu-actions">
                     {slug ? (

@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CodeFilter from "@/components/CodeFilter";
-import { KONTROL_KOD_SERIES, kontrolKodSeries, kontrolSlug } from "@/data/kontrol";
-import { products } from "@/data/magaza";
+import { KONTROL_KOD_PRICES, KONTROL_KOD_SERIES, kontrolKodSeries, kontrolSlug } from "@/data/kontrol";
+import { priceInfo, products, type Product } from "@/data/magaza";
 import { breadcrumbJsonLd, hreflangAlternates, ORG, SITE } from "@/lib/seo";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { REGION_LINE } from "@/i18n/pages/common";
@@ -131,6 +131,7 @@ export default async function LocaleKontrolKodSeriPage({ params }: { params: Pro
                   </th>
                 ))}
                 <th scope="col">{ku.status}</th>
+                <th scope="col">{ku.price}</th>
                 <th scope="col">{ku.quote}</th>
               </tr>
             </thead>
@@ -142,6 +143,7 @@ export default async function LocaleKontrolKodSeriPage({ params }: { params: Pro
                 const isProduct = productSlugs.has(ps);
                 const subject = encodeURIComponent(ku.requestForCode(code));
                 const wa = encodeURIComponent(ku.waMessage(code));
+                const pi = KONTROL_KOD_PRICES[code] ? priceInfo({ price: KONTROL_KOD_PRICES[code] } as Product) : null;
                 return (
                   <tr key={code} id={code}>
                     <th scope="row">{isProduct ? <Link href={`/${loc}/magaza/${ps}`}>{code}</Link> : code}</th>
@@ -149,6 +151,17 @@ export default async function LocaleKontrolKodSeriPage({ params }: { params: Pro
                       <td key={s.cols[i]}>{String(v)}</td>
                     ))}
                     <td className={off ? "enc-status-off" : undefined}>{off ? ku.discontinued : ku.inProduction}</td>
+                    <td className="store-price-wrap" style={{ margin: 0 }}>
+                      {pi ? (
+                        <>
+                          {pi.discount && <s className="store-price-list">{pi.list}</s>}
+                          <span className="store-price" style={{ marginTop: 0 }}>{pi.net}</span>
+                          {pi.discount && <span className="store-discount">{pi.discount}</span>}
+                        </>
+                      ) : (
+                        ku.priceOnRequest
+                      )}
+                    </td>
                     <td className="dpu-actions">
                       {isProduct ? (
                         <Link href={`/${loc}/magaza/${ps}`}>{ku.productPage}</Link>

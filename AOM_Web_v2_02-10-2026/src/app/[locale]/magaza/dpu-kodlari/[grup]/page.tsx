@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { DPU_GROUPS, DPU_OPTION, dpuGroup } from "@/data/dpuCodes";
-import { products } from "@/data/magaza";
+import { DPU_GROUPS, DPU_OPTION, DPU_PRICES, dpuGroup } from "@/data/dpuCodes";
+import { priceInfo, products, type Product } from "@/data/magaza";
 import { breadcrumbJsonLd, hreflangAlternates, ORG, SITE } from "@/lib/seo";
 import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { REGION_LINE } from "@/i18n/pages/common";
@@ -90,6 +90,7 @@ export default async function LocaleDpuGrupPage({ params }: { params: Promise<{ 
               <th scope="col">{ku.amp}</th>
               <th scope="col">{ku.body}</th>
               <th scope="col">{ku.option}</th>
+              <th scope="col">{ku.price}</th>
               <th scope="col">{ku.quote}</th>
             </tr>
           </thead>
@@ -98,6 +99,7 @@ export default async function LocaleDpuGrupPage({ params }: { params: Promise<{ 
               const slug = productBy.get(c.code);
               const subject = encodeURIComponent(ku.requestForCode(c.code));
               const wa = encodeURIComponent(ku.waMessage(c.code));
+              const pi = DPU_PRICES[c.code] ? priceInfo({ price: DPU_PRICES[c.code] } as Product) : null;
               return (
                 <tr key={c.code} id={c.code}>
                   <th scope="row">{slug ? <Link href={`/${loc}/magaza/${slug}`}>{c.code}</Link> : c.code}</th>
@@ -106,6 +108,17 @@ export default async function LocaleDpuGrupPage({ params }: { params: Promise<{ 
                   <td>
                     {DPU_OPTION_TR[loc][c.option]}
                     {c.suffixA ? " (-A)" : ""}
+                  </td>
+                  <td className="store-price-wrap" style={{ margin: 0 }}>
+                    {pi ? (
+                      <>
+                        {pi.discount && <s className="store-price-list">{pi.list}</s>}
+                        <span className="store-price" style={{ marginTop: 0 }}>{pi.net}</span>
+                        {pi.discount && <span className="store-discount">{pi.discount}</span>}
+                      </>
+                    ) : (
+                      ku.priceOnRequest
+                    )}
                   </td>
                   <td className="dpu-actions">
                     {slug ? (

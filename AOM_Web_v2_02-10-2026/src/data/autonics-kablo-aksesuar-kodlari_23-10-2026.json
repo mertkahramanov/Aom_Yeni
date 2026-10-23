@@ -1,0 +1,8582 @@
+{
+  "series": [
+    {
+      "sn": 1,
+      "slug": "ch20",
+      "key": "CH20",
+      "title": "20 Pin PLC/Servo Bağlantı Kablosu",
+      "cat": "PLC/Servo Bağlantı Kabloları",
+      "desc": "Autonics CH20 serisi, PLC veya servo sürücünün 20 pinli I/O konnektöründen harici terminal bloğuna bağlantı sağlayan hazır kablodur. Serüde 3M fiş (mandallı), Hirose fiş konnektör varyantları ve 0,5–5 m arası farklı uzunluklar bulunur; kablo kodu konnektör tipi ve uzunluğa göre değişir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Bağlantı kablosu (PLC / servo sürücü I/O konnektöründen terminal bloğuna)"
+        ],
+        [
+          "İletken",
+          "UL20276 siyah, bükümlü (twisted) tel, ≤1 A"
+        ],
+        [
+          "Çalışma sıcaklığı",
+          "-15°C ... 55°C"
+        ]
+      ],
+      "cols": [
+        "Konnektör tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CH20-HP005-1L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-1R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-4L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-4R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-A4T1L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-A4T2L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-A4T3R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-A4T4L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-A4T5L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-C1T1R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-C1T2R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-C1T4R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-C1T5R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-D1T1L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-D1T1R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-D1T3R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-D1T6R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-D4T1R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP005-D4T7R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH20(0.5M)"
+        ],
+        [
+          "CH20-HP010-1L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-1R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-4L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-4R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-A4T1L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-A4T2L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-A4T3R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-A4T4L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-A4T5L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-C1T1R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-C1T2R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-C1T4R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-C1T5R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-D1T1L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-D1T1R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-D1T3R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-D1T6R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-D4T1R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP010-D4T7R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH20(1M)"
+        ],
+        [
+          "CH20-HP015-1L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-1R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-4L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-4R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-A4T1L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-A4T2L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-A4T3R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-A4T4L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-A4T5L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-C1T1R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-C1T2R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-C1T4R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-C1T5R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-D1T1L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-D1T1R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-D1T3R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-D1T6R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-D4T1R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP015-D4T7R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH20(1.5M)"
+        ],
+        [
+          "CH20-HP020-1L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-1R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-4L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-4R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-A4T1L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-A4T2L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-A4T3R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-A4T4L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-A4T5L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-C1T1R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-C1T2R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-C1T4R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-C1T5R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-D1T1L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-D1T1R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-D1T3R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-D1T6R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-D4T1R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP020-D4T7R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH20(2M)"
+        ],
+        [
+          "CH20-HP025-1L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-1R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-4L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-4R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-A4T1L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-A4T2L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-A4T3R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-A4T4L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-A4T5L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-C1T1R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-C1T2R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-C1T4R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-C1T5R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-D1T1L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-D1T1R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-D1T3R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-D1T6R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-D4T1R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP025-D4T7R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH20(2.5M)"
+        ],
+        [
+          "CH20-HP030-1L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-1R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-4L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-4R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-A4T1L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-A4T2L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-A4T3R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-A4T4L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-A4T5L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-C1T1R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-C1T2R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-C1T4R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-C1T5R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-D1T1L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-D1T1R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-D1T3R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-D1T6R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-D4T1R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP030-D4T7R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH20(3M)"
+        ],
+        [
+          "CH20-HP040-1L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-1R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-4L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-4R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-A4T1L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-A4T2L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-A4T3R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-A4T4L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-A4T5L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-C1T1R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-C1T2R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-C1T4R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-C1T5R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-D1T1L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-D1T1R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-D1T3R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-D1T6R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-D4T1R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP040-D4T7R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH20(4M)"
+        ],
+        [
+          "CH20-HP050-1L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-1R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-4L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-4R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-A4T1L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-A4T2L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-A4T3R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-A4T4L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-A4T5L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-C1T1R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-C1T2R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-C1T4R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-C1T5R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-D1T1L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-D1T1R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-D1T3R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-D1T6R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-D4T1R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-HP050-D4T7R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH20(5M)"
+        ],
+        [
+          "CH20-MP005-8R",
+          0,
+          "3M fiş (mandallı)",
+          "0.5 m",
+          "HM20(0.5M)"
+        ],
+        [
+          "CH20-MP005-MR",
+          0,
+          "3M fiş (mandallı)",
+          "0.5 m",
+          "HM20(0.5M)"
+        ],
+        [
+          "CH20-MP010-8R",
+          0,
+          "3M fiş (mandallı)",
+          "1 m",
+          "HM20(1M)"
+        ],
+        [
+          "CH20-MP010-MR",
+          0,
+          "3M fiş (mandallı)",
+          "1 m",
+          "HM20(1M)"
+        ],
+        [
+          "CH20-MP015-8R",
+          0,
+          "3M fiş (mandallı)",
+          "1.5 m",
+          "HM20(1.5M)"
+        ],
+        [
+          "CH20-MP015-MR",
+          0,
+          "3M fiş (mandallı)",
+          "1.5 m",
+          "HM20(1.5M)"
+        ],
+        [
+          "CH20-MP020-8R",
+          0,
+          "3M fiş (mandallı)",
+          "2 m",
+          "HM20(2M)"
+        ],
+        [
+          "CH20-MP020-MR",
+          0,
+          "3M fiş (mandallı)",
+          "2 m",
+          "HM20(2M)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 2,
+      "slug": "ch26",
+      "key": "CH26",
+      "title": "26 Pin PLC/Servo Bağlantı Kablosu",
+      "cat": "PLC/Servo Bağlantı Kabloları",
+      "desc": "Autonics CH26 serisi, PLC veya servo sürücünün 26 pinli I/O konnektöründen harici terminal bloğuna bağlantı sağlayan hazır kablodur. Serüde 3M fiş (cıvatalı), 3M fiş (mandallı) konnektör varyantları ve 0,5–5 m arası farklı uzunluklar bulunur; kablo kodu konnektör tipi ve uzunluğa göre değişir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Bağlantı kablosu (PLC / servo sürücü I/O konnektöründen terminal bloğuna)"
+        ],
+        [
+          "İletken",
+          "UL20276 siyah, bükümlü (twisted) tel, ≤1 A"
+        ],
+        [
+          "Çalışma sıcaklığı",
+          "-15°C ... 55°C"
+        ]
+      ],
+      "cols": [
+        "Konnektör tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CH26-MP005-8R",
+          0,
+          "3M fiş (mandallı)",
+          "0.5 m",
+          "H3(0.5M)"
+        ],
+        [
+          "CH26-MP010-8R",
+          0,
+          "3M fiş (mandallı)",
+          "1 m",
+          "H3(1M)"
+        ],
+        [
+          "CH26-MP015-8R",
+          0,
+          "3M fiş (mandallı)",
+          "1.5 m",
+          "H3(1.5M)"
+        ],
+        [
+          "CH26-MP020-8R",
+          0,
+          "3M fiş (mandallı)",
+          "2 m",
+          "H3(2M)"
+        ],
+        [
+          "CH26-MP025-8R",
+          0,
+          "3M fiş (mandallı)",
+          "2.5 m",
+          "H3(2.5M)"
+        ],
+        [
+          "CH26-MP030-8R",
+          0,
+          "3M fiş (mandallı)",
+          "3 m",
+          "H3(3M)"
+        ],
+        [
+          "CH26-MP040-8R",
+          0,
+          "3M fiş (mandallı)",
+          "4 m",
+          "H3(4M)"
+        ],
+        [
+          "CH26-MP050-8R",
+          0,
+          "3M fiş (mandallı)",
+          "5 m",
+          "H3(5M)"
+        ],
+        [
+          "CH26-MQ005-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "0.5 m",
+          "H3(0.5M)"
+        ],
+        [
+          "CH26-MQ010-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "1 m",
+          "H3(1M)"
+        ],
+        [
+          "CH26-MQ015-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "1.5 m",
+          "H3(1.5M)"
+        ],
+        [
+          "CH26-MQ020-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "2 m",
+          "H3(2M)"
+        ],
+        [
+          "CH26-MQ025-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "2.5 m",
+          "H3(2.5M)"
+        ],
+        [
+          "CH26-MQ030-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "3 m",
+          "H3(3M)"
+        ],
+        [
+          "CH26-MQ040-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "4 m",
+          "H3(4M)"
+        ],
+        [
+          "CH26-MQ050-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "5 m",
+          "H3(5M)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 3,
+      "slug": "ch37",
+      "key": "CH37",
+      "title": "37 Pin PLC/Servo Bağlantı Kablosu",
+      "cat": "PLC/Servo Bağlantı Kabloları",
+      "desc": "Autonics CH37 serisi, PLC veya servo sürücünün 37 pinli I/O konnektöründen harici terminal bloğuna bağlantı sağlayan hazır kablodur. Serüde D-Sub fiş, D-Sub soket konnektör varyantları ve 0,5–5 m arası farklı uzunluklar bulunur; kablo kodu konnektör tipi ve uzunluğa göre değişir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Bağlantı kablosu (PLC / servo sürücü I/O konnektöründen terminal bloğuna)"
+        ],
+        [
+          "İletken",
+          "UL20276 siyah, bükümlü (twisted) tel, ≤1 A"
+        ],
+        [
+          "Çalışma sıcaklığı",
+          "-15°C ... 55°C"
+        ]
+      ],
+      "cols": [
+        "Konnektör tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CH37-DP005-2L",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-3R",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-B6T1R",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-B6T2R",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-B6T4R",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-B6T5R",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-J7T1L",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP005-J7T4L",
+          0,
+          "D-Sub fiş",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DP010-2L",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-3R",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-B6T1R",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-B6T2R",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-B6T4R",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-B6T5R",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-J7T1L",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP010-J7T4L",
+          0,
+          "D-Sub fiş",
+          "1 m",
+          "HD37(1M)"
+        ],
+        [
+          "CH37-DP015-2L",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-3R",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-B6T1R",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-B6T2R",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-B6T4R",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-B6T5R",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-J7T1L",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP015-J7T4L",
+          0,
+          "D-Sub fiş",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DP020-2L",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-3R",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-B6T1R",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-B6T2R",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-B6T4R",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-B6T5R",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-J7T1L",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP020-J7T4L",
+          0,
+          "D-Sub fiş",
+          "2 m",
+          "HD37(2M)"
+        ],
+        [
+          "CH37-DP025-2L",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-3R",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-B6T1R",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-B6T2R",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-B6T4R",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-B6T5R",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-J7T1L",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP025-J7T4L",
+          0,
+          "D-Sub fiş",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DP030-2L",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-3R",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-B6T1R",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-B6T2R",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-B6T4R",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-B6T5R",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-J7T1L",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP030-J7T4L",
+          0,
+          "D-Sub fiş",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DP040-2L",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-3R",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-B6T1R",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-B6T2R",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-B6T4R",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-B6T5R",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-J7T1L",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP040-J7T4L",
+          0,
+          "D-Sub fiş",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DP050-2L",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-3R",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-B6T1R",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-B6T2R",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-B6T4R",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-B6T5R",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-B8T1R-2L",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-B8T1R-2S",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-F9T4L-2L",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-F9T4L-2S",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-J7T1L",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DP050-J7T4L",
+          0,
+          "D-Sub fiş",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS005-4R",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS005-F5T1R",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HDS37(0.5M)"
+        ],
+        [
+          "CH37-DS005-F5T4R",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HDS37(0.5M)"
+        ],
+        [
+          "CH37-DS005-J5T1R",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS005-J5T3R",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS005-J5T4R",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS005-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS005-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS005-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS005-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "0.5 m",
+          "HD37(0.5M)"
+        ],
+        [
+          "CH37-DS010-4R",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-F5T1R",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-F5T4R",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-J5T1R",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-J5T3R",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-J5T4R",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS010-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "1 m",
+          "HDS37(1M)"
+        ],
+        [
+          "CH37-DS015-4R",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS015-F5T1R",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HDS37(1.5M)"
+        ],
+        [
+          "CH37-DS015-F5T4R",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HDS37(1.5M)"
+        ],
+        [
+          "CH37-DS015-J5T1R",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS015-J5T3R",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS015-J5T4R",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS015-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS015-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS015-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS015-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "1.5 m",
+          "HD37(1.5M)"
+        ],
+        [
+          "CH37-DS020-4R",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-F5T1R",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-F5T4R",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-J5T1R",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-J5T3R",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-J5T4R",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS020-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "2 m",
+          "HDS37(2M)"
+        ],
+        [
+          "CH37-DS025-4R",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS025-F5T1R",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HDS37(2.5M)"
+        ],
+        [
+          "CH37-DS025-F5T4R",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HDS37(2.5M)"
+        ],
+        [
+          "CH37-DS025-J5T1R",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS025-J5T3R",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS025-J5T4R",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS025-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS025-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS025-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS025-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "2.5 m",
+          "HD37(2.5M)"
+        ],
+        [
+          "CH37-DS030-4R",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS030-F5T1R",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HDS37(3M)"
+        ],
+        [
+          "CH37-DS030-F5T4R",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HDS37(3M)"
+        ],
+        [
+          "CH37-DS030-J5T1R",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS030-J5T3R",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS030-J5T4R",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS030-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS030-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS030-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS030-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "3 m",
+          "HD37(3M)"
+        ],
+        [
+          "CH37-DS040-4R",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS040-F5T1R",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HDS37(4M)"
+        ],
+        [
+          "CH37-DS040-F5T4R",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HDS37(4M)"
+        ],
+        [
+          "CH37-DS040-J5T1R",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS040-J5T3R",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS040-J5T4R",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS040-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS040-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS040-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS040-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "4 m",
+          "HD37(4M)"
+        ],
+        [
+          "CH37-DS050-4R",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS050-F5T1R",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HDS37(5M)"
+        ],
+        [
+          "CH37-DS050-F5T4R",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HDS37(5M)"
+        ],
+        [
+          "CH37-DS050-J5T1R",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS050-J5T3R",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS050-J5T4R",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS050-J7T1R-2L",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS050-J7T1R-2S",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS050-J7T4R-2L",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ],
+        [
+          "CH37-DS050-J7T4R-2S",
+          0,
+          "D-Sub soket",
+          "5 m",
+          "HD37(5M)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 4,
+      "slug": "ch40",
+      "key": "CH40",
+      "title": "40 Pin PLC/Servo Bağlantı Kablosu",
+      "cat": "PLC/Servo Bağlantı Kabloları",
+      "desc": "Autonics CH40 serisi, PLC veya servo sürücünün 40 pinli I/O konnektöründen harici terminal bloğuna bağlantı sağlayan hazır kablodur. Serüde Fujitsu fiş, Hirose fiş konnektör varyantları ve 0,5–5 m arası farklı uzunluklar bulunur; kablo kodu konnektör tipi ve uzunluğa göre değişir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Bağlantı kablosu (PLC / servo sürücü I/O konnektöründen terminal bloğuna)"
+        ],
+        [
+          "İletken",
+          "UL20276 siyah, bükümlü (twisted) tel, ≤1 A"
+        ],
+        [
+          "Çalışma sıcaklığı",
+          "-15°C ... 55°C"
+        ]
+      ],
+      "cols": [
+        "Konnektör tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CH40-FP005-1R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-4L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-4R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP005-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "0.5 m",
+          "HF40(0.5M)"
+        ],
+        [
+          "CH40-FP010-1R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-4L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-4R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP010-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "1 m",
+          "HF40(1M)"
+        ],
+        [
+          "CH40-FP015-1R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-4L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-4R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP015-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "1.5 m",
+          "HF40(1.5M)"
+        ],
+        [
+          "CH40-FP020-1R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-4L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-4R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP020-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "2 m",
+          "HF40(2M)"
+        ],
+        [
+          "CH40-FP025-1R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-4L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-4R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP025-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "2.5 m",
+          "HF40(2.5M)"
+        ],
+        [
+          "CH40-FP030-1R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-4L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-4R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP030-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "3 m",
+          "HF40(3M)"
+        ],
+        [
+          "CH40-FP040-1R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-4L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-4R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP040-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "4 m",
+          "HF40(4M)"
+        ],
+        [
+          "CH40-FP050-1R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-4L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-4R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-D7T1L-2L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-D7T1L-2S",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-D7T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-D7T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T1R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T1R-2L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T1R-2S",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T2R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T3R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T4R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T4R-2L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T4R-2S",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E1T6R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E5D4L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E5E1L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E5E1R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E5T3L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-E5T3R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-I4M1R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-I4M4R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-I4T1R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-L1T4L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-W4T2R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-W4T5R",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-X1T3L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP050-X1T6L",
+          0,
+          "Fujitsu fiş",
+          "5 m",
+          "HF40(5M)"
+        ],
+        [
+          "CH40-FP060-1R",
+          0,
+          "Fujitsu fiş",
+          "6 m",
+          "HF40(6M)"
+        ],
+        [
+          "CH40-FP200-1R",
+          0,
+          "Fujitsu fiş",
+          "20 m",
+          "HF40(20M)"
+        ],
+        [
+          "CH40-HP005-1L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-1R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-4L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8L-FS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8L-YS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8R-FS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8R-YS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8X-FS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8X-YS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8Y-FS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-8Y-YS",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-D1T1R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T1L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T2L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T3L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T4L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-F5T1L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-F5T2L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-F5T3L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-HCM2L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-HCM3L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-ICM1L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-ICM2L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-ICM4L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-ICM5L",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-L9M1R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-L9M3R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-L9M4R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP005-L9M6R",
+          0,
+          "Hirose fiş",
+          "0.5 m",
+          "HH40(0.5M)"
+        ],
+        [
+          "CH40-HP010-1L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-1R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-4L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8L-FS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8L-YS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8R-FS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8R-YS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8X-FS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8X-YS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8Y-FS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-8Y-YS",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-D1T1R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T1L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T2L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T3L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T4L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-F5T1L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-F5T2L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-F5T3L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-HCM2L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-HCM3L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-ICM1L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-ICM2L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-ICM4L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-ICM5L",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-L9M1R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-L9M3R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-L9M4R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP010-L9M6R",
+          0,
+          "Hirose fiş",
+          "1 m",
+          "HH40(1M)"
+        ],
+        [
+          "CH40-HP015-1L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-1R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-4L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8L-FS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8L-YS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8R-FS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8R-YS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8X-FS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8X-YS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8Y-FS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-8Y-YS",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-D1T1R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T1L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T2L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T3L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T4L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-F5T1L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-F5T2L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-F5T3L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-HCM2L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-HCM3L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-ICM1L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-ICM2L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-ICM4L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-ICM5L",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-L9M1R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-L9M3R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-L9M4R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP015-L9M6R",
+          0,
+          "Hirose fiş",
+          "1.5 m",
+          "HH40(1.5M)"
+        ],
+        [
+          "CH40-HP020-1L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-1R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-4L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8L-FS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8L-YS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8R-FS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8R-YS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8X-FS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8X-YS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8Y-FS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-8Y-YS",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-D1T1R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T1L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T2L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T3L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T4L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-F5T1L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-F5T2L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-F5T3L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-HCM2L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-HCM3L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-ICM1L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-ICM2L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-ICM4L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-ICM5L",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-L9M1R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-L9M3R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-L9M4R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP020-L9M6R",
+          0,
+          "Hirose fiş",
+          "2 m",
+          "HH40(2M)"
+        ],
+        [
+          "CH40-HP025-1L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-1R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-4L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-8L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-D1T1R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T1L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T2L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T3L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T4L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-F5T1L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-F5T2L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-F5T3L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-HCM2L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-HCM3L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-ICM1L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-ICM2L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-ICM4L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-ICM5L",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-L9M1R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-L9M3R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-L9M4R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP025-L9M6R",
+          0,
+          "Hirose fiş",
+          "2.5 m",
+          "HH40(2.5M)"
+        ],
+        [
+          "CH40-HP030-1L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-1R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-4L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-8L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-D1T1R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T1L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T2L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T3L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T4L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-F5T1L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-F5T2L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-F5T3L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-HCM2L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-HCM3L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-ICM1L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-ICM2L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-ICM4L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-ICM5L",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-L9M1R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-L9M3R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-L9M4R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP030-L9M6R",
+          0,
+          "Hirose fiş",
+          "3 m",
+          "HH40(3M)"
+        ],
+        [
+          "CH40-HP040-1L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-1R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-4L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-8L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-D1T1R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T1L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T2L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T3L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T4L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-F5T1L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-F5T2L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-F5T3L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-HCM2L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-HCM3L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-ICM1L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-ICM2L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-ICM4L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-ICM5L",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-L9M1R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-L9M3R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-L9M4R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP040-L9M6R",
+          0,
+          "Hirose fiş",
+          "4 m",
+          "HH40(4M)"
+        ],
+        [
+          "CH40-HP050-1L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-1R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-4L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-8L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-D1T1R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T1L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T1L-2L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T1L-2S",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T2L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T3L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T4L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T4L-2L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-E1T4L-2S",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-F5T1L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-F5T2L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-F5T3L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-HCM2L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-HCM3L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-ICM1L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-ICM2L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-ICM4L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-ICM5L",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-L9M1R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-L9M3R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-L9M4R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ],
+        [
+          "CH40-HP050-L9M6R",
+          0,
+          "Hirose fiş",
+          "5 m",
+          "HH40(5M)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 5,
+      "slug": "ch50",
+      "key": "CH50",
+      "title": "50 Pin PLC/Servo Bağlantı Kablosu",
+      "cat": "PLC/Servo Bağlantı Kabloları",
+      "desc": "Autonics CH50 serisi, PLC veya servo sürücünün 50 pinli I/O konnektöründen harici terminal bloğuna bağlantı sağlayan hazır kablodur. Serüde 3M fiş (cıvatalı), 3M fiş (mandallı) konnektör varyantları ve 0,5–5 m arası farklı uzunluklar bulunur; kablo kodu konnektör tipi ve uzunluğa göre değişir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Bağlantı kablosu (PLC / servo sürücü I/O konnektöründen terminal bloğuna)"
+        ],
+        [
+          "İletken",
+          "UL20276 siyah, bükümlü (twisted) tel, ≤1 A"
+        ],
+        [
+          "Çalışma sıcaklığı",
+          "-15°C ... 55°C"
+        ]
+      ],
+      "cols": [
+        "Konnektör tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CH50-MP005-8R",
+          0,
+          "3M fiş (mandallı)",
+          "0.5 m",
+          "HM50(0.5M)"
+        ],
+        [
+          "CH50-MP010-8R",
+          0,
+          "3M fiş (mandallı)",
+          "1 m",
+          "HM50(1M)"
+        ],
+        [
+          "CH50-MP015-8R",
+          0,
+          "3M fiş (mandallı)",
+          "1.5 m",
+          "HM50(1.5M)"
+        ],
+        [
+          "CH50-MP020-8R",
+          0,
+          "3M fiş (mandallı)",
+          "2 m",
+          "HM50(2M)"
+        ],
+        [
+          "CH50-MQ005-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "0.5 m",
+          "HQ50(0.5M)"
+        ],
+        [
+          "CH50-MQ010-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "1 m",
+          "HQ50(1M)"
+        ],
+        [
+          "CH50-MQ015-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "1.5 m",
+          "HQ50(1.5M)"
+        ],
+        [
+          "CH50-MQ020-8R",
+          0,
+          "3M fiş (cıvatalı)",
+          "2 m",
+          "HQ50(2M)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 6,
+      "slug": "cne-b",
+      "key": "CNE-B",
+      "title": "PCB (Board Mount) Soket",
+      "cat": "Sensör Konnektörleri",
+      "desc": "Autonics CNE-B serisi, devre kartı (PCB) üzerine lehimlenen, CNE-P tipi kablo ucu fişini karşılayan soket ailesidir. 3 ve 4 pinli, 1/2/4 hatlı (çok yuvalı) varyantları vardır.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Pressure-welding (dişli/press-fit) sensör konnektörü"
+        ]
+      ],
+      "cols": [
+        "Pin / hat",
+        "Renk / AWG",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CNE-B03",
+          0,
+          "3 pin",
+          "",
+          "3pin 1socket PCB Socket"
+        ],
+        [
+          "CNE-B04",
+          0,
+          "4 pin",
+          "",
+          "4pin 1socket PCB Socket"
+        ],
+        [
+          "CNE-B203",
+          0,
+          "3 pin",
+          "",
+          "3pin 2socket PCB Socket"
+        ],
+        [
+          "CNE-B204",
+          0,
+          "4 pin",
+          "",
+          "4pin 2socket PCB Socket"
+        ],
+        [
+          "CNE-B403",
+          0,
+          "3 pin",
+          "",
+          "3pin 4socket PCB Socket"
+        ],
+        [
+          "CNE-B404",
+          0,
+          "",
+          "",
+          "BOARD"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 7,
+      "slug": "cne-p03",
+      "key": "CNE-P03",
+      "title": "3 Pin Kablo Ucu Fiş (Plug)",
+      "cat": "Sensör Konnektörleri",
+      "desc": "Autonics CNE-P03 serisi, sensör kablosunun ucuna sıkıştırılan (crimp) 3 pinli fiştir; kapak rengi tel çapı (AWG) aralığını belirtir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Pressure-welding (dişli/press-fit) sensör konnektörü"
+        ]
+      ],
+      "cols": [
+        "Pin / hat",
+        "Renk / AWG",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CNE-P03-BL",
+          0,
+          "3 pin",
+          "Mavi / AWG20-22",
+          "3pin PLUG Blue AWG20-22"
+        ],
+        [
+          "CNE-P03-GN",
+          0,
+          "3 pin",
+          "Yeşil / AWG20-22",
+          "3pin PLUG Green AWG20-22"
+        ],
+        [
+          "CNE-P03-GY",
+          0,
+          "3 pin",
+          "Gri / AWG20-22",
+          "3pin PLUG Grey AWG20-22"
+        ],
+        [
+          "CNE-P03-OG",
+          0,
+          "3 pin",
+          "Turuncu / AWG24-26",
+          "3pin PLUG Orange AWG24-26"
+        ],
+        [
+          "CNE-P03-RE",
+          0,
+          "3 pin",
+          "Kırmızı / AWG24-26",
+          "3pin PLUG Red AWG24-26"
+        ],
+        [
+          "CNE-P03-VT",
+          0,
+          "3 pin",
+          "Mor / AWG28-30",
+          "3pin PLUG Purple AWG28-30"
+        ],
+        [
+          "CNE-P03-WT",
+          0,
+          "3 pin",
+          "Beyaz / AWG28-30",
+          "3pin PLUG White AWG28-30"
+        ],
+        [
+          "CNE-P03-YG",
+          0,
+          "3 pin",
+          "Sarı-Yeşil / AWG28-30",
+          "3pin PLUG Yellow-Green AWG28-30"
+        ],
+        [
+          "CNE-P03-YW",
+          0,
+          "3 pin",
+          "Sarı / AWG24-26",
+          "3pin PLUG Yellow AWG24-26"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 8,
+      "slug": "cne-p04",
+      "key": "CNE-P04",
+      "title": "4 Pin Kablo Ucu Fiş (Plug)",
+      "cat": "Sensör Konnektörleri",
+      "desc": "Autonics CNE-P04 serisi, sensör kablosunun ucuna sıkıştırılan (crimp) 4 pinli fiştir; kapak rengi tel çapı (AWG) aralığını belirtir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Pressure-welding (dişli/press-fit) sensör konnektörü"
+        ]
+      ],
+      "cols": [
+        "Pin / hat",
+        "Renk / AWG",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CNE-P04-BL",
+          0,
+          "4 pin",
+          "Mavi / AWG20-22",
+          "4pin PLUG Blue AWG20-22"
+        ],
+        [
+          "CNE-P04-GN",
+          0,
+          "4 pin",
+          "Yeşil / AWG20-22",
+          "4pin PLUG Green AWG20-22"
+        ],
+        [
+          "CNE-P04-GY",
+          0,
+          "4 pin",
+          "Gri / AWG20-22",
+          "4pin PLUG Grey AWG20-22"
+        ],
+        [
+          "CNE-P04-OG",
+          0,
+          "4 pin",
+          "Turuncu / AWG24-26",
+          "4pin PLUG Orange AWG24-26"
+        ],
+        [
+          "CNE-P04-RE",
+          0,
+          "4 pin",
+          "Kırmızı / AWG24-26",
+          "4pin PLUG Red AWG24-26"
+        ],
+        [
+          "CNE-P04-VT",
+          0,
+          "4 pin",
+          "Mor / AWG28-30",
+          "4pin PLUG Purple AWG28-30"
+        ],
+        [
+          "CNE-P04-WT",
+          0,
+          "4 pin",
+          "Beyaz / AWG28-30",
+          "4pin PLUG White AWG28-30"
+        ],
+        [
+          "CNE-P04-YG",
+          0,
+          "4 pin",
+          "Sarı-Yeşil / AWG28-30",
+          "4pin PLUG Yellow-Green AWG28-30"
+        ],
+        [
+          "CNE-P04-YW",
+          0,
+          "4 pin",
+          "Sarı / AWG24-26",
+          "4pin PLUG Yellow AWG24-26"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 9,
+      "slug": "cne-s03",
+      "key": "CNE-S03",
+      "title": "3 Pin Kablo Ucu Soket (Socket)",
+      "cat": "Sensör Konnektörleri",
+      "desc": "Autonics CNE-S03 serisi, CNE-P03 fişini karşılayan, sensör kablosunun ucuna sıkıştırılan (crimp) 3 pinli sokettir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Pressure-welding (dişli/press-fit) sensör konnektörü"
+        ]
+      ],
+      "cols": [
+        "Pin / hat",
+        "Renk / AWG",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CNE-S03-BL",
+          0,
+          "3 pin",
+          "Mavi / AWG20-22",
+          "3pin Socket Blue AWG20-22"
+        ],
+        [
+          "CNE-S03-GN",
+          0,
+          "3 pin",
+          "Yeşil / AWG20-22",
+          "3pin Socket Green AWG20-22"
+        ],
+        [
+          "CNE-S03-GY",
+          0,
+          "3 pin",
+          "Gri / AWG20-22",
+          "3pin Socket Grey AWG20-22"
+        ],
+        [
+          "CNE-S03-OG",
+          0,
+          "3 pin",
+          "Turuncu / AWG24-26",
+          "3pin Socket Orange AWG24-26"
+        ],
+        [
+          "CNE-S03-RE",
+          0,
+          "3 pin",
+          "Kırmızı / AWG24-26",
+          "3pin Socket Red AWG24-26"
+        ],
+        [
+          "CNE-S03-VT",
+          0,
+          "3 pin",
+          "Mor / AWG28-30",
+          "3pin Socket Purple AWG28-30"
+        ],
+        [
+          "CNE-S03-WT",
+          0,
+          "3 pin",
+          "Beyaz / AWG28-30",
+          "3pin Socket White AWG28-30"
+        ],
+        [
+          "CNE-S03-YG",
+          0,
+          "3 pin",
+          "Sarı-Yeşil",
+          "SOCKET 3PIN (YELLOW-GREEN)"
+        ],
+        [
+          "CNE-S03-YW",
+          0,
+          "3 pin",
+          "Sarı / AWG24-26",
+          "3pin Socket Yellow AWG24-26"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 10,
+      "slug": "cne-s04",
+      "key": "CNE-S04",
+      "title": "4 Pin Kablo Ucu Soket (Socket)",
+      "cat": "Sensör Konnektörleri",
+      "desc": "Autonics CNE-S04 serisi, CNE-P04 fişini karşılayan, sensör kablosunun ucuna sıkıştırılan (crimp) 4 pinli sokettir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Pressure-welding (dişli/press-fit) sensör konnektörü"
+        ]
+      ],
+      "cols": [
+        "Pin / hat",
+        "Renk / AWG",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CNE-S04-BL",
+          0,
+          "4 pin",
+          "Mavi / AWG20-22",
+          "4pin Socket Blue AWG20-22"
+        ],
+        [
+          "CNE-S04-GN",
+          0,
+          "4 pin",
+          "Yeşil / AWG20-22",
+          "4pin Socket Green AWG20-22"
+        ],
+        [
+          "CNE-S04-GY",
+          0,
+          "4 pin",
+          "Gri / AWG20-22",
+          "4pin Socket Grey AWG20-22"
+        ],
+        [
+          "CNE-S04-OG",
+          0,
+          "4 pin",
+          "Turuncu / AWG24-26",
+          "4pin Socket Orange AWG24-26"
+        ],
+        [
+          "CNE-S04-RE",
+          0,
+          "4 pin",
+          "Kırmızı / AWG24-26",
+          "4pin Socket Red AWG24-26"
+        ],
+        [
+          "CNE-S04-VT",
+          0,
+          "4 pin",
+          "Mor / AWG28-30",
+          "4pin Socket Purple AWG28-30"
+        ],
+        [
+          "CNE-S04-WT",
+          0,
+          "4 pin",
+          "Beyaz / AWG28-30",
+          "4pin Socket White AWG28-30"
+        ],
+        [
+          "CNE-S04-YG",
+          0,
+          "4 pin",
+          "Sarı-Yeşil / AWG28-30",
+          "4pin Socket Yellow-Green AWG28-30"
+        ],
+        [
+          "CNE-S04-YW",
+          0,
+          "4 pin",
+          "Sarı / AWG24-26",
+          "4pin Socket Yellow AWG24-26"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 11,
+      "slug": "cid-vg",
+      "key": "CID-VG",
+      "title": "I/O Kablosu (I-TYPE)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID-VG serisi, I-TYPE sensör/kontrolör grubu için I/O (giriş/çıkış) bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID-10-VG",
+          0,
+          "",
+          "10 m",
+          "I/O CABLE, I-TYPE, 10m"
+        ],
+        [
+          "CID-2-VG",
+          0,
+          "",
+          "2 m",
+          "I/O CABLE, I-TYPE, 2m"
+        ],
+        [
+          "CID-5-VG",
+          0,
+          "",
+          "5 m",
+          "I/O CABLE, I-TYPE, 5m"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 12,
+      "slug": "cid13p",
+      "key": "CID13P",
+      "title": "13 Pinli Kablo (Fiş Ucu)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID13P serisi, 13 pinli sensör/kontrolör bağlantı kablosudur (fiş ucu, SI tipi).",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID13P-10-SI",
+          0,
+          "",
+          "10 m",
+          ""
+        ],
+        [
+          "CID13P-2-SI",
+          0,
+          "",
+          "2 m",
+          ""
+        ],
+        [
+          "CID13P-5-SI",
+          0,
+          "",
+          "5 m",
+          ""
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 13,
+      "slug": "cid13s",
+      "key": "CID13S",
+      "title": "13 Pinli Kablo (Soket Ucu)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID13S serisi, 13 pinli sensör/kontrolör bağlantı kablosudur (soket ucu).",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID13S-10",
+          0,
+          "",
+          "10 m",
+          ""
+        ],
+        [
+          "CID13S-2",
+          0,
+          "",
+          "2 m",
+          ""
+        ],
+        [
+          "CID13S-5",
+          0,
+          "",
+          "5 m",
+          ""
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 14,
+      "slug": "cid2",
+      "key": "CID2",
+      "title": "DC 2 Pin Sensör Kablosu",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID2 serisi, DC 2 pinli sensörler için bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID2-2",
+          0,
+          "DC 2pin",
+          "2 m",
+          "DC 2pin 2M Sensor Cable"
+        ],
+        [
+          "CID2-2-I",
+          0,
+          "IEC.DC 2pin",
+          "2 m",
+          "IEC.DC 2pin 2M Sensor Cable"
+        ],
+        [
+          "CID2-2P",
+          0,
+          "DC 2pin",
+          "2 m",
+          "DC 2pin 2M Sensor Cable"
+        ],
+        [
+          "CID2-5",
+          0,
+          "DC 2pin",
+          "5 m",
+          "DC 2pin 5M Sensor Cable"
+        ],
+        [
+          "CID2-5-I",
+          0,
+          "IEC.DC 2pin",
+          "5 m",
+          "IEC.DC 2pin 5M Sensor Cable"
+        ],
+        [
+          "CID2-5P",
+          0,
+          "DC 2pin",
+          "5 m",
+          "DC 2pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 15,
+      "slug": "cid3",
+      "key": "CID3",
+      "title": "DC 3 Pin Sensör Kablosu",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID3 serisi, DC 3 pinli sensörler için bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID3-2",
+          0,
+          "DC 3pin",
+          "2 m",
+          "DC 3pin 2M Sensor Cable"
+        ],
+        [
+          "CID3-2P",
+          0,
+          "DC 3pin",
+          "2 m",
+          "DC 3pin 2M Sensor Cable"
+        ],
+        [
+          "CID3-5",
+          0,
+          "DC 3pin",
+          "5 m",
+          "DC 3pin 5M Sensor Cable"
+        ],
+        [
+          "CID3-5P",
+          0,
+          "DC 3pin",
+          "5 m",
+          "DC 3pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 16,
+      "slug": "cid4",
+      "key": "CID4",
+      "title": "4 Pinli Sensör Kablosu",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID4 serisi, 4 pinli sensörler için gri (R) veya siyah (T) kaplamalı bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID4-10R",
+          0,
+          "",
+          "10 m",
+          "4P X 10M(GRAY)"
+        ],
+        [
+          "CID4-10T",
+          0,
+          "",
+          "10 m",
+          "4P X 10M(BLACK)"
+        ],
+        [
+          "CID4-15R",
+          0,
+          "",
+          "15 m",
+          "4P X 15M(GRAY)^DRW170187J"
+        ],
+        [
+          "CID4-3R",
+          0,
+          "",
+          "3 m",
+          "4P X 3M(GRAY)"
+        ],
+        [
+          "CID4-3T",
+          0,
+          "",
+          "3 m",
+          "4P X 3M(BLACK)"
+        ],
+        [
+          "CID4-5R",
+          0,
+          "",
+          "5 m",
+          "4P X 5M(GRAY)"
+        ],
+        [
+          "CID4-5T",
+          0,
+          "",
+          "5 m",
+          "4P X 5M(BLACK)"
+        ],
+        [
+          "CID4-7R",
+          0,
+          "",
+          "7 m",
+          "4P X 7M(GRAY)"
+        ],
+        [
+          "CID4-7T",
+          0,
+          "",
+          "7 m",
+          "4P X 7M(BLACK)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 17,
+      "slug": "cid408",
+      "key": "CID408",
+      "title": "M8 DC 4 Pin Sensör Kablosu",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID408 serisi, M8 konnektörlü DC 4 pinli sensörler için bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID408-10",
+          0,
+          "",
+          "10 m",
+          "CI(DRW160232)"
+        ],
+        [
+          "CID408-2",
+          0,
+          "DC 4pin",
+          "2 m",
+          "M8 DC 4pin 2M Sensor Cable"
+        ],
+        [
+          "CID408-5",
+          0,
+          "DC 4pin",
+          "5 m",
+          "M8 DC 4pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 18,
+      "slug": "cid5",
+      "key": "CID5",
+      "title": "Sensör Bağlantı Kablosu (CID5)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID5 serisi sensör bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID5-1P",
+          0,
+          "",
+          "1 m",
+          "CI(DRW200029)"
+        ],
+        [
+          "CID5-2P",
+          0,
+          "",
+          "2 m",
+          "CI(DRW200029)"
+        ],
+        [
+          "CID5-3P",
+          0,
+          "",
+          "3 m",
+          "CI(DRW200029)"
+        ],
+        [
+          "CID5-5P",
+          0,
+          "",
+          "5 m",
+          "CI(DRW200029)"
+        ],
+        [
+          "CID5-7P",
+          0,
+          "",
+          "7 m",
+          "CI(DRW200029)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 19,
+      "slug": "cid6p",
+      "key": "CID6P",
+      "title": "6 Pinli Kablo (SI-BD Ucu)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID6P serisi, 6 pinli sensör/kontrolör bağlantı kablosudur (SI-BD ucu).",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID6P-1-SI-BD",
+          0,
+          "",
+          "1 m",
+          "1M(DRW171321)"
+        ],
+        [
+          "CID6P-10-SI-BD",
+          0,
+          "",
+          "10 m",
+          "10M(DRW171321)"
+        ],
+        [
+          "CID6P-2-SI-BD",
+          0,
+          "",
+          "2 m",
+          "2M(DRW171321)"
+        ],
+        [
+          "CID6P-5-SI-BD",
+          0,
+          "",
+          "5 m",
+          "5M(DRW171321)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 20,
+      "slug": "cid6s",
+      "key": "CID6S",
+      "title": "Enkoder Kablosu (Totem Pole, NPN/PNP)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID6S serisi, totem pole / NPN / PNP çıkışlı enkoderler için bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID6S-10",
+          0,
+          "",
+          "10 m",
+          "CI"
+        ],
+        [
+          "CID6S-2",
+          0,
+          "",
+          "2 m",
+          "2M Totem Pol, NPN, PNP Encoder Cable"
+        ],
+        [
+          "CID6S-5",
+          0,
+          "",
+          "5 m",
+          "5M Totem Pol, NPN, PNP Encoder Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 21,
+      "slug": "cid7s",
+      "key": "CID7S",
+      "title": "Sensör Bağlantı Kablosu (CID7S)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID7S serisi sensör bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID7S-10",
+          0,
+          "",
+          "10 m",
+          ""
+        ],
+        [
+          "CID7S-5",
+          0,
+          "",
+          "5 m",
+          ""
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 22,
+      "slug": "cid8",
+      "key": "CID8",
+      "title": "Sensör Bağlantı Kablosu (CID8)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID8 serisi, gri (R) veya siyah (T) kaplamalı sensör bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID8-10R",
+          0,
+          "",
+          "10 m",
+          "CABLE 10m"
+        ],
+        [
+          "CID8-10T",
+          0,
+          "",
+          "10 m",
+          "CABLE 10m"
+        ],
+        [
+          "CID8-3R",
+          0,
+          "",
+          "3 m",
+          "CABLE 3m"
+        ],
+        [
+          "CID8-3T",
+          0,
+          "",
+          "3 m",
+          "CABLE 3M"
+        ],
+        [
+          "CID8-5R",
+          0,
+          "",
+          "5 m",
+          "CABLE 5m"
+        ],
+        [
+          "CID8-5T",
+          0,
+          "",
+          "5 m",
+          "CABLE 5M"
+        ],
+        [
+          "CID8-7R",
+          0,
+          "",
+          "7 m",
+          "CABLE 7m"
+        ],
+        [
+          "CID8-7T",
+          0,
+          "",
+          "7 m",
+          "CABLE 7M"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 23,
+      "slug": "cid9s",
+      "key": "CID9S",
+      "title": "Line Driver Enkoder Kablosu",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics CID9S serisi, line driver çıkışlı enkoderler için bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CID9S-10",
+          0,
+          "",
+          "10 m",
+          "10M Line Driver Encoder Cable"
+        ],
+        [
+          "CID9S-2",
+          0,
+          "",
+          "2 m",
+          "2M Line Driver Encoder Cable"
+        ],
+        [
+          "CID9S-5",
+          0,
+          "",
+          "5 m",
+          "5M Line Driver Encoder Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 24,
+      "slug": "c1a4",
+      "key": "C1A4",
+      "title": "AC 4 Pin Sensör Kablosu (Düz/Düz)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1A4 serisi, AC 4 pinli sensörler için her iki ucu düz konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1A4-2",
+          0,
+          "AC 4pin",
+          "2 m",
+          "AC 4pin 2M Sensor Cable"
+        ],
+        [
+          "C1A4-2P",
+          0,
+          "AC 4pin",
+          "2 m",
+          "AC 4pin 2M Sensor Cable"
+        ],
+        [
+          "C1A4-5",
+          0,
+          "AC 4pin",
+          "5 m",
+          "AC 4pin 5M Sensor Cable"
+        ],
+        [
+          "C1A4-5P",
+          0,
+          "AC 4pin",
+          "5 m",
+          "AC 4pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 25,
+      "slug": "c1d4",
+      "key": "C1D4",
+      "title": "DC 3 Pin Sensör Kablosu (Düz/Düz)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1D4 serisi, DC 3 pinli sensörler için her iki ucu düz konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1D4-2",
+          0,
+          "DC 3pin",
+          "2 m",
+          "DC 3pin 2M Sensor Cable"
+        ],
+        [
+          "C1D4-2P",
+          0,
+          "DC 3pin",
+          "2 m",
+          "DC 3pin 2M Sensor Cable"
+        ],
+        [
+          "C1D4-5",
+          0,
+          "DC 3pin",
+          "5 m",
+          "DC 3pin 5M Sensor Cable"
+        ],
+        [
+          "C1D4-5P",
+          0,
+          "DC 3pin",
+          "5 m",
+          "DC 3pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 26,
+      "slug": "c2a4",
+      "key": "C2A4",
+      "title": "AC 4 Pin Sensör Kablosu (L Tipi/Düz)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C2A4 serisi, AC 4 pinli sensörler için bir ucu L (dirsek) tipi konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C2A4-2",
+          0,
+          "AC 4pin",
+          "2 m",
+          "AC 4pin 2M Sensor Cable"
+        ],
+        [
+          "C2A4-5",
+          0,
+          "AC 4pin",
+          "5 m",
+          "AC 4pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 27,
+      "slug": "c2d4",
+      "key": "C2D4",
+      "title": "DC 3 Pin Sensör Kablosu (L Tipi/Düz)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C2D4 serisi, DC 3 pinli sensörler için bir ucu L (dirsek) tipi konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C2D4-2",
+          0,
+          "DC 3pin",
+          "2 m",
+          "DC 3pin 2M Sensor Cable"
+        ],
+        [
+          "C2D4-5",
+          0,
+          "DC 3pin",
+          "5 m",
+          "DC 3pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 28,
+      "slug": "c3a4",
+      "key": "C3A4",
+      "title": "AC 4 Pin Sensör Kablosu (Düz/L Tipi)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C3A4 serisi, AC 4 pinli sensörler için diğer ucu L (dirsek) tipi konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C3A4-2",
+          0,
+          "AC 4pin",
+          "2 m",
+          "AC 4pin 2M Sensor Cable"
+        ],
+        [
+          "C3A4-5",
+          0,
+          "AC 4pin",
+          "5 m",
+          "AC 4pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 29,
+      "slug": "c3d4",
+      "key": "C3D4",
+      "title": "DC 3 Pin Sensör Kablosu (Düz/L Tipi)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C3D4 serisi, DC 3 pinli sensörler için diğer ucu L (dirsek) tipi konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C3D4-2",
+          0,
+          "DC 3pin",
+          "2 m",
+          "DC 3pin 2M Sensor Cable"
+        ],
+        [
+          "C3D4-5",
+          0,
+          "DC 3pin",
+          "5 m",
+          "DC 3pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 30,
+      "slug": "c4a4",
+      "key": "C4A4",
+      "title": "AC 4 Pin Sensör Kablosu (L Tipi/L Tipi)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C4A4 serisi, AC 4 pinli sensörler için her iki ucu L (dirsek) tipi konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C4A4-2",
+          0,
+          "AC 4pin",
+          "2 m",
+          "AC 4pin 2M Sensor Cable"
+        ],
+        [
+          "C4A4-5",
+          0,
+          "AC 4pin",
+          "5 m",
+          "AC 4pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 31,
+      "slug": "c4d4",
+      "key": "C4D4",
+      "title": "DC 3 Pin Sensör Kablosu (L Tipi/L Tipi)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C4D4 serisi, DC 3 pinli sensörler için her iki ucu L (dirsek) tipi konnektörlü bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C4D4-2",
+          0,
+          "DC 3pin",
+          "2 m",
+          "DC 3pin 2M Sensor Cable"
+        ],
+        [
+          "C4D4-5",
+          0,
+          "DC 3pin",
+          "5 m",
+          "DC 3pin 5M Sensor Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 32,
+      "slug": "c1d14m",
+      "key": "C1D14M",
+      "title": "Normal (Sabit) Tip Bağlantı Kablosu",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1D14M serisi, sabit (normal, hareketsiz) montaj için bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1D14M-1",
+          0,
+          "",
+          "1 m",
+          "NORMAL 1m"
+        ],
+        [
+          "C1D14M-10",
+          0,
+          "",
+          "10 m",
+          "NORMAL 10M"
+        ],
+        [
+          "C1D14M-2",
+          0,
+          "",
+          "2 m",
+          "NORMAL 2M"
+        ],
+        [
+          "C1D14M-3",
+          0,
+          "",
+          "3 m",
+          "NORMAL 3M"
+        ],
+        [
+          "C1D14M-5",
+          0,
+          "",
+          "5 m",
+          "NORMAL 5M"
+        ],
+        [
+          "C1D14M-7",
+          0,
+          "",
+          "7 m",
+          "NORMAL (7M)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 33,
+      "slug": "c1d14mb",
+      "key": "C1D14MB",
+      "title": "Normal (Sabit) Tip Bağlantı Kablosu (B Varyantı)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1D14MB serisi, sabit (normal) montaj için bağlantı kablosunun B gövde varyantıdır.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1D14MB-1",
+          0,
+          "",
+          "1 m",
+          "NORMAL 1M"
+        ],
+        [
+          "C1D14MB-10",
+          0,
+          "",
+          "10 m",
+          "NORMAL 10M"
+        ],
+        [
+          "C1D14MB-15",
+          0,
+          "",
+          "15 m",
+          "NORMAL 15M"
+        ],
+        [
+          "C1D14MB-2",
+          0,
+          "",
+          "2 m",
+          "NORMAL 2M"
+        ],
+        [
+          "C1D14MB-20",
+          0,
+          "",
+          "20 m",
+          "NORMAL 20M"
+        ],
+        [
+          "C1D14MB-3",
+          0,
+          "",
+          "3 m",
+          "NORMAL 3M"
+        ],
+        [
+          "C1D14MB-5",
+          0,
+          "",
+          "5 m",
+          "NORMAL 5M"
+        ],
+        [
+          "C1D14MB-7",
+          0,
+          "",
+          "7 m",
+          "NORMAL 7M"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 34,
+      "slug": "c1df14m",
+      "key": "C1DF14M",
+      "title": "Hareketli (Moving) Tip Bağlantı Kablosu",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1DF14M serisi, hareketli eksen uygulamaları için esnek (moving) bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1DF14M-1",
+          0,
+          "",
+          "1 m",
+          "MOVING 1M"
+        ],
+        [
+          "C1DF14M-10",
+          0,
+          "",
+          "10 m",
+          "MOVING 10M"
+        ],
+        [
+          "C1DF14M-2",
+          0,
+          "",
+          "2 m",
+          "MOVING 2M"
+        ],
+        [
+          "C1DF14M-3",
+          0,
+          "",
+          "3 m",
+          "MOVING 3M"
+        ],
+        [
+          "C1DF14M-5",
+          0,
+          "",
+          "5 m",
+          "MOVING 5M"
+        ],
+        [
+          "C1DF14M-7",
+          0,
+          "",
+          "7 m",
+          "MOVING (7M)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 35,
+      "slug": "c1df14mb",
+      "key": "C1DF14MB",
+      "title": "Hareketli (Moving) Tip Bağlantı Kablosu (B Varyantı)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1DF14MB serisi, hareketli eksen uygulamaları için esnek bağlantı kablosunun B gövde varyantıdır.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1DF14MB-1",
+          0,
+          "",
+          "1 m",
+          "MOVING 1M"
+        ],
+        [
+          "C1DF14MB-10",
+          0,
+          "",
+          "10 m",
+          "MOVING 10M"
+        ],
+        [
+          "C1DF14MB-15",
+          0,
+          "",
+          "15 m",
+          "MOVING 15M"
+        ],
+        [
+          "C1DF14MB-2",
+          0,
+          "",
+          "2 m",
+          "MOVING 2M"
+        ],
+        [
+          "C1DF14MB-20",
+          0,
+          "",
+          "20 m",
+          "MOVING 20M"
+        ],
+        [
+          "C1DF14MB-3",
+          0,
+          "",
+          "3 m",
+          "MOVING 3M"
+        ],
+        [
+          "C1DF14MB-5",
+          0,
+          "",
+          "5 m",
+          "MOVING 5M"
+        ],
+        [
+          "C1DF14MB-7",
+          0,
+          "",
+          "7 m",
+          "MOVING 7M"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 36,
+      "slug": "c1d5",
+      "key": "C1D5",
+      "title": "Sensör Bağlantı Kablosu (C1D5)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1D5 serisi sensör bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1D5-1",
+          0,
+          "",
+          "1 m",
+          "CC(DRW200030)"
+        ],
+        [
+          "C1D5-2",
+          0,
+          "",
+          "2 m",
+          "CC(DRW200030)"
+        ],
+        [
+          "C1D5-3",
+          0,
+          "",
+          "3 m",
+          "CC(DRW200030)"
+        ],
+        [
+          "C1D5-5",
+          0,
+          "",
+          "5 m",
+          "CC(DRW200030)"
+        ],
+        [
+          "C1D5-7",
+          0,
+          "",
+          "7 m",
+          "CC(DRW200030)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 37,
+      "slug": "c1d8",
+      "key": "C1D8",
+      "title": "Sensör Bağlantı Kablosu (C1D8, R/T)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1D8 serisi, gri (R) veya siyah (T) kaplamalı sensör bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1D8-10R",
+          0,
+          "",
+          "10 m",
+          "CABLE 10m"
+        ],
+        [
+          "C1D8-10T",
+          0,
+          "",
+          "10 m",
+          "CABLE 10m"
+        ],
+        [
+          "C1D8-15R",
+          0,
+          "",
+          "15 m",
+          "CABLE 15m"
+        ],
+        [
+          "C1D8-15T",
+          0,
+          "",
+          "15 m",
+          "CABLE 15m"
+        ],
+        [
+          "C1D8-20R",
+          0,
+          "",
+          "20 m",
+          "CABLE 20m"
+        ],
+        [
+          "C1D8-20T",
+          0,
+          "",
+          "20 m",
+          "CABLE 20m"
+        ],
+        [
+          "C1D8-3R",
+          0,
+          "",
+          "3 m",
+          "CABLE 3m"
+        ],
+        [
+          "C1D8-3T",
+          0,
+          "",
+          "3 m",
+          "CABLE 3m"
+        ],
+        [
+          "C1D8-5R",
+          0,
+          "",
+          "5 m",
+          "CABLE 5m"
+        ],
+        [
+          "C1D8-5T",
+          0,
+          "",
+          "5 m",
+          "CABLE 5m"
+        ],
+        [
+          "C1D8-7R",
+          0,
+          "",
+          "7 m",
+          "CABLE 7m"
+        ],
+        [
+          "C1D8-7T",
+          0,
+          "",
+          "7 m",
+          "CABLE 7m"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 38,
+      "slug": "c1dh4",
+      "key": "C1DH4",
+      "title": "Sensör Bağlantı Kablosu (C1DH4)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C1DH4 serisi sensör bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1DH4-1",
+          0,
+          "",
+          "1 m",
+          ""
+        ],
+        [
+          "C1DH4-3",
+          0,
+          "",
+          "3 m",
+          ""
+        ],
+        [
+          "C1DH4-5",
+          0,
+          "",
+          "5 m",
+          ""
+        ],
+        [
+          "C1DH4-7",
+          0,
+          "",
+          "7 m",
+          ""
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 39,
+      "slug": "c2dh4",
+      "key": "C2DH4",
+      "title": "Sensör Bağlantı Kablosu (C2DH4)",
+      "cat": "Sensör Bağlantı Kabloları",
+      "desc": "Autonics C2DH4 serisi sensör bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Sensör / enkoder bağlantı (uzatma) kablosu"
+        ]
+      ],
+      "cols": [
+        "Bağlantı/pin tipi",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C2DH4-1",
+          0,
+          "",
+          "1 m",
+          "CC(2FD00015)"
+        ],
+        [
+          "C2DH4-3",
+          0,
+          "",
+          "3 m",
+          "CC(2FD00015)"
+        ],
+        [
+          "C2DH4-5",
+          0,
+          "",
+          "5 m",
+          "CC(2FD00015)"
+        ],
+        [
+          "C2DH4-7",
+          0,
+          "",
+          "7 m",
+          "CC(2FD00015)"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 40,
+      "slug": "c18",
+      "key": "C18",
+      "title": "I-TYPE Ethernet Kablosu",
+      "cat": "Görüntü (Vision) ve Ethernet Kabloları",
+      "desc": "Autonics C18 serisi, I-TYPE vision sensör/kamera grubu için Ethernet bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Görüntü (vision) sensörü / kamera için Ethernet bağlantı kablosu"
+        ]
+      ],
+      "cols": [
+        "Konnektör markası",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C18-10PR",
+          0,
+          "HATECH",
+          "10 m",
+          "Ethernet/I-TYPE/10-HATECH"
+        ],
+        [
+          "C18-10PR-A",
+          0,
+          "Phoenix Contact",
+          "10 m",
+          "1407417-Phoenixcontact"
+        ],
+        [
+          "C18-2PR",
+          0,
+          "HATECH",
+          "2 m",
+          "Ethernet/I-TYPE/2-HATECH"
+        ],
+        [
+          "C18-2PR-A",
+          0,
+          "Phoenix Contact",
+          "2 m",
+          "1407415-Phoenixcontact"
+        ],
+        [
+          "C18-5PR",
+          0,
+          "HATECH",
+          "5 m",
+          "Ethernet/I-TYPE/5-HATECH"
+        ],
+        [
+          "C18-5PR-A",
+          0,
+          "Phoenix Contact",
+          "5 m",
+          "1407416-Phoenixcontact"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 41,
+      "slug": "c1m8",
+      "key": "C1M8",
+      "title": "I-TYPE Ethernet Kablosu (M8 Konnektör)",
+      "cat": "Görüntü (Vision) ve Ethernet Kabloları",
+      "desc": "Autonics C1M8 serisi, I-TYPE vision sensör/kamera grubu için M8 konnektörlü Ethernet bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Görüntü (vision) sensörü / kamera için Ethernet bağlantı kablosu"
+        ]
+      ],
+      "cols": [
+        "Konnektör markası",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C1M8-10PR",
+          0,
+          "HATECH",
+          "10 m",
+          "Ethernet/I-TYPE/10-HATECH"
+        ],
+        [
+          "C1M8-10PR-A",
+          0,
+          "Phoenix Contact",
+          "10 m",
+          "1408681/94C/10-Phoenixcontact"
+        ],
+        [
+          "C1M8-2PR",
+          0,
+          "HATECH",
+          "2 m",
+          "Ethernet/I-TYPE/2-HATECH"
+        ],
+        [
+          "C1M8-2PR-A",
+          0,
+          "Phoenix Contact",
+          "2 m",
+          "1408681/94C/2-Phoenixcontact"
+        ],
+        [
+          "C1M8-5PR",
+          0,
+          "HATECH",
+          "5 m",
+          "Ethernet/I-TYPE/5-HATECH"
+        ],
+        [
+          "C1M8-5PR-A",
+          0,
+          "Phoenix Contact",
+          "5 m",
+          "1408681/94C/5-Phoenixcontact"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 42,
+      "slug": "c48",
+      "key": "C48",
+      "title": "L-TYPE Ethernet Kablosu",
+      "cat": "Görüntü (Vision) ve Ethernet Kabloları",
+      "desc": "Autonics C48 serisi, L-TYPE vision sensör/kamera grubu için Ethernet bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Görüntü (vision) sensörü / kamera için Ethernet bağlantı kablosu"
+        ]
+      ],
+      "cols": [
+        "Konnektör markası",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C48-10PR",
+          0,
+          "HATECH",
+          "10 m",
+          "Ethernet/L-TYPE/10-HATECH"
+        ],
+        [
+          "C48-10PR-A",
+          0,
+          "Phoenix Contact",
+          "10 m",
+          "1408674/94B/10-Phoenixcontact"
+        ],
+        [
+          "C48-2PR",
+          0,
+          "HATECH",
+          "2 m",
+          "Ethernet/L-TYPE/2-HATECH"
+        ],
+        [
+          "C48-2PR-A",
+          0,
+          "Phoenix Contact",
+          "2 m",
+          "1408674/94B/2-Phoenixcontact"
+        ],
+        [
+          "C48-5PR",
+          0,
+          "HATECH",
+          "5 m",
+          "Ethernet/L-TYPE/5-HATECH"
+        ],
+        [
+          "C48-5PR-A",
+          0,
+          "Phoenix Contact",
+          "5 m",
+          "1408674/94B/5-Phoenixcontact"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 43,
+      "slug": "c4m8",
+      "key": "C4M8",
+      "title": "L-TYPE Ethernet Kablosu (M8 Konnektör)",
+      "cat": "Görüntü (Vision) ve Ethernet Kabloları",
+      "desc": "Autonics C4M8 serisi, L-TYPE vision sensör/kamera grubu için M8 konnektörlü Ethernet bağlantı kablosudur.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Görüntü (vision) sensörü / kamera için Ethernet bağlantı kablosu"
+        ]
+      ],
+      "cols": [
+        "Konnektör markası",
+        "Uzunluk",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C4M8-10PR",
+          0,
+          "HATECH",
+          "10 m",
+          "Ethernet/L-TYPE/10-HATECH"
+        ],
+        [
+          "C4M8-10PR-A",
+          0,
+          "Phoenix Contact",
+          "10 m",
+          "1408674/94C/10-Phoenixcontact"
+        ],
+        [
+          "C4M8-2PR",
+          0,
+          "HATECH",
+          "2 m",
+          "Ethernet/L-TYPE/2-HATECH"
+        ],
+        [
+          "C4M8-2PR-A",
+          0,
+          "Phoenix Contact",
+          "2 m",
+          "1408674/94C/2-Phoenixcontact"
+        ],
+        [
+          "C4M8-5PR",
+          0,
+          "HATECH",
+          "5 m",
+          "Ethernet/L-TYPE/5-HATECH"
+        ],
+        [
+          "C4M8-5PR-A",
+          0,
+          "Phoenix Contact",
+          "5 m",
+          "1408674/94C/5-Phoenixcontact"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 44,
+      "slug": "c3m5p",
+      "key": "C3M5P",
+      "title": "GP/LP Haberleşme Kablosu",
+      "cat": "HMI Bağlantı Kabloları (GP/LP)",
+      "desc": "Autonics GP/LP serisi dokunmatik panelini (HMI) PLC veya diğer bir cihaza bağlamak için kullanılan haberleşme kablosu model ailesidir; her model kodu, kablonun iki ucundaki konnektör kombinasyonuna göre ayrılır.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Autonics GP/LP dokunmatik panel (HMI) haberleşme/bağlantı kablosu"
+        ]
+      ],
+      "cols": [
+        "Varyant no",
+        "Uç konnektörleri (iki uç)",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C3M5P00-D9F0-M6M0",
+          0,
+          "00",
+          "D9F0-M6M0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P01-D9F0-D9M0",
+          0,
+          "01",
+          "D9F0-D9M0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P02-D9F0-D9M0",
+          0,
+          "02",
+          "D9F0-D9M0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P03-D9M0-T4Y0",
+          0,
+          "03",
+          "D9M0-T4Y0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P03-D9M0-W4*0",
+          0,
+          "03",
+          "D9M0-W4*0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P04-D9M0-T6Y0",
+          0,
+          "04",
+          "D9M0-T6Y0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P04-D9M0-W6*0",
+          0,
+          "04",
+          "D9M0-W6*0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P05-D9F0-D9M0",
+          0,
+          "05",
+          "D9F0-D9M0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P06-D9F0-D15M0",
+          0,
+          "06",
+          "D9F0-D15M0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P07-D9F0-D9M0",
+          0,
+          "07",
+          "D9F0-D9M0",
+          "GP CABLE"
+        ],
+        [
+          "C3M5P08-D9M0-M8M0",
+          0,
+          "08",
+          "D9M0-M8M0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P08-D9M0-M8M1",
+          0,
+          "08",
+          "D9M0-M8M1",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P09-D9F0-D9F0",
+          0,
+          "09",
+          "D9F0-D9F0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P10-D9F0-M5M0",
+          0,
+          "10",
+          "D9F0-M5M0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P11-D9F0-W4*0",
+          0,
+          "11",
+          "D9F0-W4*0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P12-D9F0-D9M1",
+          0,
+          "12",
+          "D9F0-D9M1",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P13-D9F0-T4Y0",
+          0,
+          "13",
+          "D9F0-T4Y0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P14-D9F0-D9F0",
+          0,
+          "14",
+          "D9F0-D9F0",
+          "GP/LP Conn. Cable"
+        ],
+        [
+          "C3M5P15-D9M0-D9M0",
+          0,
+          "15",
+          "D9M0-D9M0",
+          "GP/LP Conn. Cable"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 45,
+      "slug": "c35m5p",
+      "key": "C3.5M5P",
+      "title": "GP/LP Haberleşme Kablosu (C3.5M5P)",
+      "cat": "HMI Bağlantı Kabloları (GP/LP)",
+      "desc": "Autonics GP/LP serisi dokunmatik panelini (HMI) PLC veya diğer bir cihaza bağlamak için kullanılan haberleşme kablosu model ailesidir; her model kodu, kablonun iki ucundaki konnektör kombinasyonuna göre ayrılır.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ],
+        [
+          "Ürün tipi",
+          "Autonics GP/LP dokunmatik panel (HMI) haberleşme/bağlantı kablosu"
+        ]
+      ],
+      "cols": [
+        "Varyant no",
+        "Uç konnektörleri (iki uç)",
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "C3.5M5P10-D9F0-M5M0",
+          0,
+          "10",
+          "D9F0-M5M0",
+          "GP CABLE"
+        ]
+      ],
+      "img": null
+    },
+    {
+      "sn": 46,
+      "slug": "cnd5-sfn",
+      "key": "CND5-SFN",
+      "title": "Dağıtım / Loop Konnektörü",
+      "cat": "Sensör Konnektörleri",
+      "desc": "Autonics CND5-SFN, sinyal dağıtım/loop hattında kullanılan bağlantı konnektörüdür. Fiyat listesindeki tek kod; bağımsız üretici kataloğunda ayrı model sayfası bulunamadı, bu yüzden açıklama fiyat listesindeki haliyle (temizlenmiş) gösterilir.",
+      "common": [
+        [
+          "Marka",
+          "Autonics"
+        ]
+      ],
+      "cols": [
+        "Fiyat listesi açıklaması"
+      ],
+      "codes": [
+        [
+          "CND5-SFN",
+          0,
+          "DISTRIBUTION LOOP CONNECTOR"
+        ]
+      ],
+      "img": null
+    }
+  ]
+}

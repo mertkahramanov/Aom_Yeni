@@ -1,0 +1,64 @@
+{
+  "series": [
+    {
+      "sn": 1,
+      "slug": "cn-502h",
+      "key": "CN-502H",
+      "title": "HART İletişimli Sinyal Transmitteri",
+      "cat": "HART Sinyal Transmitteri",
+      "desc": "Autonics CN-502H, 11–35 VDC beslemeli ve HART haberleşmeli tek bir sinyal transmitteri modelidir. Agent 6'nın araştırmasına göre bu kod ailesi kablo/konnektör değil, sinyal dönüştürücü/transmitter grubuna aittir (tequipment.net \"Signal Transmitters/Converters/Preamps\" kategorisi).",
+      "common": [
+        ["Marka", "Autonics"],
+        ["Haberleşme", "HART"]
+      ],
+      "cols": ["Besleme", "Fiyat listesi açıklaması"],
+      "codes": [
+        ["CN-502H", 0, "11-35VDC", "11-35VDC^HART COMMUNICATION"]
+      ],
+      "img": null
+    },
+    {
+      "sn": 2,
+      "slug": "cn-6100-6101-6400-6401",
+      "key": "CN-6100 / CN-6101 / CN-6400 / CN-6401",
+      "title": "Analog Sinyal İzolatörü / Çeviricisi",
+      "cat": "Analog Sinyal İzolatörü / Çeviricisi",
+      "desc": "CN-6100/6101/6400/6401 aileleri, akım (Current), gerilim (Voltage) veya alarm (Alarm) girişlerini 1, 2 veya 4 kanal olarak izole eden/dönüştüren sinyal modülleridir; \"6400/6401\" model numaralarının açıklamasında ayrıca \"Pulse\" (pals) ibaresi geçer. \"6101\"/\"6401\" kodlarının açıklamasında \"24VDC\" eki vardır, \"6100\"/\"6400\" kodlarında bu ek yoktur — besleme farkını gösterdiği düşünülüyor ancak bağımsız üretici kataloğuyla doğrulanamadı [TEYİT EDİLEMEDİ]. Kanal tipi/sayısı kodun sonundaki -C1/-C2/-R1/-R2/-R4/-V1/-V2 ekinden ve fiyat listesi açıklamasından birebir alınmıştır, yorumlanmamıştır.",
+      "common": [
+        ["Marka", "Autonics"]
+      ],
+      "cols": ["Fiyat listesi açıklaması"],
+      "codes": [
+        ["CN-6100-C1", 0, "Current x 1*0~20mA"],
+        ["CN-6100-C2", 0, "Current x 2*0~20mA"],
+        ["CN-6100-R1", 0, "Alarm x 1"],
+        ["CN-6100-R2", 0, "Alarm x 2"],
+        ["CN-6100-R4", 0, "Alarm x 4"],
+        ["CN-6100-V1", 0, "Voltage x 1*0~10V"],
+        ["CN-6100-V2", 0, "Voltage x 2*0~10V"],
+        ["CN-6101-C1", 0, "Current x 1*0~20mA*24VDC"],
+        ["CN-6101-C2", 0, "Current x 2*0~20mA*24VDC"],
+        ["CN-6101-R1", 0, "Alarm x 1*24VDC"],
+        ["CN-6101-R2", 0, "Alarm x 2*24VDC"],
+        ["CN-6101-R4", 0, "Alarm x 4*24VDC"],
+        ["CN-6101-V1", 0, "Voltage x 1*0~10V*24VDC"],
+        ["CN-6101-V2", 0, "Voltage x 2*0~10V*24VDC"],
+        ["CN-6400-C1", 0, "Pulse*Current x 1"],
+        ["CN-6400-C2", 0, "Pulse*Current x 2"],
+        ["CN-6400-R1", 0, "Pulse*Alarm x 1"],
+        ["CN-6400-R2", 0, "Pulse*Alarm x 2"],
+        ["CN-6400-R4", 0, "Pulse*Alarm x 4"],
+        ["CN-6400-V1", 0, "Pulse*Voltage x 1"],
+        ["CN-6400-V2", 0, "Pulse*Voltage x 2"],
+        ["CN-6401-C1", 0, "Pulse*Current x 1*24VDC"],
+        ["CN-6401-C2", 0, "Pulse*Current x 2*24VDC"],
+        ["CN-6401-R1", 0, "Pulse*Alarm x 1*24VDC"],
+        ["CN-6401-R2", 0, "Pulse*Alarm x 2*24VDC"],
+        ["CN-6401-R4", 0, "Pulse*Alarm x 4*24VDC"],
+        ["CN-6401-V1", 0, "Pals*Voltage x 1*24VDC"],
+        ["CN-6401-V2", 0, "Pulse*Voltage x 2*24VDC"]
+      ],
+      "img": null
+    }
+  ]
+}

@@ -3,10 +3,14 @@
 //   sensör kontrol cihazı, grafik panel (HMI), endüstriyel bilgisayar serilerinin tamamı (981 model).
 // - Kod sayfası: diğer sıcaklık kontrol serileri ve MX dışındaki panel metreler (26 seri, 1.309 kod), bkz. KONTROL_KOD_SERIES.
 // Kaynak: Autonics Türkiye model sayfaları (her modelin tam teknik tablosu) ve model listeleri; Mert'in Chrome'u ile okundu.
-// Fiyat yok: "Teklif isteyin".
+// Fiyat: Mert'in sağladığı Autonics fiyat listesiyle eşleşen kodlar için KONTROL_PRICES / KONTROL_KOD_PRICES'tan
+// geliyor (23-10-2026, %40 iskonto, DPU3 ile aynı kamuya açık gösterim). Eşleşmeyen kodlarda "Teklif isteyin".
 import type { Product } from "./magaza";
 import raw from "./autonics-kontrol_03-10-2026.json";
 import rawCodes from "./autonics-kontrol-kodlari_03-10-2026.json";
+import { KONTROL_PRICES, KONTROL_KOD_PRICES } from "./autonics-fiyat-eslesen_23-10-2026";
+
+export { KONTROL_KOD_PRICES };
 
 type Series = {
   key: string;
@@ -92,6 +96,7 @@ function build(p: Raw["products"][number]): Product {
     image: p.img ? { src: `/magaza/${p.img}`, alt: `Autonics ${p.m} ${lc(s.single)}` } : undefined,
     specs,
     source: { label: "Autonics ürün sayfası", url: `https://www.autonics.com/tr/model/${encodeURIComponent(p.m)}` },
+    price: KONTROL_PRICES[p.m],
     series: `Autonics ${s.key}`,
     groupTitle: `Autonics ${s.key} · ${lc(s.title)}`,
     groupOrder: s.order + (seriesOrder.get(String(p.sn)) ?? 0) / 100,

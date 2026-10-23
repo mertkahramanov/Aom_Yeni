@@ -206,7 +206,7 @@ export default function PlcScadaPage() {
           <li><Link href="/otomasyon" className="store-chip">Endüstriyel otomasyon ürünleri</Link></li>
           <li><Link href="/tristorlu-guc-kontrol" className="store-chip">Tristörlü güç kontrol</Link></li>
           <li><Link href="/cnc-tezgah" className="store-chip">CNC işleme merkezleri</Link></li>
-          <li><Link href="/robotik-kaynak" className="store-chip">Robotik kaynak sistemleri</Link></li>
+          <li><Link href="/robotik-kaynak" className="store-chip">Robot - Robotik Otomasyon</Link></li>
         </ul>
       </div>
     </section>

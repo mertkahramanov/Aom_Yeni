@@ -330,7 +330,9 @@ export const CATEGORY_INFO: Record<string, { seoTitle: string; description: stri
       "Gefran tarafında (AOM satış noktası ve teknik destek) tek fazlı GRS ve entegre soğutuculu GRS-H (15–120 A), IO-Link ve gelişmiş diyagnostikli GRP ve GRP-H (15–120 A), üç fazlı GRZ ve GRZ-H (10–75 A) ile 90 A'e kadar GQ serileri listelenir. Gefran ürünlerinde fiyat için teklif isteyin.",
       "Mağazada ayrıca NCR (Nicerelay) HHG1 masa tipi, HHG1D tarak tipi, HHG1-3 üç fazlı, HHG2 tek fazlı ve potansiyometreyle sürülen HHT1 SSR'ler yer alır. Autonics serileri: sökülebilir soğutuculu SR1 ve SR3, ince tip SRC1, entegre soğutuculu SRH1 ve SRH3, aşırı ısınma önlemeli SRHL1 ve SRHL3, soketli SRS1. Ankara merkezli AOM, SSR seçimi, soğutucu ve pano uygulaması konusunda destek verir; Türkiye'nin her şehrinden teklif ve sipariş taleplerinizi iletebilirsiniz.",
     ],
-    keywords: ["solid state röle", "SSR", "katı hal rölesi", "SSR röle fiyatları", "Autonics SSR", "üç fazlı SSR", "SSR Ankara", "Gefran SSR", "Gefran GRS", "Gefran GRZ", "Gefran GQ"],
+    // 22-10-2026 eklendi (Mert onayı, Google Ads Keyword Planner araştırması, Türkiye, Eki 2025-Eyl 2026):
+    // "ssr röle" 1.000/ay (Yüksek rekabet) — en yüksek hacimli tek terim; "3 faz solid state röle" 10/ay.
+    keywords: ["solid state röle", "SSR", "ssr röle", "katı hal rölesi", "SSR röle fiyatları", "Autonics SSR", "üç fazlı SSR", "3 faz solid state röle", "SSR Ankara", "Gefran SSR", "Gefran GRS", "Gefran GRZ", "Gefran GQ"],
   },
   enkoderler: {
     seoTitle: "Enkoder (Encoder) – Autonics Artımlı ve Mutlak Enkoder | Ankara",
@@ -364,7 +366,9 @@ export const CATEGORY_INFO: Record<string, { seoTitle: string; description: stri
     seoTitle: "Zamanlayıcı (Timer) – Autonics ATM, ATS, ATN, LE | Ankara",
     description: "Autonics analog ve dijital zamanlayıcılar: ATM, ATS, ATN, ATE8, yıldız-üçgen, güç kesilme gecikmeli, LE serisi dijital ve haftalık zamanlayıcılar, 112 model. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.",
     intro: ["Zamanlayıcılar (zaman rölesi) ayarlanan süreye göre çıkış kontağını açar veya kapar. Mağazada Autonics minyatür ve çok işlevli analog zamanlayıcılar (ATM, ATS, ATN, ATE8), yıldız-üçgen (ATS8SD-4, AT8SDN), güç kesilme gecikmeli (ATS8P, AT8PSN/AT8PMN), ikiz zamanlayıcılar ve LE serisi dijital / haftalık zamanlayıcılar yer alır.", "AOM, zamanlayıcı seçimi, soket ve pano uygulaması konusunda destek verir."],
-    keywords: ["zamanlayıcı", "zaman rölesi", "timer", "yıldız üçgen zaman rölesi", "Autonics ATS", "Autonics ATN", "Autonics ATM", "LE4S"],
+    // 22-10-2026 eklendi (Mert onayı, Google Ads Keyword Planner araştırması, Türkiye, Eki 2025-Eyl 2026):
+    // "zamanlayıcı rölesi" 320/ay (Yüksek rekabet) — kategorideki en yüksek hacimli terim.
+    keywords: ["zamanlayıcı", "zamanlayıcı rölesi", "zaman rölesi", "timer", "yıldız üçgen zaman rölesi", "zamanlayıcı röle 220v", "dijital zamanlayıcı röle", "Autonics ATS", "Autonics ATN", "Autonics ATM", "LE4S"],
   },
   "kayit-cihazlari": {
     seoTitle: "Kayıt Cihazı (Recorder) – Autonics KRN | Ankara",
@@ -451,8 +455,22 @@ for (const cat of new Set(ikinciElProducts.map((p) => p.category))) {
       `2. el ${name.toLocaleLowerCase("tr-TR")}. Her ürünün durumu, test bilgisi ve garanti koşulu ürün sayfasında belirtilir; fotoğraflar satıştaki ürüne aittir.`,
       "Stok adedi sınırlıdır. Ürünü ayırtmak veya ayrıntılı bilgi almak için teklif isteyin.",
     ],
-    keywords: [`2. el ${name.toLocaleLowerCase("tr-TR")}`, `ikinci el ${name.toLocaleLowerCase("tr-TR")}`, "2. el otomasyon malzemesi"],
+    // 22-10-2026 eklendi (Mert onayı, Google Ads Keyword Planner araştırması, Türkiye, Eki 2025-Eyl 2026):
+    // "2. el otomasyon ürünleri" 10/ay ve "2 el otomasyon malzemeleri" 20/ay (ikisi de Düşük/Orta) —
+    // tüm 2. el kategorilerinde geçerli jenerik terimler.
+    keywords: [`2. el ${name.toLocaleLowerCase("tr-TR")}`, `ikinci el ${name.toLocaleLowerCase("tr-TR")}`, "2. el otomasyon malzemesi", "2. el otomasyon ürünleri", "2. el otomasyon malzemeleri"],
   };
+}
+// 22-10-2026 eklendi (Mert onayı, Google Ads Keyword Planner araştırması): yukarıdaki şablon jenerik
+// uzun kategori adını kullanıyor (ör. "ikinci el servo motorlar ve sürücüler"); ama Google'da asıl
+// arananlar daha kısa/net kalıplar ("ikinci el servo motor" 40/ay, "ikinci el plc" 20/ay — ikisi de
+// temiz, doğrulanmış veri). Bu iki kategoriye o kısa kalıpları ayrıca ekliyoruz.
+const IKINCI_EL_EXTRA_KEYWORDS: Record<string, string[]> = {
+  "2-el-servo-motorlar-ve-suruculer": ["ikinci el servo motor", "ikinci el servo", "ikinci el servo sürücü", "ikinci el servo motor fiyatları"],
+  "2-el-plc-ve-plc-modulleri": ["ikinci el plc", "ikinci el plc alım satım"],
+};
+for (const [id, extra] of Object.entries(IKINCI_EL_EXTRA_KEYWORDS)) {
+  if (CATEGORY_INFO[id]) CATEGORY_INFO[id].keywords.push(...extra);
 }
 
 // Gefran motor yol vericiler (07-10-2026)
@@ -475,7 +493,9 @@ CATEGORY_INFO["robotlar"] = {
     "Yaskawa MOTOMAN robotları, 0,5-1000 kg taşıma kapasitesi ve 350-4004 mm çalışma alanı aralığında, taşıma ve montajdan kaynak, boyama, paletleme ve paketlemeye kadar geniş bir uygulama yelpazesini kapsar. Mağazada GP Serisi (genel amaçlı taşıma, 4-600 kg), gıda sınıfı GP FGG, adaptif NEX-Series (MOTOMAN NEXT), çift kollu SDA Serisi, HC ve NHC kolaboratif robotlar (kobot), hijyenik HD Serisi, ark kaynağı için AR Serisi, lazer uygulamaları için GA Serisi, sürtünme karıştırma kaynağı için GG Serisi, punta kaynağı için SP Serisi, boyama için MPX Serisi, paletleme için PL Serisi, paralel kinematik MPP Serisi, SCARA SG Serisi ve ağır yük taşıma robotu ME1000 modelleriyle birlikte listelenir.",
     "Teknik veriler Yaskawa'nın resmi ürün sayfalarından (yaskawa.com.tr) alınmıştır; sipariş kodu üreticinin sitesinde yayınlanmadığından fiyat ve teslim süresi teklif üzerine bildirilir. AOM, robotik otomasyon ve kaynak projelerinde robot seçimi, hücre tasarımı, entegrasyon ve devreye alma desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
   ],
-  keywords: ["Yaskawa robot", "MOTOMAN robot", "endüstriyel robot", "Yaskawa GP serisi", "Yaskawa HC kobot", "Yaskawa AR kaynak robotu", "Yaskawa paletleme robotu", "robot fiyat Ankara", "robotik otomasyon", "kaynak robotu"],
+  // 22-10-2026 eklendi (Mert onayı, Google Ads Keyword Planner araştırması, Türkiye, Eki 2025-Eyl 2026):
+  // "endüstriyel robot kolu" 210/ay (Orta rekabet), "endüstriyel robot kol fiyatları" 50/ay (Orta).
+  keywords: ["Yaskawa robot", "MOTOMAN robot", "endüstriyel robot", "endüstriyel robot kolu", "endüstriyel robot kol fiyatları", "Yaskawa GP serisi", "Yaskawa HC kobot", "Yaskawa AR kaynak robotu", "Yaskawa paletleme robotu", "robot fiyat Ankara", "robotik otomasyon", "kaynak robotu"],
 };
 
 // VIPA (Yaskawa'nın satın aldığı marka) PLC/IO kontrol sistemleri (20-10-2026): src/data/yaskawa-kontrol-plc.ts
@@ -513,7 +533,10 @@ CATEGORY_INFO["servo-motor-ve-suruculer"] = {
     "Yaskawa Sigma-7 servo ailesi rotary motor ve tek/çift eksenli servo sürücülerden oluşur; doğrudan tahrik (direct drive) motorlar dişli/kayış gibi aktarma elemanı olmadan yüksek hassasiyetli döner hareket sağlar; lineer servo motorlar (Moving Coil) doğrusal hareket üretir; Sigma-X ailesi (iCube Mechatronics) tek/çift/üç eksenli sürücüler ve dahili IEC kontrolörlü MP3000iec seçeneğini kapsar.",
     "Teknik veriler ve sipariş kodları Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, servo sistem seçimi, hareket kontrolü uygulaması ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
   ],
-  keywords: ["Yaskawa servo motor", "Yaskawa servo sürücü", "Sigma-7", "Sigma-X", "Yaskawa SGD7S", "Yaskawa SGM7A", "doğrudan tahrik servo motor", "lineer servo motor", "servo motor fiyat Ankara"],
+  // 22-10-2026 eklendi (Mert onayı, Google Ads Keyword Planner araştırması, Türkiye, Eki 2025-Eyl 2026):
+  // jenerik "servo motor" 12.100/ay (Yüksek rekabet) ve "servo sürücü" 320/ay (Orta) — kategorideki
+  // en yüksek hacimli terimler, markasız genel aramaları da kapsar.
+  keywords: ["servo motor", "servo sürücü", "Yaskawa servo motor", "Yaskawa servo sürücü", "Sigma-7", "Sigma-X", "Yaskawa SGD7S", "Yaskawa SGM7A", "doğrudan tahrik servo motor", "lineer servo motor", "servo motor fiyat Ankara"],
 };
 
 // Yaskawa/VIPA HMI, Profichip, Sistemler, Faz 4 (20-10-2026): src/data/yaskawa-kontrol-hmi-diger.ts.

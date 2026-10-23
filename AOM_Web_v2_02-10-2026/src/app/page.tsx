@@ -46,8 +46,8 @@ const automation = [
 const solutions = [
   {
     href: "/robotik-kaynak",
-    title: "Robotik kaynak ve harici sistemler",
-    text: "Kaynak hücreleri, pozisyonerler, harici eksenler, kolon-bom, rotatör, fit-up hatları ve dairesel kaynak sistemleri.",
+    title: "Robot - Robotik Otomasyon",
+    text: "Robotik kaynak hücreleri, pozisyonerler, harici eksenler, kolon-bom, rotatör, fit-up hatları ve dairesel kaynak sistemleri; robot offline simülasyonu ve mühendislik yazılımları.",
   },
   {
     href: "/pres-guvenligi",

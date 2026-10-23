@@ -327,7 +327,7 @@ export default function CncTezgahPage() {
           İlgili
         </h2>
         <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexWrap: "wrap", gap: 10 }}>
-          <li><Link href="/robotik-kaynak" className="store-chip">Robotik kaynak sistemleri</Link></li>
+          <li><Link href="/robotik-kaynak" className="store-chip">Robot - Robotik Otomasyon</Link></li>
           <li><Link href="/pres-guvenligi" className="store-chip">Pres güvenliği ve otomatik besleme</Link></li>
           <li><Link href="/plc-scada" className="store-chip">PLC, SCADA ve makine otomasyonu</Link></li>
         </ul>

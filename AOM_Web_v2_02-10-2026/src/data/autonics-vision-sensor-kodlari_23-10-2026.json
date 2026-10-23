@@ -1,0 +1,144 @@
+{
+"series":[
+{
+"sn":1,
+"slug":"vg",
+"key":"VG",
+"title":"Renkli/monokrom vision (görüntü işleme) sensörü",
+"cat":"Vision sensör kameraları",
+"desc":"Autonics VG serisi, nesne/konum/kusur denetimi için kullanılan renkli veya monokrom vision (görüntü işleme) sensörüdür.",
+"common":[
+[
+"Sensör tipi",
+"Vision (görüntü işleme) sensörü"
+]
+],
+"cols":[
+"Fiyat listesi açıklaması"
+],
+"codes":[
+[
+"VG-C04B-16E",
+0,
+"VG SER_VG-C04B-16E"
+],
+[
+"VG-C04B-25E",
+0,
+"VG SER_VG-C04B-25E"
+],
+[
+"VG-C04B-8E",
+0,
+"VG SER_VG-C04B-8E"
+],
+[
+"VG-C04G-16E",
+0,
+"VG SER_VG-C04G-16E"
+],
+[
+"VG-C04G-25E",
+0,
+"VG SER_VG-C04G-25E"
+],
+[
+"VG-C04G-8E",
+0,
+"VG SER_VG-C04G-8E"
+],
+[
+"VG-C04R-16E",
+0,
+"VG SER_VG-C04R-16E"
+],
+[
+"VG-C04R-25E",
+0,
+"VG SER_VG-C04R-25E"
+],
+[
+"VG-C04R-8E",
+0,
+"VG SER_VG-C04R-8E"
+],
+[
+"VG-C04W-16E",
+0,
+"VG SER_VG-C04W-16E^24VDC"
+],
+[
+"VG-C04W-25E",
+0,
+"VG SER_VG-C04W-25E"
+],
+[
+"VG-C04W-8E",
+0,
+"VG SER_VG-C04W-8E^24VDC"
+],
+[
+"VG-M04B-16E",
+0,
+"VG SER_VG-M04B-16E 24VDC"
+],
+[
+"VG-M04B-25E",
+0,
+"VG SER_VG-M04B-25E 24VDC"
+],
+[
+"VG-M04B-8E",
+0,
+"VG SER_VG-M04B-8E 24VDC"
+],
+[
+"VG-M04G-16E",
+0,
+"VG SER_VG-M04G-16E 24VDC"
+],
+[
+"VG-M04G-25E",
+0,
+"VG SER_VG-M04G-25E 24VDC"
+],
+[
+"VG-M04G-8E",
+0,
+"VG SER_VG-M04G-8E 24VDC"
+],
+[
+"VG-M04R-16E",
+0,
+"VG SER_VG-M04R-16E 24VDC"
+],
+[
+"VG-M04R-25E",
+0,
+"VG SER_VG-M04R-25E 24VDC"
+],
+[
+"VG-M04R-8E",
+0,
+"VG SER_VG-M04R-8E 24VDC"
+],
+[
+"VG-M04W-16E",
+0,
+"VG SER_VG-M04W-16E 24VDC"
+],
+[
+"VG-M04W-25E",
+0,
+"VG SER_VG-M04W-25E 24VDC"
+],
+[
+"VG-M04W-8E",
+0,
+"VG SER_VG-M04W-8E 24VDC"
+]
+],
+"img":null
+}
+]
+}

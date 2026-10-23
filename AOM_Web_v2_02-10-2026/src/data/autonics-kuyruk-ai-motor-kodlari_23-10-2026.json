@@ -1,0 +1,1836 @@
+{
+"series": [
+{
+"sn": 9020001,
+"slug": "ais",
+"key": "AiS",
+"title": "AiS serisi 24 V kapalı çevrim adım motoru + sürücü seti",
+"cat": "Kapalı çevrim (closed-loop) adım motor ve sürücüleri",
+"desc": "AiS serisi, 24 VDC beslemeli, 20–60 mm gövde ölçülü, kapalı çevrim (closed-loop) adım motoru ve sürücüsünden oluşan hazır settir (SET kodları motor+sürücü birlikte satılır).",
+"common": [
+[
+"Besleme",
+"24 VDC"
+],
+[
+"Motor tipi",
+"2 fazlı kapalı çevrim (closed-loop) adım motoru"
+],
+[
+"Gövde ölçüsü aralığı",
+"20–60 mm (NEMA 8–24 karşılığı)"
+]
+],
+"cols": [
+"Gerilim",
+"Tip (set/sürücü)",
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AiS-20LA",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-20MA",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-28LB",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-28MB",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-28SB",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-35LB",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-35MB",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-35SB",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiS-42LA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-42LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-42MA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-42MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-42SA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-42SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-56LA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-56LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-56MA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-56MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-56SA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-56SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-60LA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-60LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-60MA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-60MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-60SA",
+0,
+"SET 24VDC(VER.C)",
+"",
+"SET 24VDC(VER.C)"
+],
+[
+"AiS-60SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+]
+],
+"img": null
+},
+{
+"sn": 9020002,
+"slug": "ais-d",
+"key": "AiS-D",
+"title": "AiS serisi 24 V kapalı çevrim adım motor sürücüsü",
+"cat": "Kapalı çevrim (closed-loop) adım motor ve sürücüleri",
+"desc": "AiS-D, AiS serisi kapalı çevrim adım motorunun yalnızca sürücü (driver) birimidir; mevcut AiS motoruna ayrı sürücü teminini kapsar.",
+"common": [
+[
+"Besleme",
+"24 VDC"
+],
+[
+"Motor tipi",
+"2 fazlı kapalı çevrim (closed-loop) adım motoru"
+],
+[
+"Gövde ölçüsü aralığı",
+"20–60 mm (NEMA 8–24 karşılığı)"
+]
+],
+"cols": [
+"Gerilim",
+"Tip (set/sürücü)",
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AiS-D-20LA",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-20MA",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-28LB",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-28MB",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-28SB",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-35LB",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-35MB",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-35SB",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiS-D-42LA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-42LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-42MA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-42MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-42SA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-42SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-56LA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-56LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-56MA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-56MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-56SA",
+0,
+"Driver 24VDC(VER.C)",
+"",
+"Driver 24VDC(VER.C)"
+],
+[
+"AiS-D-56SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-60LA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-60LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-60MA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-60MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiS-D-60SA",
+0,
+"DRIVER 24VDC(VER.C)",
+"",
+"DRIVER 24VDC(VER.C)"
+],
+[
+"AiS-D-60SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+]
+],
+"img": null
+},
+{
+"sn": 9020003,
+"slug": "aic",
+"key": "AiC",
+"title": "AiC serisi 24 V kapalı çevrim adım motoru + sürücü seti",
+"cat": "Kapalı çevrim (closed-loop) adım motor ve sürücüleri",
+"desc": "AiC serisi, 24 VDC beslemeli, kapalı çevrim adım motoru ve sürücüsünden oluşan hazır settir (SET kodları motor+sürücü birlikte satılır). Kod sonundaki CL/EC, iletişim/kablo seçeneğini belirtir.",
+"common": [
+[
+"Besleme",
+"24 VDC"
+],
+[
+"Motor tipi",
+"2 fazlı kapalı çevrim (closed-loop) adım motoru"
+],
+[
+"Gövde ölçüsü aralığı",
+"20–60 mm (NEMA 8–24 karşılığı)"
+]
+],
+"cols": [
+"Gerilim",
+"Tip (set/sürücü)",
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AiC-20LA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-20LA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-20MA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-20MA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-28LB-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-28LB-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-28MB-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-28MB-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-28SB-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-28SB-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-35LB-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-35LB-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-35MB-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-35MB-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-35SB-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-35SB-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42LA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-42LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-42LA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-42LA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42LA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42LA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42MA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-42MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-42MA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-42MA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42MA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42MA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42SA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-42SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-42SA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-42SA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42SA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-42SA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56LA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-56LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-56LA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-56LA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56LA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56LA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56MA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-56MA-B",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-56MA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-56MA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56MA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56MA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56SA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-56SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-56SA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-56SA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56SA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-56SA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60LA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-60LA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-60LA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-60LA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60LA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60LA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60MA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-60MA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-60MA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-60MA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60MA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60MA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60SA",
+0,
+"SET 24VDC",
+"",
+"SET 24VDC"
+],
+[
+"AiC-60SA-B",
+0,
+"24VDC",
+"",
+"24VDC"
+],
+[
+"AiC-60SA-B-CL",
+0,
+"24VDC",
+"SET (Brake Type)",
+"24VDC^SET (Brake Type)"
+],
+[
+"AiC-60SA-B-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60SA-CL",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+],
+[
+"AiC-60SA-EC",
+0,
+"24VDC",
+"SET",
+"24VDC^SET"
+]
+],
+"img": null
+},
+{
+"sn": 9020004,
+"slug": "aic-d",
+"key": "AiC-D",
+"title": "AiC serisi 24 V kapalı çevrim adım motor sürücüsü",
+"cat": "Kapalı çevrim (closed-loop) adım motor ve sürücüleri",
+"desc": "AiC-D, AiC serisi kapalı çevrim adım motorunun yalnızca sürücü (driver) birimidir.",
+"common": [
+[
+"Besleme",
+"24 VDC"
+],
+[
+"Motor tipi",
+"2 fazlı kapalı çevrim (closed-loop) adım motoru"
+],
+[
+"Gövde ölçüsü aralığı",
+"20–60 mm (NEMA 8–24 karşılığı)"
+]
+],
+"cols": [
+"Gerilim",
+"Tip (set/sürücü)",
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AiC-D-20LA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-20LA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-20MA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-20MA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-28LB-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-28LB-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-28MB-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-28MB-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-28SB-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-28SB-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-35LB-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-35LB-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-35MB-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-35MB-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-35SB-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-35SB-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42LA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-42LA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-42LA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42LA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42LA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42MA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-42MA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-42MA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42MA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42MA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42SA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-42SA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-42SA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42SA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-42SA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56LA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-56LA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-56LA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56LA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56LA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56MA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-56MA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-56MA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56MA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56MA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56SA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-56SA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-56SA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56SA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-56SA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60LA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-60LA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-60LA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60LA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60LA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60MA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-60MA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-60MA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60MA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60MA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60SA",
+0,
+"Driver 24VDC",
+"",
+"Driver 24VDC"
+],
+[
+"AiC-D-60SA-B-CL",
+0,
+"24VDC",
+"DRIVER (Brake Type)",
+"24VDC^DRIVER (Brake Type)"
+],
+[
+"AiC-D-60SA-B-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60SA-CL",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+],
+[
+"AiC-D-60SA-EC",
+0,
+"24VDC",
+"DRIVER",
+"24VDC^DRIVER"
+]
+],
+"img": null
+},
+{
+"sn": 9020005,
+"slug": "ai-m",
+"key": "Ai-M",
+"title": "Ai-M serisi kapalı çevrim adım motoru (yalnız motor, PROSTEPPER)",
+"cat": "Kapalı çevrim (closed-loop) adım motor ve sürücüleri",
+"desc": "Ai-M serisi, sürücüsüz tek başına satılan kapalı çevrim (closed-loop, PROSTEPPER) adım motorudur; \"-B\" ekli kodlar dahili frenlidir (built-in brake).",
+"common": [
+[
+"Besleme",
+"24 VDC"
+],
+[
+"Motor tipi",
+"2 fazlı kapalı çevrim (closed-loop) adım motoru"
+],
+[
+"Gövde ölçüsü aralığı",
+"20–60 mm (NEMA 8–24 karşılığı)"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"Ai-M-20LA",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-20MA",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-28LB",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-28MB",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-28SB",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-35LB",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-35MB",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-35SB",
+0,
+"AI SERVO MOTOR^PROSTEPPER(VER.A)"
+],
+[
+"Ai-M-42LA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-42LA-B",
+0,
+"24 VDC - BRAKE"
+],
+[
+"Ai-M-42LA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-42MA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-42MA-B",
+0,
+"24VDC - BRAKE"
+],
+[
+"Ai-M-42MA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-42SA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-42SA-B",
+0,
+"24VDC - BRAKE"
+],
+[
+"Ai-M-42SA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-56LA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-56LA-B",
+0,
+"24VDC - BRAKE"
+],
+[
+"Ai-M-56LA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-56MA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-56MA-B",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-56MA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-56SA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-56SA-B",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-56SA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-60LA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-60LA-B",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-60LA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-60MA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-60MA-B",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-60MA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+],
+[
+"Ai-M-60SA",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-60SA-B",
+0,
+"AI SERVO MOTOR"
+],
+[
+"Ai-M-60SA-V2",
+0,
+"Ai SERVO MOTOR^SHINANO^"
+]
+],
+"img": null
+},
+{
+"sn": 9020006,
+"slug": "aica",
+"key": "AiCA",
+"title": "AiCA serisi 200-240 VAC kapalı çevrim adım motoru + sürücü seti",
+"cat": "Kapalı çevrim (closed-loop) adım motor ve sürücüleri",
+"desc": "AiCA serisi, tek faz 200–240 VAC beslemeli, daha büyük gövdeli (60–86 mm) kapalı çevrim adım motoru ve sürücüsünden oluşan hazır settir.",
+"common": [
+[
+"Besleme",
+"Tek faz 200–240 VAC"
+],
+[
+"Motor tipi",
+"2 fazlı kapalı çevrim (closed-loop) adım motoru"
+],
+[
+"Gövde ölçüsü aralığı",
+"60–86 mm"
+]
+],
+"cols": [
+"Gerilim",
+"Tip (set/sürücü)",
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AiCA-60LA",
+0,
+"200-240VAC",
+"SET",
+"200-240VAC^SET"
+],
+[
+"AiCA-60LA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-60LA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-60MA",
+0,
+"200-240VAC",
+"SET",
+"200-240VAC^SET"
+],
+[
+"AiCA-60MA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-60MA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-86LA",
+0,
+"200-240VAC",
+"SET",
+"200-240VAC^SET"
+],
+[
+"AiCA-86LA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-86LA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-86MA",
+0,
+"200-240VAC",
+"SET",
+"200-240VAC^SET"
+],
+[
+"AiCA-86MA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-86MA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9020007,
+"slug": "aica-d",
+"key": "AiCA-D",
+"title": "AiCA serisi 200-240 VAC kapalı çevrim adım motor sürücüsü",
+"cat": "Kapalı çevrim (closed-loop) adım motor ve sürücüleri",
+"desc": "AiCA-D, AiCA serisi kapalı çevrim adım motorunun yalnızca sürücü (driver) birimidir.",
+"common": [
+[
+"Besleme",
+"Tek faz 200–240 VAC"
+],
+[
+"Motor tipi",
+"2 fazlı kapalı çevrim (closed-loop) adım motoru"
+],
+[
+"Gövde ölçüsü aralığı",
+"60–86 mm"
+]
+],
+"cols": [
+"Gerilim",
+"Tip (set/sürücü)",
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AiCA-D-60LA",
+0,
+"200-240VAC",
+"DRIVER",
+"200-240VAC^DRIVER"
+],
+[
+"AiCA-D-60LA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-D-60LA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-D-60MA",
+0,
+"200-240VAC",
+"DRIVER",
+"200-240VAC^DRIVER"
+],
+[
+"AiCA-D-60MA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-D-60MA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-D-86LA",
+0,
+"200-240VAC",
+"DRIVER",
+"200-240VAC^DRIVER"
+],
+[
+"AiCA-D-86LA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-D-86LA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-D-86MA",
+0,
+"200-240VAC",
+"DRIVER",
+"200-240VAC^DRIVER"
+],
+[
+"AiCA-D-86MA-B-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+],
+[
+"AiCA-D-86MA-EC",
+0,
+"V1-200-240VAC",
+"",
+"V1-200-240VAC"
+]
+],
+"img": null
+}
+]
+}

@@ -1,8 +1,10 @@
 // Autonics solid state röleler (SSR). Kaynak: Autonics ürün sayfaları (Türkçe), Mert'in Chrome'u ile okundu (03-10-2026).
 // Model başına teknik tablo autonics-ssr_03-10-2026.json dosyasında; burada mağaza ürününe dönüştürülür.
-// Fiyat bilgisi yok: "Teklif isteyin" gösterilir. Fiyat listesi gelince PRICES tablosuna liste fiyatı + indirim girilir.
+// Fiyat: Mert'in sağladığı Autonics fiyat listesiyle eşleşen kodlar için SSR_PRICES'tan geliyor (23-10-2026,
+// %40 iskonto, DPU3 ile aynı kamuya açık gösterim). Eşleşmeyen kodlarda "Teklif isteyin" gösterilir.
 import type { Product } from "./magaza";
 import raw from "./autonics-ssr_03-10-2026.json";
+import { SSR_PRICES } from "./autonics-fiyat-eslesen_23-10-2026";
 
 type Raw = Record<string, { rows: [string, string][] }>;
 
@@ -61,7 +63,7 @@ const SERIES: Record<string, { title: string; short: string; phase: 1 | 3; text:
 export const SSR_SERIES_ORDER = ["SR1", "SRC1", "SRH1", "SRHL1", "SRS1", "SR3", "SRH3", "SRHL3"];
 
 // Liste fiyatı (KDV hariç) + indirim. Boş: "Teklif isteyin".
-const PRICES: Record<string, { list: number; currency: "USD" | "EUR" | "TRY"; discountPct?: number }> = {};
+const PRICES: Record<string, { list: number; currency: "USD" | "EUR" | "TRY"; discountPct?: number }> = SSR_PRICES;
 
 const LABELS: Record<string, string> = {
   "Kontrol fazı": "Faz sayısı",

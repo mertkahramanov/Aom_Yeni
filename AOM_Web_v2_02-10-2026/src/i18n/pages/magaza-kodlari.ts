@@ -19,6 +19,8 @@ export const KODLARI_UI: Record<
     body: string;
     option: string;
     quote: string;
+    price: string;
+    priceOnRequest: string;
     status: string;
     inProduction: string;
     discontinued: string;
@@ -45,6 +47,8 @@ export const KODLARI_UI: Record<
     body: "Body",
     option: "Option",
     quote: "Quote",
+    price: "Price",
+    priceOnRequest: "Request a quote",
     status: "Status",
     inProduction: "In production",
     discontinued: "Discontinued",
@@ -70,6 +74,8 @@ export const KODLARI_UI: Record<
     body: "Корпус",
     option: "Опция",
     quote: "Запрос",
+    price: "Цена",
+    priceOnRequest: "Запросить предложение",
     status: "Статус",
     inProduction: "В производстве",
     discontinued: "Снят с производства",
@@ -95,6 +101,8 @@ export const KODLARI_UI: Record<
     body: "الهيكل",
     option: "خيار",
     quote: "طلب عرض",
+    price: "السعر",
+    priceOnRequest: "اطلب عرض سعر",
     status: "الحالة",
     inProduction: "قيد الإنتاج",
     discontinued: "متوقف عن الإنتاج",

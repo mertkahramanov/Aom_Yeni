@@ -10,6 +10,19 @@ import { isLocale, ogLocale, type Locale } from "@/i18n/locales";
 import { ANKARA_REGION_SHORT, REGION_LINE } from "@/i18n/pages/common";
 import { MAGAZA_UI, CATEGORY_PAGE_UI, CODE_LISTS_UI, modelCount, seriesCount, codeCount, seeAllModelsLabel } from "@/i18n/pages/magaza";
 import { translateCategoryTitle } from "@/i18n/pages/magaza-categories";
+// Autonics yeni kod-tablosu kategorileri (23-10-2026, Mert onayı — bkz. claude/AUTONICS_FIYAT_LISTESI_YENI_KATEGORILER_23-10-2026.md)
+// Not: bu yeni listelerin label/text metinleri henüz CODE_LISTS_UI'ye eklenmedi; diğer seriye özel
+// içerik gibi (Option A kapsamı) şimdilik Türkçe gösterilir.
+import { KONTROL_SINYAL_KOD_TOTAL } from "@/data/autonics-kontrol-sinyal_23-10-2026";
+import { SINYAL_LAMBASI_KOD_TOTAL } from "@/data/autonics-kuyruk-sinyal-lambasi_23-10-2026";
+import { BASINC_SENSOR_KOD_TOTAL } from "@/data/autonics-basinc-sensor_23-10-2026";
+import { YAKINLIK_SENSOR_KOD_TOTAL } from "@/data/autonics-yakinlik-sensor_23-10-2026";
+import { FOTOELEKTRIK_SENSOR_KOD_TOTAL } from "@/data/autonics-fotoelektrik-sensor_23-10-2026";
+import { VISION_SENSOR_KOD_TOTAL } from "@/data/autonics-vision-sensor_23-10-2026";
+import { GUVENLIK_SWITCH_KOD_TOTAL } from "@/data/autonics-guvenlik-switch_23-10-2026";
+import { STEP_MOTOR_KOD_TOTAL } from "@/data/autonics-step-motor_23-10-2026";
+import { AI_MOTOR_KOD_TOTAL } from "@/data/autonics-kuyruk-ai-motor_23-10-2026";
+import { SINYAL_DONUSTURUCU_KOD_TOTAL } from "@/data/autonics-sinyal-donusturucu_23-10-2026";
 
 // /magaza/kategori/[kategori] sayfasının çok dilli karşılığı (19-10-2026). Türkçe sayfa değişmedi.
 // Kapsam kararı (Mert, bu oturumda): arayüz + kategori adları çevrildi. Kategoriye özel uzun SEO
@@ -19,12 +32,37 @@ import { translateCategoryTitle } from "@/i18n/pages/magaza-categories";
 // olduğu gibi gösterir — ürün adı/özellik/fiyat metni henüz çevrilmedi.
 type CodeListEntry = { href: string; label: string; total: number; text: string };
 
-function codeListFor(id: string, loc: Locale): CodeListEntry | undefined {
+// 23-10-2026 eklendi (Mert onayı): yeni kategorilerin Türkçe label/text metni (henüz CODE_LISTS_UI'ye
+// eklenmedi, bkz. yukarıdaki import notu).
+const NEW_CODE_LISTS: Record<string, { href: string; label: string; total: number; text: string }[]> = {
+  "sensor-kontrol-cihazlari": [
+    { href: "/magaza/basinc-sensoru-kodlari", label: "Basınç sensörü model kodları", total: BASINC_SENSOR_KOD_TOTAL, text: "Autonics basınç sensörü/transmitteri ailelerinin sipariş kodları." },
+    { href: "/magaza/sinyal-donusturucu-kodlari", label: "Sinyal dönüştürücü kodları", total: SINYAL_DONUSTURUCU_KOD_TOTAL, text: "HART sinyal transmitteri ve analog sinyal izolatörü sipariş kodları." },
+  ],
+  "svic-sensor-ve-butonlar": [
+    { href: "/magaza/yakinlik-sensoru-kodlari", label: "Yakınlık (endüktif) sensörü kodları", total: YAKINLIK_SENSOR_KOD_TOTAL, text: "Endüktif yakınlık sensörü ailelerinin sipariş kodları." },
+    { href: "/magaza/fotoelektrik-sensor-kodlari", label: "Fotoelektrik sensör kodları", total: FOTOELEKTRIK_SENSOR_KOD_TOTAL, text: "Fotoelektrik sensör ailelerinin sipariş kodları." },
+    { href: "/magaza/vision-sensor-kodlari", label: "Vision sensör kodları", total: VISION_SENSOR_KOD_TOTAL, text: "Vision sensörü/kamera ailelerinin sipariş kodları." },
+    { href: "/magaza/guvenlik-switch-kodlari", label: "Güvenlik switch kodları", total: GUVENLIK_SWITCH_KOD_TOTAL, text: "Güvenlik switchi ailelerinin sipariş kodları." },
+  ],
+  "step-ve-servo-motorlar-suruculer": [
+    { href: "/magaza/step-motor-kodlari", label: "Step motor model kodları", total: STEP_MOTOR_KOD_TOTAL, text: "Açık çevrim Autonics step motor ailelerinin sipariş kodları." },
+    { href: "/magaza/kapali-cevrim-adim-motor-kodlari", label: "Kapalı çevrim adım motoru kodları", total: AI_MOTOR_KOD_TOTAL, text: "Ai serisi kapalı çevrim (closed-loop) adım motoru + sürücü sipariş kodları." },
+  ],
+};
+
+function codeListsFor(id: string, loc: Locale): CodeListEntry[] {
   const u = CODE_LISTS_UI[loc];
-  if (id === "tristorlu-guc-kontrol") return { href: `/${loc}/magaza/dpu-kodlari`, total: 840, ...u.dpu };
-  if (id === "sicaklik-kontrol-cihazlari" || id === "dijital-panel-metreler") return { href: `/${loc}/magaza/kontrol-kodlari`, total: KONTROL_KOD_TOTAL, ...u.kontrol };
-  if (id === "enkoderler") return { href: `/${loc}/magaza/enkoder-kodlari`, total: ENC_TOTAL, ...u.enkoder };
-  return undefined;
+  const out: CodeListEntry[] = [];
+  if (id === "tristorlu-guc-kontrol") out.push({ href: `/${loc}/magaza/dpu-kodlari`, total: 840, ...u.dpu });
+  if (id === "sicaklik-kontrol-cihazlari" || id === "dijital-panel-metreler") out.push({ href: `/${loc}/magaza/kontrol-kodlari`, total: KONTROL_KOD_TOTAL, ...u.kontrol });
+  if (id === "sicaklik-kontrol-cihazlari") {
+    out.push({ href: `/${loc}/magaza/kontrol-sinyal-kodlari`, total: KONTROL_SINYAL_KOD_TOTAL, label: "Buton, anahtar ve sinyal lambası kodları", text: "Ürün olarak eklenmeyen buton, seçici anahtar, acil durdurma ve pilot lamba sipariş kodları." });
+    out.push({ href: `/${loc}/magaza/sinyal-lambasi-kodlari`, total: SINYAL_LAMBASI_KOD_TOTAL, label: "Sinyal lambası / kule ışığı kodları", text: "Kule ışığı, döner ikaz (beacon) ve LED gösterge lambası sipariş kodları." });
+  }
+  if (id === "enkoderler") out.push({ href: `/${loc}/magaza/enkoder-kodlari`, total: ENC_TOTAL, ...u.enkoder });
+  for (const entry of NEW_CODE_LISTS[id] ?? []) out.push({ ...entry, href: `/${loc}${entry.href}` });
+  return out;
 }
 
 export function generateStaticParams() {
@@ -57,7 +95,7 @@ export default async function LocaleKategoriPage({ params }: { params: Promise<{
   const u = MAGAZA_UI[loc];
   const cp = CATEGORY_PAGE_UI[loc];
   const title = translateCategoryTitle(c.title, loc);
-  const codeList = codeListFor(c.id, loc);
+  const codeLists = codeListsFor(c.id, loc);
   const items = c.groups.flatMap((g) => g.items);
   const url = `${SITE}/${loc}/magaza/kategori/${c.id}`;
 
@@ -102,8 +140,8 @@ export default async function LocaleKategoriPage({ params }: { params: Promise<{
           {cp.vatCaption}
         </p>
       </div>
-      {codeList && (
-        <div className="cat-codes-box">
+      {codeLists.map((codeList) => (
+        <div key={codeList.href} className="cat-codes-box">
           <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
             <strong style={{ fontFamily: "var(--font-display), sans-serif", fontSize: 20 }}>
               {cp.codeListTitle} <span className="store-count">{codeCount(codeList.total, loc)}</span>
@@ -114,7 +152,7 @@ export default async function LocaleKategoriPage({ params }: { params: Promise<{
             {codeList.label}
           </Link>
         </div>
-      )}
+      ))}
       <nav aria-label={title} className="store-nav">
         {c.groups.map((g) => (
           <a key={g.id} href={`#${g.id}`} className="store-chip">

@@ -6,6 +6,18 @@ import { KONTROL_KOD_SERIES } from "@/data/kontrol";
 import { BRANDS } from "@/data/markalar";
 import { SITE } from "@/lib/seo";
 import { locales } from "@/i18n/locales";
+// Autonics yeni kod-tablosu kategorileri (23-10-2026, Mert onayı — bkz. claude/AUTONICS_FIYAT_LISTESI_YENI_KATEGORILER_23-10-2026.md)
+import { KONTROL_SINYAL_KOD_SERIES } from "@/data/autonics-kontrol-sinyal_23-10-2026";
+import { SINYAL_LAMBASI_KOD_SERIES } from "@/data/autonics-kuyruk-sinyal-lambasi_23-10-2026";
+import { BASINC_SENSOR_KOD_SERIES } from "@/data/autonics-basinc-sensor_23-10-2026";
+import { YAKINLIK_SENSOR_KOD_SERIES } from "@/data/autonics-yakinlik-sensor_23-10-2026";
+import { FOTOELEKTRIK_SENSOR_KOD_SERIES } from "@/data/autonics-fotoelektrik-sensor_23-10-2026";
+import { VISION_SENSOR_KOD_SERIES } from "@/data/autonics-vision-sensor_23-10-2026";
+import { GUVENLIK_SWITCH_KOD_SERIES } from "@/data/autonics-guvenlik-switch_23-10-2026";
+import { STEP_MOTOR_KOD_SERIES } from "@/data/autonics-step-motor_23-10-2026";
+import { AI_MOTOR_KOD_SERIES } from "@/data/autonics-kuyruk-ai-motor_23-10-2026";
+import { KABLO_AKSESUAR_KOD_SERIES } from "@/data/autonics-kablo-aksesuar_23-10-2026";
+import { SINYAL_DONUSTURUCU_KOD_SERIES } from "@/data/autonics-sinyal-donusturucu_23-10-2026";
 
 // Çok dilli sitemap (19-10-2026). Türkçe sayfalar hâlâ kök dizinde (önek yok); /en, /ru, /ar
 // altındaki [locale] ağacı artık otomasyon sayfası, 5 hizmet sayfası ve mağazanın tüm 9 rota
@@ -58,6 +70,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...ENC_SERIES.flatMap((s) => w(`/magaza/enkoder-kodlari/${s.slug}`, 0.6)),
     ...w("/magaza/kontrol-kodlari", 0.7),
     ...KONTROL_KOD_SERIES.flatMap((s) => w(`/magaza/kontrol-kodlari/${s.slug}`, 0.6)),
+    // Autonics yeni kod-tablosu kategorileri (23-10-2026)
+    ...w("/magaza/kontrol-sinyal-kodlari", 0.7),
+    ...KONTROL_SINYAL_KOD_SERIES.flatMap((s) => w(`/magaza/kontrol-sinyal-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/sinyal-lambasi-kodlari", 0.7),
+    ...SINYAL_LAMBASI_KOD_SERIES.flatMap((s) => w(`/magaza/sinyal-lambasi-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/basinc-sensoru-kodlari", 0.7),
+    ...BASINC_SENSOR_KOD_SERIES.flatMap((s) => w(`/magaza/basinc-sensoru-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/yakinlik-sensoru-kodlari", 0.7),
+    ...YAKINLIK_SENSOR_KOD_SERIES.flatMap((s) => w(`/magaza/yakinlik-sensoru-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/fotoelektrik-sensor-kodlari", 0.7),
+    ...FOTOELEKTRIK_SENSOR_KOD_SERIES.flatMap((s) => w(`/magaza/fotoelektrik-sensor-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/vision-sensor-kodlari", 0.7),
+    ...VISION_SENSOR_KOD_SERIES.flatMap((s) => w(`/magaza/vision-sensor-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/guvenlik-switch-kodlari", 0.7),
+    ...GUVENLIK_SWITCH_KOD_SERIES.flatMap((s) => w(`/magaza/guvenlik-switch-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/step-motor-kodlari", 0.7),
+    ...STEP_MOTOR_KOD_SERIES.flatMap((s) => w(`/magaza/step-motor-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/kapali-cevrim-adim-motor-kodlari", 0.7),
+    ...AI_MOTOR_KOD_SERIES.flatMap((s) => w(`/magaza/kapali-cevrim-adim-motor-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/kablo-aksesuar-kodlari", 0.7),
+    ...KABLO_AKSESUAR_KOD_SERIES.flatMap((s) => w(`/magaza/kablo-aksesuar-kodlari/${s.slug}`, 0.6)),
+    ...w("/magaza/sinyal-donusturucu-kodlari", 0.7),
+    ...SINYAL_DONUSTURUCU_KOD_SERIES.flatMap((s) => w(`/magaza/sinyal-donusturucu-kodlari/${s.slug}`, 0.6)),
     ...products.flatMap((p) => w(`/magaza/${p.slug}`, 0.7)),
   ];
 }

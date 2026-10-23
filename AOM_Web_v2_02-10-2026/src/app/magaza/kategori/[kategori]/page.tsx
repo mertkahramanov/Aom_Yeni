@@ -6,15 +6,48 @@ import { CATEGORY_INFO, categoryBySlug, fullName, seriesSlug, storeCategories } 
 import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
 import { breadcrumbJsonLd, hreflangAlternates, REGION_LINE, SITE } from "@/lib/seo";
+// Autonics yeni kod-tablosu kategorileri (23-10-2026, Mert onayı — bkz. claude/AUTONICS_FIYAT_LISTESI_YENI_KATEGORILER_23-10-2026.md)
+import { KONTROL_SINYAL_KOD_TOTAL } from "@/data/autonics-kontrol-sinyal_23-10-2026";
+import { SINYAL_LAMBASI_KOD_TOTAL } from "@/data/autonics-kuyruk-sinyal-lambasi_23-10-2026";
+import { BASINC_SENSOR_KOD_TOTAL } from "@/data/autonics-basinc-sensor_23-10-2026";
+import { YAKINLIK_SENSOR_KOD_TOTAL } from "@/data/autonics-yakinlik-sensor_23-10-2026";
+import { FOTOELEKTRIK_SENSOR_KOD_TOTAL } from "@/data/autonics-fotoelektrik-sensor_23-10-2026";
+import { VISION_SENSOR_KOD_TOTAL } from "@/data/autonics-vision-sensor_23-10-2026";
+import { GUVENLIK_SWITCH_KOD_TOTAL } from "@/data/autonics-guvenlik-switch_23-10-2026";
+import { STEP_MOTOR_KOD_TOTAL } from "@/data/autonics-step-motor_23-10-2026";
+import { AI_MOTOR_KOD_TOTAL } from "@/data/autonics-kuyruk-ai-motor_23-10-2026";
+import { KABLO_AKSESUAR_KOD_TOTAL } from "@/data/autonics-kablo-aksesuar_23-10-2026";
+import { SINYAL_DONUSTURUCU_KOD_TOTAL } from "@/data/autonics-sinyal-donusturucu_23-10-2026";
 
 // Kategoriye ait sipariş kodu listeleri (mağaza ilk sayfasından buraya taşındı, 06-10-2026).
-const DPU_LIST = { href: "/magaza/dpu-kodlari", label: "DPU model kodları", total: 840, text: "Autonics DPU serisinin tüm sipariş kodları: monofaze ve trifaze, 110–480 V." };
-const KONTROL_LIST = { href: "/magaza/kontrol-kodlari", label: "Kontrol cihazı model kodları", total: KONTROL_KOD_TOTAL, text: "Ürün olarak eklenmeyen sıcaklık kontrol ve panel metre serilerinin sipariş kodları." };
-const CODE_LISTS: Record<string, { href: string; label: string; total: number; text: string }> = {
-  "tristorlu-guc-kontrol": DPU_LIST,
-  "sicaklik-kontrol-cihazlari": KONTROL_LIST,
-  "dijital-panel-metreler": KONTROL_LIST,
-  enkoderler: { href: "/magaza/enkoder-kodlari", label: "Enkoder model kodları", total: ENC_TOTAL, text: "34 serinin tüm sipariş kodları: çözünürlük, çıkış, besleme ve bağlantıya göre." },
+type CodeListInfo = { href: string; label: string; total: number; text: string };
+const DPU_LIST: CodeListInfo = { href: "/magaza/dpu-kodlari", label: "DPU model kodları", total: 840, text: "Autonics DPU serisinin tüm sipariş kodları: monofaze ve trifaze, 110–480 V." };
+const KONTROL_LIST: CodeListInfo = { href: "/magaza/kontrol-kodlari", label: "Kontrol cihazı model kodları", total: KONTROL_KOD_TOTAL, text: "Ürün olarak eklenmeyen sıcaklık kontrol ve panel metre serilerinin sipariş kodları." };
+const ENKODER_LIST: CodeListInfo = { href: "/magaza/enkoder-kodlari", label: "Enkoder model kodları", total: ENC_TOTAL, text: "34 serinin tüm sipariş kodları: çözünürlük, çıkış, besleme ve bağlantıya göre." };
+// 23-10-2026 eklendi (Mert onayı):
+const KONTROL_SINYAL_LIST: CodeListInfo = { href: "/magaza/kontrol-sinyal-kodlari", label: "Buton, anahtar ve sinyal lambası kodları", total: KONTROL_SINYAL_KOD_TOTAL, text: "Ürün olarak eklenmeyen buton, seçici anahtar, acil durdurma ve pilot lamba sipariş kodları." };
+const SINYAL_LAMBASI_LIST: CodeListInfo = { href: "/magaza/sinyal-lambasi-kodlari", label: "Sinyal lambası / kule ışığı kodları", total: SINYAL_LAMBASI_KOD_TOTAL, text: "Kule ışığı, döner ikaz (beacon) ve LED gösterge lambası sipariş kodları." };
+const BASINC_SENSOR_LIST: CodeListInfo = { href: "/magaza/basinc-sensoru-kodlari", label: "Basınç sensörü model kodları", total: BASINC_SENSOR_KOD_TOTAL, text: "Autonics basınç sensörü/transmitteri ailelerinin sipariş kodları." };
+const SINYAL_DONUSTURUCU_LIST: CodeListInfo = { href: "/magaza/sinyal-donusturucu-kodlari", label: "Sinyal dönüştürücü kodları", total: SINYAL_DONUSTURUCU_KOD_TOTAL, text: "HART sinyal transmitteri ve analog sinyal izolatörü sipariş kodları." };
+const YAKINLIK_SENSOR_LIST: CodeListInfo = { href: "/magaza/yakinlik-sensoru-kodlari", label: "Yakınlık (endüktif) sensörü kodları", total: YAKINLIK_SENSOR_KOD_TOTAL, text: "Endüktif yakınlık sensörü ailelerinin sipariş kodları." };
+const FOTOELEKTRIK_SENSOR_LIST: CodeListInfo = { href: "/magaza/fotoelektrik-sensor-kodlari", label: "Fotoelektrik sensör kodları", total: FOTOELEKTRIK_SENSOR_KOD_TOTAL, text: "Fotoelektrik sensör ailelerinin sipariş kodları." };
+const VISION_SENSOR_LIST: CodeListInfo = { href: "/magaza/vision-sensor-kodlari", label: "Vision sensör kodları", total: VISION_SENSOR_KOD_TOTAL, text: "Vision sensörü/kamera ailelerinin sipariş kodları." };
+const GUVENLIK_SWITCH_LIST: CodeListInfo = { href: "/magaza/guvenlik-switch-kodlari", label: "Güvenlik switch kodları", total: GUVENLIK_SWITCH_KOD_TOTAL, text: "Güvenlik switchi ailelerinin sipariş kodları." };
+const STEP_MOTOR_LIST: CodeListInfo = { href: "/magaza/step-motor-kodlari", label: "Step motor model kodları", total: STEP_MOTOR_KOD_TOTAL, text: "Açık çevrim Autonics step motor ailelerinin sipariş kodları." };
+const AI_MOTOR_LIST: CodeListInfo = { href: "/magaza/kapali-cevrim-adim-motor-kodlari", label: "Kapalı çevrim adım motoru kodları", total: AI_MOTOR_KOD_TOTAL, text: "Ai serisi kapalı çevrim (closed-loop) adım motoru + sürücü sipariş kodları." };
+// KABLO_AKSESUAR_KOD_TOTAL burada hiçbir mevcut ürün kategorisine iliştirilmedi (yedek-parca.ts'te
+// doğrudan karşılığı yok); mağaza ana sayfasındaki "CNC yedek parça ve elektronik" grubundan erişilir.
+void KABLO_AKSESUAR_KOD_TOTAL;
+
+const CODE_LISTS: Record<string, CodeListInfo[]> = {
+  "tristorlu-guc-kontrol": [DPU_LIST],
+  "sicaklik-kontrol-cihazlari": [KONTROL_LIST, KONTROL_SINYAL_LIST, SINYAL_LAMBASI_LIST],
+  "dijital-panel-metreler": [KONTROL_LIST],
+  enkoderler: [ENKODER_LIST],
+  // 23-10-2026 eklendi (Mert onayı): mevcut ürün kategorisiyle aynı konudaki yeni kod-tablosu aileleri.
+  "sensor-kontrol-cihazlari": [BASINC_SENSOR_LIST, SINYAL_DONUSTURUCU_LIST],
+  "svic-sensor-ve-butonlar": [YAKINLIK_SENSOR_LIST, FOTOELEKTRIK_SENSOR_LIST, VISION_SENSOR_LIST, GUVENLIK_SWITCH_LIST],
+  "step-ve-servo-motorlar-suruculer": [STEP_MOTOR_LIST, AI_MOTOR_LIST],
 };
 
 export function generateStaticParams() {
@@ -41,7 +74,7 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
   const c = categoryBySlug((await params).kategori);
   if (!c) notFound();
   const info = CATEGORY_INFO[c.id];
-  const codeList = CODE_LISTS[c.id];
+  const codeLists = CODE_LISTS[c.id] ?? [];
   const items = c.groups.flatMap((g) => g.items);
   const url = `${SITE}/magaza/kategori/${c.id}`;
   const jsonLd = [
@@ -84,8 +117,8 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
           Fiyatlar KDV hariçtir; %20 KDV eklenir. Fiyatı gösterilmeyen ürünler için teklif isteyin.
         </p>
       </div>
-      {codeList && (
-        <div className="cat-codes-box">
+      {codeLists.map((codeList) => (
+        <div key={codeList.href} className="cat-codes-box">
           <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
             <strong style={{ fontFamily: "var(--font-display), sans-serif", fontSize: 20 }}>
               Sipariş kodu listesi <span className="store-count">{codeList.total.toLocaleString("tr-TR")} kod</span>
@@ -96,7 +129,7 @@ export default async function KategoriPage({ params }: { params: Promise<{ kateg
             {codeList.label}
           </Link>
         </div>
-      )}
+      ))}
       <nav aria-label="Seriler" className="store-nav">
         {c.groups.map((g) => (
           <a key={g.id} href={`#${g.id}`} className="store-chip">

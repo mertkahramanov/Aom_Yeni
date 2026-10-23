@@ -12,9 +12,13 @@ export type RobotikKaynakContent = {
   crumbCurrent: string;
   eyebrow: string;
   h1: string;
+  subH1: string;
   intro: string;
   highlights: string[];
   services: { title: string; text: string }[];
+  softwareTitle: string;
+  softwareIntro: string;
+  software: { alt: string; title: string; text: string }[];
   images: {
     cellAlt: string;
     externalAxis: { alt: string; caption: string };
@@ -28,7 +32,7 @@ export type RobotikKaynakContent = {
 
 export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
   en: {
-    metaTitle: "Robotic Welding Systems & Welding Cells | Ankara | AOM",
+    metaTitle: "Robots - Robotic Automation | Robotic Welding Systems | Ankara | AOM",
     metaDescription:
       "Robotic welding cells, positioners, column-and-boom manipulators and external axes in Ankara. Design, in-house manufacturing, robot integration and commissioning under one roof.",
     keywords: [
@@ -40,11 +44,12 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
       "circular welding system",
       "welding fixture design",
     ],
-    jsonLdName: "AOM Robotic Welding Systems",
+    jsonLdName: "AOM Robots - Robotic Automation",
     serviceType: "Robotic welding cell and external system design, manufacturing and commissioning",
-    crumbCurrent: "Robotic Welding",
-    eyebrow: "Robotic welding · Ankara",
-    h1: "Robotic welding systems and welding cells",
+    crumbCurrent: "Robots - Robotic Automation",
+    eyebrow: "Robots - Robotic Automation · Ankara",
+    h1: "Robots - Robotic Automation",
+    subH1: "Robotic welding systems and welding cells",
     intro:
       "AOM designs, builds in its own mechanical workshop, and commissions robotic welding cells and external systems in Ankara — positioners, linear axes, column-and-boom manipulators, rotators, fit-up lines, circular welding systems and fixtures — all under one roof. Every project starts with a simulation that verifies reach, collisions and cycle time.",
     highlights: [
@@ -85,6 +90,46 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
       {
         title: "Programming for existing robots",
         text: "We also work without building a new cell: part and fixture design plus new part programs or program optimization for your existing robots.",
+      },
+    ],
+    softwareTitle: "Engineering and simulation software we use",
+    softwareIntro:
+      "We verify a robot cell virtually before it's ever built on the shop floor: from mechanical and electrical design to offline robot programming, PLC testing and line simulation — a few frames from the engineering software we use.",
+    software: [
+      {
+        alt: "SOLIDWORKS Electrical 3D: cable routing and wiring design inside an electrical cabinet",
+        title: "SOLIDWORKS Electrical 3D",
+        text: "Cable routing, harness and wiring design inside the cabinet.",
+      },
+      {
+        alt: "Siemens NX and Teamcenter: 3D mechanical design and revision management of a centrifugal pump assembly",
+        title: "Siemens NX / Teamcenter",
+        text: "3D mechanical design and revision/document management.",
+      },
+      {
+        alt: "Fanuc ROBOGUIDE: offline robot simulation of a material-handling cell with a conveyor",
+        title: "Fanuc ROBOGUIDE",
+        text: "Offline verification of robot placement, reach and cycle time before on-site installation.",
+      },
+      {
+        alt: "Siemens Tecnomatix Plant Simulation: material-flow simulation of a palletizing/depalletizing line",
+        title: "Siemens Tecnomatix Plant Simulation",
+        text: "Material flow, bottleneck and capacity analysis across a line layout.",
+      },
+      {
+        alt: "Siemens TIA Portal and Factory I/O: testing a PLC program against an automated warehouse (stacker crane) simulation",
+        title: "Siemens TIA Portal + Factory I/O",
+        text: "Testing the PLC program on a virtual cell before it ever reaches site.",
+      },
+      {
+        alt: "DELMIA V5: tool-changer motion simulation on a robot cell",
+        title: "DELMIA V5",
+        text: "Tool-changer motion and collision-checking simulation on a robot cell.",
+      },
+      {
+        alt: "Fanuc ROBOGUIDE and teach pendant: commissioning checklist for a washing cell",
+        title: "Fanuc ROBOGUIDE + teach pendant",
+        text: "Pre-commissioning checklist and on-site programming with the teach pendant.",
       },
     ],
     images: {
@@ -140,7 +185,7 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
     ],
   },
   ru: {
-    metaTitle: "Роботизированные сварочные системы и сварочные ячейки | Анкара | AOM",
+    metaTitle: "Роботы - Робототехническая автоматизация | Роботизированные сварочные системы | Анкара | AOM",
     metaDescription:
       "Роботизированные сварочные ячейки, позиционеры, колонно-консольные манипуляторы и внешние оси в Анкаре. Проектирование, собственное производство, интеграция робота и ввод в эксплуатацию — всё в одном месте.",
     keywords: [
@@ -152,11 +197,12 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
       "система кругового шва",
       "проектирование сварочной оснастки",
     ],
-    jsonLdName: "Роботизированные сварочные системы AOM",
+    jsonLdName: "AOM Роботы - Робототехническая автоматизация",
     serviceType: "Проектирование, изготовление и ввод в эксплуатацию сварочных ячеек и внешних систем",
-    crumbCurrent: "Роботизированная сварка",
-    eyebrow: "Роботизированная сварка · Анкара",
-    h1: "Роботизированные сварочные системы и сварочные ячейки",
+    crumbCurrent: "Роботы - Робототехническая автоматизация",
+    eyebrow: "Роботы - Робототехническая автоматизация · Анкара",
+    h1: "Роботы - Робототехническая автоматизация",
+    subH1: "Роботизированные сварочные системы и сварочные ячейки",
     intro:
       "AOM проектирует, изготавливает на собственном механическом участке и вводит в эксплуатацию роботизированные сварочные ячейки и внешние системы в Анкаре — позиционеры, линейные оси, колонно-консольные манипуляторы, ротаторы, линии прихватки, системы кругового шва и оснастку — всё из одних рук. Каждый проект начинается с симуляции, проверяющей досягаемость, столкновения и время цикла.",
     highlights: [
@@ -197,6 +243,46 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
       {
         title: "Программирование для существующих роботов",
         text: "Работаем и без монтажа новой ячейки: проектируем деталь и оснастку, пишем новые программы или оптимизируем существующие для ваших роботов.",
+      },
+    ],
+    softwareTitle: "Инженерное и симуляционное ПО, которое мы используем",
+    softwareIntro:
+      "Мы проверяем ячейку робота в виртуальной среде ещё до монтажа в цеху: от механического и электрического проектирования до офлайн-программирования робота, тестирования ПЛК и симуляции линии — несколько кадров из инженерного ПО, которое мы используем.",
+    software: [
+      {
+        alt: "SOLIDWORKS Electrical 3D: трассировка кабелей и электропроводка внутри электрошкафа",
+        title: "SOLIDWORKS Electrical 3D",
+        text: "Трассировка кабелей, жгутов и электропроводки внутри шкафа.",
+      },
+      {
+        alt: "Siemens NX и Teamcenter: 3D-проектирование и управление версиями узла центробежного насоса",
+        title: "Siemens NX / Teamcenter",
+        text: "3D-механическое проектирование и управление версиями/документацией.",
+      },
+      {
+        alt: "Fanuc ROBOGUIDE: офлайн-симуляция робота в ячейке перемещения с конвейером",
+        title: "Fanuc ROBOGUIDE",
+        text: "Офлайн-проверка расположения робота, досягаемости и времени цикла до монтажа на площадке.",
+      },
+      {
+        alt: "Siemens Tecnomatix Plant Simulation: симуляция потока материалов на линии паллетирования/депаллетирования",
+        title: "Siemens Tecnomatix Plant Simulation",
+        text: "Анализ потока материалов, узких мест и производительности линии.",
+      },
+      {
+        alt: "Siemens TIA Portal и Factory I/O: тестирование программы ПЛК на симуляции автоматического склада (штабелирующий кран)",
+        title: "Siemens TIA Portal + Factory I/O",
+        text: "Тестирование программы ПЛК на виртуальной ячейке до выезда на площадку.",
+      },
+      {
+        alt: "DELMIA V5: симуляция движения смены инструмента на ячейке робота",
+        title: "DELMIA V5",
+        text: "Симуляция движения смены инструмента и проверка столкновений на ячейке робота.",
+      },
+      {
+        alt: "Fanuc ROBOGUIDE и пульт обучения: контрольный список ввода в эксплуатацию моечной ячейки",
+        title: "Fanuc ROBOGUIDE + пульт обучения",
+        text: "Контрольный список перед вводом в эксплуатацию и программирование на площадке с пульта обучения.",
       },
     ],
     images: {
@@ -252,7 +338,7 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
     ],
   },
   ar: {
-    metaTitle: "أنظمة اللحام الروبوتي وخلايا اللحام | أنقرة | AOM",
+    metaTitle: "الروبوتات - الأتمتة الروبوتية | أنظمة اللحام الروبوتي | أنقرة | AOM",
     metaDescription:
       "خلايا لحام روبوتية وأجهزة تموضع وأذرع عمودية (كولون-بوم) ومحاور خارجية في أنقرة. التصميم والتصنيع في ورشتنا الخاصة ودمج الروبوت والتشغيل، كل ذلك من جهة واحدة.",
     keywords: [
@@ -264,11 +350,12 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
       "نظام لحام دائري",
       "تصميم تثبيتات اللحام",
     ],
-    jsonLdName: "أنظمة اللحام الروبوتي من AOM",
+    jsonLdName: "AOM الروبوتات - الأتمتة الروبوتية",
     serviceType: "تصميم خلايا اللحام الروبوتي والأنظمة الخارجية وتصنيعها وتشغيلها",
-    crumbCurrent: "اللحام الروبوتي",
-    eyebrow: "اللحام الروبوتي · أنقرة",
-    h1: "أنظمة اللحام الروبوتي وخلايا اللحام",
+    crumbCurrent: "الروبوتات - الأتمتة الروبوتية",
+    eyebrow: "الروبوتات - الأتمتة الروبوتية · أنقرة",
+    h1: "الروبوتات - الأتمتة الروبوتية",
+    subH1: "أنظمة اللحام الروبوتي وخلايا اللحام",
     intro:
       "تقوم AOM بتصميم خلايا اللحام الروبوتي والأنظمة الخارجية في أنقرة — أجهزة التموضع، المحاور الخطية، الأذرع العمودية، أجهزة التدوير، خطوط التجميع المسبق، أنظمة اللحام الدائري والتثبيتات — وتصنّعها في ورشتها الميكانيكية الخاصة وتشغّلها، كل ذلك من جهة واحدة. يبدأ كل مشروع بمحاكاة يتم من خلالها التحقق من مدى الوصول والتصادمات وزمن الدورة.",
     highlights: [
@@ -309,6 +396,46 @@ export const robotikKaynakContent: Record<Locale, RobotikKaynakContent> = {
       {
         title: "البرمجة للروبوتات الحالية",
         text: "نعمل أيضًا دون إنشاء خلية جديدة: تصميم القطعة والتثبيت وبرامج جديدة أو تحسين البرامج لروبوتاتكم الحالية.",
+      },
+    ],
+    softwareTitle: "برمجيات الهندسة والمحاكاة التي نستخدمها",
+    softwareIntro:
+      "نتحقق من خلية الروبوت افتراضيًا قبل تركيبها في الورشة: من التصميم الميكانيكي والكهربائي إلى برمجة الروبوت دون اتصال، واختبار PLC ومحاكاة الخط — بضع لقطات من برمجيات الهندسة التي نستخدمها.",
+    software: [
+      {
+        alt: "SOLIDWORKS Electrical 3D: تمديد الكابلات وتصميم التوصيلات داخل خزانة كهربائية",
+        title: "SOLIDWORKS Electrical 3D",
+        text: "تمديد الكابلات وتصميم الحزم والتوصيلات داخل الخزانة.",
+      },
+      {
+        alt: "Siemens NX وTeamcenter: التصميم الميكانيكي ثلاثي الأبعاد وإدارة الإصدارات لمجموعة مضخة طاردة مركزية",
+        title: "Siemens NX / Teamcenter",
+        text: "التصميم الميكانيكي ثلاثي الأبعاد وإدارة الإصدارات/المستندات.",
+      },
+      {
+        alt: "Fanuc ROBOGUIDE: محاكاة روبوت دون اتصال في خلية نقل مزودة بناقل",
+        title: "Fanuc ROBOGUIDE",
+        text: "التحقق دون اتصال من موضع الروبوت ومدى الوصول وزمن الدورة قبل التركيب في الموقع.",
+      },
+      {
+        alt: "Siemens Tecnomatix Plant Simulation: محاكاة تدفق المواد لخط تحميل/تفريغ المنصات",
+        title: "Siemens Tecnomatix Plant Simulation",
+        text: "تحليل تدفق المواد ونقاط الاختناق والطاقة الإنتاجية عبر تخطيط الخط.",
+      },
+      {
+        alt: "Siemens TIA Portal وFactory I/O: اختبار برنامج PLC على محاكاة مستودع آلي (رافعة تكديس)",
+        title: "Siemens TIA Portal + Factory I/O",
+        text: "اختبار برنامج PLC على خلية افتراضية قبل الوصول إلى الموقع.",
+      },
+      {
+        alt: "DELMIA V5: محاكاة حركة تبديل الأداة على خلية روبوت",
+        title: "DELMIA V5",
+        text: "محاكاة حركة تبديل الأداة والتحقق من التصادمات على خلية روبوت.",
+      },
+      {
+        alt: "Fanuc ROBOGUIDE ولوحة التعليم: قائمة تحقق قبل التشغيل لخلية غسيل",
+        title: "Fanuc ROBOGUIDE + لوحة التعليم",
+        text: "قائمة تحقق قبل التشغيل وبرمجة ميدانية بلوحة التعليم.",
       },
     ],
     images: {

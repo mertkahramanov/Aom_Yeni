@@ -1,9 +1,11 @@
 // Autonics güç kontrol cihazları: SPR1, SPR3, SPRM, SPRS (417 model).
 // Kaynak: Autonics Türkiye ürün sayfaları; her modelin teknik tablosu Mert'in Chrome'u ile okundu (03-10-2026).
 // Tablolar autonics-spr_03-10-2026.json içinde (üretici sırasıyla, model başına tam tablo).
-// Fiyat yok: "Teklif isteyin". Fiyat listesi gelince PRICES tablosuna liste fiyatı + indirim girilir.
+// Fiyat: Mert'in sağladığı Autonics fiyat listesiyle eşleşen kodlar için SPR_PRICES'tan geliyor (23-10-2026,
+// %40 iskonto, DPU3 ile aynı kamuya açık gösterim). Eşleşmeyen kodlarda "Teklif isteyin" gösterilir.
 import type { Product } from "./magaza";
 import raw from "./autonics-spr_03-10-2026.json";
+import { SPR_PRICES } from "./autonics-fiyat-eslesen_23-10-2026";
 
 type Raw = { models: Record<string, { rows: [string, string][]; img: string }> };
 const data = raw as unknown as Raw;
@@ -35,7 +37,7 @@ const SERIES: Record<string, { title: string; short: string; order: number; text
   },
 };
 
-const PRICES: Record<string, { list: number; currency: "USD" | "EUR" | "TRY"; discountPct?: number }> = {};
+const PRICES: Record<string, { list: number; currency: "USD" | "EUR" | "TRY"; discountPct?: number }> = SPR_PRICES;
 
 const IMAGE_ALT: Record<string, string> = {
   SPR1: "Autonics SPR1 monofaze güç kontrol cihazı",

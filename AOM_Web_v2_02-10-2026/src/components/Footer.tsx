@@ -8,7 +8,7 @@ import { OPEN_COOKIE_SETTINGS_EVENT } from "./CookieBanner";
 // Çözümler sütunu (16-10-2026): 5 hizmet sayfasına footer'dan da erişim için eklendi
 // (bkz. claude/HIZMET_SAYFALARI_TASLAK_15-10-2026.md).
 const solutions = [
-  { href: "/robotik-kaynak", label: "Robotik kaynak" },
+  { href: "/robotik-kaynak", label: "Robot - Robotik Otomasyon" },
   { href: "/pres-guvenligi", label: "Pres güvenliği" },
   { href: "/cnc-tezgah", label: "CNC tezgâh" },
   { href: "/plc-scada", label: "PLC, SCADA" },

@@ -7,6 +7,18 @@ import { isUsedCategory, products, storeCategories } from "@/data/magaza";
 import { ENC_TOTAL } from "@/data/enkoder";
 import { KONTROL_KOD_TOTAL } from "@/data/kontrol";
 import { breadcrumbJsonLd, hreflangAlternates, REGION_LINE, SITE } from "@/lib/seo";
+// Autonics yeni kod-tablosu kategorileri (23-10-2026, Mert onayı — bkz. claude/AUTONICS_FIYAT_LISTESI_YENI_KATEGORILER_23-10-2026.md)
+import { KONTROL_SINYAL_KOD_TOTAL } from "@/data/autonics-kontrol-sinyal_23-10-2026";
+import { SINYAL_LAMBASI_KOD_TOTAL } from "@/data/autonics-kuyruk-sinyal-lambasi_23-10-2026";
+import { BASINC_SENSOR_KOD_TOTAL } from "@/data/autonics-basinc-sensor_23-10-2026";
+import { YAKINLIK_SENSOR_KOD_TOTAL } from "@/data/autonics-yakinlik-sensor_23-10-2026";
+import { FOTOELEKTRIK_SENSOR_KOD_TOTAL } from "@/data/autonics-fotoelektrik-sensor_23-10-2026";
+import { VISION_SENSOR_KOD_TOTAL } from "@/data/autonics-vision-sensor_23-10-2026";
+import { GUVENLIK_SWITCH_KOD_TOTAL } from "@/data/autonics-guvenlik-switch_23-10-2026";
+import { STEP_MOTOR_KOD_TOTAL } from "@/data/autonics-step-motor_23-10-2026";
+import { AI_MOTOR_KOD_TOTAL } from "@/data/autonics-kuyruk-ai-motor_23-10-2026";
+import { KABLO_AKSESUAR_KOD_TOTAL } from "@/data/autonics-kablo-aksesuar_23-10-2026";
+import { SINYAL_DONUSTURUCU_KOD_TOTAL } from "@/data/autonics-sinyal-donusturucu_23-10-2026";
 
 export const metadata: Metadata = {
   title: "Mağaza: Autonics, Gefran – Kontrol, Enkoder, SSR, Tristör | Ankara",
@@ -39,7 +51,12 @@ const MAIN_GROUPS: { id: string; title: string; ids: string[] | null; codes?: Co
     id: "kontrol-cihazlari",
     title: "Kontrol cihazları",
     ids: ["sicaklik-kontrol-cihazlari", "sayicilar", "zamanlayicilar", "dijital-panel-metreler", "kayit-cihazlari", "gostergeler", "dijital-ekran-birimleri", "sensor-kontrol-cihazlari"],
-    codes: [{ href: "/magaza/kontrol-kodlari", title: "Autonics kontrol cihazı sipariş kodları", total: KONTROL_KOD_TOTAL }],
+    codes: [
+      { href: "/magaza/kontrol-kodlari", title: "Autonics kontrol cihazı sipariş kodları", total: KONTROL_KOD_TOTAL },
+      // 23-10-2026 eklendi (Mert onayı): buton/anahtar/sinyal lambası ve kule ışığı/döner ikaz aileleri, kontrol cihazlarıyla aynı panoda kullanılan kumanda/sinyal donanımı.
+      { href: "/magaza/kontrol-sinyal-kodlari", title: "Autonics buton, anahtar ve sinyal lambası kodları", total: KONTROL_SINYAL_KOD_TOTAL },
+      { href: "/magaza/sinyal-lambasi-kodlari", title: "Autonics sinyal lambası / kule ışığı kodları", total: SINYAL_LAMBASI_KOD_TOTAL },
+    ],
   },
   {
     id: "enkoderler-grup",
@@ -50,7 +67,24 @@ const MAIN_GROUPS: { id: string; title: string; ids: string[] | null; codes?: Co
   { id: "operator-panelleri", title: "Operatör panelleri ve endüstriyel bilgisayarlar", ids: ["grafik-paneller-hmi", "endustriyel-bilgisayarlar"] },
   { id: "roleler", title: "Röleler", ids: ["roleler-ve-role-soketleri"] },
   { id: "motor-suruculer", title: "Motor sürücüler ve yol vericiler", ids: ["hiz-kontrol-cihazlari-ac-suruculer", "dc-motor-suruculer", "yumusak-yol-vericiler-soft-starter", "fren-uniteleri-ve-direncleri"] },
-  { id: "cnc-elektronik", title: "CNC yedek parça ve elektronik", ids: null },
+  {
+    id: "cnc-elektronik",
+    title: "CNC yedek parça ve elektronik",
+    ids: null,
+    // 23-10-2026 eklendi (Mert onayı): sensör, switch, step motor ve kablo/aksesuar aileleri, bu gruptaki
+    // mevcut "Sviç, sensör ve butonlar" ve "Step ve servo motorlar, sürücüler" kategorileriyle aynı alan.
+    codes: [
+      { href: "/magaza/basinc-sensoru-kodlari", title: "Autonics basınç sensörü sipariş kodları", total: BASINC_SENSOR_KOD_TOTAL },
+      { href: "/magaza/yakinlik-sensoru-kodlari", title: "Autonics yakınlık (endüktif) sensörü kodları", total: YAKINLIK_SENSOR_KOD_TOTAL },
+      { href: "/magaza/fotoelektrik-sensor-kodlari", title: "Autonics fotoelektrik sensör kodları", total: FOTOELEKTRIK_SENSOR_KOD_TOTAL },
+      { href: "/magaza/vision-sensor-kodlari", title: "Autonics vision sensör kodları", total: VISION_SENSOR_KOD_TOTAL },
+      { href: "/magaza/guvenlik-switch-kodlari", title: "Autonics güvenlik switch kodları", total: GUVENLIK_SWITCH_KOD_TOTAL },
+      { href: "/magaza/step-motor-kodlari", title: "Autonics step motor sipariş kodları", total: STEP_MOTOR_KOD_TOTAL },
+      { href: "/magaza/kapali-cevrim-adim-motor-kodlari", title: "Autonics kapalı çevrim adım motoru kodları", total: AI_MOTOR_KOD_TOTAL },
+      { href: "/magaza/kablo-aksesuar-kodlari", title: "Autonics bağlantı kablosu ve konnektör kodları", total: KABLO_AKSESUAR_KOD_TOTAL },
+      { href: "/magaza/sinyal-donusturucu-kodlari", title: "Autonics sinyal dönüştürücü kodları", total: SINYAL_DONUSTURUCU_KOD_TOTAL },
+    ],
+  },
   { id: "ikinci-el", title: "2. El ürünler", ids: [] }, // kategoriler isUsedCategory ile otomatik eklenir
   { id: "diger", title: "Diğer", ids: ["diger-urunler"] },
 ];

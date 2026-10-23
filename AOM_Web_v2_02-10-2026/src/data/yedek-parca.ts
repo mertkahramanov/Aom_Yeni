@@ -11,6 +11,11 @@ import raw from "./yedek-parca_06-10-2026.json";
 // AC / DC sürücüler, yumuşak yol vericiler, fren üniteleri (11-10-2026): kod listesi Endelkon ve Hareket Otomasyon kategorilerinden;
 // yalnız kodlar alındı, değerler üretici kod yapısından çözüldü, bilinmeyen alan boş. Ayrıntı: 14_SURUCU_INDEKS_11-10-2026.md
 import raw2 from "./surucu_11-10-2026.json";
+// Autonics panel/sayıcı ön lastikleri (23-10-2026): Mert'in 2026_fiyat_listesi.xlsx dosyasındaki
+// "kablo/konnektör/aksesuar" kümesinde bulunan, bağımsız kaynakla model eşleşmesi doğrulanamayan ama
+// liste fiyatının kendi açıklamasında ("CT FRONT RUBBER" / "MP5Y FRONT RUBBER") ürün tipi ve uyumlu
+// seri açıkça yazan 2 kod. Ayrıntı: claude/AUTONICS_FIYAT_LISTESI_YENI_KATEGORILER_23-10-2026.md
+import raw3 from "./autonics-yedek-parca-on-lastik_23-10-2026.json";
 
 type Raw = {
   slug: string;
@@ -78,6 +83,8 @@ const CAT_TEXT: Record<string, string> = {
   "Torna aynaları, pens ve takım tutucular": "Torna aynaları iş parçasını, ER pensler ve takım tutucular kesici takımı bağlar. Seçimde ayna çapı ve ayak sayısı, pens standardı ve bağlama aralığı birlikte değerlendirilmelidir.",
   "Yağlama sistemleri": "Merkezi yağlama pompaları kızak, vidalı mil ve rulmanları düzenli yağlayarak ömürlerini uzatır; tank hacmi, besleme gerilimi ve çalışma tipine göre seçilir.",
   "Sigma profiller": "Alüminyum sigma profiller makine gövdesi, koruma kabini ve fikstür yapımında kullanılır; kanal ölçüsü, kesit ve seriye göre seçilir.",
+  // Autonics ön lastikleri (23-10-2026)
+  "Autonics panel / sayıcı yedek parçaları": "Autonics CT serisi sayıcı ve MP5Y serisi panel metre gövdelerinin ön lastiği (panel contası); gösterge camının önüne takılan koruyucu lastik parçadır.",
 };
 
 // Seri sayfası başlığındaki ürün türü
@@ -102,6 +109,14 @@ const KIND: Record<string, string> = {
   "Rulmanlar, kilit somunları ve yaylar": "Rulman",
   "Vakum ve toz emme": "Vakum / Toz Emme Ürünü",
   "Sigma profiller": "Sigma Profil",
+  "Autonics panel / sayıcı yedek parçaları": "Ön Lastik",
+};
+
+// Autonics ön lastik fiyatları (23-10-2026): Mert'in 2026_fiyat_listesi.xlsx dosyasından, %40 iskonto diğer
+// Autonics kodlarıyla aynı şekilde uygulandı.
+const ON_LASTIK_PRICES: Record<string, { list: number; currency: "USD"; discountPct: 40 }> = {
+  C03D40057AB: { list: 2.2, currency: "USD", discountPct: 40 },
+  C08D40091AB: { list: 2.2, currency: "USD", discountPct: 40 },
 };
 
 const SUPPORT =
@@ -164,7 +179,7 @@ function build(r: Raw): Product {
     name: lead,
     category: r.category,
     summary: [factLine ? `Özellikler: ${factLine}.` : "", alts ? `Diğer geçerli kodlar: ${alts}.` : "", !factLine && !alts ? "Parça numarası veya ürün etiketi bilgisiyle teklif isteyebilirsiniz." : ""].filter(Boolean).join(" "),
-    price: schn ? { list: schn.netEur, currency: "EUR" } : undefined, // yalnız net fiyat (bkz. SCHNEIDER_PRICES yorumu); liste/iskonto kamuya kapalı
+    price: schn ? { list: schn.netEur, currency: "EUR" } : ON_LASTIK_PRICES[r.model], // yalnız net fiyat (bkz. SCHNEIDER_PRICES yorumu); liste/iskonto kamuya kapalı
     leadTime: schn?.leadTime,
     image: r.img ? { src: `/magaza/${r.img.file}`, alt: r.name } : undefined,
     imageNote: r.img?.scope === "seri" ? "Fotoğraf, üreticinin bu seri için yayınladığı görseldir." : undefined,
@@ -191,5 +206,5 @@ function build(r: Raw): Product {
   };
 }
 
-export const yedekParcaProducts: Product[] = [...(raw as unknown as Raw[]), ...(raw2 as unknown as Raw[])].map(build);
+export const yedekParcaProducts: Product[] = [...(raw as unknown as Raw[]), ...(raw2 as unknown as Raw[]), ...(raw3 as unknown as Raw[])].map(build);
 export const YEDEK_CAT_TEXT = CAT_TEXT;

@@ -1,0 +1,4118 @@
+{
+"series": [
+{
+"sn": 9010001,
+"slug": "mt4b",
+"key": "MT4B",
+"title": "Ø45 mm ampul tip sinyal (kule) lambası (sabit)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "MT4B serisi, Ø45 mm gövdeli, ampul (bulb) ışık kaynaklı, yalnızca sabit (steady) ışık veren istiflenebilir sinyal (kule) lambasıdır. 1-5 kat (tier) halinde üst üste monte edilerek makine durum göstergesi olarak kullanılır.",
+"common": [
+[
+"Montaj çapı",
+"Ø45 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MT4B-1ALG-R",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-1ALM-R",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-1ALP-B",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-1ALP-R",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-1BLG-G",
+0,
+"110-120VAC"
+],
+[
+"MT4B-1BLG-R",
+0,
+"110-120VAC"
+],
+[
+"MT4B-1BLM-R",
+0,
+"110-120VAC"
+],
+[
+"MT4B-1BLP-B",
+0,
+"110-220VAC"
+],
+[
+"MT4B-1BLP-R",
+0,
+"110-120VAC"
+],
+[
+"MT4B-1CLG-R",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLG-Y",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLM-B",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLM-C",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLM-G",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLM-R",
+0,
+"240VAC RED"
+],
+[
+"MT4B-1CLM-Y",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLP-B",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLP-C",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLP-G",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLP-R",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1CLP-Y",
+0,
+"220-240VAC"
+],
+[
+"MT4B-1DLG-R",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-1DLM-R",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-1DLP-R",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-2ALG-RB",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-2ALG-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-2ALG-RY",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-2ALM-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-2ALP-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-2BLG-RG",
+0,
+"110-120VAC"
+],
+[
+"MT4B-2BLM-RG",
+0,
+"110-120VAC"
+],
+[
+"MT4B-2BLP-RG",
+0,
+"110-120VAC"
+],
+[
+"MT4B-2CLG-RG",
+0,
+"240VAC"
+],
+[
+"MT4B-2CLM-RG",
+0,
+"220-240VAC"
+],
+[
+"MT4B-2CLP-RG",
+0,
+"220-240VAC"
+],
+[
+"MT4B-2DLG-RG",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-2DLM-RG",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-2DLP-RG",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-3ALG-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-3ALM-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-3ALP-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-3BLP-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT4B-3CLG-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT4B-3CLM-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT4B-3CLP-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT4B-3DLG-RYG",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-3DLM-RYG",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-3DLP-RYG",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-4ALG-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-4ALM-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-4ALP-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-4BLG-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT4B-4BLM-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT4B-4BLP-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT4B-4CLG-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT4B-4CLM-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT4B-4CLP-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT4B-4DLG-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-4DLM-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-4DLP-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-5ALG-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-5ALM-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-5ALP-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT4B-5BLG-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT4B-5BLM-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT4B-5BLP-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT4B-5CLG-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT4B-5CLM-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT4B-5CLP-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT4B-5DLG-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-5DLM-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"MT4B-5DLP-RYGBC",
+0,
+"12VAC/DC"
+]
+],
+"img": null
+},
+{
+"sn": 9010002,
+"slug": "mt5b",
+"key": "MT5B",
+"title": "Ø56 mm ampul tip sinyal (kule) lambası (sabit)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "MT5B serisi, Ø56 mm gövdeli, ampul (bulb) ışık kaynaklı, yalnızca sabit (steady) ışık veren istiflenebilir sinyal (kule) lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø56 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MT5B-1ALG-B",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1ALG-C",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1ALG-G",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1ALG-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1ALG-Y",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1ALM-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1ALM-Y",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1ALP-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-1BLG-R",
+0,
+"110-120VAC"
+],
+[
+"MT5B-1BLM-R",
+0,
+"110-120VAC"
+],
+[
+"MT5B-1BLP-R",
+0,
+"110-120VAC"
+],
+[
+"MT5B-1CLG-R",
+0,
+"220-240VAC"
+],
+[
+"MT5B-1CLM-R",
+0,
+"220-240VAC"
+],
+[
+"MT5B-1CLP-R",
+0,
+"220-240VAC"
+],
+[
+"MT5B-1DLG-R",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-1DLM-R",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-1DLP-R",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-2ALG-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-2ALG-RR",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-2ALM-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-2ALP-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-2BLG-RG",
+0,
+"110-120VAC"
+],
+[
+"MT5B-2CLG-RG",
+0,
+"220-240VAC"
+],
+[
+"MT5B-2CLM-RG",
+0,
+"240VAC"
+],
+[
+"MT5B-2CLP-RG",
+0,
+"220-240VAC"
+],
+[
+"MT5B-2DLG-RG",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-2DLP-RG",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-3ALG-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-3ALG-YGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-3ALG-YGC",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-3ALM-BRG",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-3ALM-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-3ALP-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-3BLG-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5B-3BLM-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5B-3BLP-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5B-3CLG-RYG",
+0,
+"240VAC"
+],
+[
+"MT5B-3CLM-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT5B-3CLP-RCG",
+0,
+"220-240VAC"
+],
+[
+"MT5B-3CLP-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT5B-3DLG-RYG",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-3DLM-RYG",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-3DLP-RYG",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-4ALG-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-4ALM-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-4ALP-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-4ALP-RYGC",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-4CLM-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT5B-4CLP-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT5B-4DLP-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-5ALG-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-5ALM-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-5ALP-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5B-5BLG-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5B-5BLM-RYGBC",
+0,
+"110-220VAC"
+],
+[
+"MT5B-5BLP-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5B-5CLG-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT5B-5CLM-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT5B-5CLP-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT5B-5DLG-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-5DLM-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"MT5B-5DLP-RYGBC",
+0,
+"12VAC/DC"
+]
+],
+"img": null
+},
+{
+"sn": 9010003,
+"slug": "mt8b",
+"key": "MT8B",
+"title": "Ø85 mm ampul tip sinyal (kule) lambası (sabit)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "MT8B serisi, Ø85 mm gövdeli, ampul (bulb) ışık kaynaklı, yalnızca sabit (steady) ışık veren istiflenebilir sinyal (kule) lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø85 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MT8B-1ALG-Y",
+0,
+"24VAC/DC"
+],
+[
+"MT8B-2ALP-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT8B-2CLG-RG",
+0,
+"240VAC"
+],
+[
+"MT8B-3ALG-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT8B-3ALP-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT8B-3BLG-RYG",
+0,
+"120VAC"
+],
+[
+"MT8B-3CLM-RYG",
+0,
+"240VAC"
+],
+[
+"MT8B-4CLM-RGGR",
+0,
+"240VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010004,
+"slug": "mt5c",
+"key": "MT5C",
+"title": "Ø56 mm ampul tip sinyal (kule) lambası (sabit / flaşör / sesli uyarı)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "MT5C serisi, Ø56 mm gövdeli, ampul (bulb) ışık kaynaklı; sabit, flaşör (yanıp sönen) ve dahili sesli (buzzer) uyarı seçenekli istiflenebilir sinyal (kule) lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø56 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MT5C-1ALG-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALG-Y",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALGB-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALGB-Y",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALM-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALMB-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALMB-Y",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALP-G",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALP-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1ALPB-R",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-1BLG-R",
+0,
+"110-120VAC"
+],
+[
+"MT5C-1BLGB-R",
+0,
+"110-120VAC"
+],
+[
+"MT5C-1BLM-R",
+0,
+"110-120VAC"
+],
+[
+"MT5C-1BLMB-R",
+0,
+"110-120VAC"
+],
+[
+"MT5C-1BLP-R",
+0,
+"110-120VAC"
+],
+[
+"MT5C-1BLPB-R",
+0,
+"110-120VAC"
+],
+[
+"MT5C-1CLG-B",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLG-R",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLG-Y",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLGB-R",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLGB-Y",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLM-R",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLMB-R",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLP-R",
+0,
+"240VAC"
+],
+[
+"MT5C-1CLPB-B",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLPB-C",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLPB-G",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLPB-R",
+0,
+"220-240VAC"
+],
+[
+"MT5C-1CLPB-Y",
+0,
+"220-240VAC"
+],
+[
+"MT5C-2ALG-CB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2ALG-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2ALGB-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2ALM-RG",
+0,
+"24V AC/DC"
+],
+[
+"MT5C-2ALMB-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2ALMB-RY",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2ALP-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2ALPB-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2ALPB-RY",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-2BLG-RG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2BLGB-RG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2BLM-RG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2BLM-RY",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2BLMB-RG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2BLP-RG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2BLP-RY",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2BLPB-RG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-2CLG-RB",
+0,
+"220-240VAC"
+],
+[
+"MT5C-2CLG-RG",
+0,
+"240VAC"
+],
+[
+"MT5C-2CLGB-RB",
+0,
+"220-240VAC"
+],
+[
+"MT5C-2CLGB-RG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-2CLM-RG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-2CLMB-RG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-2CLP-RG",
+0,
+"240VAC"
+],
+[
+"MT5C-2CLPB-RG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-3ALG-RGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3ALG-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3ALGB-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3ALM-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3ALMB-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3ALP-RGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3ALP-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3ALPB-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-3BLG-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-3BLGB-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-3BLM-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-3BLMB-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-3BLP-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-3BLPB-RYG",
+0,
+"110-120VAC"
+],
+[
+"MT5C-3CLG-RYG",
+0,
+"240VAC"
+],
+[
+"MT5C-3CLGB-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-3CLM-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-3CLMB-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-3CLP-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-3CLPB-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT5C-4ALG-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-4ALGB-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-4ALM-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-4ALMB-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-4ALP-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-4ALPB-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-4BLG-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT5C-4BLGB-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT5C-4BLM-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT5C-4BLM-RYGC",
+0,
+"110-120VAC"
+],
+[
+"MT5C-4BLMB-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT5C-4BLP-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT5C-4BLPB-RYGB",
+0,
+"110-120VAC"
+],
+[
+"MT5C-4CLG-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT5C-4CLGB-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT5C-4CLM-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT5C-4CLP-RYGB",
+0,
+"240VAC"
+],
+[
+"MT5C-4CLPB-RYGB",
+0,
+"220-240VAC"
+],
+[
+"MT5C-5ALG-RGYBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-5ALG-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-5ALGB-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-5ALP-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-5ALPB-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"MT5C-5BLG-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5C-5BLGB-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5C-5BLM-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5C-5BLMB-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5C-5BLP-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5C-5BLPB-RYGBC",
+0,
+"110-120VAC"
+],
+[
+"MT5C-5CLG-RGYBC",
+0,
+"220-240VAC"
+],
+[
+"MT5C-5CLG-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT5C-5CLGB-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT5C-5CLM-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT5C-5CLMB-RYGBC",
+0,
+"220-240VAC"
+],
+[
+"MT5C-5CLP-RYGBC",
+0,
+"240VAC"
+],
+[
+"MT5C-5CLPB-RYGBC",
+0,
+"220-240VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010005,
+"slug": "mt8c",
+"key": "MT8C",
+"title": "Ø85 mm ampul tip sinyal (kule) lambası (sabit / flaşör / sesli uyarı)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "MT8C serisi, Ø85 mm gövdeli, ampul (bulb) ışık kaynaklı; sabit, flaşör ve dahili sesli (buzzer) uyarı seçenekli istiflenebilir sinyal (kule) lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø85 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MT8C-1ALG-R",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-1ALPB-R",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-1CLGB-Y",
+0,
+"220-240VAC"
+],
+[
+"MT8C-1CLMB-R",
+0,
+"240VAC"
+],
+[
+"MT8C-2ALG-RG",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-2ALGB-RY",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-2CLG-RG",
+0,
+"240VAC"
+],
+[
+"MT8C-2CLGB-RG",
+0,
+"220-240VAC"
+],
+[
+"MT8C-2CLP-RG",
+0,
+"220-240VAC"
+],
+[
+"MT8C-2CLPB-RG",
+0,
+"220-240VAC"
+],
+[
+"MT8C-3ALG-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3ALGB-RYB",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3ALGB-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3ALM-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3ALP-RYB",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3ALP-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3ALPB-RYG",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3BLMB-RGB",
+0,
+"110-120VAC"
+],
+[
+"MT8C-3BLPB-RGB",
+0,
+"24VAC/DC"
+],
+[
+"MT8C-3CLGB-RYG",
+0,
+"220-240VAC"
+],
+[
+"MT8C-3CLP",
+0,
+"240VAC"
+],
+[
+"MT8C-3CLPB-RYG",
+0,
+"220-240VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010006,
+"slug": "pl4g",
+"key": "PL4G",
+"title": "Ø45 mm PL4 serisi sinyal (kule) lambası",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "PL4 serisi, Ø45 mm gövdeli istiflenebilir sinyal (kule) lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø45 mm"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"PL4G-100-R",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4G-101-R",
+0,
+"12VAC/DC"
+],
+[
+"PL4G-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PL4G-1FF-R",
+0,
+"110-220VAC"
+],
+[
+"PL4G-200-RG",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4G-200-RG-W",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4G-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PL4G-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PL4G-2FF-RG",
+0,
+"110-220VAC"
+],
+[
+"PL4G-2FF-RY",
+0,
+"110-220VAC"
+],
+[
+"PL4G-300-RYG",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4G-300-RYG-B",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4G-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PL4G-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PL4G-3FF-RYG",
+0,
+"110-220VAC"
+],
+[
+"PL4G-400-RYGB",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4G-401-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"PL4G-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PL4G-4FF-RYGB",
+0,
+"110-220VAC"
+],
+[
+"PL4G-500-RYGBC",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4G-501-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"PL4G-502-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"PL4G-5FF-RYGBC",
+0,
+"110-220VAC"
+],
+[
+"PL4GB-100-R",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GB-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PL4GB-1FF-R",
+0,
+"110-220VAC"
+],
+[
+"PL4GB-200-RG",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GB-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PL4GB-2FF-RG",
+0,
+"110-220VAC"
+],
+[
+"PL4GB-300-RYG",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GB-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PL4GB-302-RYG-WBC",
+0,
+"24VAC/DC"
+],
+[
+"PL4GB-3FF-RYG",
+0,
+"110-220VAC"
+],
+[
+"PL4GB-400-RYGB",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GB-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PL4GB-4FF-RYGB",
+0,
+"110-220VAC"
+],
+[
+"PL4GB-500-RYGBC",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GB-502-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"PL4GB-5FF-RYGBC",
+0,
+"110-220VAC"
+],
+[
+"PL4GF-100-R",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GF-1FF-R",
+0,
+"110-220VAC"
+],
+[
+"PL4GF-200-RG",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GF-2FF-RG",
+0,
+"110-220VAC"
+],
+[
+"PL4GF-300-RYG",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GF-3FF-RYG",
+0,
+"110-220VAC"
+],
+[
+"PL4GF-400-RYGB",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GF-4FF-RYGB",
+0,
+"110-220VAC"
+],
+[
+"PL4GF-500-RYGBC",
+0,
+"12/24VAC/DC"
+],
+[
+"PL4GF-5FF-RYGBC",
+0,
+"110-220VAC"
+],
+[
+"PL4GZ-100-R",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-1FF-R",
+0,
+"110-220VAC"
+],
+[
+"PL4GZ-200-RG",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-200-RG-WC",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-200-RY-WC",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-2FF-RG",
+0,
+"110-220VAC"
+],
+[
+"PL4GZ-300-RYG",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-300-RYG-BC",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-3FF-RYG",
+0,
+"110-220VAC"
+],
+[
+"PL4GZ-400-RYGB",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-4FF-RYGB",
+0,
+"110-220VAC"
+],
+[
+"PL4GZ-500-RYGBC",
+0,
+"12-24VAC/DC"
+],
+[
+"PL4GZ-5FF-RYGBC",
+0,
+"110-220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010007,
+"slug": "plds",
+"key": "PLDS",
+"title": "Ø25 mm alüminyum gövdeli ince tip sinyal (kule) lambası (PLDS)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "PLD serisi, Ø25 mm alüminyum gövdeli, ince (slim) profilli istiflenebilir sinyal (kule) lambasıdır. PLDS gövde/lens varyantını kapsar.",
+"common": [
+[
+"Montaj çapı",
+"Ø25 mm"
+],
+[
+"Gövde",
+"Alüminyum"
+],
+[
+"Montaj",
+"İstifleme (stackable), ince (slim) gövde"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"PLDS-101-R",
+0,
+"AC/DC12V"
+],
+[
+"PLDS-102-B",
+0,
+"AC/DC24V"
+],
+[
+"PLDS-102-C",
+0,
+"24VAC/DC"
+],
+[
+"PLDS-102-R",
+0,
+"24VAC/DC RED"
+],
+[
+"PLDS-102-R(W)",
+0,
+"24VAC/DC"
+],
+[
+"PLDS-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PLDS-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PLDS-202-RG(W)",
+0,
+"AC/DC24V"
+],
+[
+"PLDS-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PLDS-302-RCG",
+0,
+"24VAC/DC"
+],
+[
+"PLDS-302-RCG(W)",
+0,
+"24VAC/DC"
+],
+[
+"PLDS-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PLDS-402-RYGB",
+0,
+"AC/DC24V"
+],
+[
+"PLDS-502-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"PLDSF-101-R",
+0,
+"12VAC/DC"
+],
+[
+"PLDSF-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PLDSF-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PLDSF-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PLDSF-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PLDSF-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PLDSF-401-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"PLDSF-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PLDSF-501-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"PLDSF-502-RYGBC",
+0,
+"24VAC/DC"
+]
+],
+"img": null
+},
+{
+"sn": 9010008,
+"slug": "pldm",
+"key": "PLDM",
+"title": "Ø25 mm alüminyum gövdeli ince tip sinyal (kule) lambası (PLDM)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "PLD serisi, Ø25 mm alüminyum gövdeli, ince (slim) profilli istiflenebilir sinyal (kule) lambasıdır. PLDM gövde/lens varyantını kapsar.",
+"common": [
+[
+"Montaj çapı",
+"Ø25 mm"
+],
+[
+"Gövde",
+"Alüminyum"
+],
+[
+"Montaj",
+"İstifleme (stackable), ince (slim) gövde"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"PLDM-101-R",
+0,
+"AC/DC12V"
+],
+[
+"PLDM-102-R",
+0,
+"AC/DC24V"
+],
+[
+"PLDM-201-RG",
+0,
+"AC/DC12V"
+],
+[
+"PLDM-202-RG",
+0,
+"AC/DC24V"
+],
+[
+"PLDM-301-RYG",
+0,
+"AC/DC12V"
+],
+[
+"PLDM-302-RYG",
+0,
+"AC/DC24V"
+],
+[
+"PLDM-401-RYGB",
+0,
+"AC/DC12V"
+],
+[
+"PLDM-402-RYGB",
+0,
+"AC/DC24V"
+],
+[
+"PLDM-501-RYGBC",
+0,
+"AC/DC12V"
+],
+[
+"PLDM-502-RYGBC",
+0,
+"AC/DC24V"
+],
+[
+"PLDMF-101-R",
+0,
+"12VAC/DC"
+],
+[
+"PLDMF-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PLDMF-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PLDMF-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PLDMF-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PLDMF-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PLDMF-401-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"PLDMF-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PLDMF-501-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"PLDMF-502-RYGBC",
+0,
+"24VAC/DC"
+]
+],
+"img": null
+},
+{
+"sn": 9010009,
+"slug": "pldl",
+"key": "PLDL",
+"title": "Ø25 mm alüminyum gövdeli ince tip sinyal (kule) lambası (PLDL)",
+"cat": "Ampul tip sinyal (kule) lambaları",
+"desc": "PLD serisi, Ø25 mm alüminyum gövdeli, ince (slim) profilli istiflenebilir sinyal (kule) lambasıdır. PLDL gövde/lens varyantını kapsar.",
+"common": [
+[
+"Montaj çapı",
+"Ø25 mm"
+],
+[
+"Gövde",
+"Alüminyum"
+],
+[
+"Montaj",
+"İstifleme (stackable), ince (slim) gövde"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"PLDL-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PLDLF-101-R",
+0,
+"12VAC/DC"
+],
+[
+"PLDLF-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PLDLF-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PLDLF-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PLDLF-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PLDLF-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PLDLF-401-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"PLDLF-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PLDLF-501-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"PLDLF-502-RYGBC",
+0,
+"24VAC/DC"
+]
+],
+"img": null
+},
+{
+"sn": 9010010,
+"slug": "pmep",
+"key": "PMEP",
+"title": "Ø45 mm çoklu tip LED sinyal (kule) lambası (PMEP)",
+"cat": "LED tip sinyal (kule) lambaları",
+"desc": "PME serisi, Ø45 mm gövdeli, LED ışık kaynaklı istiflenebilir sinyal (kule) lambasıdır (çoklu/multi tip lens). PMEP gövde varyantını kapsar.",
+"common": [
+[
+"Montaj çapı",
+"Ø45 mm"
+],
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"PMEP-102-B",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-102-G",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-102-Y",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-1FF-R",
+0,
+"90-240VAC"
+],
+[
+"PMEP-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PMEP-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-202-RY",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-2FF-RG",
+0,
+"90-240VAC"
+],
+[
+"PMEP-2FF-RY",
+0,
+"90-240VAC"
+],
+[
+"PMEP-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PMEP-302-GYG",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-3FF-RYG",
+0,
+"SPARE PART(BODY,ASSY)"
+],
+[
+"PMEP-401-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"PMEP-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-402-RYRR",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-4FF-RYGB",
+0,
+"90-240VAC"
+],
+[
+"PMEP-501-RYGBC",
+0,
+"12VAC/DC"
+],
+[
+"PMEP-502-RGYCB",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-502-RGYYY",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-502-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-502-YRYRY",
+0,
+"24VAC/DC"
+],
+[
+"PMEP-5FF-RGYYY",
+0,
+"90-240VAC"
+],
+[
+"PMEPB-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PMEPB-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PMEPB-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PMEPF-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PMEPF-1FF-G",
+0,
+"90-240VAC"
+],
+[
+"PMEPF-202-RB",
+0,
+"24VAC/DC"
+],
+[
+"PMEPF-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PMEPF-202-RY",
+0,
+"24VAC/DC"
+],
+[
+"PMEPF-2FF-RG",
+0,
+"90-240VAC"
+],
+[
+"PMEPF-2FF-YG",
+0,
+"90-240VAC"
+],
+[
+"PMEPF-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PMEPF-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PMEPF-3FF-RYG",
+0,
+"90-240VAC"
+],
+[
+"PMEPF-4FF-RYGB",
+0,
+"90-240VAC"
+],
+[
+"PMEPF-502-RYGBC",
+0,
+"24VAC/DC"
+],
+[
+"PMEPZ-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PMEPZ-202-RY",
+0,
+"24VAC/DC"
+],
+[
+"PMEPZ-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PMEPZ-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PMEPZ-502-RYGBC",
+0,
+"24VAC/DC"
+]
+],
+"img": null
+},
+{
+"sn": 9010011,
+"slug": "pmeg",
+"key": "PMEG",
+"title": "Ø45 mm LED sinyal (kule) lambası (PMEG)",
+"cat": "LED tip sinyal (kule) lambaları",
+"desc": "PME serisi, Ø45 mm gövdeli, LED ışık kaynaklı istiflenebilir sinyal (kule) lambasıdır. PMEG gövde varyantını kapsar.",
+"common": [
+[
+"Montaj çapı",
+"Ø45 mm"
+],
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"PMEG-101-R",
+0,
+"12VAC/DC"
+],
+[
+"PMEG-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PMEG-102-Y",
+0,
+"24VAC/DC"
+],
+[
+"PMEG-1FF-G",
+0,
+"90-240VAC"
+],
+[
+"PMEG-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PMEG-201-RY",
+0,
+"12VAC/DC"
+],
+[
+"PMEG-202-RG",
+0,
+"24VAC/DC"
+],
+[
+"PMEG-202-RR",
+0,
+"24VAC/DC"
+],
+[
+"PMEG-202-RY",
+0,
+"24VAC/DC"
+],
+[
+"PMEG-202-YG",
+0,
+"24VAC/DC"
+],
+[
+"PMEG-2FF-RG",
+0,
+"90-240VAC"
+],
+[
+"PMEG-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PMEG-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PMEG-3FF-RYG",
+0,
+"90-240VAC"
+],
+[
+"PMEG-402-RYGB",
+0,
+"24V AC/DC"
+],
+[
+"PMEG-402-RYGC",
+0,
+"24VAC/DC"
+],
+[
+"PMEGB-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PMEGB-202-RG",
+0,
+"AC/DC24V"
+],
+[
+"PMEGB-302-RYG",
+0,
+"AC/DC24V"
+],
+[
+"PMEGB-401-RYGB",
+0,
+"12VAC/DC"
+],
+[
+"PMEGB-402-RYGB",
+0,
+"AC/DC24V"
+],
+[
+"PMEGZ-101-Y",
+0,
+"AC/DC12V"
+],
+[
+"PMEGZ-102-R",
+0,
+"AC/DC24V"
+],
+[
+"PMEGZ-201-YY",
+0,
+"AC/DC12V"
+],
+[
+"PMEGZ-302-RYG",
+0,
+"AC/DC24V"
+],
+[
+"PMEGZ-502-RYGBC",
+0,
+"AC/DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010012,
+"slug": "pmegf",
+"key": "PMEGF",
+"title": "Ø45 mm LED sinyal (kule) lambası (PMEGF)",
+"cat": "LED tip sinyal (kule) lambaları",
+"desc": "PME serisi, Ø45 mm gövdeli, LED ışık kaynaklı istiflenebilir sinyal (kule) lambasıdır. PMEGF gövde varyantını kapsar.",
+"common": [
+[
+"Montaj çapı",
+"Ø45 mm"
+],
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"İstifleme (stackable), panel/boru üstü"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"PMEGF-102-R",
+0,
+"24VAC/DC"
+],
+[
+"PMEGF-102-Y",
+0,
+"24VAC/DC"
+],
+[
+"PMEGF-1FF-R",
+0,
+"90-240VAC"
+],
+[
+"PMEGF-201-RG",
+0,
+"12VAC/DC"
+],
+[
+"PMEGF-2FF-RG",
+0,
+"90-240VAC"
+],
+[
+"PMEGF-2FF-YG",
+0,
+"90-240VAC"
+],
+[
+"PMEGF-301-RYG",
+0,
+"12VAC/DC"
+],
+[
+"PMEGF-302-RYG",
+0,
+"24VAC/DC"
+],
+[
+"PMEGF-302-YRY",
+0,
+"24VAC/DC"
+],
+[
+"PMEGF-3FF-RYG",
+0,
+"90-240VAC"
+],
+[
+"PMEGF-402-RYGB",
+0,
+"24VAC/DC"
+],
+[
+"PMEGF-4FF-GRYB",
+0,
+"90-240VAC"
+],
+[
+"PMEGF-4FF-RYGB",
+0,
+"90-240VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010013,
+"slug": "asg",
+"key": "ASG",
+"title": "Ø86 mm döner ikaz (beacon) lambası",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "ASG serisi, Ø86 mm gövdeli, ampul ışık kaynaklı döner (rotating) ikaz lambasıdır (beacon).",
+"common": [
+[
+"Montaj çapı",
+"Ø86 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Fonksiyon",
+"Döner (rotating) ikaz lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"ASG-01-B",
+0,
+"12VDC"
+],
+[
+"ASG-01-G",
+0,
+"12VDC"
+],
+[
+"ASG-01-R",
+0,
+"12VDC"
+],
+[
+"ASG-01-Y",
+0,
+"12VDC"
+],
+[
+"ASG-02-B",
+0,
+"24VDC"
+],
+[
+"ASG-02-G",
+0,
+"24VDC"
+],
+[
+"ASG-02-R",
+0,
+"24VDC"
+],
+[
+"ASG-02-Y",
+0,
+"24VDC"
+],
+[
+"ASG-10-B",
+0,
+"110VAC"
+],
+[
+"ASG-10-G",
+0,
+"110VAC"
+],
+[
+"ASG-10-R",
+0,
+"110VAC"
+],
+[
+"ASG-10-Y",
+0,
+"110VAC"
+],
+[
+"ASG-20-B",
+0,
+"220VAC"
+],
+[
+"ASG-20-G",
+0,
+"220VAC"
+],
+[
+"ASG-20-R",
+0,
+"220VAC"
+],
+[
+"ASG-20-Y",
+0,
+"220VAC"
+],
+[
+"ASG-FF-B",
+0,
+"110-220VAC"
+],
+[
+"ASG-FF-G",
+0,
+"110-220VAC"
+],
+[
+"ASG-FF-R",
+0,
+"110-220VAC"
+],
+[
+"ASG-FF-Y",
+0,
+"110-220VAC"
+],
+[
+"ASGS-10-B",
+0,
+"110VAC"
+],
+[
+"ASGS-10-G",
+0,
+"110VAC"
+],
+[
+"ASGS-10-R",
+0,
+"110VAC"
+],
+[
+"ASGS-10-Y",
+0,
+"110VAC"
+],
+[
+"ASGS-20-B",
+0,
+"220VAC"
+],
+[
+"ASGS-20-G",
+0,
+"220VAC"
+],
+[
+"ASGS-20-R",
+0,
+"220VAC"
+],
+[
+"ASGS-20-Y",
+0,
+"220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010014,
+"slug": "asgf",
+"key": "ASGF",
+"title": "Ø86 mm döner ikaz (beacon) lambası (sabit / flaşör)",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "ASG serisinin sabit ve flaşör (yanıp sönen) modlu ASGF varyantı; Ø86 mm gövdeli döner ikaz lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø86 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Fonksiyon",
+"Döner (rotating) ikaz lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"ASGF-01-B",
+0,
+"12VDC"
+],
+[
+"ASGF-01-G",
+0,
+"12VDC"
+],
+[
+"ASGF-01-R",
+0,
+"12VDC"
+],
+[
+"ASGF-01-Y",
+0,
+"12VDC"
+],
+[
+"ASGF-02-B",
+0,
+"24VDC"
+],
+[
+"ASGF-02-G",
+0,
+"24VDC"
+],
+[
+"ASGF-02-R",
+0,
+"24VDC"
+],
+[
+"ASGF-02-Y",
+0,
+"24VDC"
+],
+[
+"ASGF-10-B",
+0,
+"110VAC"
+],
+[
+"ASGF-10-G",
+0,
+"110VAC"
+],
+[
+"ASGF-10-R",
+0,
+"110VAC"
+],
+[
+"ASGF-10-Y",
+0,
+"110VAC"
+],
+[
+"ASGF-20-B",
+0,
+"220VAC"
+],
+[
+"ASGF-20-G",
+0,
+"220VAC"
+],
+[
+"ASGF-20-R",
+0,
+"220VAC"
+],
+[
+"ASGF-20-Y",
+0,
+"220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010015,
+"slug": "asgb",
+"key": "ASGB",
+"title": "Ø86 mm döner ikaz (beacon) lambası (sesli uyarılı)",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "ASG serisinin dahili sesli (buzzer) uyarılı ASGB varyantı; Ø86 mm gövdeli döner ikaz lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø86 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Fonksiyon",
+"Döner (rotating) ikaz lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"ASGB-01-B",
+0,
+"12VDC"
+],
+[
+"ASGB-01-R",
+0,
+"12VDC"
+],
+[
+"ASGB-01-Y",
+0,
+"12VDC"
+],
+[
+"ASGB-02-B",
+0,
+"24VDC"
+],
+[
+"ASGB-02-G",
+0,
+"24VDC"
+],
+[
+"ASGB-02-R",
+0,
+"24VDC"
+],
+[
+"ASGB-02-Y",
+0,
+"24VDC"
+],
+[
+"ASGB-10-B",
+0,
+"110VAC"
+],
+[
+"ASGB-10-G",
+0,
+"110VAC"
+],
+[
+"ASGB-10-R",
+0,
+"110VAC"
+],
+[
+"ASGB-10-Y",
+0,
+"110VAC"
+],
+[
+"ASGB-20-B",
+0,
+"220VAC"
+],
+[
+"ASGB-20-G",
+0,
+"220VAC"
+],
+[
+"ASGB-20-R",
+0,
+"220VAC"
+],
+[
+"ASGB-20-Y",
+0,
+"220VAC"
+],
+[
+"ASGB-FF-B",
+0,
+"110-220VAC"
+],
+[
+"ASGB-FF-G",
+0,
+"110-220VAC"
+],
+[
+"ASGB-FF-R",
+0,
+"110-220VAC"
+],
+[
+"ASGB-FF-Y",
+0,
+"110-220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010016,
+"slug": "avg",
+"key": "AVG",
+"title": "Ø135 mm döner ikaz (beacon) lambası",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "AVG serisi, Ø135 mm gövdeli, ampul ışık kaynaklı döner (rotating) ikaz lambasıdır (beacon); ASG serisine göre daha büyük gövdedir.",
+"common": [
+[
+"Montaj çapı",
+"Ø135 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Fonksiyon",
+"Döner (rotating) ikaz lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AVG-01-R",
+0,
+"12VDC"
+],
+[
+"AVG-01-Y",
+0,
+"12VDC"
+],
+[
+"AVG-02-B",
+0,
+"24VDC"
+],
+[
+"AVG-02-G",
+0,
+"24VDC"
+],
+[
+"AVG-02-R",
+0,
+"24VDC"
+],
+[
+"AVG-02-Y",
+0,
+"24VDC"
+],
+[
+"AVG-10-G",
+0,
+"110VAC"
+],
+[
+"AVG-10-R",
+0,
+"110VAC"
+],
+[
+"AVG-10-Y",
+0,
+"110VAC"
+],
+[
+"AVG-20-B",
+0,
+"220VAC"
+],
+[
+"AVG-20-G",
+0,
+"220VAC"
+],
+[
+"AVG-20-R",
+0,
+"220VAC"
+],
+[
+"AVG-20-Y",
+0,
+"220VAC"
+],
+[
+"AVG-G GLOBE",
+0,
+"GLOBE ø135 H=111mm"
+],
+[
+"AVG-R GLOBE",
+0,
+"GLOBE ø135 H=111mm"
+],
+[
+"AVG-Y GLOBE",
+0,
+"GLOBE ø135 H=111mm"
+]
+],
+"img": null
+},
+{
+"sn": 9010017,
+"slug": "avgb",
+"key": "AVGB",
+"title": "Ø135 mm döner ikaz (beacon) lambası (sesli uyarılı)",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "AVG serisinin dahili sesli (buzzer) uyarılı AVGB varyantı; Ø135 mm gövdeli döner ikaz lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø135 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Fonksiyon",
+"Döner (rotating) ikaz lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"AVGB-01-B",
+0,
+"12VDC"
+],
+[
+"AVGB-01-G",
+0,
+"12VDC"
+],
+[
+"AVGB-01-R",
+0,
+"12VDC"
+],
+[
+"AVGB-01-Y",
+0,
+"12VDC"
+],
+[
+"AVGB-02-B",
+0,
+"24VDC"
+],
+[
+"AVGB-02-G",
+0,
+"24VDC"
+],
+[
+"AVGB-02-R",
+0,
+"24VDC"
+],
+[
+"AVGB-02-Y",
+0,
+"24VDC"
+],
+[
+"AVGB-10-B",
+0,
+"110VAC"
+],
+[
+"AVGB-10-G",
+0,
+"110VAC"
+],
+[
+"AVGB-10-R",
+0,
+"110VAC"
+],
+[
+"AVGB-10-Y",
+0,
+"110VAC"
+],
+[
+"AVGB-20-B",
+0,
+"220VAC"
+],
+[
+"AVGB-20-G",
+0,
+"220VAC"
+],
+[
+"AVGB-20-R",
+0,
+"220VAC"
+],
+[
+"AVGB-20-Y",
+0,
+"220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010018,
+"slug": "mlg",
+"key": "MLG",
+"title": "Ø66 mm döner ikaz (beacon) lambası",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "MLG serisi, Ø66 mm gövdeli, ampul ışık kaynaklı döner (rotating) ikaz lambasıdır (beacon).",
+"common": [
+[
+"Montaj çapı",
+"Ø66 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Fonksiyon",
+"Döner (rotating) ikaz lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MLG-01-B",
+0,
+"12VDC"
+],
+[
+"MLG-01-G",
+0,
+"12VDC"
+],
+[
+"MLG-01-R",
+0,
+"12VDC"
+],
+[
+"MLG-01-Y",
+0,
+"12VDC"
+],
+[
+"MLG-02-B",
+0,
+"24VDC"
+],
+[
+"MLG-02-G",
+0,
+"24VDC"
+],
+[
+"MLG-02-R",
+0,
+"24VDC"
+],
+[
+"MLG-02-Y",
+0,
+"24VDC"
+],
+[
+"MLG-10-G",
+0,
+"110VAC"
+],
+[
+"MLG-10-R",
+0,
+"110VAC"
+],
+[
+"MLG-10-Y",
+0,
+"110VAC"
+],
+[
+"MLG-20-B",
+0,
+"220VAC"
+],
+[
+"MLG-20-G",
+0,
+"220VAC"
+],
+[
+"MLG-20-R",
+0,
+"220VAC"
+],
+[
+"MLG-20-Y",
+0,
+"220VAC"
+],
+[
+"MLGS-10-G",
+0,
+"110VAC"
+],
+[
+"MLGS-10-R",
+0,
+"110VAC"
+],
+[
+"MLGS-10-Y",
+0,
+"110VAC"
+],
+[
+"MLGS-20-B",
+0,
+"220VAC"
+],
+[
+"MLGS-20-G",
+0,
+"220VAC"
+],
+[
+"MLGS-20-R",
+0,
+"220VAC"
+],
+[
+"MLGS-20-Y",
+0,
+"220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010019,
+"slug": "mlgf",
+"key": "MLGF",
+"title": "Ø66 mm döner ikaz (beacon) lambası (sabit / flaşör)",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "MLG serisinin sabit ve flaşör modlu MLGF varyantı; Ø66 mm gövdeli döner ikaz lambasıdır.",
+"common": [
+[
+"Montaj çapı",
+"Ø66 mm"
+],
+[
+"Işık kaynağı",
+"Ampul (bulb)"
+],
+[
+"Fonksiyon",
+"Döner (rotating) ikaz lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MLGF-01-B",
+0,
+"12VDC"
+],
+[
+"MLGF-01-R",
+0,
+"12VDC"
+],
+[
+"MLGF-01-Y",
+0,
+"12VDC"
+],
+[
+"MLGF-02-B",
+0,
+"24VDC"
+],
+[
+"MLGF-02-G",
+0,
+"24VDC"
+],
+[
+"MLGF-02-R",
+0,
+"24VDC"
+],
+[
+"MLGF-02-Y",
+0,
+"24VDC"
+],
+[
+"MLGF-10-G",
+0,
+"110VAC"
+],
+[
+"MLGF-10-R",
+0,
+"110VAC"
+],
+[
+"MLGF-10-Y",
+0,
+"110VAC"
+],
+[
+"MLGF-20-G",
+0,
+"220VAC"
+],
+[
+"MLGF-20-R",
+0,
+"220VAC"
+],
+[
+"MLGF-20-Y",
+0,
+"220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010020,
+"slug": "mqvx",
+"key": "MQVX",
+"title": "MQVX serisi ikaz (uyarı) lambası",
+"cat": "Döner ikaz (beacon) lambaları",
+"desc": "MQVX serisi, Autonics'in ikaz (uyarı) lambası ailesindendir.",
+"common": [
+[
+"Fonksiyon",
+"İkaz (uyarı) lambası"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"MQVX-00-B",
+0,
+"12-48VDC"
+],
+[
+"MQVX-00-C",
+0,
+"12-48VDC"
+],
+[
+"MQVX-00-G",
+0,
+"12-48VDC"
+],
+[
+"MQVX-00-R",
+0,
+"12-48VDC"
+],
+[
+"MQVX-00-Y",
+0,
+"12-48VDC"
+],
+[
+"MQVX-10-B",
+0,
+"110VAC"
+],
+[
+"MQVX-10-C",
+0,
+"110VAC"
+],
+[
+"MQVX-10-G",
+0,
+"110VAC"
+],
+[
+"MQVX-10-R",
+0,
+"110VAC"
+],
+[
+"MQVX-10-Y",
+0,
+"110VAC"
+],
+[
+"MQVX-20-B",
+0,
+"220VAC"
+],
+[
+"MQVX-20-C",
+0,
+"220VAC"
+],
+[
+"MQVX-20-G",
+0,
+"220VAC"
+],
+[
+"MQVX-20-R",
+0,
+"220VAC"
+],
+[
+"MQVX-20-Y",
+0,
+"220VAC"
+]
+],
+"img": null
+},
+{
+"sn": 9010021,
+"slug": "m06p",
+"key": "M06P",
+"title": "Ø6 mm LED gösterge lambası (çıkıntılı/protrude lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø6 mm gövdeli, çıkıntılı (protrude) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M06P-03G",
+0,
+"PROTRUDE, G, DC3V"
+],
+[
+"M06P-03R",
+0,
+"PROTRUDE, R, DC3V"
+],
+[
+"M06P-03Y",
+0,
+"PROTRUDE, Y, DC3V"
+],
+[
+"M06P-12G",
+0,
+"PROTRUDE, G, DC12V"
+],
+[
+"M06P-12R",
+0,
+"PROTRUDE, R, DC12V"
+],
+[
+"M06P-12Y",
+0,
+"PROTRUDE, Y, DC12V"
+],
+[
+"M06P-24G",
+0,
+"PROTRUDE, G, DC24V"
+],
+[
+"M06P-24R",
+0,
+"PROTRUDE, R, DC24V"
+],
+[
+"M06P-24Y",
+0,
+"PROTRUDE, Y, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010022,
+"slug": "m08p",
+"key": "M08P",
+"title": "Ø8 mm LED gösterge lambası (çıkıntılı/protrude lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø8 mm gövdeli, çıkıntılı (protrude) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M08P-10Y",
+0,
+"PROTRUDE, Y, AC110V"
+],
+[
+"M08P-20G",
+0,
+"PROTRUDE, G, AC220V"
+],
+[
+"M08P-20R",
+0,
+"PROTRUDE, R, AC220V"
+],
+[
+"M08P-24G",
+0,
+"PROTRUDE, G, DC24V"
+],
+[
+"M08P-24R",
+0,
+"PROTRUDE, R, DC24V"
+],
+[
+"M08P-24Y",
+0,
+"PROTRUDE, Y, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010023,
+"slug": "m10p",
+"key": "M10P",
+"title": "Ø10 mm LED gösterge lambası (çıkıntılı/protrude lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø10 mm gövdeli, çıkıntılı (protrude) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M10P-10G",
+0,
+"PROTRUDE, G, AC110V"
+],
+[
+"M10P-10R",
+0,
+"PROTRUDE, R, AC110V"
+],
+[
+"M10P-10Y",
+0,
+"PROTRUDE, Y, AC110V"
+],
+[
+"M10P-24G",
+0,
+"PROTRUDE, G, DC24V"
+],
+[
+"M10P-24R",
+0,
+"PROTRUDE, R, DC24V"
+],
+[
+"M10P-24Y",
+0,
+"PROTRUDE, Y, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010024,
+"slug": "m12p",
+"key": "M12P",
+"title": "Ø12 mm LED gösterge lambası (çıkıntılı/protrude lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø12 mm gövdeli, çıkıntılı (protrude) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M12P-24G",
+0,
+"PROTRUDE, G, DC24V"
+],
+[
+"M12P-24R",
+0,
+"PROTRUDE, R, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010025,
+"slug": "m06r",
+"key": "M06R",
+"title": "Ø6 mm LED gösterge lambası (yuvarlak/round lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø6 mm gövdeli, yuvarlak (round) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M06R-03G",
+0,
+"ROUND, G, DC3V"
+],
+[
+"M06R-03R",
+0,
+"ROUND, R, DC3V"
+],
+[
+"M06R-03Y",
+0,
+"ROUND, Y, DC3V"
+],
+[
+"M06R-12G",
+0,
+"ROUND, G, DC12V"
+],
+[
+"M06R-12R",
+0,
+"ROUND, R, DC12V"
+],
+[
+"M06R-12Y",
+0,
+"ROUND, Y, DC12V"
+],
+[
+"M06R-24G",
+0,
+"ROUND, G, DC24V"
+],
+[
+"M06R-24R",
+0,
+"ROUND, R, DC24V"
+],
+[
+"M06R-24Y",
+0,
+"ROUND, Y, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010026,
+"slug": "m08r",
+"key": "M08R",
+"title": "Ø8 mm LED gösterge lambası (yuvarlak/round lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø8 mm gövdeli, yuvarlak (round) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M08R-10G",
+0,
+"ROUND, G, AC110V"
+],
+[
+"M08R-10R",
+0,
+"ROUND, R, AC110V"
+],
+[
+"M08R-10Y",
+0,
+"ROUND, Y, AC110V"
+],
+[
+"M08R-20G",
+0,
+"ROUND, G, AC220V"
+],
+[
+"M08R-20R",
+0,
+"ROUND, R, AC220V"
+],
+[
+"M08R-20Y",
+0,
+"ROUND, Y, AC220V"
+],
+[
+"M08R-24G",
+0,
+"ROUND, G, DC24V"
+],
+[
+"M08R-24R",
+0,
+"ROUND, R, DC24V"
+],
+[
+"M08R-24Y",
+0,
+"ROUND, Y, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010027,
+"slug": "m10r",
+"key": "M10R",
+"title": "Ø10 mm LED gösterge lambası (yuvarlak/round lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø10 mm gövdeli, yuvarlak (round) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M10R-24G",
+0,
+"ROUND, G, DC24V"
+],
+[
+"M10R-24R",
+0,
+"ROUND, R, DC24V"
+],
+[
+"M10R-24Y",
+0,
+"ROUND, Y, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010028,
+"slug": "m12r",
+"key": "M12R",
+"title": "Ø12 mm LED gösterge lambası (yuvarlak/round lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø12 mm gövdeli, yuvarlak (round) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M12R-20Y",
+0,
+"ROUND, Y, AC220V"
+],
+[
+"M12R-24R",
+0,
+"ROUND, R, DC24V"
+]
+],
+"img": null
+},
+{
+"sn": 9010029,
+"slug": "m16r",
+"key": "M16R",
+"title": "Ø16 mm LED gösterge lambası (yuvarlak/round lens)",
+"cat": "Küçük tip LED gösterge lambaları",
+"desc": "M serisi, Ø16 mm gövdeli, yuvarlak (round) lensli küçük LED gösterge (pilot) lambasıdır.",
+"common": [
+[
+"Işık kaynağı",
+"LED"
+],
+[
+"Montaj",
+"Panel (pano) montajı, küçük çaplı gösterge"
+]
+],
+"cols": [
+"Fiyat listesi açıklaması"
+],
+"codes": [
+[
+"M16R-20G",
+0,
+"ROUND, G, AC220V"
+],
+[
+"M16R-20Y",
+0,
+"ROUND, Y, AC220V"
+],
+[
+"M16R-24G",
+0,
+"ROUND, G, DC24V"
+],
+[
+"M16R-24R",
+0,
+"ROUND, R, DC24V"
+],
+[
+"M16R-24Y",
+0,
+"ROUND, Y, DC24V"
+]
+],
+"img": null
+}
+]
+}

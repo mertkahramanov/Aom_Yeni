@@ -3,9 +3,11 @@
 // Kod sütunları (çıkış fazı, kontrol çıkışı, besleme, bağlantı, çıkış kodu, dönme yönü) sipariş kodundan çözüldü ve
 // her seride Autonics arama filtresindeki model sayılarıyla birebir karşılaştırıldı (fark yok). Çözünürlük ve mil çapı
 // Autonics model listesinden alındı. Durum: Autonics listesinde "Discontinued" işaretli kodlar "Üretimden kalktı".
-// Fiyat yok: "Teklif isteyin".
+// Fiyat: Mert'in sağladığı Autonics fiyat listesiyle eşleşen 4.752/8.644 kod için ENKODER_PRICES'tan geliyor
+// (23-10-2026, %40 iskonto, DPU3 ile aynı kamuya açık gösterim). Eşleşmeyenlerde "Teklif isteyin".
 import type { Product } from "./magaza";
 import raw from "./autonics-enkoder_03-10-2026.json";
+export { ENKODER_PRICES } from "./autonics-fiyat-eslesen_23-10-2026";
 
 export type EncSeries = {
   key: string;

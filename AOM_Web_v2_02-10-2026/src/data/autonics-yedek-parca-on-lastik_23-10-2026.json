@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "autonics-c03d40057ab",
+    "brand": "Autonics",
+    "model": "C03D40057AB",
+    "name": "CT serisi ön lastik (panel contası)",
+    "category": "Autonics panel / sayıcı yedek parçaları",
+    "group": "Autonics ön lastik",
+    "gorder": 1,
+    "specs": [
+      ["Marka", "Autonics"],
+      ["Orijinal kod", "C03D40057AB"],
+      ["Ürün tipi", "Ön lastik (panel contası)"],
+      ["Uyumlu seri", "CT (sayıcı)"]
+    ],
+    "source": "",
+    "img": null,
+    "series": "Autonics ön lastik",
+    "opt": null,
+    "body": null
+  },
+  {
+    "slug": "autonics-c08d40091ab",
+    "brand": "Autonics",
+    "model": "C08D40091AB",
+    "name": "MP5Y serisi ön lastik (panel contası)",
+    "category": "Autonics panel / sayıcı yedek parçaları",
+    "group": "Autonics ön lastik",
+    "gorder": 2,
+    "specs": [
+      ["Marka", "Autonics"],
+      ["Orijinal kod", "C08D40091AB"],
+      ["Ürün tipi", "Ön lastik (panel contası)"],
+      ["Uyumlu seri", "MP5Y (panel metre)"]
+    ],
+    "source": "",
+    "img": null,
+    "series": "Autonics ön lastik",
+    "opt": null,
+    "body": null
+  }
+]
