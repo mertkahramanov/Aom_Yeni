@@ -3,11 +3,19 @@
 // Kod sütunları (çıkış fazı, kontrol çıkışı, besleme, bağlantı, çıkış kodu, dönme yönü) sipariş kodundan çözüldü ve
 // her seride Autonics arama filtresindeki model sayılarıyla birebir karşılaştırıldı (fark yok). Çözünürlük ve mil çapı
 // Autonics model listesinden alındı. Durum: Autonics listesinde "Discontinued" işaretli kodlar "Üretimden kalktı".
-// Fiyat: Mert'in sağladığı Autonics fiyat listesiyle eşleşen 4.752/8.644 kod için ENKODER_PRICES'tan geliyor
-// (23-10-2026, %40 iskonto, DPU3 ile aynı kamuya açık gösterim). Eşleşmeyenlerde "Teklif isteyin".
+// Fiyat: Mert'in sağladığı Autonics fiyat listesiyle eşleşen kod için ENKODER_PRICES'tan geliyor (23-10-2026,
+// %40 iskonto, DPU3 ile aynı kamuya açık gösterim). Eşleşmeyenlerde "Teklif isteyin".
+// 24-10-2026 ikinci düzeltme: Mert'in uyarısı üzerine (bkz. autonics-fiyat-eslesen_23-10-2026.ts içindeki
+// ENKODER_PRICES'ın üstündeki not) besleme VDC (1/5/24) ve konnektör tipi (yok/C/CR/CS) fiyatı değiştirmediği
+// için bu iki eksende simetrik eşleştirme eklendi: 4.752/8.644 (%55) → 6.313/8.644 (%73). Kalan 2.331 kod
+// (%27) için o taban+kontrol-çıkışı kombinasyonunun fiyat listesinde HİÇBİR varyantı yok (xlsx'te metin
+// aramasıyla doğrulandı) — bu gerçek bir kaynak-listesi boşluğu, kod hatası değil. Seri kartında kaç kodun
+// fiyatlı olduğu gösteriliyor (bkz. build() içindeki "priced" sayısı), ki "Teklif isteyin" rozeti serinin
+// tamamının fiyatsız olduğu izlenimi vermesin.
 import type { Product } from "./magaza";
 import raw from "./autonics-enkoder_03-10-2026.json";
-export { ENKODER_PRICES } from "./autonics-fiyat-eslesen_23-10-2026";
+import { ENKODER_PRICES } from "./autonics-fiyat-eslesen_23-10-2026";
+export { ENKODER_PRICES };
 
 export type EncSeries = {
   key: string;
@@ -70,6 +78,10 @@ const GROUP_TEXT: Record<string, string> = {
 function build(s: EncSeries): Product {
   const n = s.codes.length;
   const disc = s.codes.filter((c) => c[1] === 1).length;
+  // 24-10-2026 eklendi (Mert'in uyarısı üzerine): seri kartı hep "Teklif isteyin" gösteriyordu çünkü
+  // seri bir tek fiyata sahip değil — ama serinin kod sayfasında bazı kodlarda liste fiyatı VAR.
+  // Bunu kartta görünür kılmak için kaç kodda fiyat olduğu sayılıp "Sipariş kodu" rozetine eklendi.
+  const priced = s.codes.filter((c) => ENKODER_PRICES[String(c[0])]).length;
   const spec = (l: string) => s.specs.find((x) => x[0] === l)?.[1];
   const facts = ["Çözünürlük", "Çıkış fazı", "Çıkış kodu", "Kontrol çıkışı", "Besleme", "Bağlantı"]
     .map((l) => (spec(l) ? `${l.toLocaleLowerCase("tr-TR")}: ${spec(l)!.replace(/ · /g, " / ")}` : ""))
@@ -92,14 +104,14 @@ function build(s: EncSeries): Product {
     source,
     groupTitle: s.group[1],
     groupOrder: s.group[2],
-    option: `${n} sipariş kodu`,
+    option: priced > 0 ? `${n} sipariş kodu (${priced} kodda liste fiyatı var)` : `${n} sipariş kodu`,
     optionLabel: "Sipariş kodu",
     seoTitle: `Autonics ${label} ${typeShort}`,
     metaDescription: `Autonics ${label}: ${lcFirst(s.title)}. ${n} sipariş kodu${facts.length ? "; " + facts.slice(0, 3).join("; ") : ""}.`.slice(0, 300),
     seoText: [
       `Autonics ${label}, ${lcFirst(s.title)}. ${s.note}${facts.length ? ` Seçenekler: ${facts.join("; ")}.` : ""}`,
       GROUP_TEXT[s.group[0]],
-      `Bu serinin ${n} sipariş kodunun tamamı kod sayfasında listelenir; aradığınız kod için teklif isteyebilirsiniz. AOM, enkoder seçimi, kaplin ve montaj ile PLC, sayıcı veya sürücü bağlantısı konusunda destek verir.`,
+      `Bu serinin ${n} sipariş kodunun tamamı kod sayfasında listelenir${priced > 0 ? `; ${priced} kodda liste fiyatı gösterilir, kalanı için teklif isteyebilirsiniz` : "; aradığınız kod için teklif isteyebilirsiniz"}. AOM, enkoder seçimi, kaplin ve montaj ile PLC, sayıcı veya sürücü bağlantısı konusunda destek verir.`,
     ],
     keywords: [s.key, `Autonics ${s.key}`, `${s.key} enkoder`, "enkoder", "encoder", typeShort.toLocaleLowerCase("tr-TR"), ...s.codes.slice(0, 6).map((c) => String(c[0]))],
     repTable: s.rep.model && s.rep.rows.length ? { model: s.rep.model, rows: s.rep.rows.map(([label, value]) => ({ label, value })) } : undefined,
