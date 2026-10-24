@@ -8,6 +8,12 @@
 // Fiyat yok: "Teklif isteyin".
 import type { Product } from "./magaza";
 import raw from "./yedek-parca_06-10-2026.json";
+// 23-10-2026 (Mert'in uyarısı üzerine düzeltildi): bu dosyadaki 9 Autonics kaydından 7'si (E50S8 enkoder
+// kodları) Mert'in Autonics fiyat listesiyle zaten eşleşiyor (ENKODER_PRICES'ta mevcut) ama bu dosyanın
+// build() fonksiyonu o eşleşmeyi hiç aramıyordu — yalnızca Schneider ve "ön lastik" (ON_LASTIK_PRICES)
+// kodlarına bakıyordu. Aşağıda ENKODER_PRICES eklendi ve "Enkoderler" kategorisindeki Autonics kodları
+// için de bu tablo kontrol ediliyor.
+import { ENKODER_PRICES } from "./enkoder";
 // AC / DC sürücüler, yumuşak yol vericiler, fren üniteleri (11-10-2026): kod listesi Endelkon ve Hareket Otomasyon kategorilerinden;
 // yalnız kodlar alındı, değerler üretici kod yapısından çözüldü, bilinmeyen alan boş. Ayrıntı: 14_SURUCU_INDEKS_11-10-2026.md
 import raw2 from "./surucu_11-10-2026.json";
@@ -171,6 +177,7 @@ function build(r: Raw): Product {
   if (!lead) lead = r.group && r.group !== "Diğer" ? `${r.category} · ${r.group}` : r.category;
   lead = lead[0].toLocaleUpperCase("tr-TR") + lead.slice(1);
   const schn = r.brand === "Schneider Electric" ? SCHNEIDER_PRICES[r.model] : undefined;
+  const encPrice = r.brand === "Autonics" && r.category === "Enkoderler" ? ENKODER_PRICES[r.model] : undefined;
   return {
     slug: r.slug,
     brand: r.brand,
@@ -179,7 +186,10 @@ function build(r: Raw): Product {
     name: lead,
     category: r.category,
     summary: [factLine ? `Özellikler: ${factLine}.` : "", alts ? `Diğer geçerli kodlar: ${alts}.` : "", !factLine && !alts ? "Parça numarası veya ürün etiketi bilgisiyle teklif isteyebilirsiniz." : ""].filter(Boolean).join(" "),
-    price: schn ? { list: schn.netEur, currency: "EUR" } : ON_LASTIK_PRICES[r.model], // yalnız net fiyat (bkz. SCHNEIDER_PRICES yorumu); liste/iskonto kamuya kapalı
+    // yalnız net fiyat (bkz. SCHNEIDER_PRICES yorumu); liste/iskonto kamuya kapalı. Autonics enkoder
+    // kodları ve "ön lastik" kodları ise diğer Autonics kod sayfalarıyla aynı şekilde (liste fiyatı
+    // üstü çizili + net + %40 rozeti) kamuya açık gösterilir.
+    price: schn ? { list: schn.netEur, currency: "EUR" } : encPrice ?? ON_LASTIK_PRICES[r.model],
     leadTime: schn?.leadTime,
     image: r.img ? { src: `/magaza/${r.img.file}`, alt: r.name } : undefined,
     imageNote: r.img?.scope === "seri" ? "Fotoğraf, üreticinin bu seri için yayınladığı görseldir." : undefined,
