@@ -101,6 +101,7 @@ export default async function EnkoderSeriKodPage({ params }: { params: Promise<{
   const label = encLabel(s);
   const productHref = `/magaza/${encProductSlug(s)}`;
   const disc = s.codes.filter((c) => c[1] === 1).length;
+  const priced = s.codes.filter((c) => ENKODER_PRICES[String(c[0])]).length;
   const legend = LEGEND[s.key];
   const tableId = `kodlar-${s.slug}`;
   const jsonLd = [
@@ -174,6 +175,14 @@ export default async function EnkoderSeriKodPage({ params }: { params: Promise<{
         <h2 className="h2" style={{ fontSize: 24 }}>
           {s.codes.length} sipariş kodu
         </h2>
+        {priced > 0 && priced < s.codes.length && (
+          <p style={{ margin: 0, maxWidth: 820 }}>
+            Tablodaki <strong>{priced}</strong> kodun liste fiyatı aşağıda gösterilir. Kalan{" "}
+            <strong>{s.codes.length - priced}</strong> kod, Autonics'in nadiren stoklanan <strong>özel sipariş</strong>{" "}
+            konfigürasyonlarıdır — bunları da temin ediyoruz; "Özel sipariş" rozetli satırlarda e-posta veya WhatsApp
+            ile hemen teklif alabilirsiniz.
+          </p>
+        )}
         {s.codes.length > 20 && <CodeFilter tableId={tableId} total={s.codes.length} />}
         <div style={{ overflowX: "auto" }}>
           <table id={tableId} className="spec-table series-table dpu-table enc-table">
@@ -210,7 +219,9 @@ export default async function EnkoderSeriKodPage({ params }: { params: Promise<{
                           {pi.discount && <span className="store-discount">{pi.discount}</span>}
                         </>
                       ) : (
-                        "Teklif isteyin"
+                        <span className="store-discount" title="Autonics'in nadiren stoklanan özel sipariş konfigürasyonu — bu kodu da temin ediyoruz.">
+                          Özel sipariş
+                        </span>
                       )}
                     </td>
                     <td className="dpu-actions">

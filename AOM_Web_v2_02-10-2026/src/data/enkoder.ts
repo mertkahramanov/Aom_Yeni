@@ -104,14 +104,23 @@ function build(s: EncSeries): Product {
     source,
     groupTitle: s.group[1],
     groupOrder: s.group[2],
-    option: priced > 0 ? `${n} sipariş kodu (${priced} kodda liste fiyatı var)` : `${n} sipariş kodu`,
+    option:
+      priced > 0
+        ? priced < n
+          ? `${n} sipariş kodu (${priced} kodda liste fiyatı var, ${n - priced} özel sipariş)`
+          : `${n} sipariş kodu (${priced} kodda liste fiyatı var)`
+        : `${n} sipariş kodu`,
     optionLabel: "Sipariş kodu",
     seoTitle: `Autonics ${label} ${typeShort}`,
     metaDescription: `Autonics ${label}: ${lcFirst(s.title)}. ${n} sipariş kodu${facts.length ? "; " + facts.slice(0, 3).join("; ") : ""}.`.slice(0, 300),
     seoText: [
       `Autonics ${label}, ${lcFirst(s.title)}. ${s.note}${facts.length ? ` Seçenekler: ${facts.join("; ")}.` : ""}`,
       GROUP_TEXT[s.group[0]],
-      `Bu serinin ${n} sipariş kodunun tamamı kod sayfasında listelenir${priced > 0 ? `; ${priced} kodda liste fiyatı gösterilir, kalanı için teklif isteyebilirsiniz` : "; aradığınız kod için teklif isteyebilirsiniz"}. AOM, enkoder seçimi, kaplin ve montaj ile PLC, sayıcı veya sürücü bağlantısı konusunda destek verir.`,
+      `Bu serinin ${n} sipariş kodunun tamamı kod sayfasında listelenir${
+        priced > 0
+          ? `; ${priced} kodda liste fiyatı gösterilir${priced < n ? `, kalan ${n - priced} kod özel sipariş konfigürasyonudur ve teklif alınarak temin edilir` : ""}`
+          : "; aradığınız kod için teklif isteyebilirsiniz"
+      }. AOM, enkoder seçimi, kaplin ve montaj ile PLC, sayıcı veya sürücü bağlantısı konusunda destek verir.`,
     ],
     keywords: [s.key, `Autonics ${s.key}`, `${s.key} enkoder`, "enkoder", "encoder", typeShort.toLocaleLowerCase("tr-TR"), ...s.codes.slice(0, 6).map((c) => String(c[0]))],
     repTable: s.rep.model && s.rep.rows.length ? { model: s.rep.model, rows: s.rep.rows.map(([label, value]) => ({ label, value })) } : undefined,
