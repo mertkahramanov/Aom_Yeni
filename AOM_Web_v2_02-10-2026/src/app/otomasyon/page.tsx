@@ -87,6 +87,17 @@ const galeriGorseller = [
   // 09–10 eklendi (19-10-2026, Mert'in gönderdiği iki saha fotoğrafı; aynı 4:5, 1000x1250 standardı)
   { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-09_19-10-2026.webp", w: 1000, h: 1250, alt: "Faz koruma röleleri, otomatik sigortalar, zaman röleleri ve ara röle gruplarından oluşan kumanda panoları", caption: "Faz koruma ve zaman röleli kumanda panoları" },
   { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-10_19-10-2026.webp", w: 1000, h: 1250, alt: "Dört adet fanlı dijital tristörlü güç ünitesinin entegre edildiği güç kontrol panosu", caption: "Dijital tristörlü güç ünitesi panosu" },
+  // 11–18 eklendi (25-10-2026, Mert'in "Autonics Whatsapp Görsel" klasöründen onayladığı saha fotoğrafları;
+  // aynı 4:5, 1000x1250 standardı — bazıları orijinalde yatay kadrajlıydı, ortadan kırpılarak dikey karta
+  // sığdırıldı, pano/bileşen detayından bir şey kaybedilmeden)
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-11_25-10-2026.webp", w: 1000, h: 1250, alt: "Dijital tristörlü güç ünitelerinin monte edildiği pano içi görünüm", caption: "Tristörlü güç ünitesi montajı" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-12_25-10-2026.webp", w: 1000, h: 1250, alt: "Autonics step motor sürücülerinin ve PLC'nin entegre edildiği kontrol panosu", caption: "Autonics step motor sürücülü kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-13_25-10-2026.webp", w: 1000, h: 1250, alt: "Yoğun röle ve klemens gruplarından oluşan büyük ölçekli kontrol panosu", caption: "Büyük ölçekli röle panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-14_25-10-2026.webp", w: 1000, h: 1250, alt: "Autonics zaman rölesi, izleme rölesi ve kaçak akım rölelerinden oluşan pano detayı", caption: "Autonics zaman rölesi ve izleme rölesi detayı" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-15_25-10-2026.webp", w: 1000, h: 1250, alt: "SSR, PLC ve sürücü modüllerinin entegre edildiği kontrol panosu", caption: "SSR ve PLC entegrasyonlu kontrol panosu" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-16_25-10-2026.webp", w: 1000, h: 1250, alt: "PLC ve klemens gruplarından oluşan kontrol panosu detayı", caption: "PLC ve klemens grubu detayı" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-17_25-10-2026.webp", w: 1000, h: 1250, alt: "PLC, röle ve klemens gruplarından oluşan kontrol panosunun genel görünümü", caption: "PLC ve röle grupları genel görünüm" },
+  { src: "/hizmetler/otomasyon/otomasyon-pano-ornek-18_25-10-2026.webp", w: 1000, h: 1250, alt: "Proses kontrol göstergeleri ve komut butonlarından oluşan pano ön yüzü", caption: "Proses kontrol panosu ön yüzü" },
 ];
 
 // Video açıklamaları (19-10-2026, Mert'in bilgisi): sırasıyla Rusya, Rusya, Kazakistan, Azerbaycan projeleri.
