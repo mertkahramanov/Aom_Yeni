@@ -37,12 +37,18 @@ export type Product = {
   repTable?: { model: string; rows: { label: string; value: string }[] }; // seri ürünlerinde örnek modelin tam teknik tablosu
   codePage?: { href: string; count: number; discontinued: number }; // seri ürünlerinde sipariş kodu sayfası
   used?: import("./ikinci-el").UsedInfo; // 2. el ürünlerde durum bilgisi
+  // Muadil ürünler (27-10-2026, Mert kararı): AOM'un sattığı farklı markalardaki işlevsel eşdeğer ürünler
+  // birbirine çift yönlü bağlanır (ör. Omron E5CC-QX2ASM-800 <-> Autonics TK4S-24SN). Hedef ürün henüz
+  // siteye eklenmemişse sayfa bu girişi sessizce atlar (bkz. [slug]/page.tsx), bu yüzden ileriye dönük
+  // olarak hedefi henüz var olmayan bir slug ile de güvenle eklenebilir.
+  equivalents?: { brand: string; model: string; slug: string }[];
 };
 
 import { ssrProducts } from "./ssr";
 import { sprProducts } from "./spr";
 import { encProducts } from "./enkoder";
 import { kontrolProducts } from "./kontrol";
+import { muadilKontrolProducts } from "./muadil-kontrol-urunler_27-10-2026";
 import { YEDEK_CAT_TEXT, yedekParcaProducts } from "./yedek-parca";
 import { IKINCI_EL_PREFIX, ikinciElProducts } from "./ikinci-el";
 import { gefranProducts } from "./gefran";
@@ -165,6 +171,9 @@ export const products: Product[] = [
   ...ssrProducts,
   ...encProducts,
   ...kontrolProducts,
+  // Muadil ürünler - Kontrol kategorisi (27-10-2026, Mert kararı): Omron/Selec/Hanyoung Nux vb. rakip marka
+  // modelleri, AOM'un sattığı ürünler olarak normal kategorilerinde; bkz. muadil-kontrol-urunler_27-10-2026.ts
+  ...muadilKontrolProducts,
   ...yedekParcaProducts,
   // Gefran güç kontrol, SSR ve motor yol verici serileri (07-10-2026): src/data/gefran.ts
   ...gefranProducts,

@@ -232,6 +232,26 @@ export default async function UrunPage({ params }: { params: Promise<{ slug: str
         </p>
       </div>
 
+      {(() => {
+        const visibleEquivalents = (p.equivalents ?? []).filter((e) => getProduct(e.slug));
+        if (visibleEquivalents.length === 0) return null;
+        return (
+          <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 860 }}>
+            <h2 className="h2" style={{ fontSize: 26 }}>Muadil ürünler</h2>
+            <p style={{ margin: 0, color: "var(--ink-muted)" }}>
+              {fullName(p)} ile aynı işlevi gören, AOM&apos;un sattığı muadil modeller:
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+              {visibleEquivalents.map((e) => (
+                <Link key={e.slug} href={`/magaza/${e.slug}`} className="btn btn-outline">
+                  {e.brand} {e.model}
+                </Link>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
+
       {p.repTable && (
         <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
           <h2 className="h2" style={{ fontSize: 26 }}>Örnek model: {p.repTable.model}</h2>

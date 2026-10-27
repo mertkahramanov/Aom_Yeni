@@ -1,0 +1,2514 @@
+[
+ {
+  "slug": "muadil-omron-e5cc-qx2asm-800",
+  "brand": "Omron",
+  "model": "E5CC-QX2ASM-800",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Input type",
+    "value": "Universal: thermocouple, RTD (Pt), -200 to +2300°C range depending on sensor"
+   },
+   {
+    "label": "Output type",
+    "value": "Voltage output for SSR (solid state relay drive)"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "100 to 240V AC"
+   },
+   {
+    "label": "Control method",
+    "value": "ON/OFF and PID (2-PID auto-tuning)"
+   },
+   {
+    "label": "Dimensions",
+    "value": "48 x 48 mm, panel mount"
+   },
+   {
+    "label": "Operating temperature",
+    "value": "10°C to 50°C"
+   }
+  ],
+  "product_page_url": "https://hkcn.rs-online.com/web/p/temperature-controllers/7604592",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-omron-e5ccqx2asm800.png",
+  "image_filename": "tempcontrol-omron-e5ccqx2asm800_27-10-2026.jpg",
+  "autonics_model": "TK4S-24SN",
+  "autonics_slug": "autonics-tk4s-24sn",
+  "notes": "Official Omron product; page sourced from RS Components (authorized Omron distributor) since no standalone Omron page for this exact suffix was found. RS notes the part may be discontinued/limited availability.",
+  "specs_tr": [
+   {
+    "label": "Giriş tipi",
+    "value": "Üniversal: termokupl, RTD (Pt), -200 - +2300°C aralık sensöre bağlı"
+   },
+   {
+    "label": "Çıkış tipi",
+    "value": "Gerilim çıkışı için (SSR) (solid state röle sürümü)"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "100 - 240V AC"
+   },
+   {
+    "label": "Kontrol yöntemi",
+    "value": "ON/OFF ve PID (2-PID oto ayar)"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 48 mm, panel montaj"
+   },
+   {
+    "label": "Çalışma sıcaklığı",
+    "value": "10°C to 50°C"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-e5cc-rx2asm-800",
+  "brand": "Omron",
+  "model": "E5CC-RX2ASM-800",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Input type",
+    "value": "Universal, 1 input"
+   },
+   {
+    "label": "Output type",
+    "value": "Relay, 3 outputs"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "100 to 240V AC"
+   },
+   {
+    "label": "Display",
+    "value": "11-segment digital display"
+   },
+   {
+    "label": "Control method",
+    "value": "On-Off, 2-PID, PID"
+   },
+   {
+    "label": "Communications",
+    "value": "CompoWay/F, Modbus RS485 (2-wire)"
+   },
+   {
+    "label": "Dimensions",
+    "value": "48 x 48 mm, 60mm depth"
+   }
+  ],
+  "product_page_url": "https://hkcn.rs-online.com/web/p/temperature-controllers/7604589",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-omron-e5ccrx2asm800.png",
+  "image_filename": "tempcontrol-omron-e5ccrx2asm800_27-10-2026.jpg",
+  "autonics_model": "TK4S-24RN",
+  "autonics_slug": "autonics-tk4s-24rn",
+  "notes": "Official Omron product; page sourced from RS Components (authorized Omron distributor). RS notes the part may be discontinued/limited availability. Image is the generic official E5CC series photo (same unit shown for multiple E5CC suffix variants).",
+  "specs_tr": [
+   {
+    "label": "Giriş tipi",
+    "value": "Üniversal, 1 giriş"
+   },
+   {
+    "label": "Çıkış tipi",
+    "value": "Röle, 3 çıkış"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "100 - 240V AC"
+   },
+   {
+    "label": "Gösterge",
+    "value": "11-segment dijital gösterge"
+   },
+   {
+    "label": "Kontrol yöntemi",
+    "value": "On-Off, 2-PID, PID"
+   },
+   {
+    "label": "Haberleşme",
+    "value": "CompoWay/F, Modbus RS485 (2-kablo)"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 48 mm, 60mm derinlik"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-qx2asm-802",
+  "brand": "Omron",
+  "model": "QX2ASM-802",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Input type (sensor)",
+    "value": "K, J, T, E, L, U, N, R, S, B, C, W, PL2, Pt100, JPt100, infrared, 0-20mA, 4-20mA, 0-10V, 0-5V, 1-5V"
+   },
+   {
+    "label": "Output type",
+    "value": "Voltage output for driving SSR (1 control output)"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "100...240VAC"
+   },
+   {
+    "label": "Display",
+    "value": "LCD, 4 digits, 15.2mm PV character height"
+   },
+   {
+    "label": "Control method",
+    "value": "2-PID control, ON-OFF control (heat/cool modes)"
+   }
+  ],
+  "product_page_url": "https://baoanjsc.com.vn/products/digital-temperature-controller-simple-type-48-x-48-mm-omron-E5CC-QX2ASM-802_75236_en.aspx",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-omron-e5ccqx2asm802.png",
+  "image_filename": "tempcontrol-omron-e5ccqx2asm802_27-10-2026.jpg",
+  "autonics_model": "TX4S-B4C",
+  "autonics_slug": "autonics-tx4s-b4c",
+  "notes": "Full model is E5CC-QX2ASM-802. Official distributor product page used (baoanjsc.com.vn, authorized Omron Vietnam distributor); product photo shows unit with retail box.",
+  "specs_tr": [
+   {
+    "label": "Giriş tipi (sensor)",
+    "value": "K, J, T, E, L, U, N, R, S, B, C, W, PL2, Pt100, JPt100, infrared, 0-20mA, 4-20mA, 0-10V, 0-5V, 1-5V"
+   },
+   {
+    "label": "Çıkış tipi",
+    "value": "Gerilim çıkışı for driving SSR (1 control çıkış)"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "100...240VAC"
+   },
+   {
+    "label": "Gösterge",
+    "value": "LCD, 4 digits, 15.2mm PV character height"
+   },
+   {
+    "label": "Kontrol yöntemi",
+    "value": "2-PID control, ON-OFF control (heat/cool modes)"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-tc344",
+  "brand": "Selec",
+  "model": "TC344",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED dual display, 4+4 digits"
+   },
+   {
+    "label": "Input type",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Control output",
+    "value": "Relay / SSR"
+   },
+   {
+    "label": "Auxiliary output",
+    "value": "Relay (5A)"
+   },
+   {
+    "label": "Control mode",
+    "value": "Auto-tune PID / ON-OFF"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "96 x 96 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/3-digit-single-display-economic-tc",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-selec-tc344.png",
+  "image_filename": "tempcontrol-selec-tc344_27-10-2026.jpg",
+  "autonics_model": "TK4L-24R",
+  "autonics_slug": "autonics-tk4l-24r",
+  "notes": "Current official Selec model is TC344AX (successor naming for 'TC344'). Specs and photo from selec.com official product page.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED dual gösterge, 4+4 digits"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "Röle / SSR"
+   },
+   {
+    "label": "Yardımcı çıkış",
+    "value": "Röle (5A)"
+   },
+   {
+    "label": "Kontrol modu",
+    "value": "Oto ayarlı PID / ON-OFF"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "96 x 96 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-tc244",
+  "brand": "Selec",
+  "model": "TC244",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED dual display, 4+4 digits"
+   },
+   {
+    "label": "Input type",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Control output",
+    "value": "Relay / SSR"
+   },
+   {
+    "label": "Auxiliary output",
+    "value": "Relay (5A)"
+   },
+   {
+    "label": "Control mode",
+    "value": "Auto-tune PID / ON-OFF"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "72 x 72 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/temperature-controller-with-2-op-relay-ssr-relay-with-nc-contact",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-selec-tc244.png",
+  "image_filename": "tempcontrol-selec-tc244_27-10-2026.jpg",
+  "autonics_model": "TK4L-14CR",
+  "autonics_slug": "autonics-tk4l-14cr",
+  "notes": "Current official Selec model is TC244AX (successor naming for 'TC244'). Specs and photo from selec.com official product page.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED dual gösterge, 4+4 digits"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "Röle / SSR"
+   },
+   {
+    "label": "Yardımcı çıkış",
+    "value": "Röle (5A)"
+   },
+   {
+    "label": "Kontrol modu",
+    "value": "Oto ayarlı PID / ON-OFF"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "72 x 72 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-tc544",
+  "brand": "Selec",
+  "model": "TC544",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED dual display, 4+4 digits"
+   },
+   {
+    "label": "Input type",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Control output",
+    "value": "Relay / SSR"
+   },
+   {
+    "label": "Auxiliary output",
+    "value": "Relay (5A)"
+   },
+   {
+    "label": "Control mode",
+    "value": "Auto-tune PID / ON-OFF"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "48 x 48 mm, panel mount"
+   },
+   {
+    "label": "Certification",
+    "value": "CE, RoHS, UL (variant dependent)"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/temprature-controllerdigital1",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-selec-tc544.png",
+  "image_filename": "tempcontrol-selec-tc544_27-10-2026.jpg",
+  "autonics_model": "TK4S-14CR",
+  "autonics_slug": "autonics-tk4s-14cr",
+  "notes": "Current official Selec model is TC544A (successor naming for 'TC544'; a separate CX-series TC544C also exists). Specs and photo from selec.com official product page.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED dual gösterge, 4+4 digits"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "Röle / SSR"
+   },
+   {
+    "label": "Yardımcı çıkış",
+    "value": "Röle (5A)"
+   },
+   {
+    "label": "Kontrol modu",
+    "value": "Oto ayarlı PID / ON-OFF"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 48 mm, panel montaj"
+   },
+   {
+    "label": "Sertifika",
+    "value": "CE, RoHS, UL (variant dependent)"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-pid-110-0-0-01-v2",
+  "brand": "Selec",
+  "model": "PID 110-0-0-01 V2",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED dual display, 4+4 digits"
+   },
+   {
+    "label": "Input type",
+    "value": "Universal: TC (J,K,T,R,S,C,B,N,L,U,W,Platinel II), RTD Pt100, -5 to 56mV, 0-10V, 0-20mA"
+   },
+   {
+    "label": "Control output",
+    "value": "Relay (5A) x3 (variant PID110-0-0-01)"
+   },
+   {
+    "label": "Control mode",
+    "value": "Auto-tune PID / ON-OFF, single-step ramp-soak"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "96 x 48 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/pid110",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-selec-pid1100001v2.png",
+  "image_filename": "tempcontrol-selec-pid1100001v2_27-10-2026.jpg",
+  "autonics_model": "TK4H-14RR",
+  "autonics_slug": "autonics-tk4h-14rr",
+  "notes": "Exact variant code PID110-0-0-01 listed on the official Selec product-variant table; photo and specs from selec.com.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED dual gösterge, 4+4 digits"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Üniversal: TC (J,K,T,R,S,C,B,N,L,U,W,Platinel II), RTD Pt100, -5 - 56mV, 0-10V, 0-20mA"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "Röle (5A) x3 (variant PID110-0-0-01)"
+   },
+   {
+    "label": "Kontrol modu",
+    "value": "Oto ayarlı PID / ON-OFF, single-step ramp-soak"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "96 x 48 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-pid500-2-0-04",
+  "brand": "Selec",
+  "model": "PID500-2-0-04",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED dual display, 4+4 digits"
+   },
+   {
+    "label": "Input type",
+    "value": "Universal: TC (J,K,T,R,S,C,E,B,N,L,U,W,Platinel II), RTD Pt100, -5 to 56mV, 0-10V, 0-20mA"
+   },
+   {
+    "label": "Control output",
+    "value": "4-20mA (Out1), Relay 5A (Out2), Relay 5A (Out3) + RS485 Modbus comms"
+   },
+   {
+    "label": "Control mode",
+    "value": "Auto-tune PID / ON-OFF, single-step ramp-soak"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "48 x 48 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/temperture-controller-pid",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-selec-pid50020-04.png",
+  "image_filename": "tempcontrol-selec-pid50020-04_27-10-2026.jpg",
+  "autonics_model": "TK4S-B4CN",
+  "autonics_slug": "autonics-tk4s-b4cn",
+  "notes": "Exact variant code PID500-2-0-04 listed on the official Selec product-variant table (4-20mA out1, relay out2, relay out3, with communication); photo and specs from selec.com.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED dual gösterge, 4+4 digits"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Üniversal: TC (J,K,T,R,S,C,E,B,N,L,U,W,Platinel II), RTD Pt100, -5 - 56mV, 0-10V, 0-20mA"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "4-20mA (Out1), Röle 5A (Out2), Röle 5A (Out3) + RS485 Modbus comms"
+   },
+   {
+    "label": "Kontrol modu",
+    "value": "Oto ayarlı PID / ON-OFF, single-step ramp-soak"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 48 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-c303ax",
+  "brand": "Selec",
+  "model": "C303AX",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED single display, 3 digits"
+   },
+   {
+    "label": "Input type",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Control output",
+    "value": "Relay / SSR, 10A relay"
+   },
+   {
+    "label": "Control mode",
+    "value": "Auto-tune PID / ON-OFF"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "96 x 96 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/3-digit-single-display-temperature",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-selec-c303ax.png",
+  "image_filename": "tempcontrol-selec-c303ax_27-10-2026.jpg",
+  "autonics_model": "TC4L-N4R",
+  "autonics_slug": "autonics-tc4l-n4r",
+  "notes": "Input model name 'C303AX' is treated as the Selec model TC303AX (likely a transcription variant of the same model); specs and photo from selec.com official product page.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED single gösterge, 3 digits"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "Röle / SSR, 10A röle"
+   },
+   {
+    "label": "Kontrol modu",
+    "value": "Oto ayarlı PID / ON-OFF"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "96 x 96 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-tc-303a",
+  "brand": "Selec",
+  "model": "TC-303A",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED single display, 3 digits"
+   },
+   {
+    "label": "Input type",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Control output",
+    "value": "Relay / SSR, 10A relay"
+   },
+   {
+    "label": "Control mode",
+    "value": "Auto-tune PID / ON-OFF"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "96 x 96 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/3-digit-single-display-temperature",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-selec-tc303a.png",
+  "image_filename": "tempcontrol-selec-tc303a_27-10-2026.jpg",
+  "autonics_model": "TC4L-14R",
+  "autonics_slug": "autonics-tc4l-14r",
+  "notes": "Current official Selec model is TC303AX (successor naming for 'TC-303A'). Specs and photo from selec.com official product page. Same base model as the 'C303AX' entry above.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED single gösterge, 3 digits"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Thermocouple (J,K,T,R,S) / RTD (PT100)"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "Röle / SSR, 10A röle"
+   },
+   {
+    "label": "Kontrol modu",
+    "value": "Oto ayarlı PID / ON-OFF"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "96 x 96 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-sub-zero-sz-7552-62-p",
+  "brand": "Sub Zero",
+  "model": "SZ-7552-62-P",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "7-segment LED, 3 x 14.2mm"
+   },
+   {
+    "label": "Probe input",
+    "value": "NTC, Defrost (coil)"
+   },
+   {
+    "label": "Relay outputs",
+    "value": "Compressor1: 8(3)A, Compressor2: 8(3)A"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "230VAC standard"
+   },
+   {
+    "label": "Temperature range",
+    "value": "0.0°C to +50.0°C (0.1°C resolution) for SZ-7552; -40 to +99°C (1°C) for SZ-7562 variant"
+   },
+   {
+    "label": "Application",
+    "value": "2 independent cooling units with one temperature sensor"
+   }
+  ],
+  "product_page_url": "https://www.futuristicclimatecontrols.in/products/sz-7552-p",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-subzero-sz755262p.png",
+  "image_filename": "tempcontrol-subzero-sz755262p_27-10-2026.jpg",
+  "autonics_model": "TF31-24A",
+  "autonics_slug": "autonics-tf31-24a",
+  "notes": "'Sub Zero' (SubZero) is an Indian cold-room/compressor controller brand without one unified official manufacturer website found; specs/photo sourced from an authorized reseller's dedicated product page (Futuristic Climate Controls Pvt Ltd), noted as distributor source. Exact suffix '-62-' (dual sensor/independent variant) matches the SZ-7552/7562 family described on this page.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "7-segment LED, 3 x 14.2mm"
+   },
+   {
+    "label": "Prob girişi",
+    "value": "NTC, Defrost (coil)"
+   },
+   {
+    "label": "Röle çıkışları",
+    "value": "Compressor1: 8(3)A, Compressor2: 8(3)A"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "230VAC standard"
+   },
+   {
+    "label": "Sıcaklık aralığı",
+    "value": "0.0°C to +50.0°C (0.1°C resolution) for SZ-7552; -40 - +99°C (1°C) for SZ-7562 variant"
+   },
+   {
+    "label": "Uygulama",
+    "value": "2 independent cooling units with one temperature sensor"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-sub-zero-7510t",
+  "brand": "Sub Zero",
+  "model": "7510T",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Temperature range",
+    "value": "-50°C to +99°C"
+   },
+   {
+    "label": "Accuracy",
+    "value": "+/- 1°C"
+   },
+   {
+    "label": "Display",
+    "value": "2 x 14.2mm (0.56\") LED"
+   },
+   {
+    "label": "Power input",
+    "value": "230VAC +/-10%, 50-60Hz"
+   },
+   {
+    "label": "Input",
+    "value": "NTC probe (SZ-N75)"
+   },
+   {
+    "label": "Output",
+    "value": "1 SPDT relay 8(3)A, 250VAC"
+   },
+   {
+    "label": "Protection class",
+    "value": "IP65"
+   }
+  ],
+  "product_page_url": "https://www.futuristicclimatecontrols.in/products/sz-7510t",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-subzero-7510t.png",
+  "image_filename": "tempcontrol-subzero-7510t_27-10-2026.jpg",
+  "autonics_model": "TF31-14H",
+  "autonics_slug": "autonics-tf31-14h",
+  "notes": "Model is SZ-7510-T (1 relay, touch keypad power switch variant); 'Sub Zero' brand has no single unified official site, so an authorized reseller's dedicated product page (Futuristic Climate Controls Pvt Ltd) was used as source, noted as distributor source.",
+  "specs_tr": [
+   {
+    "label": "Sıcaklık aralığı",
+    "value": "-50°C to +99°C"
+   },
+   {
+    "label": "Doğruluk",
+    "value": "+/- 1°C"
+   },
+   {
+    "label": "Gösterge",
+    "value": "2 x 14.2mm (0.56\") LED"
+   },
+   {
+    "label": "Besleme girişi",
+    "value": "230VAC +/-10%, 50-60Hz"
+   },
+   {
+    "label": "Giriş",
+    "value": "NTC probe (SZ-N75)"
+   },
+   {
+    "label": "Çıkış",
+    "value": "1 SPDT röle 8(3)A, 250VAC"
+   },
+   {
+    "label": "Koruma sınıfı",
+    "value": "IP65"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-delta-dtk4848",
+  "brand": "Delta",
+  "model": "DTK4848",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Series",
+    "value": "DTK - Intelligent Temperature Controller"
+   },
+   {
+    "label": "Size",
+    "value": "48 x 48 mm (per '4848' model code)"
+   },
+   {
+    "label": "Display",
+    "value": "High-resolution LCD/LED dual PV/SV display"
+   },
+   {
+    "label": "Sampling",
+    "value": "100 ms high-speed sampling"
+   },
+   {
+    "label": "Depth",
+    "value": "60 mm installation length"
+   },
+   {
+    "label": "Certification",
+    "value": "CE certified"
+   }
+  ],
+  "product_page_url": "https://www.deltaww.com/en-US/products/Temperature-Controllers/DTK",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-delta-dtk4848.png",
+  "image_filename": "tempcontrol-delta-dtk4848_27-10-2026.jpg",
+  "autonics_model": "TCN4S-24R",
+  "autonics_slug": "autonics-tcn4s-24r",
+  "notes": "Official Delta Electronics product page (deltaww.com). The page describes the DTK series generally (sizes 4848/4896/7272/9696); a model-specific datasheet for the 4848 variant alone was not directly accessible (download center is JS-rendered), so detailed input/output/voltage specs for this exact SKU are not confirmed and were not fabricated. Image cropped from the official family photo showing the 48x48mm unit.",
+  "specs_tr": [
+   {
+    "label": "Seri",
+    "value": "DTK - Intelligent Temperature Controller"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 48 mm (per '4848' model code)"
+   },
+   {
+    "label": "Gösterge",
+    "value": "High-resolution LCD/LED dual PV/SV gösterge"
+   },
+   {
+    "label": "Örnekleme",
+    "value": "100 ms high-speed sampling"
+   },
+   {
+    "label": "Derinlik",
+    "value": "60 mm installation length"
+   },
+   {
+    "label": "Sertifika",
+    "value": "CE certified"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-hanyoung-nux-ax7-2a",
+  "brand": "Hanyoung Nux",
+  "model": "AX7-2A",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Series/Size",
+    "value": "AX7 = 72(W) x 72(H) x 63(D) mm"
+   },
+   {
+    "label": "Input type",
+    "value": "Thermocouple K,J,R,T or RTD Pt100 (selectable)"
+   },
+   {
+    "label": "Output (code 2)",
+    "value": "SSR + Relay1 + Relay2 + Relay3"
+   },
+   {
+    "label": "Control",
+    "value": "PID auto-tuning, P control, ON/OFF control"
+   },
+   {
+    "label": "Supply voltage (code A)",
+    "value": "100-240V AC, 50/60Hz"
+   },
+   {
+    "label": "Sampling cycle",
+    "value": "0.1 sec"
+   },
+   {
+    "label": "Approvals",
+    "value": "CE, RoHS"
+   }
+  ],
+  "product_page_url": "https://hynux.com/product/product_view.php?num=337&lcode=01&pcode=2212100001&mcode=0102&scode=0102001",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-hanyoungnux-ax72a.png",
+  "image_filename": "tempcontrol-hanyoungnux-ax72a_27-10-2026.jpg",
+  "autonics_model": "TK4M-24CR",
+  "autonics_slug": "autonics-tk4m-24cr",
+  "notes": "Official Hanyoung Nux (hynux.com) AX series page with full suffix-code table confirming AX7 (72x72mm) + output code 2 + power code A matches 'AX7-2A'. Product photo on the page shows the AX9 (96x96) unit as the representative family image (identical front-panel design across sizes).",
+  "specs_tr": [
+   {
+    "label": "Seri/Ebat",
+    "value": "AX7 = 72(W) x 72(H) x 63(D) mm"
+   },
+   {
+    "label": "Giriş tipi",
+    "value": "Thermocouple K,J,R,T or RTD Pt100 (selectable)"
+   },
+   {
+    "label": "Çıkış (kod 2)",
+    "value": "SSR + Relay1 + Relay2 + Relay3"
+   },
+   {
+    "label": "Kontrol",
+    "value": "PID oto ayar, P control, ON/OFF control"
+   },
+   {
+    "label": "Besleme gerilimi (kod A)",
+    "value": "100-240V AC, 50/60Hz"
+   },
+   {
+    "label": "Örnekleme döngüsü",
+    "value": "0.1 sec"
+   },
+   {
+    "label": "Onaylar",
+    "value": "CE, RoHS"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-misbus-lc5248-u2-r",
+  "brand": "Misbus",
+  "model": "LC5248-U2-R",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Input type",
+    "value": "Universal: TC (J,K), RTD Pt100, linear current (0/4-20mA) or voltage (0/1-5V)"
+   },
+   {
+    "label": "Output type",
+    "value": "2 outputs - Relay (2A @230VAC/30VDC) or SSR (18VDC,20mA); analog options 0/1-5V,0-10V,0/4-20mA; up to 2 alarm relays"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "85-260VAC/125-300VDC standard (18-36VDC optional)"
+   },
+   {
+    "label": "Display",
+    "value": "Red 4-digit PV (0.4\") + green 4-digit SV (0.28\") display"
+   },
+   {
+    "label": "Control method",
+    "value": "P, PI, PID, ON/OFF with auto-tuning"
+   },
+   {
+    "label": "Package",
+    "value": "1/16 DIN (48x48mm)"
+   }
+  ],
+  "product_page_url": "https://digitalpromoters.com/masibus/pdf/lc5248-at.pdf",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-misbus-lc5248u2r.png",
+  "image_filename": "tempcontrol-misbus-lc5248u2r_27-10-2026.jpg",
+  "autonics_model": "TK4S-12RN",
+  "autonics_slug": "autonics-tk4s-12rn",
+  "notes": "'MISBUS' in the source list is a transcription of the actual brand 'Masibus' (Masibus Automation & Instrumentation, India). Model requested (LC5248-U2-R) is a specific I/O suffix of the LC5248 series; masibus.com itself is behind a bot-check wall, so the official datasheet as hosted by an authorized Indian distributor (digitalpromoters.com) was used, which carries the Masibus brand and part imagery directly from the manufacturer's own datasheet artwork.",
+  "specs_tr": [
+   {
+    "label": "Giriş tipi",
+    "value": "Üniversal: TC (J,K), RTD Pt100, linear current (0/4-20mA) or voltage (0/1-5V)"
+   },
+   {
+    "label": "Çıkış tipi",
+    "value": "2 çıkış - Röle (2A @230VAC/30VDC) or SSR (18VDC,20mA); analog options 0/1-5V,0-10V,0/4-20mA; up to 2 alarm relays"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "85-260VAC/125-300VDC standard (18-36VDC optional)"
+   },
+   {
+    "label": "Gösterge",
+    "value": "Red 4-digit PV (0.4\") + green 4-digit SV (0.28\") gösterge"
+   },
+   {
+    "label": "Kontrol yöntemi",
+    "value": "P, PI, PID, ON/OFF with oto ayar"
+   },
+   {
+    "label": "Paket",
+    "value": "1/16 DIN (48x48mm)"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-nippon-fy400-201000",
+  "brand": "Nippon",
+  "model": "FY400-201000",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Series",
+    "value": "FY series - microcomputer PID program controller"
+   },
+   {
+    "label": "Applications",
+    "value": "Temperature, humidity, flow, pH control"
+   },
+   {
+    "label": "Programming",
+    "value": "18 profiles x 8 segments programmable (ramp/soak)"
+   },
+   {
+    "label": "Communication",
+    "value": "MODBUS protocol (RS485)"
+   },
+   {
+    "label": "Special outputs",
+    "value": "3-wire proportional motor valve control; direct SCR/TRIAC phase or zero-cross firing control"
+   }
+  ],
+  "product_page_url": "https://fa-taie.com.tw/products_62/171.html",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-nippon-fy400201000.png",
+  "image_filename": "tempcontrol-nippon-fy400201000_27-10-2026.jpg",
+  "autonics_model": "TK4S-14CN",
+  "autonics_slug": "autonics-tk4s-14cn",
+  "notes": "'NIPPON' in the source list appears to be a mislabel; this exact model (FY400-201000) is manufactured by TAIE (Taiwan Instrument & Control Co., Ltd), whose official site is fa-taie.com.tw. The site groups all FY-series sizes under one family page/photo rather than per-SKU pages, so electrical specs (input/output/voltage) specific to the '-201000' suffix were not separately confirmed on the official site and are not stated here to avoid fabrication; third-party listings indicate AC 85-265V supply but this was not verified on an official page. Image cropped from the official family photo (smallest/48x48-style unit).",
+  "specs_tr": [
+   {
+    "label": "Seri",
+    "value": "FY series - microcomputer PID program controller"
+   },
+   {
+    "label": "Uygulamalar",
+    "value": "Temperature, humidity, flow, pH control"
+   },
+   {
+    "label": "Programlama",
+    "value": "18 profiles x 8 segments programmable (ramp/soak)"
+   },
+   {
+    "label": "Haberleşme",
+    "value": "MODBUS protocol (RS485)"
+   },
+   {
+    "label": "Özel çıkışlar",
+    "value": "3-kablo proportional motor valve control; direct SCR/TRIAC phase or zero-cross firing control"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-radix-x72a",
+  "brand": "Radix",
+  "model": "X72A",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Input type",
+    "value": "Universal input"
+   },
+   {
+    "label": "Setpoints",
+    "value": "0/1/2/3/4 setpoints"
+   },
+   {
+    "label": "Retransmission output",
+    "value": "Isolated 0/4-20mA or 0-10V DC"
+   },
+   {
+    "label": "Transmitter supply",
+    "value": "24V DC"
+   },
+   {
+    "label": "Communication",
+    "value": "RS485 / MODBUS RTU"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "85-265V AC SMPS"
+   },
+   {
+    "label": "Control method",
+    "value": "ON/OFF control"
+   }
+  ],
+  "product_page_url": "https://radix.co.in/product-categories/pid-controllers",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-radix-x72a.png",
+  "image_filename": "tempcontrol-radix-x72a_27-10-2026.jpg",
+  "autonics_model": "TK4M-14RR",
+  "autonics_slug": "autonics-tk4m-14rr",
+  "notes": "Manufacturer is Radix Electrosystems Pvt Ltd (radix.co.in), India. 'X72A - Programmable ON/OFF Controller' appears to be a legacy model no longer listed in the current catalog (superseded by the NEX range) but its official manufacturer datasheet (hosted on the IndiaMART seller CDN, bearing the Radix brand/logo) was used for specs and the product photo, since it is the only available Radix-branded source for this exact model.",
+  "specs_tr": [
+   {
+    "label": "Giriş tipi",
+    "value": "Üniversal giriş"
+   },
+   {
+    "label": "Ayar noktaları",
+    "value": "0/1/2/3/4 setpoints"
+   },
+   {
+    "label": "Yeniden iletim çıkışı",
+    "value": "Isolated 0/4-20mA or 0-10V DC"
+   },
+   {
+    "label": "Transmiter beslemesi",
+    "value": "24V DC"
+   },
+   {
+    "label": "Haberleşme",
+    "value": "RS485 / MODBUS RTU"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "85-265V AC SMPS"
+   },
+   {
+    "label": "Kontrol yöntemi",
+    "value": "ON/OFF control"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-shimaden-sr1-8p-1w",
+  "brand": "Shimaden",
+  "model": "SR1-8P-1W",
+  "category": "Sıcaklık kontrol cihazları",
+  "kind": "Sıcaklık Kontrol Cihazı",
+  "group": "Muadil sıcaklık kontrol cihazları",
+  "specs": [
+   {
+    "label": "Series/Size",
+    "value": "SR1 = MPU-based auto-tuning PID digital controller, DIN H48 x W48 x D111mm"
+   },
+   {
+    "label": "Input (code 8)",
+    "value": "Multi input: Thermocouple B,R,S,K,E,J,T,N,PLII,WRe5-26,U,L; RTD Pt100/JPt100; voltage/current"
+   },
+   {
+    "label": "Control output (code P)",
+    "value": "SSR drive voltage, 12V DC ±1.5V, 30mA max, proportional cycle 1-120s"
+   },
+   {
+    "label": "Event output (code 1)",
+    "value": "1a contact x 2 points, 240VAC 1A resistive"
+   },
+   {
+    "label": "Option (code W)",
+    "value": "Without additional options"
+   },
+   {
+    "label": "Approvals",
+    "value": "UL, cUL, CE approved"
+   },
+   {
+    "label": "Front panel",
+    "value": "Dust and splash proof, NEMA4X / IP66"
+   }
+  ],
+  "product_page_url": "https://www.shimaden.co.jp/dcms_media/other/en_SR134_c.pdf",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/tempcontrol-shimaden-sr18p1w.png",
+  "image_filename": "tempcontrol-shimaden-sr18p1w_27-10-2026.jpg",
+  "autonics_model": "TK4S-24CN",
+  "autonics_slug": "autonics-tk4s-24cn",
+  "notes": "Official Shimaden Co., Ltd. document (SR1/SR3/SR4 series catalog PDF on shimaden.co.jp); SR1 is not listed among current products on the English product search (superseded by SRS10A/SR23A/etc.) but this official catalog/spec PDF remains published on the manufacturer's own domain. Suffix code fully decoded against the manufacturer's ordering-information table: SR1 (size) + 8 (multi input) + P (SSR output) + 1 (event output) + W (no extra option).",
+  "specs_tr": [
+   {
+    "label": "Seri/Ebat",
+    "value": "SR1 = MPU-based oto ayar PID dijital controller, DIN H48 x W48 x D111mm"
+   },
+   {
+    "label": "Giriş (kod 8)",
+    "value": "Multi giriş: Thermocouple B,R,S,K,E,J,T,N,PLII,WRe5-26,U,L; RTD Pt100/JPt100; voltage/current"
+   },
+   {
+    "label": "Kontrol çıkışı (kod P)",
+    "value": "SSR drive voltage, 12V DC ±1.5V, 30mA max, proportional cycle 1-120s"
+   },
+   {
+    "label": "Event output (kod 1)",
+    "value": "1a contact x 2 points, 240VAC 1A resistive"
+   },
+   {
+    "label": "Option (kod W)",
+    "value": "Without additional options"
+   },
+   {
+    "label": "Onaylar",
+    "value": "UL, cUL, CE approved"
+   },
+   {
+    "label": "Ön panel",
+    "value": "Dust ve splash proof, NEMA4X / IP66"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h5cn-xbn",
+  "brand": "Omron",
+  "model": "H5CN-Xbn",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Quartz Timer (digital, DIN 48x48mm), contact or solid-state output versions"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "AC100-240V 50/60Hz or DC12-48V"
+   },
+   {
+    "label": "Control output",
+    "value": "1c relay contact: 250VAC 3A resistive load; or open-collector transistor output 30VDC/100mA max"
+   },
+   {
+    "label": "Reset",
+    "value": "Power reset (min 0.5s) and external reset/gate input (min pulse 0.02s)"
+   },
+   {
+    "label": "Operating temperature",
+    "value": "-10 to +55°C"
+   },
+   {
+    "label": "Weight",
+    "value": "Approx. 110 g"
+   }
+  ],
+  "product_page_url": "https://www.fa.omron.co.jp/products/family/205/specification/",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h5cnxbn.png",
+  "image_filename": "timer-omron-h5cnxbn_27-10-2026.jpg",
+  "autonics_model": "FS4E-1P4",
+  "autonics_slug": "autonics-fs4e-1p4",
+  "notes": "Order ended March 2025; official successor is Omron H5CC. Specs and photo sourced from the official Omron Japan (fa.omron.co.jp) legacy-product page, since the global omron-ap.com site no longer lists this discontinued family.",
+  "specs_tr": [
+   {
+    "label": "Tip",
+    "value": "Quartz Timer (dijital, DIN 48x48mm), contact or solid-state çıkış versions"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "AC100-240V 50/60Hz or DC12-48V"
+   },
+   {
+    "label": "Kontrol çıkışı",
+    "value": "1c röle contact: 250VAC 3A resistive load; or open-collector transistor çıkış 30VDC/100mA max"
+   },
+   {
+    "label": "Sıfırlama",
+    "value": "Power reset (min 0.5s) ve external reset/gate giriş (min pulse 0.02s)"
+   },
+   {
+    "label": "Çalışma sıcaklığı",
+    "value": "-10 - +55°C"
+   },
+   {
+    "label": "Ağırlık",
+    "value": "Approx. 110 g"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3ban8",
+  "brand": "Omron",
+  "model": "H3BAN8",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Solid-state plug-in timer, 8-pin, analog dial set (0-12s scale shown on unit)"
+   },
+   {
+    "label": "Mounting",
+    "value": "Socket-mount (P2CF/P3GA-compatible 8-pin round base)"
+   },
+   {
+    "label": "Display/setting",
+    "value": "Rotary dial time setting with digital scale markings"
+   }
+  ],
+  "product_page_url": "https://www.fa.omron.co.jp/products/family/2018/",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3ban8.png",
+  "image_filename": "timer-omron-h3ban8_27-10-2026.jpg",
+  "autonics_model": "ATE8-41",
+  "autonics_slug": "autonics-ate8-41",
+  "notes": "H3BA series order ended March 1997 (very old, long-discontinued). Omron's own current product site no longer carries a photo or detailed spec sheet for this family (confirmed 'No Image Available' and only accessories listed) - only the discontinuation listing was found officially. The product photo used here was obtained from an Omron-branded secondary source (the H3BA unit matches Omron's known industrial design/branding) since no studio photo remains on omron-ap.com or fa.omron.co.jp; treat detailed specs as limited/unconfirmed beyond what is stated.",
+  "specs_tr": [
+   {
+    "label": "Tip",
+    "value": "Solid-state plug-in timer, 8-pin, analog dial set (0-12s scale shown on unit)"
+   },
+   {
+    "label": "Montaj",
+    "value": "Socket-mount (P2CF/P3GA-compatible 8-pin round base)"
+   },
+   {
+    "label": "Gösterge/ayar",
+    "value": "Rotary dial time setting with dijital scale markings"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3ba-n8-230vac",
+  "brand": "Omron",
+  "model": "H3BA N8 230VAC",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Solid-state plug-in timer, 8-pin, analog dial set (0-12s scale shown on unit)"
+   },
+   {
+    "label": "Mounting",
+    "value": "Socket-mount (P2CF/P3GA-compatible 8-pin round base)"
+   },
+   {
+    "label": "Display/setting",
+    "value": "Rotary dial time setting with digital scale markings"
+   },
+   {
+    "label": "Rated supply voltage (this suffix)",
+    "value": "230 VAC"
+   }
+  ],
+  "product_page_url": "https://www.fa.omron.co.jp/products/family/2018/",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3ban8230vac.png",
+  "image_filename": "timer-omron-h3ban8230vac_27-10-2026.jpg",
+  "autonics_model": "ATS8-43",
+  "autonics_slug": "autonics-ats8-43",
+  "notes": "Same H3BA family as above (8-pin plug-in timer), 230VAC rated supply variant. Order ended March 1997; no official studio photo remains on Omron's current sites (confirmed 'No Image Available'); image obtained from an Omron-branded secondary source. Detailed modern spec sheet not available on manufacturer site for this legacy part.",
+  "specs_tr": [
+   {
+    "label": "Tip",
+    "value": "Solid-state plug-in timer, 8-pin, analog dial set (0-12s scale shown on unit)"
+   },
+   {
+    "label": "Montaj",
+    "value": "Socket-mount (P2CF/P3GA-compatible 8-pin round base)"
+   },
+   {
+    "label": "Gösterge/ayar",
+    "value": "Rotary dial time setting with dijital scale markings"
+   },
+   {
+    "label": "Nominal besleme gerilimi (this suffix)",
+    "value": "230 VAC"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3cr-h8l-coil-ac200-220-240v-50-60hz-0-05-12s-s-series",
+  "brand": "Omron",
+  "model": "H3CR-H8L COIL: AC200/220/240V - 50/60Hz ,0.05~12s (S series)",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Pin type",
+    "value": "8-pin (H3CR-H8L)"
+   },
+   {
+    "label": "Output type",
+    "value": "Relay output, DPDT"
+   },
+   {
+    "label": "Operating/Reset method",
+    "value": "Instantaneous operation / Time-limit reset"
+   },
+   {
+    "label": "Time range (S-series)",
+    "value": "0.05 to 12 s (two scales: 0.6s and 1.2s full-scale)"
+   },
+   {
+    "label": "Control output rating",
+    "value": "5A at 250VAC/30VDC resistive load (AC-15/AC-13/DC-13)"
+   },
+   {
+    "label": "Mounting",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Rated supply voltage (this coil)",
+    "value": "200 to 240 VAC (50/60 Hz)"
+   }
+  ],
+  "product_page_url": "https://www.omron-ap.com/products/family/1891/specification.html",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3crh8lcoilac200220240v5060hz005to12ssseries.png",
+  "image_filename": "timer-omron-h3crh8lcoilac200220240v5060hz005to12ssseries_27-10-2026.jpg",
+  "autonics_model": "ATS8-41",
+  "autonics_slug": "autonics-ats8-41",
+  "notes": "Official Omron H3CR-H (DIN 48x48mm Power OFF-delay Timer) family page and specification table (omron-ap.com). H3CR-H8L is the 8-pin, S-series (up to 12s) variant; this entry is the 200-240VAC coil version.",
+  "specs_tr": [
+   {
+    "label": "Pin tipi",
+    "value": "8-pin (H3CR-H8L)"
+   },
+   {
+    "label": "Çıkış tipi",
+    "value": "Röle çıkış, DPDT"
+   },
+   {
+    "label": "Çalışma/sıfırlama yöntemi",
+    "value": "Instantaneous operation / Time-limit reset"
+   },
+   {
+    "label": "Time range (S-series)",
+    "value": "0.05 - 12 s (two scales: 0.6s ve 1.2s full-scale)"
+   },
+   {
+    "label": "Kontrol çıkışı değeri",
+    "value": "5A at 250VAC/30VDC resistive load (AC-15/AC-13/DC-13)"
+   },
+   {
+    "label": "Montaj",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Nominal besleme gerilimi (this coil)",
+    "value": "200 - 240 VAC (50/60 Hz)"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3cr-h8l-coil-ac-dc24v-50-60hz-0-05-12s-s-series",
+  "brand": "Omron",
+  "model": "H3CR-H8L COIL: AC/DC24V - 50/60Hz ,0.05~12s (S series)",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Pin type",
+    "value": "8-pin (H3CR-H8L)"
+   },
+   {
+    "label": "Output type",
+    "value": "Relay output, DPDT"
+   },
+   {
+    "label": "Operating/Reset method",
+    "value": "Instantaneous operation / Time-limit reset"
+   },
+   {
+    "label": "Time range (S-series)",
+    "value": "0.05 to 12 s (two scales: 0.6s and 1.2s full-scale)"
+   },
+   {
+    "label": "Control output rating",
+    "value": "5A at 250VAC/30VDC resistive load (AC-15/AC-13/DC-13)"
+   },
+   {
+    "label": "Mounting",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Rated supply voltage (this coil)",
+    "value": "24 VAC/VDC (50/60 Hz)"
+   }
+  ],
+  "product_page_url": "https://www.omron-ap.com/products/family/1891/specification.html",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3crh8lcoilacdc24v5060hz005to12ssseries.png",
+  "image_filename": "timer-omron-h3crh8lcoilacdc24v5060hz005to12ssseries_27-10-2026.jpg",
+  "autonics_model": "ATS8-21",
+  "autonics_slug": "autonics-ats8-21",
+  "notes": "Official Omron H3CR-H family page and specification table (omron-ap.com). Same H3CR-H8L (8-pin, S-series) variant as above, with 24VAC/VDC coil.",
+  "specs_tr": [
+   {
+    "label": "Pin tipi",
+    "value": "8-pin (H3CR-H8L)"
+   },
+   {
+    "label": "Çıkış tipi",
+    "value": "Röle çıkış, DPDT"
+   },
+   {
+    "label": "Çalışma/sıfırlama yöntemi",
+    "value": "Instantaneous operation / Time-limit reset"
+   },
+   {
+    "label": "Time range (S-series)",
+    "value": "0.05 - 12 s (two scales: 0.6s ve 1.2s full-scale)"
+   },
+   {
+    "label": "Kontrol çıkışı değeri",
+    "value": "5A at 250VAC/30VDC resistive load (AC-15/AC-13/DC-13)"
+   },
+   {
+    "label": "Montaj",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Nominal besleme gerilimi (this coil)",
+    "value": "24 VAC/VDC (50/60 Hz)"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3cr-a8e-coil-24-48vac-24-48vdc-50-60hz",
+  "brand": "Omron",
+  "model": "H3CR-A8E COIL: 24-48VAC/24-48VDC ,50/60Hz",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Operating modes",
+    "value": "A: ON-delay, B: Flicker OFF start, B2: Flicker ON start, E: Interval, J: One-shot (power-supply start modes for 8-pin)"
+   },
+   {
+    "label": "Pin type",
+    "value": "8-pin"
+   },
+   {
+    "label": "Time ranges",
+    "value": "Standard 0.05s-300h or Double 0.1s-600h depending on scale"
+   },
+   {
+    "label": "Mounting",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Approvals",
+    "value": "UL508, CSA C22.2 No.14, EN61812-1, CE"
+   },
+   {
+    "label": "Output type (A8E)",
+    "value": "Relay output SPDT (time-limit) + relay output SPDT (instantaneous)"
+   },
+   {
+    "label": "Rated supply voltage",
+    "value": "24 to 48 VAC/VDC"
+   },
+   {
+    "label": "Control output rating",
+    "value": "5A at 250VAC/30VDC, 0.15A at 125VDC resistive load"
+   }
+  ],
+  "product_page_url": "https://www.omron-ap.com/products/family/193/specification.html",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3cra8ecoil2448vac2448vdc5060hz.png",
+  "image_filename": "timer-omron-h3cra8ecoil2448vac2448vdc5060hz_27-10-2026.jpg",
+  "autonics_model": "ATS8-23",
+  "autonics_slug": "autonics-ats8-23",
+  "notes": "Official Omron H3CR-A (Solid-state Multi-functional Timer) family specification page (omron-ap.com). H3CR-A8E is the 8-pin variant with both time-limit and instantaneous relay outputs, 24-48VAC/VDC coil.",
+  "specs_tr": [
+   {
+    "label": "Çalışma modları",
+    "value": "A: ON-delay, B: Flicker OFF start, B2: Flicker ON start, E: Interval, J: One-shot (power-supply start modes for 8-pin)"
+   },
+   {
+    "label": "Pin tipi",
+    "value": "8-pin"
+   },
+   {
+    "label": "Zaman aralıkları",
+    "value": "Standard 0.05s-300h or Double 0.1s-600h depending on scale"
+   },
+   {
+    "label": "Montaj",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Onaylar",
+    "value": "UL508, CSA C22.2 No.14, EN61812-1, CE"
+   },
+   {
+    "label": "Çıkış tipi (A8E)",
+    "value": "Röle çıkış SPDT (time-limit) + röle çıkış SPDT (instantaneous)"
+   },
+   {
+    "label": "Nominal besleme gerilimi",
+    "value": "24 - 48 VAC/VDC"
+   },
+   {
+    "label": "Kontrol çıkışı değeri",
+    "value": "5A at 250VAC/30VDC, 0.15A at 125VDC resistive load"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3cr-a8-coil-100-240vac-100-125vdc-50-60hz",
+  "brand": "Omron",
+  "model": "H3CR-A8 COIL: 100-240VAC/100-125VDC ,50/60Hz",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Operating modes",
+    "value": "A: ON-delay, B: Flicker OFF start, B2: Flicker ON start, E: Interval, J: One-shot (power-supply start modes for 8-pin)"
+   },
+   {
+    "label": "Pin type",
+    "value": "8-pin"
+   },
+   {
+    "label": "Time ranges",
+    "value": "Standard 0.05s-300h or Double 0.1s-600h depending on scale"
+   },
+   {
+    "label": "Mounting",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Approvals",
+    "value": "UL508, CSA C22.2 No.14, EN61812-1, CE"
+   },
+   {
+    "label": "Output type (A8)",
+    "value": "Relay output DPDT"
+   },
+   {
+    "label": "Rated supply voltage",
+    "value": "100 to 240 VAC / 100 to 125 VDC"
+   },
+   {
+    "label": "Control output rating",
+    "value": "5A at 250VAC/30VDC, 0.15A at 125VDC resistive load"
+   }
+  ],
+  "product_page_url": "https://www.omron-ap.com/products/family/193/specification.html",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3cra8coil100240vac100125vdc5060hz.png",
+  "image_filename": "timer-omron-h3cra8coil100240vac100125vdc5060hz_27-10-2026.jpg",
+  "autonics_model": "ATS8-43",
+  "autonics_slug": "autonics-ats8-43",
+  "notes": "Official Omron H3CR-A family specification page (omron-ap.com). H3CR-A8 is the 8-pin DPDT relay-output variant, 100-240VAC/100-125VDC coil.",
+  "specs_tr": [
+   {
+    "label": "Çalışma modları",
+    "value": "A: ON-delay, B: Flicker OFF start, B2: Flicker ON start, E: Interval, J: One-shot (power-supply start modes for 8-pin)"
+   },
+   {
+    "label": "Pin tipi",
+    "value": "8-pin"
+   },
+   {
+    "label": "Zaman aralıkları",
+    "value": "Standard 0.05s-300h or Double 0.1s-600h depending on scale"
+   },
+   {
+    "label": "Montaj",
+    "value": "DIN track / surface / flush mounting"
+   },
+   {
+    "label": "Onaylar",
+    "value": "UL508, CSA C22.2 No.14, EN61812-1, CE"
+   },
+   {
+    "label": "Çıkış tipi (A8)",
+    "value": "Röle çıkış DPDT"
+   },
+   {
+    "label": "Nominal besleme gerilimi",
+    "value": "100 - 240 VAC / 100 - 125 VDC"
+   },
+   {
+    "label": "Kontrol çıkışı değeri",
+    "value": "5A at 250VAC/30VDC, 0.15A at 125VDC resistive load"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3cr-a-coil-100-240vac-100-125vdc-50-60hz",
+  "brand": "Omron",
+  "model": "H3CR-A COIL: 100-240VAC/100-125VDC ,50/60Hz",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Pin type",
+    "value": "11-pin"
+   },
+   {
+    "label": "Operating modes",
+    "value": "A: ON-delay, B: Flicker OFF start, B2: Flicker ON start, C/D/G: Signal ON/OFF-delay, E: Interval, J: One-shot"
+   },
+   {
+    "label": "Output type",
+    "value": "Relay output DPDT (time-limit)"
+   },
+   {
+    "label": "Rated supply voltage",
+    "value": "100 to 240 VAC / 100 to 125 VDC"
+   },
+   {
+    "label": "Control output rating",
+    "value": "5A at 250VAC/30VDC, 0.15A at 125VDC resistive load"
+   },
+   {
+    "label": "Mounting",
+    "value": "DIN track / surface / flush mounting"
+   }
+  ],
+  "product_page_url": "https://www.omron-ap.com/products/family/193/specification.html",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3cracoil100240vac100125vdc5060hz.png",
+  "image_filename": "timer-omron-h3cracoil100240vac100125vdc5060hz_27-10-2026.jpg",
+  "autonics_model": "ATS11-43",
+  "autonics_slug": "autonics-ats11-43",
+  "notes": "Official Omron H3CR-A family specification page (omron-ap.com). Base H3CR-A is the 11-pin, 8-mode multifunctional timer, 100-240VAC/100-125VDC coil, matching the Autonics ATS11-43 (11-pin) equivalent.",
+  "specs_tr": [
+   {
+    "label": "Pin tipi",
+    "value": "11-pin"
+   },
+   {
+    "label": "Çalışma modları",
+    "value": "A: ON-delay, B: Flicker OFF start, B2: Flicker ON start, C/D/G: Signal ON/OFF-delay, E: Interval, J: One-shot"
+   },
+   {
+    "label": "Çıkış tipi",
+    "value": "Röle çıkış DPDT (time-limit)"
+   },
+   {
+    "label": "Nominal besleme gerilimi",
+    "value": "100 - 240 VAC / 100 - 125 VDC"
+   },
+   {
+    "label": "Kontrol çıkışı değeri",
+    "value": "5A at 250VAC/30VDC, 0.15A at 125VDC resistive load"
+   },
+   {
+    "label": "Montaj",
+    "value": "DIN track / surface / flush mounting"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-omron-h3y",
+  "brand": "Omron",
+  "model": "H3Y",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Miniature solid-state timer, compatible with MY relay socket/pinout"
+   },
+   {
+    "label": "Rated supply voltage",
+    "value": "100-120VAC, 200-230VAC (50/60Hz), 24VAC (50/60Hz), or 12/24/48/125/100-110VDC depending on model"
+   },
+   {
+    "label": "Output (H3Y-2)",
+    "value": "1 relay contact, 5A at 250VAC resistive load"
+   },
+   {
+    "label": "Output (H3Y-4)",
+    "value": "2 relay contacts, 3A at 250VAC resistive load"
+   },
+   {
+    "label": "Time ranges",
+    "value": "0.1s to 10min / 0.5s to 3h depending on scale selection"
+   },
+   {
+    "label": "Standards",
+    "value": "Conforms to EN61812-1, UL and CSA approved"
+   }
+  ],
+  "product_page_url": "https://www.omron-ap.com/products/family/196/specification.html",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-omron-h3y.png",
+  "image_filename": "timer-omron-h3y_27-10-2026.jpg",
+  "autonics_model": "ATM4-260S",
+  "autonics_slug": "autonics-atm4-260s",
+  "notes": "Official Omron H3Y family page and specification table (omron-ap.com).",
+  "specs_tr": [
+   {
+    "label": "Tip",
+    "value": "Miniature solid-state timer, compatible with MY röle socket/pinout"
+   },
+   {
+    "label": "Nominal besleme gerilimi",
+    "value": "100-120VAC, 200-230VAC (50/60Hz), 24VAC (50/60Hz), or 12/24/48/125/100-110VDC depending on model"
+   },
+   {
+    "label": "Çıkış (H3Y-2)",
+    "value": "1 röle contact, 5A at 250VAC resistive load"
+   },
+   {
+    "label": "Çıkış (H3Y-4)",
+    "value": "2 röle contacts, 3A at 250VAC resistive load"
+   },
+   {
+    "label": "Zaman aralıkları",
+    "value": "0.1s to 10min / 0.5s to 3h depending on scale selection"
+   },
+   {
+    "label": "Standartlar",
+    "value": "Conforms to EN61812-1, UL ve CSA approved"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-xt5042",
+  "brand": "Selec",
+  "model": "XT5042",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "4-digit, 7-segment LED dual display"
+   },
+   {
+    "label": "Functions/Ranges",
+    "value": "7 functions, 9 time ranges"
+   },
+   {
+    "label": "Output contact",
+    "value": "2 C/O SPST relay"
+   },
+   {
+    "label": "Operating modes",
+    "value": "Interval, ON Delay, Cyclic ON/OFF first, Forward-Pause-Reverse, Instantaneous+Delayed Batch"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "85 to 270V AC / 24V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "48 x 48 mm, panel mount"
+   },
+   {
+    "label": "Certification",
+    "value": "CE, UL"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/7-functions-pulse-start-dual-set-point-universal-power-supply1",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-selec-xt5042.png",
+  "image_filename": "timer-selec-xt5042_27-10-2026.jpg",
+  "autonics_model": "CT4S-2P4",
+  "autonics_slug": "autonics-ct4s-2p4",
+  "notes": "Exact model match found on official Selec site (selec.com), product code XT5042 (variant XT5042-CU).",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "4-digit, 7-segment LED dual gösterge"
+   },
+   {
+    "label": "Fonksiyonlar/Aralıklar",
+    "value": "7 functions, 9 time ranges"
+   },
+   {
+    "label": "Çıkış kontağı",
+    "value": "2 C/O SPST röle"
+   },
+   {
+    "label": "Çalışma modları",
+    "value": "Interval, ON Delay, Cyclic ON/OFF first, Forward-Pause-Reverse, Instantaneous+Delayed Batch"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "85 - 270V AC / 24V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 48 mm, panel montaj"
+   },
+   {
+    "label": "Sertifika",
+    "value": "CE, UL"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-xt-264-3",
+  "brand": "Selec",
+  "model": "XT-264-3",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "3-digit, 7-segment LED, single white display"
+   },
+   {
+    "label": "Relay contact",
+    "value": "2 C/O SPDT"
+   },
+   {
+    "label": "Time ranges",
+    "value": "7 time ranges, 9.99/99.9/999 sec, min, hr"
+   },
+   {
+    "label": "Operating modes",
+    "value": "ON delay, Interval"
+   },
+   {
+    "label": "Setting",
+    "value": "Thumbwheel push-wheel switches"
+   },
+   {
+    "label": "Size",
+    "value": "72 x 72 mm, panel mount, short depth"
+   },
+   {
+    "label": "Certification",
+    "value": "CE"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/thumbwheel-timer-with-on-delay-interval-function-72x72-mm",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-selec-xt2643.png",
+  "image_filename": "timer-selec-xt2643_27-10-2026.jpg",
+  "autonics_model": "LE3SA",
+  "autonics_slug": "autonics-le3sa",
+  "notes": "No exact 'XT-264-3' product code found on selec.com; the current official product in this family is XT264A (72x72mm thumbwheel timer), which matches the 3-digit/72x72mm description implied by the '-264-3' naming. Treated as the closest official match; noted as a possible legacy naming variant.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "3-digit, 7-segment LED, single white gösterge"
+   },
+   {
+    "label": "Röle kontağı",
+    "value": "2 C/O SPDT"
+   },
+   {
+    "label": "Zaman aralıkları",
+    "value": "7 time ranges, 9.99/99.9/999 sec, min, hr"
+   },
+   {
+    "label": "Çalışma modları",
+    "value": "ON delay, Interval"
+   },
+   {
+    "label": "Ayar",
+    "value": "Thumbwheel push-wheel switches"
+   },
+   {
+    "label": "Ebat",
+    "value": "72 x 72 mm, panel montaj, short derinlik"
+   },
+   {
+    "label": "Sertifika",
+    "value": "CE"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-xt543-2p4",
+  "brand": "Selec",
+  "model": "XT543-2P4",
+  "category": "Zamanlayıcılar",
+  "kind": "Zamanlayıcı",
+  "group": "Muadil zamanlayıcılar",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "3-digit LED display"
+   },
+   {
+    "label": "Relay contact",
+    "value": "2 C/O DPDT"
+   },
+   {
+    "label": "Time ranges",
+    "value": "9 time ranges, 0-999hr max"
+   },
+   {
+    "label": "Operating modes",
+    "value": "ON Delay, Interval, Cyclic ON First, Cyclic OFF First"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "48 x 48 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/4-functions-9-time-ranges-48x48mm-size",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/timer-selec-xt5432p4.png",
+  "image_filename": "timer-selec-xt5432p4_27-10-2026.jpg",
+  "autonics_model": "CT4S-2P4",
+  "autonics_slug": "autonics-ct4s-2p4",
+  "notes": "Official Selec product code found is XT543-N (current catalog name); no exact '-2P4' suffix variant is listed in the product-variants table on selec.com, so this is treated as the closest official match for the XT543 family (single display, 9 time ranges, 48x48mm, 2 C/O relay output).",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "3-digit LED gösterge"
+   },
+   {
+    "label": "Röle kontağı",
+    "value": "2 C/O DPDT"
+   },
+   {
+    "label": "Zaman aralıkları",
+    "value": "9 time ranges, 0-999hr max"
+   },
+   {
+    "label": "Çalışma modları",
+    "value": "ON Delay, Interval, Cyclic ON First, Cyclic OFF First"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 48 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-xc1200",
+  "brand": "Selec",
+  "model": "XC1200",
+  "category": "Sayıcılar",
+  "kind": "Sayıcı",
+  "group": "Muadil sayıcılar",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "6-digit counter LED + 5-digit RPM/rate indicator"
+   },
+   {
+    "label": "Relay contact",
+    "value": "2 C/O DPDT"
+   },
+   {
+    "label": "Counting direction",
+    "value": "Up, Down, Bi-directional, Quadrature"
+   },
+   {
+    "label": "Input speed",
+    "value": "0-30Hz / 0-2.5kHz / 0-5kHz (sensor type dependent)"
+   },
+   {
+    "label": "Sensor type",
+    "value": "NPN, PNP, potential-free contact, encoder"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "90 to 270V AC/DC"
+   },
+   {
+    "label": "Size",
+    "value": "48 x 96 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/led-counter-rate-indicator",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/counter-selec-xc1200.png",
+  "image_filename": "counter-selec-xc1200_27-10-2026.jpg",
+  "autonics_model": "CT6Y-2P4",
+  "autonics_slug": "autonics-ct6y-2p4",
+  "notes": "Exact model match found on official Selec site (selec.com), product code XC1200.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "6-digit counter LED + 5-digit RPM/rate indicator"
+   },
+   {
+    "label": "Röle kontağı",
+    "value": "2 C/O DPDT"
+   },
+   {
+    "label": "Sayma yönü",
+    "value": "Up, Down, Bi-directional, Quadrature"
+   },
+   {
+    "label": "Giriş hızı",
+    "value": "0-30Hz / 0-2.5kHz / 0-5kHz (sensor type dependent)"
+   },
+   {
+    "label": "Sensör tipi",
+    "value": "NPN, PNP, potential-free contact, encoder"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "90 - 270V AC/DC"
+   },
+   {
+    "label": "Ebat",
+    "value": "48 x 96 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-xc22b-4-230",
+  "brand": "Selec",
+  "model": "XC22B-4-230",
+  "category": "Sayıcılar",
+  "kind": "Sayıcı",
+  "group": "Muadil sayıcılar",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "4-digit LED, thumbwheel preset"
+   },
+   {
+    "label": "Relay contact",
+    "value": "2 C/O DPDT, 5A @ 230VAC/24VDC"
+   },
+   {
+    "label": "Counting range",
+    "value": "9999 counts, Up counting"
+   },
+   {
+    "label": "Operating modes",
+    "value": "On Delay, Interval, Auto Reset"
+   },
+   {
+    "label": "Sensor type",
+    "value": "NPN, PNP, potential-free contacts"
+   },
+   {
+    "label": "Input speed",
+    "value": "0-30Hz / 0-5kHz"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "230V AC"
+   },
+   {
+    "label": "Size",
+    "value": "72 x 72 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/digital-counters-memory-retention",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/counter-selec-xc22b4230.png",
+  "image_filename": "counter-selec-xc22b4230_27-10-2026.jpg",
+  "autonics_model": "CT6M-2P4",
+  "autonics_slug": "autonics-ct6m-2p4",
+  "notes": "Official Selec product code XC22B (4-digit thumbwheel preset counter, 72x72mm); confirmed 230V AC supply on the official specification table matches the '-4-230' voltage-variant suffix in the requested model name.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "4-digit LED, thumbwheel preset"
+   },
+   {
+    "label": "Röle kontağı",
+    "value": "2 C/O DPDT, 5A @ 230VAC/24VDC"
+   },
+   {
+    "label": "Sayma aralığı",
+    "value": "9999 counts, Up counting"
+   },
+   {
+    "label": "Çalışma modları",
+    "value": "On Delay, Interval, Auto Reset"
+   },
+   {
+    "label": "Sensör tipi",
+    "value": "NPN, PNP, potential-free contacts"
+   },
+   {
+    "label": "Giriş hızı",
+    "value": "0-30Hz / 0-5kHz"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "230V AC"
+   },
+   {
+    "label": "Ebat",
+    "value": "72 x 72 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-selec-xc22b",
+  "brand": "Selec",
+  "model": "XC22B",
+  "category": "Sayıcılar",
+  "kind": "Sayıcı",
+  "group": "Muadil sayıcılar",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "4-digit LED, thumbwheel preset"
+   },
+   {
+    "label": "Relay contact",
+    "value": "2 C/O DPDT, 5A @ 230VAC/24VDC"
+   },
+   {
+    "label": "Counting range",
+    "value": "9999 counts, Up counting"
+   },
+   {
+    "label": "Operating modes",
+    "value": "On Delay, Interval, Auto Reset"
+   },
+   {
+    "label": "Sensor type",
+    "value": "NPN, PNP, potential-free contacts"
+   },
+   {
+    "label": "Input speed",
+    "value": "0-30Hz / 0-5kHz"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "230V AC"
+   },
+   {
+    "label": "Size",
+    "value": "72 x 72 mm, panel mount"
+   }
+  ],
+  "product_page_url": "https://www.selec.com/product-details/digital-counters-memory-retention",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/counter-selec-xc22b.png",
+  "image_filename": "counter-selec-xc22b_27-10-2026.jpg",
+  "autonics_model": "CT4M-2P4, CT6M-2P4",
+  "autonics_slug": "autonics-ct4m-2p4-ct6m-2p4",
+  "notes": "Exact model match found on official Selec site (selec.com), product code XC22B (base model, same family/photo as the -4-230 voltage variant above).",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "4-digit LED, thumbwheel preset"
+   },
+   {
+    "label": "Röle kontağı",
+    "value": "2 C/O DPDT, 5A @ 230VAC/24VDC"
+   },
+   {
+    "label": "Sayma aralığı",
+    "value": "9999 counts, Up counting"
+   },
+   {
+    "label": "Çalışma modları",
+    "value": "On Delay, Interval, Auto Reset"
+   },
+   {
+    "label": "Sensör tipi",
+    "value": "NPN, PNP, potential-free contacts"
+   },
+   {
+    "label": "Giriş hızı",
+    "value": "0-30Hz / 0-5kHz"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "230V AC"
+   },
+   {
+    "label": "Ebat",
+    "value": "72 x 72 mm, panel montaj"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-eurotherm-6100a",
+  "brand": "Eurotherm",
+  "model": "6100A",
+  "category": "Kayıt cihazları",
+  "kind": "Kayıt Cihazı",
+  "group": "Muadil kayıt cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "6100A: 5.5in touchscreen (6180A: 12.1in XGA)"
+   },
+   {
+    "label": "Inputs",
+    "value": "6100A: up to 18 universal input channels (6180A: up to 48)"
+   },
+   {
+    "label": "Recording/Trend speed",
+    "value": "8 Hz"
+   },
+   {
+    "label": "Communications",
+    "value": "EtherNet/IP Server, Modbus TCP/RTU Master & Slave, FTP/SFTP"
+   },
+   {
+    "label": "Storage",
+    "value": "Onboard Flash + Compact Flash/SD card; tamper-resistant binary data format"
+   },
+   {
+    "label": "Protection",
+    "value": "IP66 front panel"
+   },
+   {
+    "label": "Compliance",
+    "value": "21 CFR Part 11 audit trail, electronic signatures, security manager"
+   }
+  ],
+  "product_page_url": "https://www.eurotherm.com/products/recorders-and-data-acquisition/graphic-recorders/6100a-6180a-paperless-graphic-recorder/",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/recorder-eurotherm-6100a.png",
+  "image_filename": "recorder-eurotherm-6100a_27-10-2026.jpg",
+  "autonics_model": "KRN100-06000-00-OS",
+  "autonics_slug": "autonics-krn100-06000-00-os",
+  "notes": "Official Eurotherm (by Watlow) product page. Commercial status on the page is listed as 'To be discontinued'. Image shows the 6100A unit specifically (cropped from the product gallery, which also includes the larger 6180A).",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "6100A: 5.5in touchscreen (6180A: 12.1in XGA)"
+   },
+   {
+    "label": "Girişler",
+    "value": "6100A: up to 18 universal giriş channels (6180A: up to 48)"
+   },
+   {
+    "label": "Kayıt/trend hızı",
+    "value": "8 Hz"
+   },
+   {
+    "label": "Haberleşme",
+    "value": "EtherNet/IP Server, Modbus TCP/RTU Master & Slave, FTP/SFTP"
+   },
+   {
+    "label": "Saklama",
+    "value": "Onboard Flash + Compact Flash/SD card; tamper-resistant binary data format"
+   },
+   {
+    "label": "Koruma",
+    "value": "IP66 front panel"
+   },
+   {
+    "label": "Uygunluk",
+    "value": "21 CFR Part 11 audit trail, electronic signatures, security manager"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-hanyoung-nux-gr200-8no",
+  "brand": "Hanyoung Nux",
+  "model": "GR200-8NO",
+  "category": "Kayıt cihazları",
+  "kind": "Kayıt Cihazı",
+  "group": "Muadil kayıt cihazları",
+  "specs": [
+   {
+    "label": "Display",
+    "value": "5.7in touch panel TFT-LCD, 640x480"
+   },
+   {
+    "label": "Input channels",
+    "value": "2, 4, 8, or 12 universal inputs (thermocouple, RTD, DC voltage) depending on type"
+   },
+   {
+    "label": "Sampling period",
+    "value": "250 ms"
+   },
+   {
+    "label": "Alarm/relay outputs",
+    "value": "Up to 12 relay outputs, 5A/250VAC max rating"
+   },
+   {
+    "label": "Memory",
+    "value": "350 MB internal (non-volatile) + SD card up to 8GB"
+   },
+   {
+    "label": "Communication",
+    "value": "RS-422/485 (PCLINK, Modbus ASCII/RTU) + Ethernet (Modbus TCP/IP)"
+   },
+   {
+    "label": "Power",
+    "value": "100-240VAC, 50/60Hz, 25VA max"
+   }
+  ],
+  "product_page_url": "https://hanyoungnux.com/product/product_view.php?pcode=2305100001&viewDiv=data",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/recorder-hanyoungnux-gr2008no.png",
+  "image_filename": "recorder-hanyoungnux-gr2008no_27-10-2026.jpg",
+  "autonics_model": "KRN1000-0811-0S",
+  "autonics_slug": "autonics-krn1000-0811-0s",
+  "notes": "Official Hanyoung Nux (hanyoungnux.com) GR200A series Touch Panel Graphic Recorder page. The '-8NO' suffix (8 channels) corresponds to the 8-channel configuration option of this family; full ordering/suffix code table available on the official page.",
+  "specs_tr": [
+   {
+    "label": "Gösterge",
+    "value": "5.7in touch panel TFT-LCD, 640x480"
+   },
+   {
+    "label": "Giriş kanalı",
+    "value": "2, 4, 8, or 12 universal giriş (termokupl, RTD, DC voltage) depending on type"
+   },
+   {
+    "label": "Örnekleme periyodu",
+    "value": "250 ms"
+   },
+   {
+    "label": "Alarm/röle çıkışları",
+    "value": "Up to 12 röle çıkış, 5A/250VAC max rating"
+   },
+   {
+    "label": "Bellek",
+    "value": "350 MB internal (non-volatile) + SD card up to 8GB"
+   },
+   {
+    "label": "Haberleşme",
+    "value": "RS-422/485 (PCLINK, Modbus ASCII/RTU) + Ethernet (Modbus TCP/IP)"
+   },
+   {
+    "label": "Besleme",
+    "value": "100-240VAC, 50/60Hz, 25VA max"
+   }
+  ]
+ },
+ {
+  "slug": "muadil-radix-scm201",
+  "brand": "Radix",
+  "model": "SCM201",
+  "category": "Kayıt cihazları",
+  "kind": "Kayıt Cihazı",
+  "group": "Muadil kayıt cihazları",
+  "specs": [
+   {
+    "label": "Inputs",
+    "value": "Up to 8 universal analog inputs (TC, RTD, mV, V, mA, digital), software-programmable per channel"
+   },
+   {
+    "label": "Communication",
+    "value": "Isolated RS485 Modbus RTU (up to 38400 baud) and/or Ethernet Modbus TCP/FTP/HTTP"
+   },
+   {
+    "label": "Datalogging",
+    "value": "21-day internal data log, CSV format, 1-1440 min adjustable interval"
+   },
+   {
+    "label": "Display",
+    "value": "2x16 character alphanumeric LCD"
+   },
+   {
+    "label": "Supply voltage",
+    "value": "85-265VAC or 20-30VAC/DC"
+   },
+   {
+    "label": "Enclosure",
+    "value": "DIN-rail mount, IP20"
+   }
+  ],
+  "product_page_url": "https://radix.co.in/products/detail/SCM204?name=8-channel-universal-analog-input-module&menuPath=null",
+  "image_src_path": "/tmp/claude-0/-home-claude/6d537e68-884e-5815-9c6d-4ab963769df3/scratchpad/muadil/gorseller/recorder-radix-scm201.png",
+  "image_filename": "recorder-radix-scm201_27-10-2026.jpg",
+  "autonics_model": "KRN1000-0811-0S",
+  "autonics_slug": "autonics-krn1000-0811-0s",
+  "notes": "Exact model 'SCM201' is not listed in Radix's current online catalog (radix.co.in); the closest and only currently-listed product in the same 'Ethernet & Datalogging / Analog Input Module' family is the SCM204 (8-channel version), used here as the representative official source. A related SCM211 (4-channel, channel-isolated) variant is also mentioned on the same manufacturer page. Treated as closest official family match, not an exact SKU confirmation.",
+  "specs_tr": [
+   {
+    "label": "Girişler",
+    "value": "Up to 8 universal analog giriş (TC, RTD, mV, V, mA, dijital), software-programmable per channel"
+   },
+   {
+    "label": "Haberleşme",
+    "value": "Isolated RS485 Modbus RTU (up to 38400 baud) ve/or Ethernet Modbus TCP/FTP/HTTP"
+   },
+   {
+    "label": "Veri kaydı",
+    "value": "21-day internal data log, CSV format, 1-1440 min adjustable interval"
+   },
+   {
+    "label": "Gösterge",
+    "value": "2x16 character alphanumeric LCD"
+   },
+   {
+    "label": "Besleme gerilimi",
+    "value": "85-265VAC or 20-30VAC/DC"
+   },
+   {
+    "label": "Koruma sınıfı",
+    "value": "DIN-rail mount, IP20"
+   }
+  ]
+ }
+]
