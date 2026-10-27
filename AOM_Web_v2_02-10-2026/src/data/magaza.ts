@@ -54,7 +54,7 @@ import { IKINCI_EL_PREFIX, ikinciElProducts } from "./ikinci-el";
 import { gefranProducts } from "./gefran";
 import { yaskawaRobotProducts } from "./yaskawa-robotlar";
 import { yaskawaPlcProducts } from "./yaskawa-kontrol-plc";
-import { acGenelKompaktProducts } from "./yaskawa-ac-genel-kompakt";
+import { acGenelKompaktProducts, acGenelKompaktKodUrunleri } from "./yaskawa-ac-genel-kompakt";
 import { acOzelUygulamaProducts } from "./yaskawa-ac-ozel-uygulama";
 import { acRejProducts } from "./yaskawa-ac-rejeneratif";
 import { s7MotorProducts } from "./yaskawa-servo-sigma7-motor";
@@ -185,6 +185,9 @@ export const products: Product[] = [
   // Yaskawa AC sürücüler, Faz 2 (20-10-2026): genel/kompakt (GA500/GA700/A1000/V1000/J1000/L1000V — 273 kod),
   // özel uygulama (CR700/L1000A/HV600/LA500 — 138 kod), rejeneratif (D1000/U1000/U1000 Panel — 92 kod).
   ...acGenelKompaktProducts,
+  // Yaskawa AC sürücü genel kompakt: sipariş kodu başına bireysel ürün sayfası (27-10-2026, Mert kararı:
+  // "Bu ürünleri de fotoğraflı ürün haline getirmeliyiz. Çünkü googleda çıkmıyor.") — bkz. yaskawa-ac-genel-kompakt.ts
+  ...acGenelKompaktKodUrunleri,
   ...acOzelUygulamaProducts,
   ...acRejProducts,
   // Yaskawa Servo, Faz 3 (20-10-2026): Sigma-7 motor (SGM7A/G/J — 1087 kod), Sigma-7 sürücü (SGD7S/W/C +

@@ -100,3 +100,65 @@ function build(s: AcGenelSeries): Product {
 }
 
 export const acGenelKompaktProducts: Product[] = AC_GENEL_SERIES.map(build);
+
+// Sipariş kodu başına bireysel ürün sayfası (27-10-2026, Mert kararı):
+// "CIMR-VCBA0018BAA bu ürün bizim sitede yok mu?" sorusu üzerine — bu kod daha önce sadece kod tablosunda
+// (ac-surucu-genel-kodlari/[seri]) satır olarak vardı, kendi URL'si/başlığı/meta açıklaması olan bir sayfası
+// yoktu, bu yüzden Google'da aratıldığında çıkmıyordu. Mert: "Bu ürünleri de fotoğraflı ürün haline
+// getirmeliyiz. Çünkü googleda çıkmıyor." — kapsam: Yaskawa AC sürücü genel kompakt serilerinin TAMAMI
+// (GA500, GA700, A1000, V1000, J1000, L1000V = 273 kod).
+// Fotoğraf: kod bazında gövde/ebat bilgisi üreticinin kart verisinde yok (bkz. dosya başındaki not), bu
+// yüzden serinin zaten sitede kullanılan tek gerçek ürün görseli (s.img) tüm kodlarda temsili görsel olarak
+// kullanılır — tıpkı Autonics DPU3 serisinde aynı gövdedeki modellerin aynı fotoğrafı paylaşması gibi.
+// Üstteki 6 "seri özeti" ürünü (acGenelKompaktProducts, kod tablosu sayfasına yönlendirir) silinmedi; bu yeni
+// 273 ürün onlara ek olarak eklendi, böylece hem genel "V1000 serisi" araması hem de tam kod araması
+// ("CIMR-VCBA0018BAA") için ayrı ayrı indekslenebilir sayfa var.
+function buildKod(s: AcGenelSeries, row: (string | number)[]): Product {
+  const [model, guc, akim, duty, gerilim] = row as [string, number, number, string, string];
+  const slug = `yaskawa-${model.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+  const dutyLabel = duty === "HD" ? "HD (ağır hizmet)" : duty === "ND" ? "ND (normal hizmet)" : duty;
+  const gerilimBilinmiyor = gerilim === "Belirtilmemiş";
+  return {
+    slug,
+    brand: "Yaskawa",
+    brandLogo: { src: "/oem/yaskawa_03-10-2026.png", w: 626, h: 160 },
+    model,
+    name: `${s.title}: AC sürücü, ${guc} kW`,
+    category: "AC Sürücüler",
+    summary: `Yaskawa ${s.key} serisi AC sürücü sipariş kodu. Güç: ${guc} kW, akım: ${akim} A (${dutyLabel})${gerilimBilinmiyor ? "" : `, gerilim sınıfı: ${gerilim}`}.`,
+    image: { src: `/magaza/${s.img}`, alt: `Yaskawa ${s.key} serisi AC sürücü (temsili görsel)` },
+    imageNote: `Görsel Yaskawa'nın resmi ${s.key} serisi ürün görselidir ve serinin temsili görselidir; seri içindeki kodlar arasında gövde/ebat farkı olabilir.`,
+    specs: [
+      { label: "Model / sipariş kodu", value: model },
+      { label: "Güç", value: `${guc} kW (${duty})` },
+      { label: "Akım", value: `${akim} A (${duty})` },
+      { label: "Gerilim sınıfı", value: gerilimBilinmiyor ? "Belirtilmemiş (üretici kart verisinde yer almıyor)" : gerilim },
+      ...s.specs
+        .filter(([label]) => !["Marka", "Seri", "Kategori", "Sipariş kodu sayısı", "Güç aralığı", "Akım aralığı", "Gerilim sınıfları"].includes(label))
+        .map(([label, value]) => ({ label, value })),
+    ],
+    source: { label: "Yaskawa seri sayfası", url: s.categoryUrl },
+    specNote: "Teknik veriler Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır. Sipariş kodu üreticinin sitesinde fiyatla birlikte yayınlanmamaktadır; güncel fiyat ve teslim süresi için teklif isteyin.",
+    series: `Yaskawa ${s.key}`,
+    current: akim,
+    groupTitle: `Yaskawa ${s.key} serisi`,
+    groupOrder: AC_GENEL_SERIES.indexOf(s),
+    kindLabel: "AC Sürücü",
+    seoTitle: `Yaskawa ${model} AC Sürücü Sipariş Kodu`,
+    metaDescription: `Yaskawa ${model}: ${s.key} serisi AC sürücü, ${guc} kW, ${akim} A (${dutyLabel})${gerilimBilinmiyor ? "" : `, ${gerilim}`}. Teklif için Ankara merkezli AOM ile iletişime geçin.`.slice(0, 300),
+    seoText: [
+      `Yaskawa ${model}, ${s.key} serisi bir AC sürücü sipariş kodudur. ${s.note}`,
+      `Bu koda ait temel değerler: ${guc} kW güç, ${akim} A akım (${dutyLabel})${gerilimBilinmiyor ? "" : `, ${gerilim} gerilim sınıfı`}. AOM, AC sürücü seçimi, panoya entegrasyon ve devreye alma konusunda destek verir; bu kod için teklif isteyebilirsiniz.`,
+    ],
+    keywords: [model, `Yaskawa ${model}`, s.key, `Yaskawa ${s.key}`, `${s.key} AC sürücü`, "Yaskawa AC sürücü", "AC drive", "frekans konvertörü"],
+  };
+}
+
+// Çakışma kontrolü: src/data/surucu_11-10-2026.json (yedek-parça modülü, 11-10-2026) bu 273 koddan 2'sini
+// zaten ayrı bir ürün olarak içeriyor (CIMR-VC4A0011BAA, CIMR-VC4A0004BAA) — aynı slug üretilirdi. O sayfalar
+// zaten canlı olduğundan burada tekrar üretilmiyor (çakışma yok, veri kaybı yok).
+const YEDEK_PARCA_COD_CAKISMA = new Set(["CIMR-VC4A0011BAA", "CIMR-VC4A0004BAA"]);
+
+export const acGenelKompaktKodUrunleri: Product[] = AC_GENEL_SERIES.flatMap((s) =>
+  s.codes.filter((row) => !YEDEK_PARCA_COD_CAKISMA.has(String(row[0]))).map((row) => buildKod(s, row)),
+);
