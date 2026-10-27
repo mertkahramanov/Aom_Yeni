@@ -208,6 +208,17 @@ export const products: Product[] = [
   ...ikinciElProducts,
 ];
 
+// Muadil ürünlerin kategori içi sırası (27-10-2026, Mert: "buralardaki kapak resimlerini her zaman en
+// iyi marka ve resimden seç"): muadil-kontrol-urunler_27-10-2026.ts'teki ürünlerde groupOrder
+// atanmadığı için varsayılan 0 ile Autonics serilerinin (groupOrder onlarca/yüzlerce, bkz. kontrol.ts)
+// ÖNÜNE geçiyorlardı — bu da kategori kapak/kutu görseli olarak ilk sıradaki rastgele bir muadil
+// fotoğrafın seçilmesine yol açtı (ör. "To be discontinued" rozetli Eurotherm 6100A, "Kayıt cihazları"
+// kutusunda görünüyordu). Muadil ürünler artık her zaman kendi kategorisindeki Autonics serilerinden
+// SONRA listelenir; kategori kapak görseli böylece AOM'un ana markası Autonics'in kendi (temiz, tutarlı
+// formatta) fotoğrafından seçilir. İleride eklenecek benzer "muadil/alternatif" partilerinde de aynı
+// yüksek groupOrder deseni izlenmeli.
+for (const p of muadilKontrolProducts) if (p.groupOrder === undefined) p.groupOrder = 9999;
+
 // Üretici sayfasındaki teknik tablo ile doğrulanan modeller.
 // 500A, 250A, 150A: Mert'in ekran görüntüleri; 600A, 400A, 350R, 200R, 200N, 120R: Autonics ürün sayfası, Chrome ile okundu (03-10-2026).
 // Hepsinde tablo aynı: güç tüketimi ≤ 60 W, onaylar CE/UKCA/cULus/RoHS/EAC, ebat ve ünite (paket) ağırlığı gövdeye göre.
@@ -261,17 +272,36 @@ const groupLabel = (p: Product) => {
   }
   return p.series ?? "Diğer";
 };
-// Görseli olmayan ürünler (06-10-2026, Mert kararı): kendi kategorilerinden ayrılıp "Diğer ürünler" kategorisinde,
-// eski kategori adıyla gruplanarak listelenir. Görsel eklendiğinde ürün otomatik olarak kendi kategorisine döner.
+// Görseli olmayan ürünler — ESKİ DAVRANIŞ (06-10-2026 kararı, artık kullanılmıyor): kendi
+// kategorilerinden ayrılıp "Diğer ürünler" kategorisinde, eski kategori adıyla gruplanarak
+// listeleniyordu. export const OTHER_CATEGORY adı, geriye dönük uyumluluk (CATEGORY_INFO, i18n
+// çeviri sözlüğü, storeCategories sıralaması) için korunuyor; artık hiçbir ürün bu kategoriye
+// taşınmıyor (aşağıdaki yeni mekanizmaya bkz.), bu yüzden "Diğer ürünler" bölümü normal şartlarda
+// boş görünür.
 export const OTHER_CATEGORY = "Diğer ürünler";
-const catOrder = new Map<string, number>();
-for (const p of products) if (!catOrder.has(p.category)) catOrder.set(p.category, catOrder.size);
+
+// GÖRSELİ OLMAYAN ÜRÜNLER — AOM küre placeholder (27-10-2026, Mert kararı: "lenzeleri neden uygun
+// kategorilere yerleştirmedin. Diğer ürünlerdeki bütün ürünleri uygun kategorilere yerleştir.
+// Mutlaka orijinal ürün resmini bul, bulamazsan, Aom Küre resmi koyabilirsin."): Yukarıdaki eski
+// davranış tersine çevrildi. Görseli olmayan her ürün artık KENDİ GERÇEK KATEGORİSİNDE kalır;
+// kendisine geçici görsel olarak AOM'un kayıtlı küre logosu (public/magaza/aom-kure-gorsel-yok_27-10-2026.jpg,
+// AOM'un claude.ai tasarım sistemindeki "Logolar/aom-globe.png" kaynağından standart ürün fotoğrafı
+// formatına getirildi: beyaz zemin, kırpma, %22 kenar boşluğu, kalite 95) atanır. Gerçek fotoğraf
+// bulunup bir ürüne eklendiğinde bu placeholder otomatik olarak geçersiz kalır (üstüne yazılır) —
+// aşağıdaki döngü sadece `p.image` boşsa çalışır.
+// Not: dış sitelerden ikili görsel indirme bu sandbox ortamında engelleniyor (bash/curl ve WebFetch
+// ile ayrı ayrı doğrulandı, "SERVER_ERROR"/403 policy denial) — bu yüzden gerçek ürün fotoğrafları
+// tek tek bulunup indirilemiyor; bulunabilen gerçek görsel URL'leri Mert'e CSV olarak ayrıca verildi.
+const PLACEHOLDER_IMAGE_SRC = "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg";
+const PLACEHOLDER_IMAGE_NOTE =
+  "Bu üründe henüz orijinal fabrika fotoğrafı yok; gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor.";
 for (const p of products) {
-  if (p.image || p.used) continue; // 2. el ürünler kendi bölümünde kalır
-  const from = p.category;
-  p.groupTitle = p.brand ? `${from} · ${p.brand}` : from; // kategori + marka grubu (Mert, 11-10-2026)
-  p.groupOrder = catOrder.get(from) ?? 99;
-  p.category = OTHER_CATEGORY;
+  if (p.image || p.used) continue; // 2. el ürünler kendi bölümünde kalır (görselsiz de olsa, mevcut davranış korunuyor)
+  p.image = {
+    src: PLACEHOLDER_IMAGE_SRC,
+    alt: `AOM küre logosu (${[p.brand, p.model].filter(Boolean).join(" ")} için henüz orijinal fotoğraf yok)`,
+  };
+  if (!p.imageNote) p.imageNote = PLACEHOLDER_IMAGE_NOTE;
 }
 
 export function storeCategories() {

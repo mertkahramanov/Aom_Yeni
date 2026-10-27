@@ -3,13 +3,16 @@
 // Araştırma yöntemi: 4 ayrı ajan, lenze.com ve yetkili distribütör sayfaları (eltra-trade, inverterdrive,
 // automation24, radwell, vb-steuerungstechnik, adegis, vb.) üzerinden gerçek ürün verisi ve görseli arandı.
 // Uydurma veri yoktur: bulunamayan/teyit edilemeyen alanlar specs içinde "Bulunamadı" veya notes alanında
-// dürüstçe belirtilmiştir (bkz. her ürünün "notes" / specNote alanı).
-// GÖRSEL DURUMU: Bu oturumun bulut sandbox'ı harici görsel indirmeyi engelliyor (aynı kısıtlama, muadil
-// ürünler projesinde de yaşandı). Bu yüzden ürünlerin `image` alanı ŞİMDİLİK BOŞ bırakıldı — görsel
-// eklenene kadar ürünler otomatik olarak "Diğer ürünler" bölümünde görünür (bkz. magaza.ts'teki mekanizma),
-// ürün sayfaları yine de kendi URL/başlık/meta açıklamasıyla canlı ve Google'da indekslenebilir haldedir.
-// Görsel URL'leri Mert'e ayrıca CSV olarak verildi; indirip yüklediğinde `image` alanı eklenip ürünler
-// otomatik olarak kendi kategorisine dönecektir.
+// dürüstçe belirtilmiştir (bkz. her ürünün specNote/seoText alanı).
+// GÖRSEL DURUMU (güncelleme 27-10-2026, Mert: "Lenzeleri neden uygun kategorilere yerleştirmedin ...
+// mutlaka orijinal ürün resmini bul, bulamazsan AOM Küre resmi koyabilirsin"): Bu oturumun bulut sandbox'ı
+// harici sitelerden (lenze.com, eltra-trade, inverterdrive, ebay, vb.) ikili görsel indirmeyi engelliyor —
+// bu kısıt WebFetch ile de ayrıca doğrulandı, altyapısal ve kalıcı bir sınır. Bu yüzden 50 üründe de
+// GERÇEK fotoğraf yerine AOM küre logosu (public/magaza/aom-kure-gorsel-yok_27-10-2026.jpg) geçici
+// görsel olarak kullanıldı; bu sayede ürünler "Diğer ürünler"den çıkıp kendi gerçek kategorilerine
+// (AC Sürücüler, Servo Motor ve Sürücüler, vb.) yerleşti. 42/50 ürün için gerçek görsel URL'si
+// bulunmuştu (CSV olarak Mert'e verildi); Mert gerçek fotoğrafları yükleyince bu placeholder `image`
+// alanı güncellenerek değiştirilmelidir.
 import type { Product } from "./magaza";
 
 export const lenzeProducts: Product[] = [
@@ -20,6 +23,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I51AE137F10V10000S, i510 cabinet frequency inverter. anma güç: 0,37 kW (0,5 HP); çıkış akımı: 1,3 / 1,1 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I51AE137F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "0,37 kW (0,5 HP)" },
       { label: "Çıkış akımı", value: "1,3 / 1,1 A" },
@@ -46,6 +51,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I51AE211B10V10000S, i510 cabinet frequency inverter. anma güç: 1,1 kW (1,5 HP); çıkış akımı: 6 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I51AE211B10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "1,1 kW (1,5 HP)" },
       { label: "Çıkış akımı", value: "6 A" },
@@ -72,6 +79,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I51AE215B10V10000S, i510 cabinet frequency inverter. anma güç: 1,5 kW (2 HP); çıkış akımı: 7 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I51AE215B10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "1,5 kW (2 HP)" },
       { label: "Çıkış akımı", value: "7 A" },
@@ -98,6 +107,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I51AE222B10V10000S, i510 cabinet frequency inverter. anma güç: 2,2 kW (3 HP); çıkış akımı: 9,6 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I51AE222B10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "2,2 kW (3 HP)" },
       { label: "Çıkış akımı", value: "9,6 A" },
@@ -124,6 +135,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I51AE255F10V10000S, i510 cabinet frequency inverter. anma güç: 5,5 kW (7,5 HP); hafif hizmet (LD) 7,5 kW; çıkış akımı: 13 / 11 A (LD: 15,6 / 13,2 A).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I51AE255F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "5,5 kW (7,5 HP); hafif hizmet (LD) 7,5 kW" },
       { label: "Çıkış akımı", value: "13 / 11 A (LD: 15,6 / 13,2 A)" },
@@ -150,6 +163,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I51AE311F10V10001S, i510 cabinet frequency inverter. anma güç: 11 kW (15 HP); hafif hizmet (LD) 15 kW; çıkış akımı: 23,5 / 21 A (LD: 28,2 / 25,2 A).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I51AE311F10V10001S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "11 kW (15 HP); hafif hizmet (LD) 15 kW" },
       { label: "Çıkış akımı", value: "23,5 / 21 A (LD: 28,2 / 25,2 A)" },
@@ -176,6 +191,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I51BE240F10V10000S, i510 cabinet frequency inverter. anma güç: 4,0 kW (5 HP); besleme gerilimi: 3/PE AC 400/480 V.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I51BE240F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "4,0 kW (5 HP)" },
       { label: "Besleme gerilimi", value: "3/PE AC 400/480 V" },
@@ -202,6 +219,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55AE155F1001000KS, i550 cabinet frequency inverter. anma güç: 0,55 kW ('155' güç koduyla çözüldü; aynı ailenin I55AE155F10V1000LS modelinde '0,55 kW' olarak doğrudan teyit edildi); besleme gerilimi: 3/PE AC 400/480 V ('F' gerilim sınıfı harfi tüm seri için geçerli).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55AE155F1001000KS için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "0,55 kW ('155' güç koduyla çözüldü; aynı ailenin I55AE155F10V1000LS modelinde '0,55 kW' olarak doğrudan teyit edildi)" },
       { label: "Besleme gerilimi", value: "3/PE AC 400/480 V ('F' gerilim sınıfı harfi tüm seri için geçerli)" },
@@ -228,6 +247,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55AE175B10V10000S, i550 cabinet frequency inverter. anma güç: 0,75 kW; besleme gerilimi: 230/240 V, tek faz giriş.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55AE175B10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "0,75 kW" },
       { label: "Besleme gerilimi", value: "230/240 V, tek faz giriş" },
@@ -254,6 +275,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55AE175F1001000KS, i550 cabinet frequency inverter. anma güç: 0,75 kW ('175' güç koduyla çözüldü; serinin birden çok kardeş kodunda 0,75 kW olarak teyit edildi); besleme gerilimi: 3/PE AC 400/480 V ('F' gerilim sınıfı harfi tüm seri için geçerli).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55AE175F1001000KS için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "0,75 kW ('175' güç koduyla çözüldü; serinin birden çok kardeş kodunda 0,75 kW olarak teyit edildi)" },
       { label: "Besleme gerilimi", value: "3/PE AC 400/480 V ('F' gerilim sınıfı harfi tüm seri için geçerli)" },
@@ -280,6 +303,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55AE315F10V10000S, i550 cabinet frequency inverter. anma güç: 15 kW (20 HP); hafif hizmet (LD) 18,5 kW; çıkış akımı: 32 / 27 A (LD: 38,4 / 32,4 A).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55AE315F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "15 kW (20 HP); hafif hizmet (LD) 18,5 kW" },
       { label: "Çıkış akımı", value: "32 / 27 A (LD: 38,4 / 32,4 A)" },
@@ -306,6 +331,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55AE322F10V10000S, i550 cabinet frequency inverter. anma güç: 22 kW (30 HP); hafif hizmet (LD) 30 kW; çıkış akımı: 47 / 40,4 A (LD: 56,4 / 48,5 A).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55AE322F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "22 kW (30 HP); hafif hizmet (LD) 30 kW" },
       { label: "Çıkış akımı", value: "47 / 40,4 A (LD: 56,4 / 48,5 A)" },
@@ -332,6 +359,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55AE345F10V10000S, i550 cabinet frequency inverter. anma güç: 45 kW (60 HP); hafif hizmet (LD) 55 kW; çıkış akımı: 89 / 77 A (LD: 107 / 92,4 A).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55AE345F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "45 kW (60 HP); hafif hizmet (LD) 55 kW" },
       { label: "Çıkış akımı", value: "89 / 77 A (LD: 107 / 92,4 A)" },
@@ -358,6 +387,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55AE411F10V10000S, i550 cabinet frequency inverter. anma güç: 110 kW (150 HP); hafif hizmet (LD) 132 kW; çıkış akımı: 212 / 180 A (LD: 254 / 216 A).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55AE411F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "110 kW (150 HP); hafif hizmet (LD) 132 kW" },
       { label: "Çıkış akımı", value: "212 / 180 A (LD: 254 / 216 A)" },
@@ -384,6 +415,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I55BE318F10V10000S, i550 cabinet frequency inverter. anma güç: 18,5 kW (25 HP); hafif hizmet (LD) 22 kW; çıkış akımı: 40 / 34 A (LD: 48 / 40,8 A).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I55BE318F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "18,5 kW (25 HP); hafif hizmet (LD) 22 kW" },
       { label: "Çıkış akımı", value: "40 / 34 A (LD: 48 / 40,8 A)" },
@@ -410,6 +443,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze I95AE222F1AV10Z020, i950 cabinet servo inverter. anma güç: 2,2 kW (3 HP); çıkış akımı: 5,6 / 4,8 A (en yakın teyitli kardeş koda dayanır, bkz. not).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I95AE222F1AV10Z020 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "2,2 kW (3 HP)" },
       { label: "Çıkış akımı", value: "5,6 / 4,8 A (en yakın teyitli kardeş koda dayanır, bkz. not)" },
@@ -436,6 +471,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze I95AE240F1AV10Z020, i950 cabinet servo inverter. anma güç: 4,0 kW (5 HP); çıkış akımı: 9,5 / 8,2 A (en yakın teyitli kardeş koda dayanır, bkz. not).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I95AE240F1AV10Z020 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma güç", value: "4,0 kW (5 HP)" },
       { label: "Çıkış akımı", value: "9,5 / 8,2 A (en yakın teyitli kardeş koda dayanır, bkz. not)" },
@@ -462,6 +499,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze I5CA5002000VA0000S, Lenze i500/i550 Control Unit – Standard I/O. ürün tipi: Kontrol ünitesi (i500/i550 modüler sürücü ailesinin 'beyin' modülü); haberleşme / fieldbus: Yok (sadece standart dijital/analog I/O).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I5CA5002000VA0000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün tipi", value: "Kontrol ünitesi (i500/i550 modüler sürücü ailesinin 'beyin' modülü)" },
       { label: "Haberleşme / Fieldbus", value: "Yok (sadece standart dijital/analog I/O)" },
@@ -489,6 +528,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze I5CA5003000VA0000S, Lenze i500/i550 Control Unit – Application I/O. ürün tipi: Kontrol ünitesi, genişletilmiş (Application) I/O'lu, Standard I/O modülünün yerine kullanılabilir; haberleşme / fieldbus: Yok.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I5CA5003000VA0000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün tipi", value: "Kontrol ünitesi, genişletilmiş (Application) I/O'lu, Standard I/O modülünün yerine kullanılabilir" },
       { label: "Haberleşme / Fieldbus", value: "Yok" },
@@ -515,6 +556,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze I5CA5C02000VA0000S, Lenze i500/i550 Control Unit – CANopen. ürün tipi: Kontrol ünitesi, CANopen fieldbus arayüzlü, standart I/O; haberleşme / fieldbus: CANopen.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I5CA5C02000VA0000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün tipi", value: "Kontrol ünitesi, CANopen fieldbus arayüzlü, standart I/O" },
       { label: "Haberleşme / Fieldbus", value: "CANopen" },
@@ -541,6 +584,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze I5CA5T02000VA0070S, Lenze i500/i550 Control Unit – EtherCAT. ürün tipi: Kontrol ünitesi, EtherCAT fieldbus arayüzlü, standart I/O (aile: I5CA5T...); haberleşme / fieldbus: EtherCAT.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I5CA5T02000VA0070S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün tipi", value: "Kontrol ünitesi, EtherCAT fieldbus arayüzlü, standart I/O (aile: I5CA5T...)" },
       { label: "Haberleşme / Fieldbus", value: "EtherCAT" },
@@ -567,6 +612,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze I5CA5W02000VA0000S, Lenze i500/i550 Control Unit – Modbus RTU. ürün tipi: Kontrol ünitesi, Modbus-RTU fieldbus arayüzlü, standart I/O; haberleşme / fieldbus: Modbus RTU (RS485).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I5CA5W02000VA0000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün tipi", value: "Kontrol ünitesi, Modbus-RTU fieldbus arayüzlü, standart I/O" },
       { label: "Haberleşme / Fieldbus", value: "Modbus RTU (RS485)" },
@@ -592,6 +639,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze I5DBE275F10V10000S, Lenze i550 Power Unit. ürün tipi: i550 serisi modüler sürücünün GÜÇ ÜNİTESİ (power unit) — kontrol ünitesi (I5CA...) ile birlikte tam bir frekans invertörü oluşturur; güç: 7.5 kW / 10 HP.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I5DBE275F10V10000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün tipi", value: "i550 serisi modüler sürücünün GÜÇ ÜNİTESİ (power unit) — kontrol ünitesi (I5CA...) ile birlikte tam bir frekans invertörü oluşturur" },
       { label: "Güç", value: "7.5 kW / 10 HP" },
@@ -621,6 +670,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze I5MASAV000000S, Lenze i500/i550 Safety Module – STO. ürün tipi: Takılabilir (plug-in) güvenlik modülü; i550 kontrol ünitesi ile güç ünitesi arasına takılır; güvenlik fonksiyonu: Safe Torque Off (STO) — motor torkunu güvenli şekilde kesen temel güvenlik fonksiyonu.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze I5MASAV000000S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün tipi", value: "Takılabilir (plug-in) güvenlik modülü; i550 kontrol ünitesi ile güç ünitesi arasına takılır" },
       { label: "Güvenlik fonksiyonu", value: "Safe Torque Off (STO) — motor torkunu güvenli şekilde kesen temel güvenlik fonksiyonu" },
@@ -649,6 +700,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACMSE0054SA1ETR, Lenze i700 Servo Inverter. ürün ailesi: Lenze i700 modüler servo sürücü sistemi - Eksen Modülü (Achsmodul); montaj tipi: C = Schaltschrank (kontrol panosu içine, kabine montaj).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACMSE0054SA1ETR için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün ailesi", value: "Lenze i700 modüler servo sürücü sistemi - Eksen Modülü (Achsmodul)" },
       { label: "Montaj tipi", value: "C = Schaltschrank (kontrol panosu içine, kabine montaj)" },
@@ -681,6 +734,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACMSE0054SA2ETR, Lenze i700 Servo Inverter. ürün ailesi: Lenze i700 modüler servo sürücü sistemi - Çift Eksen Modülü; maks. çıkış akımı (her eksen): 5.0 A / 5.0 A (A/B kanalları).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACMSE0054SA2ETR için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ürün ailesi", value: "Lenze i700 modüler servo sürücü sistemi - Çift Eksen Modülü" },
       { label: "Maks. çıkış akımı (her eksen)", value: "5.0 A / 5.0 A (A/B kanalları)" },
@@ -709,6 +764,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACMSE0104SA1ETR, Lenze i700 Servo Inverter. maks. çıkış akımı (imax): 10.0 A; nominal çıkış akımı (in): 5.0 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACMSE0104SA1ETR için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Maks. çıkış akımı (Imax)", value: "10.0 A" },
       { label: "Nominal çıkış akımı (IN)", value: "5.0 A" },
@@ -735,6 +792,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACMSE0204SA1ETR, Lenze i700 Servo Inverter. maks. çıkış akımı (imax): 20.0 A; nominal çıkış akımı (in): 10.0 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACMSE0204SA1ETR için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Maks. çıkış akımı (Imax)", value: "20.0 A" },
       { label: "Nominal çıkış akımı (IN)", value: "10.0 A" },
@@ -765,6 +824,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACMSE0324SA1ETR, Lenze i700 Servo Inverter. maks. çıkış akımı (imax): 32.0 A; nominal çıkış akımı (in): 16.0 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACMSE0324SA1ETR için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Maks. çıkış akımı (Imax)", value: "32.0 A" },
       { label: "Nominal çıkış akımı (IN)", value: "16.0 A" },
@@ -791,6 +852,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACMSE0324SA2ETR, Lenze i700 Servo Inverter. maks. çıkış akımı (her eksen): 32.0 A / 32.0 A; nominal çıkış akımı (her eksen): 16.0 A / 16.0 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACMSE0324SA2ETR için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Maks. çıkış akımı (her eksen)", value: "32.0 A / 32.0 A" },
       { label: "Nominal çıkış akımı (her eksen)", value: "16.0 A / 16.0 A" },
@@ -817,6 +880,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACMSE0644SA1ETR, Lenze i700 Servo Inverter. maks. çıkış akımı (imax): 64.0 A (resmi tablo) / 64 A (bağımsız distribütör ilanı ile teyit edildi); nominal çıkış akımı (in): 32.0 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACMSE0644SA1ETR için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Maks. çıkış akımı (Imax)", value: "64.0 A (resmi tablo) / 64 A (bağımsız distribütör ilanı ile teyit edildi)" },
       { label: "Nominal çıkış akımı (IN)", value: "32.0 A" },
@@ -847,6 +912,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Sürücü",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze E70ACPSE0604S, Lenze i700 Servo Inverter. nominal dc-bara akımı: 60.0 A; maks. dc-bara akımı: 90.0 A.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70ACPSE0604S için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Nominal DC-bara akımı", value: "60.0 A" },
       { label: "Maks. DC-bara akımı", value: "90.0 A" },
@@ -878,6 +945,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze E70AZEVK001, Lenze i700 Montaj/Bağlantı Seti. i̇çerik (genel aile tanımı): Fişli (plug-in) terminaller, ekranlama (shield) sacları ve ekran terminalleri, bir sonraki eksene bağlantı için 100mm'lik EtherCAT kablosu; kullanım amacı: i700 eksen/güç modüllerinin kontrol panosuna montajı ve kablo/ekranlama bağlantısı için aksesuar seti.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70AZEVK001 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "İçerik (genel aile tanımı)", value: "Fişli (plug-in) terminaller, ekranlama (shield) sacları ve ekran terminalleri, bir sonraki eksene bağlantı için 100mm'lik EtherCAT kablosu" },
       { label: "Kullanım amacı", value: "i700 eksen/güç modüllerinin kontrol panosuna montajı ve kablo/ekranlama bağlantısı için aksesuar seti" },
@@ -902,6 +971,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze E70AZEVK003, Lenze i700 Montaj/Bağlantı Seti. i̇çerik (genel aile tanımı): Fişli terminaller, ekranlama sacları/terminalleri, 100mm EtherCAT bağlantı kablosu; kullanım amacı: i700 eksen/güç modülü montaj ve bağlantı aksesuar seti.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70AZEVK003 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "İçerik (genel aile tanımı)", value: "Fişli terminaller, ekranlama sacları/terminalleri, 100mm EtherCAT bağlantı kablosu" },
       { label: "Kullanım amacı", value: "i700 eksen/güç modülü montaj ve bağlantı aksesuar seti" },
@@ -926,6 +997,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze E70AZEVK004, Lenze i700 Montaj/Bağlantı Seti. i̇çerik (genel aile tanımı): Fişli terminaller, ekranlama sacları/terminalleri, 100mm EtherCAT bağlantı kablosu; kullanım amacı: i700 eksen/güç modülü montaj ve bağlantı aksesuar seti.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70AZEVK004 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "İçerik (genel aile tanımı)", value: "Fişli terminaller, ekranlama sacları/terminalleri, 100mm EtherCAT bağlantı kablosu" },
       { label: "Kullanım amacı", value: "i700 eksen/güç modülü montaj ve bağlantı aksesuar seti" },
@@ -948,6 +1021,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze E70AZEVK005, Lenze i700 Güç Besleme Modülü için Montaj/Bağlantı Seti. i̇çerik: Güç besleme modülü (ACPSE/ACPDE) için fişli terminaller, ekranlama sacları/terminalleri ve bağlantı kablosu; kullanım amacı: i700 güç besleme (power supply) modülünün panoya montajı/bağlantısı için aksesuar seti.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70AZEVK005 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "İçerik", value: "Güç besleme modülü (ACPSE/ACPDE) için fişli terminaller, ekranlama sacları/terminalleri ve bağlantı kablosu" },
       { label: "Kullanım amacı", value: "i700 güç besleme (power supply) modülünün panoya montajı/bağlantısı için aksesuar seti" },
@@ -972,6 +1047,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze E70AZEVK006, Lenze i700 Montaj/Bağlantı Seti. i̇çerik (genel aile tanımı): Fişli terminaller, ekranlama sacları/terminalleri, bağlantı kablosu (seri genel tanımı); kullanım amacı: i700 eksen/güç modülü montaj ve bağlantı aksesuar seti - muhtemelen 60A güç modülü veya 'paralel bağlantı' seti (kesin değil).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E70AZEVK006 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "İçerik (genel aile tanımı)", value: "Fişli terminaller, ekranlama sacları/terminalleri, bağlantı kablosu (seri genel tanımı)" },
       { label: "Kullanım amacı", value: "i700 eksen/güç modülü montaj ve bağlantı aksesuar seti - muhtemelen 60A güç modülü veya 'paralel bağlantı' seti (kesin değil)" },
@@ -994,6 +1071,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze EZAEBK1001, Lenze Keypad / Operatör Paneli. tür: Tuş takımlı operatör paneli (keypad), sürücü üzerine takılan tip; ekran: Arka aydınlatmalı grafik ekran (backlit graphic display).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze EZAEBK1001 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Tür", value: "Tuş takımlı operatör paneli (keypad), sürücü üzerine takılan tip" },
       { label: "Ekran", value: "Arka aydınlatmalı grafik ekran (backlit graphic display)" },
@@ -1023,6 +1102,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze E84AVTCE5514SX0, Lenze 8400 TopLine. güç (tipik motor gücü): 0.55 kW; şebeke gerilimi: 3/PE AC 400/500 V.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E84AVTCE5514SX0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Güç (tipik motor gücü)", value: "0.55 kW" },
       { label: "Şebeke gerilimi", value: "3/PE AC 400/500 V" },
@@ -1049,6 +1130,8 @@ export const lenzeProducts: Product[] = [
     name: "AC Sürücü",
     category: "AC Sürücüler",
     summary: "Lenze E84AVTCE7512SX0, Lenze 8400 TopLine. güç (tipik motor gücü): 0.75 kW; şebeke gerilimi: 1/N/PE AC 230/240 V (tek faz).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze E84AVTCE7512SX0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Güç (tipik motor gücü)", value: "0.75 kW" },
       { label: "Şebeke gerilimi", value: "1/N/PE AC 230/240 V (tek faz)" },
@@ -1076,6 +1159,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze EPM-S131, Lenze I/O System 1000. modül tipi: Bus coupler (saha veri yolu kuplörü); fieldbus protokolü: EtherCAT (CoE).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze EPM-S131 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Modül tipi", value: "Bus coupler (saha veri yolu kuplörü)" },
       { label: "Fieldbus protokolü", value: "EtherCAT (CoE)" },
@@ -1106,6 +1191,8 @@ export const lenzeProducts: Product[] = [
     name: "Aksesuar",
     category: "Sürücü ve Kontrol Aksesuarları",
     summary: "Lenze EPM-S403, Lenze I/O System 1000. modül tipi: Analog giriş modülü, 4 kanal; sinyal aralığı: 0/4...20 mA akım girişi.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze EPM-S403 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Modül tipi", value: "Analog giriş modülü, 4 kanal" },
       { label: "Sinyal aralığı", value: "0/4...20 mA akım girişi" },
@@ -1134,6 +1221,8 @@ export const lenzeProducts: Product[] = [
     name: "Kontrolör",
     category: "Kontrol Sistemleri (PLC)",
     summary: "Lenze C30GAC0000F3G0, Lenze c300 Controller. i̇şlemci: ARM Cortex A8, 800 MHz; i̇şletim sistemi: Windows Embedded Compact 7.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze C30GAC0000F3G0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "İşlemci", value: "ARM Cortex A8, 800 MHz" },
       { label: "İşletim sistemi", value: "Windows Embedded Compact 7" },
@@ -1162,6 +1251,8 @@ export const lenzeProducts: Product[] = [
     name: "Operatör Paneli (HMI)",
     category: "Grafik paneller (HMI)",
     summary: "Lenze P30GAP40300F3G0, Lenze p300 Operatör Paneli. ekran: 4.3\" (10.9 cm), rezistif tek-dokunmatik, 480 x 272 piksel (kod içindeki '40300' bu 4.3\" varyantına işaret ediyor); i̇şlemci: ARM Cortex A8, 800 MHz.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze P30GAP40300F3G0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ekran", value: "4.3\" (10.9 cm), rezistif tek-dokunmatik, 480 x 272 piksel (kod içindeki '40300' bu 4.3\" varyantına işaret ediyor)" },
       { label: "İşlemci", value: "ARM Cortex A8, 800 MHz" },
@@ -1190,6 +1281,8 @@ export const lenzeProducts: Product[] = [
     name: "Operatör Paneli (HMI)",
     category: "Grafik paneller (HMI)",
     summary: "Lenze P50GAP40300M5H0, Lenze p500 Panel Controller. ekran: 7\" (17.8 cm), rezistif dokunmatik, 800 x 480 piksel (kod içindeki '40300' 7\" varyantına işaret ediyor; p500 ailesinde ayrıca 10.4\" ve 15\" seçenekleri de mevcut); i̇şlemci: 1.6 GHz Intel Atom.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze P50GAP40300M5H0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Ekran", value: "7\" (17.8 cm), rezistif dokunmatik, 800 x 480 piksel (kod içindeki '40300' 7\" varyantına işaret ediyor; p500 ailesinde ayrıca 10.4\" ve 15\" seçenekleri de mevcut)" },
       { label: "İşlemci", value: "1.6 GHz Intel Atom" },
@@ -1218,6 +1311,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Motor",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze MCS12D20-RS0B0, Lenze MCS Senkron Servo Motor. anma tork: 5.5 Nm; anma hız: 1950 d/dk.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze MCS12D20-RS0B0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma tork", value: "5.5 Nm" },
       { label: "Anma hız", value: "1950 d/dk" },
@@ -1243,6 +1338,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Motor",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze MCS12H15-RS0B0, Lenze MCS Senkron Servo Motor. anma tork: 10 Nm; anma hız: 1500 d/dk.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze MCS12H15-RS0B0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma tork", value: "10 Nm" },
       { label: "Anma hız", value: "1500 d/dk" },
@@ -1268,6 +1365,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Motor",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze MCS12H35-RS0P1, Lenze MCS Senkron Servo Motor. anma tork: 7.5 Nm; anma hız: 3525 d/dk.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze MCS12H35-RS0P1 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma tork", value: "7.5 Nm" },
       { label: "Anma hız", value: "3525 d/dk" },
@@ -1295,6 +1394,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Motor",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze MCS12L20-RS0B0, Lenze MCS Senkron Servo Motor. anma tork: 13.5 Nm; anma hız: 1950 d/dk.",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze MCS12L20-RS0B0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Anma tork", value: "13.5 Nm" },
       { label: "Anma hız", value: "1950 d/dk" },
@@ -1320,6 +1421,8 @@ export const lenzeProducts: Product[] = [
     name: "Servo Motor",
     category: "Servo Motor ve Sürücüler",
     summary: "Lenze MCS14P32-RS0B0, Lenze MCS Senkron Servo Motor. tork/hız/güç: bulunamadı; güvenilir aralık referansı (genel mcs serisi, tüm frame boyutları): 0.5-190 Nm tork, 0.25-15.8 kW güç (precision-elec.com'a göre tüm MCS serisi aralığı, bu spesifik kod için değil).",
+    image: { src: "/magaza/aom-kure-gorsel-yok_27-10-2026.jpg", alt: "AOM küre logosu (Lenze MCS14P32-RS0B0 için henüz orijinal fotoğraf yok)" },
+    imageNote: "Bu üründe henüz orijinal fabrika fotoğrafı yok (sandbox ortamından dış sitelerden görsel indirme engelleniyor); gerçek fotoğraf eklenene kadar AOM küre logosu geçici görsel olarak kullanılıyor. Gerçek görsel URL'si ayrıca Mert'e CSV olarak verildi.",
     specs: [
       { label: "Tork/hız/güç", value: "bulunamadı" },
       { label: "Güvenilir aralık referansı (genel MCS serisi, tüm frame boyutları)", value: "0.5-190 Nm tork, 0.25-15.8 kW güç (precision-elec.com'a göre tüm MCS serisi aralığı, bu spesifik kod için değil)" },
