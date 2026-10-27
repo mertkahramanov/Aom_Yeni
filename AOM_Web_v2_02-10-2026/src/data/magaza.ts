@@ -63,6 +63,7 @@ import { svDdProducts } from "./yaskawa-servo-dogrudan-tahrik";
 import { yaskawaServoLineerSigmaxProducts } from "./yaskawa-servo-lineer-sigmax-surucu";
 import { sxMotorProducts } from "./yaskawa-servo-sigmax-motor";
 import { yaskawaKontrolDigerProducts } from "./yaskawa-kontrol-hmi-diger";
+import { lenzeProducts } from "./lenze-urunler_27-10-2026";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -202,6 +203,8 @@ export const products: Product[] = [
   // bilgisayarlar" kategorilerine eklenir), Profichip (gömülü haberleşme çipleri) ve Sistemler (MOTOMAN çözüm
   // paketleri), Faz 4 (20-10-2026): src/data/yaskawa-kontrol-hmi-diger.ts
   ...yaskawaKontrolDigerProducts,
+  // Lenze ürünleri (27-10-2026, Mert talebi): bkz. lenze-urunler_27-10-2026.ts
+  ...lenzeProducts,
   ...ikinciElProducts,
 ];
 
@@ -512,55 +515,58 @@ CATEGORY_INFO["robotlar"] = {
 
 // VIPA (Yaskawa'nın satın aldığı marka) PLC/IO kontrol sistemleri (20-10-2026): src/data/yaskawa-kontrol-plc.ts
 CATEGORY_INFO["kontrol-sistemleri-plc"] = {
-  seoTitle: "VIPA (Yaskawa) PLC – Micro PLC, SLIO, 300S+ Kontrol Sistemleri | Ankara",
+  seoTitle: "PLC ve Kontrolör – VIPA (Yaskawa), Lenze c300 | Ankara",
   description:
-    "VIPA (Yaskawa'nın satın aldığı marka) SPEED7 tabanlı PLC/IO sistemleri: Micro PLC (12 model), SLIO (117 model, 9 tip grubu) ve 300S+ (83 model, 7 tip grubu). CPU, arayüz, güç kaynağı, iletişim işlemcisi, fonksiyon ve sinyal modülleri. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+    "VIPA (Yaskawa'nın satın aldığı marka) SPEED7 tabanlı PLC/IO sistemleri: Micro PLC (12 model), SLIO (117 model, 9 tip grubu) ve 300S+ (83 model, 7 tip grubu); ayrıca Lenze c300 kompakt lojik/motion kontrolörü. Ankara merkezli AOM'dan Türkiye geneline teklif.",
   intro: [
-    "VIPA, Yaskawa'nın satın aldığı bir kontrol sistemleri markasıdır; Micro PLC, SLIO ve 300S+ serileri SPEED7 tabanlı PLC/IO sistemleridir ve bu nedenle \"Yaskawa\" diye tek başına değil, \"VIPA (Yaskawa)\" olarak satılır. Mağazada Micro PLC'nin 12 modeli (CPU, güç kaynağı, dijital/analog sinyal modülleri, genişleme ünitesi) doğrudan ürün olarak; SLIO (CPU, arayüz modülü, güç kaynağı, klemens modülü, iletişim işlemcisi, fonksiyon modülü, analog/dijital sinyal modülü — bazıları PROFIsafe/FSoE güvenlik varyantı — ve aksesuar) ve 300S+ (CPU, iletişim işlemcisi, arayüz modülü, güç kaynağı, analog/dijital sinyal modülü ve aksesuar) tip gruplarına ayrılarak listelenir; bu iki serinin toplam 200 modelinin sipariş kodu, model adı ve teknik özeti model kodları sayfalarında yer alır.",
-    "Teknik veriler Yaskawa Türkiye'nin resmi ürün sayfalarından (yaskawa.com.tr) alınmıştır; sipariş kodu üretici sitesinde yayınlanmadığından fiyat ve teslim süresi teklif üzerine bildirilir. AOM, PLC/IO sistemi seçimi, pano entegrasyonu ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+    "VIPA, Yaskawa'nın satın aldığı bir kontrol sistemleri markasıdır; Micro PLC, SLIO ve 300S+ serileri SPEED7 tabanlı PLC/IO sistemleridir ve bu nedenle \"Yaskawa\" diye tek başına değil, \"VIPA (Yaskawa)\" olarak satılır. Mağazada Micro PLC'nin 12 modeli (CPU, güç kaynağı, dijital/analog sinyal modülleri, genişleme ünitesi) doğrudan ürün olarak; SLIO (CPU, arayüz modülü, güç kaynağı, klemens modülü, iletişim işlemcisi, fonksiyon modülü, analog/dijital sinyal modülü — bazıları PROFIsafe/FSoE güvenlik varyantı — ve aksesuar) ve 300S+ (CPU, iletişim işlemcisi, arayüz modülü, güç kaynağı, analog/dijital sinyal modülü ve aksesuar) tip gruplarına ayrılarak listelenir; bu iki serinin toplam 200 modelinin sipariş kodu, model adı ve teknik özeti model kodları sayfalarında yer alır. Lenze c300 kompakt lojik/motion kontrolörü de aynı kategoride listelenir.",
+    "Teknik veriler üreticilerin resmi sitelerinden (yaskawa.com.tr, lenze.com) alınmıştır; sipariş kodu üretici sitesinde yayınlanmadığından fiyat ve teslim süresi teklif üzerine bildirilir. AOM, PLC/IO sistemi seçimi, pano entegrasyonu ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
   ],
-  keywords: ["VIPA PLC", "Yaskawa VIPA PLC", "VIPA Micro PLC", "VIPA SLIO", "VIPA 300S+", "SPEED7 PLC", "VIPA PLC fiyat", "VIPA PLC Ankara", "PLC kontrol sistemi"],
+  keywords: ["VIPA PLC", "Yaskawa VIPA PLC", "Lenze c300", "VIPA Micro PLC", "VIPA SLIO", "VIPA 300S+", "SPEED7 PLC", "VIPA PLC fiyat", "VIPA PLC Ankara", "PLC kontrol sistemi"],
 };
 
 // Yaskawa AC sürücüler, Faz 2 (20-10-2026): src/data/yaskawa-ac-genel-kompakt.ts, yaskawa-ac-ozel-uygulama.ts,
 // yaskawa-ac-rejeneratif.ts — 3 alt aile (Genel Amaçlı/Öncü, Özel Uygulama, Rejeneratif) tek kategoride.
 CATEGORY_INFO["ac-suruculer"] = {
-  seoTitle: "Yaskawa AC Sürücü – GA500, GA700, A1000, V1000, D1000, U1000 | Ankara",
+  seoTitle: "AC Sürücü (İnverter) – Yaskawa, Lenze | Ankara",
   description:
-    "Yaskawa AC sürücüler (inverter): genel amaçlı/kompakt GA500, GA700, A1000, V1000, J1000, L1000V; özel uygulama CR700, L1000A, HV600, LA500; rejeneratif D1000, U1000. 13 seri, 503 sipariş kodu. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+    "AC sürücüler (inverter): Yaskawa genel amaçlı/kompakt GA500, GA700, A1000, V1000, J1000, L1000V; özel uygulama CR700, L1000A, HV600, LA500; rejeneratif D1000, U1000 (13 seri, 503 sipariş kodu) ile Lenze i510, i550, 8400 TopLine serileri. Ankara merkezli AOM'dan Türkiye geneline teklif.",
   intro: [
-    "Yaskawa AC sürücüler, genel amaçlı endüstriyel uygulamalardan (GA500 kompakt, GA700 gelişmiş, A1000 vektör kontrollü) özel uygulamalara (CR700 vinç, L1000A asansör, HV600 yüksek voltaj, LA500 pompa/fan) ve enerji geri kazanımlı rejeneratif sürücülere (D1000, U1000) kadar geniş bir model yelpazesini kapsar.",
-    "Teknik veriler ve sipariş kodları Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, AC sürücü seçimi, pano entegrasyonu ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+    "Yaskawa AC sürücüler, genel amaçlı endüstriyel uygulamalardan (GA500 kompakt, GA700 gelişmiş, A1000 vektör kontrollü) özel uygulamalara (CR700 vinç, L1000A asansör, HV600 yüksek voltaj, LA500 pompa/fan) ve enerji geri kazanımlı rejeneratif sürücülere (D1000, U1000) kadar geniş bir model yelpazesini kapsar. Lenze i510/i550 kabin tipi frekans invertörleri ve 8400 TopLine serisi de aynı kategoride, AOM'un stoğunda bulunan gerçek sipariş kodlarıyla listelenir.",
+    "Teknik veriler üreticilerin resmi sitelerinden (yaskawa.com.tr, lenze.com) ve yetkili distribütör sayfalarından alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, AC sürücü seçimi, pano entegrasyonu ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
   ],
-  keywords: ["Yaskawa AC sürücü", "Yaskawa inverter", "Yaskawa GA500", "Yaskawa GA700", "Yaskawa A1000", "Yaskawa V1000", "Yaskawa D1000", "Yaskawa U1000", "AC sürücü fiyat Ankara"],
+  keywords: ["AC sürücü", "Yaskawa AC sürücü", "Lenze AC sürücü", "Yaskawa inverter", "Lenze inverter", "Yaskawa GA500", "Yaskawa A1000", "Lenze i550", "Lenze 8400", "AC sürücü fiyat Ankara"],
 };
 
 // Yaskawa Servo, Faz 3 (20-10-2026): src/data/yaskawa-servo-*.ts — 5 alt aile (Sigma-7 motor/sürücü, doğrudan
 // tahrik, lineer/Sigma-X sürücü, Sigma-X motor) tek kategoride.
 CATEGORY_INFO["servo-motor-ve-suruculer"] = {
-  seoTitle: "Yaskawa Servo Motor ve Sürücü – Sigma-7, Sigma-X | Ankara",
+  seoTitle: "Servo Motor ve Sürücü – Yaskawa, Lenze | Ankara",
   description:
-    "Yaskawa servo motor ve sürücüler: Sigma-7 rotary motor (SGM7A/G/J) ve sürücü (SGD7S/W/C), doğrudan tahrik motor (SGM7D/E/F), lineer ve Sigma-X sürücü (SGLFW2/SGLG/SGDXS/W/T, MP3000iec), Sigma-X motor (SGMXG/J/A). 20 seri, 2.097 sipariş kodu. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+    "Servo motor ve sürücüler: Yaskawa Sigma-7 rotary motor (SGM7A/G/J) ve sürücü (SGD7S/W/C), doğrudan tahrik motor (SGM7D/E/F), lineer ve Sigma-X sürücü (SGLFW2/SGLG/SGDXS/W/T, MP3000iec), Sigma-X motor (SGMXG/J/A) — 20 seri, 2.097 sipariş kodu; ayrıca Lenze i700 modüler servo sürücü, i950 servo invertör ve MCS senkron servo motor. Ankara merkezli AOM'dan Türkiye geneline teklif.",
   intro: [
-    "Yaskawa Sigma-7 servo ailesi rotary motor ve tek/çift eksenli servo sürücülerden oluşur; doğrudan tahrik (direct drive) motorlar dişli/kayış gibi aktarma elemanı olmadan yüksek hassasiyetli döner hareket sağlar; lineer servo motorlar (Moving Coil) doğrusal hareket üretir; Sigma-X ailesi (iCube Mechatronics) tek/çift/üç eksenli sürücüler ve dahili IEC kontrolörlü MP3000iec seçeneğini kapsar.",
-    "Teknik veriler ve sipariş kodları Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, servo sistem seçimi, hareket kontrolü uygulaması ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+    "Yaskawa Sigma-7 servo ailesi rotary motor ve tek/çift eksenli servo sürücülerden oluşur; doğrudan tahrik (direct drive) motorlar dişli/kayış gibi aktarma elemanı olmadan yüksek hassasiyetli döner hareket sağlar; lineer servo motorlar (Moving Coil) doğrusal hareket üretir; Sigma-X ailesi (iCube Mechatronics) tek/çift/üç eksenli sürücüler ve dahili IEC kontrolörlü MP3000iec seçeneğini kapsar. Lenze i700 modüler servo sürücü (eksen + güç besleme modülleri), i950 kabin tipi servo invertör ve MCS senkron servo motor serileri de aynı kategoride, AOM'un stoğunda bulunan gerçek sipariş kodlarıyla listelenir.",
+    "Teknik veriler üreticilerin resmi sitelerinden (yaskawa.com.tr, lenze.com) ve yetkili distribütör sayfalarından alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, servo sistem seçimi, hareket kontrolü uygulaması ve devreye alma projelerinde tedarik desteği verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
   ],
   // 22-10-2026 eklendi (Mert onayı, Google Ads Keyword Planner araştırması, Türkiye, Eki 2025-Eyl 2026):
   // jenerik "servo motor" 12.100/ay (Yüksek rekabet) ve "servo sürücü" 320/ay (Orta) — kategorideki
   // en yüksek hacimli terimler, markasız genel aramaları da kapsar.
-  keywords: ["servo motor", "servo sürücü", "Yaskawa servo motor", "Yaskawa servo sürücü", "Sigma-7", "Sigma-X", "Yaskawa SGD7S", "Yaskawa SGM7A", "doğrudan tahrik servo motor", "lineer servo motor", "servo motor fiyat Ankara"],
+  keywords: ["servo motor", "servo sürücü", "Yaskawa servo motor", "Yaskawa servo sürücü", "Lenze servo motor", "Lenze servo sürücü", "Sigma-7", "Sigma-X", "Lenze MCS", "Lenze i700", "doğrudan tahrik servo motor", "lineer servo motor", "servo motor fiyat Ankara"],
 };
 
 // Yaskawa/VIPA HMI, Profichip, Sistemler, Faz 4 (20-10-2026): src/data/yaskawa-kontrol-hmi-diger.ts.
 // Panel PC ve Grafik Paneller (HMI) mevcut Autonics kategorilerine eklenir (ayrı kategori açılmaz);
 // açıklamaları aşağıda VIPA/Yaskawa eklentisini de kapsayacak şekilde güncellendi.
 CATEGORY_INFO["grafik-paneller-hmi"].description =
-  "Grafik panel (HMI) ve operatör panelleri: Autonics TP, iTP, GP-A, LP-A (29 model) ile VIPA (Yaskawa) Line Displays ve smartPanels (5 model). Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.";
+  "Grafik panel (HMI) ve operatör panelleri: Autonics TP, iTP, GP-A, LP-A (29 model), VIPA (Yaskawa) Line Displays ve smartPanels (5 model) ile Lenze p300/p500 operatör paneli. Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.";
 CATEGORY_INFO["grafik-paneller-hmi"].keywords = [
   ...(CATEGORY_INFO["grafik-paneller-hmi"].keywords ?? []),
   "VIPA smartPanel",
   "VIPA satır göstergesi",
   "Yaskawa HMI",
+  "Lenze p300",
+  "Lenze p500",
+  "Lenze operatör paneli",
 ];
 CATEGORY_INFO["endustriyel-bilgisayarlar"].description =
   "Endüstriyel panel bilgisayar: Autonics APC (10,1\") ile VIPA (Yaskawa) Panel PC serisi (PPC010/015/021, CE/IE — 6 model). Ankara merkezli AOM'dan Türkiye geneline satış ve teklif.";
@@ -590,6 +596,21 @@ CATEGORY_INFO["robotik-otomasyon-cozum-paketleri"] = {
     "Teknik veriler Yaskawa'nın resmi Türkiye sitesinden (yaskawa.com.tr) alınmıştır. AOM, robotik otomasyon projelerinde bu tür çözüm paketlerinin uygulama ve entegrasyon desteğini verir; kapsam, robot modeli, pano ve devreye alma dahil güncel teklif için Türkiye'nin her şehrinden iletişime geçebilirsiniz.",
   ],
   keywords: ["MOTOMAN robotik çözüm", "ArcWorld", "Weld4Me", "MOTOMAN ark kaynağı hücresi", "robotik pres besleme", "MOTOMAN sistem entegrasyonu Ankara"],
+};
+
+// Lenze sürücü/kontrol aksesuarları (27-10-2026): i500/i550 kontrol üniteleri ve güvenlik modülü, i700 montaj
+// setleri, operatör paneli tuş takımı, I/O System 1000 modülleri — bağımsız ürün değil, bir sürücü veya
+// kontrol sistemiyle birlikte kullanılan eklenti/bileşenler. Yeni kategori (önceki "kablo-aksesuar" sensör
+// kablolarına özgü olduğundan karıştırılmaz).
+CATEGORY_INFO["surucu-ve-kontrol-aksesuarlari"] = {
+  seoTitle: "Lenze Sürücü ve Kontrol Aksesuarları | Ankara",
+  description:
+    "Lenze sürücü ve kontrol sistemi aksesuarları: i500/i550 kontrol üniteleri (CANopen/EtherCAT/Modbus), STO güvenlik modülü, i700 montaj/bağlantı setleri, operatör paneli tuş takımı, I/O System 1000 bus coupler ve giriş modülleri. Ankara merkezli AOM'dan Türkiye geneline teklif.",
+  intro: [
+    "Bu bölümdeki ürünler tek başına çalışan bir cihaz değil, bir Lenze sürücüsü veya kontrol sistemiyle birlikte kullanılan eklenti/bileşenlerdir: i500/i550 serisi frekans invertörlerinin kontrol ünitesi (haberleşme arayüzünü belirler) ve opsiyonel STO güvenlik modülü, i700 servo sürücü montaj/bağlantı setleri, operatör paneli tuş takımı ve I/O System 1000 fieldbus/analog giriş modülleri.",
+    "Teknik veriler Lenze'nin resmi sitesi (lenze.com) ve yetkili distribütör sayfalarından alınmıştır; sipariş kodu fiyatla birlikte yayınlanmadığından güncel fiyat ve teslim süresi teklif üzerine bildirilir. AOM, doğru aksesuarın seçimi ve mevcut sürücü/kontrol sistemiyle uyumluluğu konusunda destek verir; Türkiye'nin her şehrinden teklif taleplerinizi iletebilirsiniz.",
+  ],
+  keywords: ["Lenze kontrol ünitesi", "Lenze i550 control unit", "Lenze STO modülü", "Lenze i700 montaj seti", "Lenze I/O System 1000", "Lenze aksesuar", "Lenze yedek parça"],
 };
 
 CATEGORY_INFO[slugify(OTHER_CATEGORY)] = {
