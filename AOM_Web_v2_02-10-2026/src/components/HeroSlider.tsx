@@ -15,7 +15,7 @@ type Slide = {
   href: string;
   visual: string;
   image?: { src: string; alt: string; caption?: string; position?: string };
-  areas?: { icon: AreaIcon; title: string; text: string; image?: { src: string; alt: string; position?: string } }[];
+  areas?: { icon: AreaIcon; title: string; text: string; href?: string; image?: { src: string; alt: string; position?: string } }[];
 };
 
 type AreaIcon = "fabrika" | "kod" | "disli" | "ekran" | "deney" | "gaz" | "steril" | "kabin";
@@ -159,7 +159,16 @@ const slides: Slide[] = [
     visual: "",
     areas: [
       { icon: "deney", title: "Laboratuvar Cihazları", text: "Başlıca laboratuvar cihazları", image: { src: "/aom-medikal-laboratuvar-cihazlari_03-10-2026.jpg", alt: "Laboratuvar tezgâhında inkübatör ve etüv, santrifüj ve manyetik karıştırıcı", position: "48% 55%" } },
-      { icon: "gaz", title: "Gaz Jeneratörleri", text: "Oksijen ve azot jeneratörleri", image: { src: "/aom-medikal-gaz-jeneratoru_03-10-2026.jpg", alt: "PSA oksijen ve azot jeneratörü: dokunmatik ekranlı kabin, paslanmaz adsorpsiyon kolonları, tampon tankı ve basınç göstergeli boru hattı", position: "55% 55%" } },
+      {
+        icon: "gaz",
+        title: "Gaz Jeneratörleri",
+        text: "Oksijen ve azot jeneratörleri",
+        // 27-10-2026: Oksijen jeneratörü için ayrı hizmet sayfası açıldı (/oksijen-jeneratoru),
+        // bu alan artık oraya bağlanıyor. Diğer 3 alanın (laboratuvar/sterilizasyon/biyogüvenlik)
+        // kendi sayfası olmadığından href'leri eklenmedi, slider'ın genel #cozumler CTA'sı geçerli.
+        href: "/oksijen-jeneratoru",
+        image: { src: "/aom-medikal-gaz-jeneratoru_03-10-2026.jpg", alt: "PSA oksijen ve azot jeneratörü: dokunmatik ekranlı kabin, paslanmaz adsorpsiyon kolonları, tampon tankı ve basınç göstergeli boru hattı", position: "55% 55%" },
+      },
       { icon: "steril", title: "Sterilizasyon Kabinleri", text: "Medikal ve laboratuvar sterilizasyonu", image: { src: "/aom-medikal-sterilizasyon-kabini_03-10-2026.jpg", alt: "Duvara gömme buharlı sterilizatör (otoklav): açık paslanmaz kapak, yükleme rafı ve sepetli yükleme arabası", position: "45% 50%" } },
       { icon: "kabin", title: "Biyogüvenlik Kabinleri", text: "Çeker ocaklar ve biyogüvenlik kabinleri", image: { src: "/aom-medikal-biyoguvenlik-kabini_03-10-2026.jpg", alt: "Sınıf II biyogüvenlik kabini, arkada egzoz kanallı çeker ocak", position: "58% 50%" } },
     ],
@@ -381,21 +390,34 @@ export default function HeroSlider() {
           <figure className="slider-figure" key={`${cur.key}-fig`}>
             {cur.areas ? (
               <ul className="slider-areas">
-                {cur.areas.map((a) => (
-                  <li key={a.title} className={a.image ? "has-image" : undefined}>
-                    {a.image ? (
-                      <span className="slider-area-image">
-                        <Image src={a.image.src} alt={a.image.alt} fill sizes="300px" style={{ objectFit: "cover", objectPosition: a.image.position ?? "50% 50%" }} />
-                      </span>
-                    ) : (
-                      <span className="slider-area-icon">
-                        <AreaIconSvg name={a.icon} />
-                      </span>
-                    )}
-                    <strong className="slider-area-title">{a.title}</strong>
-                    <span className="slider-area-text">{a.text}</span>
-                  </li>
-                ))}
+                {cur.areas.map((a) => {
+                  const inner = (
+                    <>
+                      {a.image ? (
+                        <span className="slider-area-image">
+                          <Image src={a.image.src} alt={a.image.alt} fill sizes="300px" style={{ objectFit: "cover", objectPosition: a.image.position ?? "50% 50%" }} />
+                        </span>
+                      ) : (
+                        <span className="slider-area-icon">
+                          <AreaIconSvg name={a.icon} />
+                        </span>
+                      )}
+                      <strong className="slider-area-title">{a.title}</strong>
+                      <span className="slider-area-text">{a.text}</span>
+                    </>
+                  );
+                  return (
+                    <li key={a.title} className={a.image ? "has-image" : undefined}>
+                      {a.href ? (
+                        <Link href={a.href} style={{ display: "contents" }} aria-label={a.title}>
+                          {inner}
+                        </Link>
+                      ) : (
+                        inner
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             ) : cur.image ? (
               <>

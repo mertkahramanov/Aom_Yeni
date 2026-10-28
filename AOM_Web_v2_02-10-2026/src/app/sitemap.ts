@@ -57,6 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...w("/cnc-tezgah", 0.9),
     ...w("/plc-scada", 0.9),
     ...w("/tristorlu-guc-kontrol", 0.9),
+    ...w("/oksijen-jeneratoru", 0.9),
     ...w("/magaza", 0.8, "weekly"),
     // Çok dilli karşılığı olmayan yasal/KVKK sayfaları — tek (TR) girdi
     { url: `${SITE}/cerez-politikasi`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },

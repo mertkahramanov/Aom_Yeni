@@ -13,6 +13,7 @@ const solutions = [
   { href: "/cnc-tezgah", label: "CNC tezgâh" },
   { href: "/plc-scada", label: "PLC, SCADA" },
   { href: "/tristorlu-guc-kontrol", label: "Tristörlü güç kontrol" },
+  { href: "/oksijen-jeneratoru", label: "Oksijen jeneratörü" },
 ];
 
 export default function Footer() {
