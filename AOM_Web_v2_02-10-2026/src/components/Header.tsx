@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import LanguageSwitcher from "./LanguageSwitcher";
+import HeaderShell from "./HeaderShell";
 
 // 19-10-2026 güncellemesi (Mert onayı, bölüm yeniden yapılandırması): menü 5 öğeye indi.
 // "Otomasyon" artık ayrı menü öğesi değil (içeriği Hakkımızda + Çözümlerimiz'e taşındı; /otomasyon
@@ -32,11 +33,11 @@ const solutionsMenu = [
 
 export default function Header() {
   return (
-    <header className="site-header">
-      <div className="container inner">
+    <HeaderShell openLabel={"Menüyü aç"} closeLabel={"Menüyü kapat"}>
         <Link href="/" aria-label="AOM ana sayfa" style={{ display: "flex" }}>
           <Image src="/aom-wordmark.png" alt="AOM" width={181} height={40} priority />
         </Link>
+        <div id="site-menu" className="site-menu">
         <nav aria-label="Ana menü" className="site-nav">
           {menu.map((m) =>
             m.href === "/#cozumler" ? (
@@ -73,7 +74,7 @@ export default function Header() {
             Proje başlatın
           </Link>
         </div>
-      </div>
-    </header>
+        </div>
+    </HeaderShell>
   );
 }

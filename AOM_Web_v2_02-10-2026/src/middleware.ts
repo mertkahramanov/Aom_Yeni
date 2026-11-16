@@ -7,11 +7,13 @@ import { NextResponse, type NextRequest } from "next/server";
 // Türkçe (önek yok) istekler bu middleware'den hiçbir şekilde etkilenmez.
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const isIntl = /^\/(en|ru|ar)(\/|$)/.test(pathname);
-  if (!isIntl) return NextResponse.next();
+  const match = /^\/(en|ru|ar)(\/|$)/.exec(pathname);
+  if (!match) return NextResponse.next();
 
   const headers = new Headers(request.headers);
   headers.set("x-is-intl", "1");
+  // 16-11-2026: kök layout <html lang/dir> değerini bu başlıktan alır (önceden her dilde "tr" idi).
+  headers.set("x-locale", match[1]);
   return NextResponse.next({ request: { headers } });
 }
 

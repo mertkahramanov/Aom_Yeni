@@ -176,6 +176,76 @@ h1, h2, h3 { font-family: var(--font-display), "Arial Narrow", sans-serif; margi
   .header-actions { width: 100%; justify-content: flex-end; padding-top: 10px; border-top: 1px dashed var(--line); }
 }
 
+/* Mobil menü (16-11-2026). Önceden ≤900px'de menünün tamamı + butonlar her zaman açık ve sticky
+   header'ın içindeydi; iPhone'da header ekranın ~%80'ini kaplıyor, kaydırınca da yerinde kalıyordu.
+   Artık ≤900px'de yalnızca logo + "Menü" butonu görünür; menü butonla açılır (HeaderShell.tsx).
+   Masaüstünde .site-menu "display: contents" olduğu için düzen eskisiyle birebir aynıdır. */
+.site-menu { display: contents; }
+.nav-toggle { display: none; }
+@media (max-width: 900px) {
+  .site-header .inner { padding-top: 10px; padding-bottom: 10px; row-gap: 0; }
+  .site-header .inner > a:first-child img { width: 136px; height: auto; }
+  .nav-toggle {
+    order: 2;
+    margin-inline-start: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .nav-toggle-bars,
+  .nav-toggle-bars::before,
+  .nav-toggle-bars::after {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .nav-toggle-bars { position: relative; }
+  .nav-toggle-bars::before,
+  .nav-toggle-bars::after { content: ""; position: absolute; left: 0; }
+  .nav-toggle-bars::before { top: -6px; }
+  .nav-toggle-bars::after { top: 6px; }
+  .is-open .nav-toggle-bars { background: transparent; }
+  .is-open .nav-toggle-bars::before { transform: translateY(6px) rotate(45deg); }
+  .is-open .nav-toggle-bars::after { transform: translateY(-6px) rotate(-45deg); }
+
+  .site-menu { display: none; }
+  .site-header.is-open .site-menu {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: calc(100dvh - 66px);
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-bottom: 14px;
+    border-top: 1px solid var(--line);
+  }
+  .site-header.is-open .site-nav { flex-direction: column; flex-wrap: nowrap; margin-top: 6px; }
+  .site-header.is-open .site-nav a { padding: 9px 0; }
+  .site-header.is-open .header-actions {
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--line);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-toggle-bars, .nav-toggle-bars::before, .nav-toggle-bars::after { transition: none; }
+}
+
 /* Hero slider */
 .slider { background: var(--ink); color: var(--ink-on-dark); border-bottom: 6px solid var(--aom-red); }
 .slider-inner { display: flex; flex-direction: column; gap: 32px; padding-top: 64px; padding-bottom: 40px; }

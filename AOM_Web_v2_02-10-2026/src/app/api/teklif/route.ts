@@ -20,23 +20,89 @@ const TO_EMAIL = process.env.TEKLIF_TO_EMAIL || "info@aomtechnology.tr";
 const FROM_EMAIL = process.env.RESEND_FROM || "AOM Web <onboarding@resend.dev>";
 
 function isValidEmail(v: unknown): v is string {
-  return typeof v === "string" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+  return typeof v === "string" && v.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+}
+
+// --- Kötüye kullanım korumaları (16-11-2026) ---
+// Alan uzunluk sınırları: sınırsız metinle e-posta gönderilmesini ve Resend kotasının
+// tüketilmesini engeller.
+const LIMITS = { name: 100, phone: 40, message: 5000, productName: 200, pagePath: 300 } as const;
+
+// Tek satırlı alanlardan satır sonu/kontrol karakterlerini temizler (konu satırı enjeksiyonuna karşı).
+function oneLine(v: unknown, max: number): string {
+  if (typeof v !== "string") return "";
+  return v.replace(/[\u0000-\u001f\u007f]+/g, " ").trim().slice(0, max);
+}
+
+// Basit IP bazlı hız sınırı: aynı IP'den 10 dakikada en fazla 5 gönderim.
+// Not: Vercel'de bellek her sunucusuz örnek için ayrıdır, bu yüzden "en iyi çaba" düzeyinde
+// bir korumadır. Ciddi spam görülürse Vercel KV/Upstash tabanlı sınır veya Turnstile eklenmeli.
+const RATE_WINDOW_MS = 10 * 60 * 1000;
+const RATE_MAX = 5;
+const hits = new Map<string, number[]>();
+
+function rateLimited(ip: string): boolean {
+  const now = Date.now();
+  const recent = (hits.get(ip) ?? []).filter((t) => now - t < RATE_WINDOW_MS);
+  hits.set(ip, recent);
+  return recent.length >= RATE_MAX;
+}
+
+// Yalnızca doğrulamayı geçen gönderimler sayılır (form hatası yapan gerçek kullanıcı engellenmez).
+function recordHit(ip: string) {
+  if (hits.size > 5000) hits.clear(); // bellek sınırı
+  hits.set(ip, [...(hits.get(ip) ?? []), Date.now()]);
+}
+
+// Origin kontrolü: tarayıcıdan gelen isteklerde Origin başlığı sitenin kendi adresi olmalı
+// (başka sitelerden form gönderimini engeller). Origin yoksa (ör. bazı eski tarayıcılar) izin verilir.
+function sameOrigin(req: NextRequest): boolean {
+  const origin = req.headers.get("origin");
+  if (!origin) return true;
+  try {
+    const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host");
+    return new URL(origin).host === host;
+  } catch {
+    return false;
+  }
 }
 
 export async function POST(req: NextRequest) {
+  if (!sameOrigin(req)) {
+    return NextResponse.json({ ok: false, error: "Geçersiz istek." }, { status: 403 });
+  }
+
+  const ip = (req.headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || "unknown";
+  if (rateLimited(ip)) {
+    return NextResponse.json(
+      { ok: false, error: "Çok fazla deneme yapıldı. Lütfen biraz sonra tekrar deneyin veya bizi telefonla arayın." },
+      { status: 429 },
+    );
+  }
+
   let body: Record<string, unknown>;
   try {
     body = await req.json();
   } catch {
     return NextResponse.json({ ok: false, error: "Geçersiz istek." }, { status: 400 });
   }
+  if (!body || typeof body !== "object") {
+    return NextResponse.json({ ok: false, error: "Geçersiz istek." }, { status: 400 });
+  }
 
-  const name = typeof body.name === "string" ? body.name.trim() : "";
+  const name = oneLine(body.name, LIMITS.name);
   const email = typeof body.email === "string" ? body.email.trim() : "";
-  const phone = typeof body.phone === "string" ? body.phone.trim() : "";
+  const phone = oneLine(body.phone, LIMITS.phone);
   const message = typeof body.message === "string" ? body.message.trim() : "";
-  const productName = typeof body.productName === "string" ? body.productName.trim() : "";
-  const pagePath = typeof body.pagePath === "string" ? body.pagePath.trim() : "";
+  const productName = oneLine(body.productName, LIMITS.productName);
+  const pagePath = oneLine(body.pagePath, LIMITS.pagePath);
+
+  if (message.length > LIMITS.message) {
+    return NextResponse.json(
+      { ok: false, error: `Mesaj en fazla ${LIMITS.message} karakter olabilir.` },
+      { status: 400 },
+    );
+  }
   // Honeypot: gizli alan, gerçek kullanıcılar doldurmaz. Doluysa botu sessizce "başarılı" say (gerçek e-posta gitmez).
   const honeypot = typeof body.company === "string" ? body.company.trim() : "";
 
@@ -52,6 +118,8 @@ export async function POST(req: NextRequest) {
   if (message.length < 3) {
     return NextResponse.json({ ok: false, error: "Lütfen kısa bir mesaj/ihtiyaç bilgisi girin." }, { status: 400 });
   }
+
+  recordHit(ip);
 
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {

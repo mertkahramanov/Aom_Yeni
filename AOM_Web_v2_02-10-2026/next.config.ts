@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/kurumsal/hakkimizda", destination: "/", permanent: true },
-      // Yaskawa'nın kendi marka/katalog sayfası eklendiğinde hedef /magaza/marka/yaskawa olarak güncellenmeli.
-      { source: "/markalarimiz/yaskawa", destination: "/#oem", permanent: true },
+      // 16-11-2026: Yaskawa marka sayfası artık var; eski adres doğrudan ona yönlenir.
+      { source: "/markalarimiz/yaskawa", destination: "/magaza/marka/yaskawa", permanent: true },
       { source: "/iletisim", destination: "/#iletisim", permanent: true },
       { source: "/urunler", destination: "/magaza", permanent: true },
       { source: "/kurumsal/misyon-vizyon", destination: "/", permanent: true },

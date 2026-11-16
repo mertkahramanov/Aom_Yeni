@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Dictionary } from "@/i18n/dictionary";
 import type { Locale } from "@/i18n/locales";
 import LanguageSwitcher from "./LanguageSwitcher";
+import HeaderShell from "./HeaderShell";
 
 // Header.tsx'in çok dilli karşılığı (18-10-2026). Aynı CSS sınıflarını kullanır (site-header,
 // site-nav, header-actions, btn vb.) — görsel stil globals.css'ten hiç değişmeden miras alınır.
@@ -11,13 +12,20 @@ import LanguageSwitcher from "./LanguageSwitcher";
 // eklendi (bkz. Header.tsx'teki aynı değişiklik ve globals.css .nav-dropdown). İçerik
 // dict.nav.solutionsMenu'den gelir (bkz. src/i18n/dictionary.ts). "Çözümlerimiz" öğesi,
 // hash'i "#cozumler" ile biten href'e bakılarak bulunur (p("#cozumler") = `/${locale}#cozumler`).
+// Mobil menü butonunun ekran okuyucu etiketleri (16-11-2026).
+const MENU_LABELS: Record<Locale, { open: string; close: string }> = {
+  en: { open: "Open menu", close: "Close menu" },
+  ru: { open: "Открыть меню", close: "Закрыть меню" },
+  ar: { open: "فتح القائمة", close: "إغلاق القائمة" },
+};
+
 export default function LocaleHeader({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
-    <header className="site-header">
-      <div className="container inner">
+    <HeaderShell openLabel={MENU_LABELS[locale].open} closeLabel={MENU_LABELS[locale].close}>
         <Link href={`/${locale}`} aria-label={dict.nav.ariaLogo} style={{ display: "flex" }}>
           <Image src="/aom-wordmark.png" alt="AOM" width={181} height={40} priority />
         </Link>
+        <div id="site-menu" className="site-menu">
         <nav aria-label={dict.nav.items.length ? dict.nav.ariaLogo : undefined} className="site-nav">
           {dict.nav.items.map((m) =>
             m.href.endsWith("#cozumler") ? (
@@ -54,7 +62,7 @@ export default function LocaleHeader({ locale, dict }: { locale: Locale; dict: D
             {dict.nav.cta}
           </Link>
         </div>
-      </div>
-    </header>
+        </div>
+    </HeaderShell>
   );
 }
