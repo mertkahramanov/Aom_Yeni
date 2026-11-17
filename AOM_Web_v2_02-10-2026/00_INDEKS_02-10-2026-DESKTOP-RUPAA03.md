@@ -1,0 +1,214 @@
+# AOM Web Sitesi v2 – İndeks (02-10-2026)
+
+Yeni AOM web sitesinin çalışma klasörü. Eski site (`AOM-main-master`) bu klasörün yanında olduğu gibi duruyor, ona dokunulmuyor.
+
+## Çalışma kuralı
+
+Tuvalde ("AOM Web Sitesi Ana Sayfa 02-10-2026") yapılan her değişiklik bu klasördeki asıl dosyalara da işlenir (Mert, 02-10-2026).
+
+## Görsel kuralları (Mert, 02-10-2026)
+
+- Görsellerin üzerinde "Temsili 3B görsel değildir" ya da benzeri basılı yazı bulunmaz.
+- Görsellerin altına veya üstüne gri yazı şeridi (bant) konmaz.
+- Gelen görsellerde bunlar varsa siteye eklenmeden önce temizlenir.
+- Görsellerin altına "Temsili görseldir" / "Temsili 3B görseldir" açıklaması yazılmaz.
+
+## Mağaza fiyat kuralı (Mert, 03-10-2026)
+
+- Verilen tüm fiyatlar KDV hariçtir; KDV oranı %20.
+- Fiyatlar sitede her zaman "+ KDV" ile gösterilir (`src/data/magaza.ts`, `KDV_ORANI`).
+
+## Dosya adlandırma kuralı
+
+- Her yeni belge adında tarih bulunur: `GG-AA-YYYY`.
+- Belgeler numara önekiyle sıralanır: `00_` indeks, `01_` çalıştırma, `02_` içerik, `03_` kontrol listeleri.
+- Kod dosyaları Next.js proje yapısına uyar; tarihleri bu indeksteki değişiklik kaydında tutulur.
+
+## Yapı
+
+| Dosya | İçerik | Durum |
+|---|---|---|
+| `00_INDEKS_02-10-2026.md` | Bu dosya | Güncel |
+| `01_CALISTIRMA_02-10-2026.md` | Yerelde çalıştırma adımları (http://localhost:3003) | Hazır |
+| `02_GORSEL_KOMUTLARI_03-10-2026.md` | Slider'daki 8 görsel için görsel üretim komutları ve kabul kontrol listesi | Hazır |
+| `SITEYI_AC_03-10-2026.py` | Tek tıkla aç: paketleri kurar, siteyi başlatır, tarayıcıyı açar | Hazır |
+| `package.json`, `package-lock.json` | Next.js 15.5.27, React 19, TypeScript | Hazır |
+| `tsconfig.json`, `next.config.ts`, `.gitignore` | Proje ayarları | Hazır |
+| `public/aom-wordmark.png` | AOM logosu (tasarım sisteminden) | Hazır |
+| `public/aom-robotik-kaynak-hucresi_03-10-2026.jpg` | Robotik kaynak hücresi (Mert, 03-10-2026, `02_` komutlarıyla üretildi), slider kaynak slaytı | Hazır |
+| `public/aom-eksantrik-pres-guvenlik_03-10-2026.jpg` | Işık perdeli eksantrik pres + besleme (Mert, 03-10-2026), slider pres slaytı | Hazır |
+| `public/aom-cnc-isleme-merkezi_03-10-2026.jpg` | Dikey CNC işleme merkezi (Mert, 03-10-2026), slider CNC slaytı | Hazır |
+| `public/aom-tristor-pano_03-10-2026.jpg` | Tristörlü güç kontrol panosu (Mert, 03-10-2026), slider tristör slaytı | Hazır |
+| `public/aom-yazilim-muhendislik_03-10-2026.jpg` | Mühendislik masası, PLC/HMI ekranları (Mert, 03-10-2026), otomasyon slaytı Yazılım kutusu | Hazır |
+| `public/aom-otomasyon-montaj-istasyonu_03-10-2026.jpg` | Otomatik montaj istasyonu (Mert, 03-10-2026), otomasyon slaytı Endüstriyel Otomasyon kutusu | Hazır |
+| `public/aom-ekstruder-makinesi_03-10-2026.jpg` | Ekstrüder makinesi (Mert, 03-10-2026), otomasyon slaytı Makine Otomasyonu kutusu | Hazır |
+| `public/aom-scada-kontrol-odasi_03-10-2026.jpg` | SCADA kontrol odası (Mert, 03-10-2026), otomasyon slaytı SCADA kutusu | Hazır |
+| `src/app/favicon.ico`, `src/app/icon.png`, `src/app/apple-icon.png` | Tarayıcı sekmesi ve telefon ana ekranı simgesi (AOM küre logosu) | Hazır |
+| `src/app/layout.tsx` | Sayfa çerçevesi, yazı tipleri (Saira, IBM Plex Sans), SEO başlığı | Hazır |
+| `src/app/globals.css` | AOM renk token'ları ve tüm stiller | Hazır |
+| `src/app/page.tsx` | Ana sayfa | Hazır |
+| `src/components/Header.tsx` | Üst menü | Hazır |
+| `src/components/Footer.tsx` | Altbilgi | Hazır |
+| `src/components/WhatsAppButton.tsx` | Sağ altta sabit WhatsApp düğmesi (0544 624 75 14, tüm sayfalarda) | Hazır |
+| `src/app/magaza/page.tsx` | Mağaza: ürün listesi | Taslak |
+| `src/app/magaza/[slug]/page.tsx` | Mağaza: ürün detay sayfası (SEO başlık/açıklama, kanonik adres, Open Graph, Product + Breadcrumb JSON-LD, seri tablosu) | Hazır |
+| `public/aom-medikal-laboratuvar-cihazlari_03-10-2026.jpg` | Medikal slayt kutusu: Laboratuvar Cihazları (Gemini, Mert 03-10-2026) | Hazır |
+| `public/aom-medikal-gaz-jeneratoru_03-10-2026.jpg` | Medikal slayt kutusu: Gaz Jeneratörleri (ekrandaki sahte yazılar temizlendi) (Gemini, Mert 03-10-2026) | Hazır |
+| `public/aom-medikal-sterilizasyon-kabini_03-10-2026.jpg` | Medikal slayt kutusu: Sterilizasyon Kabinleri (Gemini, Mert 03-10-2026) | Hazır |
+| `public/aom-medikal-biyoguvenlik-kabini_03-10-2026.jpg` | Medikal slayt kutusu: Biyogüvenlik Kabinleri (alttaki renk şeridi kesildi) (Gemini, Mert 03-10-2026) | Hazır |
+| `public/magaza/autonics-dpu34d-500a_03-10-2026.jpg` | DPU34D-500A ürün fotoğrafı (Mert, 03-10-2026; Autonics) | Hazır |
+| `public/magaza/autonics-dpu34c-250a_03-10-2026.jpg` | DPU34C-250A ürün fotoğrafı (Mert, 03-10-2026; Autonics) | Hazır |
+| `public/magaza/autonics-dpu34b-150a_03-10-2026.jpg` | DPU34B-150A ürün fotoğrafı (Mert, 03-10-2026; Autonics) | Hazır |
+| `03_AUTONICS_SSR_INDEKS_03-10-2026.md` | Autonics SSR model indeksi: 8 seri, 224 model, seri ve model tabloları | Hazır |
+| `03_AUTONICS_SSR_FIYAT_LISTESI_03-10-2026.csv` | 224 SSR modeli için fiyat giriş şablonu (Excel ile açılır, ; ayraçlı) | Fiyat bekliyor |
+| `src/data/ssr.ts`, `src/data/autonics-ssr_03-10-2026.json` | SSR ürünleri: model tabloları (JSON) ve mağaza ürününe dönüştürme, `PRICES` fiyat tablosu | 224 ürün |
+| `public/magaza/autonics-ssr-*_03-10-2026.jpg` | SSR gövde görselleri (16 adet, Autonics ürün sayfasından) | Hazır |
+| `04_AUTONICS_GUC_ELEKTRONIGI_INDEKS_03-10-2026.md` | Autonics Güç Elektronikleri indeksi: 3 kategori, 15 seri, 1.509 model; model kodlama tabloları | Hazır |
+| `04_AUTONICS_GUC_ELEKTRONIGI_MODELLER_03-10-2026.csv` | 1.509 modelin tam listesi; satışa sunulacakları işaretleme ve fiyat sütunları | Seçim bekliyor |
+| `05_SEO_YEREL_ANKARA_TURKIYE_03-10-2026.md` | Mağaza yerel SEO: yapılanlar ve site dışı yapılacaklar (Google İşletme Profili, Search Console) | Hazır |
+| `src/lib/seo.ts` | Ortak SEO verisi: firma bilgisi, Organization + LocalBusiness JSON-LD, breadcrumb | Hazır |
+| `src/components/StoreCard.tsx` | Mağaza ürün kartı (liste, kategori ve seri sayfalarında ortak) | Hazır |
+| `src/app/magaza/kategori/[kategori]/page.tsx`, `src/app/magaza/seri/[seri]/page.tsx` | Kategori (2) ve seri (9) sayfaları | Hazır |
+| `src/data/spr.ts`, `src/data/autonics-spr_03-10-2026.json` | SPR1 (192), SPR3 (192), SPRM (14), SPRS (19) = 417 güç kontrol ürünü; her modelin Autonics teknik tablosu | 417 ürün, fiyat bekliyor |
+| `src/data/dpuCodes.ts` | DPU serisinin 840 sipariş kodu (ürün değil, kod sayfaları için) | Hazır |
+| `src/app/magaza/dpu-kodlari/page.tsx`, `src/app/magaza/dpu-kodlari/[grup]/page.tsx` | DPU kod sayfaları: ana sayfa + 9 kod grubu (DPU11–14, DPU31–35); her kod için e-posta / WhatsApp teklif bağlantısı | Hazır |
+| `public/magaza/autonics-spr*_03-10-2026.jpg` | SPR1, SPR3, SPRM, SPRS gövde görselleri (14 adet, Autonics) | Hazır |
+| `src/data/magaza.ts` | Mağaza ürün listesi (yeni ürünler buraya eklenir); Autonics DPU3 serisi şablonu `dpu3()` | 684 ürün (9 DPU3 + 417 SPR/SPRM/SPRS + 224 SSR + 34 enkoder serisi) |
+| `08_AUTONICS_KONTROL_CIHAZLARI_INDEKS_03-10-2026.md` | Autonics Kontrol Cihazları indeksi ve analizi: 10 kategori, 69 seri, 2.289 model; seçenekler, öneri ve öncelik | Hazır |
+| `08_AUTONICS_KONTROL_CIHAZLARI_MODELLER_03-10-2026.csv` | 2.289 kontrol cihazı modelinin listesi; sitedeki yeri (ürün / kod sayfası) ve fiyat sütunları | Fiyat bekliyor |
+| `09_ANKARACNCMARKET_INDEKS_06-10-2026.md` | ankaracncmarket.com.tr ürün indeksi ve analizi: 858 ürün, kategori ve marka dağılımı, fiyat aralıkları, eksik fotoğraf / açıklama, AOM değerlendirmesi | Hazır |
+| `09_ANKARACNCMARKET_URUNLER_06-10-2026.csv` | 858 ürünün listesi: kategori, ad, kod, fiyat (USD + KDV), fotoğraf / açıklama durumu, adres | Hazır |
+| `10_ANKARACNCMARKET_DUZELTILMIS_KODLAR_06-10-2026.md` | 858 ürünün orijinal üretici koduna göre düzeltilmesi: marka, kategori, görsel durumu, kayıtlardaki hatalar, açık kalanlar | Hazır |
+| `10_ANKARACNCMARKET_DUZELTILMIS_KODLAR_06-10-2026.csv` | 858 ürün: orijinal kod, diğer kodlar, AOM ürün adı, teknik bilgiler, eski kayıt, görsel adresi, güven, hata notu | Hazır |
+| `11_CNCDUNYASI_INDEKS_06-10-2026.md` | cncdunyasi.com ürün indeksi ve analizi: 640 ürün, 8 ana kategori, marka dağılımı, fiyat (TL, KDV dahil), stok, AOM değerlendirmesi | Hazır |
+| `11_CNCDUNYASI_URUNLER_06-10-2026.csv` | 640 ürünün listesi: kategori yolu, ad, marka, site kodu, fiyat, stok, fotoğraf / açıklama durumu, adres | Hazır |
+| `11_CNCDUNYASI_DUZELTILMIS_KODLAR_06-10-2026.csv` | cncdunyasi ürünlerinin orijinal koda göre düzeltilmiş listesi (635 ürün), şablon teknik bilgileri, güven ve hata notları | Hazır |
+| `src/data/kontrol.ts`, `src/data/autonics-kontrol_03-10-2026.json`, `src/data/autonics-kontrol-kodlari_03-10-2026.json` | Kontrol cihazları: 981 ürün (tam teknik tablo) ve 26 kod serisi (1.309 kod) | Hazır |
+| `src/app/magaza/kontrol-kodlari/page.tsx`, `src/app/magaza/kontrol-kodlari/[seri]/page.tsx` | Sıcaklık kontrol ve panel metre kod sayfaları | Hazır |
+| `public/magaza/autonics-<seri>-<n>_03-10-2026.jpg` | Kontrol cihazı fotoğrafları (177 adet, Autonics; aynı görseller birleştirildi) | Hazır |
+| `07_AUTONICS_ENKODER_INDEKS_03-10-2026.md` | Autonics enkoder indeksi: 34 seri, 8.644 kod; sitedeki yeri, veri doğrulama, seri tablosu | Hazır |
+| `07_AUTONICS_ENKODER_KODLARI_03-10-2026.csv` | 8.644 enkoder kodunun listesi; satışa sunulacak ve fiyat sütunları | Fiyat bekliyor |
+| `src/data/enkoder.ts`, `src/data/autonics-enkoder_03-10-2026.json` | Enkoder serileri (34 ürün) ve 8.644 sipariş kodu | Hazır |
+| `src/app/magaza/enkoder-kodlari/page.tsx`, `src/app/magaza/enkoder-kodlari/[seri]/page.tsx` | Enkoder kod sayfaları: ana sayfa (kod okuma rehberi) + 34 seri sayfası; her kodda teklif bağlantısı | Hazır |
+| `src/components/CodeFilter.tsx` | Kod tablolarında sayfa içi arama kutusu | Hazır |
+| `public/magaza/autonics-enkoder-*_03-10-2026.jpg` | 34 enkoder serisi fotoğrafı (Autonics) | Hazır |
+| `src/app/sitemap.ts`, `src/app/robots.ts` | Site haritası (`/sitemap.xml`) ve tarama kuralları (`/robots.txt`); mağaza ürünleri otomatik eklenir | Hazır |
+| `src/components/HeroSlider.tsx` | Ana sayfa üst slider'ı (5 slayt) | Hazır |
+| `src/components/OemMarquee.tsx` | Slider altındaki kayan OEM logo şeridi | Hazır |
+| `public/oem/*_03-10-2026.png` | 13 OEM logosu, şeffaf zeminli ve kırpılmış (kaynak: `AOM Media\Marka Logoları`; Siemens eski siteden) | Hazır |
+| `netlify.toml` | Yayın ayarı | Bekliyor |
+
+## Site haritası
+
+| Sayfa | Durum |
+|---|---|
+| Ana sayfa | Hazır |
+| Robotik kaynak ve harici sistemler | Bekliyor |
+| Pres güvenliği ve otomatik besleme | Bekliyor |
+| CNC tezgâhlar | Bekliyor |
+| Tristörlü güç kontrol | Bekliyor |
+| Hizmetler | Bekliyor (şimdilik ana sayfada bölüm) |
+| OEM partnerlikleri | Bekliyor (şimdilik ana sayfada bölüm) |
+| Başlıca referanslar | Bekliyor (şimdilik ana sayfada bölüm) |
+| İletişim | Bekliyor (şimdilik ana sayfada bölüm) |
+
+## Kaynaklar
+
+- Tasarım: Design tuvali "AOM Web Sitesi Ana Sayfa 02-10-2026"
+- İçerik: `AOM_Web_Sitesi_Icerik_Ozeti_02-10-2026.md`
+- Kurumsal kimlik: AOM tasarım sistemi
+
+## Açık kararlar
+- Mağaza / SPR1, SPR3, SPRM, SPRS: 417 ürünün fiyatı yok ("Teklif isteyin"). SPR kodunun 3. seçenek harfi (N/F) üretici tablosunda fark göstermiyor; sitede "kod sonu N/F" olarak yazıyor [TEYİT]. Autonics bazı SPR modellerinde "Azami yük akımı 1A" yazıyor; diğer modellerdeki "Asgari yük akımı 1A" ile aynı bilgi kabul edilip "Asgari" olarak gösterildi
+- Güç elektroniği: hangi serilerin satışa sunulacağı seçilecek (`04_AUTONICS_GUC_ELEKTRONIGI_MODELLER_03-10-2026.csv`). DPU `-A` soneki ve SPR1/SPR3 3. seçenek harfi (N/F) anlamı [TEYİT]
+- SEO: Google İşletme Profili, Search Console, çalışma saatleri / posta kodu / konum [TEYİT] (`05_SEO_YEREL_ANKARA_TURKIYE_03-10-2026.md`)
+- Mağaza / SSR: 224 modelin fiyatı yok ("Teklif isteyin"); fiyat şablonu `03_AUTONICS_SSR_FIYAT_LISTESI_03-10-2026.csv`. Autonics ürün görsellerinin kullanım izni bayi sözleşmesinden teyit edilecek
+- Mağaza / DPU3 R ve N modelleri (120R, 200N, 200R, 350R): fiyatlara diğer modellerdeki gibi %40 indirim uygulandı [TEYİT]. Kendi fotoğrafları yok; aynı gövdenin fotoğrafı kullanılıyor (Autonics sayfasında da aynı gövde görseli var)
+- Mağaza / Enkoderler: 34 seri ürün olarak, 8.644 kod kod sayfalarında; fiyat yok ("Teklif isteyin"). E18S "A" çıkış kodunun anlamı [TEYİT]. Görsel kullanım izni [TEYİT] (`07_AUTONICS_ENKODER_INDEKS_03-10-2026.md`)
+- Kontrol cihazları: 981 ürün ve 1.309 kod sitede; fiyat yok ("Teklif isteyin"). 10 kod serisinin (T3/T4, M4 serileri, MT4Y/MT4W, MP5S, M4NS) Autonics seri sayfası açılmadığı için kod sayfasında fotoğraf yok; 3 ekran biriminde (D5W-M, D5W-MX, D5Y-M) ürün fotoğrafı yok
+- Slider / Medikal cihazlar: AOM'un bu cihazlardaki rolü (üretim, otomasyon, tedarik, servis) [TEYİT]; başlık ve açıklama metni buna göre netleşecek.
+
+- Eski sitenin yedeği (zip mi, kaynak kopyası mı)
+- Gıda, medikal, oksijen, marka sayfaları ve blog: taşınacak mı?
+- Admin paneli ve ürün veritabanı kalacak mı?
+- Eski slider görselleri artık kullanılmıyor, silinebilir: `aom-robot-paletleme`, `aom-eksantrik-pres-besleme`, `aom-mini-cnc`, `aom-guc-kontrol-panosu`, `aom-endustriyel-otomasyon`, `aom-yazilim-plc`, `aom-ekstruder-hatti`, `aom-scada`
+- Mağaza: sipariş yöntemi şimdilik e-postayla
+- Mağaza / DPU3: 320 A modeli seride yok (C gövde 250 A ve 350 A); DPU34C-350A mı kastedildi?
+- Mağaza / DPU3: 9 modelin tamamı Autonics ürün sayfasıyla teyitli (güç tüketimi, onaylar, ebat, ağırlık). Yalnızca ölçüler (G × Y × D) ve haberleşme protokolü / alarmlar / soğutma katalogdan (*)
+- Mağaza / DPU34D-500A, DPU34C-250A, DPU34B-150A: Autonics ürün fotoğraflarının kullanım izni bayi sözleşmesinden teyit edilecek
+- OEM ve referans logo kullanım izinleri
+- `public/oem/` içindeki tarihsiz eski logo dosyaları (ör. `autonics.png`) artık kullanılmıyor, silinebilir
+- Siemens logosu düşük çözünürlüklü; daha iyi bir dosya bulunursa değiştirilecek
+- Otomasyon slaytındaki dört alanın kısa açıklamaları teyit edilecek
+
+## Değişiklik kaydı
+
+| Tarih | İşlem |
+|---|---|
+| 02-10-2026 | Klasör ve indeks dosyası oluşturuldu |
+| 02-10-2026 | Proje iskeleti ve ana sayfa eklendi (Next.js 15.5.27) |
+| 02-10-2026 | Ana sayfa üst bölümü 4 slaytlık slider'a çevrildi (`HeroSlider.tsx`, `page.tsx`, `globals.css`) |
+| 02-10-2026 | Slider CNC slaytına AOM Mini CNC görseli eklendi (`HeroSlider.tsx`, `globals.css`, `public/aom-mini-cnc_02-10-2026.jpg`) |
+| 02-10-2026 | Tarayıcı sekmesi simgesi AOM küre logosu yapıldı (`favicon.ico`, `icon.png`, `apple-icon.png`) |
+| 02-10-2026 | Slider robotik slaytına robot paletleme görseli eklendi (`HeroSlider.tsx`, `public/aom-robot-paletleme_02-10-2026.jpg`) |
+| 02-10-2026 | Slider pres slaytına otomatik beslemeli eksantrik pres görseli eklendi (`HeroSlider.tsx`, `public/aom-eksantrik-pres-besleme_02-10-2026.jpg`) |
+| 02-10-2026 | Eksantrik pres görselinin altındaki gri yazı şeridi kırpıldı (`public/aom-eksantrik-pres-besleme_02-10-2026.jpg`) |
+| 02-10-2026 | CNC ve eksantrik pres görsellerinden basılı "Temsili 3B görsel değildir" yazısı silindi, CNC görselinin alt şeridi kırpıldı |
+| 02-10-2026 | Slider'daki "Temsili görseldir" açıklamaları kaldırıldı (`HeroSlider.tsx`) |
+| 02-10-2026 | Slider tristör slaytına güç kontrol panosu görseli eklendi; slayt adı "Tristörlü panolar" yapıldı (`HeroSlider.tsx`, `public/aom-guc-kontrol-panosu_02-10-2026.jpg`) |
+| 02-10-2026 | Tristör kanal akımı 60 A → 600 A düzeltildi (`HeroSlider.tsx`, `page.tsx`) |
+| 03-10-2026 | Tek tıkla açma betiği eklendi (`SITEYI_AC_03-10-2026.py`) |
+| 03-10-2026 | Slider'ın başına "Otomasyon" slaytı eklendi: Endüstriyel Otomasyon, Yazılım, Makine Otomasyonu, SCADA (`HeroSlider.tsx`, `globals.css`) |
+| 03-10-2026 | Otomasyon slaytına SCADA görseli eklendi; dört alan görselin altına alındı (`HeroSlider.tsx`, `globals.css`, `public/aom-scada_03-10-2026.jpg`) |
+| 03-10-2026 | SCADA görseli slaytın genel alanından SCADA kutusunun içine taşındı; kutu boyutları ilk haline döndü (`HeroSlider.tsx`, `globals.css`) |
+| 03-10-2026 | Makine Otomasyonu kutusuna ekstrüder hattı görseli eklendi (`HeroSlider.tsx`, `public/aom-ekstruder-hatti_03-10-2026.jpg`) |
+| 03-10-2026 | Endüstriyel Otomasyon kutusuna otomatik montaj istasyonu görseli eklendi (`HeroSlider.tsx`, `public/aom-endustriyel-otomasyon_03-10-2026.jpg`) |
+| 03-10-2026 | Yazılım kutusuna PLC programlama ekranı görseli eklendi (`HeroSlider.tsx`, `public/aom-yazilim-plc_03-10-2026.jpg`) |
+| 03-10-2026 | Otomasyon slaytındaki dört kutunun görsel, başlık ve açıklama yükseklikleri eşitlendi (`HeroSlider.tsx`, `globals.css`) |
+| 03-10-2026 | Slider görsel alanlarına ve otomasyon kutularına 8 px köşe yuvarlatma uygulandı (`globals.css`) |
+| 03-10-2026 | Slider altındaki kapasite şeridi (500 kg, 6 m, 10 µm, 600 A) kaldırıldı; yerine kayan OEM logo şeridi eklendi (`OemMarquee.tsx`, `page.tsx`, `globals.css`, `public/oem/`) |
+| 03-10-2026 | Logo şeridi başlığı "OEM Markalarımız" yapıldı ve ortalandı (`OemMarquee.tsx`, `globals.css`) |
+| 03-10-2026 | OEM şeridindeki 13 logonun hepsi `Marka Logoları` klasöründen güncellendi; tüm kutular eşit (184×80), logolar oranı korunarak eşit görsel ağırlıkta (`OemMarquee.tsx`, `globals.css`, `public/oem/`) |
+| 03-10-2026 | Tarayıcı önbelleğinin eski Autonics logosunu (turuncu zemin, bozuk oran) göstermesi düzeltildi: logo dosyaları tarihli adlarla yenilendi (`public/oem/*_03-10-2026.png`, `OemMarquee.tsx`) |
+| 03-10-2026 | Slider görsellerini yeniden üretmek için görsel komutları dosyası eklendi (`02_GORSEL_KOMUTLARI_03-10-2026.md`) |
+| 03-10-2026 | Slider'ın dört ana görseli yenilendi: robotik kaynak hücresi, ışık perdeli eksantrik pres, CNC işleme merkezi, tristör panosu (`HeroSlider.tsx`, `public/`) |
+| 03-10-2026 | Otomasyon kutularının 4 görsel komutu ana slayt görselleriyle aynı stile getirildi, her komut tek parça kopyalanabilir (`02_GORSEL_KOMUTLARI_03-10-2026.md`) |
+| 03-10-2026 | Otomasyon slaytının 4 kutusundaki görseller yenilendi: montaj istasyonu, mühendislik masası, ekstrüder makinesi, SCADA kontrol odası (`HeroSlider.tsx`, `public/`) |
+| 03-10-2026 | Otomasyon kutularındaki başlık ve açıklama dar bir şeride indirildi, görseller büyüdü (`globals.css`) |
+| 03-10-2026 | Slider'daki tüm ana görsellerin üstüne otomasyon kutularındaki bordo şerit (3 px) eklendi (`globals.css`) |
+| 03-10-2026 | Üst menüye "Mağaza" düğmesi ve yer tutucu `/magaza` sayfası eklendi (`Header.tsx`, `globals.css`, `src/app/magaza/page.tsx`) |
+| 03-10-2026 | Mağazaya ilk ürün eklendi: Autonics DPU34D-500A (liste + detay sayfası, `src/data/magaza.ts`) |
+| 03-10-2026 | DPU34D-500A fiyatı eklendi: liste 5.227,00 USD, %40 indirim, net 3.136,20 USD (otomatik hesap, `src/data/magaza.ts`) |
+| 03-10-2026 | DPU34D-500A ürün fotoğrafı eklendi (`public/magaza/`, `src/data/magaza.ts`) |
+| 03-10-2026 | DPU34D-500A teknik özellikleri Autonics ürün sayfası tablosuyla güncellendi (440 V, seçenek A = harici gösterge + RS485, onaylar) (`src/data/magaza.ts`) |
+| 03-10-2026 | Sağ alta sabit WhatsApp düğmesi eklendi, tüm sayfalarda görünür (`WhatsAppButton.tsx`, `layout.tsx`, `globals.css`) |
+| 03-10-2026 | Mağaza KDV kuralı uygulandı: fiyatlar KDV hariç, "+ KDV" gösterimi, %20 KDV dahil tutar bilgi notu (`src/data/magaza.ts`, mağaza sayfaları, `globals.css`) |
+| 03-10-2026 | Mağazaya DPU34D-600A, DPU34D-400A, DPU34C-250A, DPU34B-150A eklendi; ürün sayfalarına SEO (başlık, açıklama, kanonik, Open Graph, JSON-LD), "Ürün hakkında" metni ve seri tablosu; site haritası ve robots.txt eklendi |
+| 03-10-2026 | DPU34C-250A ürün fotoğrafı eklendi; teknik tablo üretici sayfasıyla düzeltildi: güç tüketimi ≤ 60 W, onaylar (CE, UKCA, cULus, RoHS, EAC), ağırlık ≈ 20,0 kg (paketli ≈ 21,1 kg), gövde 250~350 A teyitli. Doğrulanan modeller `VERIFIED` listesinde toplandı (`src/data/magaza.ts`, `public/magaza/`) |
+| 03-10-2026 | DPU34B-150A ürün fotoğrafı eklendi; teknik tablo üretici sayfasıyla düzeltildi: güç tüketimi ≤ 60 W, onaylar (CE, UKCA, cULus, RoHS, EAC), ağırlık ≈ 11,5 kg (paketli ≈ 13,0 kg), B gövde aralığı 80~200 A olarak düzeltildi ve teyitli (`src/data/magaza.ts`, `public/magaza/`) |
+| 03-10-2026 | DPU3 fiyatları eklendi (liste, %40 indirim, KDV hariç): 600 A 5.383,30 USD → 3.229,98; 400 A 4.934,40 → 2.960,64; 250 A 3.271,80 → 1.963,08; 150 A 2.020,60 → 1.212,36 USD (`src/data/magaza.ts`) |
+| 03-10-2026 | Ana sayfa slider'ına 6. slayt eklendi: Medikal cihazlar (Laboratuvar cihazları, Gaz jeneratörleri: oksijen ve azot, Sterilizasyon kabinleri, Biyogüvenlik kabinleri: çeker ocak ve biyogüvenlik). 4 kutu, ikonlu; tuval de güncellendi (`src/components/HeroSlider.tsx`, Main.dc.html) |
+| 03-10-2026 | Medikal cihazlar slaytının 4 kutusu için görsel üretim komutları eklendi (9–12, laboratuvar ortamı, 16:9) (`02_GORSEL_KOMUTLARI_03-10-2026.md`) |
+| 03-10-2026 | Medikal cihazlar slaytının 4 kutusuna görseller yerleştirildi; gaz jeneratörü ekranındaki anlamsız yazılar temizlendi, biyogüvenlik görselinin altındaki renk şeridi kesildi; tuval güncellendi (`src/components/HeroSlider.tsx`, `public/`, Main.dc.html) |
+| 03-10-2026 | Mağazaya DPU34B-120R, DPU34B-200N, DPU34B-200R, DPU34C-350R eklendi (liste 1.803,40 / 1.970,60 / 2.088,00 / 3.323,60 USD, %40 indirim). `dpu3()` seçenek harfini (A / R / N) destekliyor; seçenek, haberleşme, kontrol girişi ve SEO metni seçeneğe göre değişiyor. Gövde fotoğrafı ve gövde ağırlığı aynı gövdeli modelden; seri tablosuna "Seçenek" sütunu eklendi |
+| 03-10-2026 | Mağaza sayfası kategorilere ayrıldı: kategori (Tristörlü güç kontrol) → grup (Autonics DPU3 · B / C / D gövde) → ürünler akıma göre; üstte grup kısayolları, kartlarda seçenek satırı (`src/app/magaza/page.tsx`, `src/data/magaza.ts` `storeCategories()`, `globals.css`) |
+| 03-10-2026 | DPU34D-600A, DPU34D-400A, DPU34C-350R, DPU34B-200R, DPU34B-200N, DPU34B-120R teknik tabloları Autonics ürün sayfasından (Mert'in Chrome'u ile) okundu ve teyit edildi: güç tüketimi ≤ 60 W, onaylar, ebat ve ağırlık eklendi / * kaldırıldı; N seçeneği "Seçenek yok" olarak düzeltildi. 9 modelin tamamı teyitli (`src/data/magaza.ts`) |
+| 03-10-2026 | Autonics solid state röleler (SSR) mağazaya eklendi: 8 seri (SR1, SRC1, SRH1, SRHL1, SRS1, SR3, SRH3, SRHL3), 224 model; her modelin teknik tablosu Autonics ürün sayfasından (Mert'in Chrome'u ile) okundu, 16 gövde görseli alındı. Mağazada yeni kategori ve seri grupları, kategori bazlı kısayollar; ürün sayfalarında seriye göre seri tablosu. SSR indeksi ve fiyat şablonu eklendi (`src/data/ssr.ts`, `src/data/autonics-ssr_03-10-2026.json`, `src/data/magaza.ts`, `src/app/magaza/*`, `globals.css`, `public/magaza/`, `03_AUTONICS_SSR_*`) |
+| 03-10-2026 | Mağaza yerel SEO (Ankara + Türkiye geneli): Organization + LocalBusiness JSON-LD, geo etiketleri, kategori ve seri sayfaları, ürün açıklamalarında bölge ifadesi, Offer eligibleRegion TR, site haritasına 11 yeni adres, ortak ürün kartı bileşeni (`src/lib/seo.ts`, `src/components/StoreCard.tsx`, `src/app/layout.tsx`, `src/app/sitemap.ts`, `src/app/magaza/**`, `src/data/*`, `globals.css`, `05_SEO_...md`) |
+| 03-10-2026 | Autonics Güç Elektronikleri tam indeksi çıkarıldı: SMPS (SPA 13, SPB-A 15), güç kontrol (DPU 840, SPR1 192, SPR3 192, SPRM 14, SPRS 19), SSR (224) = 1.509 model (`04_AUTONICS_GUC_ELEKTRONIGI_*`) |
+| 03-10-2026 | Mert kararı: DPU serisinin kalan modelleri ürün olarak eklenmedi; 840 DPU kodunun tamamı indekslenebilir kod sayfalarında (/magaza/dpu-kodlari + 9 grup sayfası) listelendi, her kod için teklif bağlantısı. SPR1, SPR3, SPRM, SPRS (417 model) ürün olarak eklendi: teknik tablolar Autonics ürün sayfalarından (Chrome) okundu, 14 gövde görseli. Mağaza ana sayfası ve kategori sayfasında grup başına ilk birkaç model + "tamamını gör" bağlantısı; büyük seri sayfalarında kartlar yerine tablo. Site 685 sayfa, site haritası 677 adres (`src/data/spr.ts`, `src/data/dpuCodes.ts`, `src/app/magaza/**`, `public/magaza/`) |
+| 03-10-2026 | Autonics enkoderler eklendi (Mert kararı: seri ürün + kod sayfası): 34 seri mağazada ürün (seri özet tablosu, örnek model tam tablosu, fotoğraf), 8.644 sipariş kodunun tamamı `/magaza/enkoder-kodlari` altında 34 seri sayfasında (çözünürlük, çıkış, besleme, bağlantı, durum, teklif bağlantısı, sayfa içi arama). Kod çözümleri Autonics filtre sayılarıyla doğrulandı. Yeni kategori "Enkoderler" (6 grup), mağaza başlığı ve açıklaması güncellendi, ürün sayfasında kategori bağlantısı genelleştirildi. Site 755 sayfa, site haritası 747 adres (`src/data/enkoder.ts`, `src/data/autonics-enkoder_03-10-2026.json`, `src/data/magaza.ts`, `src/app/magaza/**`, `src/app/sitemap.ts`, `src/components/CodeFilter.tsx`, `globals.css`, `public/magaza/`, `07_AUTONICS_ENKODER_*`) |
+| 03-10-2026 | Autonics Kontrol Cihazları indekslendi ve analiz edildi: sıcaklık kontrol (15 seri, 1.359), sayıcı (9 / 93), zamanlayıcı (13 / 112), panel metre (15 / 504), kayıt cihazı (3 / 78), gösterge (2 / 36), ekran birimi (5 / 68), sensör kontrol (2 / 8), HMI (4 / 29), endüstriyel PC (1 / 2) = 69 seri, 2.289 model; 18 kod üretimden kalkmış. Siteye henüz eklenmedi (`08_AUTONICS_KONTROL_CIHAZLARI_*`) |
+| 04-10-2026 | Slider geçişlerinde boyut farkı giderildi: tüm slaytların metni aynı hücrede üst üste (yükseklik en uzun slayta göre sabit), görsel alanı her slaytta aynı yükseklikte (masaüstü 480 px, telefon 380 px), açıklama satırı her slaytta yer kaplıyor. Ölçüm: masaüstü 6 slaytın hepsi 713 px, telefon 1304 px. Tuval de güncellendi (`HeroSlider.tsx`, `globals.css`, Main.dc.html) |
+| 04-10-2026 | Kontrol cihazları siteye eklendi (Mert kararı): 981 ürün (TK 509, TMH 27, TM 12, TCN4S-24R, MX4W 6, sayıcı 93, zamanlayıcı 112, kayıt cihazı 78, gösterge 36, ekran birimi 68, sensör kontrol 8, HMI 29, endüstriyel PC 2), her biri Autonics model sayfasındaki tam teknik tabloyla; 10 yeni mağaza kategorisi, seri sayfaları. Diğer sıcaklık kontrol ve panel metre serileri (26 seri, 1.309 kod) `/magaza/kontrol-kodlari` kod sayfalarında. Büyük serilerde ürün sayfası yalnız yakın 25 modeli listeliyor; seri sayfası ve seri tablosunda akım sütunu yalnız gerektiğinde. Site 1.817 sayfa, site haritası 1.809 adres (`src/data/kontrol.ts`, `src/data/autonics-kontrol*.json`, `src/data/magaza.ts`, `src/app/magaza/**`, `src/app/sitemap.ts`, `public/magaza/`, `08_*`) |
+| 06-10-2026 | ankaracncmarket.com.tr ürünleri indekslendi ve analiz edildi (yalnız inceleme, siteye eklenmedi): 858 ürün, 120 kategori, tüm fiyatlar USD + KDV (toplam ≈ 91.557 USD, medyan 20 USD); 821 üründe fotoğraf var, 37 üründe yok; 114 üründe açıklama yok (`09_ANKARACNCMARKET_INDEKS_06-10-2026.md`, `09_ANKARACNCMARKET_URUNLER_06-10-2026.csv`) |
+| 06-10-2026 | Ankaracncmarket ürünleri orijinal kodlara göre düzeltildi ve mağazaya eklendi: 858 kayıt → 842 ürün, 18 kategori (yeni: CNC yedek parçaları, fanlar, röleler, sigortalar ve termostatlar, potansiyometreler, diyotlar, sviç/sensör, el çarkları, servo/iş mili enkoderleri, takım bağlama/ATC, rulman/kilit somunu, ölçme/kalibrasyon vb.; NCR SSR'ler mevcut SSR kategorisine). Üretici ve parça numarası üretici kaynaklarıyla araştırıldı, uydurma iç kodlar kaldırıldı, 455 kayıtta hata işaretlendi; doğrulanamayan kodlar sitede gösterilmiyor; fiyat yok (teklif). Görsel: NCR üretici görselleri (35 görsel, 97 ürün) eklendi; diğer üretici görselleri (Runda, Dossy, Balluff, Azbil, Euchner, Vishay, NSK, Hinaka, Bright, Clion, Sanyo Denki, Longflow) indirme bekliyor. Marka logosu olmayan ürünlerde logo yerine marka adı / ürün adı gösteriliyor (`src/data/yedek-parca.ts`, `yedek-parca_06-10-2026.json`, `magaza.ts`, ürün / seri / kategori sayfaları, `StoreCard`, `globals.css`, `public/magaza/ncr-*`, `10_*`) |
+| 06-10-2026 | Mağaza ilk sayfası kare kategori kutularına çevrildi (16 kategori; her kutuda kategorinin ilk ürün görseli, ürün ve grup sayısı; telefonda 2 sütun); altında sipariş kodu listelerine bağlantılar. Görseli olmayan ürünler (748: CNC yedek parçaları, fanlar, sigortalar, potansiyometreler vb. ve 3 Autonics ekran birimi) kendi kategorilerinden ayrılıp en sondaki "Diğer ürünler" kategorisinde eski kategori adıyla gruplandı; görsel eklendiğinde ürün otomatik kendi kategorisine döner. Site haritası 2.653 adres (`magaza.ts`, `app/magaza/page.tsx`, `globals.css`) |
+| 06-10-2026 | cncdunyasi.com ürünleri indekslendi ve analiz edildi (yalnız inceleme): 640 ürün; Mekanik 313, Elektronik 142, Hız kontrol 64, Spindle 62, Step motor 38, Sigma profil 15, Makine 5; fiyatlar TL ve KDV dahil (medyan 1.560 TL); 552 stokta; MPN verilmiyor (`11_CNCDUNYASI_*`) |
+| 06-10-2026 | cncdunyasi ürünleri mağazaya eklendi (635; 5 makine hariç), orijinal kodlara göre düzeltildi; 13 yeni kategori (Hız kontrol cihazları, Spindle motorlar, Step/servo, Şalt ürünleri, Güç kaynakları ve trafolar, CNC kontrol kartları, Lineer hareket, Güç aktarma, Torna aynaları/pens, Vakum ve toz emme, Yağlama, Sigma profil). Tüm yedek parça ürünlerinin (1.476) sayfaları DPU / Autonics şablonuna geçirildi: kategoriye özel sabit satırlı teknik tablo, bilinmeyen değer boş; seri sayfaları ve seri tabloları (67 seri). Üretici görselleri tarayıcıyla indirildi: 78 yeni görsel (Delta, Shihlin, Arel, SANOU, Kofon, Shaoge, XHC, Raspberry Pi, Delta PMT, NSK, Opaş, Runda, Dossy, Balluff, Azbil, Euchner, Vishay, Clion, Bright, Hinaka, Sanyo Denki, Daito, Longflow); görselli ürün 323. Mağaza ilk sayfası ana kategorilere ayrıldı (Güç kontrol, Kontrol cihazları, Enkoderler, Operatör panelleri, Röleler, CNC yedek parça ve elektronik, Diğer). Site haritası 3.367 adres |
+- 06-10-2026: Mağaza ilk sayfasındaki "Sipariş kodu listeleri" bölümü kaldırıldı; DPU, kontrol cihazı ve enkoder kod listeleri ilgili ana kategorilere kare kutu olarak, kategori sayfalarına da "Sipariş kodu listesi" kutusu olarak taşındı.
+- 06-10-2026: Motor sürücü ürünlerine üretici görselleri kod bazında eklendi: Siemens V20 (14 kod, SiePortal'daki kasa boyu resmi), Jkon-Tek/ECON step-servo motor ve sürücüleri (21 kod, hybridservos.com), Shihlin SE3 (kasa A/B, C, D ayrı resim), Delta VFD-E/EL/EL-W 800 px seri resmi, Shihlin SL3/SC3 seri resmi. Siemens 3RH2911-1LA11 Şalt ürünleri kategorisine taşındı.
+- 06-10-2026: Mağazaya "2. El ürünler" bölümü eklendi (src/data/ikinci-el.ts). Ürünler "2. El · <kategori>" kategorilerinde listelenir; ürün sayfasında durum / test / garanti / stok kutusu, kartlarda "2. el" etiketi gösterilir. Ürün gelene kadar ana sayfada "yakında" notu görünür.
+- 07-10-2026: 2. el stok listesi siteye eklendi: 809 ürün, 18 kategori, 215 üründe üretici görseli. Depo konumu yayınlanmaz. Ayrıntı: 12_IKINCI_EL_URUNLER_07-10-2026.md / .csv
+- 07-10-2026: Gefran talimatı uygulandı (Web Sitesi projesi, urun-verisi/GEFRAN_URUNLERI_SITEYE_EKLEME_07-10-2026.md): 18 Gefran serisi mağazada (tristörlü güç kontrol 10, SSR 7, yeni "Motor yol vericiler (motor starter)" kategorisi /magaza/kategori/motor-starter 1). Fiyat yok, "Fiyat için teklif isteyin"; JSON-LD'de offers yok, sku = seri. Gefran'ın resmi görselleri (yetkili satış noktası). Marka sayfası /magaza/marka/gefran; ürün sayfalarında "Gefran ürün sayfası" ve "Tüm Gefran ürünleri" düğmeleri. Ayrıntı: 13_GEFRAN_URUNLERI_07-10-2026.md
+- 10-10-2026: Görseli olmayan ürünlere marka bazında üretici fotoğrafı eklendi (Mert kararı: en büyük markalar, markaya 1 görsel, tüm markanın eksik-görsel kayıtlarına uygulandı). 25 marka: yedek parça tarafında (12) Acrow, Demex, Fanuc, Future Life, Kaku, Mean Well, Mitsubishi Electric, NMB, Omron, Panasonic, Sanyo Denki, Siemens — 281 kayıt; 2. el tarafında (18) ABB, Airtac, CHINT, Delta, Eaton, Estun, Inovance, JSCC, KEFA, Mean Well, Mitsubishi Electric, Nader, Omron, Panasonic, RSB, Schneider Electric, Siemens, Weidmüller — 287 kayıt (toplam 568 kayıt, Mean Well / Mitsubishi Electric / Omron / Panasonic / Siemens her iki tarafta). Görseller üreticinin kendi sitesinden veya yetkili distribütör sayfasından (tarayıcıyla indirildi, 150 px, JPEG). BOC markası araştırıldı, marka damgalı gerçek fotoğraf bulunamadığı için atlandı. Dosyalar: `src/data/yedek-parca_06-10-2026.json`, `src/data/ikinci-el_07-10-2026.json` (yalnız `img` alanı eklendi, tek satır format korundu), 12 yeni görsel `public/magaza/*_10-10-2026.jpg`, 18 yeni görsel `public/magaza/ikinci-el/*_10-10-2026.jpg`. Not: bu oturumda build/lint çalıştırılamadı (cihazda device_bash yok, bulut kopyasında yalnız src/data vardı).
