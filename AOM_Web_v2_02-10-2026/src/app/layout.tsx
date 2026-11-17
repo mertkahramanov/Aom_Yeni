@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { orgJsonLd, SITE } from "@/lib/seo";
+import { isLocale, isRtl, htmlLang } from "@/i18n/locales";
 import "./globals.css";
 
 const saira = Saira({
@@ -43,9 +44,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   // bu, mevcut TR sitesine sıfır risk garantisi verir.
   const hdrs = await headers();
   const isIntl = hdrs.get("x-is-intl") === "1";
+  // 16-11-2026: /en, /ru, /ar sayfalarında <html lang> artık doğru dil; Arapçada dir="rtl".
+  const xLocale = hdrs.get("x-locale");
+  const lang = xLocale && isLocale(xLocale) ? htmlLang[xLocale] : "tr";
+  const dir = xLocale && isLocale(xLocale) && isRtl(xLocale) ? "rtl" : "ltr";
 
   return (
-    <html lang="tr" className={`${saira.variable} ${plex.variable}`}>
+    <html lang={lang} dir={dir} className={`${saira.variable} ${plex.variable}`}>
       <body>
         {/* Analytics, Suspense ile sarmalanmıyor (15-10-2026 düzeltmesi) — bkz. Analytics.tsx üst
             yorumu: consent default script'inin ilk render'a garanti girmesi için Suspense'in

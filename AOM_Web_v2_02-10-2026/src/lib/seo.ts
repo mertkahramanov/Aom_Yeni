@@ -91,11 +91,35 @@ export const breadcrumbJsonLd = (items: { name: string; path: string }[]) => ({
 // ağacında karşılığı olan sayfalarda kullanılır: anasayfa, /otomasyon, 5 hizmet sayfası ve
 // mağazanın tüm 9 rota tipi. /cerez-politikasi ve /kvkk-aydinlatma-metni'nin çok dilli
 // karşılığı olmadığı için orada kullanılmaz.
+// Yalnızca Türkçe olan yollar (16-11-2026): src/app/[locale] ağacında karşılıkları YOK, yani
+// /en, /ru, /ar sürümleri 404 verir. Bu yollar için hreflang ve sitemap'e dil sürümü eklenmez.
+// [locale] ağacına yeni bir sayfa eklendiğinde ilgili satır buradan silinmeli.
+const TR_ONLY_PATHS = [
+  "/oksijen-jeneratoru",
+  "/cerez-politikasi",
+  "/kvkk-aydinlatma-metni",
+  // Yaskawa sipariş kodu sayfaları (henüz çevrilmedi)
+  "/magaza/ac-surucu-genel-kodlari",
+  "/magaza/ac-surucu-ozel-kodlari",
+  "/magaza/ac-surucu-rejeneratif-kodlari",
+  "/magaza/kontrol-plc-kodlari",
+  "/magaza/servo-dogrudan-tahrik-kodlari",
+  "/magaza/servo-lineer-sigmax-kodlari",
+  "/magaza/servo-sigma7-motor-kodlari",
+  "/magaza/servo-sigma7-surucu-kodlari",
+  "/magaza/servo-sigmax-motor-kodlari",
+];
+
+export function hasLocaleVersion(path: string): boolean {
+  return !TR_ONLY_PATHS.some((p) => path === p || path.startsWith(`${p}/`));
+}
+
 export function hreflangAlternates(path: string): Record<string, string> {
   const languages: Record<string, string> = {
     tr: `${SITE}${path}`,
     "x-default": `${SITE}${path}`,
   };
+  if (!hasLocaleVersion(path)) return languages;
   for (const loc of i18nLocales) languages[loc] = `${SITE}/${loc}${path}`;
   return languages;
 }

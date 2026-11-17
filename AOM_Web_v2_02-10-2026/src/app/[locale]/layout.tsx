@@ -9,9 +9,9 @@ import "../intl.css";
 
 // Çok dilli site desteği (18-10-2026). Bu, src/app/layout.tsx'in İÇİNDE render edilen ek bir
 // layout'tur — kök <html>/<body> etiketlerini TEKRAR TANIMLAYAMAZ (Next.js kısıtı), bu yüzden
-// yalnızca lang/dir bilgisini taşıyan bir <div> ile sarmalar. Kök <html lang="tr"> öznitelik
-// olarak teknik açıdan "yanlış" kalır (bilinen, kabul edilmiş küçük bir SEO/erişilebilirlik notu,
-// bkz. proje görev #31). Türkçe sayfalar bu dosyadan tamamen etkilenmez.
+// yalnızca lang/dir bilgisini taşıyan bir <div> ile sarmalar. 16-11-2026: kök <html lang/dir> de
+// artık middleware'in x-locale başlığından doğru dile ayarlanıyor (bkz. src/app/layout.tsx;
+// eski görev #31 kapandı). Türkçe sayfalar bu dosyadan tamamen etkilenmez.
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }

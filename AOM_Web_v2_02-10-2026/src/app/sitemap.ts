@@ -4,7 +4,7 @@ import { DPU_GROUPS } from "@/data/dpuCodes";
 import { ENC_SERIES } from "@/data/enkoder";
 import { KONTROL_KOD_SERIES } from "@/data/kontrol";
 import { BRANDS } from "@/data/markalar";
-import { SITE } from "@/lib/seo";
+import { SITE, hasLocaleVersion } from "@/lib/seo";
 import { locales } from "@/i18n/locales";
 // Autonics yeni kod-tablosu kategorileri (23-10-2026, Mert onayı — bkz. claude/AUTONICS_FIYAT_LISTESI_YENI_KATEGORILER_23-10-2026.md)
 import { KONTROL_SINYAL_KOD_SERIES } from "@/data/autonics-kontrol-sinyal_23-10-2026";
@@ -18,6 +18,16 @@ import { STEP_MOTOR_KOD_SERIES } from "@/data/autonics-step-motor_23-10-2026";
 import { AI_MOTOR_KOD_SERIES } from "@/data/autonics-kuyruk-ai-motor_23-10-2026";
 import { KABLO_AKSESUAR_KOD_SERIES } from "@/data/autonics-kablo-aksesuar_23-10-2026";
 import { SINYAL_DONUSTURUCU_KOD_SERIES } from "@/data/autonics-sinyal-donusturucu_23-10-2026";
+// Yaskawa sipariş kodu sayfaları (16-11-2026: önceden sitemap'te hiç yoktu; şimdilik yalnızca TR)
+import { AC_GENEL_SERIES } from "@/data/yaskawa-ac-genel-kompakt";
+import { AC_OZEL_SERIES } from "@/data/yaskawa-ac-ozel-uygulama";
+import { AC_REJENERATIF_SERIES } from "@/data/yaskawa-ac-rejeneratif";
+import { KN_PLC_SERIES } from "@/data/yaskawa-kontrol-plc";
+import { SV_DD_SERIES } from "@/data/yaskawa-servo-dogrudan-tahrik";
+import { SV_LINEER_SGX_SERIES } from "@/data/yaskawa-servo-lineer-sigmax-surucu";
+import { SV_S7MOTOR_SERIES } from "@/data/yaskawa-servo-sigma7-motor";
+import { SV_S7SURUCU_SERIES } from "@/data/yaskawa-servo-sigma7-surucu";
+import { SV_SXMOTOR_SERIES } from "@/data/yaskawa-servo-sigmax-motor";
 
 // Çok dilli sitemap (19-10-2026). Türkçe sayfalar hâlâ kök dizinde (önek yok); /en, /ru, /ar
 // altındaki [locale] ağacı artık otomasyon sayfası, 5 hizmet sayfası ve mağazanın tüm 9 rota
@@ -34,6 +44,9 @@ function entriesFor(
   opts: { changeFrequency: ChangeFreq; priority: number; lastModified: Date }
 ): MetadataRoute.Sitemap {
   const { changeFrequency, priority, lastModified } = opts;
+  // 16-11-2026: [locale] karşılığı olmayan yollar (bkz. seo.ts TR_ONLY_PATHS) tek TR girdisi olur;
+  // önceden /en, /ru, /ar sürümleri de listeleniyordu ve bunlar 404 veriyordu.
+  if (!hasLocaleVersion(path)) return [{ url: `${SITE}${path}`, lastModified, changeFrequency, priority }];
   const languages: Record<string, string> = {
     tr: `${SITE}${path}`,
     "x-default": `${SITE}${path}`,
@@ -94,6 +107,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...KABLO_AKSESUAR_KOD_SERIES.flatMap((s) => w(`/magaza/kablo-aksesuar-kodlari/${s.slug}`, 0.6)),
     ...w("/magaza/sinyal-donusturucu-kodlari", 0.7),
     ...SINYAL_DONUSTURUCU_KOD_SERIES.flatMap((s) => w(`/magaza/sinyal-donusturucu-kodlari/${s.slug}`, 0.6)),
-    ...products.flatMap((p) => w(`/magaza/${p.slug}`, 0.7)),
+    // Yaskawa sipariş kodu sayfaları (yalnızca TR)
+    ...([
+      ["ac-surucu-genel-kodlari", AC_GENEL_SERIES],
+      ["ac-surucu-ozel-kodlari", AC_OZEL_SERIES],
+      ["ac-surucu-rejeneratif-kodlari", AC_REJENERATIF_SERIES],
+      ["kontrol-plc-kodlari", KN_PLC_SERIES],
+      ["servo-dogrudan-tahrik-kodlari", SV_DD_SERIES],
+      ["servo-lineer-sigmax-kodlari", SV_LINEER_SGX_SERIES],
+      ["servo-sigma7-motor-kodlari", SV_S7MOTOR_SERIES],
+      ["servo-sigma7-surucu-kodlari", SV_S7SURUCU_SERIES],
+      ["servo-sigmax-motor-kodlari", SV_SXMOTOR_SERIES],
+    ] as [string, { slug: string }[]][]).flatMap(([dir, series]) => [
+      ...w(`/magaza/${dir}`, 0.7),
+      ...series.flatMap((s) => w(`/magaza/${dir}/${s.slug}`, 0.6)),
+    ]),
+    // 16-11-2026: model alanı boş kayıtlardan üretilen anlamsız slug'lar ("", "-2", "fanuc" vb.)
+    // sitemap'e alınmaz; veri temizliği yapılınca bu filtre gereksiz kalır.
+    ...products.filter((p) => p.slug && /^[a-z0-9]/.test(p.slug) && p.model?.trim()).flatMap((p) => w(`/magaza/${p.slug}`, 0.7)),
   ];
 }
