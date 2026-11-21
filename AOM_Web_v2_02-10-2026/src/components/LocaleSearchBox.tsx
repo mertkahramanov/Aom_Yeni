@@ -7,12 +7,15 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import type { Dictionary } from "@/i18n/dictionary";
 
 type Result = { code: string; label: string; href: string };
 
 export default function LocaleSearchBox({ dict }: { dict: Dictionary }) {
   const s = dict.search;
+  // 21-11-2026: sonuç linkleri bu dilin sayfalarına gitsin diye dil koduna API'ye iletilir.
+  const locale = (usePathname() || "").split("/")[1] || "";
   const [q, setQ] = useState("");
   const [results, setResults] = useState<Result[]>([]);
   const [open, setOpen] = useState(false);
@@ -33,7 +36,7 @@ export default function LocaleSearchBox({ dict }: { dict: Dictionary }) {
     setLoading(true);
     timer.current = setTimeout(async () => {
       try {
-        const res = await fetch(`/api/arama?q=${encodeURIComponent(query)}`);
+        const res = await fetch(`/api/arama?q=${encodeURIComponent(query)}&locale=${encodeURIComponent(locale)}`);
         const json = await res.json().catch(() => ({ results: [] }));
         setResults(json.results ?? []);
         setOpen(true);
@@ -47,7 +50,7 @@ export default function LocaleSearchBox({ dict }: { dict: Dictionary }) {
     return () => {
       if (timer.current) clearTimeout(timer.current);
     };
-  }, [q]);
+  }, [q, locale]);
 
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {

@@ -1,4 +1,5 @@
 import { locales as i18nLocales } from "@/i18n/locales";
+import { BRAND_CONTENT } from "@/i18n/pages/magaza-brands";
 
 // Ortak SEO verileri (03-10-2026). Firma bilgileri sitede yayımlanan iletişim bilgilerinden alınmıştır.
 // Açılış saatleri, posta kodu ve koordinat bilinmediği için eklenmedi [TEYİT]; Google İşletme Profili ile aynı olmalı.
@@ -111,7 +112,12 @@ const TR_ONLY_PATHS = [
 ];
 
 export function hasLocaleVersion(path: string): boolean {
-  return !TR_ONLY_PATHS.some((p) => path === p || path.startsWith(`${p}/`));
+  if (TR_ONLY_PATHS.some((p) => path === p || path.startsWith(`${p}/`))) return false;
+  // 21-11-2026: çevirisi (BRAND_CONTENT) olmayan marka sayfaları /en, /ru, /ar altında 404 veriyor
+  // (ör. Yaskawa, Lenze, Keyence). Çeviri eklenince otomatik olarak dil sürümleri de listelenir.
+  const brand = /^\/magaza\/marka\/([^/]+)$/.exec(path);
+  if (brand) return Boolean(BRAND_CONTENT[brand[1]]);
+  return true;
 }
 
 export function hreflangAlternates(path: string): Record<string, string> {
