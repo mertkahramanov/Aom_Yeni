@@ -39,28 +39,52 @@ import { SV_SXMOTOR_SERIES } from "@/data/yaskawa-servo-sigmax-motor";
 
 type ChangeFreq = "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
 
+// 21-11-2026: lastModified kaldırıldı. Önceden her build'de "şimdi" yazılıyordu; Google her
+// sayfanın her gün değiştiğini görüp bu alana güvenmemeye başlar. Gerçek değişiklik tarihi
+// sayfa bazında tutulmadığı için alanı hiç vermemek daha doğru.
 function entriesFor(
   path: string,
-  opts: { changeFrequency: ChangeFreq; priority: number; lastModified: Date }
+  opts: { changeFrequency: ChangeFreq; priority: number }
 ): MetadataRoute.Sitemap {
-  const { changeFrequency, priority, lastModified } = opts;
+  const { changeFrequency, priority } = opts;
   // 16-11-2026: [locale] karşılığı olmayan yollar (bkz. seo.ts TR_ONLY_PATHS) tek TR girdisi olur;
   // önceden /en, /ru, /ar sürümleri de listeleniyordu ve bunlar 404 veriyordu.
-  if (!hasLocaleVersion(path)) return [{ url: `${SITE}${path}`, lastModified, changeFrequency, priority }];
+  if (!hasLocaleVersion(path)) return [{ url: `${SITE}${path}`, changeFrequency, priority }];
   const languages: Record<string, string> = {
     tr: `${SITE}${path}`,
     "x-default": `${SITE}${path}`,
   };
   for (const loc of locales) languages[loc] = `${SITE}/${loc}${path}`;
-  const base = { lastModified, changeFrequency, priority, alternates: { languages } };
+  const base = { changeFrequency, priority, alternates: { languages } };
   return [{ url: `${SITE}${path}`, ...base }, ...locales.map((loc) => ({ url: `${SITE}/${loc}${path}`, ...base }))];
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-  const w = (path: string, priority: number, changeFrequency: ChangeFreq = "monthly") =>
-    entriesFor(path, { changeFrequency, priority, lastModified: now });
+const w = (path: string, priority: number, changeFrequency: ChangeFreq = "monthly") =>
+  entriesFor(path, { changeFrequency, priority });
 
+// 21-11-2026: sitemap ikiye bölündü (tek dosya ~16 MB idi). /sitemap/0.xml: sayfalar, kategoriler,
+// markalar, seriler ve kod listeleri; /sitemap/1.xml: ürün detay sayfaları. /sitemap.xml ise bu
+// ikisini listeleyen sitemap index'tir (src/app/sitemap.xml/route.ts) — Search Console'daki
+// mevcut kayıt değişmeden çalışır.
+const SITEMAP_IDS = [0, 1] as const;
+
+export async function generateSitemaps() {
+  return SITEMAP_IDS.map((id) => ({ id }));
+}
+
+export default async function sitemap({ id }: { id: number | Promise<number> }): Promise<MetadataRoute.Sitemap> {
+  const n = Number(await id);
+  if (n === 1) return productEntries();
+  return pageEntries();
+}
+
+function productEntries(): MetadataRoute.Sitemap {
+  // 16-11-2026: model alanı boş kayıtlardan üretilen anlamsız slug'lar ("", "-2", "fanuc" vb.)
+  // sitemap'e alınmaz; veri temizliği yapılınca bu filtre gereksiz kalır.
+  return products.filter((p) => p.slug && /^[a-z0-9]/.test(p.slug) && p.model?.trim()).flatMap((p) => w(`/magaza/${p.slug}`, 0.7));
+}
+
+function pageEntries(): MetadataRoute.Sitemap {
   return [
     ...w("", 1),
     ...w("/otomasyon", 0.9),
@@ -73,8 +97,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...w("/oksijen-jeneratoru", 0.9),
     ...w("/magaza", 0.8, "weekly"),
     // Çok dilli karşılığı olmayan yasal/KVKK sayfaları — tek (TR) girdi
-    { url: `${SITE}/cerez-politikasi`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${SITE}/kvkk-aydinlatma-metni`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${SITE}/cerez-politikasi`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${SITE}/kvkk-aydinlatma-metni`, changeFrequency: "yearly", priority: 0.3 },
     ...storeCategories().flatMap((c) => w(`/magaza/kategori/${c.id}`, 0.8, "weekly")),
     ...Object.keys(BRANDS).flatMap((b) => w(`/magaza/marka/${b}`, 0.75)),
     ...storeSeries().flatMap((s) => w(`/magaza/seri/${s.slug}`, 0.75, "weekly")),
@@ -122,8 +146,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ...w(`/magaza/${dir}`, 0.7),
       ...series.flatMap((s) => w(`/magaza/${dir}/${s.slug}`, 0.6)),
     ]),
-    // 16-11-2026: model alanı boş kayıtlardan üretilen anlamsız slug'lar ("", "-2", "fanuc" vb.)
-    // sitemap'e alınmaz; veri temizliği yapılınca bu filtre gereksiz kalır.
-    ...products.filter((p) => p.slug && /^[a-z0-9]/.test(p.slug) && p.model?.trim()).flatMap((p) => w(`/magaza/${p.slug}`, 0.7)),
   ];
 }
