@@ -64,6 +64,7 @@ import { yaskawaServoLineerSigmaxProducts } from "./yaskawa-servo-lineer-sigmax-
 import { sxMotorProducts } from "./yaskawa-servo-sigmax-motor";
 import { yaskawaKontrolDigerProducts } from "./yaskawa-kontrol-hmi-diger";
 import { lenzeProducts } from "./lenze-urunler_27-10-2026";
+import { omronServoPlcProducts } from "./omron-servo-plc-urunler_26-11-2026";
 
 // ---- Autonics DPU3 serisi (3 faz, 440 V) ----
 // Kaynak: Autonics ürün sayfası (DPU34D-500A teknik tablosu, Mert 03-10-2026) ve DPU1/DPU3 kataloğu.
@@ -205,6 +206,9 @@ export const products: Product[] = [
   ...yaskawaKontrolDigerProducts,
   // Lenze ürünleri (27-10-2026, Mert talebi): bkz. lenze-urunler_27-10-2026.ts
   ...lenzeProducts,
+  // Omron 1S servo sürücü/motor + NX102 PLC — AOM'un atıl stok ürünleri (26-11-2026, Mert talebi):
+  // bkz. omron-servo-plc-urunler_26-11-2026.ts
+  ...omronServoPlcProducts,
   ...ikinciElProducts,
 ];
 
